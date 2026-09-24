@@ -71,4 +71,4 @@ A single well-fed hub beats ten half-used apps.
 ### 🚀 Try this next
 Open the app you use most and find its AI feature you've been ignoring. Use it for one real task today.
 
-**Next:** [17 · Agents & AI Coding Tools →](../part-5-building-with-ai/17-agents-and-coding-tools.md)
+**Next:** [14 · Notion AI Deep Dive →](14-notion-ai-deep-dive.md)

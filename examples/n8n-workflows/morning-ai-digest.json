@@ -79,7 +79,7 @@
         "model": {
           "__rl": true,
           "mode": "id",
-          "value": "claude-sonnet-5"
+          "value": "claude-opus-5"
         },
         "options": {
           "maxTokensToSample": 1500

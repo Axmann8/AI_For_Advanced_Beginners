@@ -90,4 +90,4 @@ Install Claude Code (or open Cursor), `cd` into this repo, and ask:
 
 Congrats, you just extended an MCP server with an AI pair programmer.
 
-**Next:** [23 · RAG, Memory & Knowledge →](../part-6-knowledge-and-memory/23-rag-memory-and-knowledge.md)
+**Next:** [18 · The Claude Code Masterclass →](18-claude-code-masterclass.md)

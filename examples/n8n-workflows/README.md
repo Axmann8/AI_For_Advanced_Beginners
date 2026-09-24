@@ -66,7 +66,7 @@ curl -X POST "http://localhost:5678/webhook-test/idea-inbox" \
 ---
 
 ### Notes
-- The model is set to `claude-sonnet-5`. Change it in the **Claude** node to anything your Anthropic
-  key can access, or swap that node for OpenAI, Gemini, Ollama (local!), or OpenRouter.
+- The model is set to `claude-opus-5`. For high-volume or simple steps you can pick a smaller, cheaper
+  model like `claude-haiku-4-5` in the **Claude** node, or swap that node for OpenAI, Gemini, Ollama (local!), or OpenRouter.
 - n8n node versions evolve. If a node looks off after import, delete it and re-add the same node
   type. The settings are simple to redo.

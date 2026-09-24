@@ -83,8 +83,16 @@ nav:
       - "12 · Webhooks, APIs & JSON for Non-Programmers": part-3-automation/12-webhooks-apis-json.md
   - "IV · AI in Your Apps":
       - "13 · AI Inside the Apps You Already Use": part-4-ai-in-your-apps/13-ai-in-your-apps.md
+      - "14 · Notion AI Deep Dive": part-4-ai-in-your-apps/14-notion-ai-deep-dive.md
+      - "15 · Google Workspace & Microsoft 365 AI": part-4-ai-in-your-apps/15-google-and-microsoft-ai.md
+      - "16 · Obsidian + AI": part-4-ai-in-your-apps/16-obsidian-and-ai.md
   - "V · Building with AI":
       - "17 · Agents & AI Coding Tools": part-5-building-with-ai/17-agents-and-coding-tools.md
+      - "18 · The Claude Code Masterclass": part-5-building-with-ai/18-claude-code-masterclass.md
+      - "19 · Vibe Coding Your First Real App": part-5-building-with-ai/19-vibe-coding-your-first-app.md
+      - "20 · Calling AI APIs Directly": part-5-building-with-ai/20-calling-ai-apis.md
+      - "21 · Build Your Own Agent": part-5-building-with-ai/21-build-your-own-agent.md
+      - "22 · Multi-Agent Systems": part-5-building-with-ai/22-multi-agent-systems.md
   - "VI · Knowledge & Memory":
       - "23 · RAG, Memory & Knowledge": part-6-knowledge-and-memory/23-rag-memory-and-knowledge.md
   - "VII · Local AI":
