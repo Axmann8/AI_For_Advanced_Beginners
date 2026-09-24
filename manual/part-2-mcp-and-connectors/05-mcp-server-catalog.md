@@ -1,4 +1,4 @@
-# 03 · The Big MCP Server Catalog 📚
+# 05 · The Big MCP Server Catalog 📚
 
 There are **thousands** of MCP servers. This is a curated tour of the best-known, most useful, and
 most *fun* ones, grouped by what you'd use them for. Each entry has a "try this" prompt so you can go
@@ -131,7 +131,7 @@ free, need no accounts, and are perfect for learning.
 | **Spotify** 🧪 | Search, play, and build playlists | "Make a 90-minute focus playlist with no lyrics." |
 | **Weather / maps** 🧪 & ✅ | Forecasts, directions, places | "Should I bike to work tomorrow?" |
 | **Strava / fitness** 🧪 | Your workouts | "How has my running pace trended this year?" |
-| **Your own server!** 🏠 | Anything you can script | See [the Pocket Toolkit example](../examples/my-first-mcp-server/). 🎲 |
+| **Your own server!** 🏠 | Anything you can script | See [the Pocket Toolkit example](../../examples/my-first-mcp-server). 🎲 |
 
 ---
 
@@ -144,7 +144,7 @@ These are cheat codes. Each one gives your AI access to **huge** app catalogs th
 | [**Zapier MCP**](https://zapier.com/mcp) ☁️ | Exposes actions from Zapier's 8,000+ app catalog as tools. Pick which actions the AI may use. |
 | [**Pipedream MCP**](https://mcp.pipedream.com) ☁️ | Thousands of APIs with managed auth. Great for developers building their own agents. |
 | [**Composio**](https://composio.dev) ☁️ | Hundreds of toolkits with auth handled, popular with agent builders. |
-| **n8n (MCP Server Trigger)** ☁️🏠 | Turn *any n8n workflow* into an MCP tool. Your custom automations become AI superpowers. See [Ch. 5](05-automation-platforms.md). |
+| **n8n (MCP Server Trigger)** ☁️🏠 | Turn *any n8n workflow* into an MCP tool. Your custom automations become AI superpowers. See [Ch. 9](../part-3-automation/09-automation-platforms.md). |
 | **Make (MCP server)** ☁️ | Expose Make scenarios as tools. |
 
 ---
@@ -176,4 +176,4 @@ give your AI a task that needs all three:
 
 That's a genuinely useful multi-tool agent run, and you set it up with config files. 🎉
 
-**Next:** [04 · Built-in Connectors & Plugins →](04-built-in-connectors.md)
+**Next:** [06 · Built-in Connectors & Plugins →](06-built-in-connectors.md)

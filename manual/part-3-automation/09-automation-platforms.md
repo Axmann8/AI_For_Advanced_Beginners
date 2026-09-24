@@ -1,4 +1,4 @@
-# 05 · Automation Platforms: AI That Works While You Sleep ⚙️🌙
+# 09 · Automation Platforms: AI That Works While You Sleep ⚙️🌙
 
 Chat-based AI needs *you* to press enter. Automation platforms run on **triggers**: a new email,
 a form submission, 7am every day, a webhook. Add an AI step in the middle and you've got a tireless
@@ -34,7 +34,7 @@ Almost every useful AI automation is a variation of this: **trigger → gather �
 - **Pricing shape:** Free self-hosted. Cloud is billed by workflow executions, not steps, which is
   great for complex flows.
 - **Best for:** People who like to tinker, anyone who wants control or privacy, complex logic, and anything that needs code.
-- **Start:** `npx n8n` → http://localhost:5678, then import [our example workflows](../examples/n8n-workflows/).
+- **Start:** `npx n8n` → http://localhost:5678, then import [our example workflows](../../examples/n8n-workflows).
 
 ### 🟠 Zapier: the biggest app catalog
 - **What:** The OG no-code automation tool, with **8,000+ apps**.
@@ -90,8 +90,8 @@ experimentation for free. 🎉
 ---
 
 ## 12 AI automations worth stealing
-1. **Morning digest**: RSS/news → AI summary → Slack or email. ([Importable!](../examples/n8n-workflows/morning-ai-digest.json))
-2. **Idea inbox**: phone shortcut → webhook → AI categorizes → Notion. ([Importable!](../examples/n8n-workflows/idea-inbox-to-notion.json))
+1. **Morning digest**: RSS/news → AI summary → Slack or email. ([Importable!](../../examples/n8n-workflows/morning-ai-digest.json))
+2. **Idea inbox**: phone shortcut → webhook → AI categorizes → Notion. ([Importable!](../../examples/n8n-workflows/idea-inbox-to-notion.json))
 3. **Inbox triage**: new email → AI labels urgent/newsletter/receipt → auto-label and draft replies.
 4. **Meeting follow-ups**: transcript → AI extracts action items → tasks in Todoist/Linear + recap email.
 5. **Receipt tracker**: receipt email or photo → AI extracts vendor/amount/category → Google Sheet.
@@ -112,7 +112,7 @@ experimentation for free. 🎉
 ---
 
 ### 🚀 Try this next
-Import the [Morning AI Digest](../examples/n8n-workflows/) into n8n, swap in RSS feeds you love, and
+Import the [Morning AI Digest](../../examples/n8n-workflows) into n8n, swap in RSS feeds you love, and
 let it run for a week. You'll have a personal newspaper that you built yourself.
 
-**Next:** [06 · AI Inside Your Apps →](06-ai-in-your-apps.md)
+**Next:** [10 · The n8n Masterclass →](10-n8n-masterclass.md)

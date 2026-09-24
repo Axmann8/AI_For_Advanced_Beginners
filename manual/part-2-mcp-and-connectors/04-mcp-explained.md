@@ -1,4 +1,4 @@
-# 02 · MCP Explained: The USB-C Port for AI 🔌
+# 04 · MCP Explained: The USB-C Port for AI 🔌
 
 **Model Context Protocol (MCP)** is the open standard that lets *any* AI app connect to *any*
 tool or data source. Anthropic introduced it in late 2024, and it quickly became *the* standard:
@@ -71,7 +71,7 @@ scale like normal web APIs.)
 - **Easiest:** Settings → **Connectors** → browse the directory → click, then log in. Done.
 - **Custom remote server:** Connectors → *Add custom connector* → paste the URL.
 - **Local servers (Desktop only):** Settings → Developer → Edit Config, then add to
-  `claude_desktop_config.json` ([example](../examples/mcp-configs/claude_desktop_config.json)).
+  `claude_desktop_config.json` ([example](../../examples/mcp-configs/claude_desktop_config.json)).
   Restart the app fully.
 - **Desktop Extensions (`.mcpb` files):** one-click installable local servers. Double-click and go.
 
@@ -87,10 +87,10 @@ OAuth logins. **Plugins** bundle MCP servers with skills and commands for one-sh
 
 ### Cursor
 Settings → **MCP** → *Add new MCP server*, or edit `.cursor/mcp.json`
-([example](../examples/mcp-configs/cursor.mcp.json)). Many vendor docs have an "Add to Cursor" button.
+([example](../../examples/mcp-configs/cursor.mcp.json)). Many vendor docs have an "Add to Cursor" button.
 
 ### VS Code (GitHub Copilot agent mode)
-Command Palette → **MCP: Add Server**, or `.vscode/mcp.json` ([example](../examples/mcp-configs/vscode.mcp.json)).
+Command Palette → **MCP: Add Server**, or `.vscode/mcp.json` ([example](../../examples/mcp-configs/vscode.mcp.json)).
 VS Code also has a built-in MCP gallery backed by the GitHub MCP Registry.
 
 ### ChatGPT
@@ -122,7 +122,7 @@ All speak MCP, with nearly identical `command`/`args`/`url` config shapes. Learn
 - **Test any server in isolation:** `npx @modelcontextprotocol/inspector <command> <args>` opens a web UI
   where you can call each tool by hand.
 
-## Security hygiene (quick version, full version in [Ch. 12](12-safety-costs-and-gotchas.md))
+## Security hygiene (quick version, full version in [Ch. 37](../part-10-mastery/37-safety-costs-and-gotchas.md))
 - Install servers from **official vendors or the official registry** when possible. A local server
   runs code on your machine.
 - Grant the **smallest scope** (one folder, read-only tokens, specific repos).
@@ -134,7 +134,7 @@ All speak MCP, with nearly identical `command`/`args`/`url` config shapes. Learn
 ---
 
 ### 🚀 Try this next
-Build your own server! The [Pocket Toolkit example](../examples/my-first-mcp-server/) is about 100 lines of
+Build your own server! The [Pocket Toolkit example](../../examples/my-first-mcp-server) is about 100 lines of
 Python and works in 5 minutes. Once you've built one, every MCP server out there stops being magic.
 
-**Next:** [03 · The Big MCP Server Catalog →](03-mcp-server-catalog.md)
+**Next:** [05 · The Big MCP Server Catalog →](05-mcp-server-catalog.md)

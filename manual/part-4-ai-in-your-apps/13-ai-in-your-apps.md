@@ -1,4 +1,4 @@
-# 06 · AI Inside the Apps You Already Use 🏡
+# 13 · AI Inside the Apps You Already Use 🏡
 
 You don't always need a new tool. Many of the apps you already use have serious AI built in, and many
 of them are now **MCP-connected**, so your AI can reach in and your apps can reach out.
@@ -52,7 +52,7 @@ of them are now **MCP-connected**, so your AI can reach in and your apps can rea
 - **Wispr Flow, Superwhisper**: voice dictation that cleans up your rambling into polished text.
 
 ## 🎙️ Learning & reading
-- **NotebookLM**: upload sources, get a grounded chat, study guides, and **AI podcast "Audio Overviews"**. (More in [Ch. 9](09-rag-memory-and-knowledge.md).)
+- **NotebookLM**: upload sources, get a grounded chat, study guides, and **AI podcast "Audio Overviews"**. (More in [Ch. 23](../part-6-knowledge-and-memory/23-rag-memory-and-knowledge.md).)
 - **Readwise Reader**: AI "Ghostreader" plus highlight syncing to Notion or Obsidian.
 - **Perplexity Spaces**: research workspaces with your files and the web.
 
@@ -60,9 +60,9 @@ of them are now **MCP-connected**, so your AI can reach in and your apps can rea
 
 ## The "hub" strategy 🕸️
 Pick **one home base** for your knowledge (Notion *or* Obsidian *or* Google Drive), then:
-1. Pipe things **into** it with automations ([Ch. 5](05-automation-platforms.md)).
-2. Let AI **read and write** it via MCP ([Ch. 3](03-mcp-server-catalog.md)).
-3. Ask questions **across** it ([Ch. 9](09-rag-memory-and-knowledge.md)).
+1. Pipe things **into** it with automations ([Ch. 9](../part-3-automation/09-automation-platforms.md)).
+2. Let AI **read and write** it via MCP ([Ch. 5](../part-2-mcp-and-connectors/05-mcp-server-catalog.md)).
+3. Ask questions **across** it ([Ch. 23](../part-6-knowledge-and-memory/23-rag-memory-and-knowledge.md)).
 
 A single well-fed hub beats ten half-used apps.
 
@@ -71,4 +71,4 @@ A single well-fed hub beats ten half-used apps.
 ### 🚀 Try this next
 Open the app you use most and find its AI feature you've been ignoring. Use it for one real task today.
 
-**Next:** [07 · Agents & AI Coding Tools →](07-agents-and-coding-tools.md)
+**Next:** [17 · Agents & AI Coding Tools →](../part-5-building-with-ai/17-agents-and-coding-tools.md)

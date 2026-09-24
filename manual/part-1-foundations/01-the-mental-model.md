@@ -93,10 +93,10 @@ Use this to figure out where you are and what's next:
 
 | Level | You're doing… | Try next |
 |---|---|---|
-| **1. Chatter** | Asking questions, drafting text | Turn on a built-in connector (Google Drive, Notion) → [Ch. 4](04-built-in-connectors.md) |
-| **2. Connector** | AI reads and acts on *your* stuff | Add your first MCP servers → [Ch. 2](02-mcp-explained.md), [Ch. 3](03-mcp-server-catalog.md) |
-| **3. Automator** | Workflows run without you | Build an n8n/Zapier flow with an AI step → [Ch. 5](05-automation-platforms.md) |
-| **4. Builder** | You make your own tools and agents | Write an MCP server, use coding agents → [Ch. 7](07-agents-and-coding-tools.md), [example server](../examples/my-first-mcp-server/) |
+| **1. Chatter** | Asking questions, drafting text | Turn on a built-in connector (Google Drive, Notion) → [Ch. 6](../part-2-mcp-and-connectors/06-built-in-connectors.md) |
+| **2. Connector** | AI reads and acts on *your* stuff | Add your first MCP servers → [Ch. 4](../part-2-mcp-and-connectors/04-mcp-explained.md), [Ch. 5](../part-2-mcp-and-connectors/05-mcp-server-catalog.md) |
+| **3. Automator** | Workflows run without you | Build an n8n/Zapier flow with an AI step → [Ch. 9](../part-3-automation/09-automation-platforms.md) |
+| **4. Builder** | You make your own tools and agents | Write an MCP server, use coding agents → [Ch. 17](../part-5-building-with-ai/17-agents-and-coding-tools.md), [example server](../../examples/my-first-mcp-server) |
 
 You don't need to go in order. Plenty of people jump straight to level 4 with Claude Code because
 the agent helps them build everything else. 😄
@@ -118,4 +118,4 @@ Open Claude (or ChatGPT) and turn on **one** connector you actually use, like Go
 Then ask: *"What are the 3 things I've been working on most this month, based on my recent files?"*
 The first time AI answers from **your** data, it clicks.
 
-**Next:** [02 · MCP Explained →](02-mcp-explained.md)
+**Next:** [02 · How Models Really Work (for Power Users) →](02-how-models-really-work.md)

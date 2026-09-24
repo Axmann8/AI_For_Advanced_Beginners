@@ -1,4 +1,4 @@
-# 04 · Built-in Connectors & Plugins 🧩
+# 06 · Built-in Connectors & Plugins 🧩
 
 MCP is the engine, and **connectors** are the polished, click-to-install version inside the big AI apps.
 If you want results *today* with zero config files, start here.
@@ -23,7 +23,7 @@ something local or custom.
 - **Connectors directory** (Settings → Connectors): Google Workspace, Notion, Slack, GitHub,
   Linear, Asana, Atlassian, Canva, Figma, Stripe, and many more. You can also add **custom connectors** by URL.
 - **Skills**: packaged instructions and scripts Claude loads on demand, like "make a slide deck in our
-  brand" or "fill out this PDF". You can write your own ([example](../examples/prompts-for-agents/)).
+  brand" or "fill out this PDF". You can write your own ([example](../../examples/prompts-for-agents)).
 - **Plugins**: bundles of connectors, skills, and commands, for example a role-specific pack for sales or finance.
 - **Projects**: persistent knowledge and instructions per project. **Memory** across chats.
 - **Artifacts**: Claude builds live mini-apps, dashboards, and docs you can share.
@@ -38,7 +38,7 @@ something local or custom.
 
 ### 🔵 Google Gemini
 - Deep integration with **Gmail, Docs, Drive, Calendar, Maps, and YouTube**.
-- **Gems** (custom assistants), **Deep Research**, and **NotebookLM** (see [Ch. 9](09-rag-memory-and-knowledge.md)).
+- **Gems** (custom assistants), **Deep Research**, and **NotebookLM** (see [Ch. 23](../part-6-knowledge-and-memory/23-rag-memory-and-knowledge.md)).
 - **Gemini CLI** is open source and speaks MCP.
 
 ### 🟣 Microsoft Copilot
@@ -48,7 +48,7 @@ something local or custom.
 
 ### ⚫ Others worth knowing
 - **Perplexity**: search-first AI with connectors for your files and apps.
-- **Notion AI**: its own agents plus MCP connections to other tools (see [Ch. 6](06-ai-in-your-apps.md)).
+- **Notion AI**: its own agents plus MCP connections to other tools (see [Ch. 13](../part-4-ai-in-your-apps/13-ai-in-your-apps.md)).
 - **Raycast AI** (Mac/Windows): system-wide AI with extensions and MCP.
 
 ---
@@ -75,4 +75,4 @@ something local or custom.
 Connect **two** apps you use daily and give the AI a task that needs **both**. The cross-app
 tasks are where the time savings really show up.
 
-**Next:** [05 · Automation Platforms →](05-automation-platforms.md)
+**Next:** [07 · Building MCP Servers →](07-building-mcp-servers.md)

@@ -1,4 +1,4 @@
-# 08 · Local & Open Models: AI on Your Own Machine 🏠💻
+# 26 · Local & Open Models: AI on Your Own Machine 🏠💻
 
 Yes, you can run surprisingly capable AI **entirely on your laptop**: offline, private, and free per use.
 It's also one of the most *fun* rabbit holes in AI.
@@ -67,4 +67,4 @@ ollama run gemma3        # or llama3.2, qwen3, phi4-mini: whatever's current and
 ```
 Ask it something, then turn off your Wi-Fi and ask again. It still works. 🤯
 
-**Next:** [09 · RAG, Memory & Knowledge →](09-rag-memory-and-knowledge.md)
+**Next:** [28 · The Multimodal Playground →](../part-8-creative-ai/28-multimodal-playground.md)

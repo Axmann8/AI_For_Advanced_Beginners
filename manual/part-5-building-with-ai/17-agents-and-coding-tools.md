@@ -1,4 +1,4 @@
-# 07 · Agents & AI Coding Tools: Become a Builder 🛠️
+# 17 · Agents & AI Coding Tools: Become a Builder 🛠️
 
 Here's the secret: **you don't need to be a programmer to build software anymore.** Coding agents
 write, run, test, and fix code for you. Even if you never plan to "code," these tools are the
@@ -52,8 +52,8 @@ This is where agents go from "helpful" to "*my* helpful." Using Claude Code term
 
 | Feature | What it does | Example |
 |---|---|---|
-| **`CLAUDE.md` / `AGENTS.md`** | Always-on project memory | "Run tests with `pytest`. Never touch `/legacy`." ([example](../examples/prompts-for-agents/CLAUDE.md)) |
-| **Skills** | On-demand playbooks plus scripts | A `weekly-review` skill ([example](../examples/prompts-for-agents/skills/weekly-review/SKILL.md)) |
+| **`CLAUDE.md` / `AGENTS.md`** | Always-on project memory | "Run tests with `pytest`. Never touch `/legacy`." ([example](../../examples/prompts-for-agents/CLAUDE.md)) |
+| **Skills** | On-demand playbooks plus scripts | A `weekly-review` skill ([example](../../examples/prompts-for-agents/skills/weekly-review/SKILL.md)) |
 | **Slash commands** | Saved prompts you trigger with `/name` | `/changelog`, `/fix-issue 123` |
 | **Subagents** | Specialist helpers with their own context and tools | A "code reviewer" or "test writer" subagent |
 | **Hooks** | Shell commands that run automatically on events | Auto-format after every edit, block edits to `.env` |
@@ -90,4 +90,4 @@ Install Claude Code (or open Cursor), `cd` into this repo, and ask:
 
 Congrats, you just extended an MCP server with an AI pair programmer.
 
-**Next:** [08 · Local & Open Models →](08-local-and-open-models.md)
+**Next:** [23 · RAG, Memory & Knowledge →](../part-6-knowledge-and-memory/23-rag-memory-and-knowledge.md)

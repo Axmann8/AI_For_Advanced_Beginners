@@ -1,4 +1,4 @@
-# 09 · RAG, Memory & Knowledge: Make AI Know *Your* Stuff 🧠📚
+# 23 · RAG, Memory & Knowledge: Make AI Know *Your* Stuff 🧠📚
 
 AI knows the internet, but it doesn't know your notes, your company docs, or what you told it last
 Tuesday. This chapter covers the ways to fix that, from zero-effort to build-your-own.
@@ -62,7 +62,7 @@ flowchart LR
 
 ## 🧠 Memory: making AI remember *you*
 - **Built-in memory** in Claude, ChatGPT, and Gemini learns preferences across chats. You can view and edit it.
-- **Memory files:** `CLAUDE.md` / `AGENTS.md` for coding agents ([example](../examples/prompts-for-agents/CLAUDE.md)).
+- **Memory files:** `CLAUDE.md` / `AGENTS.md` for coding agents ([example](../../examples/prompts-for-agents/CLAUDE.md)).
 - **Memory MCP servers:** the official **Memory** server (knowledge graph), **Basic Memory** (Markdown
   files), and **mem0/OpenMemory**. They give *any* MCP app a shared memory.
 
@@ -82,4 +82,4 @@ flowchart LR
 Make a NotebookLM notebook from 5 sources about something you're curious about, and generate the
 Audio Overview. It's the fastest "wow" in this whole guide. 🎧
 
-**Next:** [10 · The Multimodal Playground →](10-multimodal-playground.md)
+**Next:** [26 · Local & Open Models →](../part-7-local-ai/26-local-and-open-models.md)

@@ -1,4 +1,4 @@
-# 10 · The Multimodal Playground: Images, Video, Voice, Music & Computer Use 🎨🎬🎵
+# 28 · The Multimodal Playground: Images, Video, Voice, Music & Computer Use 🎨🎬🎵
 
 Text is just the beginning. This is the chapter where you make things you can *see and hear*.
 
@@ -48,7 +48,7 @@ narrated voiceover, and stitch it in CapCut.
 ## 🎵 Music
 - **Suno** and **Udio**: full songs with vocals from a text prompt. Yes, really.
 - **Stable Audio, ElevenLabs Music**: instrumentals and sound design.
-- **Ableton MCP** ([Ch. 3](03-mcp-server-catalog.md)): Claude controls a real music production app.
+- **Ableton MCP** ([Ch. 5](../part-2-mcp-and-connectors/05-mcp-server-catalog.md)): Claude controls a real music production app.
 
 **🎮 Try:** Write a birthday song for a friend that's packed with inside jokes. Generate it in Suno. Instant legend status.
 
@@ -64,7 +64,7 @@ The AI **looks at the screen and clicks, types, and scrolls** like a person.
 
 **Good uses:** filling tedious forms, comparing prices across sites, and gathering data from sites
 with no API. **Be careful:** keep payments and logins supervised, and watch for pages that try to
-hijack the agent (see [Ch. 12](12-safety-costs-and-gotchas.md)).
+hijack the agent (see [Ch. 37](../part-10-mastery/37-safety-costs-and-gotchas.md)).
 
 ## 🧪 Multimodal *inputs* (underrated!)
 You can **give** AI images, screenshots, PDFs, audio, and video, not just get them back:
@@ -80,4 +80,4 @@ You can **give** AI images, screenshots, PDFs, audio, and video, not just get th
 illustrations → ElevenLabs narrates → Suno writes a theme song. You just produced a multimedia
 storybook. 📖✨
 
-**Next:** [11 · Project Ideas →](11-project-ideas.md)
+**Next:** [37 · Safety, Costs & Gotchas →](../part-10-mastery/37-safety-costs-and-gotchas.md)

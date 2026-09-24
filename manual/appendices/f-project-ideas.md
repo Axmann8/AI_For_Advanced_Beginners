@@ -1,4 +1,4 @@
-# 11 · 30 Project Ideas to Level Up 🚀
+# Appendix F · 30 Project Ideas to Level Up 🚀
 
 Reading is great, but building is where it sticks. The projects go from 🟢 weekend-afternoon to 🔴 ambitious.
 Every one of them teaches something real.
@@ -22,21 +22,21 @@ Every one of them teaches something real.
 ## 🟡 Intermediate (a weekend, light config)
 | # | Project | Stack | What you'll learn |
 |---|---|---|---|
-| 9 | **Morning digest** delivered to Slack or email | n8n ([importable](../examples/n8n-workflows/morning-ai-digest.json)) | Triggers, AI steps |
-| 10 | **Idea inbox**: phone → Notion, auto-categorized | n8n + iOS Shortcut ([importable](../examples/n8n-workflows/idea-inbox-to-notion.json)) | Webhooks, structured output |
+| 9 | **Morning digest** delivered to Slack or email | n8n ([importable](../../examples/n8n-workflows/morning-ai-digest.json)) | Triggers, AI steps |
+| 10 | **Idea inbox**: phone → Notion, auto-categorized | n8n + iOS Shortcut ([importable](../../examples/n8n-workflows/idea-inbox-to-notion.json)) | Webhooks, structured output |
 | 11 | **Inbox triage bot**: labels and drafts replies | Zapier or n8n + Gmail | Classification, human-in-the-loop |
 | 12 | **Receipt → spreadsheet** expense tracker | n8n + vision model + Google Sheets | Extraction from images |
 | 13 | **Multi-tool research agent** | Claude + Brave Search + Fetch + Notion MCP | Chaining MCP tools |
 | 14 | **Job-hunt copilot**: score postings against your résumé | RSS + n8n + Claude + Airtable | Scoring and ranking |
 | 15 | **Smart-home butler** | Home Assistant MCP + Claude | Real-world actions via MCP |
-| 16 | **Weekly review skill** | Claude Code + a skill ([example](../examples/prompts-for-agents/skills/weekly-review/SKILL.md)) | Skills, agent memory |
+| 16 | **Weekly review skill** | Claude Code + a skill ([example](../../examples/prompts-for-agents/skills/weekly-review/SKILL.md)) | Skills, agent memory |
 | 17 | **Local private journal analyst** | Ollama + a Python script | Local models, privacy |
 | 18 | **Content repurposer**: 1 blog post → 5 formats | Make/Zapier + Claude + Buffer | Multi-output pipelines |
 
 ## 🟠 Advanced (a few weekends, some code with AI help)
 | # | Project | Stack | What you'll learn |
 |---|---|---|---|
-| 19 | **Your own MCP server** for a hobby API (Spotify, Strava, Pokémon, anything) | Python/TS SDK ([starter](../examples/my-first-mcp-server/)) | Tool design |
+| 19 | **Your own MCP server** for a hobby API (Spotify, Strava, Pokémon, anything) | Python/TS SDK ([starter](../../examples/my-first-mcp-server)) | Tool design |
 | 20 | **Expose n8n workflows as MCP tools** | n8n MCP Server Trigger + Claude | Automation ↔ agent bridge |
 | 21 | **RAG chatbot over your notes** in Slack/Discord | LlamaIndex or n8n + Chroma/pgvector | Embeddings, retrieval |
 | 22 | **Price tracker** with AI "is this a good deal?" analysis | Playwright/Apify + Supabase + cron | Scraping, scheduling |
@@ -66,4 +66,4 @@ Every one of them teaches something real.
 Share what you build! Post in communities like r/ClaudeAI, r/n8n, r/LocalLLaMA, the MCP Discord, or
 X/Bluesky. People love seeing real projects, and you'll learn tons from the replies.
 
-**Next:** [12 · Safety, Costs & Gotchas →](12-safety-costs-and-gotchas.md)
+**You made it to the end! 🎉** [Back to the manual home ↩](../index.md)
