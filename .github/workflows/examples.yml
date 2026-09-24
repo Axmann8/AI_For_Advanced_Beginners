@@ -26,7 +26,7 @@ jobs:
           pip install pyyaml
           python - <<'PY'
           import json, pathlib, yaml
-          for p in pathlib.Path("examples").rglob("*.json"):
+          for p in (p for p in pathlib.Path("examples").rglob("*.json") if "node_modules" not in p.parts):
               json.loads(p.read_text()); print("ok", p)
           for p in pathlib.Path("examples").rglob("*.y*ml"):
               yaml.safe_load(p.read_text()); print("ok", p)
@@ -46,4 +46,4 @@ jobs:
           npm test
 
       - name: API-key examples compile
-        run: python -m py_compile $(find examples -name "*.py")
+        run: python -m py_compile $(find examples -name "*.py" -not -path "*/node_modules/*")

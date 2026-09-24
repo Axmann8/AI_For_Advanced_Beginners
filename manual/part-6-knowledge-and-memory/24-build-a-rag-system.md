@@ -95,9 +95,10 @@ flowchart LR
 | Questions need the *whole* doc | Don't chunk. Long-context models can take entire documents, and prompt caching makes repeat questions cheap |
 | Multi-hop questions ("compare X and Y") | Let an **agent** do several searches (agentic RAG) |
 
-!!! tip "Sometimes you don't need RAG at all"
-    Modern context windows hold hundreds of pages. For a few documents, just **put them all in the prompt** (with caching).
-    Use RAG when the corpus is big, changing, or needs fine-grained citations.
+> [!TIP]
+> **Sometimes you don't need RAG at all**
+> Modern context windows hold hundreds of pages. For a few documents, just **put them all in the prompt** (with caching).
+> Use RAG when the corpus is big, changing, or needs fine-grained citations.
 
 ## Evaluate it (seriously, 10 minutes) 🧪
 

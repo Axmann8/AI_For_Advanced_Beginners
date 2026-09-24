@@ -69,4 +69,4 @@ Tick those five and go wild. 🎉
 
 ---
 
-**Next:** [📖 Glossary →](../appendices/a-glossary.md)
+**Next:** [38 · Evaluating & Comparing AI (Evals for Normal People) →](38-evaluating-ai.md)

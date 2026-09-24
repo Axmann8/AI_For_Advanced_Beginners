@@ -64,8 +64,9 @@ flowchart LR
    the app, Playwright screenshots. *"Run the tests and fix any failures."*
 5. **Commit:** *"Commit with a clear message."* Git is your undo button.
 
-!!! tip "Context hygiene"
-    Use `/clear` between unrelated tasks. A focused context gives better results than a 3-hour mega-session.
+> [!TIP]
+> **Context hygiene**
+> Use `/clear` between unrelated tasks. A focused context gives better results than a 3-hour mega-session.
 
 ## Part C: `CLAUDE.md`, your project's memory 🧠
 

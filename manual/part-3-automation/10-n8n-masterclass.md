@@ -25,9 +25,10 @@ docker run -it --rm --name n8n -p 5678:5678 \
 
 Open **http://localhost:5678** and create your owner account. 🎉
 
-!!! tip "Your data lives in the volume"
-    Everything (workflows, credentials, execution history) is stored in `n8n_data`. Back it up, and
-    you can move your whole setup anywhere.
+> [!TIP]
+> **Your data lives in the volume**
+> Everything (workflows, credentials, execution history) is stored in `n8n_data`. Back it up, and
+> you can move your whole setup anywhere.
 
 ## Part B: The n8n mental model
 

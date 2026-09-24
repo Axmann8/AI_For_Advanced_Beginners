@@ -4,9 +4,10 @@ Using MCP servers is fun. **Building** them is a superpower. Any API, script, da
 you can talk to with code can become a tool that *every* AI app can use. This chapter takes you from
 "hello world" to a remote, authenticated server published to the official registry.
 
-!!! success "You don't have to be a strong programmer"
-    Everything in this chapter can be built *with* an AI coding agent. Open Claude Code or Cursor, point it
-    at this chapter, and say *"help me build this."* That's the whole point of Part V. 😄
+> [!TIP]
+> **You don't have to be a strong programmer**
+> Everything in this chapter can be built *with* an AI coding agent. Open Claude Code or Cursor, point it
+> at this chapter, and say *"help me build this."* That's the whole point of Part V. 😄
 
 ---
 
@@ -18,10 +19,11 @@ A great MCP server is **small, focused, and well-described**. Ask:
 2. **What are the verbs?** (search, get, create, update)
 3. **Who's the user?** (Just you → local stdio. Your team or the public → remote HTTP.)
 
-!!! tip "Design tools for the model, not for the API"
-    Don't mirror a REST API 1:1 with 60 endpoints. Design **5–15 task-shaped tools** with clear names
-    (`search_recipes`, `add_to_shopping_list`) that return **concise, readable** results. The model reads
-    every tool description on every request, so bloated servers make agents dumber.
+> [!TIP]
+> **Design tools for the model, not for the API**
+> Don't mirror a REST API 1:1 with 60 endpoints. Design **5–15 task-shaped tools** with clear names
+> (`search_recipes`, `add_to_shopping_list`) that return **concise, readable** results. The model reads
+> every tool description on every request, so bloated servers make agents dumber.
 
 ## Step 1: Your first server in 5 minutes
 
@@ -93,9 +95,10 @@ typed return value (e.g. a Pydantic model or TypedDict in Python).
 3. **Real-model test:** connect it to Claude and try 5 natural requests. If the model picks the
    wrong tool or passes bad arguments, **fix the descriptions**, not the model.
 
-!!! warning "The #1 stdio bug"
-    In a stdio server, **stdout is the protocol channel.** A stray `print()` or `console.log()` corrupts
-    it and the client disconnects mysteriously. Log to **stderr** instead.
+> [!WARNING]
+> **The #1 stdio bug**
+> In a stdio server, **stdout is the protocol channel.** A stray `print()` or `console.log()` corrupts
+> it and the client disconnects mysteriously. Log to **stderr** instead.
 
 ## Step 4: Go remote with Streamable HTTP ☁️
 

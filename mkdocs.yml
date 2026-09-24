@@ -1,4 +1,4 @@
-site_name: AI for Advanced Beginners — The Massive Manual
+site_name: AI for Advanced Beginners
 site_description: The fun, hands-on field guide to MCP, connectors, automation, agents, local models and more.
 site_url: https://axmann8.github.io/claude_cloud_trial_credits/
 repo_url: https://github.com/Axmann8/claude_cloud_trial_credits
@@ -28,8 +28,6 @@ theme:
         icon: material/weather-sunny
         name: Switch to light mode
   features:
-    - navigation.tabs
-    - navigation.sections
     - navigation.top
     - navigation.footer
     - navigation.indexes
@@ -113,7 +111,15 @@ nav:
       - "36 · Data Analysis for Everyone": part-9-ai-for-life-and-work/36-data-analysis.md
   - "X · Mastery":
       - "37 · Safety, Costs & Gotchas": part-10-mastery/37-safety-costs-and-gotchas.md
+      - "38 · Evaluating & Comparing AI (Evals for Normal People)": part-10-mastery/38-evaluating-ai.md
+      - "39 · Cost Optimization Deep Dive": part-10-mastery/39-cost-optimization.md
+      - "40 · Staying Current Without Drowning": part-10-mastery/40-staying-current.md
+      - "41 · Where This Is All Heading": part-10-mastery/41-where-this-is-heading.md
   - "Appendices":
-      - "📖 Glossary": appendices/a-glossary.md
+      - "Appendix A · Glossary": appendices/a-glossary.md
+      - "Appendix B · The Cheat Sheet": appendices/b-cheat-sheet.md
+      - "Appendix C · Troubleshooting FAQ": appendices/c-troubleshooting-faq.md
+      - "Appendix D · 100 Prompts That Use Tools": appendices/d-100-prompts.md
+      - "Appendix E · Resource & Link Library": appendices/e-resource-library.md
       - "Appendix F · 30 Project Ideas to Level Up": appendices/f-project-ideas.md
 # NAV:END
