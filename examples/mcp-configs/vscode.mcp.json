@@ -1,0 +1,29 @@
+{
+  "inputs": [
+    {
+      "type": "promptString",
+      "id": "brave-key",
+      "description": "Brave Search API key",
+      "password": true
+    }
+  ],
+  "servers": {
+    "github": {
+      "type": "http",
+      "url": "https://api.githubcopilot.com/mcp/"
+    },
+    "brave-search": {
+      "type": "stdio",
+      "command": "npx",
+      "args": ["-y", "@brave/brave-search-mcp-server"],
+      "env": {
+        "BRAVE_API_KEY": "${input:brave-key}"
+      }
+    },
+    "memory": {
+      "type": "stdio",
+      "command": "npx",
+      "args": ["-y", "@modelcontextprotocol/server-memory"]
+    }
+  }
+}

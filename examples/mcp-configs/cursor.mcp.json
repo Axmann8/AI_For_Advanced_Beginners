@@ -1,0 +1,18 @@
+{
+  "mcpServers": {
+    "linear": {
+      "url": "https://mcp.linear.app/mcp"
+    },
+    "supabase": {
+      "url": "https://mcp.supabase.com/mcp"
+    },
+    "playwright": {
+      "command": "npx",
+      "args": ["-y", "@playwright/mcp@latest"]
+    },
+    "sequential-thinking": {
+      "command": "npx",
+      "args": ["-y", "@modelcontextprotocol/server-sequential-thinking"]
+    }
+  }
+}

@@ -1,0 +1,49 @@
+name: Examples & links
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+
+      - name: Relative links resolve
+        run: python scripts/check_links.py
+
+      - name: JSON & YAML files parse
+        run: |
+          pip install pyyaml
+          python - <<'PY'
+          import json, pathlib, yaml
+          for p in (p for p in pathlib.Path("examples").rglob("*.json") if "node_modules" not in p.parts):
+              json.loads(p.read_text()); print("ok", p)
+          for p in pathlib.Path("examples").rglob("*.y*ml"):
+              yaml.safe_load(p.read_text()); print("ok", p)
+          PY
+
+      - name: Python MCP server smoke test
+        working-directory: examples/my-first-mcp-server
+        run: |
+          pip install -r requirements.txt
+          python smoke_test.py
+
+      - name: TypeScript MCP server smoke test
+        if: hashFiles('examples/my-first-mcp-server-ts/package.json') != ''
+        working-directory: examples/my-first-mcp-server-ts
+        run: |
+          npm install --no-audit --no-fund
+          npm test
+
+      - name: API-key examples compile
+        run: python -m py_compile $(find examples -name "*.py" -not -path "*/node_modules/*")
