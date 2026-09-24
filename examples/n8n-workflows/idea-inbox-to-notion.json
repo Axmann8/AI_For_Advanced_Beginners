@@ -1,0 +1,156 @@
+{
+  "name": "💡 Idea Inbox (Webhook → Claude → Notion)",
+  "nodes": [
+    {
+      "parameters": {
+        "httpMethod": "POST",
+        "path": "idea-inbox",
+        "responseMode": "onReceived",
+        "options": {}
+      },
+      "id": "ef6f2d8b-1922-416b-8ca8-bdb47cd1c012",
+      "name": "Idea webhook",
+      "type": "n8n-nodes-base.webhook",
+      "typeVersion": 2,
+      "position": [
+        0,
+        0
+      ],
+      "webhookId": "dd8623ec-26b8-4dce-957c-bcb52a303c7a"
+    },
+    {
+      "parameters": {
+        "promptType": "define",
+        "text": "=Classify this raw idea and reply with ONLY a JSON object, no prose:\n{\"title\": \"short catchy title (max 8 words)\", \"category\": one of [\"Project\", \"Content\", \"Business\", \"Learning\", \"Life\"], \"priority\": one of [\"High\", \"Medium\", \"Low\"], \"summary\": \"2 sentences, plus one concrete first step\"}\n\nIdea: {{ $json.body.text }}"
+      },
+      "id": "723e6e92-57d5-40ea-bef6-b248c8b8e954",
+      "name": "Classify with Claude",
+      "type": "@n8n/n8n-nodes-langchain.chainLlm",
+      "typeVersion": 1.5,
+      "position": [
+        220,
+        0
+      ]
+    },
+    {
+      "parameters": {
+        "model": {
+          "__rl": true,
+          "mode": "id",
+          "value": "claude-sonnet-5"
+        },
+        "options": {
+          "maxTokensToSample": 1500
+        }
+      },
+      "id": "ac3c94ff-f5c7-490d-8da3-e7647a1eeb38",
+      "name": "Claude",
+      "type": "@n8n/n8n-nodes-langchain.lmChatAnthropic",
+      "typeVersion": 1.3,
+      "position": [
+        220,
+        220
+      ]
+    },
+    {
+      "parameters": {
+        "mode": "runOnceForEachItem",
+        "jsCode": "// Claude was asked for JSON — parse it safely (strip code fences if present)\nconst raw = $json.text.replace(/```json|```/g, '').trim();\nlet data;\ntry { data = JSON.parse(raw); }\ncatch (e) { data = { title: raw.slice(0, 80), category: 'Uncategorized', priority: 'Medium', summary: raw }; }\nreturn { json: data };"
+      },
+      "id": "d6d40cd6-2b21-43ee-88ed-8135299ce385",
+      "name": "Parse JSON",
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [
+        440,
+        0
+      ]
+    },
+    {
+      "parameters": {
+        "resource": "databasePage",
+        "databaseId": {
+          "__rl": true,
+          "mode": "url",
+          "value": "https://www.notion.so/PASTE-YOUR-DATABASE-URL"
+        },
+        "title": "={{ $json.title }}",
+        "propertiesUi": {
+          "propertyValues": [
+            {
+              "key": "Category|select",
+              "selectValue": "={{ $json.category }}"
+            },
+            {
+              "key": "Priority|select",
+              "selectValue": "={{ $json.priority }}"
+            },
+            {
+              "key": "Summary|rich_text",
+              "textContent": "={{ $json.summary }}"
+            }
+          ]
+        },
+        "options": {}
+      },
+      "id": "9f095611-abc8-49e2-b54f-20d81467605b",
+      "name": "Add to Notion",
+      "type": "n8n-nodes-base.notion",
+      "typeVersion": 2.2,
+      "position": [
+        660,
+        0
+      ]
+    }
+  ],
+  "connections": {
+    "Idea webhook": {
+      "main": [
+        [
+          {
+            "node": "Classify with Claude",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Claude": {
+      "ai_languageModel": [
+        [
+          {
+            "node": "Classify with Claude",
+            "type": "ai_languageModel",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Classify with Claude": {
+      "main": [
+        [
+          {
+            "node": "Parse JSON",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Parse JSON": {
+      "main": [
+        [
+          {
+            "node": "Add to Notion",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    }
+  },
+  "settings": {
+    "executionOrder": "v1"
+  },
+  "pinData": {}
+}

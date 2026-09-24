@@ -1,0 +1,10 @@
+# Local data written by the example MCP server
+examples/my-first-mcp-server/notes.json
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+# Secrets — never commit these!
+.env
+*.env.local
