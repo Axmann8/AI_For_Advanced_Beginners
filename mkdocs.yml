@@ -102,6 +102,15 @@ nav:
       - "27 · The AI Home Lab": part-7-local-ai/27-home-lab.md
   - "VIII · Creative AI":
       - "28 · The Multimodal Playground": part-8-creative-ai/28-multimodal-playground.md
+      - "29 · Image Generation Deep Dive": part-8-creative-ai/29-image-generation-deep-dive.md
+      - "30 · Video & Audio Production with AI": part-8-creative-ai/30-video-and-audio-production.md
+      - "31 · Voice Agents": part-8-creative-ai/31-voice-agents.md
+  - "IX · AI for Life & Work":
+      - "32 · AI for Research & Learning": part-9-ai-for-life-and-work/32-research-and-learning.md
+      - "33 · AI for Writing & Content Creators": part-9-ai-for-life-and-work/33-writing-and-content.md
+      - "34 · AI for Small Business & Side Hustles": part-9-ai-for-life-and-work/34-small-business.md
+      - "35 · Life Admin & Personal Productivity": part-9-ai-for-life-and-work/35-life-admin-and-productivity.md
+      - "36 · Data Analysis for Everyone": part-9-ai-for-life-and-work/36-data-analysis.md
   - "X · Mastery":
       - "37 · Safety, Costs & Gotchas": part-10-mastery/37-safety-costs-and-gotchas.md
   - "Appendices":

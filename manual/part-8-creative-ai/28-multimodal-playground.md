@@ -80,4 +80,4 @@ You can **give** AI images, screenshots, PDFs, audio, and video, not just get th
 illustrations → ElevenLabs narrates → Suno writes a theme song. You just produced a multimedia
 storybook. 📖✨
 
-**Next:** [37 · Safety, Costs & Gotchas →](../part-10-mastery/37-safety-costs-and-gotchas.md)
+**Next:** [29 · Image Generation Deep Dive →](29-image-generation-deep-dive.md)
