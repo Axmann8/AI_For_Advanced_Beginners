@@ -1,0 +1,59 @@
+# 🏠 AI Home Lab: private AI chat + automation on your own machine
+#
+#   docker compose up -d
+#
+#   Open WebUI (ChatGPT-style UI) → http://localhost:3000
+#   n8n (automation)              → http://localhost:5678
+#   Ollama (local model API)      → http://localhost:11434
+#
+# Then pull a model:  docker compose exec ollama ollama pull gemma3
+
+services:
+  ollama:
+    image: ollama/ollama:latest
+    container_name: ollama
+    restart: unless-stopped
+    ports:
+      - "11434:11434"
+    volumes:
+      - ollama:/root/.ollama
+    # 🚀 NVIDIA GPU? Install the NVIDIA Container Toolkit, then uncomment:
+    # deploy:
+    #   resources:
+    #     reservations:
+    #       devices:
+    #         - driver: nvidia
+    #           count: all
+    #           capabilities: [gpu]
+
+  open-webui:
+    image: ghcr.io/open-webui/open-webui:main
+    container_name: open-webui
+    restart: unless-stopped
+    depends_on:
+      - ollama
+    ports:
+      - "3000:8080"
+    environment:
+      - OLLAMA_BASE_URL=http://ollama:11434
+    volumes:
+      - open-webui:/app/backend/data
+
+  n8n:
+    image: docker.n8n.io/n8nio/n8n:latest
+    container_name: n8n
+    restart: unless-stopped
+    ports:
+      - "5678:5678"
+    environment:
+      - GENERIC_TIMEZONE=${TZ:-UTC}
+      - TZ=${TZ:-UTC}
+      # Local-only use over plain http. Remove this if you put n8n behind HTTPS.
+      - N8N_SECURE_COOKIE=false
+    volumes:
+      - n8n_data:/home/node/.n8n
+
+volumes:
+  ollama:
+  open-webui:
+  n8n_data:

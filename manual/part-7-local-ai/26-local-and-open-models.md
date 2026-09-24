@@ -67,4 +67,4 @@ ollama run gemma3        # or llama3.2, qwen3, phi4-mini: whatever's current and
 ```
 Ask it something, then turn off your Wi-Fi and ask again. It still works. 🤯
 
-**Next:** [28 · The Multimodal Playground →](../part-8-creative-ai/28-multimodal-playground.md)
+**Next:** [27 · The AI Home Lab →](27-home-lab.md)

@@ -82,4 +82,4 @@ flowchart LR
 Make a NotebookLM notebook from 5 sources about something you're curious about, and generate the
 Audio Overview. It's the fastest "wow" in this whole guide. 🎧
 
-**Next:** [26 · Local & Open Models →](../part-7-local-ai/26-local-and-open-models.md)
+**Next:** [24 · Build a RAG System, Step by Step →](24-build-a-rag-system.md)
