@@ -107,7 +107,7 @@ on Apple Silicon run Ollama **natively** rather than in Docker.
 ### Open WebUI can't see my Ollama models.
 
 Inside Docker Compose use `http://ollama:11434`. For native Ollama on the host use `http://host.docker.internal:11434`. Then pull a model:
-`docker compose exec ollama ollama pull gemma3`.
+`docker compose exec ollama ollama pull gemma4`.
 
 ### Docker says a port is already in use.
 

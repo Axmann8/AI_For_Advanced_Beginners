@@ -61,7 +61,7 @@ All the big AI helpers are great now. Pick the one that fits where you already s
 |---|---|---|
 | Write a lot, code, want deep MCP and agent power | **Claude** | Superb writing and coding, MCP's home turf, Projects, Artifacts, Claude Code on paid plans |
 | Want the broadest all-rounder with voice and images | **ChatGPT** | Huge feature set, image generation, voice, agent mode, plugins |
-| Live in Gmail, Docs, Drive or Android | **Gemini** | Deep Google integration, NotebookLM, strong with long video and documents |
+| Live in Gmail, Docs, Drive or Android | **Gemini** | Deep Google integration, Gemini Notebook (NotebookLM), strong with long video and documents |
 | Live in Outlook, Teams or Office | **Microsoft 365 Copilot** | Works across your work data |
 | Mostly research with citations | **Perplexity** | Search-first answers with sources |
 | Want privacy above all | **Local models** | Nothing leaves your machine ([Part VII](../part-7-local-ai/index.md)) |
@@ -102,7 +102,7 @@ Here are ready-made toolkits for different kinds of people. Find the one that so
 
 ### 🎓 The Student
 - **Assistant:** a free tier, or the student discount of one paid plan
-- **Learning:** NotebookLM (free), study/learning modes ([Research & Learning](../part-9-ai-for-life-and-work/60-research-and-learning.md))
+- **Learning:** Gemini Notebook (formerly NotebookLM, free tier), study/learning modes ([Research & Learning](../part-9-ai-for-life-and-work/60-research-and-learning.md))
 - **Notes:** Obsidian or Notion (free plans)
 - **Extras:** Anki flashcards (AI-generated), a dictation app for lecture notes
 
@@ -155,7 +155,7 @@ You can do a LOT for free. Paying more mostly buys you higher limits, the smarte
 
 | Budget | What you get | Suggested stack |
 |---|---|---|
-| **$0** | Surprisingly much! | Free tiers of 2 assistants, NotebookLM, local models via Ollama, n8n self-hosted, Obsidian |
+| **$0** | Surprisingly much! | Free tiers of 2 assistants, Gemini Notebook (NotebookLM), local models via Ollama, n8n self-hosted, Obsidian |
 | **~$20/mo** | The biggest jump in capability | One paid assistant (with connectors and, for Claude, Claude Code) + free everything else |
 | **~$50/mo** | A serious daily setup | Paid assistant + a small automation budget + API credits with a limit |
 | **$100+/mo** | Power-user and builder territory | Higher-tier plans for heavy coding agents, a creative tool or two, bigger automation plans |

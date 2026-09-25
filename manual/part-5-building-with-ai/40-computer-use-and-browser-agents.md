@@ -287,4 +287,4 @@ fuzzy parts.
 
 ---
 
-**Next:** [23 · RAG, Memory & Knowledge →](../part-6-knowledge-and-memory/41-rag-memory-and-knowledge.md)
+**Next:** [41 · RAG, Memory & Knowledge →](../part-6-knowledge-and-memory/41-rag-memory-and-knowledge.md)

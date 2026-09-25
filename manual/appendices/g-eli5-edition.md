@@ -276,7 +276,82 @@ confused, but it never gets bored of filling in forms!
 
 ## 📚 Part VI · Knowledge & Memory
 
+### [41 · RAG, Memory & Knowledge: Make AI Know *Your* Stuff 🧠📚](../part-6-knowledge-and-memory/41-rag-memory-and-knowledge.md)
+
+An AI is like a super-smart new friend who has read every library book in the world, but has never seen **your** diary,
+**your** school notes, or **your** family recipe box. There are two ways to help: give it a **library card** to look things
+up in your stuff when it needs to (that's called **RAG**), and give it a **notebook** where it writes down things about you
+so it remembers next time (that's **memory**).
+
+### [42 · Embeddings & Vector Databases: Search by Meaning 🧬🗺️](../part-6-knowledge-and-memory/42-embeddings-and-vector-databases.md)
+
+Imagine a huge playground map where every word, sentence and picture gets a spot. Things that *mean* similar stuff stand
+close together: "puppy" is near "dog," "pizza" is near "pasta," and a photo of a beach is near the sentence "sunny day by the
+sea." An **embedding** is just the address of a spot on that map (a list of numbers). A **vector database** is a super-fast
+helper that answers "who's standing near this spot?" That's how AI finds things by meaning instead of exact words.
+
+### [43 · Build a RAG System, Step by Step 🏗️📚](../part-6-knowledge-and-memory/43-build-a-rag-system.md)
+
+We're building a robot librarian. Step one: cut your notes into index cards. Step two: give every card a "meaning address."
+Step three: when you ask a question, the robot fetches the best few cards. Step four: the AI reads those cards and answers,
+pointing to which card each fact came from. We'll build it the simple way first so you see every gear turning, then make
+it smarter and smarter.
+
+### [44 · Memory for Agents: Teaching AI to Remember 🧠📝](../part-6-knowledge-and-memory/44-memory-for-agents.md)
+
+Every time you start a new chat, the AI wakes up with no idea who you are, like meeting a new friend who forgets you every
+night. **Memory** is a notebook the AI keeps: "Alex likes short answers," "Alex's dog is called Biscuit," "last time we fixed
+the login bug by restarting the server." Before it answers, it peeks in the notebook. After it learns something useful, it
+writes it down. And you can always read the notebook and cross things out.
+
+### [45 · Gemini Notebook (formerly NotebookLM) Masterclass 🎧📓](../part-6-knowledge-and-memory/45-notebooklm-masterclass.md)
+
+Imagine a study buddy who reads *only* the books you hand them, remembers every page, and always points to the page an answer
+came from. Then they can turn your whole stack of books into a fun radio show, a cartoon explainer, flashcards or a quiz.
+That's Gemini Notebook. It's grounded, which means it sticks to your sources instead of making things up.
+
+### [46 · Personal Knowledge Management with AI: A Second Brain That Talks Back 🧠🗃️](../part-6-knowledge-and-memory/46-personal-knowledge-management.md)
+
+Your brain is great at *having* ideas but bad at *keeping* them. A **second brain** is a special place (like a notebook app)
+where you save the cool things you learn. With AI, you can save stuff super quickly (just talk!), the AI tidies it up for
+you, and later you can ask your notes questions like "what have I learned about sleep?" and get an answer from your own
+past self. 🧠➡️📓➡️💡
+
 ## 🏠 Part VII · Local AI
+
+### [47 · Local & Open Models: AI on Your Own Machine 🏠💻](../part-7-local-ai/47-local-and-open-models.md)
+
+Most AI lives in giant computers far away, and you "call" it over the internet. But smaller AI brains can now live **right
+on your own computer**, like having a pet robot at home instead of phoning one. It works with the Wi-Fi off, nobody else sees
+what you ask it, and it's free to use as much as you like. It's not quite as clever as the giant ones, but it's clever
+enough for loads of everyday jobs.
+
+### [48 · Hardware for Local AI: What to Buy (and What Not To) 🖥️⚡](../part-7-local-ai/48-hardware-for-local-ai.md)
+
+An AI model is like a giant book the computer must hold open on its desk while it thinks. **Memory** is the size of the desk:
+if the book doesn't fit, it can't be read. **Memory speed** is how fast the computer can flip through the pages: faster
+flipping means faster answers. So for local AI, you want a **big desk** and **fast page-flipping**. Everything else matters
+much less.
+
+### [49 · The AI Home Lab: Your Private AI Playground 🏠🔬](../part-7-local-ai/49-home-lab.md)
+
+A home lab is like a science kit for AI that lives in your house. With one command, your computer starts three helpers: a
+**brain** (Ollama, which runs the AI models), a **chat window** (Open WebUI, like your own private ChatGPT), and a **robot
+arm** (n8n, which does automatic chores). Everything stays inside your house, and you can add more gadgets whenever you like.
+
+### [50 · Local AI for Coding & Agents: Private Pair Programming 🔒💻](../part-7-local-ai/50-local-ai-for-coding-and-agents.md)
+
+Coding helpers usually send your code to a big AI far away. With **local AI**, the helper lives on your own computer: your
+code never leaves the house. It's great for secret projects, working on a plane, or just not paying per question. The home
+helper isn't quite as clever as the biggest online ones for giant jobs, so smart builders use the home helper for everyday
+stuff and call the big one for the really hard puzzles.
+
+### [51 · Fine-Tuning for Normal People: Teach a Model Your Style 🎓🎛️](../part-7-local-ai/51-fine-tuning-for-normal-people.md)
+
+Imagine a talented chef who can cook anything. **Fine-tuning** is like giving that chef a week of lessons in *your* grandma's
+recipes: afterwards, everything they cook tastes a little like home. You don't teach them to cook from scratch (that would
+take years); you just show them lots of examples of the style you love. For AI, you show it hundreds of examples of the
+answers you want, and it learns to answer that way naturally.
 
 ## 🎨 Part VIII · Creative AI
 

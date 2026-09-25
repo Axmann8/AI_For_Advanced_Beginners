@@ -162,13 +162,19 @@ nav:
       - "40 · Computer Use & Browser Agents": part-5-building-with-ai/40-computer-use-and-browser-agents.md
   - "📚 Part VI · Knowledge & Memory":
       - part-6-knowledge-and-memory/index.md
-      - "23 · RAG, Memory & Knowledge": part-6-knowledge-and-memory/41-rag-memory-and-knowledge.md
-      - "24 · Build a RAG System, Step by Step": part-6-knowledge-and-memory/43-build-a-rag-system.md
-      - "25 · Personal Knowledge Management with AI": part-6-knowledge-and-memory/46-personal-knowledge-management.md
+      - "41 · RAG, Memory & Knowledge": part-6-knowledge-and-memory/41-rag-memory-and-knowledge.md
+      - "42 · Embeddings & Vector Databases": part-6-knowledge-and-memory/42-embeddings-and-vector-databases.md
+      - "43 · Build a RAG System, Step by Step": part-6-knowledge-and-memory/43-build-a-rag-system.md
+      - "44 · Memory for Agents": part-6-knowledge-and-memory/44-memory-for-agents.md
+      - "45 · Gemini Notebook (formerly NotebookLM) Masterclass": part-6-knowledge-and-memory/45-notebooklm-masterclass.md
+      - "46 · Personal Knowledge Management with AI": part-6-knowledge-and-memory/46-personal-knowledge-management.md
   - "🏠 Part VII · Local AI":
       - part-7-local-ai/index.md
-      - "26 · Local & Open Models": part-7-local-ai/47-local-and-open-models.md
-      - "27 · The AI Home Lab": part-7-local-ai/49-home-lab.md
+      - "47 · Local & Open Models": part-7-local-ai/47-local-and-open-models.md
+      - "48 · Hardware for Local AI": part-7-local-ai/48-hardware-for-local-ai.md
+      - "49 · The AI Home Lab": part-7-local-ai/49-home-lab.md
+      - "50 · Local AI for Coding & Agents": part-7-local-ai/50-local-ai-for-coding-and-agents.md
+      - "51 · Fine-Tuning for Normal People": part-7-local-ai/51-fine-tuning-for-normal-people.md
   - "🎨 Part VIII · Creative AI":
       - part-8-creative-ai/index.md
       - "28 · The Multimodal Playground": part-8-creative-ai/52-multimodal-playground.md

@@ -33,7 +33,7 @@ projects and a reference section at the back.
 | ⚙️ **III · Automation** | n8n, Zapier, Make, phone shortcuts, scraping, and 50 ready-made workflows |
 | 🏡 **IV · AI in Your Apps** | Notion, Google, Microsoft, Obsidian, email, spreadsheets, chat bots |
 | 🛠️ **V · Building with AI** | Coding agents, Git, Claude Code, Cursor, vibe coding, deploying, APIs, agents |
-| 📚 **VI · Knowledge & Memory** | RAG, embeddings, agent memory, NotebookLM, second brains |
+| 📚 **VI · Knowledge & Memory** | RAG, embeddings, agent memory, Gemini Notebook (NotebookLM), second brains |
 | 🏠 **VII · Local AI** | Models on your own machine, hardware, home labs, fine-tuning |
 | 🎨 **VIII · Creative AI** | Images, video, music, voice, 3D, games, stories, design |
 | 🌱 **IX · AI for Life & Work** | Research, writing, business, careers, money, health, family, travel, accessibility |

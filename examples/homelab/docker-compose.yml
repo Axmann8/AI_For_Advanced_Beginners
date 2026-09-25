@@ -6,7 +6,7 @@
 #   n8n (automation)              → http://localhost:5678
 #   Ollama (local model API)      → http://localhost:11434
 #
-# Then pull a model:  docker compose exec ollama ollama pull gemma3
+# Then pull a model:  docker compose exec ollama ollama pull gemma4
 
 services:
   ollama:

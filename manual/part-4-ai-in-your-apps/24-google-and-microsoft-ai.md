@@ -58,7 +58,7 @@ Research** reads dozens of websites and writes you a report.
   can export to Docs.
 - **Canvas:** a live document or code editor alongside the chat.
 - **Connected apps:** Gemini can pull from Gmail, Drive, Calendar, Maps and YouTube inside the chat.
-- **NotebookLM:** grounded research on your chosen sources with audio overviews ([NotebookLM Masterclass](../part-6-knowledge-and-memory/45-notebooklm-masterclass.md)).
+- **Gemini Notebook (NotebookLM):** grounded research on your chosen sources with audio overviews ([Gemini Notebook (NotebookLM) Masterclass](../part-6-knowledge-and-memory/45-notebooklm-masterclass.md)).
 - **Google AI Studio:** a free playground and API keys for building with Gemini models.
 
 ## 🟣 Microsoft 365 + Copilot, app by app
@@ -196,7 +196,7 @@ Point the AI at the exact files you mean, keep your file sharing tidy, and check
 ## 🎯 Key takeaways
 
 - **Gemini** (Google) and **Copilot** (Microsoft) are built into mail, docs, sheets, slides and meetings.
-- **Gems, Deep Research, NotebookLM** (Google) and **Copilot agents, Copilot Studio** (Microsoft) go beyond quick chat.
+- **Gems, Deep Research, Gemini Notebook (NotebookLM)** (Google) and **Copilot agents, Copilot Studio** (Microsoft) go beyond quick chat.
 - **Apps Script** and **Power Automate** let you build free or low-cost robots inside each ecosystem.
 - Ground AI in **specific files**, keep **sharing tidy**, and **mix in outside AI** where it's stronger.
 

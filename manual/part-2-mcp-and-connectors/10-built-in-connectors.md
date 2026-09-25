@@ -84,14 +84,14 @@ that can browse for you, and a developer mode for adding any MCP server.
 <summary>🧸 ELI5</summary>
 
 Gemini is best friends with Gmail, Docs, Drive, Calendar, Maps and YouTube, so it can help across all your Google stuff.
-It also comes with NotebookLM, a magical study buddy.
+It also comes with Gemini Notebook (NotebookLM), a magical study buddy.
 
 </details>
 
 - **Deep integration** with Gmail, Docs, Drive, Calendar, Maps and YouTube.
 - **Gems:** custom assistants with standing instructions.
 - **Deep Research** and **Canvas** for long reports and live documents.
-- **NotebookLM:** grounded research on your sources with audio overviews ([NotebookLM Masterclass](../part-6-knowledge-and-memory/45-notebooklm-masterclass.md)).
+- **Gemini Notebook (NotebookLM):** grounded research on your sources with audio overviews ([Gemini Notebook (NotebookLM) Masterclass](../part-6-knowledge-and-memory/45-notebooklm-masterclass.md)).
 - **Gemini CLI:** an open-source terminal agent that speaks MCP.
 - More in [Google Workspace & Microsoft 365 AI](../part-4-ai-in-your-apps/24-google-and-microsoft-ai.md).
 

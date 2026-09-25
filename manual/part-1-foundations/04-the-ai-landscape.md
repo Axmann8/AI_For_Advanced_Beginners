@@ -56,7 +56,7 @@ These are the companies that build the biggest, smartest AI brains. Each has its
 |---|---|---|---|
 | **Anthropic** | Claude (Opus, Sonnet, Haiku, and top-tier models) | Claude apps, Claude Code, Claude API | Writing, coding and agentic work, safety research, created **MCP** |
 | **OpenAI** | GPT series, reasoning models, gpt-oss (open-weight) | ChatGPT, Codex, Sora, API | Kicked off the chat era, broad consumer ecosystem |
-| **Google DeepMind** | Gemini (Pro, Flash, Flash-Lite), Gemma (open), Veo, Imagen | Gemini app, NotebookLM, AI Studio, Workspace | Long context, multimodal, deep Google integration |
+| **Google DeepMind** | Gemini (Pro, Flash, Flash-Lite), Gemma (open), Veo, Imagen | Gemini app, Gemini Notebook (NotebookLM), AI Studio, Workspace | Long context, multimodal, deep Google integration |
 | **Meta** | Llama (open-weight) | Meta AI in WhatsApp, Instagram, Facebook | Popularized open-weight frontier models |
 | **xAI** | Grok | Grok in X and its apps | Real-time X integration |
 | **Mistral AI** (France) | Mistral, Codestral, open-weight models | Le Chat, API | European champion, efficient open models |
@@ -119,7 +119,7 @@ coding, searching, drawing or talking.
 | Category | Popular tools | Chapter |
 |---|---|---|
 | 🛠️ Coding & app building | Claude Code, Cursor, GitHub Copilot, Windsurf, Codex, Replit, Lovable, Bolt, v0 | [Agents & Coding Tools](../part-5-building-with-ai/29-agents-and-coding-tools.md) |
-| 🔎 Search & research | Perplexity, deep research modes, NotebookLM | [Research & Learning](../part-9-ai-for-life-and-work/60-research-and-learning.md) |
+| 🔎 Search & research | Perplexity, deep research modes, Gemini Notebook (NotebookLM) | [Research & Learning](../part-9-ai-for-life-and-work/60-research-and-learning.md) |
 | 📋 Productivity | Notion AI, Microsoft 365 Copilot, Gemini in Workspace, Raycast | [AI Inside Your Apps](../part-4-ai-in-your-apps/22-ai-in-your-apps.md) |
 | ⚙️ Automation | Zapier, n8n, Make, Pipedream, Power Automate | [Automation Platforms](../part-3-automation/14-automation-platforms.md) |
 | 🎨 Images & design | Midjourney, Ideogram, Recraft, Canva, Adobe Firefly, Black Forest Labs (Flux) | [Image Generation](../part-8-creative-ai/53-image-generation-deep-dive.md) |

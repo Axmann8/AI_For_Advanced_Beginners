@@ -11,13 +11,13 @@ all in real life, with an 🧸 **ELI5 for everything**.
 [🚀 Start here](start-here/a-how-to-use-this-manual.md "button-primary") [⚡ Your first hour](start-here/b-your-first-hour.md "button") [🗺️ The big map](start-here/c-the-big-map.md "button")
 
 <!-- stats:start -->
-<div class="hero-stats"><div class="stat"><strong>59</strong><span>chapters</span></div><div class="stat"><strong>476</strong><span>ELI5 explanations 🧸</span></div><div class="stat"><strong>130</strong><span>quiz questions</span></div><div class="stat"><strong>44</strong><span>try-this challenges</span></div><div class="stat"><strong>8</strong><span>starter kits</span></div><div class="stat"><strong>99k</strong><span>words of fun</span></div></div>
+<div class="hero-stats"><div class="stat"><strong>65</strong><span>chapters</span></div><div class="stat"><strong>584</strong><span>ELI5 explanations 🧸</span></div><div class="stat"><strong>163</strong><span>quiz questions</span></div><div class="stat"><strong>56</strong><span>try-this challenges</span></div><div class="stat"><strong>8</strong><span>starter kits</span></div><div class="stat"><strong>115k</strong><span>words of fun</span></div></div>
 <!-- stats:end -->
 
 </div>
 
 <!-- progress:start -->
-<div class="progress-tracker" data-total="59"></div>
+<div class="progress-tracker" data-total="65"></div>
 <!-- progress:end -->
 
 ## 🧭 Pick your path
@@ -143,15 +143,15 @@ Each part has its own landing page with an ELI5, a suggested path, and clickable
 
     ---
 
-    <span class="card-meta">3 chapters</span>
+    <span class="card-meta">6 chapters</span>
 
-    Make AI know your stuff and remember you: RAG, embeddings and vector databases, building a RAG system, memory for agents, the NotebookLM masterclass, and personal knowledge management that actually sticks.
+    Make AI know your stuff and remember you: RAG, embeddings and vector databases, building a RAG system, memory for agents, the Gemini Notebook (NotebookLM) masterclass, and personal knowledge management that actually sticks.
 
 -   **🏠 [Part VII · Local AI](part-7-local-ai/index.md)**
 
     ---
 
-    <span class="card-meta">2 chapters</span>
+    <span class="card-meta">5 chapters</span>
 
     Run AI on your own machine, private and offline: open models, choosing hardware, building a home lab, local AI for coding and agents, and customizing models with fine-tuning.
 
