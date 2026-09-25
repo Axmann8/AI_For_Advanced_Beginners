@@ -1,6 +1,6 @@
 # 01 · What Is AI, Really? 🌱
 
-> ⏱️ 10 min read · 🎯 Complete beginners · 🧰 Needs: nothing but curiosity
+> ⏱️ 8 min read · 🎯 Complete beginners · 🧰 Needs: nothing but curiosity
 
 **Artificial intelligence sounds like science fiction, but the AI you'll actually use is friendlier and more down to
 earth than the movies suggest.** It's software that has learned from enormous amounts of examples, so it can

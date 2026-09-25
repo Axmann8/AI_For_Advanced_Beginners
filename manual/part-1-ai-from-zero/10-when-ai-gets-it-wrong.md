@@ -1,6 +1,6 @@
 # 10 · When AI Gets It Wrong: Hallucinations & Fact-Checking 🔍
 
-> ⏱️ 12 min read · 🎯 Everyone (seriously, everyone) · 🧰 Needs: any AI assistant
+> ⏱️ 7 min read · 🎯 Everyone (seriously, everyone) · 🧰 Needs: any AI assistant
 
 **AI is amazingly helpful, and sometimes it's confidently, fluently wrong.** It can invent a book that doesn't exist,
 mix up dates, cite a law that isn't real, or agree with you just to be nice. None of this should scare you off. It just
@@ -246,4 +246,4 @@ then **click the sources** to confirm.
 
 ---
 
-**Next:** [11 · Staying Safe: Privacy, Scams & Deepfakes →](11-staying-safe-with-ai.md)
+**Next:** [11 · Staying Safe →](11-staying-safe-with-ai.md)

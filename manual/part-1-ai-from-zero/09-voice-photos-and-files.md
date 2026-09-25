@@ -1,6 +1,6 @@
 # 09 · Talk, Show & Snap: Voice, Photos, Files & Pictures 🎙️
 
-> ⏱️ 15 min read + play time · 🎯 Complete beginners · 🧰 Needs: an assistant app on your phone (for voice and camera)
+> ⏱️ 8 min read + play time · 🎯 Complete beginners · 🧰 Needs: an assistant app on your phone (for voice and camera)
 
 **Typing is only the beginning.** Today's assistants can **talk** with you out loud, **see** through your camera,
 **read** your documents and **create** pictures from a sentence. For many people, this is where AI goes from "neat" to
@@ -254,4 +254,4 @@ cheat sheet.
 
 ---
 
-**Next:** [10 · When AI Gets It Wrong: Hallucinations & Fact-Checking →](10-when-ai-gets-it-wrong.md)
+**Next:** [10 · When AI Gets It Wrong →](10-when-ai-gets-it-wrong.md)

@@ -312,4 +312,4 @@ doctor.
 
 ---
 
-**Next:** [09 · Talk, Show & Snap: Voice, Photos, Files & Pictures →](09-voice-photos-and-files.md)
+**Next:** [09 · Talk, Show & Snap →](09-voice-photos-and-files.md)

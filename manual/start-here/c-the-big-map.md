@@ -183,4 +183,4 @@ A **connector** lets an AI app *reach* a tool when you ask. An **automation** ru
 
 ---
 
-**Next:** [32 · The Mental Model →](../part-3-foundations/32-the-mental-model.md)
+**Next:** [01 · What Is AI, Really? →](../part-1-ai-from-zero/01-what-is-ai-really.md)

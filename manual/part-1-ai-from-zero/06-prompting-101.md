@@ -1,6 +1,6 @@
 # 06 · Prompting 101: How to Ask So AI Gets It ✍️
 
-> ⏱️ 15 min read · 🎯 Complete beginners · 🧰 Needs: any AI assistant
+> ⏱️ 8 min read · 🎯 Complete beginners · 🧰 Needs: any AI assistant
 
 **A "prompt" is simply what you type (or say) to the AI, and the quality of your prompt shapes the quality of the
 answer more than anything else.** The good news: there's no secret code. Good prompts are just clear requests with a
@@ -262,4 +262,4 @@ assistant.
 
 ---
 
-**Next:** [07 · Prompting 102: Conversations, Follow-Ups & Fixing Bad Answers →](07-prompting-102.md)
+**Next:** [07 · Prompting 102 →](07-prompting-102.md)

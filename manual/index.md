@@ -11,13 +11,13 @@ all in real life, with an 🧸 **ELI5 for everything**.
 [🚀 Start here](start-here/a-how-to-use-this-manual.md "button-primary") [⚡ Your first hour](start-here/b-your-first-hour.md "button") [🗺️ The big map](start-here/c-the-big-map.md "button")
 
 <!-- stats:start -->
-<div class="hero-stats"><div class="stat"><strong>88</strong><span>chapters</span></div><div class="stat"><strong>1069</strong><span>ELI5 explanations 🧸</span></div><div class="stat"><strong>274</strong><span>quiz questions</span></div><div class="stat"><strong>93</strong><span>try-this challenges</span></div><div class="stat"><strong>12</strong><span>starter kits</span></div><div class="stat"><strong>180k</strong><span>words of fun</span></div></div>
+<div class="hero-stats"><div class="stat"><strong>119</strong><span>chapters</span></div><div class="stat"><strong>1378</strong><span>ELI5 explanations 🧸</span></div><div class="stat"><strong>375</strong><span>quiz questions</span></div><div class="stat"><strong>124</strong><span>try-this challenges</span></div><div class="stat"><strong>12</strong><span>starter kits</span></div><div class="stat"><strong>234k</strong><span>words of fun</span></div></div>
 <!-- stats:end -->
 
 </div>
 
 <!-- progress:start -->
-<div class="progress-tracker" data-total="88"></div>
+<div class="progress-tracker" data-total="119"></div>
 <!-- progress:end -->
 
 ## 🧭 Pick your path
@@ -98,6 +98,22 @@ Each part has its own landing page with an ELI5, a suggested path, and clickable
 
 <!-- parts:start -->
 <div class="grid cards clickable" markdown>
+
+-   **🐣 [Part I · AI from Zero](part-1-ai-from-zero/index.md)**
+
+    ---
+
+    <span class="card-meta">16 chapters</span>
+
+    Brand new to AI? You're in exactly the right place.
+
+-   **🤖 [Part II · The AI Assistants Field Guide](part-2-ai-assistants-field-guide/index.md)**
+
+    ---
+
+    <span class="card-meta">15 chapters</span>
+
+    A complete, friendly guide to every major AI assistant: ChatGPT, Gemini, Claude, Copilot, Grok, Perplexity, Meta AI, DeepSeek, Le Chat, Qwen, Kimi and friends, plus the AI built into Siri, Alexa and your phone.
 
 -   **🧠 [Part III · Foundations](part-3-foundations/index.md)**
 

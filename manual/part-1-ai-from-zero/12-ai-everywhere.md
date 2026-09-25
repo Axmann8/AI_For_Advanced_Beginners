@@ -1,6 +1,6 @@
 # 12 · AI Everywhere: Phones, Speakers, Cars, Glasses & Browsers 📱
 
-> ⏱️ 14 min read · 🎯 Complete beginners · 🧰 Needs: your phone (and whatever else you own!)
+> ⏱️ 7 min read · 🎯 Complete beginners · 🧰 Needs: your phone (and whatever else you own!)
 
 **You don't always need to open a chatbot app: AI is now built into the phone in your pocket, the speaker in your
 kitchen, your web browser, your car and even glasses.** This chapter is a friendly tour of the AI already waiting on

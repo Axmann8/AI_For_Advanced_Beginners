@@ -182,7 +182,7 @@ Most assistants let you create a **reusable helper** with its own instructions:
 
 | Assistant | Feature | Where |
 |---|---|---|
-| 💬 ChatGPT | **GPTs** or **Projects** | Sidebar → GPTs → Create, or New project |
+| 💬 ChatGPT | **Projects** (with instructions), or a **skill** | Sidebar → New project → project settings → Instructions |
 | ✨ Gemini | **Gems** | Sidebar → Gems → New Gem |
 | 🧡 Claude | **Projects** | Sidebar → Projects → New project → set instructions |
 | 🔎 Perplexity | **Spaces** | Sidebar → Spaces |
@@ -231,7 +231,7 @@ lasting habits and points you toward the advanced stuff.
 
 - Learning sticks when you solve **real problems**: meals, messages, paperwork, learning, plans, creativity.
 - Each mission teaches a **core skill**: context, steering, documents, tutoring, verifying, creating, reusing.
-- **Reusable helpers** (GPTs, Gems, Projects, Spaces) save you from repeating yourself.
+- **Reusable helpers** (Projects, Gems, Spaces, skills) save you from repeating yourself.
 - Keep verifying facts that matter, especially times, prices and rules.
 
 ## 🧠 Check yourself
@@ -251,7 +251,7 @@ To **verify** opening hours, prices and rules on official websites. AI plans wel
 </details>
 
 <details class="quiz">
-<summary>❓ 3. What's a Gem, GPT or Project for?</summary>
+<summary>❓ 3. What's a Gem, Project or Space for?</summary>
 
 A **reusable helper** with saved instructions, so you don't have to explain your situation every time.
 

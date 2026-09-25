@@ -9,6 +9,195 @@
 > It's generated automatically from the 🧸 box at the top of every chapter (`python scripts/sync_manual.py`),
 > so it always matches the latest version of the manual.
 
+## 🐣 Part I · AI from Zero
+
+### [01 · What Is AI, Really? 🌱](../part-1-ai-from-zero/01-what-is-ai-really.md)
+
+Normal computer programs follow a recipe someone wrote step by step. AI is different: instead of a recipe, it learned
+by looking at millions and millions of examples, the way you learned to recognize a dog by seeing lots of dogs.
+Chatbots like ChatGPT, Gemini and Claude learned from so much writing that they can chat with you, explain things and
+help with almost anything involving words. They're clever helpers, not magic and not alive.
+
+### [02 · How AI Chatbots Work (No Math, Promise) 🧠](../part-1-ai-from-zero/02-how-ai-chatbots-work.md)
+
+Imagine someone who read every library in the world and became *amazing* at guessing what word comes next in a
+sentence. Then teachers coached them to be helpful, polite and honest. That's a chatbot. It doesn't look things up in a
+big encyclopedia in its head; it writes answers one word at a time based on patterns it learned. That's why it's so
+good with words, and also why it can sound sure about things that aren't true.
+
+### [03 · Your First AI Conversation, Step by Step 👋](../part-1-ai-from-zero/03-your-first-ai-conversation.md)
+
+Go to the AI's website or app, sign in like you would for email, and type a question into the box at the bottom, just
+like texting. The AI texts back. You can ask follow-up questions, ask it to change its answer, or start a brand-new chat
+any time. That's honestly all there is to it, and this chapter shows you each click.
+
+### [04 · Choosing Your First AI Assistant 🧭](../part-1-ai-from-zero/04-choosing-your-first-assistant.md)
+
+Choosing an AI is like choosing an ice cream shop: they all sell ice cream, but each has its own special flavors. If
+you live next to the Google shop (Gmail, Android), Gemini is easy. If you want the most popular all-rounder, ChatGPT.
+For thoughtful writing, Claude. For answers with sources, Perplexity. Try two, keep your favorite.
+
+### [05 · Getting Set Up: Accounts, Apps & Plans 📲](../part-1-ai-from-zero/05-getting-set-up.md)
+
+Setting up your AI is like moving into a new room: put the lock on the door (a safe password), put your name on it
+(tell the AI a little about you), and decide what gets kept and what gets thrown away (privacy settings). Then you can
+decide later whether you want the bigger room (a paid plan).
+
+### [06 · Prompting 101: How to Ask So AI Gets It ✍️](../part-1-ai-from-zero/06-prompting-101.md)
+
+If you ask a friend "make me something to eat," you might get anything. If you say "make me a quick cheese sandwich,
+I'm starving and I don't like tomatoes," you get exactly what you want. AI is the same: tell it **what** you want,
+**who it's for**, **what it should know**, **what it should look like**, and **what tone** to use.
+
+### [07 · Prompting 102: Conversations, Follow-Ups & Fixing Bad Answers 🔁](../part-1-ai-from-zero/07-prompting-102.md)
+
+Talking to AI is like working with a helpful friend on a drawing: they draw something, you say "make the house bigger,"
+"add a dog," "the sky should be orange," and together you end up with exactly the picture you imagined. Don't expect
+the first try to be perfect. Steer it.
+
+### [08 · The Beginner's Prompt Cookbook: 101 Prompts for Everyday Life 🍳](../part-1-ai-from-zero/08-beginners-prompt-cookbook.md)
+
+This is a recipe book, but for questions. Find something you need help with, copy the question, change the words in
+[brackets] to fit your life, and give it to your AI. Easy peasy.
+
+### [09 · Talk, Show & Snap: Voice, Photos, Files & Pictures 🎙️](../part-1-ai-from-zero/09-voice-photos-and-files.md)
+
+Your AI can do more than text. You can **talk** to it like a phone call, **show** it things with your camera ("what
+plant is this?"), **give** it documents to read ("what does this letter mean?"), and ask it to **draw** pictures ("a
+cat astronaut!"). It's like your helper got ears, eyes and paintbrushes.
+
+### [10 · When AI Gets It Wrong: Hallucinations & Fact-Checking 🔍](../part-1-ai-from-zero/10-when-ai-gets-it-wrong.md)
+
+Sometimes the AI is like a kid who didn't study but answers the test question confidently anyway. It's not lying on
+purpose; it just guessed. So for important things, like medicine, money or facts you'll share with others, check its
+answer with a real source. For fun things like poems and ideas, it doesn't matter.
+
+### [11 · Staying Safe: Privacy, Scams & Deepfakes 🛡️](../part-1-ai-from-zero/11-staying-safe-with-ai.md)
+
+Don't tell the AI your secrets, like passwords or bank card numbers. And remember that bad people can use AI too: they
+can fake a family member's voice on the phone or make fake videos of celebrities. So if a call or message makes you
+panic and asks for money, stop, hang up, and check with the real person another way. A family "safe word" helps a lot.
+
+### [12 · AI Everywhere: Phones, Speakers, Cars, Glasses & Browsers 📱](../part-1-ai-from-zero/12-ai-everywhere.md)
+
+AI isn't just in one app anymore. It lives in your phone (Siri, Gemini), your speaker (Alexa), your computer (Copilot),
+your web browser and even your car. You can just press a button or say a wake word and ask for help, wherever you are.
+
+### [13 · AI at Work for Beginners 💼](../part-1-ai-from-zero/13-ai-at-work-for-beginners.md)
+
+At work, AI is like a super-fast helper for the boring bits: writing emails, tidying notes, explaining spreadsheets and
+getting ready for tricky conversations. But work has rules: some information is secret, so first check which AI tools
+your job allows, and always read what the AI wrote before you send it.
+
+### [14 · Myths, Fears & Big Questions 🤔](../part-1-ai-from-zero/14-myths-fears-and-big-questions.md)
+
+People have lots of worries about AI, and some of them are good worries! AI isn't alive, it can't read your mind, and
+it's not a magic brain. It will change some jobs, it uses a lot of electricity, and it can be unfair or used for bad
+things. The best thing to do is learn how it works, use it wisely, and keep talking about the rules we want for it.
+
+### [15 · Your First Week of Wins: 7 Mini-Projects 🏆](../part-1-ai-from-zero/15-your-first-week-of-wins.md)
+
+This is a one-week challenge with seven little missions. Each day you use AI to do something actually useful, like
+planning dinners or writing a hard message. Each mission teaches you a new AI trick. Finish all seven and you're a real
+AI user!
+
+### [16 · Your 30-Day AI Starter Plan (and Where to Go Next) 🗓️](../part-1-ai-from-zero/16-your-30-day-plan.md)
+
+Learning AI is like learning to ride a bike: a little practice every day works better than one giant lesson. This is a
+one-month plan with one small thing to do each day. By the end, using AI will feel as normal as sending a text.
+
+## 🤖 Part II · The AI Assistants Field Guide
+
+### [17 · Meet the Assistants: The Big Comparison 🗺️](../part-2-ai-assistants-field-guide/17-meet-the-assistants.md)
+
+All these AI helpers can chat, explain and write, but each has special talents: one is great with Google stuff, one
+with Microsoft stuff, one shows its sources, one lives in WhatsApp, one is extra good at writing. This chapter lines
+them all up so you can see which one fits you.
+
+### [18 · ChatGPT: The Complete Guide 💬](../part-2-ai-assistants-field-guide/18-chatgpt.md)
+
+ChatGPT is like a Swiss Army knife of AI: it can chat, talk out loud, look at photos, draw pictures, search the internet,
+write long reports, remember things about you, and even do jobs on the web for you. This chapter shows you where each
+tool is and how to use it.
+
+### [19 · Google Gemini: The Complete Guide ✨](../part-2-ai-assistants-field-guide/19-gemini.md)
+
+Gemini is Google's AI helper. Because Google also makes Gmail, Maps, YouTube, Photos and Android, Gemini can use all of
+them to help you: "when is my flight?", "find that recipe video I watched," "what's this plant in my photo?" It can also
+talk with you, look through your camera, draw pictures and even make short videos.
+
+### [20 · Claude: The Complete Guide 🧡](../part-2-ai-assistants-field-guide/20-claude.md)
+
+Claude is a thoughtful AI helper that's especially good at reading and writing. Give it a long document and it
+understands it; ask it to write and it sounds natural. It can also make things you can use, like documents,
+spreadsheets and little apps, and it can even work on tasks on your computer while you do something else.
+
+### [21 · Microsoft Copilot: The Complete Guide 🪟](../part-2-ai-assistants-field-guide/21-microsoft-copilot.md)
+
+Copilot is the AI helper built into Windows computers and Microsoft's Office apps. Press the Copilot key and ask a
+question, show it your screen, or ask it to write in Word, make a formula in Excel or summarize your Outlook email. If you
+use a Windows PC for work or school, Copilot is probably the most convenient AI you've got.
+
+### [22 · Grok: The Complete Guide ⚡](../part-2-ai-assistants-field-guide/22-grok.md)
+
+Grok is an AI helper that lives inside X (the app that used to be Twitter) and also has its own app. It knows what
+people are posting about right now, it can be quite funny, and it can make pictures and short videos. Like any AI, check
+important facts, and be extra careful with images of real people.
+
+### [23 · Perplexity: The Complete Guide 🔎](../part-2-ai-assistants-field-guide/23-perplexity.md)
+
+Perplexity is like a librarian who runs off, reads lots of websites for you, and comes back with a short answer plus
+little numbered notes saying exactly where each fact came from. So you can check it! It's great for questions like
+"which vacuum should I buy?" or "what happened in the news today?"
+
+### [24 · Meta AI: The Complete Guide 👓](../part-2-ai-assistants-field-guide/24-meta-ai.md)
+
+Meta AI lives inside WhatsApp, Instagram and Facebook. You can chat with it like a friend, ask it to settle a debate in
+your group chat, make funny pictures, or ask your smart glasses "what am I looking at?" Just remember: Meta uses your AI
+chats to personalize what you see (including ads), so don't tell it secrets.
+
+### [25 · DeepSeek: The Complete Guide 🐋](../part-2-ai-assistants-field-guide/25-deepseek.md)
+
+DeepSeek is a free AI from a company in China. It's really good at thinking through problems, and it shows you its
+thinking. The company also shares its AI "brains" so anyone can use them. But the app stores your chats in China, so use
+it for general questions, not your private information.
+
+### [26 · Mistral Le Chat: The Complete Guide 🌬️](../part-2-ai-assistants-field-guide/26-mistral-le-chat.md)
+
+Le Chat ("the cat" in French 🐈) is an AI helper made by a company in France. It answers super quickly, remembers things
+about you if you want, can look things up, make pictures, and connect to your apps. Because it's European, it follows
+Europe's strict privacy rules.
+
+### [27 · Qwen, Kimi & the Global Assistants 🌏](../part-2-ai-assistants-field-guide/27-qwen-kimi-and-global-assistants.md)
+
+Lots of countries make AI helpers now, not just America. Some Chinese AIs, like Qwen and Kimi, are really good and even
+let anyone download their brains for free. Others are made for special languages, like the ones spoken in India or
+Korea. It's fun to try them, but think about which country your chats are stored in.
+
+### [28 · Apple Intelligence, Siri, Alexa+ & Built-In Assistants 🍎](../part-2-ai-assistants-field-guide/28-built-in-assistants.md)
+
+Your phone, speaker and TV have AI helpers built in: Siri on iPhones, Alexa on Echo speakers, Gemini on Android and
+Google speakers, and Galaxy AI on Samsung phones. They're great for quick, hands-free jobs like timers, messages,
+translation and controlling your lights, and they got much smarter recently.
+
+### [29 · Hubs & Specialty Chatbots 🧩](../part-2-ai-assistants-field-guide/29-hubs-and-specialty-chatbots.md)
+
+There are lots of smaller AI apps too. Some let you use many different AIs in one place, some are extra private, some let
+you chat with made-up characters, and some are special teachers for languages or school subjects. They can be great, but
+check who made them and what they do with your information.
+
+### [30 · Same Task, Every Assistant: Head-to-Head Showdowns 🥊](../part-2-ai-assistants-field-guide/30-head-to-head-showdowns.md)
+
+We give the same jobs to lots of AIs, like a cooking competition where every chef makes the same dish. Some are better at
+pictures, some at research, some at writing. The winner depends on the job, so it's smart to know which AI to ask for
+which job.
+
+### [31 · Using Several Assistants Together 🔀](../part-2-ai-assistants-field-guide/31-using-several-assistants.md)
+
+Using a few AIs is like having a team of friends with different talents: one is great at finding facts, one at writing,
+one at drawing. You can ask the fact-finder first, then give the facts to the writer. And if two friends agree on
+something, you can feel more confident it's right.
+
 ## 🧠 Part III · Foundations
 
 ### [32 · The Mental Model: From Chatbot to Teammate 🧠➡️🤖](../part-3-foundations/32-the-mental-model.md)

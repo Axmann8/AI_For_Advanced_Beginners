@@ -1,8 +1,8 @@
 # 14 · Myths, Fears & Big Questions 🤔
 
-> ⏱️ 15 min read · 🎯 Everyone, including skeptics and worriers · 🧰 Needs: an open mind
+> ⏱️ 9 min read · 🎯 Everyone, including skeptics and worriers · 🧰 Needs: an open mind
 
-**It's completely normal to feel excited *and* uneasy about AI.** Is it alive? Will it take my job? Is using it
+**It's completely normal to feel excited *and* uneasy about AI, and every big question deserves an honest answer.** Is it alive? Will it take my job? Is using it
 cheating? What about the planet, artists and privacy? Could it get out of control? This chapter takes each big question
 seriously and answers it honestly, without hype and without doom, so you can form your own views and explain them to
 the curious (or worried) people in your life.
@@ -273,4 +273,4 @@ throwaway images or videos.
 
 ---
 
-**Next:** [15 · Your First Week of Wins: 7 Mini-Projects →](15-your-first-week-of-wins.md)
+**Next:** [15 · Your First Week of Wins →](15-your-first-week-of-wins.md)

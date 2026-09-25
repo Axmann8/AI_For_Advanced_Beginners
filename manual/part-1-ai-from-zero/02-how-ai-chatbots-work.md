@@ -1,6 +1,6 @@
 # 02 · How AI Chatbots Work (No Math, Promise) 🧠
 
-> ⏱️ 12 min read · 🎯 Complete beginners · 🧰 Needs: nothing
+> ⏱️ 8 min read · 🎯 Complete beginners · 🧰 Needs: nothing
 
 **You don't need to understand engines to drive a car, but knowing a little about how chatbots work makes you
 dramatically better at using them.** In a few friendly pages you'll learn where the AI's knowledge comes from, why it

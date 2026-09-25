@@ -1,6 +1,6 @@
 # 07 · Prompting 102: Conversations, Follow-Ups & Fixing Bad Answers 🔁
 
-> ⏱️ 15 min read · 🎯 Beginners who've had a few chats · 🧰 Needs: any AI assistant
+> ⏱️ 8 min read · 🎯 Beginners who've had a few chats · 🧰 Needs: any AI assistant
 
 **The best AI users don't write perfect prompts. They have great conversations.** The first answer is a draft; the
 magic happens when you react, steer and refine. This chapter gives you a steering wheel of follow-up phrases, a
@@ -210,8 +210,8 @@ When a prompt works brilliantly, **save it**:
 
 - A simple **note** on your phone ("My AI prompts") is enough to start.
 - Put preferences you repeat into your **custom instructions** ([chapter 5](05-getting-set-up.md)).
-- Later, you'll turn favorite prompts into reusable helpers: **Custom GPTs** (ChatGPT), **Gems** (Gemini), **Projects**
-  (ChatGPT, Claude and others) and **Spaces** (Perplexity). Your assistant's
+- Later, you'll turn favorite prompts into reusable helpers: **Projects** (ChatGPT, Claude and others), **Gems**
+  (Gemini), **Spaces** (Perplexity) and **skills** (ChatGPT, Claude). Your assistant's
   [Field Guide chapter](../part-2-ai-assistants-field-guide/index.md) shows how.
 - For inspiration, raid the [Beginner's Prompt Cookbook](08-beginners-prompt-cookbook.md) and the big
   [Prompt Library](../appendices/d-prompt-library.md).
@@ -264,4 +264,4 @@ Ask for a **summary of what you've decided**, start a **new chat**, and paste th
 
 ---
 
-**Next:** [08 · The Beginner's Prompt Cookbook: 101 Prompts for Everyday Life →](08-beginners-prompt-cookbook.md)
+**Next:** [08 · The Beginner's Prompt Cookbook →](08-beginners-prompt-cookbook.md)

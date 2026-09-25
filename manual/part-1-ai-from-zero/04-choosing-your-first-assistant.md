@@ -1,9 +1,9 @@
 # 04 · Choosing Your First AI Assistant 🧭
 
-> ⏱️ 12 min read · 🎯 Complete beginners · 🧰 Needs: nothing (optional: 15 minutes to "taste test" two assistants)
+> ⏱️ 8 min read · 🎯 Complete beginners · 🧰 Needs: nothing (optional: 15 minutes to "taste test" two assistants)
 
-**ChatGPT? Gemini? Claude? Copilot? Grok? Perplexity? The choice feels huge, but here's a secret: there's no wrong
-answer.** All the big assistants are genuinely good, the free versions are plenty to start, and switching later is
+**Choosing between ChatGPT, Gemini, Claude, Copilot, Grok and Perplexity feels huge, but here's a secret: there's no
+wrong answer.** All the big assistants are genuinely good, the free versions are plenty to start, and switching later is
 easy. This chapter gives you a quick way to pick a favorite based on the phone you carry, the apps you already use and
 what you want help with, plus a 15-minute taste test so you can decide for yourself.
 
@@ -239,4 +239,4 @@ The **taste test**: give both the same three real prompts and score the answers.
 
 ---
 
-**Next:** [05 · Getting Set Up: Accounts, Apps & Plans →](05-getting-set-up.md)
+**Next:** [05 · Getting Set Up →](05-getting-set-up.md)

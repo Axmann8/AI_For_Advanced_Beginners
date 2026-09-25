@@ -1,6 +1,6 @@
 # 05 · Getting Set Up: Accounts, Apps & Plans 📲
 
-> ⏱️ 15 min read · 🎯 Complete beginners · 🧰 Needs: your chosen assistant, 10 minutes in its settings
+> ⏱️ 9 min read · 🎯 Complete beginners · 🧰 Needs: your chosen assistant, 10 minutes in its settings
 
 **A few minutes of setup makes every future conversation better.** This chapter covers where to use your assistant
 (phone, computer or browser), how to keep your account secure, the five settings worth checking on day one, how to tell
@@ -291,4 +291,4 @@ Use a **temporary / incognito chat** and **log out** when you're done.
 
 ---
 
-**Next:** [06 · Prompting 101: How to Ask So AI Gets It →](06-prompting-101.md)
+**Next:** [06 · Prompting 101 →](06-prompting-101.md)

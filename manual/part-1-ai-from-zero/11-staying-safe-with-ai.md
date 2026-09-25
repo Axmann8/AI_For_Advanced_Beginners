@@ -1,6 +1,6 @@
 # 11 · Staying Safe: Privacy, Scams & Deepfakes 🛡️
 
-> ⏱️ 15 min read · 🎯 Everyone, and especially anyone helping older relatives · 🧰 Needs: 10 minutes in your settings
+> ⏱️ 8 min read · 🎯 Everyone, and especially anyone helping older relatives · 🧰 Needs: 10 minutes in your settings
 
 **AI is safe to use when you follow a few simple rules, and knowing about AI makes you *much* harder to fool.** This
 chapter covers what never to share with a chatbot, the privacy switches worth flipping, the new wave of AI-powered scams
@@ -252,4 +252,4 @@ they look.
 
 ---
 
-**Next:** [12 · AI Everywhere: Phones, Speakers, Cars, Glasses & Browsers →](12-ai-everywhere.md)
+**Next:** [12 · AI Everywhere →](12-ai-everywhere.md)

@@ -1,6 +1,6 @@
 # 16 · Your 30-Day AI Starter Plan (and Where to Go Next) 🗓️
 
-> ⏱️ 10 min read, then 10 minutes a day · 🎯 Complete beginners who want a routine · 🧰 Needs: any AI assistant
+> ⏱️ 6 min read, then 10 minutes a day · 🎯 Complete beginners who want a routine · 🧰 Needs: any AI assistant
 
 **Thirty days, about ten minutes a day, and you'll go from "I've tried it" to "I use it without thinking."** This plan
 builds the habits that make AI genuinely useful: a little practice every day, a new skill each week, and a clear map of
@@ -102,7 +102,7 @@ In the last week you build your own helper, connect AI to your apps, and pick wh
 
 | Day | Do this | ✅ |
 |---|---|---|
-| 22 | **Build a reusable helper** (GPT, Gem, Project or Space) for something you do often | ☐ |
+| 22 | **Build a reusable helper** (Project, Gem, Space or skill) for something you do often | ☐ |
 | 23 | **Connect one app** (Gmail, Calendar, Drive or similar) and ask about your own stuff ([Built-in Connectors](../part-4-mcp-and-connectors/41-built-in-connectors.md)) | ☐ |
 | 24 | Have AI **critique your work** honestly (*"be brutally honest"*) | ☐ |
 | 25 | **Practice a conversation** in role-play (interview, negotiation, language) | ☐ |
@@ -205,4 +205,4 @@ exactly what the rest of the manual feeds.
 
 ---
 
-**Next:** [17 · Meet the Assistants: The Big Comparison →](../part-2-ai-assistants-field-guide/17-meet-the-assistants.md)
+**Next:** [17 · Meet the Assistants →](../part-2-ai-assistants-field-guide/17-meet-the-assistants.md)

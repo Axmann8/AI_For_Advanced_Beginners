@@ -110,6 +110,41 @@ nav:
       - "🧭 How to Use This Manual": start-here/a-how-to-use-this-manual.md
       - "⚡ Your First Hour": start-here/b-your-first-hour.md
       - "🗺️ The Big Map of AI (One-Page Overview)": start-here/c-the-big-map.md
+  - "🐣 Part I · AI from Zero":
+      - part-1-ai-from-zero/index.md
+      - "01 · What Is AI, Really?": part-1-ai-from-zero/01-what-is-ai-really.md
+      - "02 · How AI Chatbots Work (No Math, Promise)": part-1-ai-from-zero/02-how-ai-chatbots-work.md
+      - "03 · Your First AI Conversation, Step by Step": part-1-ai-from-zero/03-your-first-ai-conversation.md
+      - "04 · Choosing Your First AI Assistant": part-1-ai-from-zero/04-choosing-your-first-assistant.md
+      - "05 · Getting Set Up": part-1-ai-from-zero/05-getting-set-up.md
+      - "06 · Prompting 101": part-1-ai-from-zero/06-prompting-101.md
+      - "07 · Prompting 102": part-1-ai-from-zero/07-prompting-102.md
+      - "08 · The Beginner's Prompt Cookbook": part-1-ai-from-zero/08-beginners-prompt-cookbook.md
+      - "09 · Talk, Show & Snap": part-1-ai-from-zero/09-voice-photos-and-files.md
+      - "10 · When AI Gets It Wrong": part-1-ai-from-zero/10-when-ai-gets-it-wrong.md
+      - "11 · Staying Safe": part-1-ai-from-zero/11-staying-safe-with-ai.md
+      - "12 · AI Everywhere": part-1-ai-from-zero/12-ai-everywhere.md
+      - "13 · AI at Work for Beginners": part-1-ai-from-zero/13-ai-at-work-for-beginners.md
+      - "14 · Myths, Fears & Big Questions": part-1-ai-from-zero/14-myths-fears-and-big-questions.md
+      - "15 · Your First Week of Wins": part-1-ai-from-zero/15-your-first-week-of-wins.md
+      - "16 · Your 30-Day AI Starter Plan (and Where to Go Next)": part-1-ai-from-zero/16-your-30-day-plan.md
+  - "🤖 Part II · The AI Assistants Field Guide":
+      - part-2-ai-assistants-field-guide/index.md
+      - "17 · Meet the Assistants": part-2-ai-assistants-field-guide/17-meet-the-assistants.md
+      - "18 · ChatGPT": part-2-ai-assistants-field-guide/18-chatgpt.md
+      - "19 · Google Gemini": part-2-ai-assistants-field-guide/19-gemini.md
+      - "20 · Claude": part-2-ai-assistants-field-guide/20-claude.md
+      - "21 · Microsoft Copilot": part-2-ai-assistants-field-guide/21-microsoft-copilot.md
+      - "22 · Grok": part-2-ai-assistants-field-guide/22-grok.md
+      - "23 · Perplexity": part-2-ai-assistants-field-guide/23-perplexity.md
+      - "24 · Meta AI": part-2-ai-assistants-field-guide/24-meta-ai.md
+      - "25 · DeepSeek": part-2-ai-assistants-field-guide/25-deepseek.md
+      - "26 · Mistral Le Chat": part-2-ai-assistants-field-guide/26-mistral-le-chat.md
+      - "27 · Qwen, Kimi & the Global Assistants": part-2-ai-assistants-field-guide/27-qwen-kimi-and-global-assistants.md
+      - "28 · Apple Intelligence, Siri, Alexa+ & Built-In Assistants": part-2-ai-assistants-field-guide/28-built-in-assistants.md
+      - "29 · Hubs & Specialty Chatbots": part-2-ai-assistants-field-guide/29-hubs-and-specialty-chatbots.md
+      - "30 · Same Task, Every Assistant": part-2-ai-assistants-field-guide/30-head-to-head-showdowns.md
+      - "31 · Using Several Assistants Together": part-2-ai-assistants-field-guide/31-using-several-assistants.md
   - "🧠 Part III · Foundations":
       - part-3-foundations/index.md
       - "32 · The Mental Model": part-3-foundations/32-the-mental-model.md

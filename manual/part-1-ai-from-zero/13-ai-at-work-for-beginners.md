@@ -1,6 +1,6 @@
 # 13 · AI at Work for Beginners 💼
 
-> ⏱️ 15 min read · 🎯 Anyone with a job (or looking for one) · 🧰 Needs: your workplace's approved AI tool, or any assistant for practice
+> ⏱️ 7 min read · 🎯 Anyone with a job (or looking for one) · 🧰 Needs: your workplace's approved AI tool, or any assistant for practice
 
 **AI can take the grind out of work: the email you've been dreading, the meeting notes nobody wrote up, the spreadsheet
 formula you can never remember, the report that needs to be half as long by 5pm.** This chapter shows beginners how to
