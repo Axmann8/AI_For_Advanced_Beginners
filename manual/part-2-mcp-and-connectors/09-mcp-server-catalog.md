@@ -23,7 +23,7 @@ your smart home, a music app. Browse by category, pick a few that sound fun, and
 > ☁️ = remote (paste a URL, log in) · 🏠 = local (runs on your machine).
 > Endpoints and package names change, so when in doubt click through to the vendor's docs or search the
 > [official registry](https://registry.modelcontextprotocol.io). New to installing servers? Start with
-> [MCP Explained](07-mcp-explained.md#installing-servers-app-by-app).
+> [MCP Explained](07-mcp-explained.md#-installing-servers-app-by-app).
 
 ## 🧱 The starter pack (official reference servers)
 
@@ -137,7 +137,7 @@ can look things up and prepare actions for you to approve.
 > [!WARNING]
 > **⚠️ Money tools deserve Level 2 autonomy**
 > Anything that moves money, sends invoices or refunds should **always ask before acting**. Use test/sandbox modes while
-> experimenting. See [autonomy levels](../part-1-foundations/01-the-mental-model.md#autonomy-levels-from-autocomplete-to-autopilot).
+> experimenting. See [autonomy levels](../part-1-foundations/01-the-mental-model.md#-autonomy-levels-from-autocomplete-to-autopilot).
 
 ## 🔎 Web search, research & scraping
 

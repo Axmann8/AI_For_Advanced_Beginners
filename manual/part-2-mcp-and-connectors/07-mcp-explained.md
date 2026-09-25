@@ -64,7 +64,7 @@ and an [official server registry](https://registry.modelcontextprotocol.io).
 > **📌 Why the "USB-C" analogy works so well**
 > Before USB-C, every gadget had its own charger. Now one cable charges your phone, laptop and headphones. MCP does the
 > same for AI: one standard "port," endless things to plug in. The analogy even covers the downside, because a cheap
-> USB-C cable from a sketchy shop can fry your laptop. Same with random MCP servers (see [Security](#security-hygiene-the-quick-version)).
+> USB-C cable from a sketchy shop can fry your laptop. Same with random MCP servers (see [Security](#-security-hygiene-the-quick-version)).
 
 ## 🏠 The three roles: host, client, server
 

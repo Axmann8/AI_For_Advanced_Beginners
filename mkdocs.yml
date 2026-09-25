@@ -54,6 +54,10 @@ theme:
     - toc.follow
     - toc.integrate
 
+validation:
+  anchors: warn
+  unrecognized_links: warn
+
 hooks:
   - scripts/mkdocs_hooks.py
 
@@ -125,10 +129,14 @@ nav:
       - "13 · The MCP Recipe Book": part-2-mcp-and-connectors/13-mcp-recipe-book.md
   - "⚙️ Part III · Automation":
       - part-3-automation/index.md
-      - "09 · Automation Platforms": part-3-automation/14-automation-platforms.md
-      - "12 · Webhooks, APIs & JSON for Non-Programmers": part-3-automation/15-webhooks-apis-json.md
-      - "10 · The n8n Masterclass": part-3-automation/16-n8n-masterclass.md
-      - "11 · Zapier & Make Walkthroughs": part-3-automation/18-zapier-and-make-walkthroughs.md
+      - "14 · Automation Platforms": part-3-automation/14-automation-platforms.md
+      - "15 · Webhooks, APIs & JSON for Non-Programmers": part-3-automation/15-webhooks-apis-json.md
+      - "16 · The n8n Masterclass": part-3-automation/16-n8n-masterclass.md
+      - "17 · n8n AI Agents Deep Dive": part-3-automation/17-n8n-ai-agents.md
+      - "18 · Zapier & Make Walkthroughs": part-3-automation/18-zapier-and-make-walkthroughs.md
+      - "19 · Phone & Desktop Automation": part-3-automation/19-phone-and-desktop-automation.md
+      - "20 · Web Scraping & Monitoring with AI": part-3-automation/20-web-scraping-and-monitoring.md
+      - "21 · The Automation Recipe Book": part-3-automation/21-automation-recipe-book.md
   - "🏡 Part IV · AI in Your Apps":
       - part-4-ai-in-your-apps/index.md
       - "13 · AI Inside the Apps You Already Use": part-4-ai-in-your-apps/22-ai-in-your-apps.md

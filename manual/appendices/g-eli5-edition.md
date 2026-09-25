@@ -100,6 +100,54 @@ replies all at once.
 
 ## ⚙️ Part III · Automation
 
+### [14 · Automation Platforms: AI That Works While You Sleep ⚙️🌙](../part-3-automation/14-automation-platforms.md)
+
+An automation is a robot recipe: **"When this happens, do that."** When an email arrives, summarize it and put it in my
+notes. Every morning, send me the news. Automation platforms (Zapier, Make, n8n…) are kitchens where you build these
+recipes by connecting blocks, and adding an AI block lets the robot *think*: sort, summarize, write and decide.
+
+### [15 · Webhooks, APIs & JSON for Non-Programmers 🌐📦](../part-3-automation/15-webhooks-apis-json.md)
+
+**JSON** is a neat way of writing information with labels, like a form: `name: Pixel, species: cat`. An **API** is an app's
+front desk, where you ask it for something in a polite, exact way and it answers with JSON. A **webhook** is a doorbell: when
+something happens in one app, it rings your doorbell (a special web address) so your robot can spring into action.
+
+### [16 · The n8n Masterclass 🟣⚙️](../part-3-automation/16-n8n-masterclass.md)
+
+n8n is a big LEGO board for robot recipes. Each LEGO brick (a "node") does one thing: check email, ask Claude, post to
+Slack. You snap them together left to right, and information flows through them like water through pipes. You can run the
+whole board on your own computer for free.
+
+### [17 · n8n AI Agents Deep Dive 🤖🟣](../part-3-automation/17-n8n-ai-agents.md)
+
+A normal n8n recipe follows fixed steps. An **AI Agent brick** is a little brain inside the recipe that decides for itself
+which tools to use, like a helper you can text: "What's on tomorrow, and add 'buy a birthday card' before my 3pm meeting."
+It checks your calendar, adds the task and texts you back. You give it a brain (model), a memory and a toolbox.
+
+### [18 · Zapier & Make Walkthroughs 🟠🟦](../part-3-automation/18-zapier-and-make-walkthroughs.md)
+
+Zapier and Make are robot-recipe kitchens you use in your web browser. **Zapier** is like a simple recipe card: step 1, step
+2, step 3. **Make** is like drawing a map with bubbles and arrows, so recipes can split and loop. Both can add AI to any
+step, and Zapier can even hand your AI chat a remote control for thousands of apps.
+
+### [19 · Phone & Desktop Automation: Shortcuts, Tasker, Raycast & Friends 📱💻](../part-3-automation/19-phone-and-desktop-automation.md)
+
+Your phone and computer can have **magic buttons**. Press one, or say a phrase, and a little robot recipe runs: it listens to
+your idea, asks an AI to tidy it up, and puts it in your notes. Or it reads a receipt photo and logs it. Or it turns whatever
+you copied into a summary. This chapter shows you how to make those buttons.
+
+### [20 · Web Scraping & Monitoring with AI 🕸️👀](../part-3-automation/20-web-scraping-and-monitoring.md)
+
+Scraping means having a robot visit web pages and copy the important bits for you, like a friend who checks the toy store
+website every morning and texts you when your favorite toy goes on sale. AI makes this easy because it can *read* a messy
+page like a person and pull out exactly what you asked for.
+
+### [21 · The Automation Recipe Book: 50 Workflows to Steal 🍳⚙️](../part-3-automation/21-automation-recipe-book.md)
+
+A cookbook with fifty robot recipes. Each one says what starts it (like "a new email arrives"), what the robot does (like
+"ask AI to summarize it"), and what you get (like "a tidy note in your to-do app"). Find the recipe for the chore you hate
+most and build that one first!
+
 ## 🏡 Part IV · AI in Your Apps
 
 ## 🛠️ Part V · Building with AI

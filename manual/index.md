@@ -11,13 +11,13 @@ all in real life, with an 🧸 **ELI5 for everything**.
 [🚀 Start here](start-here/a-how-to-use-this-manual.md "button-primary") [⚡ Your first hour](start-here/b-your-first-hour.md "button") [🗺️ The big map](start-here/c-the-big-map.md "button")
 
 <!-- stats:start -->
-<div class="hero-stats"><div class="stat"><strong>46</strong><span>chapters</span></div><div class="stat"><strong>164</strong><span>ELI5 explanations 🧸</span></div><div class="stat"><strong>52</strong><span>quiz questions</span></div><div class="stat"><strong>16</strong><span>try-this challenges</span></div><div class="stat"><strong>8</strong><span>starter kits</span></div><div class="stat"><strong>62k</strong><span>words of fun</span></div></div>
+<div class="hero-stats"><div class="stat"><strong>50</strong><span>chapters</span></div><div class="stat"><strong>259</strong><span>ELI5 explanations 🧸</span></div><div class="stat"><strong>75</strong><span>quiz questions</span></div><div class="stat"><strong>24</strong><span>try-this challenges</span></div><div class="stat"><strong>8</strong><span>starter kits</span></div><div class="stat"><strong>72k</strong><span>words of fun</span></div></div>
 <!-- stats:end -->
 
 </div>
 
 <!-- progress:start -->
-<div class="progress-tracker" data-total="46"></div>
+<div class="progress-tracker" data-total="50"></div>
 <!-- progress:end -->
 
 ## 🧭 Pick your path
@@ -119,7 +119,7 @@ Each part has its own landing page with an ELI5, a suggested path, and clickable
 
     ---
 
-    <span class="card-meta">4 chapters</span>
+    <span class="card-meta">8 chapters</span>
 
     AI that works while you sleep: automation platforms, webhooks and APIs explained gently, the n8n masterclass, AI agents inside workflows, Zapier and Make walkthroughs, phone shortcuts, web scraping, and a recipe book of 50 ready-made workflows.
 

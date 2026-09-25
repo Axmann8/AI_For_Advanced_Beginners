@@ -28,29 +28,69 @@ also *think* a little: sort things, write things, decide things.
 <!-- chapters:start -->
 <div class="grid cards clickable" markdown>
 
--   **[09 · Automation Platforms: AI That Works While You Sleep ⚙️🌙](14-automation-platforms.md)**
+-   **[14 · Automation Platforms: AI That Works While You Sleep ⚙️🌙](14-automation-platforms.md)**
 
     ---
+
+    <span class="card-meta">⏱️ 8 min read · 🎯 Beginner-friendly</span>
 
     Chat-based AI needs you to press enter. Automation platforms run on triggers: a new email, a form submission, 7am every day, a webhook.
 
--   **[12 · Webhooks, APIs & JSON for Non-Programmers 🌐](15-webhooks-apis-json.md)**
+-   **[15 · Webhooks, APIs & JSON for Non-Programmers 🌐📦](15-webhooks-apis-json.md)**
 
     ---
+
+    <span class="card-meta">⏱️ 8 min read · 🎯 Beginner-friendly, no coding required</span>
 
     Three concepts unlock everything in automation and AI integrations: JSON (how data looks), APIs (how apps talk), and webhooks (how apps poke each other).
 
--   **[10 · The n8n Masterclass 🟣](16-n8n-masterclass.md)**
+-   **[16 · The n8n Masterclass 🟣⚙️](16-n8n-masterclass.md)**
 
     ---
 
-    n8n is the playground where automation meets AI agents, and because you can self-host it for free, you can experiment without watching a meter.
+    <span class="card-meta">⏱️ 7 min read · 🎯 Beginner → intermediate</span>
 
--   **[11 · Zapier & Make Walkthroughs 🟠🟦](18-zapier-and-make-walkthroughs.md)**
+    n8n is the playground where automation meets AI, and because you can self-host it for free, you can experiment without watching a meter.
+
+-   **[17 · n8n AI Agents Deep Dive 🤖🟣](17-n8n-ai-agents.md)**
 
     ---
 
-    n8n is the tinkerer's tool. Zapier and Make are the fastest paths from idea to working automation, with no servers and no code, and giant app catalogs.
+    <span class="card-meta">⏱️ 9 min read · 🎯 Intermediate</span>
+
+    The AI Agent node puts a full tool-using agent inside a workflow, with any model, memory, tools, MCP, RAG, structured output and human approvals.
+
+-   **[18 · Zapier & Make Walkthroughs 🟠🟦](18-zapier-and-make-walkthroughs.md)**
+
+    ---
+
+    <span class="card-meta">⏱️ 6 min read · 🎯 Beginner-friendly, no code</span>
+
+    n8n is the tinkerer's tool. Zapier and Make are the fastest paths from idea to working automation: no servers, no code, giant app catalogs.
+
+-   **[19 · Phone & Desktop Automation: Shortcuts, Tasker, Raycast & Friends 📱💻](19-phone-and-desktop-automation.md)**
+
+    ---
+
+    <span class="card-meta">⏱️ 8 min read · 🎯 Beginner-friendly</span>
+
+    The most personal automations live on the devices in your pocket and on your desk. With one tap, a voice command, a location or a keyboard shortcut, you can send AI your thoughts, photos, clipboard or screen and get something useful back instantly.
+
+-   **[20 · Web Scraping & Monitoring with AI 🕸️👀](20-web-scraping-and-monitoring.md)**
+
+    ---
+
+    <span class="card-meta">⏱️ 7 min read · 🎯 Beginner → intermediate</span>
+
+    A huge amount of useful information lives on web pages with no API: prices, job posts, event listings, government notices, product restocks, competitor updates.
+
+-   **[21 · The Automation Recipe Book: 50 Workflows to Steal 🍳⚙️](21-automation-recipe-book.md)**
+
+    ---
+
+    <span class="card-meta">⏱️ 7 min read (or grab one recipe!) · 🎯 Everyone</span>
+
+    Fifty ready-to-build AI automations, each written as trigger → steps → result, grouped by life area, and rated by difficulty.
 
 </div>
 <!-- chapters:end -->

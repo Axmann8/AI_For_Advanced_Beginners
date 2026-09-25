@@ -142,6 +142,53 @@ def chapter_eli5(text: str) -> str:
     return m.group(1).strip() if m else ""
 
 
+# ---------------------------------------------------------------- anchor fixing ---
+def _slugger():
+    try:
+        from pymdownx.slugs import slugify
+        return slugify(case="lower")
+    except Exception:  # pymdown-extensions not installed: skip anchor fixing
+        return None
+
+
+def heading_slugs(text: str, slug) -> set[str]:
+    slugs = set()
+    for m in re.finditer(r"^#{1,6} (.+)$", strip_code(text), re.M):
+        title = re.sub(r"\[([^\]]+)\]\([^)]*\)", r"\1", m.group(1))
+        title = re.sub(r"[`*_]", "", title).strip()
+        slugs.add(slug(title, "-"))
+    return slugs
+
+
+def fix_anchors(pages: list[Page]) -> int:
+    """Make section links match real heading ids (e.g. emoji headings get a leading '-')."""
+    slug = _slugger()
+    if slug is None:
+        return 0
+    by_path = {p.path.resolve(): heading_slugs(p.text, slug) for p in pages}
+    fixed = 0
+    for p in pages:
+        text = p.text
+
+        def repair(m):
+            nonlocal fixed
+            target, frag = m.group(1), m.group(2)
+            dest = (p.path.parent / target).resolve() if target else p.path.resolve()
+            slugs = by_path.get(dest)
+            if not slugs or frag in slugs:
+                return m.group(0)
+            for candidate in (f"-{frag}", frag.lstrip("-")):
+                if candidate in slugs:
+                    fixed += 1
+                    return f"]({target}#{candidate})"
+            return m.group(0)
+
+        new = re.sub(r"\]\(((?:[^)#\s]+\.md)?)#([^)\s]+)\)", repair, text)
+        if new != text:
+            p.path.write_text(new, encoding="utf-8")
+    return fixed
+
+
 # ------------------------------------------------------------------------- lint ---
 def lint(pages: list[Page]) -> list[str]:
     problems, seen_numbers = [], {}
@@ -368,6 +415,9 @@ def main() -> int:
     problems = lint(pages)
     covered, total, missing = eli5_coverage(pages)
     if not check_only:
+        fixed = fix_anchors(pages)
+        if fixed:
+            print(f"🔗 fixed {fixed} section link(s)")
         for p in pages:
             if p.is_chapter:
                 sync_reading_time(p)

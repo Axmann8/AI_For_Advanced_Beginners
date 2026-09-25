@@ -164,7 +164,7 @@ Tell the AI which buttons it can press freely (like "search") and which ones it 
 | Deleting, overwriting, paying, changing permissions | 🔴 **Ask every time** or don't enable |
 
 Good servers set **tool annotations** (read-only, destructive) so hosts can apply these rules automatically. Map this to the
-[autonomy levels](../part-1-foundations/01-the-mental-model.md#autonomy-levels-from-autocomplete-to-autopilot): new setups
+[autonomy levels](../part-1-foundations/01-the-mental-model.md#-autonomy-levels-from-autocomplete-to-autopilot): new setups
 start at Level 2.
 
 ## 🏢 Gateways & enterprise controls

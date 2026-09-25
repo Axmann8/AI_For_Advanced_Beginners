@@ -110,7 +110,7 @@ await server.connect(new StdioServerTransport());
 ```
 
 The SDKs read your **names, types and descriptions** and turn them into the tool's JSON Schema, which is exactly what the
-model sees ([MCP Under the Hood](08-mcp-under-the-hood.md#tools-up-close)).
+model sees ([MCP Under the Hood](08-mcp-under-the-hood.md#-tools-up-close)).
 
 > [!NOTE]
 > **📌 SDK versions**
