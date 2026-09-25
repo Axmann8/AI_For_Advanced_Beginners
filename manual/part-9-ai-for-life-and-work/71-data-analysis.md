@@ -254,4 +254,4 @@ So the agent **can't accidentally change or delete** data while analyzing it.
 
 ---
 
-**Next:** [37 · Safety, Costs & Gotchas →](../part-10-mastery/72-safety-costs-and-gotchas.md)
+**Next:** [72 · Safety, Costs & Gotchas →](../part-10-mastery/72-safety-costs-and-gotchas.md)

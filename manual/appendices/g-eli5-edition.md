@@ -483,6 +483,61 @@ you. It's like having a detective for numbers. 🕵️📊
 
 ## 🏆 Part X · Mastery
 
+### [72 · Safety, Costs & Gotchas: Play Hard, Play Smart 🛡️💸](../part-10-mastery/72-safety-costs-and-gotchas.md)
+
+AI is like a super-helpful robot with a few quirks: sometimes it makes things up, sometimes tricky people hide sneaky
+instructions for it, and if you let it run all day it can cost money. This chapter is the safety rules, like wearing a
+helmet on a bike. Wear the helmet, and then you can ride as fast and far as you like! 🚲⛑️
+
+### [73 · Privacy & Your Data: Use AI Without Oversharing 🔒🧠](../part-10-mastery/73-privacy-and-your-data.md)
+
+When you tell an AI something, it's a bit like writing it on a postcard: it travels to the AI company's computers. Most of the
+time that's fine. But some things, like passwords, secret family stuff or bank numbers, you'd never write on a postcard. This
+chapter teaches you which things are OK to share, which settings to switch on, and how to use AI that stays on your own
+computer for the really secret stuff. 📮🔐
+
+### [74 · Evaluating & Comparing AI: Evals for Normal People 🧪⚖️](../part-10-mastery/74-evaluating-ai.md)
+
+Imagine you want to find the best pizza place in town. You wouldn't trust one ad. You'd try a few, order the same pizza at each,
+and score them. **Evals** are the same for AI: give several AIs the same real jobs, score the answers fairly (without peeking at
+which AI made which), and see which one does best for *your* needs. 🍕🏆
+
+### [75 · Cost Optimization Deep Dive: Same Magic, Smaller Bill 💸📉](../part-10-mastery/75-cost-optimization.md)
+
+Using AI is a bit like using electricity: every little bit costs a tiny amount, and it adds up if you leave the lights on. This
+chapter teaches you to switch off lights you don't need, use cheaper bulbs for small rooms, and save the super-bright ones for
+when you really need them. Same brightness where it matters, smaller bill. 💡💰
+
+### [76 · AI Ethics for Builders: Build Things You're Proud Of 🌍🤝](../part-10-mastery/76-ai-ethics-for-builders.md)
+
+When you build something with AI, it's like inviting people to play in a treehouse you made. You want it to be **safe** (no
+broken boards), **fair** (everyone can climb up), **honest** (no hidden tricks), and **kind** (it doesn't take things that
+aren't yours). This chapter is a checklist for building a treehouse everyone's happy to play in. 🌳🏠
+
+### [77 · Teaching Others About AI: Pass the Magic On 🧑‍🏫✨](../part-10-mastery/77-teaching-others.md)
+
+When you learn a cool magic trick, it's fun to teach your friends! Teaching AI works best when you show people something that
+helps **them** (not you), use simple comparisons they understand, answer their worries honestly, and let them try it themselves
+right away. Soon they'll be teaching others too. 🪄👫
+
+### [78 · Turning AI Skills into Income 💼💰](../part-10-mastery/78-turning-ai-skills-into-income.md)
+
+You've learned to make AI robots that do helpful jobs. Lots of people and businesses would love a robot like that but don't know
+how to build one. You can help them, and they can pay you! Start small, show what you've built, be honest about what it can do,
+and your skills can become a job, a side business or a raise. 🧑‍🔧💰
+
+### [79 · Staying Current Without Drowning 🌊📰](../part-10-mastery/79-staying-current.md)
+
+AI news is like a firehose: way too much water to drink! Instead of trying to drink it all, you use a little cup: a few minutes
+a day of news, one new thing to try each week, and a bigger learning session each month. That way you keep growing without
+getting overwhelmed. 🥤🌱
+
+### [80 · Where This Is All Heading 🔭✨](../part-10-mastery/80-where-this-is-heading.md)
+
+AI is growing up fast. Soon it will do more jobs by itself, plug into almost every app, see and hear the world, remember what
+matters to you, and help anyone build their own apps. The most important skills for people will be: explaining clearly what
+you want, checking the work, and being kind and wise about how AI is used. You've been practicing all of those! 🌟
+
 ---
 
 **You made it to the end! 🎉** [Back to the manual home ↩](../index.md)
