@@ -9,7 +9,7 @@ can run in minutes.
 
 There's no "what is a large language model" and no "10 rules for better prompts." You've got that. This is what comes next.
 
-> 📖 **Read it as a website:** [axmann8.github.io/claude_cloud_trial_credits](https://axmann8.github.io/AI_For_Advanced_Beginners/)
+> 📖 **Read it as a website:** [axmann8.github.io/AI_For_Advanced_Beginners](https://axmann8.github.io/AI_For_Advanced_Beginners/)
 > (searchable, dark mode, progress tracking, plus a one-file `MANUAL.md` download), or browse [`manual/`](manual/index.md)
 > right here on GitHub.
 >
