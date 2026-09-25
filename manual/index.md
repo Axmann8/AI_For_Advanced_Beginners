@@ -11,13 +11,13 @@ all in real life, with an 🧸 **ELI5 for everything**.
 [🚀 Start here](start-here/a-how-to-use-this-manual.md "button-primary") [⚡ Your first hour](start-here/b-your-first-hour.md "button") [🗺️ The big map](start-here/c-the-big-map.md "button")
 
 <!-- stats:start -->
-<div class="hero-stats"><div class="stat"><strong>69</strong><span>chapters</span></div><div class="stat"><strong>661</strong><span>ELI5 explanations 🧸</span></div><div class="stat"><strong>187</strong><span>quiz questions</span></div><div class="stat"><strong>64</strong><span>try-this challenges</span></div><div class="stat"><strong>8</strong><span>starter kits</span></div><div class="stat"><strong>126k</strong><span>words of fun</span></div></div>
+<div class="hero-stats"><div class="stat"><strong>76</strong><span>chapters</span></div><div class="stat"><strong>776</strong><span>ELI5 explanations 🧸</span></div><div class="stat"><strong>223</strong><span>quiz questions</span></div><div class="stat"><strong>76</strong><span>try-this challenges</span></div><div class="stat"><strong>8</strong><span>starter kits</span></div><div class="stat"><strong>142k</strong><span>words of fun</span></div></div>
 <!-- stats:end -->
 
 </div>
 
 <!-- progress:start -->
-<div class="progress-tracker" data-total="69"></div>
+<div class="progress-tracker" data-total="76"></div>
 <!-- progress:end -->
 
 ## 🧭 Pick your path
@@ -167,7 +167,7 @@ Each part has its own landing page with an ELI5, a suggested path, and clickable
 
     ---
 
-    <span class="card-meta">5 chapters</span>
+    <span class="card-meta">12 chapters</span>
 
     Put it all to work in real life: research and learning, writing, small business, careers, life admin, money, health, family and school, travel, home and cooking, accessibility, and data analysis for everyone.
 

@@ -408,6 +408,79 @@ read," like a friendly design teacher. 🎨🧑‍🏫
 
 ## 🌱 Part IX · AI for Life & Work
 
+### [60 · AI for Research & Learning: Learn Anything Faster 🔬🎓](../part-9-ai-for-life-and-work/60-research-and-learning.md)
+
+Imagine a super-patient teacher who knows a little about everything, never gets tired of your questions, and can explain things
+with dinosaurs, football or cooking, whatever you love. That's AI as a tutor. It can also be a research helper that reads
+lots of articles and tells you what they say. The trick is to make it help you *think*, not think *for* you, like a coach
+who spots you at the gym instead of lifting the weights. 🏋️
+
+### [61 · AI for Writing & Content Creators ✍️📣](../part-9-ai-for-life-and-work/61-writing-and-content.md)
+
+Writing with AI is like having a really good friend read your work. They help you find ideas when you're stuck, tell you which
+parts are confusing, fix spelling, and turn one story into lots of little posts. But the ideas, the jokes and the way you talk
+are **yours**. That's what makes people want to read it. ✍️💛
+
+### [62 · AI for Small Business & Side Hustles 🏪🚀](../part-9-ai-for-life-and-work/62-small-business.md)
+
+Running a small business means doing a hundred jobs: making things, selling them, answering questions, sending bills,
+posting on social media. AI can be your little team of helpers for the boring jobs, writing posts, answering common
+questions and sorting receipts, so you have more time for the parts you love, like baking the cakes or fixing the pipes. 🎂
+
+### [63 · Careers & Job Hunting with AI 💼🚀](../part-9-ai-for-life-and-work/63-careers-and-job-hunting.md)
+
+Finding a job is like a big quest. AI can be your quest guide: it helps you figure out which jobs would make you happy,
+makes your résumé shine for each job (without fibbing!), pretends to be the interviewer so you can practice, and helps you
+ask for a fair salary. You still do the talking and the deciding, but you'll feel way more ready. 🗺️✨
+
+### [64 · Life Admin & Personal Productivity 🏡✅](../part-9-ai-for-life-and-work/64-life-admin-and-productivity.md)
+
+Grown-ups have lots of little boring jobs: paying bills, filling forms, remembering birthdays, planning the week. AI is like a
+helpful organizer friend who reads confusing letters and explains them, makes your to-do list less scary, and reminds you of
+important things before you forget. You still decide everything, but your brain feels much lighter. 🎈
+
+### [65 · Money & Personal Finance with AI 💸📊](../part-9-ai-for-life-and-work/65-money-and-personal-finance.md)
+
+Money can feel confusing, like a jigsaw puzzle with lots of pieces. AI can help sort the pieces: show you where your money goes
+each month, help you make a plan to save for something you want, and explain grown-up money words like "interest" in simple
+ways. It's like a friendly teacher for money, but for the really big choices, you still ask a real expert. 🐷💰
+
+### [66 · Health, Fitness & Wellbeing with AI 🏃‍♀️💚](../part-9-ai-for-life-and-work/66-health-fitness-and-wellbeing.md)
+
+AI can be like a friendly helper for staying healthy: it can make you a fun exercise plan, suggest healthy dinners, explain
+what a doctor's words mean, and help you think of questions to ask at your checkup. But it's not a real doctor, so for anything
+serious, or if you feel really sad or unwell, you always talk to a real person who can help. 🩺🤗
+
+### [67 · Parents, Teachers & Students: AI for Learning Together 👨‍👩‍👧🍎](../part-9-ai-for-life-and-work/67-parents-teachers-and-students.md)
+
+AI can be an amazing homework helper, as long as it helps you *learn* instead of just giving you the answers. It's like having a
+tutor who gives hints and asks questions instead of doing your homework for you. For grown-ups, AI can help make lessons,
+quizzes and fun activities, and help explain school stuff to kids in ways they understand. 📚✨
+
+### [68 · Travel & Adventures with AI ✈️🗺️](../part-9-ai-for-life-and-work/68-travel-and-adventures.md)
+
+Planning a trip is like planning a treasure hunt: where to go, how to get there, what to pack, what to see. AI can help with
+all of it: suggest cool places, make a day-by-day plan, tell you what clothes to bring, help you say "hello" and "thank you" in
+another language, and even read a menu written in a language you don't know. 🍝🗼
+
+### [69 · Home, Cooking & DIY with AI 🏠🍳🔧](../part-9-ai-for-life-and-work/69-home-cooking-and-diy.md)
+
+Take a photo of anything in your house and ask AI about it: "what can I cook with this?", "what is this broken thing?", "why
+are my plant's leaves yellow?" It explains, gives you step-by-step instructions, and warns you when a job is dangerous and you
+should call a grown-up expert, like an electrician. 📸🔧
+
+### [70 · Accessibility & AI: Technology That Includes Everyone ♿💜](../part-9-ai-for-life-and-work/70-accessibility-and-ai.md)
+
+Some people can't see, hear, speak, move or focus the way others do. AI can help: it can describe a picture out loud to
+someone who can't see it, write down what people are saying for someone who can't hear, speak for someone who has lost their
+voice, and turn big scary jobs into small easy steps. It helps everyone join in. 🤝🌈
+
+### [71 · Data Analysis for Everyone: From CSV to Dashboard 📊🐍](../part-9-ai-for-life-and-work/71-data-analysis.md)
+
+Data is just a big table of numbers and words, like a list of everything you bought last year. AI can read the whole table in
+seconds and answer questions like "what did I spend the most on?" or "which month was the busiest?", then draw a chart to show
+you. It's like having a detective for numbers. 🕵️📊
+
 ## 🏆 Part X · Mastery
 
 ---

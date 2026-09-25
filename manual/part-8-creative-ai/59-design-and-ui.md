@@ -240,4 +240,4 @@ It settles **layout and hierarchy** without being distracted by colors and detai
 
 ---
 
-**Next:** [32 · AI for Research & Learning →](../part-9-ai-for-life-and-work/60-research-and-learning.md)
+**Next:** [60 · AI for Research & Learning →](../part-9-ai-for-life-and-work/60-research-and-learning.md)
