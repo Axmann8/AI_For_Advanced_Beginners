@@ -1,0 +1,38 @@
+{
+  "name": "@your-github-username/weather-buddy-mcp",
+  "version": "1.0.0",
+  "description": "Weather Buddy: current weather, forecasts and packing advice for any city, as an MCP server (free Open-Meteo data, no API key).",
+  "mcpName": "io.github.your-github-username/weather-buddy",
+  "type": "module",
+  "bin": {
+    "weather-buddy-mcp": "server.mjs"
+  },
+  "files": [
+    "server.mjs",
+    "README.md"
+  ],
+  "scripts": {
+    "start": "node server.mjs",
+    "http": "node server.mjs --http",
+    "test": "node smoke-test.mjs",
+    "inspect": "npx @modelcontextprotocol/inspector node server.mjs"
+  },
+  "keywords": [
+    "mcp",
+    "model-context-protocol",
+    "weather",
+    "claude"
+  ],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/your-github-username/weather-buddy-mcp.git"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.30.1",
+    "zod": "^4.0.0"
+  }
+}

@@ -1,0 +1,5 @@
+# One RSS or Atom feed URL per line. Lines starting with # are ignored.
+https://simonwillison.net/atom/everything/
+https://hnrss.org/newest?q=AI+OR+LLM+OR+MCP&points=100
+https://huggingface.co/blog/feed.xml
+https://importai.substack.com/feed

@@ -1,7 +1,7 @@
 # ⚡ Importable n8n Workflows
 
-Two starter automations you can import into [n8n](https://n8n.io) in about 30 seconds and then
-remix. Both use Claude as the "brain", and you can swap in any model n8n supports.
+Starter automations you can import into [n8n](https://n8n.io) in about 30 seconds and then
+remix. They all use Claude as the "brain", and you can swap in any model n8n supports.
 
 ## How to import
 1. In n8n, create a new workflow.
@@ -62,6 +62,38 @@ curl -X POST "http://localhost:5678/webhook-test/idea-inbox" \
 - Trigger it from an **iOS Shortcut** or **Android Tasker**, and dictate ideas by voice straight into Notion. 🤯
 - Add an **If** node so "High" priority ideas also ping you on Slack.
 - Swap Notion for **Airtable**, **Google Sheets**, or **Todoist**.
+
+---
+
+## 📱 3. Pocket AI Assistant on Telegram: [`telegram-pocket-assistant.json`](telegram-pocket-assistant.json)
+
+```
+📱 Telegram message → 🔒 only you? → 🤖 Pip (AI Agent + memory + calendar + calculator) → 📱 reply
+```
+
+Your own AI assistant in your pocket: it remembers the conversation, checks your Google Calendar, adds events after you
+confirm, and does math. Strangers get ignored.
+
+**Setup:** create a bot with **@BotFather**, add the token as a Telegram credential, paste **your** Telegram user ID (ask
+@userinfobot) into the **Only me? 🔒** node, and connect Anthropic and Google Calendar credentials. The full walkthrough is
+[Build-Along: Your Pocket AI Assistant](../../manual/part-11-build-alongs/81-build-along-pocket-ai-assistant.md).
+
+## 📞 4. Voice Receptionist Tools: [`voice-receptionist-tools.json`](voice-receptionist-tools.json)
+
+```
+🌐 POST /receptionist/check-availability {date}      → 📅 that day's events → 🧮 free 30-min slots → 💬 spoken-style reply
+🌐 POST /receptionist/book-appointment {name, phone, start, notes} → 📅 create event → ✅ confirmation
+```
+
+Two webhook "tools" a voice agent (Vapi, Retell, ElevenLabs Agents…) can call mid-conversation. Set your business hours and
+timezone at the top of the **Find free slots** node.
+
+```bash
+curl -X POST "http://localhost:5678/webhook-test/receptionist/check-availability" \
+  -H "Content-Type: application/json" -d '{"date": "2026-10-01"}'
+```
+
+Full walkthrough: [Build-Along: An AI Voice Receptionist](../../manual/part-11-build-alongs/88-build-along-voice-receptionist.md).
 
 ---
 

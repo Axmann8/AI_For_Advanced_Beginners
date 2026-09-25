@@ -1,0 +1,18 @@
+{% extends "main.html" %}
+
+{% block content %}
+  <div class="not-found">
+    <div class="not-found__emoji">🤖🌀</div>
+    <h1>404 · This page wandered off</h1>
+    <p>
+      Like an agent without a turn limit, this link went somewhere unexpected.
+      The manual was <strong>massively expanded</strong> and chapters were renumbered,
+      so your link is probably from the old layout. Everything is still here, just better organized!
+    </p>
+    <p>
+      <a class="md-button md-button--primary" href="{{ config.site_url | d(base_url) }}">🏠 Take me home</a>
+      <a class="md-button" href="{{ config.site_url | d(base_url) }}start-here/a-how-to-use-this-manual/">🧭 How to use the manual</a>
+    </p>
+    <p>Tip: press <kbd>/</kbd> or <kbd>s</kbd> to search every chapter.</p>
+  </div>
+{% endblock %}

@@ -18,7 +18,7 @@ Your own **private ChatGPT-style assistant** plus an **automation engine**, runn
 ```bash
 cd examples/homelab
 docker compose up -d                              # first run downloads the images (a few minutes)
-docker compose exec ollama ollama pull gemma3     # grab a model (or llama3.2, qwen3, mistral…)
+docker compose exec ollama ollama pull gemma4     # grab a model (or qwen3.6:27b, gpt-oss:20b, mistral…)
 ```
 
 1. Open **http://localhost:3000** → create the admin account → pick your model → chat! 🎉
@@ -53,4 +53,4 @@ docker compose down                # stop (your data stays in volumes)
   For remote access, use **Tailscale** (private network) instead of port-forwarding.
 - Back up the Docker volumes (`ollama`, `open-webui`, `n8n_data`) if you care about the data.
 
-Full chapter: [Manual Ch. 27: Home Lab](../../manual/part-7-local-ai/27-home-lab.md).
+Full chapter: [The manual: Home Lab](../../manual/part-7-local-ai/49-home-lab.md).
