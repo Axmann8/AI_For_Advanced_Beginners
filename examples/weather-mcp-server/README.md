@@ -14,7 +14,7 @@ It runs **two ways**:
 - **Local (stdio):** `node server.mjs`, for Claude Desktop, Claude Code, Cursor and friends.
 - **Remote (Streamable HTTP):** `node server.mjs --http`, for hosting on the internet, with an optional bearer token.
 
-This is the companion kit for **[Build-Along: Publish Your Own MCP Server](../../manual/part-11-build-alongs/82-build-along-publish-an-mcp-server.md)**.
+This is the companion kit for **[Build-Along: Publish Your Own MCP Server](../../manual/part-13-build-alongs/113-build-along-publish-an-mcp-server.md)**.
 
 ## Quick start 🚀
 
@@ -57,7 +57,7 @@ claude mcp add --transport http weather-buddy https://your-host.example.com/mcp 
 ```
 
 > 🔐 A shared bearer token is fine for personal use. For a public, multi-user server, use proper OAuth (see
-> [Building MCP Servers](../../manual/part-2-mcp-and-connectors/11-building-mcp-servers.md)).
+> [Building MCP Servers](../../manual/part-4-mcp-and-connectors/42-building-mcp-servers.md)).
 
 ## Publish it 📦
 

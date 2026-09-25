@@ -30,17 +30,19 @@ MANUAL = ROOT / "manual"
 # folder → (nav label, emoji). Order here is the reading order.
 PARTS: dict[str, tuple[str, str]] = {
     "start-here": ("Start Here", "🧭"),
-    "part-1-foundations": ("Part I · Foundations", "🧠"),
-    "part-2-mcp-and-connectors": ("Part II · MCP & Connectors", "🔌"),
-    "part-3-automation": ("Part III · Automation", "⚙️"),
-    "part-4-ai-in-your-apps": ("Part IV · AI in Your Apps", "🏡"),
-    "part-5-building-with-ai": ("Part V · Building with AI", "🛠️"),
-    "part-6-knowledge-and-memory": ("Part VI · Knowledge & Memory", "📚"),
-    "part-7-local-ai": ("Part VII · Local AI", "🏠"),
-    "part-8-creative-ai": ("Part VIII · Creative AI", "🎨"),
-    "part-9-ai-for-life-and-work": ("Part IX · AI for Life & Work", "🌱"),
-    "part-10-mastery": ("Part X · Mastery", "🏆"),
-    "part-11-build-alongs": ("Part XI · Build-Alongs", "🧱"),
+    "part-1-ai-from-zero": ("Part I · AI from Zero", "🐣"),
+    "part-2-ai-assistants-field-guide": ("Part II · The AI Assistants Field Guide", "🤖"),
+    "part-3-foundations": ("Part III · Foundations", "🧠"),
+    "part-4-mcp-and-connectors": ("Part IV · MCP & Connectors", "🔌"),
+    "part-5-automation": ("Part V · Automation", "⚙️"),
+    "part-6-ai-in-your-apps": ("Part VI · AI in Your Apps", "🏡"),
+    "part-7-building-with-ai": ("Part VII · Building with AI", "🛠️"),
+    "part-8-knowledge-and-memory": ("Part VIII · Knowledge & Memory", "📚"),
+    "part-9-local-ai": ("Part IX · Local AI", "🏠"),
+    "part-10-creative-ai": ("Part X · Creative AI", "🎨"),
+    "part-11-ai-for-life-and-work": ("Part XI · AI for Life & Work", "🌱"),
+    "part-12-mastery": ("Part XII · Mastery", "🏆"),
+    "part-13-build-alongs": ("Part XIII · Build-Alongs", "🧱"),
     "appendices": ("Appendices", "📎"),
 }
 SECTION_EXEMPT = re.compile(r"(key takeaways|check yourself|quick quiz|try this|what's next|next steps)", re.I)
@@ -63,7 +65,7 @@ class Page:
 
     @property
     def is_chapter(self) -> bool:
-        return self.folder.startswith("part-") and bool(re.match(r"\d{2}-", self.path.name))
+        return self.folder.startswith("part-") and bool(re.match(r"\d{2,3}-", self.path.name))
 
     @property
     def h1(self) -> str:
@@ -90,7 +92,11 @@ def pages_in(folder: str) -> list[Page]:
     d = MANUAL / folder
     if not d.is_dir():
         return []
-    files = sorted(p for p in d.glob("*.md") if p.name != "index.md")
+    def order(p: Path) -> tuple[int, str]:
+        m = re.match(r"(\d+)-", p.name)
+        return (int(m[1]) if m else -1, p.name)
+
+    files = sorted((p for p in d.glob("*.md") if p.name != "index.md"), key=order)
     return [Page(p, folder) for p in files]
 
 
@@ -205,7 +211,7 @@ def lint(pages: list[Page]) -> list[str]:
         if t.count("<details") != t.count("</details>"):
             problems.append(f"{p.rel}: unbalanced <details> tags")
         if p.is_chapter:
-            num = p.path.name[:2]
+            num = p.path.name.split("-")[0]
             if not p.h1.startswith(f"{num} · "):
                 problems.append(f"{p.rel}: H1 should start with '{num} · '")
             if num in seen_numbers:

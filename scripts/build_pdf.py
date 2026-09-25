@@ -95,7 +95,7 @@ def plain(s: str) -> str:
 def split_title(title: str) -> tuple[str, str]:
     """'07 · MCP Explained' -> ('07', 'MCP Explained'); 'Appendix A · Glossary' -> ('A', 'Glossary');
     '🧭 How to Use This Manual' -> ('🧭', 'How to Use This Manual')."""
-    if m := re.match(r"^(\d{2}) · (.+)$", title):
+    if m := re.match(r"^(\d{2,3}) · (.+)$", title):
         return m[1], m[2]
     if m := re.match(r"^Appendix ([A-Z]) · (.+)$", title):
         return m[1], m[2]

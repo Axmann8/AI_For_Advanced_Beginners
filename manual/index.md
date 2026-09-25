@@ -32,7 +32,7 @@ Not sure where to begin? Pick the card that sounds most like you. Every path is 
 
     Turn on a built-in connector and ask your AI about *your own* stuff. Instant wow.
 
-    [Built-in Connectors →](part-2-mcp-and-connectors/10-built-in-connectors.md)
+    [Built-in Connectors →](part-4-mcp-and-connectors/41-built-in-connectors.md)
 
 -   **🔌 "I want to understand the MCP hype"**
 
@@ -40,7 +40,7 @@ Not sure where to begin? Pick the card that sounds most like you. Every path is 
 
     The universal plug for AI, from "what is it" to building and publishing your own.
 
-    [MCP Explained →](part-2-mcp-and-connectors/07-mcp-explained.md)
+    [MCP Explained →](part-4-mcp-and-connectors/38-mcp-explained.md)
 
 -   **⚙️ "I want to automate boring stuff"**
 
@@ -48,7 +48,7 @@ Not sure where to begin? Pick the card that sounds most like you. Every path is 
 
     Workflows that run while you sleep, with AI doing the fuzzy thinking.
 
-    [Automation Platforms →](part-3-automation/14-automation-platforms.md)
+    [Automation Platforms →](part-5-automation/45-automation-platforms.md)
 
 -   **🛠️ "I want to build apps without being a 'real' programmer"**
 
@@ -56,7 +56,7 @@ Not sure where to begin? Pick the card that sounds most like you. Every path is 
 
     Coding agents, vibe coding, and shipping your first real app with logins and a database.
 
-    [Agents & Coding Tools →](part-5-building-with-ai/29-agents-and-coding-tools.md)
+    [Agents & Coding Tools →](part-7-building-with-ai/60-agents-and-coding-tools.md)
 
 -   **🔒 "I care about privacy and love tinkering"**
 
@@ -64,7 +64,7 @@ Not sure where to begin? Pick the card that sounds most like you. Every path is 
 
     Run models on your own machine and build a private AI home lab.
 
-    [Local & Open Models →](part-7-local-ai/47-local-and-open-models.md)
+    [Local & Open Models →](part-9-local-ai/78-local-and-open-models.md)
 
 -   **🎨 "I just want to make cool stuff"**
 
@@ -72,7 +72,7 @@ Not sure where to begin? Pick the card that sounds most like you. Every path is 
 
     Images, video, music, voices, 3D worlds and interactive stories.
 
-    [The Multimodal Playground →](part-8-creative-ai/52-multimodal-playground.md)
+    [The Multimodal Playground →](part-10-creative-ai/83-multimodal-playground.md)
 
 -   **🌱 "I want AI to help my real life"**
 
@@ -80,7 +80,7 @@ Not sure where to begin? Pick the card that sounds most like you. Every path is 
 
     Research, writing, money, health, travel, parenting, careers and life admin.
 
-    [AI for Life & Work →](part-9-ai-for-life-and-work/index.md)
+    [AI for Life & Work →](part-11-ai-for-life-and-work/index.md)
 
 -   **🧱 "Just give me a project!"**
 
@@ -88,7 +88,7 @@ Not sure where to begin? Pick the card that sounds most like you. Every path is 
 
     Long, step-by-step build-alongs: a Telegram assistant, your own MCP server, a web app and more.
 
-    [The Build-Alongs →](part-11-build-alongs/index.md)
+    [The Build-Alongs →](part-13-build-alongs/index.md)
 
 </div>
 
@@ -99,7 +99,7 @@ Each part has its own landing page with an ELI5, a suggested path, and clickable
 <!-- parts:start -->
 <div class="grid cards clickable" markdown>
 
--   **🧠 [Part I · Foundations](part-1-foundations/index.md)**
+-   **🧠 [Part III · Foundations](part-3-foundations/index.md)**
 
     ---
 
@@ -107,7 +107,7 @@ Each part has its own landing page with an ELI5, a suggested path, and clickable
 
     How AI really works (without the math), where it came from, who's who, how to feed it the right context, and how to pick a personal AI stack that fits your life and budget.
 
--   **🔌 [Part II · MCP & Connectors](part-2-mcp-and-connectors/index.md)**
+-   **🔌 [Part IV · MCP & Connectors](part-4-mcp-and-connectors/index.md)**
 
     ---
 
@@ -115,7 +115,7 @@ Each part has its own landing page with an ELI5, a suggested path, and clickable
 
     The universal plug that gives AI hands and eyes: what MCP is, how it works under the hood, the best servers to install, how to build and publish your own, and how to stay safe while doing it.
 
--   **⚙️ [Part III · Automation](part-3-automation/index.md)**
+-   **⚙️ [Part V · Automation](part-5-automation/index.md)**
 
     ---
 
@@ -123,7 +123,7 @@ Each part has its own landing page with an ELI5, a suggested path, and clickable
 
     AI that works while you sleep: automation platforms, webhooks and APIs explained gently, the n8n masterclass, AI agents inside workflows, Zapier and Make walkthroughs, phone shortcuts, web scraping, and a recipe book of 50 ready-made workflows.
 
--   **🏡 [Part IV · AI in Your Apps](part-4-ai-in-your-apps/index.md)**
+-   **🏡 [Part VI · AI in Your Apps](part-6-ai-in-your-apps/index.md)**
 
     ---
 
@@ -131,7 +131,7 @@ Each part has its own landing page with an ELI5, a suggested path, and clickable
 
     Super-charge the tools you already use every day: Notion, Google Workspace, Microsoft 365, Obsidian, your inbox and calendar, your spreadsheets, and the chat apps where you and your friends hang out.
 
--   **🛠️ [Part V · Building with AI](part-5-building-with-ai/index.md)**
+-   **🛠️ [Part VII · Building with AI](part-7-building-with-ai/index.md)**
 
     ---
 
@@ -139,7 +139,7 @@ Each part has its own landing page with an ELI5, a suggested path, and clickable
 
     Become a builder, even if you've never coded: coding agents, Git and GitHub, the Claude Code masterclass and power-ups, Cursor and AI IDEs, vibe coding a real app, deploying it, calling AI APIs, building your own agents, frameworks, multi-agent teams and computer-use agents.
 
--   **📚 [Part VI · Knowledge & Memory](part-6-knowledge-and-memory/index.md)**
+-   **📚 [Part VIII · Knowledge & Memory](part-8-knowledge-and-memory/index.md)**
 
     ---
 
@@ -147,7 +147,7 @@ Each part has its own landing page with an ELI5, a suggested path, and clickable
 
     Make AI know your stuff and remember you: RAG, embeddings and vector databases, building a RAG system, memory for agents, the Gemini Notebook (NotebookLM) masterclass, and personal knowledge management that actually sticks.
 
--   **🏠 [Part VII · Local AI](part-7-local-ai/index.md)**
+-   **🏠 [Part IX · Local AI](part-9-local-ai/index.md)**
 
     ---
 
@@ -155,7 +155,7 @@ Each part has its own landing page with an ELI5, a suggested path, and clickable
 
     Run AI on your own machine, private and offline: open models, choosing hardware, building a home lab, local AI for coding and agents, and customizing models with fine-tuning.
 
--   **🎨 [Part VIII · Creative AI](part-8-creative-ai/index.md)**
+-   **🎨 [Part X · Creative AI](part-10-creative-ai/index.md)**
 
     ---
 
@@ -163,7 +163,7 @@ Each part has its own landing page with an ELI5, a suggested path, and clickable
 
     The playground: images, video, audio, music, voice agents, 3D and games, interactive stories and design.
 
--   **🌱 [Part IX · AI for Life & Work](part-9-ai-for-life-and-work/index.md)**
+-   **🌱 [Part XI · AI for Life & Work](part-11-ai-for-life-and-work/index.md)**
 
     ---
 
@@ -171,7 +171,7 @@ Each part has its own landing page with an ELI5, a suggested path, and clickable
 
     Put it all to work in real life: research and learning, writing, small business, careers, life admin, money, health, family and school, travel, home and cooking, accessibility, and data analysis for everyone.
 
--   **🏆 [Part X · Mastery](part-10-mastery/index.md)**
+-   **🏆 [Part XII · Mastery](part-12-mastery/index.md)**
 
     ---
 
@@ -179,7 +179,7 @@ Each part has its own landing page with an ELI5, a suggested path, and clickable
 
     Doing it well: safety and gotchas, privacy, evaluating and comparing AI, cost optimization, ethics for builders, teaching others, turning your skills into income, staying current, and where this is all heading.
 
--   **🧱 [Part XI · Build-Alongs](part-11-build-alongs/index.md)**
+-   **🧱 [Part XIII · Build-Alongs](part-13-build-alongs/index.md)**
 
     ---
 

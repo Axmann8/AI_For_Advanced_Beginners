@@ -72,15 +72,15 @@ own part of the manual.
 
 | Layer | What it is | Examples | Learn it in |
 |---|---|---|---|
-| 🧠 **Models** | The "brains" that read and write | Claude, GPT, Gemini, Llama, Qwen | [Part I](../part-1-foundations/index.md), [Part VII](../part-7-local-ai/index.md) |
-| 🏢 **Apps (hosts)** | Where you talk to the brains | Claude, ChatGPT, Cursor, Notion AI | [Part IV](../part-4-ai-in-your-apps/index.md), [Part V](../part-5-building-with-ai/index.md) |
-| 🔌 **Connections** | How apps reach tools and data | MCP servers, connectors, APIs | [Part II](../part-2-mcp-and-connectors/index.md) |
-| ⚙️ **Automation** | Workflows that run on triggers | n8n, Zapier, Make, Shortcuts | [Part III](../part-3-automation/index.md) |
-| 📦 **Your data & knowledge** | What makes AI useful *to you* | Files, notes, RAG, memory | [Part VI](../part-6-knowledge-and-memory/index.md) |
+| 🧠 **Models** | The "brains" that read and write | Claude, GPT, Gemini, Llama, Qwen | [Part III](../part-3-foundations/index.md), [Part IX](../part-9-local-ai/index.md) |
+| 🏢 **Apps (hosts)** | Where you talk to the brains | Claude, ChatGPT, Cursor, Notion AI | [Part VI](../part-6-ai-in-your-apps/index.md), [Part VII](../part-7-building-with-ai/index.md) |
+| 🔌 **Connections** | How apps reach tools and data | MCP servers, connectors, APIs | [Part IV](../part-4-mcp-and-connectors/index.md) |
+| ⚙️ **Automation** | Workflows that run on triggers | n8n, Zapier, Make, Shortcuts | [Part V](../part-5-automation/index.md) |
+| 📦 **Your data & knowledge** | What makes AI useful *to you* | Files, notes, RAG, memory | [Part VIII](../part-8-knowledge-and-memory/index.md) |
 
-Everything else in the manual is about **combining** these layers: creative projects ([Part VIII](../part-8-creative-ai/index.md)),
-real-life uses ([Part IX](../part-9-ai-for-life-and-work/index.md)), doing it well ([Part X](../part-10-mastery/index.md)),
-and full projects ([Part XI](../part-11-build-alongs/index.md)).
+Everything else in the manual is about **combining** these layers: creative projects ([Part X](../part-10-creative-ai/index.md)),
+real-life uses ([Part XI](../part-11-ai-for-life-and-work/index.md)), doing it well ([Part XII](../part-12-mastery/index.md)),
+and full projects ([Part XIII](../part-13-build-alongs/index.md)).
 
 ## 🪜 The skills ladder
 
@@ -100,11 +100,11 @@ flowchart LR
 | Level | You can… | Next step |
 |---|---|---|
 | 💬 **1 · Chatter** | Ask questions, draft text | [Your First Hour](b-your-first-hour.md) |
-| 🔌 **2 · Connector** | Let AI read and act on *your* apps | [MCP Explained](../part-2-mcp-and-connectors/07-mcp-explained.md) |
-| ⚙️ **3 · Automator** | Make workflows that run without you | [Automation Platforms](../part-3-automation/14-automation-platforms.md) |
-| 🛠️ **4 · Builder** | Create apps, MCP servers and agents | [Agents & Coding Tools](../part-5-building-with-ai/29-agents-and-coding-tools.md) |
-| 🏠 **5 · Owner** | Run private AI on your own hardware | [Local & Open Models](../part-7-local-ai/47-local-and-open-models.md) |
-| 🏆 **6 · Mentor** | Evaluate, secure, and teach others | [Teaching Others](../part-10-mastery/77-teaching-others.md) |
+| 🔌 **2 · Connector** | Let AI read and act on *your* apps | [MCP Explained](../part-4-mcp-and-connectors/38-mcp-explained.md) |
+| ⚙️ **3 · Automator** | Make workflows that run without you | [Automation Platforms](../part-5-automation/45-automation-platforms.md) |
+| 🛠️ **4 · Builder** | Create apps, MCP servers and agents | [Agents & Coding Tools](../part-7-building-with-ai/60-agents-and-coding-tools.md) |
+| 🏠 **5 · Owner** | Run private AI on your own hardware | [Local & Open Models](../part-9-local-ai/78-local-and-open-models.md) |
+| 🏆 **6 · Mentor** | Evaluate, secure, and teach others | [Teaching Others](../part-12-mastery/108-teaching-others.md) |
 
 ## ❓ Which chapter answers my question?
 
@@ -117,18 +117,18 @@ Got a question? Find it in this list and jump straight to the chapter that answe
 
 | Your question | Go to |
 |---|---|
-| "Why does the AI make things up?" | [How Models Really Work](../part-1-foundations/02-how-models-really-work.md) |
-| "What's this MCP thing everyone talks about?" | [MCP Explained](../part-2-mcp-and-connectors/07-mcp-explained.md) |
-| "Which AI subscription should I pay for?" | [Choosing Your AI Stack](../part-1-foundations/06-choosing-your-ai-stack.md) |
-| "Can AI handle my inbox?" | [Email & Calendar Superpowers](../part-4-ai-in-your-apps/26-email-and-calendar.md) |
-| "How do I make AI do stuff on a schedule?" | [Automation Platforms](../part-3-automation/14-automation-platforms.md) |
-| "Can I build an app with no coding experience?" | [Vibe Coding Your First Real App](../part-5-building-with-ai/34-vibe-coding-your-first-app.md) |
-| "How do I make AI know my documents?" | [RAG, Memory & Knowledge](../part-6-knowledge-and-memory/41-rag-memory-and-knowledge.md) |
-| "Can I run AI without the cloud?" | [Local & Open Models](../part-7-local-ai/47-local-and-open-models.md) |
-| "How do I make a song or a video?" | [Music](../part-8-creative-ai/55-music-making-with-ai.md), [Video & Audio](../part-8-creative-ai/54-video-and-audio-production.md) |
-| "Is my data safe?" | [Privacy & Your Data](../part-10-mastery/73-privacy-and-your-data.md) |
-| "How do I avoid a surprise bill?" | [Cost Optimization](../part-10-mastery/75-cost-optimization.md) |
-| "Just give me a project to build!" | [The Build-Alongs](../part-11-build-alongs/index.md) |
+| "Why does the AI make things up?" | [How Models Really Work](../part-3-foundations/33-how-models-really-work.md) |
+| "What's this MCP thing everyone talks about?" | [MCP Explained](../part-4-mcp-and-connectors/38-mcp-explained.md) |
+| "Which AI subscription should I pay for?" | [Choosing Your AI Stack](../part-3-foundations/37-choosing-your-ai-stack.md) |
+| "Can AI handle my inbox?" | [Email & Calendar Superpowers](../part-6-ai-in-your-apps/57-email-and-calendar.md) |
+| "How do I make AI do stuff on a schedule?" | [Automation Platforms](../part-5-automation/45-automation-platforms.md) |
+| "Can I build an app with no coding experience?" | [Vibe Coding Your First Real App](../part-7-building-with-ai/65-vibe-coding-your-first-app.md) |
+| "How do I make AI know my documents?" | [RAG, Memory & Knowledge](../part-8-knowledge-and-memory/72-rag-memory-and-knowledge.md) |
+| "Can I run AI without the cloud?" | [Local & Open Models](../part-9-local-ai/78-local-and-open-models.md) |
+| "How do I make a song or a video?" | [Music](../part-10-creative-ai/86-music-making-with-ai.md), [Video & Audio](../part-10-creative-ai/85-video-and-audio-production.md) |
+| "Is my data safe?" | [Privacy & Your Data](../part-12-mastery/104-privacy-and-your-data.md) |
+| "How do I avoid a surprise bill?" | [Cost Optimization](../part-12-mastery/106-cost-optimization.md) |
+| "Just give me a project to build!" | [The Build-Alongs](../part-13-build-alongs/index.md) |
 
 ## 🔤 Your vocabulary starter pack
 
@@ -183,4 +183,4 @@ A **connector** lets an AI app *reach* a tool when you ask. An **automation** ru
 
 ---
 
-**Next:** [01 · The Mental Model →](../part-1-foundations/01-the-mental-model.md)
+**Next:** [32 · The Mental Model →](../part-3-foundations/32-the-mental-model.md)

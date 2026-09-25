@@ -56,7 +56,7 @@ the whole internet.
 > [!NOTE]
 > **📌 Using ChatGPT or Gemini instead?**
 > Same idea: ChatGPT has connectors and plugins in its settings, and Gemini connects to Gmail, Drive and Calendar
-> natively. See [Built-in Connectors](../part-2-mcp-and-connectors/10-built-in-connectors.md).
+> natively. See [Built-in Connectors](../part-4-mcp-and-connectors/41-built-in-connectors.md).
 
 ## 2️⃣ Install your first MCP servers (10–20 min)
 
@@ -135,7 +135,7 @@ Then iterate, one change at a time:
 - *"Add a motivational quote that changes every day."*
 
 **The wow:** you just "programmed" an app without writing code. That's **vibe coding**
-([Vibe Coding Your First Real App](../part-5-building-with-ai/34-vibe-coding-your-first-app.md) takes it much further).
+([Vibe Coding Your First Real App](../part-7-building-with-ai/65-vibe-coding-your-first-app.md) takes it much further).
 
 ## 5️⃣ Create a reusable assistant (40–50 min)
 
@@ -173,9 +173,9 @@ Pick the easiest option for you:
   fun AI fact and one tiny challenge for today") → **Email by Zapier** to yourself. Turn it on.
 - **n8n (free, local):** run `npx n8n`, open http://localhost:5678, and import our
   [Morning AI Digest workflow](../../examples/n8n-workflows/morning-ai-digest.json)
-  ([how-to](../part-3-automation/16-n8n-masterclass.md)).
+  ([how-to](../part-5-automation/47-n8n-masterclass.md)).
 - **Your phone:** in the iOS **Shortcuts** app, create a daily *Personal Automation* that asks an AI model for a
-  motivational message and shows it as a notification ([Phone & Desktop Automation](../part-3-automation/19-phone-and-desktop-automation.md)).
+  motivational message and shows it as a notification ([Phone & Desktop Automation](../part-5-automation/50-phone-and-desktop-automation.md)).
 
 **The wow:** tomorrow morning, something useful arrives that *you built*, and it runs while you sleep. 😴🤖
 
@@ -191,11 +191,11 @@ go deeper there.
 
 | Loved… | Go deeper |
 |---|---|
-| Connecting your data | [The Big MCP Server Catalog](../part-2-mcp-and-connectors/09-mcp-server-catalog.md), [The MCP Recipe Book](../part-2-mcp-and-connectors/13-mcp-recipe-book.md) |
-| The files-and-hands magic | [MCP Explained](../part-2-mcp-and-connectors/07-mcp-explained.md), [Building MCP Servers](../part-2-mcp-and-connectors/11-building-mcp-servers.md) |
-| The mini app | [Claude Code Masterclass](../part-5-building-with-ai/31-claude-code-masterclass.md), [Vibe Coding](../part-5-building-with-ai/34-vibe-coding-your-first-app.md) |
-| The automation | [The n8n Masterclass](../part-3-automation/16-n8n-masterclass.md), [The Automation Recipe Book](../part-3-automation/21-automation-recipe-book.md) |
-| All of it 😄 | [Build-Along: Your Pocket AI Assistant](../part-11-build-alongs/81-build-along-pocket-ai-assistant.md) |
+| Connecting your data | [The Big MCP Server Catalog](../part-4-mcp-and-connectors/40-mcp-server-catalog.md), [The MCP Recipe Book](../part-4-mcp-and-connectors/44-mcp-recipe-book.md) |
+| The files-and-hands magic | [MCP Explained](../part-4-mcp-and-connectors/38-mcp-explained.md), [Building MCP Servers](../part-4-mcp-and-connectors/42-building-mcp-servers.md) |
+| The mini app | [Claude Code Masterclass](../part-7-building-with-ai/62-claude-code-masterclass.md), [Vibe Coding](../part-7-building-with-ai/65-vibe-coding-your-first-app.md) |
+| The automation | [The n8n Masterclass](../part-5-automation/47-n8n-masterclass.md), [The Automation Recipe Book](../part-5-automation/52-automation-recipe-book.md) |
+| All of it 😄 | [Build-Along: Your Pocket AI Assistant](../part-13-build-alongs/112-build-along-pocket-ai-assistant.md) |
 
 ## 🎯 Key takeaways
 

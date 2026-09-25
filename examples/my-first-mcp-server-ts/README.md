@@ -64,4 +64,4 @@ await server.connect(new StdioServerTransport());
 - Swap stdio for **Streamable HTTP** (see `StreamableHTTPServerTransport` in the SDK) to host it remotely.
 - Wrap any API you love: Spotify, Strava, the Pokémon API, your company's internal tools.
 
-Full walkthrough: [The manual: Building MCP Servers](../../manual/part-2-mcp-and-connectors/11-building-mcp-servers.md).
+Full walkthrough: [The manual: Building MCP Servers](../../manual/part-4-mcp-and-connectors/42-building-mcp-servers.md).

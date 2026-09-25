@@ -24,7 +24,7 @@ The biggest lessons of the whole manual, in six lines.
 
 </details>
 
-- **Agent = model + tools + loop + stopping rule.** ([Build Your Own Agent](../part-5-building-with-ai/37-build-your-own-agent.md))
+- **Agent = model + tools + loop + stopping rule.** ([Build Your Own Agent](../part-7-building-with-ai/68-build-your-own-agent.md))
 - **Context is king.** Most AI failures are "it couldn't see what I see." Fix with connectors, MCP, documents and memory.
 - **Deterministic where you can, AI where you must.** Plain automation moves data, and AI does the fuzzy steps.
 - **Verify** anything that matters. Give AI a way to check its own work.
@@ -41,7 +41,7 @@ Six ways to teach AI your stuff, from easiest to hardest.
 </details>
 
 **Paste it → Projects → Gemini Notebook → Connectors/MCP → Memory → Build your own RAG**
-([RAG, Memory & Knowledge](../part-6-knowledge-and-memory/41-rag-memory-and-knowledge.md))
+([RAG, Memory & Knowledge](../part-8-knowledge-and-memory/72-rag-memory-and-knowledge.md))
 
 A few documents? **Paste them.** A study pile? **Gemini Notebook.** Live work data? **Connectors.** A huge private collection
 in your own app? **RAG.**
@@ -75,7 +75,7 @@ npx @modelcontextprotocol/inspector <command> <args>
 | VS Code | `.vscode/mcp.json` (`"servers"` key) |
 
 **Starter servers:** Filesystem · Fetch · Memory · GitHub · Playwright · a docs server · a search server · Notion
-([MCP Server Catalog](../part-2-mcp-and-connectors/09-mcp-server-catalog.md))
+([MCP Server Catalog](../part-4-mcp-and-connectors/40-mcp-server-catalog.md))
 
 ## ⚙️ The automation pattern
 
@@ -118,7 +118,7 @@ The most useful keys and commands for your AI coding helper.
 | `.claude/skills/<name>/SKILL.md` | On-demand skills |
 | `.claude/commands/<name>.md` | Your own slash commands |
 
-**Workflow:** Explore → Plan → Code → **Verify** → Commit. ([Masterclass](../part-5-building-with-ai/31-claude-code-masterclass.md))
+**Workflow:** Explore → Plan → Code → **Verify** → Commit. ([Masterclass](../part-7-building-with-ai/62-claude-code-masterclass.md))
 
 ## 🌳 Git in 8 commands
 
@@ -140,7 +140,7 @@ git revert <sha>    # undo a pushed commit safely
 git log --oneline   # history
 ```
 
-([Git & GitHub](../part-5-building-with-ai/30-git-and-github.md))
+([Git & GitHub](../part-7-building-with-ai/61-git-and-github.md))
 
 ## 🐍 API quick reference
 
@@ -168,7 +168,7 @@ print(r.content[0].text, r.usage)
 | Cheaper repeats | `cache_control` on long, stable prompt parts |
 | Bulk, not urgent | the Batch API |
 
-([Calling AI APIs](../part-5-building-with-ai/36-calling-ai-apis.md))
+([Calling AI APIs](../part-7-building-with-ai/67-calling-ai-apis.md))
 
 ## 🏷️ Picking a model
 
@@ -201,7 +201,7 @@ ollama ps                  # what's running
 ollama launch claude       # Claude Code on local models
 ```
 
-**Memory rule:** ~0.6 GB per billion parameters at 4-bit, plus headroom. ([Hardware](../part-7-local-ai/48-hardware-for-local-ai.md))
+**Memory rule:** ~0.6 GB per billion parameters at 4-bit, plus headroom. ([Hardware](../part-9-local-ai/79-hardware-for-local-ai.md))
 
 ## 📚 RAG in 4 moves
 
@@ -237,7 +237,7 @@ Ways to spend less on AI, starting with the ones that don't make anything worse.
 </details>
 
 Caching → trim input → filter before AI → dedupe → batch → lower effort → smaller model (routing) → local model.
-**Always set spend limits.** ([Cost Optimization](../part-10-mastery/75-cost-optimization.md))
+**Always set spend limits.** ([Cost Optimization](../part-12-mastery/106-cost-optimization.md))
 
 ## 🛡️ Safety pre-flight
 
@@ -268,7 +268,7 @@ Green is fine to share, yellow needs care, red never (or only with home AI).
 |---|---|---|
 | General questions, public info, your creative writing | Work docs (approved tools), redacted finances, health questions without IDs | Passwords, card and ID numbers, others' private info, confidential client data |
 
-([Privacy & Your Data](../part-10-mastery/73-privacy-and-your-data.md))
+([Privacy & Your Data](../part-12-mastery/104-privacy-and-your-data.md))
 
 ## 🧪 The 15-minute eval
 
@@ -280,7 +280,7 @@ Test AIs fairly: same questions, clear scoring, no peeking.
 </details>
 
 10–20 real tasks → write what "good" means → run each option → **score blind** → tally quality, cost and speed.
-([Evaluating AI](../part-10-mastery/74-evaluating-ai.md))
+([Evaluating AI](../part-12-mastery/105-evaluating-ai.md))
 
 ## 🎓 Learning with AI
 
@@ -292,7 +292,7 @@ Use AI as a coach that asks questions, not a machine that does your homework.
 </details>
 
 Try first → ask for hints, not answers → explain it back (Feynman) → quiz yourself (active recall) → flashcards (spaced
-repetition) → verify important facts. ([Research & Learning](../part-9-ai-for-life-and-work/60-research-and-learning.md))
+repetition) → verify important facts. ([Research & Learning](../part-11-ai-for-life-and-work/91-research-and-learning.md))
 
 ## 🎮 Ten prompts to try right now
 

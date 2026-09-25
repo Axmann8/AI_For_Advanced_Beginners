@@ -7,7 +7,7 @@ writes a warm "why it matters" for each, and you get a beautiful HTML email (plu
 feeds.txt → fetch & parse → last 7 days → skip already-sent → 🤖 Claude curates → 💌 HTML + Markdown → 📬 send (optional)
 ```
 
-Companion kit for **[Build-Along: The Automated Newsletter](../../manual/part-11-build-alongs/87-build-along-automated-newsletter.md)**.
+Companion kit for **[Build-Along: The Automated Newsletter](../../manual/part-13-build-alongs/118-build-along-automated-newsletter.md)**.
 
 ## Quick start 🚀
 

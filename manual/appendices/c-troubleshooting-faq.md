@@ -67,7 +67,7 @@ integration. In Claude Code, use `/mcp` to re-authenticate.
 
 - Mention the tool explicitly: *"Use the Notion tool to…"*
 - Disable unrelated servers. Too many tools confuse models and eat context.
-- If it's your own server, improve the **tool descriptions** ([Building MCP Servers](../part-2-mcp-and-connectors/11-building-mcp-servers.md)).
+- If it's your own server, improve the **tool descriptions** ([Building MCP Servers](../part-4-mcp-and-connectors/42-building-mcp-servers.md)).
 
 ## ⚙️ Automations
 
@@ -88,7 +88,7 @@ Problems with robot recipes in n8n, Zapier or Make: they work in testing but not
 ### The AI step returns text when I need JSON.
 
 Ask for *"ONLY a JSON object, no prose,"* show the exact shape, use a **structured output parser** if available, and strip
-code fences before parsing ([Webhooks, APIs & JSON](../part-3-automation/15-webhooks-apis-json.md)).
+code fences before parsing ([Webhooks, APIs & JSON](../part-5-automation/46-webhooks-apis-json.md)).
 
 ### Error 429 (rate limit) in bulk workflows.
 
@@ -102,7 +102,7 @@ input panel to insert the right expression.
 ### My Telegram bot doesn't reply.
 
 Is the workflow **Active**, and is n8n reachable over **HTTPS**? Does the "Only me?" check contain *your* numeric user ID?
-([Pocket AI Assistant](../part-11-build-alongs/81-build-along-pocket-ai-assistant.md#-troubleshooting))
+([Pocket AI Assistant](../part-13-build-alongs/112-build-along-pocket-ai-assistant.md#-troubleshooting))
 
 ## 🤖 AI behavior
 
@@ -116,17 +116,17 @@ Problems with how the AI answers: making things up, forgetting, or sounding bori
 ### It confidently makes things up.
 
 Give it **ground truth**: web search, documents or connectors. Ask for **citations**, and explicitly allow *"say you don't know."*
-For facts that matter, verify at the source ([How Models Really Work](../part-1-foundations/02-how-models-really-work.md)).
+For facts that matter, verify at the source ([How Models Really Work](../part-3-foundations/33-how-models-really-work.md)).
 
 ### It forgot what we discussed earlier.
 
 The context got long, was compacted, or you're in a new chat. Restate key facts, use Projects, memory or `CLAUDE.md`, or start
-fresh with a summary ([Context Engineering](../part-1-foundations/05-context-engineering.md)).
+fresh with a summary ([Context Engineering](../part-3-foundations/36-context-engineering.md)).
 
 ### The answers are generic and bland.
 
 Add **specifics**: audience, examples, constraints, your own opinions and stories. Ask it to avoid clichés, and give it samples of
-the style you want ([Writing & Content](../part-9-ai-for-life-and-work/61-writing-and-content.md)).
+the style you want ([Writing & Content](../part-11-ai-for-life-and-work/92-writing-and-content.md)).
 
 ### It refuses something harmless.
 
@@ -150,12 +150,12 @@ list possible causes before changing code*. Or `/clear` and restart with a crisp
 ### The agent broke everything and I didn't commit.
 
 `git restore .` discards uncommitted changes (it's permanent, so be sure!). In Claude Code, `Esc Esc` or `/rewind` also returns
-to checkpoints ([Git & GitHub](../part-5-building-with-ai/30-git-and-github.md#-oh-no-rescue-guide)).
+to checkpoints ([Git & GitHub](../part-7-building-with-ai/61-git-and-github.md#-oh-no-rescue-guide)).
 
 ### Claude Code doesn't follow my project rules.
 
 Put them in `CLAUDE.md` (short and specific), and after a mistake say *"add a note to CLAUDE.md so this doesn't happen again."* For
-rules that must *always* happen, use a **hook** ([Claude Code Power-Ups](../part-5-building-with-ai/32-claude-code-power-ups.md)).
+rules that must *always* happen, use a **hook** ([Claude Code Power-Ups](../part-7-building-with-ai/63-claude-code-power-ups.md)).
 
 ### I leaked an API key in a commit.
 
@@ -178,7 +178,7 @@ been revoked. Restart your terminal after setting it.
 ### My bill is higher than expected.
 
 Check the usage dashboard per key. Common culprits: agent loops, huge tool results, max effort everywhere, no caching, and
-processing items repeatedly ([Cost Optimization](../part-10-mastery/75-cost-optimization.md)). **Set spend limits now.**
+processing items repeatedly ([Cost Optimization](../part-12-mastery/106-cost-optimization.md)). **Set spend limits now.**
 
 ### Responses get cut off mid-sentence.
 
@@ -200,7 +200,7 @@ Problems putting your app on the internet: it works at home but not online, or l
 ### It works locally but not on Vercel or Netlify.
 
 Missing **environment variables** on the host is the #1 cause. Add them in the dashboard, then **redeploy**. Then read the build
-logs ([Deploying & Hosting](../part-5-building-with-ai/35-deploying-and-hosting.md)).
+logs ([Deploying & Hosting](../part-7-building-with-ai/66-deploying-and-hosting.md)).
 
 ### Login links redirect to localhost.
 
@@ -209,7 +209,7 @@ Update the **Site URL** and **redirect URLs** in your auth provider (e.g. Supaba
 ### Users can see each other's data.
 
 Enable **row-level security** on every table and write per-user policies. Test with a second account
-([Vibe Coding](../part-5-building-with-ai/34-vibe-coding-your-first-app.md#-step-6-dont-skip-the-safety-basics)).
+([Vibe Coding](../part-7-building-with-ai/65-vibe-coding-your-first-app.md#-step-6-dont-skip-the-safety-basics)).
 
 ## 🗣️ Voice agents
 
@@ -227,7 +227,7 @@ Problems with talking robots: they're slow, talk too much, or mishear names.
 | Mishears names and numbers | Ask it to spell back, and pick a better speech-to-text model |
 | Tools never called | Clearer tool descriptions, and tell it *when* to call each |
 
-More: [Voice Receptionist troubleshooting](../part-11-build-alongs/88-build-along-voice-receptionist.md#-troubleshooting).
+More: [Voice Receptionist troubleshooting](../part-13-build-alongs/119-build-along-voice-receptionist.md#-troubleshooting).
 
 ## 🏠 Local models & home lab
 
@@ -241,7 +241,7 @@ Problems with AI on your own computer: too slow, can't find the model, or progra
 ### Local models are painfully slow.
 
 Use a smaller or more quantized model, close other heavy apps, make sure the GPU is actually being used, and on Apple Silicon run
-Ollama **natively** rather than in Docker ([Hardware for Local AI](../part-7-local-ai/48-hardware-for-local-ai.md)).
+Ollama **natively** rather than in Docker ([Hardware for Local AI](../part-9-local-ai/79-hardware-for-local-ai.md)).
 
 ### Open WebUI can't see my Ollama models.
 
@@ -255,7 +255,7 @@ Something else uses that port. Change the left side of the mapping in `docker-co
 ### My local model can't use tools or loses track in agent tasks.
 
 Pick a model with **tool calling**, give it a longer context (32k–64k+), and give it smaller tasks
-([Local AI for Coding & Agents](../part-7-local-ai/50-local-ai-for-coding-and-agents.md)).
+([Local AI for Coding & Agents](../part-9-local-ai/81-local-ai-for-coding-and-agents.md)).
 
 ## 🧰 This repo's starter kits
 

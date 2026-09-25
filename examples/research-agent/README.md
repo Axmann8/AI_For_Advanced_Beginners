@@ -3,7 +3,7 @@
 A ~150-line agent that researches any question on the live web and saves a **cited Markdown report**. It uses Claude's
 **server-side** `web_search` and `web_fetch` tools (no search API key needed) plus one local tool, `save_report`.
 
-Companion kit for **[Build-Along: A Research Agent That Writes Reports](../../manual/part-11-build-alongs/85-build-along-research-agent.md)**.
+Companion kit for **[Build-Along: A Research Agent That Writes Reports](../../manual/part-13-build-alongs/116-build-along-research-agent.md)**.
 
 ## Quick start 🚀
 

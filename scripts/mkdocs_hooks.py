@@ -155,7 +155,7 @@ def on_page_markdown(markdown, page, config, files):
         + " }",
         text,
     )
-    done = "<!-- chapter-done -->\n\n" if re.match(r"part-\d+-[^/]+/\d{2}-", page.file.src_uri) else ""
+    done = "<!-- chapter-done -->\n\n" if re.match(r"part-\d+-[^/]+/\d{2,3}-", page.file.src_uri) else ""
     text = NEXT.sub(
         lambda m: f'{done}[<span class="next-label">Next up</span> {m.group(1)}]({m.group(2)})'
         "{ .md-button .md-button--primary .next-chapter }",
