@@ -119,7 +119,7 @@ For really big or tricky jobs, the spreadsheet can run little Python programs, a
 </details>
 
 - **Python in Excel:** run pandas and charts inside cells, and Copilot can write the Python for you.
-- **Google Apps Script:** automate Sheets (and call AI APIs) on schedules ([Google & Microsoft AI](24-google-and-microsoft-ai.md#-apps-script-gemini-a-tiny-robot-optional)).
+- **Google Apps Script:** automate Sheets (and call AI APIs) on schedules ([Google & Microsoft AI](24-google-and-microsoft-ai.md#-apps-script--gemini-a-tiny-robot-optional)).
 - **Office Scripts / VBA:** AI is excellent at writing and explaining macros: *"Write an Office Script that formats this table
   and highlights overdue rows."*
 

@@ -177,8 +177,9 @@ def fix_anchors(pages: list[Page]) -> int:
             slugs = by_path.get(dest)
             if not slugs or frag in slugs:
                 return m.group(0)
-            for candidate in (f"-{frag}", frag.lstrip("-")):
-                if candidate in slugs:
+            norm = lambda s: re.sub(r"-+", "-", s).strip("-")
+            for candidate in sorted(slugs):
+                if norm(candidate) == norm(frag):
                     fixed += 1
                     return f"]({target}#{candidate})"
             return m.group(0)

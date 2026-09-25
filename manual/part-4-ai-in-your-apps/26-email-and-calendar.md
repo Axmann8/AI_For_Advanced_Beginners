@@ -76,7 +76,7 @@ me" pile first.
 | 🗑️ **Noise** | Promotions you never read (then unsubscribe!) |
 
 **Step 2 · Automate it:** new email → AI classifier (Text Classifier node in n8n, or an AI step in Zapier/Make) → apply label
-([recipe #9](../part-3-automation/21-automation-recipe-book.md#email-communication)). Include examples of each label in the
+([recipe #9](../part-3-automation/21-automation-recipe-book.md#-email--communication)). Include examples of each label in the
 prompt for accuracy.
 
 **Step 3 · Check a sample daily for a week**, correct mistakes, and add those as examples. Accuracy climbs fast. 📈
@@ -128,7 +128,7 @@ Instead of 20 newsletters cluttering your inbox, a robot reads them all and send
 
 1. Auto-label newsletters (most have an unsubscribe link, a giveaway for classifiers).
 2. **Daily digest:** a morning automation reads yesterday's newsletters → AI picks the 5 best items with links → one email
-   ([recipe #11](../part-3-automation/21-automation-recipe-book.md#email-communication)).
+   ([recipe #11](../part-3-automation/21-automation-recipe-book.md#-email--communication)).
 3. **Unsubscribe audit:** *"Which newsletters have I not opened in 60 days?"*, then unsubscribe with joy. 🧹
 
 ## 📅 Calendar superpowers
