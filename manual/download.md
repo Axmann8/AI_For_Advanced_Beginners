@@ -6,8 +6,8 @@
 
 <div markdown>
 
-**The whole manual as one beautifully designed, printable book.** Every chapter, every 🧸 ELI5, every diagram and every
-checklist, laid out for paper and for reading offline on a tablet or e-reader.
+**The whole manual as one beautifully designed, printable book: nearly 1,000 pages.** Every chapter, every 🧸 ELI5,
+every diagram and every checklist, laid out for paper and for reading offline on a tablet or e-reader.
 
 - 📚 **Every part**, from *AI from Zero* to the build-alongs and appendices
 - 🗂️ **Contents with page numbers**, plus colorful part dividers

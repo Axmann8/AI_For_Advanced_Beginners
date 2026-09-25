@@ -374,7 +374,7 @@ def cover(stats: list[tuple[str, str]], edition: str) -> str:
     pills = "".join(f'<span class="stat"><strong>{html.escape(n)}</strong>{html.escape(l)}</span>' for n, l in stats)
     return f"""
 <section class="full cover"><div class="inner">
-  <div class="kicker">From absolute beginner to advanced beginner · Printable Edition</div>
+  <div class="kicker">From absolute beginner to advanced beginner</div>
   <div class="rocket">🚀</div>
   <div class="title">The Massive<br><em>AI</em> Manual</div>
   <p class="subtitle">Your very first chat, every major assistant (ChatGPT, Gemini, Claude, Copilot, Grok, Perplexity
