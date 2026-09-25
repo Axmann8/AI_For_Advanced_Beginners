@@ -34,7 +34,7 @@ allows that integration. In Claude Code, use `/mcp` to re-authenticate.
 
 - Mention the tool explicitly: *"Use the Notion tool to…"*
 - Disable unrelated servers. Too many tools confuse models.
-- If it's your own server, improve the **tool descriptions** ([Ch. 7](../part-2-mcp-and-connectors/07-building-mcp-servers.md)).
+- If it's your own server, improve the **tool descriptions** ([Ch. 7](../part-2-mcp-and-connectors/11-building-mcp-servers.md)).
 
 ## ⚙️ Automations
 
@@ -48,7 +48,7 @@ allows that integration. In Claude Code, use `/mcp` to re-authenticate.
 ### The AI step returns text when I need JSON.
 
 Ask for *"ONLY a JSON object, no prose"*, show the exact shape, use a **structured output parser** if available, and
-strip ```` ``` ```` fences before parsing ([Ch. 12](../part-3-automation/12-webhooks-apis-json.md)).
+strip ```` ``` ```` fences before parsing ([Ch. 12](../part-3-automation/15-webhooks-apis-json.md)).
 
 ### Error 429 (rate limit) in bulk workflows.
 
@@ -91,7 +91,7 @@ hasn't been revoked. Restart your terminal after setting it.
 ### My bill is higher than expected.
 
 Check the usage dashboard per key. Common culprits: agent loops, huge tool results, max effort everywhere, no caching, and
-processing items repeatedly. See [Ch. 39](../part-10-mastery/39-cost-optimization.md), and set spend limits now.
+processing items repeatedly. See [Ch. 39](../part-10-mastery/75-cost-optimization.md), and set spend limits now.
 
 ### Responses get cut off mid-sentence.
 
@@ -126,4 +126,4 @@ workflow builds and deploys it automatically.
 
 ---
 
-**Next:** [Appendix D · 100 Prompts That Use Tools →](d-100-prompts.md)
+**Next:** [Appendix D · 100 Prompts That Use Tools →](d-prompt-library.md)

@@ -21,7 +21,7 @@ Quick, plain-English definitions for the jargon in this manual, in alphabetical 
 | **Docker / container** | A packaged, isolated app that runs the same everywhere. It's how the home lab runs Ollama, Open WebUI, and n8n. |
 | **Elicitation** | An MCP feature where a server asks *you* a question mid-task. |
 | **Embedding** | A list of numbers that represents the meaning of text. Similar meanings get similar numbers. |
-| **Eval (evaluation)** | A repeatable test set for measuring AI quality on your tasks. See [Ch. 38](../part-10-mastery/38-evaluating-ai.md). |
+| **Eval (evaluation)** | A repeatable test set for measuring AI quality on your tasks. See [Ch. 38](../part-10-mastery/74-evaluating-ai.md). |
 | **Fine-tuning** | Further training a model on your examples. Usually *not* needed. Try RAG and prompting first. |
 | **Function calling / tool use** | The model outputting a structured request to run a tool, which your software executes. |
 | **Hallucination** | The model confidently stating something false. Grounding and verification reduce it. |
@@ -31,12 +31,12 @@ Quick, plain-English definitions for the jargon in this manual, in alphabetical 
 | **Human-in-the-loop** | A step where a person approves or edits before the AI's output is used. |
 | **Hybrid search** | Combining keyword and vector search for better retrieval. |
 | **Inference** | Running a model to get output (as opposed to training it). |
-| **JSON** | The universal text format for structured data (`{"key": "value"}`). See [Ch. 12](../part-3-automation/12-webhooks-apis-json.md). |
+| **JSON** | The universal text format for structured data (`{"key": "value"}`). See [Ch. 12](../part-3-automation/15-webhooks-apis-json.md). |
 | **JSON Schema** | A description of what valid JSON looks like. Tools use it to define their parameters. |
 | **Knowledge cutoff** | The date a model's training data ends. It doesn't know later events unless given tools or documents. |
 | **LLM-as-judge** | Using a model to grade other models' outputs against a rubric. |
 | **LoRA** | A small add-on trained to teach an image or language model a specific style, character, or skill. |
-| **MCP (Model Context Protocol)** | The open standard for connecting AI apps to tools and data. See [Ch. 4](../part-2-mcp-and-connectors/04-mcp-explained.md). |
+| **MCP (Model Context Protocol)** | The open standard for connecting AI apps to tools and data. See [Ch. 4](../part-2-mcp-and-connectors/07-mcp-explained.md). |
 | **MCP Apps** | An MCP extension that lets servers show interactive UI inside the chat. |
 | **MCP Inspector** | A web tool for testing MCP servers by hand: list tools, call them, read raw messages. |
 | **Multimodal** | Handling more than text: images, audio, video. |
@@ -47,7 +47,7 @@ Quick, plain-English definitions for the jargon in this manual, in alphabetical 
 | **PARA** | A note-organizing method: Projects, Areas, Resources, Archive. |
 | **Plugin** | A bundle of connectors/MCP servers, skills, and commands you can install at once. |
 | **Prompt caching** | Reusing processed prompt prefixes to make repeated calls cheaper and faster. |
-| **Prompt injection** | Malicious instructions hidden in content the AI reads. See [Ch. 37](../part-10-mastery/37-safety-costs-and-gotchas.md). |
+| **Prompt injection** | Malicious instructions hidden in content the AI reads. See [Ch. 37](../part-10-mastery/72-safety-costs-and-gotchas.md). |
 | **Prompt template (MCP prompt)** | A reusable prompt a server offers, often shown as a slash command. |
 | **Quantization** | Compressing a model (e.g. to 4-bit) so it fits on smaller hardware. |
 | **RAG** | Retrieval-Augmented Generation: fetch relevant snippets, then have the model answer using them. |

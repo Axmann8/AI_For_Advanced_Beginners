@@ -24,6 +24,8 @@ jobs:
         with:
           python-version: "3.12"
       - run: pip install -r requirements-docs.txt
+      - name: Lint the manual (numbering, ELI5 boxes, section maps)
+        run: python scripts/sync_manual.py --check
       - name: Build the site (strict, so broken links fail the build)
         run: mkdocs build --strict
       - name: Build the all-in-one MANUAL.md download

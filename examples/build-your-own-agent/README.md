@@ -71,4 +71,4 @@ Safety details worth noticing:
 | 🔴 | Give it the [Pocket Toolkit MCP server](../my-first-mcp-server/) via an MCP client instead of local tools |
 | 🔴 | Use the SDK's **Tool Runner** (`client.beta.messages.tool_runner`) to delete half the code (see the manual) |
 
-Full explanation: [Manual Ch. 21: Build Your Own Agent](../../manual/part-5-building-with-ai/21-build-your-own-agent.md).
+Full explanation: [Manual Ch. 21: Build Your Own Agent](../../manual/part-5-building-with-ai/37-build-your-own-agent.md).

@@ -66,4 +66,4 @@ Every one of them teaches something real.
 Share what you build! Post in communities like r/ClaudeAI, r/n8n, r/LocalLLaMA, the MCP Discord, or
 X/Bluesky. People love seeing real projects, and you'll learn tons from the replies.
 
-**You made it to the end! 🎉** [Back to the manual home ↩](../index.md)
+**Next:** [Appendix G · The ELI5 Edition →](g-eli5-edition.md)

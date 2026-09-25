@@ -5,7 +5,7 @@ The whole manual on one page. Print it, pin it, screenshot it. 📌
 ---
 
 ## 🧠 Core ideas
-- **Agent = model + tools + loop + stopping rule.** ([Ch. 21](../part-5-building-with-ai/21-build-your-own-agent.md))
+- **Agent = model + tools + loop + stopping rule.** ([Ch. 21](../part-5-building-with-ai/37-build-your-own-agent.md))
 - **Context is king.** Most AI failures are "it couldn't see what I see." Fix with connectors, MCP, docs, and memory.
 - **Deterministic where you can, AI where you must.** Plain automation for moving data, and AI for the fuzzy steps.
 - **Verify** anything that matters. Give AI a way to check its own work.
