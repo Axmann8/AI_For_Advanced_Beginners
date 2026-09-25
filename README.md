@@ -10,8 +10,9 @@ can run in minutes.
 There's no "what is a large language model" and no "10 rules for better prompts." You've got that. This is what comes next.
 
 > 📖 **Read it as a website:** [axmann8.github.io/claude_cloud_trial_credits](https://axmann8.github.io/claude_cloud_trial_credits/)
-> (searchable, dark mode, progress tracking, plus a one-file `MANUAL.md` download), or browse [`manual/`](manual/index.md)
-> right here on GitHub.
+> (searchable, dark mode, progress tracking), grab the **printable PDF book** ([US Letter](https://axmann8.github.io/claude_cloud_trial_credits/MANUAL.pdf) ·
+> [A4](https://axmann8.github.io/claude_cloud_trial_credits/MANUAL-A4.pdf)) or the one-file [`MANUAL.md`](https://axmann8.github.io/claude_cloud_trial_credits/MANUAL.md), or browse [`manual/`](manual/index.md) right
+> here on GitHub.
 >
 > 📅 Current as of **September 2026**. Product names shift fast. The concepts last.
 
@@ -109,6 +110,9 @@ too: ELI5 boxes are `<details>` blocks and callouts are GitHub alerts, and a sma
   the navigation, "Next →" links, part and home pages, reading times, this README's table of contents and the ELI5 Edition,
   and it checks every chapter follows the template. (`--check` only lints, which CI runs.)
 - **One giant file:** `python scripts/build_single_file.py` writes `MANUAL.md`.
+- **The printable PDF book:** `pip install -r requirements-pdf.txt && python -m playwright install chromium`, then
+  `mkdocs build && python scripts/build_pdf.py` writes `MANUAL.pdf` (add `--paper a4` for A4). It prints the built site
+  with Chromium, so everything on the website (ELI5 boxes, diagrams, code highlighting) makes it onto paper.
 - **Link check:** `python scripts/check_links.py`.
 
 ---

@@ -33,7 +33,7 @@ flowchart TB
     U[🧑 You]
     A[📱 Apps & tools<br/>Cursor · Perplexity · Notion AI · Lovable · Midjourney]
     P[🏢 Assistants & platforms<br/>Claude · ChatGPT · Gemini · Copilot · Meta AI]
-    M[🧠 Model makers (labs)<br/>Anthropic · OpenAI · Google DeepMind · Meta · Mistral · DeepSeek · Qwen…]
+    M["🧠 Model makers (labs)<br/>Anthropic · OpenAI · Google DeepMind · Meta · Mistral · DeepSeek · Qwen…"]
     C[☁️ Clouds & inference<br/>AWS · Google Cloud · Azure · Together · Fireworks · Groq · OpenRouter]
     H[🔩 Chips<br/>NVIDIA · Google TPUs · AMD · custom silicon]
     U --> A --> P --> M --> C --> H
