@@ -11,13 +11,13 @@ all in real life, with an 🧸 **ELI5 for everything**.
 [🚀 Start here](start-here/a-how-to-use-this-manual.md "button-primary") [⚡ Your first hour](start-here/b-your-first-hour.md "button") [🗺️ The big map](start-here/c-the-big-map.md "button")
 
 <!-- stats:start -->
-<div class="hero-stats"><div class="stat"><strong>50</strong><span>chapters</span></div><div class="stat"><strong>259</strong><span>ELI5 explanations 🧸</span></div><div class="stat"><strong>75</strong><span>quiz questions</span></div><div class="stat"><strong>24</strong><span>try-this challenges</span></div><div class="stat"><strong>8</strong><span>starter kits</span></div><div class="stat"><strong>72k</strong><span>words of fun</span></div></div>
+<div class="hero-stats"><div class="stat"><strong>53</strong><span>chapters</span></div><div class="stat"><strong>330</strong><span>ELI5 explanations 🧸</span></div><div class="stat"><strong>93</strong><span>quiz questions</span></div><div class="stat"><strong>31</strong><span>try-this challenges</span></div><div class="stat"><strong>8</strong><span>starter kits</span></div><div class="stat"><strong>80k</strong><span>words of fun</span></div></div>
 <!-- stats:end -->
 
 </div>
 
 <!-- progress:start -->
-<div class="progress-tracker" data-total="50"></div>
+<div class="progress-tracker" data-total="53"></div>
 <!-- progress:end -->
 
 ## 🧭 Pick your path
@@ -127,7 +127,7 @@ Each part has its own landing page with an ELI5, a suggested path, and clickable
 
     ---
 
-    <span class="card-meta">4 chapters</span>
+    <span class="card-meta">7 chapters</span>
 
     Super-charge the tools you already use every day: Notion, Google Workspace, Microsoft 365, Obsidian, your inbox and calendar, your spreadsheets, and the chat apps where you and your friends hang out.
 
@@ -250,7 +250,7 @@ Each part has its own landing page with an ELI5, a suggested path, and clickable
 
 > [!TIP]
 > **💡 Prefer one giant file?**
-> The whole manual is also published as a single [`MANUAL.md`](MANUAL.md) download, which is perfect for printing,
+> The whole manual is also published as a single [`MANUAL.md`](https://axmann8.github.io/claude_cloud_trial_credits/MANUAL.md) download, which is perfect for printing,
 > offline reading, or handing to an AI as context. It's rebuilt automatically every time the manual changes.
 
 > 📅 Current as of **September 2026**. AI moves fast: product names and features shift monthly, but the concepts and

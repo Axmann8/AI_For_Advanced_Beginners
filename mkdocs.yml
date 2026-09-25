@@ -139,10 +139,13 @@ nav:
       - "21 · The Automation Recipe Book": part-3-automation/21-automation-recipe-book.md
   - "🏡 Part IV · AI in Your Apps":
       - part-4-ai-in-your-apps/index.md
-      - "13 · AI Inside the Apps You Already Use": part-4-ai-in-your-apps/22-ai-in-your-apps.md
-      - "14 · Notion AI Deep Dive": part-4-ai-in-your-apps/23-notion-ai-deep-dive.md
-      - "15 · Google Workspace & Microsoft 365 AI": part-4-ai-in-your-apps/24-google-and-microsoft-ai.md
-      - "16 · Obsidian + AI": part-4-ai-in-your-apps/25-obsidian-and-ai.md
+      - "22 · AI Inside the Apps You Already Use": part-4-ai-in-your-apps/22-ai-in-your-apps.md
+      - "23 · Notion AI Deep Dive": part-4-ai-in-your-apps/23-notion-ai-deep-dive.md
+      - "24 · Google Workspace & Microsoft 365 AI": part-4-ai-in-your-apps/24-google-and-microsoft-ai.md
+      - "25 · Obsidian + AI": part-4-ai-in-your-apps/25-obsidian-and-ai.md
+      - "26 · Email & Calendar Superpowers": part-4-ai-in-your-apps/26-email-and-calendar.md
+      - "27 · Spreadsheet Superpowers": part-4-ai-in-your-apps/27-spreadsheet-superpowers.md
+      - "28 · Chat Apps & Bots": part-4-ai-in-your-apps/28-chat-apps-and-bots.md
   - "🛠️ Part V · Building with AI":
       - part-5-building-with-ai/index.md
       - "17 · Agents & AI Coding Tools": part-5-building-with-ai/29-agents-and-coding-tools.md

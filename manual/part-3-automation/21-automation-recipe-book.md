@@ -237,4 +237,4 @@ A **human approval** step (a draft or send-and-wait) until it's proven reliable.
 
 ---
 
-**Next:** [13 · AI Inside the Apps You Already Use →](../part-4-ai-in-your-apps/22-ai-in-your-apps.md)
+**Next:** [22 · AI Inside the Apps You Already Use →](../part-4-ai-in-your-apps/22-ai-in-your-apps.md)

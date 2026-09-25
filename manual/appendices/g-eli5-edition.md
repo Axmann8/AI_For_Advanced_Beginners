@@ -150,6 +150,48 @@ most and build that one first!
 
 ## 🏡 Part IV · AI in Your Apps
 
+### [22 · AI Inside the Apps You Already Use 🏡✨](../part-4-ai-in-your-apps/22-ai-in-your-apps.md)
+
+Your favorite apps got secret AI helpers! Your notes app can organize itself, your email can summarize itself, your
+spreadsheet can fill itself in, and your phone can read your screen. This chapter is a treasure map showing where each
+helper lives and one great trick for each.
+
+### [23 · Notion AI Deep Dive: Build an AI-Powered Second Brain 📒✨](../part-4-ai-in-your-apps/23-notion-ai-deep-dive.md)
+
+Notion is like a magic binder where every page can hold notes, lists and tables. Now the binder has a **helper who lives
+inside it**: you can ask it to write pages, tidy your lists, summarize meetings, and even do chores on a schedule while
+you sleep. We'll build a "second brain" binder that organizes itself.
+
+### [24 · Google Workspace & Microsoft 365 AI 🔵🟣](../part-4-ai-in-your-apps/24-google-and-microsoft-ai.md)
+
+Google and Microsoft put AI helpers inside email, documents, spreadsheets, slides and video calls. **Gemini** is Google's
+helper, and **Copilot** is Microsoft's. They can summarize, write, make slides from documents, take meeting notes and more.
+This chapter shows you the best trick in each app, plus how to make little robots that do the boring stuff automatically.
+
+### [25 · Obsidian + AI: Your Local-First Thinking Machine 🟪🧠](../part-4-ai-in-your-apps/25-obsidian-and-ai.md)
+
+Obsidian keeps your notes as simple text files in a folder, like pages in a real notebook you own. Because they're just
+files, any AI helper can read them: an AI inside Obsidian, Claude through a connector, or a coding agent that tidies your
+whole notebook. You can even use an AI that lives only on your computer, so your diary never leaves home.
+
+### [26 · Email & Calendar Superpowers 📬📅](../part-4-ai-in-your-apps/26-email-and-calendar.md)
+
+Imagine a friendly assistant who reads all your mail first, puts it into neat piles ("important," "can wait," "just
+newsletters"), writes draft replies for you to check, and keeps your calendar tidy so you have quiet time to think. That's
+what we're building, and you stay the boss who approves everything.
+
+### [27 · Spreadsheet Superpowers 📊✨](../part-4-ai-in-your-apps/27-spreadsheet-superpowers.md)
+
+Spreadsheets are grids of boxes. Now AI can fill boxes for you: "is this review happy or sad?", "what country is this
+address in?", "write a summary of this row." It can also write the tricky math formulas, clean up messy lists, and draw
+charts that explain what your numbers mean.
+
+### [28 · Chat Apps & Bots: Slack, Discord, Telegram & WhatsApp 💬🤖](../part-4-ai-in-your-apps/28-chat-apps-and-bots.md)
+
+A chat bot is a robot friend that lives in your group chat. You message it like a person ("what's the wifi password?" or
+"summarize today's chat"), and it answers using AI. You can build one without coding using n8n, or with a little Python if
+you're feeling adventurous.
+
 ## 🛠️ Part V · Building with AI
 
 ## 📚 Part VI · Knowledge & Memory
