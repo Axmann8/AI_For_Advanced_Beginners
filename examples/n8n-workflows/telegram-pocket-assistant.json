@@ -1,0 +1,291 @@
+{
+  "name": "📱 Pocket AI Assistant (Telegram → Claude agent → Telegram)",
+  "nodes": [
+    {
+      "parameters": {
+        "updates": [
+          "message"
+        ],
+        "additionalFields": {}
+      },
+      "id": "c34950d4-114e-400f-901a-50071ada41dd",
+      "name": "Telegram Trigger",
+      "type": "n8n-nodes-base.telegramTrigger",
+      "typeVersion": 1.2,
+      "position": [
+        0,
+        0
+      ],
+      "webhookId": "90b50520-c04b-452f-9fcc-01597937435f"
+    },
+    {
+      "parameters": {
+        "conditions": {
+          "options": {
+            "caseSensitive": true,
+            "leftValue": "",
+            "typeValidation": "loose"
+          },
+          "conditions": [
+            {
+              "id": "634017b9-5f93-40e3-afd4-83d328978fd0",
+              "leftValue": "={{ $json.message.from.id }}",
+              "rightValue": "PASTE_YOUR_TELEGRAM_USER_ID",
+              "operator": {
+                "type": "string",
+                "operation": "equals"
+              }
+            }
+          ],
+          "combinator": "and"
+        },
+        "options": {}
+      },
+      "id": "5156a6f4-5bd0-439b-a48a-3b441599437f",
+      "name": "Only me? 🔒",
+      "type": "n8n-nodes-base.if",
+      "typeVersion": 2.2,
+      "position": [
+        220,
+        0
+      ]
+    },
+    {
+      "parameters": {
+        "promptType": "define",
+        "text": "={{ $json.message.text }}",
+        "options": {
+          "systemMessage": "=You are Pip, a warm, upbeat personal assistant who lives in Telegram. Keep replies short (under 120 words), friendly and practical, with at most one emoji. Today is {{ $now.toFormat('cccc, d LLLL yyyy, HH:mm') }}.\n\nTools:\n- Use 'Upcoming events' to check the calendar before answering schedule questions.\n- Use 'Create event' ONLY after the user clearly confirms the title, date and time. Repeat the details back first.\n- Use 'Calculator' for any math.\n\nNever invent events. If you're unsure, ask one short clarifying question."
+        }
+      },
+      "id": "ea8d4eac-42e0-487b-806f-4e89571eb5cf",
+      "name": "Pip (AI Agent)",
+      "type": "@n8n/n8n-nodes-langchain.agent",
+      "typeVersion": 1.9,
+      "position": [
+        480,
+        -20
+      ]
+    },
+    {
+      "parameters": {
+        "model": {
+          "__rl": true,
+          "mode": "id",
+          "value": "claude-opus-5"
+        },
+        "options": {
+          "maxTokensToSample": 2000
+        }
+      },
+      "id": "ad01767a-beb0-4381-af58-ebad8032e1e6",
+      "name": "Claude",
+      "type": "@n8n/n8n-nodes-langchain.lmChatAnthropic",
+      "typeVersion": 1.3,
+      "position": [
+        340,
+        220
+      ]
+    },
+    {
+      "parameters": {
+        "sessionIdType": "customKey",
+        "sessionKey": "={{ $('Telegram Trigger').item.json.message.chat.id }}",
+        "contextWindowLength": 20
+      },
+      "id": "34c5445b-544f-49ff-8e6e-224734f7a8ee",
+      "name": "Memory (per chat)",
+      "type": "@n8n/n8n-nodes-langchain.memoryBufferWindow",
+      "typeVersion": 1.3,
+      "position": [
+        480,
+        220
+      ]
+    },
+    {
+      "parameters": {
+        "operation": "getAll",
+        "calendar": {
+          "__rl": true,
+          "mode": "list",
+          "value": "primary"
+        },
+        "limit": 20,
+        "timeMin": "={{ $fromAI('timeMin', 'Start of the time range, ISO 8601 date-time', 'string') }}",
+        "timeMax": "={{ $fromAI('timeMax', 'End of the time range, ISO 8601 date-time', 'string') }}",
+        "options": {}
+      },
+      "id": "0001c138-cff4-4561-84ec-a087be1b2d68",
+      "name": "Upcoming events",
+      "type": "n8n-nodes-base.googleCalendarTool",
+      "typeVersion": 1.3,
+      "position": [
+        620,
+        220
+      ]
+    },
+    {
+      "parameters": {
+        "calendar": {
+          "__rl": true,
+          "mode": "list",
+          "value": "primary"
+        },
+        "start": "={{ $fromAI('start', 'Event start, ISO 8601 date-time', 'string') }}",
+        "end": "={{ $fromAI('end', 'Event end, ISO 8601 date-time', 'string') }}",
+        "additionalFields": {
+          "summary": "={{ $fromAI('title', 'Short event title', 'string') }}"
+        }
+      },
+      "id": "e7885bfc-486d-4314-ae78-9ff6b424a0e5",
+      "name": "Create event",
+      "type": "n8n-nodes-base.googleCalendarTool",
+      "typeVersion": 1.3,
+      "position": [
+        760,
+        220
+      ]
+    },
+    {
+      "parameters": {},
+      "id": "3616939d-e34e-4170-a9b0-75ff7f8a3107",
+      "name": "Calculator",
+      "type": "@n8n/n8n-nodes-langchain.toolCalculator",
+      "typeVersion": 1,
+      "position": [
+        900,
+        220
+      ]
+    },
+    {
+      "parameters": {
+        "chatId": "={{ $('Telegram Trigger').item.json.message.chat.id }}",
+        "text": "={{ $json.output }}",
+        "additionalFields": {
+          "appendAttribution": false
+        }
+      },
+      "id": "0ce58a2e-ade0-46dd-b93c-587aca3d18cd",
+      "name": "Reply on Telegram",
+      "type": "n8n-nodes-base.telegram",
+      "typeVersion": 1.2,
+      "position": [
+        860,
+        -20
+      ],
+      "webhookId": "cc71aaf2-c1f9-4518-b5e8-c556ce8b4721"
+    },
+    {
+      "parameters": {},
+      "id": "414feb9c-6b31-459e-8184-04e5b18eb9d8",
+      "name": "Ignore strangers",
+      "type": "n8n-nodes-base.noOp",
+      "typeVersion": 1,
+      "position": [
+        480,
+        -220
+      ]
+    }
+  ],
+  "connections": {
+    "Telegram Trigger": {
+      "main": [
+        [
+          {
+            "node": "Only me? 🔒",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Only me? 🔒": {
+      "main": [
+        [
+          {
+            "node": "Pip (AI Agent)",
+            "type": "main",
+            "index": 0
+          }
+        ],
+        [
+          {
+            "node": "Ignore strangers",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Claude": {
+      "ai_languageModel": [
+        [
+          {
+            "node": "Pip (AI Agent)",
+            "type": "ai_languageModel",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Memory (per chat)": {
+      "ai_memory": [
+        [
+          {
+            "node": "Pip (AI Agent)",
+            "type": "ai_memory",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Upcoming events": {
+      "ai_tool": [
+        [
+          {
+            "node": "Pip (AI Agent)",
+            "type": "ai_tool",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Create event": {
+      "ai_tool": [
+        [
+          {
+            "node": "Pip (AI Agent)",
+            "type": "ai_tool",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Calculator": {
+      "ai_tool": [
+        [
+          {
+            "node": "Pip (AI Agent)",
+            "type": "ai_tool",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Pip (AI Agent)": {
+      "main": [
+        [
+          {
+            "node": "Reply on Telegram",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    }
+  },
+  "settings": {
+    "executionOrder": "v1"
+  },
+  "pinData": {}
+}

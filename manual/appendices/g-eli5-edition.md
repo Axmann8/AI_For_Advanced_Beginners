@@ -538,6 +538,56 @@ AI is growing up fast. Soon it will do more jobs by itself, plug into almost eve
 matters to you, and help anyone build their own apps. The most important skills for people will be: explaining clearly what
 you want, checking the work, and being kind and wise about how AI is used. You've been practicing all of those! 🌟
 
+## 🧱 Part XI · Build-Alongs
+
+### [81 · Build-Along: Your Pocket AI Assistant on Telegram 📱🤖](../part-11-build-alongs/81-build-along-pocket-ai-assistant.md)
+
+We're building a robot friend you can text from your phone. You send "what's on tomorrow?" and it looks at your calendar and
+answers. You say "add dentist Friday at 3" and it asks "shall I add it?" and then does. It remembers what you talked about,
+and it only listens to you, never strangers. It's built from blocks you connect together, like LEGO. 🧱📱
+
+### [82 · Build-Along: Publish Your Own MCP Server ☔📦](../part-11-build-alongs/82-build-along-publish-an-mcp-server.md)
+
+An MCP server is a plug-in that gives AI a new skill. We'll take a weather plug-in, test it, add your own twist, and then put
+it in the world's "plug-in shop" (npm and the MCP Registry) so anyone can install it with one line. It's like writing a
+little app and putting it in an app store. ☔🛍️
+
+### [83 · Build-Along: The Second Brain 🧠🗃️](../part-11-build-alongs/83-build-along-second-brain.md)
+
+We're making a magic notebook. You drop notes into a "to sort" box by typing or talking. Your AI helper sorts them into the
+right drawers, sticks labels on them, and connects related ideas with strings. Every Friday it writes you a little "what you did
+this week" report. And whenever you forget something, you just ask the notebook. 📓✨
+
+### [84 · Build-Along: A Web App with Logins & AI 🍲💻](../part-11-build-alongs/84-build-along-web-app-with-ai.md)
+
+We're making a recipe website where each person has their own secret recipe box. You log in, save your recipes, and there's a
+magic button: type "I have eggs, spinach and feta" and the AI invents a recipe for you. Then we put the website on the internet
+so your friends can use it too. An AI coding helper writes most of the code while you steer. 👩‍🍳✨
+
+### [85 · Build-Along: A Research Agent That Writes Reports 🔎📄](../part-11-build-alongs/85-build-along-research-agent.md)
+
+We're building a robot researcher. You ask a big question like "do heat pumps work in snowy places?" and it goes off to read
+lots of web pages, checks that different sources agree, and writes you a neat report with a list of where every fact came
+from. You can even have it send you a fresh report every Monday. 📚🤖
+
+### [86 · Build-Along: The Private Home Assistant 🏡🔒](../part-11-build-alongs/86-build-along-private-home-assistant.md)
+
+We're building a family robot helper that lives in your house, not on some company's faraway computer. Everyone gets their own
+login, it knows about your house stuff (like how the dishwasher works), you can talk to it out loud, and it can even turn the
+lights off. And because it lives at home, your family's secrets stay at home. 🤫🏠
+
+### [87 · Build-Along: The Automated Newsletter 📰💌](../part-11-build-alongs/87-build-along-automated-newsletter.md)
+
+Imagine a helper who reads all your favorite websites every week, picks the five most interesting things, writes a friendly
+sentence about each, and puts them in a pretty email for you. That's this project! You choose the websites, and the helper
+does the reading. 📰✨
+
+### [88 · Build-Along: An AI Voice Receptionist 📞🤖](../part-11-build-alongs/88-build-along-voice-receptionist.md)
+
+We're building a robot receptionist that answers the phone for a pretend (or real!) business. When someone calls, it says hello,
+answers questions like "what are your opening hours?", checks the calendar for free times, books the appointment, and then texts
+the owner a summary. It always says it's an AI, and it can pass the call to a real person when needed. ☎️🤖
+
 ---
 
 **You made it to the end! 🎉** [Back to the manual home ↩](../index.md)

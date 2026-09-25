@@ -242,4 +242,4 @@ affordable.
 
 ---
 
-**Next:** [Appendix A · Glossary →](../appendices/a-glossary.md)
+**Next:** [81 · Build-Along →](../part-11-build-alongs/81-build-along-pocket-ai-assistant.md)

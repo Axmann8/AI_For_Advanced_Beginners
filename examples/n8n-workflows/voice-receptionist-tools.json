@@ -1,0 +1,189 @@
+{
+  "name": "📞 Voice Receptionist Tools (check availability + book appointment)",
+  "nodes": [
+    {
+      "parameters": {
+        "httpMethod": "POST",
+        "path": "receptionist/check-availability",
+        "responseMode": "responseNode",
+        "options": {}
+      },
+      "id": "0ee7f96d-1e1a-4c64-9278-949a8e30636e",
+      "name": "Check availability webhook",
+      "type": "n8n-nodes-base.webhook",
+      "typeVersion": 2,
+      "position": [
+        0,
+        0
+      ],
+      "webhookId": "6562f10b-f4ec-4d0f-8707-4471dca24b21"
+    },
+    {
+      "parameters": {
+        "operation": "getAll",
+        "calendar": {
+          "__rl": true,
+          "mode": "list",
+          "value": "primary"
+        },
+        "returnAll": true,
+        "timeMin": "={{ $json.body.date }}T00:00:00",
+        "timeMax": "={{ $json.body.date }}T23:59:59",
+        "options": {}
+      },
+      "id": "3ef1d786-b1af-4f60-9866-6f7238c6195f",
+      "name": "Get that day's events",
+      "type": "n8n-nodes-base.googleCalendar",
+      "typeVersion": 1.3,
+      "position": [
+        220,
+        0
+      ],
+      "alwaysOutputData": true
+    },
+    {
+      "parameters": {
+        "jsCode": "// Settings: your business hours (24h clock) and your timezone offset from UTC\nconst OPEN = 9, CLOSE = 17, SLOT_MINUTES = 30, TZ_OFFSET = '+00:00';\n\n// Find free 30-minute slots on a given day, inside business hours, avoiding existing events.\nfunction freeSlots(dateStr, events, { open = 9, close = 17, minutes = 30, tzOffset = \"+00:00\" } = {}) {\n  const day = new Date(`${dateStr}T00:00:00${tzOffset}`);\n  const busy = events\n    .map((e) => [new Date(e.start.dateTime || e.start.date), new Date(e.end.dateTime || e.end.date)])\n    .sort((a, b) => a[0] - b[0]);\n  const slots = [];\n  for (let t = new Date(day.getTime() + open * 3600e3); t.getTime() + minutes * 60e3 <= day.getTime() + close * 3600e3; t = new Date(t.getTime() + minutes * 60e3)) {\n    const end = new Date(t.getTime() + minutes * 60e3);\n    if (!busy.some(([s, e]) => t < e && end > s)) slots.push(t.toISOString());\n  }\n  return slots;\n}\n\nconst date = $('Check availability webhook').first().json.body.date; // e.g. \"2026-10-01\"\nconst events = $input.all().map((i) => i.json).filter((e) => e.start);\nconst slots = freeSlots(date, events, { open: OPEN, close: CLOSE, minutes: SLOT_MINUTES, tzOffset: TZ_OFFSET });\nconst spoken = slots.slice(0, 4).map((s) => new Date(s).toISOString().slice(11, 16));\nreturn [{ json: {\n  date,\n  available: slots.length > 0,\n  slots,\n  message: slots.length\n    ? `On ${date} I have openings at ${spoken.join(', ')}${slots.length > 4 ? ' and a few more' : ''}.`\n    : `Sorry, ${date} is fully booked. Would another day work?`,\n} }];\n"
+      },
+      "id": "ca731a4f-e444-4cbd-9a54-1fa9c07861e4",
+      "name": "Find free slots",
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [
+        440,
+        0
+      ]
+    },
+    {
+      "parameters": {
+        "respondWith": "json",
+        "responseBody": "={{ $json }}",
+        "options": {}
+      },
+      "id": "66516b39-18c2-4271-b65c-5f4d02f499a7",
+      "name": "Reply with slots",
+      "type": "n8n-nodes-base.respondToWebhook",
+      "typeVersion": 1.1,
+      "position": [
+        660,
+        0
+      ]
+    },
+    {
+      "parameters": {
+        "httpMethod": "POST",
+        "path": "receptionist/book-appointment",
+        "responseMode": "responseNode",
+        "options": {}
+      },
+      "id": "fcba39ab-c31f-4c75-8482-3842df18e643",
+      "name": "Book appointment webhook",
+      "type": "n8n-nodes-base.webhook",
+      "typeVersion": 2,
+      "position": [
+        0,
+        260
+      ],
+      "webhookId": "e1ab081c-89a0-4255-9961-785e2a4e3417"
+    },
+    {
+      "parameters": {
+        "calendar": {
+          "__rl": true,
+          "mode": "list",
+          "value": "primary"
+        },
+        "start": "={{ $json.body.start }}",
+        "end": "={{ new Date(new Date($json.body.start).getTime() + 30 * 60000).toISOString() }}",
+        "additionalFields": {
+          "summary": "=Consultation: {{ $json.body.name }}",
+          "description": "=Booked by the AI receptionist.\\nPhone: {{ $json.body.phone }}\\nNotes: {{ $json.body.notes || 'none' }}"
+        }
+      },
+      "id": "5e32cdee-abc5-41af-97bf-1e0d1be21cbe",
+      "name": "Create calendar event",
+      "type": "n8n-nodes-base.googleCalendar",
+      "typeVersion": 1.3,
+      "position": [
+        220,
+        260
+      ]
+    },
+    {
+      "parameters": {
+        "respondWith": "json",
+        "responseBody": "={{ { booked: true, eventId: $json.id, message: `You're booked for ${$('Book appointment webhook').first().json.body.start}. See you then!` } }}",
+        "options": {}
+      },
+      "id": "83697ab1-d61b-41df-9916-6d9fdc528520",
+      "name": "Confirm booking",
+      "type": "n8n-nodes-base.respondToWebhook",
+      "typeVersion": 1.1,
+      "position": [
+        440,
+        260
+      ]
+    }
+  ],
+  "connections": {
+    "Check availability webhook": {
+      "main": [
+        [
+          {
+            "node": "Get that day's events",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Get that day's events": {
+      "main": [
+        [
+          {
+            "node": "Find free slots",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Find free slots": {
+      "main": [
+        [
+          {
+            "node": "Reply with slots",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Book appointment webhook": {
+      "main": [
+        [
+          {
+            "node": "Create calendar event",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Create calendar event": {
+      "main": [
+        [
+          {
+            "node": "Confirm booking",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    }
+  },
+  "settings": {
+    "executionOrder": "v1"
+  },
+  "pinData": {}
+}

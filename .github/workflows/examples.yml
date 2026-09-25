@@ -45,5 +45,17 @@ jobs:
           npm install --no-audit --no-fund
           npm test
 
+      - name: Weather MCP server smoke test (offline, stdio + HTTP)
+        working-directory: examples/weather-mcp-server
+        run: |
+          npm install --no-audit --no-fund
+          npm test
+
+      - name: Research agent & newsletter tests (offline)
+        run: |
+          pip install -r examples/research-agent/requirements.txt -r examples/newsletter-pipeline/requirements.txt
+          (cd examples/research-agent && python test_research_agent.py)
+          (cd examples/newsletter-pipeline && python test_newsletter.py)
+
       - name: API-key examples compile
         run: python -m py_compile $(find examples -name "*.py" -not -path "*/node_modules/*")

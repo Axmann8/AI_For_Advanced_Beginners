@@ -11,13 +11,13 @@ all in real life, with an 🧸 **ELI5 for everything**.
 [🚀 Start here](start-here/a-how-to-use-this-manual.md "button-primary") [⚡ Your first hour](start-here/b-your-first-hour.md "button") [🗺️ The big map](start-here/c-the-big-map.md "button")
 
 <!-- stats:start -->
-<div class="hero-stats"><div class="stat"><strong>80</strong><span>chapters</span></div><div class="stat"><strong>866</strong><span>ELI5 explanations 🧸</span></div><div class="stat"><strong>250</strong><span>quiz questions</span></div><div class="stat"><strong>85</strong><span>try-this challenges</span></div><div class="stat"><strong>8</strong><span>starter kits</span></div><div class="stat"><strong>153k</strong><span>words of fun</span></div></div>
+<div class="hero-stats"><div class="stat"><strong>88</strong><span>chapters</span></div><div class="stat"><strong>961</strong><span>ELI5 explanations 🧸</span></div><div class="stat"><strong>274</strong><span>quiz questions</span></div><div class="stat"><strong>93</strong><span>try-this challenges</span></div><div class="stat"><strong>12</strong><span>starter kits</span></div><div class="stat"><strong>167k</strong><span>words of fun</span></div></div>
 <!-- stats:end -->
 
 </div>
 
 <!-- progress:start -->
-<div class="progress-tracker" data-total="80"></div>
+<div class="progress-tracker" data-total="88"></div>
 <!-- progress:end -->
 
 ## 🧭 Pick your path
@@ -178,6 +178,14 @@ Each part has its own landing page with an ELI5, a suggested path, and clickable
     <span class="card-meta">9 chapters</span>
 
     Doing it well: safety and gotchas, privacy, evaluating and comparing AI, cost optimization, ethics for builders, teaching others, turning your skills into income, staying current, and where this is all heading.
+
+-   **🧱 [Part XI · Build-Alongs](part-11-build-alongs/index.md)**
+
+    ---
+
+    <span class="card-meta">8 chapters</span>
+
+    Eight long, friendly, step-by-step projects. Each one combines skills from across the manual into something real you'll actually use, and each is doable in a weekend.
 
 -   **📎 [Appendices](appendices/index.md)**
 
