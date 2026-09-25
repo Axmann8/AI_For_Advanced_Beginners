@@ -31,6 +31,58 @@ For any problem: write down what you did, what you expected, and what happened, 
 4. **Ask AI with context:** *"I did [X], expected [Y], got [Z]. Here's the error: [paste]. Before fixing, list 3 likely causes."*
 5. **Change one thing**, test again. Commit or save when it works.
 
+## 🐣 Beginner questions & everyday assistant hiccups
+
+<details class="eli5">
+<summary>🧸 ELI5</summary>
+
+The most common little problems people hit in ChatGPT, Gemini, Claude and friends, like limits, logins and answers that
+stop halfway, and how to fix each one.
+
+</details>
+
+### "You've reached your limit" / "Try again later."
+
+Free (and even paid) plans have usage limits that reset after a few hours or a day. Wait until the time shown, switch to
+a smaller or faster model in the model picker, or carry on in another assistant for now
+([Using Several Assistants](../part-2-ai-assistants-field-guide/31-using-several-assistants.md)).
+
+### The answer stopped in the middle.
+
+Type **"continue"** or press **Regenerate**. For very long outputs, ask for them in parts (*"part 1 of 3"*).
+
+### "Something went wrong" / network error.
+
+Wait a few seconds and retry; refresh the page; check your internet connection; check the company's status page (for
+example status.openai.com, status.anthropic.com, or search "[assistant] status"). Long chats sometimes fail: start a new
+chat with a short summary.
+
+### I can't log in, or I'm not getting the login email.
+
+Check spam, make sure you're using the same sign-in method as before ("Continue with Google" vs. email), and try the app
+*and* the website. Never enter your password on a page you reached from an unexpected email.
+
+### It answers in the wrong language or uses American spelling.
+
+Tell it (*"Reply in Spanish"*, *"Use British spelling"*) and put the preference in your **custom instructions**
+([Getting Set Up](../part-1-ai-from-zero/05-getting-set-up.md)).
+
+### I can't find a feature someone mentioned (memory, voice, projects…).
+
+Features vary by **plan, country, device and account type** (personal vs. work), and apps move buttons often. Ask the
+assistant itself: *"Where do I find [feature] in this app?"*, or check its [Field Guide
+chapter](../part-2-ai-assistants-field-guide/index.md).
+
+### I shared something private by mistake.
+
+Delete the chat, remove any memory it created (Settings → Memory), and revoke any shared link. If you shared a password
+or card number, **change the password or call your bank** right away ([Staying Safe](../part-1-ai-from-zero/11-staying-safe-with-ai.md)).
+
+### Which assistant should I actually use?
+
+Any of the big ones is fine to start. Use the [30-second answer](../part-1-ai-from-zero/04-choosing-your-first-assistant.md)
+or do the 15-minute taste test.
+
 ## 🔌 MCP & connectors
 
 <details class="eli5">

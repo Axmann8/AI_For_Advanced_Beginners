@@ -18,6 +18,12 @@ so your friends can use it too. An AI coding helper writes most of the code whil
 
 <!-- in-this-chapter -->
 
+> [!NOTE]
+> **🌍 Mix and match providers**
+> The builder and the brain can be anything: build with Claude Code, **Codex**, **Gemini CLI**, **Cursor** or
+> **Lovable**, and have your app's AI feature call **OpenAI**, **Gemini** or Claude (the pattern is identical, see
+> [Calling AI APIs Directly](../part-7-building-with-ai/67-calling-ai-apis.md#-the-same-first-call-with-openai-gemini--friends)).
+
 ## 🗺️ What you'll build
 
 <details class="eli5">

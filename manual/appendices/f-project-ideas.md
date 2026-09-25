@@ -33,7 +33,7 @@ Easy projects you can finish in an afternoon without writing any code.
 | 1 | **Chat with your Drive**: ask questions across your docs | Claude + Google Drive connector | Connectors, grounded answers |
 | 2 | **Study podcast**: turn notes into an Audio Overview | Gemini Notebook ([Masterclass](../part-8-knowledge-and-memory/76-notebooklm-masterclass.md)) | Grounding, multimodal output |
 | 3 | **AI folder cleanup**: sort a messy folder | Claude Desktop + Filesystem MCP | Local MCP, permissions |
-| 4 | **Custom assistant** with your writing style guide | A Project / Custom GPT / Gem | Persistent instructions |
+| 4 | **Custom assistant** with your writing style guide | A Project / Gem / Space | Persistent instructions |
 | 5 | **Meeting → Notion**: transcript to action items | Claude + Notion connector | Cross-app actions |
 | 6 | **Mini-app in chat**: budget calculator, quiz or game | Claude Artifacts | Vibe-coding basics |
 | 7 | **Personal brand kit**: logo, palette, banner | Ideogram / Canva / Midjourney | Image prompting |

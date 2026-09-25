@@ -18,6 +18,12 @@ this week" report. And whenever you forget something, you just ask the notebook.
 
 <!-- in-this-chapter -->
 
+> [!NOTE]
+> **🌍 Using Codex or Gemini CLI?**
+> The vault works with any coding agent that reads Markdown. Copy `CLAUDE.md` to `AGENTS.md` (Codex and others) or
+> `GEMINI.md` (Gemini CLI), and the same folder structure and routines work. Obsidian's AI plugins can use OpenAI,
+> Gemini or local models too ([Obsidian + AI](../part-6-ai-in-your-apps/56-obsidian-and-ai.md)).
+
 ## 🗺️ What you'll build
 
 <details class="eli5">

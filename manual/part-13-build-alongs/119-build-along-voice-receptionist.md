@@ -19,6 +19,11 @@ the owner a summary. It always says it's an AI, and it can pass the call to a re
 
 <!-- in-this-chapter -->
 
+> [!NOTE]
+> **🌍 Any brain will do**
+> Voice platforms like Vapi, Retell and ElevenLabs Agents let you pick the LLM: Claude, **GPT**, **Gemini** and others.
+> Choose a fast one (voice needs snappy replies) and keep the same tools and n8n webhooks.
+
 ## 🗺️ What you'll build
 
 <details class="eli5">

@@ -277,6 +277,8 @@ def yaml_str(s: str) -> str:
 
 def sync_nav() -> None:
     lines = ["nav:", f"  - {yaml_str('🏠 Home')}: index.md"]
+    if (MANUAL / "download.md").exists():
+        lines.append(f"  - {yaml_str('📄 Download the PDF')}: download.md")
     for folder, (label, emoji) in PARTS.items():
         pages = pages_in(folder)
         if not pages:

@@ -31,6 +31,27 @@ The biggest lessons of the whole manual, in six lines.
 - **Approve before acting** on anything that sends, deletes, pays or publishes.
 - **Try > read.** Ten minutes hands-on beats an hour of hot takes.
 
+## 🤖 Assistant quick reference
+
+<details class="eli5">
+<summary>🧸 ELI5</summary>
+
+Where to find the most useful features in each popular AI app.
+
+</details>
+
+| Want… | 💬 ChatGPT | ✨ Gemini | 🧡 Claude | 🪟 Copilot | 🔎 Perplexity |
+|---|---|---|---|---|---|
+| Tell it about you | Settings → Personalization | Settings → Personal context | Settings → Profile | Settings → Memory | Settings → Personalization |
+| A reusable helper | Projects (skills) | Gems | Projects | Microsoft 365 agents | Spaces |
+| Private one-off chat | Temporary chat | Temporary chat | Incognito 👻 | Settings → Privacy | Incognito |
+| Talk out loud | Voice (waveform icon) | Live | Voice icon | Microphone | Voice mode |
+| Deep research | Tools → Deep research | Tools → Deep Research | Research | Researcher (365 Premium) | Research mode |
+| Images | Just ask / Images | Just ask (Nano Banana) | ➖ (diagrams only) | Just ask | Pro: just ask |
+| Stop training on my chats | Data controls | Gemini Apps Activity | Privacy | Privacy | Preferences |
+
+Full guides: [Part II · The AI Assistants Field Guide](../part-2-ai-assistants-field-guide/index.md).
+
 ## 🪜 The knowledge ladder
 
 <details class="eli5">

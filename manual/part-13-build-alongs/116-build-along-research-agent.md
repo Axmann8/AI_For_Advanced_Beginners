@@ -19,6 +19,13 @@ from. You can even have it send you a fresh report every Monday. 📚🤖
 
 <!-- in-this-chapter -->
 
+> [!NOTE]
+> **🌍 Porting to another provider**
+> The kit leans on Claude's built-in web search and fetch tools. **OpenAI** (the `web_search` tool in the Responses API)
+> and **Gemini** (grounding with Google Search) offer the same superpower, so the recipe ports over: swap the client, the
+> tool definitions and the "pause and continue" handling. Ask your coding agent to do the port for you. It's a great
+> exercise.
+
 ## 🗺️ What you'll build
 
 <details class="eli5">

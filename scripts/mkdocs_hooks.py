@@ -204,7 +204,8 @@ def on_page_content(html_out, page, config, files):
         done = (
             f'<div class="chapter-done" data-chapter="{html.escape(page.url)}">'
             '<button type="button" class="chapter-done__btn">✅ Mark this chapter as done</button>'
-            '<p class="chapter-done__hint">Progress is saved in this browser only, so no account needed.</p></div>'
+            '<p class="chapter-done__hint">Progress is saved in this browser only, so no account needed. · '
+            f'<a href="{"../" * page.url.count("/")}download/">📄 Prefer paper? Get the PDF book</a></p></div>'
         )
         html_out = html_out.replace("<!-- chapter-done -->", done, 1)
     return html_out

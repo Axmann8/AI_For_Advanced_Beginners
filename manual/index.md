@@ -1,17 +1,18 @@
 <div class="hero" markdown>
 
-<span class="hero-kicker">The Massive Manual · 2026 Edition</span>
+<span class="hero-kicker">From absolute beginner to advanced beginner · 2026 Edition</span>
 
-# AI for Advanced Beginners 🚀
+# The Massive AI Manual 🚀
 
-You know what an LLM is. You know how to prompt. **This is everything that comes next:** connecting AI to your apps,
-automating your life, building your own tools and agents, running models at home, making art and music, and using it
-all in real life, with an 🧸 **ELI5 for everything**.
+Never used AI before? Ready to build your own agents? **This manual is for everyone.** Start from zero with friendly,
+jargon-free guides, master **ChatGPT, Gemini, Claude, Copilot, Grok, Perplexity, Meta AI** and every other major
+assistant, then go further: connect AI to your apps, automate your life, build your own tools, run models at home, make
+art and music, and use it all in real life, with an 🧸 **ELI5 for everything**.
 
-[🚀 Start here](start-here/a-how-to-use-this-manual.md "button-primary") [⚡ Your first hour](start-here/b-your-first-hour.md "button") [🗺️ The big map](start-here/c-the-big-map.md "button")
+[🐣 I'm brand new to AI](part-1-ai-from-zero/index.md "button-primary") [🤖 Master your assistant](part-2-ai-assistants-field-guide/index.md "button") [🚀 Start here](start-here/a-how-to-use-this-manual.md "button") [📄 Download the PDF book](download.md "button")
 
 <!-- stats:start -->
-<div class="hero-stats"><div class="stat"><strong>119</strong><span>chapters</span></div><div class="stat"><strong>1378</strong><span>ELI5 explanations 🧸</span></div><div class="stat"><strong>375</strong><span>quiz questions</span></div><div class="stat"><strong>124</strong><span>try-this challenges</span></div><div class="stat"><strong>12</strong><span>starter kits</span></div><div class="stat"><strong>234k</strong><span>words of fun</span></div></div>
+<div class="hero-stats"><div class="stat"><strong>119</strong><span>chapters</span></div><div class="stat"><strong>1383</strong><span>ELI5 explanations 🧸</span></div><div class="stat"><strong>375</strong><span>quiz questions</span></div><div class="stat"><strong>124</strong><span>try-this challenges</span></div><div class="stat"><strong>12</strong><span>starter kits</span></div><div class="stat"><strong>238k</strong><span>words of fun</span></div></div>
 <!-- stats:end -->
 
 </div>
@@ -25,6 +26,23 @@ all in real life, with an 🧸 **ELI5 for everything**.
 Not sure where to begin? Pick the card that sounds most like you. Every path is a great one. 💜
 
 <div class="grid cards clickable" markdown>
+
+-   **🐣 "I've never really used AI"**
+
+    ---
+
+    Start at zero: what AI is, your first conversation, how to ask good questions and how to stay safe. No jargon, no
+    judgment.
+
+    [What Is AI, Really? →](part-1-ai-from-zero/01-what-is-ai-really.md)
+
+-   **🤖 "I want to get great at ChatGPT (or Gemini, or Claude…)"**
+
+    ---
+
+    A complete, friendly guide to every major assistant, plus head-to-head showdowns to find your favorite.
+
+    [The AI Assistants Field Guide →](part-2-ai-assistants-field-guide/index.md)
 
 -   **⚡ "I want results in 10 minutes"**
 
@@ -92,7 +110,7 @@ Not sure where to begin? Pick the card that sounds most like you. Every path is 
 
 </div>
 
-## 🗺️ The eleven parts
+## 🗺️ The thirteen parts
 
 Each part has its own landing page with an ELI5, a suggested path, and clickable chapter cards.
 
@@ -218,6 +236,20 @@ Each part has its own landing page with an ELI5, a suggested path, and clickable
 
 <div class="grid cards" markdown>
 
+-   **🐣 Starts from zero**
+
+    ---
+
+    Brand new? [Part I](part-1-ai-from-zero/index.md) walks you from your very first chat to confident everyday use,
+    with a [30-day plan](part-1-ai-from-zero/16-your-30-day-plan.md) to make it stick.
+
+-   **🌍 Every assistant, not just one**
+
+    ---
+
+    ChatGPT, Gemini, Claude, Copilot, Grok, Perplexity, Meta AI, DeepSeek, Le Chat, Qwen, Siri, Alexa+ and more,
+    each with a [complete guide](part-2-ai-assistants-field-guide/index.md).
+
 -   **🧸 ELI5 for everything**
 
     ---
@@ -256,6 +288,13 @@ Each part has its own landing page with an ELI5, a suggested path, and clickable
     ---
 
     No gatekeeping and no jargon walls. Hover over acronyms like MCP or RAG for instant ELI5 tooltips.
+
+-   **📄 A real book, too**
+
+    ---
+
+    Prefer paper, or reading offline? [Download the whole manual](download.md) as a beautifully designed,
+    printable PDF book.
 
 </div>
 

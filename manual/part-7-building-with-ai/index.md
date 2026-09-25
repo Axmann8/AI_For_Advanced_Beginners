@@ -49,7 +49,7 @@ put it on the internet, and build your own AI helpers from scratch.
 
     ---
 
-    <span class="card-meta">⏱️ 10 min read · 🎯 Beginner → intermediate (no coding required to start)</span>
+    <span class="card-meta">⏱️ 11 min read · 🎯 Beginner → intermediate (no coding required to start)</span>
 
     Claude Code is an agentic coding tool. It reads your project, runs commands, edits files, tests its own work and ships features.
 
@@ -89,7 +89,7 @@ put it on the internet, and build your own AI helpers from scratch.
 
     ---
 
-    <span class="card-meta">⏱️ 8 min read · 🎯 Intermediate (copy-paste friendly, no prior coding needed)</span>
+    <span class="card-meta">⏱️ 9 min read · 🎯 Intermediate (copy-paste friendly, no prior coding needed)</span>
 
     Chat apps are wonderful, but the API is where AI becomes a programmable ingredient. It's how you put AI in scripts, spreadsheets, bots, apps and automations.
 
@@ -97,7 +97,7 @@ put it on the internet, and build your own AI helpers from scratch.
 
     ---
 
-    <span class="card-meta">⏱️ 8 min read · 🎯 Intermediate</span>
+    <span class="card-meta">⏱️ 9 min read · 🎯 Intermediate</span>
 
     You've used agents. Now you'll build one and understand exactly what's happening inside.
 

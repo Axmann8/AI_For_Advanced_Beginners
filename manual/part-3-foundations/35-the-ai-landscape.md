@@ -57,12 +57,15 @@ These are the companies that build the biggest, smartest AI brains. Each has its
 | **Anthropic** | Claude (Opus, Sonnet, Haiku, and top-tier models) | Claude apps, Claude Code, Claude API | Writing, coding and agentic work, safety research, created **MCP** |
 | **OpenAI** | GPT series, reasoning models, gpt-oss (open-weight) | ChatGPT, Codex, API | Kicked off the chat era, broad consumer ecosystem |
 | **Google DeepMind** | Gemini (Pro, Flash, Flash-Lite), Gemma (open), Veo, Imagen | Gemini app, Gemini Notebook (NotebookLM), AI Studio, Workspace | Long context, multimodal, deep Google integration |
-| **Meta** | Llama (open-weight) | Meta AI in WhatsApp, Instagram, Facebook | Popularized open-weight frontier models |
-| **xAI** | Grok | Grok in X and its apps | Real-time X integration |
+| **Meta** | Llama (open-weight), Muse | Meta AI in WhatsApp, Instagram, Facebook, Ray-Ban Meta glasses | Popularized open-weight frontier models; AI in social apps and glasses |
+| **xAI** (part of SpaceX since 2026) | Grok | Grok in X, its apps and Tesla cars; Grok Imagine | Real-time X integration, image and video generation |
 | **Mistral AI** (France) | Mistral, Codestral, open-weight models | Le Chat, API | European champion, efficient open models |
 | **DeepSeek** (China) | DeepSeek V-series, R-series reasoning | DeepSeek app, API | Very efficient open-weight reasoning models |
 | **Alibaba (Qwen)** | Qwen family | Qwen apps, open weights | Huge open family, strong at coding and multilingual |
 | **Moonshot, Zhipu, MiniMax** (China) | Kimi, GLM, MiniMax | Their own apps, open weights | Strong open-weight agentic and long-context models |
+| **Microsoft, Amazon, Apple** | Their own models plus partners' (OpenAI, Anthropic, Google) | Copilot, Alexa+, Apple Intelligence and Siri | AI built into the devices and software billions already use |
+
+Every one of these has a friendly, complete user guide in [Part II · The AI Assistants Field Guide](../part-2-ai-assistants-field-guide/index.md).
 
 > [!NOTE]
 > **📌 Names and rankings change constantly**

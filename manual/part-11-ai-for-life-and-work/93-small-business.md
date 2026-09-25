@@ -161,7 +161,7 @@ AI makes it easier to start a small business on the side. Here are ideas where A
 | 🎨 **Print-on-demand designs** | Image generation + mockups (check licensing!) |
 | 🎬 **Faceless YouTube / podcast** | The pipelines in [Video & Audio Production](../part-10-creative-ai/85-video-and-audio-production.md) |
 | 💻 **Micro-SaaS / simple web apps** | Vibe-coded tools solving one niche problem ([Vibe Coding](../part-7-building-with-ai/65-vibe-coding-your-first-app.md)) |
-| 🧰 **Skills, GPTs or MCP servers for a niche** | Package expertise as AI tools |
+| 🧰 **Skills, plugins or MCP servers for a niche** | Package expertise as AI tools |
 | 📚 **Tutoring with AI-made materials** | Worksheets, quizzes and lesson plans in minutes |
 
 Much more in [Turning AI Skills into Income](../part-12-mastery/109-turning-ai-skills-into-income.md).

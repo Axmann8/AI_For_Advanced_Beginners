@@ -31,13 +31,13 @@ can also use the brain on their own while you sleep.
 flowchart TB
     YOU((🧑 You))
     subgraph APPS["🏢 Apps you talk to (hosts)"]
-        A1[💬 Chat apps<br/>Claude · ChatGPT · Gemini · Copilot]
-        A2[🛠️ Builder tools<br/>Claude Code · Cursor · VS Code]
+        A1["💬 Chat apps<br/>ChatGPT · Gemini · Claude · Copilot<br/>Grok · Perplexity · Meta AI"]
+        A2[🛠️ Builder tools<br/>Claude Code · Codex · Cursor · VS Code]
         A3[🏡 Apps with AI inside<br/>Notion · Google · Microsoft · Obsidian]
     end
     subgraph BRAINS["🧠 Models (the brains)"]
-        M1[☁️ Frontier models<br/>Claude · GPT · Gemini]
-        M2[🏠 Open & local models<br/>Llama · Qwen · Gemma · Mistral]
+        M1[☁️ Frontier models<br/>GPT · Gemini · Claude · Grok]
+        M2[🏠 Open & local models<br/>Llama · Qwen · DeepSeek · Gemma · Mistral]
     end
     subgraph PIPES["🔌 Connections"]
         C1[MCP servers]
@@ -72,8 +72,8 @@ own part of the manual.
 
 | Layer | What it is | Examples | Learn it in |
 |---|---|---|---|
-| 🧠 **Models** | The "brains" that read and write | Claude, GPT, Gemini, Llama, Qwen | [Part III](../part-3-foundations/index.md), [Part IX](../part-9-local-ai/index.md) |
-| 🏢 **Apps (hosts)** | Where you talk to the brains | Claude, ChatGPT, Cursor, Notion AI | [Part VI](../part-6-ai-in-your-apps/index.md), [Part VII](../part-7-building-with-ai/index.md) |
+| 🧠 **Models** | The "brains" that read and write | GPT, Gemini, Claude, Grok, Llama, DeepSeek, Mistral, Qwen | [Part III](../part-3-foundations/index.md), [Part IX](../part-9-local-ai/index.md) |
+| 🏢 **Apps (hosts)** | Where you talk to the brains | ChatGPT, Gemini, Claude, Copilot, Grok, Perplexity, Meta AI, Cursor, Notion AI | [Part II](../part-2-ai-assistants-field-guide/index.md), [Part VI](../part-6-ai-in-your-apps/index.md), [Part VII](../part-7-building-with-ai/index.md) |
 | 🔌 **Connections** | How apps reach tools and data | MCP servers, connectors, APIs | [Part IV](../part-4-mcp-and-connectors/index.md) |
 | ⚙️ **Automation** | Workflows that run on triggers | n8n, Zapier, Make, Shortcuts | [Part V](../part-5-automation/index.md) |
 | 📦 **Your data & knowledge** | What makes AI useful *to you* | Files, notes, RAG, memory | [Part VIII](../part-8-knowledge-and-memory/index.md) |
@@ -117,6 +117,8 @@ Got a question? Find it in this list and jump straight to the chapter that answe
 
 | Your question | Go to |
 |---|---|
+| "I've never used AI. Where do I start?" | [Part I · AI from Zero](../part-1-ai-from-zero/index.md) |
+| "Which assistant should I use: ChatGPT, Gemini, Claude…?" | [Meet the Assistants](../part-2-ai-assistants-field-guide/17-meet-the-assistants.md) |
 | "Why does the AI make things up?" | [How Models Really Work](../part-3-foundations/33-how-models-really-work.md) |
 | "What's this MCP thing everyone talks about?" | [MCP Explained](../part-4-mcp-and-connectors/38-mcp-explained.md) |
 | "Which AI subscription should I pay for?" | [Choosing Your AI Stack](../part-3-foundations/37-choosing-your-ai-stack.md) |

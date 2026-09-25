@@ -1,6 +1,6 @@
 # 62 · The Claude Code Masterclass 🧑‍💻🤖
 
-> ⏱️ 10 min read · 🎯 Beginner → intermediate (no coding required to start) · 🧰 Needs: a Claude Pro/Max plan or API key, a terminal (or the desktop/web app)
+> ⏱️ 11 min read · 🎯 Beginner → intermediate (no coding required to start) · 🧰 Needs: a Claude Pro/Max plan or API key, a terminal (or the desktop/web app)
 
 **Claude Code is an agentic coding tool.** It reads your project, runs commands, edits files, tests its own work and ships
 features. It lives in your terminal, in VS Code and JetBrains, in a desktop app, on the web and on your phone. And it isn't
@@ -22,6 +22,21 @@ for anything risky. Your job is to be a good boss: explain the goal, check the p
 </details>
 
 <!-- in-this-chapter -->
+
+> [!NOTE]
+> **🌍 Not using Claude? This chapter still applies**
+> OpenAI's **Codex** (in the ChatGPT desktop app, a CLI and code editors), Google's **Gemini CLI**, **GitHub Copilot**'s
+> agent mode and **Cursor** all work the same way: a project instructions file, plan-then-act, permissions, MCP
+> servers and background tasks. The quick translation:
+>
+> | Idea | Claude Code | Codex | Gemini CLI |
+> |---|---|---|---|
+> | Install | `npm i -g @anthropic-ai/claude-code` (or the native installer) | `npm i -g @openai/codex` (or the ChatGPT desktop app) | `npm i -g @google/gemini-cli` |
+> | Project instructions file | `CLAUDE.md` | `AGENTS.md` | `GEMINI.md` |
+> | Add an MCP server | `claude mcp add …` | `codex mcp add …` | `gemini mcp add …` |
+> | Run headless in scripts | `claude -p "…"` | `codex exec "…"` | `gemini -p "…"` |
+>
+> Many teams keep one `AGENTS.md` and point the other files at it, so every agent reads the same rules.
 
 ## 🚀 Install & first launch
 

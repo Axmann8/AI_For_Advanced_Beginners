@@ -1,6 +1,6 @@
 # ⚡ Your First Hour: 60 Minutes to AI Superpowers
 
-> ⏱️ 60 min hands-on · 🎯 Beginner-friendly · 🧰 Needs: a computer, a free Claude account (ChatGPT works too)
+> ⏱️ 60 min hands-on · 🎯 Beginner-friendly · 🧰 Needs: a computer and a free ChatGPT, Gemini or Claude account (most missions work in all three)
 
 **This is the fastest route from "I use AI to answer questions" to "my AI reads my files, browses the web, remembers me,
 and runs a little automation."** Six mini-missions, ten minutes each. Grab a drink, put on a good playlist, and let's go. 🎧
@@ -44,9 +44,28 @@ the whole internet.
 
 </details>
 
-1. Open **Claude** (claude.ai or the desktop app) → **Settings → Connectors**.
-2. Connect **one** thing you actually use: Google Drive, Gmail, Google Calendar, Notion, or GitHub.
-3. Start a new chat and ask:
+Connect **one** thing you actually use (Gmail, Google Drive, Google Calendar, Outlook, Notion or GitHub):
+
+=== "💬 ChatGPT"
+
+    Profile → **Settings → Connectors** (or **Plugins**) → pick Gmail, Google Drive, Outlook or another app → sign in and allow
+    access.
+
+=== "✨ Gemini"
+
+    **Settings → Apps** (or turn on **Personal Intelligence**) → switch on Gmail, Calendar and Drive. They're already
+    part of your Google account.
+
+=== "🧡 Claude"
+
+    **Settings → Connectors** → browse the directory → connect Google Drive, Gmail, Calendar, Notion or GitHub.
+
+=== "🪟 Copilot"
+
+    Sign in with your Microsoft account; with Microsoft 365, Copilot can work with your Outlook email and OneDrive
+    files.
+
+Then start a new chat and ask:
    > *"Based on my recent files, what are the 3 things I've been working on most this month? Anything I seem to have forgotten?"*
 4. Then try:
    > *"What's on my calendar this week, and what should I prepare for each meeting?"*
@@ -54,9 +73,9 @@ the whole internet.
 **The wow:** the first time AI answers from *your* data, something clicks. You'll never look at chatbots the same way. 💡
 
 > [!NOTE]
-> **📌 Using ChatGPT or Gemini instead?**
-> Same idea: ChatGPT has connectors and plugins in its settings, and Gemini connects to Gmail, Drive and Calendar
-> natively. See [Built-in Connectors](../part-4-mcp-and-connectors/41-built-in-connectors.md).
+> **📌 More assistants, more connections**
+> Perplexity, Le Chat and others have connectors too. The full tour, app by app, is in
+> [Built-in Connectors](../part-4-mcp-and-connectors/41-built-in-connectors.md).
 
 ## 2️⃣ Install your first MCP servers (10–20 min)
 
@@ -67,6 +86,13 @@ Now we give the AI "hands": a little program that lets it create files in a safe
 read any web page.
 
 </details>
+
+> [!NOTE]
+> **📌 Why Claude Desktop for this mission?**
+> MCP servers work in lots of apps now (ChatGPT's developer mode, Le Chat's custom connectors, VS Code, Cursor, Gemini
+> CLI and more), but **Claude Desktop** is still the simplest place to run *local* servers on your own computer, and the
+> free plan works. Using another app? The same servers plug in almost identically: see
+> [MCP Explained](../part-4-mcp-and-connectors/38-mcp-explained.md#-installing-servers-app-by-app).
 
 1. Install **Claude Desktop** (claude.ai/download) and **Node.js** (nodejs.org, LTS version).
 2. Create a folder named `ai-playground` in your home folder.
@@ -109,8 +135,9 @@ The config above already added the **Memory** server. Now try:
 1. > *"Please remember: my name is ___, I'm learning about AI agents, I love ___, and I prefer short, cheerful answers."*
 2. Start a **brand-new chat** and ask:
    > *"What do you know about me? Use your memory."*
-3. Bonus: Claude also has built-in memory and **Projects** (a place for standing instructions and files). Create a
-   Project called "My AI Journey" and add a short note about your goals.
+3. Bonus: every major assistant now has **built-in memory** too (ChatGPT memory, Gemini's saved info and Personal
+   Intelligence, Claude memory, Le Chat memories) plus **Projects** or **Gems** for standing instructions and files.
+   Create a Project (or Gem) called "My AI Journey" and add a short note about your goals.
 
 **The wow:** a new conversation that already knows you. 🧠
 
@@ -123,9 +150,9 @@ You describe a tiny app in normal words, and the AI builds a working one right t
 
 </details>
 
-In Claude, ask:
+In **Claude** (Artifacts), **ChatGPT** (Canvas) or **Gemini** (Canvas, from the Tools menu), ask:
 
-> *"Build me an interactive habit tracker as an artifact: 5 habits I can edit, a checkbox grid for this week, a streak
+> *"Build me an interactive habit tracker as an app I can use right here: 5 habits I can edit, a checkbox grid for this week, a streak
 > counter, and confetti when I complete a whole day. Make it cheerful and colorful."*
 
 Then iterate, one change at a time:
@@ -169,6 +196,9 @@ email arrives." We'll make one that sends you a daily AI summary.
 
 Pick the easiest option for you:
 
+- **Right inside your assistant (easiest):** *"Every morning at 7am, give me one fun AI fact and one tiny challenge for
+  the day."* ChatGPT (scheduled tasks), Gemini (scheduled actions) and Claude (Cowork's scheduled tasks, on paid plans)
+  will run it for you and send a notification.
 - **Zapier (no install):** create a Zap with **Schedule by Zapier** (every day at 7am) → **AI by Zapier** ("Give me one
   fun AI fact and one tiny challenge for today") → **Email by Zapier** to yourself. Turn it on.
 - **n8n (free, local):** run `npx n8n`, open http://localhost:5678, and import our
@@ -200,7 +230,8 @@ go deeper there.
 ## 🎯 Key takeaways
 
 - **Connectors** give AI your context. **MCP servers** give it tools. **Memory** gives it continuity.
-- **Artifacts** turn descriptions into working mini apps, and **Projects/Gems** turn repeated instructions into assistants.
+- **Artifacts and Canvas** turn descriptions into working mini apps, and **Projects/Gems** turn repeated instructions
+  into assistants.
 - **Automations** make AI work for you on a schedule or trigger.
 - You did all of that in an hour. Imagine the next ten! 🚀
 

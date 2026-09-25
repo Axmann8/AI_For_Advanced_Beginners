@@ -1,12 +1,13 @@
 # 67 · Calling AI APIs Directly 🔑🐍
 
-> ⏱️ 8 min read · 🎯 Intermediate (copy-paste friendly, no prior coding needed) · 🧰 Needs: an API key from console.anthropic.com, Python 3.10+ (or Node.js)
+> ⏱️ 9 min read · 🎯 Intermediate (copy-paste friendly, no prior coding needed) · 🧰 Needs: an API key (Anthropic, OpenAI or Google AI Studio), Python 3.10+ (or Node.js)
 
 **Chat apps are wonderful, but the API is where AI becomes a programmable ingredient.** It's how you put AI in scripts,
 spreadsheets, bots, apps and automations. This chapter gets you making real API calls in minutes, then covers the patterns
 that matter: conversations, streaming, structured output, tool use, vision, server-side tools, caching, batching and error
-handling. Examples use Python and the Claude API (`anthropic` SDK), with TypeScript where it helps. The same ideas work with
-every provider.
+handling. Examples use Python and the Claude API (`anthropic` SDK), with TypeScript where it helps, and there's a
+side-by-side section showing the same first call with **OpenAI, Google Gemini, xAI, DeepSeek and local models**. The same
+ideas work with every provider.
 
 <details class="eli5" open>
 <summary>🧸 ELI5: This chapter in 30 seconds</summary>
@@ -107,6 +108,94 @@ You send a message, you get a message back, plus a little receipt saying how man
 
 **Anatomy of a response:** `content` (a list of blocks: text, tool calls, thinking), `stop_reason` (why it stopped) and
 `usage` (tokens in and out).
+
+## 🔀 The same first call with OpenAI, Gemini & friends
+
+<details class="eli5">
+<summary>🧸 ELI5</summary>
+
+Every AI company's back door looks a little different, but they all work the same way: send a message, get a message back.
+Here's the "hello" for each one.
+
+</details>
+
+Using a different provider? Here's the same octopus request in each major SDK. Get keys from **platform.openai.com**,
+**aistudio.google.com** (Gemini), **console.x.ai** or **platform.deepseek.com**, and always set a spend limit.
+
+=== "💬 OpenAI"
+
+    ```bash
+    pip install openai
+    export OPENAI_API_KEY="sk-..."
+    ```
+
+    ```python
+    from openai import OpenAI
+
+    client = OpenAI()  # reads OPENAI_API_KEY
+
+    response = client.responses.create(
+        model="gpt-5",  # model names change: see platform.openai.com/docs/models
+        input="Give me 3 fun facts about octopuses 🐙",
+    )
+    print(response.output_text)
+    print(response.usage)
+    ```
+
+=== "✨ Google Gemini"
+
+    ```bash
+    pip install google-genai
+    export GEMINI_API_KEY="..."
+    ```
+
+    ```python
+    from google import genai
+
+    client = genai.Client()  # reads GEMINI_API_KEY
+
+    response = client.models.generate_content(
+        model="gemini-flash-latest",  # an alias that always points at the current Flash model
+        contents="Give me 3 fun facts about octopuses 🐙",
+    )
+    print(response.text)
+    print(response.usage_metadata)
+    ```
+
+=== "⚡ xAI · 🐋 DeepSeek · 🦙 local"
+
+    Many providers speak the **OpenAI-compatible** format, so the `openai` package works with a different `base_url`:
+
+    ```python
+    import os
+    from openai import OpenAI
+
+    # Pick one:
+    client = OpenAI(base_url="https://api.x.ai/v1", api_key=os.environ["XAI_API_KEY"])            # Grok
+    # client = OpenAI(base_url="https://api.deepseek.com", api_key=os.environ["DEEPSEEK_API_KEY"]) # DeepSeek
+    # client = OpenAI(base_url="https://openrouter.ai/api/v1", api_key=os.environ["OPENROUTER_API_KEY"])  # hundreds of models
+    # client = OpenAI(base_url="http://localhost:11434/v1", api_key="ollama")                      # Ollama, fully local
+
+    response = client.chat.completions.create(
+        model="grok-4",  # e.g. "deepseek-chat", an OpenRouter model id, or a local model like "gemma4"
+        messages=[{"role": "user", "content": "Give me 3 fun facts about octopuses 🐙"}],
+    )
+    print(response.choices[0].message.content)
+    ```
+
+**The same ideas under different names:**
+
+| Idea | Claude (`anthropic`) | OpenAI (`openai`, Responses API) | Gemini (`google-genai`) |
+|---|---|---|---|
+| Send a request | `client.messages.create` | `client.responses.create` | `client.models.generate_content` |
+| Standing instructions | `system=` | `instructions=` | `config=types.GenerateContentConfig(system_instruction=...)` |
+| Read the reply | `response.content[0].text` | `response.output_text` | `response.text` |
+| Your functions as tools | `tools=[...]` | `tools=[...]` (function tools) | `config=...(tools=[...])` |
+| Structured output | `output_format=` / `messages.parse` | `text={"format": ...}` / `responses.parse` | `response_mime_type="application/json"`, `response_schema=` |
+| Built-in web search | `web_search` server tool | `web_search` tool | Grounding with Google Search tool |
+
+The rest of this chapter uses Claude, but every pattern (conversations, streaming, structured output, tools, vision,
+caching, batching) exists in all the major SDKs. Check each provider's docs for the exact spelling.
 
 ## 💬 Conversations & system prompts
 

@@ -210,13 +210,15 @@ You can plug other apps into ChatGPT, like Spotify or your Google Drive, so it c
 
 ChatGPT connects to other services in a few ways:
 
-- **Apps in ChatGPT:** mention an app by name (*"Spotify, make a playlist for a rainy Sunday"*, *"Canva, turn this into
-  a poster"*) and it appears inside the chat. Browse them in the **Apps** directory.
+- **Plugins** (called "apps" until mid-2026): mention one by name (*"Spotify, make a playlist for a rainy Sunday"*,
+  *"Canva, turn this into a poster"*) and it appears inside the chat, sometimes with buttons and forms. Browse them in
+  the plugin directory. Plugins can also bundle **skills** (reusable instructions), which is how they replace custom
+  GPTs.
 - **Connectors:** link Gmail, Google Drive, Outlook, SharePoint, GitHub, Dropbox and more so ChatGPT can search and use
   *your* content (*"Find the latest invoice from the plumber in my email"*).
-- **Plugins and skills:** bundles of reusable instructions plus connected apps. They're replacing custom GPTs.
+- **Developer mode** (some plans): add any remote MCP server ([MCP Explained](../part-4-mcp-and-connectors/38-mcp-explained.md)).
 
-Manage everything under **Settings → Apps / Connectors**. Only connect what you need, and review permissions. More in
+Manage everything in **Settings** (look for **Plugins** and **Connectors**). Only connect what you need, and review permissions. More in
 [Built-in Connectors](../part-4-mcp-and-connectors/41-built-in-connectors.md).
 
 ## 🤖 Agent mode and ChatGPT Work

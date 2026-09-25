@@ -75,7 +75,8 @@ that can browse for you, and a developer mode for adding any MCP server.
 | **Connectors** | Drive, Gmail, Calendar, SharePoint, GitHub and more, used by chat and deep research |
 | **Developer Mode** | Add *any* remote MCP server with full read and write tools (plan- and workspace-dependent) |
 | **Agent mode** | A browser + terminal agent for multi-step web tasks |
-| **Custom GPTs & Projects** | Reusable assistants and project workspaces |
+| **Projects & skills** | Project workspaces with instructions and files; **skills** (inside plugins) replace custom GPTs, which retire on December 11, 2026 |
+| **Scheduled tasks & ChatGPT Work** | Recurring jobs, and an agent that turns a goal into finished docs, sheets and slides |
 | **Memory** | Remembers preferences across chats (viewable and editable) |
 
 ## 🔵 Google Gemini
@@ -88,6 +89,8 @@ It also comes with Gemini Notebook (NotebookLM), a magical study buddy.
 
 </details>
 
+- **Personal Intelligence** (opt-in): Gemini uses your Gmail, Calendar, Drive, Photos, YouTube and Maps to answer
+  questions about *your* life ([Gemini guide](../part-2-ai-assistants-field-guide/19-gemini.md)).
 - **Deep integration** with Gmail, Docs, Drive, Calendar, Maps and YouTube.
 - **Gems:** custom assistants with standing instructions.
 - **Deep Research** and **Canvas** for long reports and live documents.
@@ -105,6 +108,7 @@ their tools (including MCP servers).
 
 </details>
 
+- **The Microsoft Copilot app** (consumer and work apps merged in 2026) connects to your Microsoft 365 files and email.
 - **Microsoft 365 Copilot** works across Outlook, Teams, Word, Excel, PowerPoint and SharePoint using your work data.
 - **Copilot Studio** lets organizations build agents with connectors, actions and **MCP tools**.
 - **Power Platform connectors** (1,000+) plug into Power Automate flows.
@@ -121,11 +125,15 @@ Lots of other apps have their own connector shelves too: your notes app, your ch
 
 | App | Connector story |
 |---|---|
-| **Perplexity** | Search-first AI with connectors for files and apps |
+| **Perplexity** | Search-first AI with connectors for Gmail, Calendar, Notion, GitHub and more, plus local MCP in its desktop app |
+| **Mistral Le Chat** | 20+ MCP connectors and custom MCP connectors on every plan ([Le Chat guide](../part-2-ai-assistants-field-guide/26-mistral-le-chat.md)) |
+| **Grok** | Web and X search built in; fewer third-party connections so far |
+| **Meta AI** | Lives inside WhatsApp, Instagram and Facebook; limited outside connections |
+| **Alexa+** | Connects to smart home devices and services like groceries, rides and reservations |
 | **Notion AI** | Its own agents plus MCP connections to other tools ([Notion AI Deep Dive](../part-6-ai-in-your-apps/54-notion-ai-deep-dive.md)) |
 | **Slack** | AI features and agents inside Slack, plus an official MCP server |
 | **Raycast** (Mac/Windows) | System-wide AI with extensions and MCP |
-| **Apple Intelligence** | On-device features, ChatGPT integration, Shortcuts that call AI models ([Phone & Desktop Automation](../part-5-automation/50-phone-and-desktop-automation.md)) |
+| **Apple Intelligence** | The rebuilt Siri with personal context and app actions, ChatGPT integration, Shortcuts that call AI models ([Built-In Assistants](../part-2-ai-assistants-field-guide/28-built-in-assistants.md), [Phone & Desktop Automation](../part-5-automation/50-phone-and-desktop-automation.md)) |
 
 ## ✨ Ten connector combos that feel like magic
 

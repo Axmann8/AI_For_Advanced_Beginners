@@ -18,6 +18,13 @@ and send the link to your family. You're the director, the AI is the film crew. 
 
 <!-- in-this-chapter -->
 
+> [!NOTE]
+> **🌍 Every assistant can vibe code now**
+> Beyond the dedicated builders below, you can start small inside the assistant you already use: **Claude Artifacts**,
+> **ChatGPT** (Canvas, plus its site-building tools on some plans), **Gemini Canvas** and **Google AI Studio**'s build
+> mode all turn a description into a working mini-app. When you outgrow them, the coding agents (**Claude Code**,
+> **Codex**, **Gemini CLI**, **Cursor**) take you all the way to a real, deployed app.
+
 ## 🧰 The vibe coding stack
 
 <details class="eli5">

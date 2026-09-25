@@ -15,6 +15,43 @@ set up AI safely, launch projects, and build good habits. 📝✔️
 
 <!-- in-this-chapter -->
 
+## 🐣 Absolute beginner's starter checklist
+
+<details class="eli5">
+<summary>🧸 ELI5</summary>
+
+The very first steps if you've never used AI: get the app, keep it safe, and have your first chats.
+
+</details>
+
+- [ ] Choose **one** assistant ([Choosing Your First AI Assistant](../part-1-ai-from-zero/04-choosing-your-first-assistant.md))
+- [ ] Install the **official app** (check the developer name) and sign in
+- [ ] Turn on **two-step verification**
+- [ ] Fill in **custom instructions** about you ([Getting Set Up](../part-1-ai-from-zero/05-getting-set-up.md))
+- [ ] Have your **first three conversations** ([Your First AI Conversation](../part-1-ai-from-zero/03-your-first-ai-conversation.md))
+- [ ] Use the **five-ingredient** prompt recipe once ([Prompting 101](../part-1-ai-from-zero/06-prompting-101.md))
+- [ ] **Fact-check** one answer by clicking its sources ([When AI Gets It Wrong](../part-1-ai-from-zero/10-when-ai-gets-it-wrong.md))
+- [ ] Learn where **memory**, **training** and **temporary chat** settings live
+- [ ] Start the [30-Day Plan](../part-1-ai-from-zero/16-your-30-day-plan.md) 🎉
+
+## 🛡️ Scam-proof your family
+
+<details class="eli5">
+<summary>🧸 ELI5</summary>
+
+Simple things to do so AI-powered tricksters can't fool you or the people you love.
+
+</details>
+
+- [ ] Agree a **family safe word** for emergency calls
+- [ ] Tell older relatives and teens about **voice-cloning** scams
+- [ ] Rule: **hang up and call back** on a known number before sending money
+- [ ] Never **invest** from a video ad, however famous the face
+- [ ] Only install **official** AI apps and trusted browser extensions
+- [ ] Know how to **report** fraud and who to call at your bank
+
+([Staying Safe: Privacy, Scams & Deepfakes](../part-1-ai-from-zero/11-staying-safe-with-ai.md))
+
 ## 🚀 Your first week with AI
 
 <details class="eli5">

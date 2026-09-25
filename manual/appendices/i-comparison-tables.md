@@ -39,7 +39,22 @@ The big chat apps, and what each is especially good at.
 | **Research mode** | ✅ | ✅ | ✅ | ✅ | ✅ (its core) |
 | **Standout extra** | Artifacts, Projects, skills | Image generation, agent mode | Gemini Notebook, video understanding | Deep Office integration | Citations everywhere |
 
-More: [The AI Landscape](../part-3-foundations/35-the-ai-landscape.md), [Choosing Your AI Stack](../part-3-foundations/37-choosing-your-ai-stack.md).
+**And the rest of the lineup:**
+
+| | Grok | Meta AI | DeepSeek | Le Chat | Qwen / Kimi |
+|---|---|---|---|---|---|
+| **Made by** | xAI (part of SpaceX) | Meta | DeepSeek (China) | Mistral AI (France) | Alibaba / Moonshot (China) |
+| **Especially good at** | Real-time X posts, images and video | WhatsApp/Instagram chats, smart glasses | Free reasoning, open models | Speed, documents, EU privacy | Multilingual, long documents, open models |
+| **Free tier** | ✅ (weekly allowance) | ✅ | ✅ | ✅ | ✅ |
+| **Standout extra** | Grok Imagine, Expert/Heavy modes | Imagine, Vibes, Ray-Ban Meta | DeepThink shows its reasoning | Memories with ChatGPT import, MCP connectors | Open weights you can run at home |
+| **Privacy note** | Check X training settings | Chats personalize ads | Data stored in China | GDPR | Data stored in China (run open models locally instead) |
+
+**Built-in assistants:** Siri (Apple Intelligence, rebuilt in iOS 27), Alexa+ (free with Prime in the US), Gemini on
+Android and Nest, Galaxy AI on Samsung phones ([chapter 28](../part-2-ai-assistants-field-guide/28-built-in-assistants.md)).
+
+More: [Meet the Assistants: The Big Comparison](../part-2-ai-assistants-field-guide/17-meet-the-assistants.md),
+[Head-to-Head Showdowns](../part-2-ai-assistants-field-guide/30-head-to-head-showdowns.md),
+[The AI Landscape](../part-3-foundations/35-the-ai-landscape.md), [Choosing Your AI Stack](../part-3-foundations/37-choosing-your-ai-stack.md).
 
 ## ⚙️ Automation platforms
 

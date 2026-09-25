@@ -19,6 +19,12 @@ one of them, or install ones other people made.
 
 <!-- in-this-chapter -->
 
+> [!NOTE]
+> **🌍 Using Codex or Gemini CLI?**
+> Most power-ups here have cousins in other coding agents: skills, hooks, subagents, extensions and plugins exist in
+> Codex and Gemini CLI too, under similar names. The [translation table in the Masterclass](62-claude-code-masterclass.md)
+> maps the basics.
+
 ## 🗺️ The power-up map
 
 <details class="eli5">

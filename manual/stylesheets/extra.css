@@ -1,5 +1,5 @@
 /* ==========================================================================
-   AI for Advanced Beginners · design system
+   The Massive AI Manual · design system
    Violet + amber, friendly and bright, readable in light and dark mode.
    ========================================================================== */
 
@@ -590,5 +590,84 @@
   }
   .eli5-toggle .label {
     display: none;
+  }
+}
+
+/* ---------------------------------------------------------- PDF book button */
+.aiab-pdf-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.25rem;
+  margin: 0 0.4rem;
+  padding: 0.25rem 0.75rem;
+  border-radius: 999px;
+  background: linear-gradient(90deg, #fbbf24, #f472b6);
+  color: #1f1300 !important;
+  font-weight: 700;
+  font-size: 0.72rem;
+  white-space: nowrap;
+  box-shadow: 0 4px 14px -6px rgba(0, 0, 0, 0.45);
+  transition: transform 0.15s ease, box-shadow 0.15s ease;
+}
+.aiab-pdf-btn:hover,
+.aiab-pdf-btn:focus-visible {
+  transform: translateY(-1px);
+  box-shadow: 0 6px 18px -6px rgba(0, 0, 0, 0.55);
+}
+@media screen and (max-width: 44.9375em) {
+  .aiab-pdf-btn {
+    padding: 0.25rem 0.5rem;
+  }
+  .aiab-pdf-btn__label {
+    display: none;
+  }
+}
+
+/* ------------------------------------------------------------ download page */
+.pdf-hero {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(0, 1.2fr);
+  gap: 1.6rem;
+  align-items: center;
+  margin: 1rem 0 2rem;
+}
+.pdf-hero img.pdf-cover {
+  width: 100%;
+  border-radius: 0.6rem;
+  box-shadow: 0 24px 50px -24px rgba(76, 29, 149, 0.65), 0 4px 12px rgba(0, 0, 0, 0.12);
+  transform: rotate(-2deg);
+}
+.pdf-hero .md-button {
+  margin: 0.25rem 0.4rem 0.25rem 0;
+}
+.pdf-previews {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 1rem;
+  margin: 1rem 0 1.5rem;
+}
+.pdf-previews figure {
+  margin: 0;
+  text-align: center;
+}
+.pdf-previews img {
+  width: 100%;
+  border-radius: 0.4rem;
+  box-shadow: 0 10px 28px -14px rgba(0, 0, 0, 0.45);
+}
+.pdf-previews figcaption {
+  font-size: 0.7rem;
+  opacity: 0.8;
+  margin-top: 0.4rem;
+}
+@media screen and (max-width: 44.9375em) {
+  .pdf-hero,
+  .pdf-previews {
+    grid-template-columns: minmax(0, 1fr);
+  }
+  .pdf-hero img.pdf-cover {
+    max-width: 16rem;
+    margin: 0 auto;
+    display: block;
   }
 }

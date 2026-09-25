@@ -18,6 +18,12 @@ and it only listens to you, never strangers. It's built from blocks you connect 
 
 <!-- in-this-chapter -->
 
+> [!NOTE]
+> **🌍 Prefer ChatGPT's or Gemini's brain?**
+> This build uses Claude, but n8n's **AI Agent** node works with many chat models. Swap the Anthropic chat model node
+> for **OpenAI**, **Google Gemini**, **Mistral**, **DeepSeek**, **xAI Grok** or a local **Ollama** model, and use that
+> provider's API key. Everything else (Telegram, memory, tools) stays exactly the same.
+
 ## 🗺️ What you'll build
 
 <details class="eli5">

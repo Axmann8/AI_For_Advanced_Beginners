@@ -31,7 +31,7 @@ how to install them, how to build your own door, and how to make sure only frien
 
     ---
 
-    <span class="card-meta">⏱️ 12 min read · 🎯 Beginner-friendly</span>
+    <span class="card-meta">⏱️ 13 min read · 🎯 Beginner-friendly</span>
 
     Model Context Protocol (MCP) is the open standard that lets any AI app plug into any tool or data source.
 

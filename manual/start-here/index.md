@@ -9,7 +9,7 @@
 
     <span class="card-meta">⏱️ 6 min read · 🎯 Everyone</span>
 
-    Welcome! 🎉 This manual is big on purpose, but it's designed so you never have to read it front to back.
+    Welcome! 🎉 This manual is for everyone, from people who've never typed a word to a chatbot to people ready to build their own AI agents.
 
 -   **[⚡ Your First Hour: 60 Minutes to AI Superpowers](b-your-first-hour.md)**
 

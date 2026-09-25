@@ -60,8 +60,7 @@ you're on or click through websites for you.
 | Tool | What it is | Try it for |
 |---|---|---|
 | **Claude in Chrome** | Claude as a Chrome extension that can read, click and fill in pages | "Compare these three product pages in a table" |
-| **ChatGPT agent** | ChatGPT's agent mode with its own virtual browser and computer | "Research and book-ready plan for a weekend trip" |
-| **ChatGPT Atlas** | OpenAI's AI browser with ChatGPT built in | Browsing with a sidebar assistant and agent mode |
+| **ChatGPT agent & Work** | ChatGPT's agent mode with its own browser (tabs, downloads, logins), plus ChatGPT Work for finished deliverables. OpenAI's separate Atlas browser was discontinued in August 2026 and its features moved into ChatGPT | "Research and book-ready plan for a weekend trip" |
 | **Perplexity Comet** | An AI-first browser with an assistant that acts on pages | "Unsubscribe me from these newsletters" |
 | **Gemini in Chrome** | Google's assistant inside Chrome, with agentic features rolling out | Summarize tabs, act across Google services |
 | **Edge Copilot Mode** | Copilot inside Microsoft Edge | Multi-tab research and actions |
@@ -248,7 +247,7 @@ Keep an eye on this space in [Staying Current](../part-12-mastery/110-staying-cu
 ## 🎯 Key takeaways
 
 - Computer-use agents run the loop **screenshot → think → act**, using the screen like a human does.
-- **Consumer AI browsers** (Claude in Chrome, ChatGPT agent/Atlas, Comet, Gemini in Chrome) need no code. **Builders** use
+- **Consumer AI browsers** (Claude in Chrome, ChatGPT agent mode, Comet, Gemini in Chrome, Edge Copilot Mode) need no code. **Builders** use
   Playwright MCP, Browser Use, Stagehand or the computer use API.
 - **Prefer APIs and MCP** when they exist, and use browser agents for the long tail.
 - **Prompt injection** is the big risk: separate profiles, approvals and no passwords in chat.

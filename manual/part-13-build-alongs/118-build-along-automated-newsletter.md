@@ -18,6 +18,12 @@ does the reading. 📰✨
 
 <!-- in-this-chapter -->
 
+> [!NOTE]
+> **🌍 Porting to another provider**
+> The kit uses Claude's structured output to get a clean newsletter object. **OpenAI** (`responses.parse` with a
+> Pydantic model) and **Gemini** (`response_schema`) do the same thing, so swapping providers changes only the
+> `curate()` function ([translation table](../part-7-building-with-ai/67-calling-ai-apis.md#-the-same-first-call-with-openai-gemini--friends)).
+
 ## 🗺️ What you'll build
 
 <details class="eli5">

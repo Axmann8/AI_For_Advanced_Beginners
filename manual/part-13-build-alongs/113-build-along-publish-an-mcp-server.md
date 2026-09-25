@@ -18,6 +18,12 @@ little app and putting it in an app store. ☔🛍️
 
 <!-- in-this-chapter -->
 
+> [!NOTE]
+> **🌍 Your server works everywhere**
+> MCP is an open standard, so the server you publish here plugs into Claude, **ChatGPT** (developer mode, for remote
+> servers), **Le Chat** (custom connectors), **Gemini CLI**, **Codex**, **VS Code**, **Cursor** and many more. Test
+> in whichever you use ([MCP Explained](../part-4-mcp-and-connectors/38-mcp-explained.md#-installing-servers-app-by-app)).
+
 ## 🗺️ What you'll build
 
 <details class="eli5">

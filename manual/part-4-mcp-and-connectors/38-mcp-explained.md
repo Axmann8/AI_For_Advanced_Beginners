@@ -1,6 +1,6 @@
 # 38 · MCP Explained: The USB-C Port for AI 🔌
 
-> ⏱️ 12 min read · 🎯 Beginner-friendly · 🧰 Needs: Claude Desktop, Claude Code, Cursor or VS Code (free tiers work)
+> ⏱️ 13 min read · 🎯 Beginner-friendly · 🧰 Needs: Claude Desktop, Claude Code, Cursor or VS Code (free tiers work)
 
 **Model Context Protocol (MCP)** is the open standard that lets *any* AI app plug into *any* tool or data source. It's
 the single most important idea in this whole manual, because once it clicks, you'll see how AI grows "hands" and "eyes",
@@ -259,9 +259,19 @@ ChatGPT connects to remote MCP servers through its integrations (renamed from "a
 **Developer Mode**, which lets you add *any* remote MCP server with full read and write tools. Availability depends on
 your plan and workspace settings.
 
+### Le Chat, Perplexity, Copilot and Gemini
+
+- **Mistral Le Chat:** 20+ built-in MCP connectors, plus **Add custom connector** for any remote MCP server
+  ([Le Chat guide](../part-2-ai-assistants-field-guide/26-mistral-le-chat.md)).
+- **Perplexity:** connectors for Gmail, Calendar, Notion, GitHub and more; its desktop app can also use local MCP servers.
+- **Microsoft Copilot:** MCP powers connectors and agents in Microsoft 365 Copilot and Copilot Studio (mostly for
+  organizations).
+- **Google Gemini:** the **Gemini CLI** and Gemini API support MCP directly; the consumer Gemini app connects through
+  Google's own app integrations.
+
 ### Everyone else
 
-Gemini CLI, Codex CLI, Windsurf, Zed, LM Studio, Goose, n8n, Raycast… all speak MCP with nearly identical
+Codex CLI, Windsurf, Zed, LM Studio, Goose, n8n, Raycast… all speak MCP with nearly identical
 `command`/`args`/`url` shapes. **Learn it once and use it everywhere.** 🎉
 
 ## ⚡ Your first 15 minutes with MCP

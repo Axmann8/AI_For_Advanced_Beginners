@@ -1,6 +1,6 @@
 # 68 · Build Your Own Agent 🤖🔧
 
-> ⏱️ 8 min read · 🎯 Intermediate · 🧰 Needs: Python 3.10+, an Anthropic API key, the [build-your-own-agent kit](../../examples/build-your-own-agent/)
+> ⏱️ 9 min read · 🎯 Intermediate · 🧰 Needs: Python 3.10+, an Anthropic API key, the [build-your-own-agent kit](../../examples/build-your-own-agent/)
 
 **You've used agents. Now you'll build one and understand exactly what's happening inside.** Once you've written an agent
 loop yourself, every "AI agent" product stops being mysterious, and you can build custom agents for anything: research,
@@ -17,6 +17,13 @@ yourself in about 100 lines.
 </details>
 
 <!-- in-this-chapter -->
+
+> [!NOTE]
+> **🌍 Same loop, any provider**
+> The starter kit uses the Claude API, but the agent loop (send tools → model asks for a tool → run it → send the result
+> back → repeat) is identical with OpenAI's function calling, Gemini's function calling, Grok, DeepSeek or a local model
+> through Ollama. Only the field names change; see the [translation table](67-calling-ai-apis.md#-the-same-first-call-with-openai-gemini--friends).
+> Frameworks in the [Agent Frameworks Tour](69-agent-frameworks-tour.md) hide the differences entirely.
 
 ## 🧩 The whole secret, in one diagram
 

@@ -18,6 +18,12 @@ game, or even print on a 3D printer. It's like having a whole game company that 
 
 <!-- in-this-chapter -->
 
+> [!NOTE]
+> **🌍 Any assistant can make a game**
+> Ask **Claude** (Artifacts), **ChatGPT** (Canvas), **Gemini** (Canvas or Google AI Studio) or **Grok** for a small
+> browser game and you'll get something playable in minutes. The bigger projects below use coding agents like Claude
+> Code, Codex, Gemini CLI or Cursor. Pick whichever you like.
+
 ## 🗺️ The AI game-making map
 
 <details class="eli5">

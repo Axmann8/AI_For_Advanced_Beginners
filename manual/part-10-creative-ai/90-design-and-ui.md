@@ -19,6 +19,11 @@ read," like a friendly design teacher. 🎨🧑‍🏫
 
 <!-- in-this-chapter -->
 
+> [!NOTE]
+> **🌍 Your favorite assistant is a design partner too**
+> ChatGPT and Gemini generate and edit images and mockups, Claude builds interactive prototypes as Artifacts, Canva and
+> Figma have AI built in, and Gemini Canvas and AI Studio turn sketches into working pages. Mix and match.
+
 ## 🧰 The AI design toolbox
 
 <details class="eli5">

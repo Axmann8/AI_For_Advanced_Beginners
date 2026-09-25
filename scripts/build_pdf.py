@@ -40,7 +40,7 @@ from sync_manual import PARTS, ROOT, pages_in  # noqa: E402
 
 SITE_URL = "https://axmann8.github.io/claude_cloud_trial_credits/"
 REPO_URL = "https://github.com/Axmann8/claude_cloud_trial_credits"
-TITLE = "AI for Advanced Beginners"
+TITLE = "The Massive AI Manual"
 PAPER = {"letter": ("8.5in", "11in"), "a4": ("210mm", "297mm")}
 CACHE = ROOT / ".cache" / "pdf"
 CSS_FILE = Path(__file__).parent / "pdf" / "book.css"
@@ -313,9 +313,9 @@ def build_docs(site: Path) -> list[Doc]:
             if lead:
                 hero.insert_before(lead)
             hero.decompose()
-            # "The eleven parts" duplicates the contents pages
+            # "The thirteen parts" duplicates the contents pages
             for h in art.find_all("h2"):
-                if "eleven parts" in h.get_text().lower():
+                if re.search(r"\bthe \w+ parts\b", h.get_text().lower()):
                     grid = h.find_next_sibling("div")
                     if grid is not None and "grid" in grid.get("class", []):
                         grid.decompose()
@@ -374,19 +374,20 @@ def cover(stats: list[tuple[str, str]], edition: str) -> str:
     pills = "".join(f'<span class="stat"><strong>{html.escape(n)}</strong>{html.escape(l)}</span>' for n, l in stats)
     return f"""
 <section class="full cover"><div class="inner">
-  <div class="kicker">The Massive Manual · Printable Edition</div>
+  <div class="kicker">From absolute beginner to advanced beginner · Printable Edition</div>
   <div class="rocket">🚀</div>
-  <div class="title">AI for <em>Advanced</em><br>Beginners</div>
-  <p class="subtitle">You know what an LLM is. You know how to prompt. <strong style="color:#fff">This is everything
-  that comes next:</strong> connecting AI to your apps, automating your life, building your own tools and agents,
-  running models at home, making art and music, and using it all in real life, with an 🧸 ELI5 for everything.</p>
+  <div class="title">The Massive<br><em>AI</em> Manual</div>
+  <p class="subtitle">Your very first chat, every major assistant (ChatGPT, Gemini, Claude, Copilot, Grok, Perplexity
+  and more), and <strong style="color:#fff">everything that comes next:</strong> connecting AI to your apps, automating
+  your life, building your own tools and agents, running models at home, making art and music, and using it all in real
+  life, with an 🧸 ELI5 for everything.</p>
   <div class="stats">{pills}</div>
   <div class="foot"><div><strong>{html.escape(edition)}</strong>Free and open, forever.</div>
   <div style="text-align:right">{SITE_URL.removeprefix("https://").rstrip("/")}</div></div>
 </div></section>"""
 
 
-def legend() -> str:
+def legend(chapters: int, parts: int) -> str:
     boxes = [
         ("eli5", "🧸 ELI5", "The idea explained like you're five. Every chapter and every section has one. "
                             "Short on time? Read only these and you'll still get the big picture."),
@@ -405,9 +406,9 @@ def legend() -> str:
     return f"""
 <section class="doc front">
 {opener("📖", "Before we begin", "How to Read This Book", "h1", "legend", "How to Read This Book")}
-<p style="font-size:11pt">This is the whole manual in one printable book: <strong>88 chapters in eleven parts</strong>, the Start Here
-guides, and ten appendices full of cheat sheets, prompts and checklists. You don't have to read it front to back. Skim the
-contents, pick the part that makes you curious, and dive in. Every path is a good one. 💜</p>
+<p style="font-size:11pt">This is the whole manual in one printable book: <strong>{chapters} chapters in {parts} parts</strong>, the Start Here
+guides, and appendices full of cheat sheets, prompts and checklists. Brand new to AI? Start with Part I. Already
+confident? Skim the contents, pick the part that makes you curious, and dive in. Every path is a good one. 💜</p>
 <h2 class="sec">🧭 Finding your way</h2>
 <ul>
 <li><strong>Page references.</strong> When the text points somewhere else in the book, a small page number follows the link,
@@ -503,7 +504,9 @@ def backcover() -> str:
 def book_html(docs: list[Doc], paper: str, edition: str) -> str:
     w, h = PAPER[paper]
     pyg = HtmlFormatter(style="friendly").get_style_defs(".highlight")
-    parts: list[str] = [cover(docs[0].extras.get("stats", []), edition), legend(), contents(docs)]
+    n_chapters = sum(d.kind == "chapter" and d.folder.startswith("part-") for d in docs)
+    n_parts = sum(d.kind == "part" and d.folder.startswith("part-") for d in docs)
+    parts: list[str] = [cover(docs[0].extras.get("stats", []), edition), legend(n_chapters, n_parts), contents(docs)]
     welcome = docs[0]
     parts.append(
         f'<section class="doc">{opener("👋", "Before we begin", "Welcome to the Massive Manual", "h1", welcome.anchor, "Welcome")}'
@@ -709,8 +712,8 @@ def finish(pdf: Path, out: Path, docs: list[Doc], heads, pages: dict[str, int], 
         page.draw_line((mx, y_head + 6), (r.width - mx, y_head + 6), color=(0.9, 0.88, 0.96), width=0.6)
 
     doc.set_metadata({
-        "title": f"{TITLE}: The Massive Manual",
-        "author": "AI for Advanced Beginners",
+        "title": f"{TITLE}: From Absolute Beginner to Advanced Beginner",
+        "author": "The Massive AI Manual",
         "subject": "A friendly, hands-on manual for everything after \"what is an LLM?\"",
         "keywords": "AI, MCP, connectors, automation, n8n, Zapier, Notion, agents, Claude Code, local AI, ELI5",
         "creator": f"scripts/build_pdf.py · {edition}",
@@ -722,6 +725,20 @@ def finish(pdf: Path, out: Path, docs: list[Doc], heads, pages: dict[str, int], 
     return n
 
 
+def save_previews(pdf: Path, folder: Path, docs: list[Doc], pages: dict[str, int]) -> None:
+    """Cover, a part divider and a chapter opener as JPEGs, for the website's download page."""
+    folder.mkdir(parents=True, exist_ok=True)
+    divider = next(d for d in docs if d.kind == "part" and d.folder.startswith("part-"))
+    chapter = next((d for d in docs if d.key.endswith("18-chatgpt/")), next(d for d in docs if d.kind == "chapter"))
+    shots = {"cover": (1, 900), "divider": (pages[divider.anchor], 600), "chapter": (pages[chapter.anchor], 600)}
+    with pymupdf.open(pdf) as doc:
+        for name, (page_no, width) in shots.items():
+            page = doc[page_no - 1]
+            zoom = width / page.rect.width
+            page.get_pixmap(matrix=pymupdf.Matrix(zoom, zoom)).save(folder / f"{name}.jpg", jpg_quality=86)
+    print(f"🖼️  Saved previews to {folder}")
+
+
 # ----------------------------------------------------------------------------- main
 def main() -> None:
     ap = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
@@ -729,6 +746,7 @@ def main() -> None:
     ap.add_argument("--out", type=Path, default=ROOT / "MANUAL.pdf")
     ap.add_argument("--paper", choices=PAPER, default="letter")
     ap.add_argument("--max-passes", type=int, default=4)
+    ap.add_argument("--previews", type=Path, help="also save cover/divider/chapter preview images to this folder")
     args = ap.parse_args()
 
     if not (args.site / "index.html").exists():
@@ -758,6 +776,8 @@ def main() -> None:
             print("  ⚠️  page numbers still moving after the last pass; a few references may be off by one")
         browser.close()
         total = finish(draft, args.out, docs, heads, pages, edition)
+    if args.previews:
+        save_previews(args.out, args.previews, docs, pages)
     size = args.out.stat().st_size / 1_048_576
     print(f"✅ Wrote {args.out} · {total} pages · {size:.1f} MB · {time.time() - t0:.0f}s")
 

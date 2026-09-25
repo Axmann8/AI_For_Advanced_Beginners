@@ -29,10 +29,13 @@ super-simple one, so you'll never feel lost. 📚🙂
 | **Agentic RAG** | RAG where an agent decides what to search, searches several times and checks results. | A librarian robot that keeps searching until it's sure. |
 | **AGENTS.md / CLAUDE.md** | Markdown files in a project that coding agents read automatically as standing instructions. | A sticky note of house rules the AI reads first. |
 | **AGI** | Artificial general intelligence: a hypothetical AI as capable as humans across most tasks. Definitions vary and are debated. | A future AI that could do almost anything a person can. |
+| **Alexa+** | Amazon's rebuilt, generative-AI Alexa: conversational, remembers preferences, and can book, order and control your smart home. Included with Prime in the US. | The kitchen speaker grew a brain and can now plan dinner with you. |
 | **Alt text** | A short text description of an image for people using screen readers. | Words that describe a picture for people who can't see it. |
 | **ANN** | Approximate nearest neighbor search: fast, nearly-exact search for similar vectors. | A shortcut for finding the closest matches super fast. |
+| **Answer engine** | A search tool that writes an answer with numbered sources instead of a list of links. Perplexity is the best-known. | A librarian who reads the books for you and tells you which page each fact came from. |
 | **API** | A way for programs to talk to each other. AI APIs let your code send prompts and get answers, usually billed per token. | The kitchen's back door your programs use to order from the AI. |
 | **API key** | A secret string that identifies you (and your bill) when calling an API. | A secret membership card for using an AI service. |
+| **Apple Intelligence** | Apple's AI features on iPhone, iPad and Mac, including the rebuilt Siri, Writing Tools and Visual Intelligence. | The helper built into Apple gadgets. |
 | **Artifact** | A generated, often interactive piece of content (an app, doc or chart) shown alongside a Claude chat. | A little app or picture the AI makes right in the chat. |
 | **ASR** | Automatic speech recognition, also called speech-to-text. | Turning spoken words into written words. |
 | **ATS** | Applicant tracking system: software employers use to collect and filter job applications. | The computer that reads job applications first. |
@@ -58,21 +61,27 @@ super-simple one, so you'll never feel lost. 📚🙂
 | **C2PA / content credentials** | A standard for attaching tamper-evident "how this was made" info to images and videos. | A label that says how a picture was made. |
 | **Caching (prompt caching)** | Reusing processed prompt prefixes to make repeated calls cheaper and faster. | Remembering the long instructions so you don't pay for them again. |
 | **Chain / workflow** | A fixed sequence of steps, some of which use AI. | A recipe: do step 1, then 2, then 3. |
+| **Chatbot / AI assistant** | An app you talk to in plain language, like ChatGPT, Gemini, Claude, Copilot or Grok. | A know-it-all friend you can text any time. |
+| **ChatGPT (OpenAI)** | OpenAI's assistant and the world's most-used AI app, with voice, images, projects, agents and more. | The famous chatty AI that started the boom. |
 | **Checkpoint** | A saved state you can roll back to (in Claude Code, or a build-along's "it works so far" point). | A save point in a video game. |
 | **Chunking** | Splitting documents into passages before embedding them for RAG. | Cutting a big book into index cards. |
+| **Claude (Anthropic)** | Anthropic's assistant, known for natural writing, long documents, Artifacts and Claude Code. | The thoughtful writer AI. |
 | **CLI** | Command-line interface: a program you use by typing commands in a terminal. | Talking to your computer by typing commands. |
 | **Code execution** | A sandbox where the AI writes and runs code (often Python) to analyze data or check work. | A safe playroom where the AI can run little programs. |
 | **Coding agent** | An AI that reads, writes, runs and fixes code on its own (Claude Code, Codex, Copilot agent…). | A robot programmer. |
+| **Comet** | Perplexity's free AI web browser, with an assistant that can read and act on the pages you visit. | A web browser with a helper sitting next to you. |
 | **Commit (Git)** | A saved snapshot of your project with a message. | A save point for your project. |
 | **Compaction** | Summarizing older parts of a long conversation to free up context. | Squishing old notes into a short summary to make room. |
 | **Computer use** | AI controlling a mouse, keyboard and screen (or a browser) like a human would. | AI that clicks and types on a computer by itself. |
 | **Connector** | A ready-made integration in an AI app (often MCP under the hood) that links it to a service like Gmail. | A plug that connects the AI to one of your apps. |
 | **Context engineering** | Deliberately choosing what goes into the model's context: instructions, examples, documents, tools. | Packing the AI's backpack with exactly what it needs. |
 | **Context window** | How much text (in tokens) a model can consider at once: its working memory. | The size of the AI's desk. |
+| **Copilot (Microsoft)** | Microsoft's assistant in Windows, Edge and Microsoft 365 apps like Word, Excel and Outlook. | The helper inside Word, Excel and Windows. |
 | **Cosine similarity** | A measure of how closely two vectors point in the same direction. It's how RAG finds similar text. | Checking if two arrows point the same way. |
 | **CRM** | Customer relationship management: software (or a spreadsheet) for tracking contacts and deals. | An address book for customers. |
 | **CRUD** | Create, read, update, delete: the four basic things apps do with data. | Make it, see it, change it, throw it away. |
 | **Custom connector** | A remote MCP server you add to an AI app by pasting its URL. | Your own plug, added by pasting a link. |
+| **Custom instructions** | Standing notes about you and how you like answers, which the assistant includes in every chat. | A sticky note that says "all about me" on every conversation. |
 
 ## 🇩 D
 
@@ -80,6 +89,7 @@ super-simple one, so you'll never feel lost. 📚🙂
 |---|---|---|
 | **Deep research** | An assistant mode that runs a multi-step, multi-source investigation and writes a cited report. | The AI goes to the library for an hour and writes you a report. |
 | **Deepfake** | Realistic fake video, audio or images of real people made with AI. | A fake video that looks real. Be careful! |
+| **DeepSeek (assistant)** | A Chinese AI lab and its free assistant, known for strong open-weight reasoning models. App data is stored in China. | A free, clever AI whose brain anyone can download. |
 | **Diff** | The list of changes between two versions of files. | A "spot the difference" of your project. |
 | **Distillation** | Training a smaller model on a bigger model's outputs. | A big teacher robot teaching a small student robot. |
 | **Docker / container** | A packaged, isolated app that runs the same everywhere. | A lunchbox with everything a program needs inside. |
@@ -110,13 +120,19 @@ super-simple one, so you'll never feel lost. 📚🙂
 | Term | Meaning | 🧸 ELI5 |
 |---|---|---|
 | **GDPR** | The European Union's data-protection law, giving people rights over their personal data. | Europe's rule book for keeping personal information safe. |
+| **Gem** | A custom version of Gemini with saved instructions (and optional files) for a specific job. | Your own mini-Gemini for one job. |
+| **Gemini (Google)** | Google's assistant and model family, built into Android, Chrome, Gmail and Docs. | Google's AI helper. |
+| **Gemini Live** | Gemini's real-time voice conversation mode, with camera and screen sharing. | Video-calling a helpful expert. |
 | **Gemini Notebook (formerly NotebookLM)** | Google's source-grounded research notebook with Audio and Video Overviews, renamed in July 2026. | A study buddy that only reads the books you give it. |
+| **Generative AI** | AI that creates new text, images, audio, music or video instead of only sorting or predicting. | AI that makes things, not just sorts them. |
 | **GGUF** | A file format for quantized local models, used by llama.cpp, Ollama and LM Studio. | The file type for home AI brains. |
 | **Git** | A version-control system that saves the history of your project. | A time machine for your files. |
 | **GitHub Actions** | Automations that run on GitHub when things happen (a push, a schedule, a comment). | Little robots that work on your project when you save it. |
 | **GPU** | Graphics processing unit: a chip that's excellent at the math AI needs. | The super-fast math engine inside gaming computers. |
-| **Grounding** | Making a model answer from specific sources (documents, search results) and cite them. | Only answering from the books on the table. |
 | **GraphRAG** | RAG that builds a knowledge graph of entities and relationships to answer connection questions. | A map of who's connected to what. |
+| **Grok Imagine** | Grok's image and short-video generator. | Grok's paintbrush and movie camera. |
+| **Grok (xAI)** | The assistant from xAI (part of SpaceX), built into X, known for real-time posts and Grok Imagine. | The chatty, cheeky AI that lives inside X. |
+| **Grounding** | Making a model answer from specific sources (documents, search results) and cite them. | Only answering from the books on the table. |
 | **Guardrails** | Rules, checks and limits that keep AI systems safe and on-task. | Bumpers in bowling, so the ball stays in the lane. |
 
 ## 🇭 H
@@ -161,6 +177,7 @@ super-simple one, so you'll never feel lost. 📚🙂
 | Term | Meaning | 🧸 ELI5 |
 |---|---|---|
 | **Latency** | The delay before a response arrives. Crucial for voice. | How long you wait for an answer. |
+| **Le Chat (Mistral)** | The assistant from French lab Mistral AI: fast, with memories, connectors and European privacy rules. | The French AI helper (the name means "the cat"). |
 | **Lethal trifecta** | Private data + untrusted content + a way to send data out, in one AI setup: a recipe for prompt-injection harm. | Three things that are risky together, like matches, paper and wind. |
 | **LLM** | Large language model: an AI trained on huge amounts of text to predict and generate language. | A giant autocomplete that read the whole library. |
 | **LLM-as-judge** | Using a model to grade other models' outputs against a rubric. | An AI teacher grading other AIs' homework. |
@@ -176,6 +193,7 @@ super-simple one, so you'll never feel lost. 📚🙂
 | **MCP Inspector** | A web tool for testing MCP servers by hand: list tools, call them, read raw messages. | A test window for pressing a plug-in's buttons. |
 | **MCP Registry** | The official public list of MCP servers that clients and catalogs can discover. | The app store list for AI plug-ins. |
 | **Memory (AI)** | Facts and preferences an assistant keeps across conversations. | The AI's notebook about you. |
+| **Meta AI** | Meta's assistant inside WhatsApp, Instagram, Messenger, Facebook and Ray-Ban Meta glasses. | The AI friend in your group chat. |
 | **Mixture of experts** | A model design where only some "expert" sub-networks run per token: big-model smarts, small-model speed. Often written "MoE". | A team of specialists where only a few work at a time. |
 | **MLX** | Apple's machine-learning framework, fast on Apple Silicon. | Apple's engine for running AI on Macs. |
 | **Model routing** | Sending easy tasks to cheap models and hard ones to frontier models. | Asking the junior helper first, the expert only when needed. |
@@ -186,6 +204,7 @@ super-simple one, so you'll never feel lost. 📚🙂
 | Term | Meaning | 🧸 ELI5 |
 |---|---|---|
 | **n8n** | An open-source, self-hostable visual automation platform with strong AI features. | LEGO blocks for building robots that do chores. |
+| **Nano Banana** | The nickname for Google's Gemini image generation and editing models. | Gemini's picture maker. |
 | **Node (n8n / Make)** | One step in a visual workflow. | One LEGO block in the robot. |
 | **NPU** | Neural processing unit: a chip in newer laptops and phones for efficient AI tasks. | A small AI engine in your phone. |
 
@@ -207,9 +226,13 @@ super-simple one, so you'll never feel lost. 📚🙂
 | **PARA** | A note-organizing method: Projects, Areas, Resources, Archive. | Four drawers for all your notes. |
 | **Parameters (model)** | The learned numbers inside a model. More usually means more capable (and hungrier). | The knobs inside the AI's brain. |
 | **pause_turn** | An API stop reason meaning a long server-side tool turn paused, and you should continue the conversation. | The AI saying "one sec, let me keep going." |
+| **Perplexity** | An AI answer engine that shows numbered sources for every answer; also makes the Comet browser. | The librarian AI that always shows its sources. |
+| **Personal Intelligence** | Gemini's opt-in feature that uses your Gmail, Calendar, Photos and other Google apps to answer questions about your own life. | Gemini peeking at your own stuff (with permission) to help you. |
+| **Phishing** | Scam messages that trick you into clicking links or sharing passwords or codes, now often written flawlessly by AI. | A fake letter pretending to be from your bank. |
 | **Plan mode** | A Claude Code mode where it researches and proposes a plan without changing anything. | Drawing the map before starting the trip. |
 | **Plugin** | A bundle of skills, commands, subagents, hooks and MCP servers you install at once. | A gift box of new tricks. |
 | **Progressive disclosure** | Loading only a short summary (like a skill's description) until the full content is needed. | Reading book titles first, and the whole book only when needed. |
+| **Project (AI assistant)** | A workspace that groups chats with shared instructions and files, in ChatGPT, Claude, Le Chat and others. | A folder where the AI remembers everything about one topic. |
 | **Prompt** | The instructions and content you give a model. | What you tell the AI to do. |
 | **Prompt injection** | Malicious instructions hidden in content the AI reads. | Sneaky secret orders hidden in a web page. |
 | **Prompt template (MCP prompt)** | A reusable prompt a server offers, often shown as a slash command. | A fill-in-the-blanks message. |
@@ -247,9 +270,11 @@ super-simple one, so you'll never feel lost. 📚🙂
 | **Semantic search** | Searching by meaning (with embeddings), not just exact words. | Finding things that *mean* the same. |
 | **Server tool** | A tool the AI provider runs for you (web search, web fetch, code execution). | A tool the AI company operates, so you don't have to. |
 | **Serverless function** | Code that runs on demand in the cloud, with no server to manage. | A helper that only wakes up when called. |
+| **Siri** | Apple's voice assistant, rebuilt in 2026 with Apple Intelligence, on-screen awareness and Gemini-based models. | The voice in your iPhone, now much smarter. |
 | **Skill** | A folder of instructions (and optional scripts) an agent loads on demand for a specific task. | An instruction booklet the AI pulls out when needed. |
 | **Slash command** | A saved prompt you trigger by typing `/name`. | A shortcut button for a long message. |
 | **SOP** | Standard operating procedure: step-by-step instructions for a recurring task. | The recipe for doing a job the same way every time. |
+| **Space (Perplexity)** | A Perplexity research folder with its own instructions and files. | A shelf for all your research on one topic. |
 | **Spend limit** | A hard cap on API spending, set in the provider's console. | A piggy bank limit so you never overspend. |
 | **SSE** | Server-sent events: a way for servers to stream updates to clients. Older MCP remote transport. | A one-way stream of messages from a server. |
 | **STAR method** | Situation, task, action, result: a structure for interview stories. | A simple way to tell a "what I did" story. |
@@ -259,6 +284,7 @@ super-simple one, so you'll never feel lost. 📚🙂
 | **Structured output** | Forcing a model's reply to match a schema (e.g. valid JSON with specific fields). | Making the AI fill in a form instead of writing a paragraph. |
 | **STT / TTS** | Speech-to-text (transcription) and text-to-speech (voice generation). | Ears and a mouth for computers. |
 | **Subagent** | A helper agent with its own context, which a main agent delegates tasks to. | A helper robot sent on an errand. |
+| **Sycophancy** | When an AI agrees with you or flatters you instead of being honest. | A friend who always says your idea is great, even when it isn't. |
 | **System prompt** | Standing instructions that set the model's role, rules and style for a conversation. | The AI's job description. |
 
 ## 🇹 T
@@ -267,6 +293,7 @@ super-simple one, so you'll never feel lost. 📚🙂
 |---|---|---|
 | **Tailscale** | A private network (VPN) that connects your devices securely without opening ports. | A secret tunnel between your devices. |
 | **Temperature** | A randomness setting. Lower is more predictable, higher is more creative. | How wild or careful the AI's ideas are. |
+| **Temporary chat / incognito chat** | A chat that isn't saved to history or memory, and usually isn't used for training. | A whiteboard that wipes itself clean. |
 | **TF-IDF** | A classic way to turn text into vectors by weighting rare, meaningful words. Used in the RAG kit. | Counting important words to find matching notes. |
 | **Token** | A chunk of text (about ¾ of a word) that models read, write and bill by. | The little word-pieces AI reads and counts. |
 | **Tool annotations** | Hints in MCP tool definitions (read-only, destructive, etc.) that help clients decide when to ask for approval. | Labels saying "safe" or "careful!" on each button. |
@@ -283,9 +310,12 @@ super-simple one, so you'll never feel lost. 📚🙂
 | **VAD** | Voice activity detection: noticing when someone starts and stops speaking. | Knowing when you're talking. |
 | **Vector** | A list of numbers, such as an embedding. | An address made of numbers. |
 | **Vector database** | A database built to find embeddings that are "near" each other, i.e. similar in meaning. | A super-fast "who's standing nearby?" finder. |
+| **Veo** | Google's video generation model, available in Gemini, which makes short clips with sound. | Gemini's movie maker. |
 | **Vibe coding** | Building software by describing what you want and letting AI write the code. | Telling the robot what app to build. |
 | **Vision model** | A model that understands images. | AI with eyes. |
 | **Voice banking** | Recording your voice so AI can create a personal synthetic voice, e.g. before losing speech. | Saving your voice so you can keep using it. |
+| **Voice cloning** | AI copying someone's voice from a short recording. Useful for accessibility and dubbing, and misused in phone scams. | A parrot that can sound exactly like anyone. |
+| **Voice mode** | Talking with an assistant out loud instead of typing, often with the ability to interrupt. | A phone call with your AI. |
 | **VRAM** | Video RAM: the memory on a graphics card. It decides which models fit on a GPU. | The graphics card's own desk. |
 
 ## 🇼 W · 🇽 X · 🇾 Y · 🇿 Z
