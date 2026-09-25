@@ -194,6 +194,86 @@ you're feeling adventurous.
 
 ## 🛠️ Part V · Building with AI
 
+### [29 · Agents & AI Coding Tools: Become a Builder 🛠️🤖](../part-5-building-with-ai/29-agents-and-coding-tools.md)
+
+Imagine a super-fast builder robot. You describe the treehouse you want ("two floors, a rope ladder, a secret door"), and
+the robot builds it, tests that the ladder holds, and fixes anything wobbly while you watch. **Coding agents** are that
+robot, but for apps and websites. Some live in your web browser, some in a code editor, and some in a terminal. This
+chapter helps you pick one and be a great boss to it.
+
+### [30 · Git & GitHub for AI Builders 🌳🐙](../part-5-building-with-ai/30-git-and-github.md)
+
+Imagine a video game where you can **save your progress** any time. If you fall into lava, you just load your last save.
+**Git** is that save system for your projects. **GitHub** is a cloud locker where your saves live, where friends (and AI
+helpers) can suggest changes, and where little robots can check your work and even turn it into a website.
+
+### [31 · The Claude Code Masterclass 🧑‍💻🤖](../part-5-building-with-ai/31-claude-code-masterclass.md)
+
+Claude Code is like having a super-smart helper sitting at your computer. You type what you want in plain words ("make me a
+website about my cat"), and it opens files, writes code, runs it, sees what's broken and fixes it, asking your permission
+for anything risky. Your job is to be a good boss: explain the goal, check the plan, and say "yes, keep going."
+
+### [32 · Claude Code Power-Ups: Skills, Subagents, Hooks, Plugins & More ⚡🧙](../part-5-building-with-ai/32-claude-code-power-ups.md)
+
+Think of Claude Code as a robot with an empty backpack. **Skills** are instruction booklets it can pull out when needed.
+**Subagents** are little helper robots it can send off on errands. **Hooks** are automatic rules ("always wipe your feet
+when you come in"). **MCP** gives it new tools. **Plugins** are gift boxes containing all of the above. You can build every
+one of them, or install ones other people made.
+
+### [33 · Cursor & AI IDEs: Coding Side by Side with AI 🖱️✨](../part-5-building-with-ai/33-cursor-and-ai-ides.md)
+
+An IDE is the program where people write code, like a word processor for programs. An **AI IDE** has a helper that
+finishes your sentences, fixes lines you point at, answers questions about your project, and can even make big changes
+across many files while you watch. It's like writing with a friend looking over your shoulder who happens to be a coding
+genius.
+
+### [34 · Vibe Coding Your First Real App 🎸💻](../part-5-building-with-ai/34-vibe-coding-your-first-app.md)
+
+You tell the AI "I want an app where my family can share wish lists," and it builds it. You click around, say "make that
+button bigger" or "it breaks when I do this," and it fixes things. Keep going until it's good, then put it on the internet
+and send the link to your family. You're the director, the AI is the film crew. 🎬
+
+### [35 · Deploying & Hosting: Put Your Creation on the Internet 🌍🚀](../part-5-building-with-ai/35-deploying-and-hosting.md)
+
+Your app lives on your computer, and only you can see it. **Deploying** means copying it to a computer that's always on and
+connected to the internet, so anyone with the link can use it. Some companies give you that computer for free for small
+projects. You connect your GitHub, click "deploy," and get a link to share. 🔗
+
+### [36 · Calling AI APIs Directly 🔑🐍](../part-5-building-with-ai/36-calling-ai-apis.md)
+
+A chat app is like ordering at a restaurant counter. An **API** is the kitchen's back door: your own programs can send
+orders directly ("summarize this," "read this receipt") and get answers back, thousands of times a day, without anyone
+typing into a chat box. You get a secret key (like a membership card), send a message in a special format, and get the
+AI's reply as data your program can use.
+
+### [37 · Build Your Own Agent 🤖🔧](../part-5-building-with-ai/37-build-your-own-agent.md)
+
+An agent is an AI that can **do things**, not just talk. You give it a goal and a toolbox (a calculator, a file reader, a web
+search). It thinks "I need the calculator," uses it, looks at the answer, thinks again, uses another tool, and keeps going
+until the job is done. That "think → use a tool → look → think again" circle is called **the loop**, and you'll write it
+yourself in about 100 lines.
+
+### [38 · Agent Frameworks Tour: Pick Your LEGO Set 🧱🤖](../part-5-building-with-ai/38-agent-frameworks-tour.md)
+
+You *can* build a robot from loose parts, but LEGO sets come with the special pieces already made: wheels, arms, a remote
+control. **Agent frameworks** are LEGO sets for AI helpers. Each set has a different style. Some are simple, some build
+giant castles (big multi-robot teams), and some are made for websites. This chapter shows you the sets so you can pick one
+you like.
+
+### [39 · Multi-Agent Systems: Teams of AIs 👥🤖](../part-5-building-with-ai/39-multi-agent-systems.md)
+
+Imagine building a huge sandcastle. One kid can do it, but it takes forever. With a team, one kid digs the moat, one builds
+towers, one decorates, and a "boss kid" checks everyone's work and puts it all together. **Multi-agent systems** are teams
+of AI helpers like that. They're great for big jobs, but teams also cost more and can get messy, so you only form a team
+when one helper really isn't enough.
+
+### [40 · Computer Use & Browser Agents: AI That Clicks for You 🖱️🌐](../part-5-building-with-ai/40-computer-use-and-browser-agents.md)
+
+Most AI helpers can only read and write words. A **computer-use agent** can actually *use* a computer: it looks at the screen
+(like taking a picture), decides where to click, clicks, types, and checks what happened. You can say "find me a table for four
+at an Italian place near me on Friday at 7" and watch it browse websites to do it. It's slower than you and sometimes gets
+confused, but it never gets bored of filling in forms!
+
 ## 📚 Part VI · Knowledge & Memory
 
 ## 🏠 Part VII · Local AI

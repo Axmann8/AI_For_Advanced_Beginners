@@ -11,13 +11,13 @@ all in real life, with an 🧸 **ELI5 for everything**.
 [🚀 Start here](start-here/a-how-to-use-this-manual.md "button-primary") [⚡ Your first hour](start-here/b-your-first-hour.md "button") [🗺️ The big map](start-here/c-the-big-map.md "button")
 
 <!-- stats:start -->
-<div class="hero-stats"><div class="stat"><strong>53</strong><span>chapters</span></div><div class="stat"><strong>330</strong><span>ELI5 explanations 🧸</span></div><div class="stat"><strong>93</strong><span>quiz questions</span></div><div class="stat"><strong>31</strong><span>try-this challenges</span></div><div class="stat"><strong>8</strong><span>starter kits</span></div><div class="stat"><strong>80k</strong><span>words of fun</span></div></div>
+<div class="hero-stats"><div class="stat"><strong>59</strong><span>chapters</span></div><div class="stat"><strong>476</strong><span>ELI5 explanations 🧸</span></div><div class="stat"><strong>130</strong><span>quiz questions</span></div><div class="stat"><strong>44</strong><span>try-this challenges</span></div><div class="stat"><strong>8</strong><span>starter kits</span></div><div class="stat"><strong>99k</strong><span>words of fun</span></div></div>
 <!-- stats:end -->
 
 </div>
 
 <!-- progress:start -->
-<div class="progress-tracker" data-total="53"></div>
+<div class="progress-tracker" data-total="59"></div>
 <!-- progress:end -->
 
 ## 🧭 Pick your path
@@ -135,7 +135,7 @@ Each part has its own landing page with an ELI5, a suggested path, and clickable
 
     ---
 
-    <span class="card-meta">6 chapters</span>
+    <span class="card-meta">12 chapters</span>
 
     Become a builder, even if you've never coded: coding agents, Git and GitHub, the Claude Code masterclass and power-ups, Cursor and AI IDEs, vibe coding a real app, deploying it, calling AI APIs, building your own agents, frameworks, multi-agent teams and computer-use agents.
 
