@@ -424,4 +424,4 @@ Did you **fully restart** the app, and is the **JSON valid** (no trailing commas
 
 ---
 
-**Next:** [05 · The Big MCP Server Catalog →](09-mcp-server-catalog.md)
+**Next:** [08 · MCP Under the Hood →](08-mcp-under-the-hood.md)

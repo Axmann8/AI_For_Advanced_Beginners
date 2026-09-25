@@ -102,6 +102,7 @@ markdown_extensions:
 nav:
   - "🏠 Home": index.md
   - "🧭 Start Here":
+      - start-here/index.md
       - "🧭 How to Use This Manual": start-here/a-how-to-use-this-manual.md
       - "⚡ Your First Hour": start-here/b-your-first-hour.md
       - "🗺️ The Big Map of AI (One-Page Overview)": start-here/c-the-big-map.md
@@ -116,10 +117,12 @@ nav:
   - "🔌 Part II · MCP & Connectors":
       - part-2-mcp-and-connectors/index.md
       - "07 · MCP Explained": part-2-mcp-and-connectors/07-mcp-explained.md
-      - "05 · The Big MCP Server Catalog": part-2-mcp-and-connectors/09-mcp-server-catalog.md
-      - "06 · Built-in Connectors & Plugins": part-2-mcp-and-connectors/10-built-in-connectors.md
-      - "07 · Building MCP Servers": part-2-mcp-and-connectors/11-building-mcp-servers.md
-      - "08 · The MCP Recipe Book": part-2-mcp-and-connectors/13-mcp-recipe-book.md
+      - "08 · MCP Under the Hood": part-2-mcp-and-connectors/08-mcp-under-the-hood.md
+      - "09 · The Big MCP Server Catalog": part-2-mcp-and-connectors/09-mcp-server-catalog.md
+      - "10 · Built-in Connectors & Plugins": part-2-mcp-and-connectors/10-built-in-connectors.md
+      - "11 · Building MCP Servers": part-2-mcp-and-connectors/11-building-mcp-servers.md
+      - "12 · MCP Security & Trust": part-2-mcp-and-connectors/12-mcp-security-and-trust.md
+      - "13 · The MCP Recipe Book": part-2-mcp-and-connectors/13-mcp-recipe-book.md
   - "⚙️ Part III · Automation":
       - part-3-automation/index.md
       - "09 · Automation Platforms": part-3-automation/14-automation-platforms.md

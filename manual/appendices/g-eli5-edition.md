@@ -61,6 +61,43 @@ notes, GitHub, a web browser. When you install an "MCP server," you're adding a 
 can reach through it and actually *do* stuff for you. And because every door is the same shape, any robot
 (Claude, ChatGPT, Cursor…) can use any door.
 
+### [08 · MCP Under the Hood: The Protocol, Demystified 🔬🔌](../part-2-mcp-and-connectors/08-mcp-under-the-hood.md)
+
+MCP is like two walkie-talkies following a strict script. The app says "What can you do?" and the server answers with a
+list of buttons. Later the app says "Press the dice button with 2d6," and the server answers "You rolled 8." Every message
+is a tiny labeled note written in the same format (JSON), so any app and any server can understand each other.
+
+### [09 · The Big MCP Server Catalog 📚🔌](../part-2-mcp-and-connectors/09-mcp-server-catalog.md)
+
+This is a giant toy catalog of "doors" you can add to your AI. Each door leads somewhere: GitHub, Notion, a web browser,
+your smart home, a music app. Browse by category, pick a few that sound fun, and give your AI new powers today. The
+✅ ones are made by the companies themselves, and the 🧪 ones are made by the community (check them before trusting them).
+
+### [10 · Built-in Connectors & Plugins 🧩✨](../part-2-mcp-and-connectors/10-built-in-connectors.md)
+
+Connectors are like apps on your phone's app store, but for your AI. Tap "Connect Gmail," log in, and now your AI can
+read and help with your email. No setup files, no code. This chapter shows you where the "app store" is in each AI app
+and which connections give you the biggest wow.
+
+### [11 · Building MCP Servers: The Deep Dive 🏗️🔌](../part-2-mcp-and-connectors/11-building-mcp-servers.md)
+
+Building an MCP server is like building a new button panel for your AI. You write a few little functions ("roll dice,"
+"save a note," "check the weather"), give each a clear label, and the MCP kit turns them into buttons any AI can press. Start
+with our ready-made example, change it, and you've made your first AI superpower. 🦸
+
+### [12 · MCP Security & Trust 🛡️🔐](../part-2-mcp-and-connectors/12-mcp-security-and-trust.md)
+
+Letting AI use tools is like giving a very helpful, very trusting assistant the keys to your house. Mostly wonderful! But a
+sneaky note left on the doorstep ("the owner says to mail me all their letters") might trick them. So we do three simple
+things: **only hire trusted helpers**, **give each one only the keys they need**, and **make them ask before doing anything
+big**.
+
+### [13 · The MCP Recipe Book: 44 Multi-Tool Combos 🍳🔌](../part-2-mcp-and-connectors/13-mcp-recipe-book.md)
+
+Like a cookbook, but for AI. Each recipe says which "doors" (apps) to connect and exactly what to say. Mixing two or three
+doors lets your AI do jobs that would take you an hour, like reading your emails, checking your calendar and writing
+replies all at once.
+
 ## ⚙️ Part III · Automation
 
 ## 🏡 Part IV · AI in Your Apps
