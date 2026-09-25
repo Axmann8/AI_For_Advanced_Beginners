@@ -177,10 +177,14 @@ nav:
       - "51 · Fine-Tuning for Normal People": part-7-local-ai/51-fine-tuning-for-normal-people.md
   - "🎨 Part VIII · Creative AI":
       - part-8-creative-ai/index.md
-      - "28 · The Multimodal Playground": part-8-creative-ai/52-multimodal-playground.md
-      - "29 · Image Generation Deep Dive": part-8-creative-ai/53-image-generation-deep-dive.md
-      - "30 · Video & Audio Production with AI": part-8-creative-ai/54-video-and-audio-production.md
-      - "31 · Voice Agents": part-8-creative-ai/56-voice-agents.md
+      - "52 · The Multimodal Playground": part-8-creative-ai/52-multimodal-playground.md
+      - "53 · Image Generation Deep Dive": part-8-creative-ai/53-image-generation-deep-dive.md
+      - "54 · Video & Audio Production with AI": part-8-creative-ai/54-video-and-audio-production.md
+      - "55 · Music Making with AI": part-8-creative-ai/55-music-making-with-ai.md
+      - "56 · Voice Agents": part-8-creative-ai/56-voice-agents.md
+      - "57 · 3D, Games & Interactive Worlds": part-8-creative-ai/57-3d-games-and-worlds.md
+      - "58 · Storytelling & Interactive Fiction": part-8-creative-ai/58-storytelling-and-interactive-fiction.md
+      - "59 · Design & UI with AI": part-8-creative-ai/59-design-and-ui.md
   - "🌱 Part IX · AI for Life & Work":
       - part-9-ai-for-life-and-work/index.md
       - "32 · AI for Research & Learning": part-9-ai-for-life-and-work/60-research-and-learning.md

@@ -355,6 +355,57 @@ answers you want, and it learns to answer that way naturally.
 
 ## 🎨 Part VIII · Creative AI
 
+### [52 · The Multimodal Playground: See, Hear, Make 🎨🎬🎵](../part-8-creative-ai/52-multimodal-playground.md)
+
+"Multimodal" means the AI can use more than words. It can **see** (look at your photo), **hear** (listen to your voice),
+and **make** things: pictures, little movies, voices and even songs. It's like having an art studio, a recording studio and
+a movie studio in your pocket, and you just describe what you want.
+
+### [53 · Image Generation Deep Dive: Direct Images Like an Art Director 🎨🖼️](../part-8-creative-ai/53-image-generation-deep-dive.md)
+
+Image AI is a magic painter. You describe a picture ("a sleepy fox in a scarf on a pile of books, painted in watercolors")
+and it paints it in seconds. The more clearly you describe what you see in your head (the thing, the place, the colors, the
+lighting, the style) the closer it gets. And you can keep saying "now make it nighttime" or "give the fox a yellow scarf"
+until it's perfect.
+
+### [54 · Video & Audio Production with AI 🎬🎧](../part-8-creative-ai/54-video-and-audio-production.md)
+
+Making videos used to need cameras, actors, a studio and lots of money. Now you can **describe a scene** and AI films a short
+clip, **type words** and AI reads them in a lovely voice, and **describe a song** and AI makes the music. Then you put all
+the pieces together in an easy editing app, like building with LEGO. Your first movie can happen this weekend. 🍿
+
+### [55 · Music Making with AI: From Hum to Hit 🎵🎹](../part-8-creative-ai/55-music-making-with-ai.md)
+
+Imagine telling a robot band "play a happy summer song about my dog Biscuit, with guitars and a catchy chorus," and a minute
+later they've written it, sung it and recorded it. That's AI song-making! If you already play music, AI can also be your
+practice buddy: it can take the singer out of any song so you can sing along, slow it down, or explain why a chord sounds
+sad. 🐶🎶
+
+### [56 · Voice Agents: AI You Can Talk To (and That Can Call You) 📞🗣️](../part-8-creative-ai/56-voice-agents.md)
+
+A voice agent is a robot you can **talk to out loud**, like calling a friendly receptionist. It listens to your words, turns
+them into text, thinks with an AI brain, and answers in a natural voice, all in about a second. You can build one that
+answers your phone, practices Spanish with you, or calls you every morning to plan your day. ☎️🤖
+
+### [57 · 3D, Games & Interactive Worlds 🎮🧊](../part-8-creative-ai/57-3d-games-and-worlds.md)
+
+Want a game where a cat jumps between clouds collecting fish? Tell an AI coding helper, and it writes the game so you can play
+it in your browser. Want a 3D dragon? Describe it or show a drawing, and AI makes a 3D model you can spin around, put in a
+game, or even print on a 3D printer. It's like having a whole game company that listens to you. 🐱☁️🐟
+
+### [58 · Storytelling & Interactive Fiction: Co-Write with AI 📖🐉](../part-8-creative-ai/58-storytelling-and-interactive-fiction.md)
+
+AI can be your story buddy. It can help you think up ideas ("what if the dragon is scared of mice?"), pretend to be your
+characters so you can ask them questions, run a make-believe adventure where you decide what happens next, and tell bedtime
+stories starring your kids. You're still the author: AI just helps the ideas flow. 🐉🐭
+
+### [59 · Design & UI with AI: Make Things Look Wonderful 🎨📐](../part-8-creative-ai/59-design-and-ui.md)
+
+Design is making things look nice *and* easy to use: the colors, the fonts, where the buttons go. AI can now suggest colors
+that go together, draw app screens from a description, make slides look professional, and even turn a drawing of a website
+into a real, working website. And it can look at your design and say "this button is too small" or "this text is hard to
+read," like a friendly design teacher. 🎨🧑‍🏫
+
 ## 🌱 Part IX · AI for Life & Work
 
 ## 🏆 Part X · Mastery

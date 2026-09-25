@@ -280,4 +280,4 @@ and swappable.
 
 ---
 
-**Next:** [28 · The Multimodal Playground →](../part-8-creative-ai/52-multimodal-playground.md)
+**Next:** [52 · The Multimodal Playground →](../part-8-creative-ai/52-multimodal-playground.md)
