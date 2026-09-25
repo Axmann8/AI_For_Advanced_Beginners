@@ -590,4 +590,4 @@ the owner a summary. It always says it's an AI, and it can pass the call to a re
 
 ---
 
-**You made it to the end! 🎉** [Back to the manual home ↩](../index.md)
+**Next:** [Appendix H · Commands & Shortcuts →](h-commands-and-shortcuts.md)

@@ -11,7 +11,7 @@ all in real life, with an 🧸 **ELI5 for everything**.
 [🚀 Start here](start-here/a-how-to-use-this-manual.md "button-primary") [⚡ Your first hour](start-here/b-your-first-hour.md "button") [🗺️ The big map](start-here/c-the-big-map.md "button")
 
 <!-- stats:start -->
-<div class="hero-stats"><div class="stat"><strong>88</strong><span>chapters</span></div><div class="stat"><strong>961</strong><span>ELI5 explanations 🧸</span></div><div class="stat"><strong>274</strong><span>quiz questions</span></div><div class="stat"><strong>93</strong><span>try-this challenges</span></div><div class="stat"><strong>12</strong><span>starter kits</span></div><div class="stat"><strong>167k</strong><span>words of fun</span></div></div>
+<div class="hero-stats"><div class="stat"><strong>88</strong><span>chapters</span></div><div class="stat"><strong>1069</strong><span>ELI5 explanations 🧸</span></div><div class="stat"><strong>274</strong><span>quiz questions</span></div><div class="stat"><strong>93</strong><span>try-this challenges</span></div><div class="stat"><strong>12</strong><span>starter kits</span></div><div class="stat"><strong>180k</strong><span>words of fun</span></div></div>
 <!-- stats:end -->
 
 </div>
@@ -191,7 +191,7 @@ Each part has its own landing page with an ELI5, a suggested path, and clickable
 
     ---
 
-    <span class="card-meta">7 pages</span>
+    <span class="card-meta">10 pages</span>
 
     The reference shelf: an ELI5 glossary, the one-page cheat sheet, troubleshooting, a giant prompt library, links, project ideas, the ELI5 Edition of the whole manual, commands and shortcuts, comparison tables and printable checklists.
 

@@ -225,8 +225,11 @@ nav:
       - "Appendix A · Glossary": appendices/a-glossary.md
       - "Appendix B · The Cheat Sheet": appendices/b-cheat-sheet.md
       - "Appendix C · Troubleshooting FAQ": appendices/c-troubleshooting-faq.md
-      - "Appendix D · 100 Prompts That Use Tools": appendices/d-prompt-library.md
+      - "Appendix D · The Prompt Library": appendices/d-prompt-library.md
       - "Appendix E · Resource & Link Library": appendices/e-resource-library.md
-      - "Appendix F · 30 Project Ideas to Level Up": appendices/f-project-ideas.md
+      - "Appendix F · 80 Project Ideas to Level Up": appendices/f-project-ideas.md
       - "Appendix G · The ELI5 Edition": appendices/g-eli5-edition.md
+      - "Appendix H · Commands & Shortcuts": appendices/h-commands-and-shortcuts.md
+      - "Appendix I · Comparison Tables": appendices/i-comparison-tables.md
+      - "Appendix J · Printable Checklists": appendices/j-checklists.md
 # NAV:END
