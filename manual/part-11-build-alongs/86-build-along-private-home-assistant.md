@@ -264,4 +264,4 @@ So your **household documents never leave the house** when they're indexed for s
 
 ---
 
-**Next:** [87 · Build-Along →](87-build-along-automated-newsletter.md)
+**Next:** [87 · The Automated Newsletter →](87-build-along-automated-newsletter.md)

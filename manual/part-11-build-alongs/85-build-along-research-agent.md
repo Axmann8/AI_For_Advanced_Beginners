@@ -280,4 +280,4 @@ So the agent can **only write inside `reports/`**: tools must enforce their own 
 
 ---
 
-**Next:** [86 · Build-Along →](86-build-along-private-home-assistant.md)
+**Next:** [86 · The Private Home Assistant →](86-build-along-private-home-assistant.md)

@@ -242,4 +242,4 @@ affordable.
 
 ---
 
-**Next:** [81 · Build-Along →](../part-11-build-alongs/81-build-along-pocket-ai-assistant.md)
+**Next:** [81 · Your Pocket AI Assistant on Telegram →](../part-11-build-alongs/81-build-along-pocket-ai-assistant.md)

@@ -272,4 +272,4 @@ A **newsletter platform**: it handles opt-in, unsubscribes, deliverability and p
 
 ---
 
-**Next:** [88 · Build-Along →](88-build-along-voice-receptionist.md)
+**Next:** [88 · An AI Voice Receptionist →](88-build-along-voice-receptionist.md)

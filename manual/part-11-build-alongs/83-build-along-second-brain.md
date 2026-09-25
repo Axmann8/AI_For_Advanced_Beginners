@@ -283,4 +283,4 @@ They're **yours**, readable by any app or AI, easy to back up and version, and t
 
 ---
 
-**Next:** [84 · Build-Along →](84-build-along-web-app-with-ai.md)
+**Next:** [84 · A Web App with Logins & AI →](84-build-along-web-app-with-ai.md)

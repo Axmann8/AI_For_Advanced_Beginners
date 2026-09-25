@@ -275,4 +275,4 @@ real calendar.
 
 ---
 
-**Next:** [82 · Build-Along →](82-build-along-publish-an-mcp-server.md)
+**Next:** [82 · Publish Your Own MCP Server →](82-build-along-publish-an-mcp-server.md)

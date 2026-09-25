@@ -353,4 +353,4 @@ A **minor** bump, e.g. `1.0.0` → **`1.1.0`** (new feature, nothing broken).
 
 ---
 
-**Next:** [83 · Build-Along →](83-build-along-second-brain.md)
+**Next:** [83 · The Second Brain →](83-build-along-second-brain.md)

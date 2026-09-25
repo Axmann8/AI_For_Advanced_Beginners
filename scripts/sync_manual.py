@@ -74,9 +74,16 @@ class Page:
 
     @property
     def nav_title(self) -> str:
-        """Short title for the nav: '07 · MCP Explained' (drops subtitle and trailing emoji)."""
-        title = self.h1.split(":")[0]
-        return re.sub(r"[^\w)&'!?.]+$", "", title.strip())
+        """Short title for the nav: '07 · MCP Explained' (drops subtitle and trailing emoji).
+
+        Build-alongs are titled '81 · Build-Along: Your Pocket AI Assistant…', so for those the part
+        after the colon is the useful bit: '81 · Your Pocket AI Assistant…'.
+        """
+        head, _, rest = self.h1.partition(":")
+        if head.strip().endswith("Build-Along") and rest.strip():
+            number = head.split("·")[0].strip()
+            head = f"{number} · {rest.strip()}"
+        return re.sub(r"[^\w)&'!?.]+$", "", head.strip())
 
 
 def pages_in(folder: str) -> list[Page]:
