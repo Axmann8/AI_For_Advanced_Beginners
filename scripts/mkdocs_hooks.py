@@ -19,7 +19,7 @@ import posixpath
 import re
 from pathlib import Path
 
-REPO = "https://github.com/Axmann8/claude_cloud_trial_credits"
+REPO = "https://github.com/Axmann8/AI_For_Advanced_Beginners"
 ROOT = Path(__file__).resolve().parent.parent
 GLOSSARY = ROOT / "manual" / "appendices" / "a-glossary.md"
 

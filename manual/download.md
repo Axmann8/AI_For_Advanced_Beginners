@@ -15,8 +15,8 @@ every diagram and every checklist, laid out for paper and for reading offline on
 - 🔖 **Bookmarks** for every part, chapter and section
 - 🎨 **Full color**, syntax-highlighted code, and every diagram redrawn for print
 
-[📥 Download · US Letter](https://axmann8.github.io/claude_cloud_trial_credits/MANUAL.pdf "button-primary")
-[📥 Download · A4](https://axmann8.github.io/claude_cloud_trial_credits/MANUAL-A4.pdf "button")
+[📥 Download · US Letter](https://axmann8.github.io/AI_For_Advanced_Beginners/MANUAL.pdf "button-primary")
+[📥 Download · A4](https://axmann8.github.io/AI_For_Advanced_Beginners/MANUAL-A4.pdf "button")
 
 <small>Free, forever. Rebuilt automatically every time the manual changes, so it always matches this website.</small>
 
@@ -47,13 +47,13 @@ every diagram and every checklist, laid out for paper and for reading offline on
 
 ## 🤖 More ways to take it with you
 
-- **📝 One giant Markdown file:** [`MANUAL.md`](https://axmann8.github.io/claude_cloud_trial_credits/MANUAL.md) has
+- **📝 One giant Markdown file:** [`MANUAL.md`](https://axmann8.github.io/AI_For_Advanced_Beginners/MANUAL.md) has
   the whole manual as plain text, perfect for handing to an AI as context (*"Using this manual, make me a 2-week plan
   to learn automation"*).
 - **🌐 This website:** searchable, with dark mode, progress tracking and ELI5 mode. Bookmark it on your phone's home
   screen for an app-like feel.
 - **🧑‍💻 The source:** everything, including the starter kits and the scripts that build this PDF, lives on
-  [GitHub](https://github.com/Axmann8/claude_cloud_trial_credits).
+  [GitHub](https://github.com/Axmann8/AI_For_Advanced_Beginners).
 
 > [!TIP]
 > **💡 Share it freely**

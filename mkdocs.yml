@@ -4,9 +4,9 @@ site_description: >-
   to building your own agents: every major assistant (ChatGPT, Gemini, Claude,
   Copilot, Grok, Perplexity and more), MCP, automation, agents, local AI, creative
   tools and real life, with an ELI5 for everything.
-site_url: https://axmann8.github.io/claude_cloud_trial_credits/
-repo_url: https://github.com/Axmann8/claude_cloud_trial_credits
-repo_name: Axmann8/claude_cloud_trial_credits
+site_url: https://axmann8.github.io/AI_For_Advanced_Beginners/
+repo_url: https://github.com/Axmann8/AI_For_Advanced_Beginners
+repo_name: Axmann8/AI_For_Advanced_Beginners
 edit_uri: edit/main/manual/
 docs_dir: manual
 copyright: Made with ❤️ and Claude Code · Now go build something fun ✨
@@ -70,7 +70,7 @@ extra_javascript:
 extra:
   social:
     - icon: fontawesome/brands/github
-      link: https://github.com/Axmann8/claude_cloud_trial_credits
+      link: https://github.com/Axmann8/AI_For_Advanced_Beginners
       name: The manual on GitHub
 
 markdown_extensions:

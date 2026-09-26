@@ -12,7 +12,7 @@ from pathlib import Path
 sys.path.insert(0, str(Path(__file__).parent))
 from sync_manual import MANUAL, PARTS, pages_in  # noqa: E402
 
-REPO = "https://github.com/Axmann8/claude_cloud_trial_credits/blob/main"
+REPO = "https://github.com/Axmann8/AI_For_Advanced_Beginners/blob/main"
 
 
 def main(out: Path) -> None:

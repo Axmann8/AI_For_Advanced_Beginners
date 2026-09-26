@@ -313,9 +313,9 @@ Each part has its own landing page with an ELI5, a suggested path, and clickable
 
 > [!TIP]
 > **📄 Want it on paper, or offline?**
-> The whole manual is also a beautifully formatted **printable PDF book** ([US Letter](https://axmann8.github.io/claude_cloud_trial_credits/MANUAL.pdf) ·
-> [A4](https://axmann8.github.io/claude_cloud_trial_credits/MANUAL-A4.pdf)), with a cover, contents with page numbers, part dividers, page references and clickable
-> bookmarks. There's also a single [`MANUAL.md`](https://axmann8.github.io/claude_cloud_trial_credits/MANUAL.md), which is perfect for handing to an AI as context. Both
+> The whole manual is also a beautifully formatted **printable PDF book** ([US Letter](https://axmann8.github.io/AI_For_Advanced_Beginners/MANUAL.pdf) ·
+> [A4](https://axmann8.github.io/AI_For_Advanced_Beginners/MANUAL-A4.pdf)), with a cover, contents with page numbers, part dividers, page references and clickable
+> bookmarks. There's also a single [`MANUAL.md`](https://axmann8.github.io/AI_For_Advanced_Beginners/MANUAL.md), which is perfect for handing to an AI as context. Both
 > rebuild automatically every time the manual changes.
 
 > 📅 Current as of **September 2026**. AI moves fast: product names and features shift monthly, but the concepts and

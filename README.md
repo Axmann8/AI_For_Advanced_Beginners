@@ -9,13 +9,13 @@ go further: connect AI to your apps with MCP, automate your life with n8n, Zapie
 agents, run models on your own machine, make art, music and games, and use all of it for real work and real life. Plus
 **8 weekend build-alongs** and **tested starter kits** you can run in minutes.
 
-> 📄 **Download the whole thing as a printable PDF book:** [US Letter](https://axmann8.github.io/claude_cloud_trial_credits/MANUAL.pdf) ·
-> [A4](https://axmann8.github.io/claude_cloud_trial_credits/MANUAL-A4.pdf) (cover, contents with page numbers, part
+> 📄 **Download the whole thing as a printable PDF book:** [US Letter](https://axmann8.github.io/AI_For_Advanced_Beginners/MANUAL.pdf) ·
+> [A4](https://axmann8.github.io/AI_For_Advanced_Beginners/MANUAL-A4.pdf) (cover, contents with page numbers, part
 > dividers, bookmarks and clickable links).
 
-> 📖 **Read it as a website:** [axmann8.github.io/claude_cloud_trial_credits](https://axmann8.github.io/claude_cloud_trial_credits/)
-> (searchable, dark mode, progress tracking), grab the **printable PDF book** ([US Letter](https://axmann8.github.io/claude_cloud_trial_credits/MANUAL.pdf) ·
-> [A4](https://axmann8.github.io/claude_cloud_trial_credits/MANUAL-A4.pdf)) or the one-file [`MANUAL.md`](https://axmann8.github.io/claude_cloud_trial_credits/MANUAL.md), or browse [`manual/`](manual/index.md) right
+> 📖 **Read it as a website:** [axmann8.github.io/AI_For_Advanced_Beginners](https://axmann8.github.io/AI_For_Advanced_Beginners/)
+> (searchable, dark mode, progress tracking), grab the **printable PDF book** ([US Letter](https://axmann8.github.io/AI_For_Advanced_Beginners/MANUAL.pdf) ·
+> [A4](https://axmann8.github.io/AI_For_Advanced_Beginners/MANUAL-A4.pdf)) or the one-file [`MANUAL.md`](https://axmann8.github.io/AI_For_Advanced_Beginners/MANUAL.md), or browse [`manual/`](manual/index.md) right
 > here on GitHub.
 >
 > 📅 Current as of **September 2026**. Product names shift fast. The concepts last.
@@ -28,7 +28,7 @@ agents, run models on your own machine, make art, music and games, and use all o
 |---|---|
 | 🐣 **Starts from zero** | [Part I · AI from Zero](manual/part-1-ai-from-zero/index.md) takes complete beginners from their first chat to confident everyday use, with a 30-day plan |
 | 🌍 **Every assistant** | [Part II · The AI Assistants Field Guide](manual/part-2-ai-assistants-field-guide/index.md): complete guides to ChatGPT, Gemini, Claude, Copilot, Grok, Perplexity, Meta AI, DeepSeek, Le Chat, Qwen, Siri, Alexa+ and more |
-| 📄 **A real book, too** | The whole manual as a [beautifully formatted PDF](https://axmann8.github.io/claude_cloud_trial_credits/download/), rebuilt automatically |
+| 📄 **A real book, too** | The whole manual as a [beautifully formatted PDF](https://axmann8.github.io/AI_For_Advanced_Beginners/download/), rebuilt automatically |
 | 🧸 **An ELI5 for everything** | Every chapter *and every section* opens with an "explain like I'm five" box. Flip on **ELI5 mode** on the website to read the whole manual in kid-simple language, or read the [ELI5 Edition](manual/appendices/g-eli5-edition.md) in one go |
 | 🧭 **Clickable sections** | Every chapter starts with "In this chapter" cards that jump straight to each section |
 | 🧠 **Quizzes & takeaways** | Every chapter ends with key takeaways, a "Check yourself" quiz and a 🎮 Try this challenge |
@@ -97,7 +97,7 @@ Already comfortable? Try [How to Use This Manual](manual/start-here/a-how-to-use
 ## ⚡ Quick start: your first superpower in 5 minutes
 
 ```bash
-git clone https://github.com/Axmann8/claude_cloud_trial_credits && cd claude_cloud_trial_credits/examples/my-first-mcp-server
+git clone https://github.com/Axmann8/AI_For_Advanced_Beginners && cd AI_For_Advanced_Beginners/examples/my-first-mcp-server
 python -m venv .venv && source .venv/bin/activate
 pip install -r requirements.txt
 python smoke_test.py            # 🎲 🥠 it works!

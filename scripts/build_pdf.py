@@ -38,8 +38,8 @@ from pygments.formatters import HtmlFormatter
 sys.path.insert(0, str(Path(__file__).parent))
 from sync_manual import PARTS, ROOT, pages_in  # noqa: E402
 
-SITE_URL = "https://axmann8.github.io/claude_cloud_trial_credits/"
-REPO_URL = "https://github.com/Axmann8/claude_cloud_trial_credits"
+SITE_URL = "https://axmann8.github.io/AI_For_Advanced_Beginners/"
+REPO_URL = "https://github.com/Axmann8/AI_For_Advanced_Beginners"
 TITLE = "The Massive AI Manual"
 PAPER = {"letter": ("8.5in", "11in"), "a4": ("210mm", "297mm")}
 CACHE = ROOT / ".cache" / "pdf"
