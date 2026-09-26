@@ -1,23 +1,24 @@
 <div class="hero" markdown>
 
-<span class="hero-kicker">The Massive Manual · 2026 Edition</span>
+<span class="hero-kicker">From absolute beginner to advanced beginner · 2026 Edition</span>
 
-# AI for Advanced Beginners 🚀
+# The Massive AI Manual 🚀
 
-You know what an LLM is. You know how to prompt. **This is everything that comes next:** connecting AI to your apps,
-automating your life, building your own tools and agents, running models at home, making art and music, and using it
-all in real life, with an 🧸 **ELI5 for everything**.
+Never used AI before? Ready to build your own agents? **This manual is for everyone.** Start from zero with friendly,
+jargon-free guides, master **ChatGPT, Gemini, Claude, Copilot, Grok, Perplexity, Meta AI** and every other major
+assistant, then go further: connect AI to your apps, automate your life, build your own tools, run models at home, make
+art and music, and use it all in real life, with an 🧸 **ELI5 for everything**.
 
-[🚀 Start here](start-here/a-how-to-use-this-manual.md "button-primary") [⚡ Your first hour](start-here/b-your-first-hour.md "button") [🗺️ The big map](start-here/c-the-big-map.md "button")
+[🐣 I'm brand new to AI](part-1-ai-from-zero/index.md "button-primary") [🤖 Master your assistant](part-2-ai-assistants-field-guide/index.md "button") [🚀 Start here](start-here/a-how-to-use-this-manual.md "button") [📄 Download the PDF book](download.md "button")
 
 <!-- stats:start -->
-<div class="hero-stats"><div class="stat"><strong>88</strong><span>chapters</span></div><div class="stat"><strong>1069</strong><span>ELI5 explanations 🧸</span></div><div class="stat"><strong>274</strong><span>quiz questions</span></div><div class="stat"><strong>93</strong><span>try-this challenges</span></div><div class="stat"><strong>12</strong><span>starter kits</span></div><div class="stat"><strong>180k</strong><span>words of fun</span></div></div>
+<div class="hero-stats"><div class="stat"><strong>119</strong><span>chapters</span></div><div class="stat"><strong>1383</strong><span>ELI5 explanations 🧸</span></div><div class="stat"><strong>375</strong><span>quiz questions</span></div><div class="stat"><strong>124</strong><span>try-this challenges</span></div><div class="stat"><strong>12</strong><span>starter kits</span></div><div class="stat"><strong>238k</strong><span>words of fun</span></div></div>
 <!-- stats:end -->
 
 </div>
 
 <!-- progress:start -->
-<div class="progress-tracker" data-total="88"></div>
+<div class="progress-tracker" data-total="119"></div>
 <!-- progress:end -->
 
 ## 🧭 Pick your path
@@ -26,13 +27,30 @@ Not sure where to begin? Pick the card that sounds most like you. Every path is 
 
 <div class="grid cards clickable" markdown>
 
+-   **🐣 "I've never really used AI"**
+
+    ---
+
+    Start at zero: what AI is, your first conversation, how to ask good questions and how to stay safe. No jargon, no
+    judgment.
+
+    [What Is AI, Really? →](part-1-ai-from-zero/01-what-is-ai-really.md)
+
+-   **🤖 "I want to get great at ChatGPT (or Gemini, or Claude…)"**
+
+    ---
+
+    A complete, friendly guide to every major assistant, plus head-to-head showdowns to find your favorite.
+
+    [The AI Assistants Field Guide →](part-2-ai-assistants-field-guide/index.md)
+
 -   **⚡ "I want results in 10 minutes"**
 
     ---
 
     Turn on a built-in connector and ask your AI about *your own* stuff. Instant wow.
 
-    [Built-in Connectors →](part-2-mcp-and-connectors/10-built-in-connectors.md)
+    [Built-in Connectors →](part-4-mcp-and-connectors/41-built-in-connectors.md)
 
 -   **🔌 "I want to understand the MCP hype"**
 
@@ -40,7 +58,7 @@ Not sure where to begin? Pick the card that sounds most like you. Every path is 
 
     The universal plug for AI, from "what is it" to building and publishing your own.
 
-    [MCP Explained →](part-2-mcp-and-connectors/07-mcp-explained.md)
+    [MCP Explained →](part-4-mcp-and-connectors/38-mcp-explained.md)
 
 -   **⚙️ "I want to automate boring stuff"**
 
@@ -48,7 +66,7 @@ Not sure where to begin? Pick the card that sounds most like you. Every path is 
 
     Workflows that run while you sleep, with AI doing the fuzzy thinking.
 
-    [Automation Platforms →](part-3-automation/14-automation-platforms.md)
+    [Automation Platforms →](part-5-automation/45-automation-platforms.md)
 
 -   **🛠️ "I want to build apps without being a 'real' programmer"**
 
@@ -56,7 +74,7 @@ Not sure where to begin? Pick the card that sounds most like you. Every path is 
 
     Coding agents, vibe coding, and shipping your first real app with logins and a database.
 
-    [Agents & Coding Tools →](part-5-building-with-ai/29-agents-and-coding-tools.md)
+    [Agents & Coding Tools →](part-7-building-with-ai/60-agents-and-coding-tools.md)
 
 -   **🔒 "I care about privacy and love tinkering"**
 
@@ -64,7 +82,7 @@ Not sure where to begin? Pick the card that sounds most like you. Every path is 
 
     Run models on your own machine and build a private AI home lab.
 
-    [Local & Open Models →](part-7-local-ai/47-local-and-open-models.md)
+    [Local & Open Models →](part-9-local-ai/78-local-and-open-models.md)
 
 -   **🎨 "I just want to make cool stuff"**
 
@@ -72,7 +90,7 @@ Not sure where to begin? Pick the card that sounds most like you. Every path is 
 
     Images, video, music, voices, 3D worlds and interactive stories.
 
-    [The Multimodal Playground →](part-8-creative-ai/52-multimodal-playground.md)
+    [The Multimodal Playground →](part-10-creative-ai/83-multimodal-playground.md)
 
 -   **🌱 "I want AI to help my real life"**
 
@@ -80,7 +98,7 @@ Not sure where to begin? Pick the card that sounds most like you. Every path is 
 
     Research, writing, money, health, travel, parenting, careers and life admin.
 
-    [AI for Life & Work →](part-9-ai-for-life-and-work/index.md)
+    [AI for Life & Work →](part-11-ai-for-life-and-work/index.md)
 
 -   **🧱 "Just give me a project!"**
 
@@ -88,18 +106,34 @@ Not sure where to begin? Pick the card that sounds most like you. Every path is 
 
     Long, step-by-step build-alongs: a Telegram assistant, your own MCP server, a web app and more.
 
-    [The Build-Alongs →](part-11-build-alongs/index.md)
+    [The Build-Alongs →](part-13-build-alongs/index.md)
 
 </div>
 
-## 🗺️ The eleven parts
+## 🗺️ The thirteen parts
 
 Each part has its own landing page with an ELI5, a suggested path, and clickable chapter cards.
 
 <!-- parts:start -->
 <div class="grid cards clickable" markdown>
 
--   **🧠 [Part I · Foundations](part-1-foundations/index.md)**
+-   **🐣 [Part I · AI from Zero](part-1-ai-from-zero/index.md)**
+
+    ---
+
+    <span class="card-meta">16 chapters</span>
+
+    Brand new to AI? You're in exactly the right place.
+
+-   **🤖 [Part II · The AI Assistants Field Guide](part-2-ai-assistants-field-guide/index.md)**
+
+    ---
+
+    <span class="card-meta">15 chapters</span>
+
+    A complete, friendly guide to every major AI assistant: ChatGPT, Gemini, Claude, Copilot, Grok, Perplexity, Meta AI, DeepSeek, Le Chat, Qwen, Kimi and friends, plus the AI built into Siri, Alexa and your phone.
+
+-   **🧠 [Part III · Foundations](part-3-foundations/index.md)**
 
     ---
 
@@ -107,7 +141,7 @@ Each part has its own landing page with an ELI5, a suggested path, and clickable
 
     How AI really works (without the math), where it came from, who's who, how to feed it the right context, and how to pick a personal AI stack that fits your life and budget.
 
--   **🔌 [Part II · MCP & Connectors](part-2-mcp-and-connectors/index.md)**
+-   **🔌 [Part IV · MCP & Connectors](part-4-mcp-and-connectors/index.md)**
 
     ---
 
@@ -115,7 +149,7 @@ Each part has its own landing page with an ELI5, a suggested path, and clickable
 
     The universal plug that gives AI hands and eyes: what MCP is, how it works under the hood, the best servers to install, how to build and publish your own, and how to stay safe while doing it.
 
--   **⚙️ [Part III · Automation](part-3-automation/index.md)**
+-   **⚙️ [Part V · Automation](part-5-automation/index.md)**
 
     ---
 
@@ -123,7 +157,7 @@ Each part has its own landing page with an ELI5, a suggested path, and clickable
 
     AI that works while you sleep: automation platforms, webhooks and APIs explained gently, the n8n masterclass, AI agents inside workflows, Zapier and Make walkthroughs, phone shortcuts, web scraping, and a recipe book of 50 ready-made workflows.
 
--   **🏡 [Part IV · AI in Your Apps](part-4-ai-in-your-apps/index.md)**
+-   **🏡 [Part VI · AI in Your Apps](part-6-ai-in-your-apps/index.md)**
 
     ---
 
@@ -131,7 +165,7 @@ Each part has its own landing page with an ELI5, a suggested path, and clickable
 
     Super-charge the tools you already use every day: Notion, Google Workspace, Microsoft 365, Obsidian, your inbox and calendar, your spreadsheets, and the chat apps where you and your friends hang out.
 
--   **🛠️ [Part V · Building with AI](part-5-building-with-ai/index.md)**
+-   **🛠️ [Part VII · Building with AI](part-7-building-with-ai/index.md)**
 
     ---
 
@@ -139,7 +173,7 @@ Each part has its own landing page with an ELI5, a suggested path, and clickable
 
     Become a builder, even if you've never coded: coding agents, Git and GitHub, the Claude Code masterclass and power-ups, Cursor and AI IDEs, vibe coding a real app, deploying it, calling AI APIs, building your own agents, frameworks, multi-agent teams and computer-use agents.
 
--   **📚 [Part VI · Knowledge & Memory](part-6-knowledge-and-memory/index.md)**
+-   **📚 [Part VIII · Knowledge & Memory](part-8-knowledge-and-memory/index.md)**
 
     ---
 
@@ -147,7 +181,7 @@ Each part has its own landing page with an ELI5, a suggested path, and clickable
 
     Make AI know your stuff and remember you: RAG, embeddings and vector databases, building a RAG system, memory for agents, the Gemini Notebook (NotebookLM) masterclass, and personal knowledge management that actually sticks.
 
--   **🏠 [Part VII · Local AI](part-7-local-ai/index.md)**
+-   **🏠 [Part IX · Local AI](part-9-local-ai/index.md)**
 
     ---
 
@@ -155,7 +189,7 @@ Each part has its own landing page with an ELI5, a suggested path, and clickable
 
     Run AI on your own machine, private and offline: open models, choosing hardware, building a home lab, local AI for coding and agents, and customizing models with fine-tuning.
 
--   **🎨 [Part VIII · Creative AI](part-8-creative-ai/index.md)**
+-   **🎨 [Part X · Creative AI](part-10-creative-ai/index.md)**
 
     ---
 
@@ -163,7 +197,7 @@ Each part has its own landing page with an ELI5, a suggested path, and clickable
 
     The playground: images, video, audio, music, voice agents, 3D and games, interactive stories and design.
 
--   **🌱 [Part IX · AI for Life & Work](part-9-ai-for-life-and-work/index.md)**
+-   **🌱 [Part XI · AI for Life & Work](part-11-ai-for-life-and-work/index.md)**
 
     ---
 
@@ -171,7 +205,7 @@ Each part has its own landing page with an ELI5, a suggested path, and clickable
 
     Put it all to work in real life: research and learning, writing, small business, careers, life admin, money, health, family and school, travel, home and cooking, accessibility, and data analysis for everyone.
 
--   **🏆 [Part X · Mastery](part-10-mastery/index.md)**
+-   **🏆 [Part XII · Mastery](part-12-mastery/index.md)**
 
     ---
 
@@ -179,7 +213,7 @@ Each part has its own landing page with an ELI5, a suggested path, and clickable
 
     Doing it well: safety and gotchas, privacy, evaluating and comparing AI, cost optimization, ethics for builders, teaching others, turning your skills into income, staying current, and where this is all heading.
 
--   **🧱 [Part XI · Build-Alongs](part-11-build-alongs/index.md)**
+-   **🧱 [Part XIII · Build-Alongs](part-13-build-alongs/index.md)**
 
     ---
 
@@ -201,6 +235,20 @@ Each part has its own landing page with an ELI5, a suggested path, and clickable
 ## 🧸 What makes this manual different
 
 <div class="grid cards" markdown>
+
+-   **🐣 Starts from zero**
+
+    ---
+
+    Brand new? [Part I](part-1-ai-from-zero/index.md) walks you from your very first chat to confident everyday use,
+    with a [30-day plan](part-1-ai-from-zero/16-your-30-day-plan.md) to make it stick.
+
+-   **🌍 Every assistant, not just one**
+
+    ---
+
+    ChatGPT, Gemini, Claude, Copilot, Grok, Perplexity, Meta AI, DeepSeek, Le Chat, Qwen, Siri, Alexa+ and more,
+    each with a [complete guide](part-2-ai-assistants-field-guide/index.md).
 
 -   **🧸 ELI5 for everything**
 
@@ -241,6 +289,13 @@ Each part has its own landing page with an ELI5, a suggested path, and clickable
 
     No gatekeeping and no jargon walls. Hover over acronyms like MCP or RAG for instant ELI5 tooltips.
 
+-   **📄 A real book, too**
+
+    ---
+
+    Prefer paper, or reading offline? [Download the whole manual](download.md) as a beautifully designed,
+    printable PDF book.
+
 </div>
 
 ## 🧪 Hands-on starter kits
@@ -257,9 +312,11 @@ Each part has its own landing page with an ELI5, a suggested path, and clickable
 | [🧠 Agent Memory & Skills](../examples/prompts-for-agents/) | A sample `CLAUDE.md` and ready-to-use skills |
 
 > [!TIP]
-> **💡 Prefer one giant file?**
-> The whole manual is also published as a single [`MANUAL.md`](https://axmann8.github.io/claude_cloud_trial_credits/MANUAL.md) download, which is perfect for printing,
-> offline reading, or handing to an AI as context. It's rebuilt automatically every time the manual changes.
+> **📄 Want it on paper, or offline?**
+> The whole manual is also a beautifully formatted **printable PDF book** ([US Letter](https://axmann8.github.io/AI_For_Advanced_Beginners/MANUAL.pdf) ·
+> [A4](https://axmann8.github.io/AI_For_Advanced_Beginners/MANUAL-A4.pdf)), with a cover, contents with page numbers, part dividers, page references and clickable
+> bookmarks. There's also a single [`MANUAL.md`](https://axmann8.github.io/AI_For_Advanced_Beginners/MANUAL.md), which is perfect for handing to an AI as context. Both
+> rebuild automatically every time the manual changes.
 
 > 📅 Current as of **September 2026**. AI moves fast: product names and features shift monthly, but the concepts and
 > patterns here will serve you for years. When something looks different in an app, trust the app and keep going. 💪

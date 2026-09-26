@@ -50,4 +50,4 @@ a great next step (ask Claude Code to do it with you!).
 Also note the answer step asks Claude to say so when the sources don't contain the answer. Ask it about something that isn't in
 the notes and watch it decline to make things up. That's the anti-hallucination power of RAG.
 
-Full chapter: [The manual: Build a RAG System](../../manual/part-6-knowledge-and-memory/43-build-a-rag-system.md).
+Full chapter: [The manual: Build a RAG System](../../manual/part-8-knowledge-and-memory/74-build-a-rag-system.md).

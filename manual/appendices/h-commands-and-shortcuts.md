@@ -96,7 +96,7 @@ claude -p "prompt" --output-format json  # machine-readable output
 claude -p "fix lint" --allowedTools "Edit,Bash(npm run lint)"
 ```
 
-([Claude Code Masterclass](../part-5-building-with-ai/31-claude-code-masterclass.md), [Power-Ups](../part-5-building-with-ai/32-claude-code-power-ups.md))
+([Claude Code Masterclass](../part-7-building-with-ai/62-claude-code-masterclass.md), [Power-Ups](../part-7-building-with-ai/63-claude-code-power-ups.md))
 
 ## 🔌 MCP
 
@@ -147,7 +147,7 @@ Save-point commands for your projects, and GitHub's helper commands.
 | `gh auth login` · `gh repo create` | GitHub CLI: log in · create a repo |
 | `gh issue view <n>` · `gh pr create` | View an issue · open a pull request |
 
-([Git & GitHub](../part-5-building-with-ai/30-git-and-github.md))
+([Git & GitHub](../part-7-building-with-ai/61-git-and-github.md))
 
 ## 🦙 Ollama & local AI
 
@@ -168,7 +168,7 @@ ollama launch claude                 # Claude Code on local models
 curl http://localhost:11434/api/embed -d '{"model":"nomic-embed-text","input":"hello"}'
 ```
 
-OpenAI-compatible endpoint: `http://localhost:11434/v1`. ([Local & Open Models](../part-7-local-ai/47-local-and-open-models.md))
+OpenAI-compatible endpoint: `http://localhost:11434/v1`. ([Local & Open Models](../part-9-local-ai/78-local-and-open-models.md))
 
 ## 🐳 Docker & the home lab
 
@@ -189,7 +189,7 @@ docker compose exec ollama ollama pull gemma4 # run a command inside a container
 docker system df                              # disk usage
 ```
 
-([The AI Home Lab](../part-7-local-ai/49-home-lab.md))
+([The AI Home Lab](../part-9-local-ai/80-home-lab.md))
 
 ## 🐍 Python & 🟩 Node basics
 
@@ -247,7 +247,7 @@ Keyboard shortcuts for code editors with AI helpers.
 | Mention context | `@file`, `@docs`, `@web` | `#file` and `@`-participants |
 
 Shortcuts change between versions. Check each editor's keyboard shortcuts screen if one doesn't work
-([Cursor & AI IDEs](../part-5-building-with-ai/33-cursor-and-ai-ides.md)).
+([Cursor & AI IDEs](../part-7-building-with-ai/64-cursor-and-ai-ides.md)).
 
 ## 🏗️ This repo's kits
 

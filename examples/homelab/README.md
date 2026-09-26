@@ -53,4 +53,4 @@ docker compose down                # stop (your data stays in volumes)
   For remote access, use **Tailscale** (private network) instead of port-forwarding.
 - Back up the Docker volumes (`ollama`, `open-webui`, `n8n_data`) if you care about the data.
 
-Full chapter: [The manual: Home Lab](../../manual/part-7-local-ai/49-home-lab.md).
+Full chapter: [The manual: Home Lab](../../manual/part-9-local-ai/80-home-lab.md).

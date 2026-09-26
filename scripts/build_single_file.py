@@ -12,11 +12,11 @@ from pathlib import Path
 sys.path.insert(0, str(Path(__file__).parent))
 from sync_manual import MANUAL, PARTS, pages_in  # noqa: E402
 
-REPO = "https://github.com/Axmann8/claude_cloud_trial_credits/blob/main"
+REPO = "https://github.com/Axmann8/AI_For_Advanced_Beginners/blob/main"
 
 
 def main(out: Path) -> None:
-    toc = ["# AI for Advanced Beginners: The Massive Manual 🚀", "", "## Table of Contents", ""]
+    toc = ["# The Massive AI Manual 🚀", "", "## Table of Contents", ""]
     body: list[str] = []
     for folder, (label, emoji) in PARTS.items():
         pages = pages_in(folder)

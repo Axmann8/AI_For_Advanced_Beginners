@@ -59,7 +59,15 @@ The main AI chat apps and the websites for building with them.
 | Google Gemini & AI Studio | [gemini.google.com](https://gemini.google.com) · [aistudio.google.com](https://aistudio.google.com) |
 | Gemini Notebook (formerly NotebookLM) | [notebooklm.google.com](https://notebooklm.google.com) (old links redirect) |
 | Microsoft Copilot | [copilot.microsoft.com](https://copilot.microsoft.com) |
-| Perplexity | [perplexity.ai](https://www.perplexity.ai) |
+| Perplexity & Comet | [perplexity.ai](https://www.perplexity.ai) · [perplexity.ai/comet](https://www.perplexity.ai/comet) |
+| Grok (xAI) | [grok.com](https://grok.com) · [x.ai/api](https://x.ai/api) |
+| Meta AI | [meta.ai](https://www.meta.ai) |
+| DeepSeek | [chat.deepseek.com](https://chat.deepseek.com) · [platform.deepseek.com](https://platform.deepseek.com) |
+| Mistral Le Chat | [chat.mistral.ai](https://chat.mistral.ai) · [console.mistral.ai](https://console.mistral.ai) |
+| Qwen Chat · Kimi · Z.ai | [chat.qwen.ai](https://chat.qwen.ai) · [kimi.com](https://www.kimi.com) · [chat.z.ai](https://chat.z.ai) |
+| Alexa+ | [alexa.com](https://www.alexa.com) |
+| Poe · HuggingChat · Duck.ai · Proton Lumo | [poe.com](https://poe.com) · [huggingface.co/chat](https://huggingface.co/chat) · [duck.ai](https://duck.ai) · [lumo.proton.me](https://lumo.proton.me) |
+| Help centers | [help.openai.com](https://help.openai.com) · [support.google.com/gemini](https://support.google.com/gemini) · [support.anthropic.com](https://support.anthropic.com) · [support.microsoft.com](https://support.microsoft.com) |
 | OpenRouter | [openrouter.ai](https://openrouter.ai) |
 
 ## ⚙️ Automation

@@ -1,0 +1,7 @@
+# For scripts/build_pdf.py (the printable PDF book). Also run: python -m playwright install chromium
+-r requirements-docs.txt
+playwright==1.56.0
+pymupdf==1.28.2
+pymupdf-fonts==1.0.5
+beautifulsoup4==4.15.0
+lxml==6.1.3

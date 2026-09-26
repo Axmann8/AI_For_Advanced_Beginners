@@ -1,4 +1,4 @@
-/* AI for Advanced Beginners · progress tracking, ELI5 mode, and a little confetti 🎉
+/* The Massive AI Manual · progress tracking, ELI5 mode, and a little confetti 🎉
    Everything is stored in this browser only (localStorage), and the page works fine without it. */
 (() => {
   const KEY_DONE = "aiab:done:v1";
@@ -130,7 +130,21 @@
     document.body.appendChild(button);
   }
 
+  // a bright "📄 PDF book" button in the header, on every page
+  function setupPdfButton() {
+    const header = document.querySelector(".md-header__inner");
+    if (!header || header.querySelector(".aiab-pdf-btn")) return;
+    const link = document.createElement("a");
+    link.className = "aiab-pdf-btn";
+    link.href = new URL("download/", siteRoot()).href;
+    link.title = "Download the whole manual as a printable PDF book";
+    link.innerHTML = '📄<span class="aiab-pdf-btn__label"> PDF book</span>';
+    const search = header.querySelector(".md-search");
+    header.insertBefore(link, search || null);
+  }
+
   function setup() {
+    setupPdfButton();
     setupDoneButtons();
     setupProgress();
     setupEli5Toggle();

@@ -19,7 +19,7 @@ import posixpath
 import re
 from pathlib import Path
 
-REPO = "https://github.com/Axmann8/claude_cloud_trial_credits"
+REPO = "https://github.com/Axmann8/AI_For_Advanced_Beginners"
 ROOT = Path(__file__).resolve().parent.parent
 GLOSSARY = ROOT / "manual" / "appendices" / "a-glossary.md"
 
@@ -155,7 +155,7 @@ def on_page_markdown(markdown, page, config, files):
         + " }",
         text,
     )
-    done = "<!-- chapter-done -->\n\n" if re.match(r"part-\d+-[^/]+/\d{2}-", page.file.src_uri) else ""
+    done = "<!-- chapter-done -->\n\n" if re.match(r"part-\d+-[^/]+/\d{2,3}-", page.file.src_uri) else ""
     text = NEXT.sub(
         lambda m: f'{done}[<span class="next-label">Next up</span> {m.group(1)}]({m.group(2)})'
         "{ .md-button .md-button--primary .next-chapter }",
@@ -204,7 +204,8 @@ def on_page_content(html_out, page, config, files):
         done = (
             f'<div class="chapter-done" data-chapter="{html.escape(page.url)}">'
             '<button type="button" class="chapter-done__btn">✅ Mark this chapter as done</button>'
-            '<p class="chapter-done__hint">Progress is saved in this browser only, so no account needed.</p></div>'
+            '<p class="chapter-done__hint">Progress is saved in this browser only, so no account needed. · '
+            f'<a href="{"../" * page.url.count("/")}download/">📄 Prefer paper? Get the PDF book</a></p></div>'
         )
         html_out = html_out.replace("<!-- chapter-done -->", done, 1)
     return html_out

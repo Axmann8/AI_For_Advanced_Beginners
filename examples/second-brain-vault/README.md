@@ -3,7 +3,7 @@
 A ready-to-open **Obsidian-compatible vault** that's designed for AI from day one: PARA folders, templates, a `CLAUDE.md` with
 house rules, and Claude Code **skills** for inbox triage and weekly reviews.
 
-Companion kit for **[Build-Along: The Second Brain](../../manual/part-11-build-alongs/83-build-along-second-brain.md)**.
+Companion kit for **[Build-Along: The Second Brain](../../manual/part-13-build-alongs/114-build-along-second-brain.md)**.
 
 ```
 second-brain-vault/
@@ -51,6 +51,6 @@ second-brain-vault/
 ## Make it yours 🎨
 
 - Replace the sample notes with your own (or keep them until the triage clicks).
-- Add a **voice capture** pipeline that drops notes into `00-Inbox/` ([Phone & Desktop Automation](../../manual/part-3-automation/19-phone-and-desktop-automation.md)).
-- Put the vault in **Git** for version history ([Git & GitHub](../../manual/part-5-building-with-ai/30-git-and-github.md)), and keep it **private**.
-- Want it fully private? Use a local model ([Local & Open Models](../../manual/part-7-local-ai/47-local-and-open-models.md)).
+- Add a **voice capture** pipeline that drops notes into `00-Inbox/` ([Phone & Desktop Automation](../../manual/part-5-automation/50-phone-and-desktop-automation.md)).
+- Put the vault in **Git** for version history ([Git & GitHub](../../manual/part-7-building-with-ai/61-git-and-github.md)), and keep it **private**.
+- Want it fully private? Use a local model ([Local & Open Models](../../manual/part-9-local-ai/78-local-and-open-models.md)).

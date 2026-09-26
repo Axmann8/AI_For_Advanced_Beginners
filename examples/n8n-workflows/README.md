@@ -76,7 +76,7 @@ confirm, and does math. Strangers get ignored.
 
 **Setup:** create a bot with **@BotFather**, add the token as a Telegram credential, paste **your** Telegram user ID (ask
 @userinfobot) into the **Only me? 🔒** node, and connect Anthropic and Google Calendar credentials. The full walkthrough is
-[Build-Along: Your Pocket AI Assistant](../../manual/part-11-build-alongs/81-build-along-pocket-ai-assistant.md).
+[Build-Along: Your Pocket AI Assistant](../../manual/part-13-build-alongs/112-build-along-pocket-ai-assistant.md).
 
 ## 📞 4. Voice Receptionist Tools: [`voice-receptionist-tools.json`](voice-receptionist-tools.json)
 
@@ -93,7 +93,7 @@ curl -X POST "http://localhost:5678/webhook-test/receptionist/check-availability
   -H "Content-Type: application/json" -d '{"date": "2026-10-01"}'
 ```
 
-Full walkthrough: [Build-Along: An AI Voice Receptionist](../../manual/part-11-build-alongs/88-build-along-voice-receptionist.md).
+Full walkthrough: [Build-Along: An AI Voice Receptionist](../../manual/part-13-build-alongs/119-build-along-voice-receptionist.md).
 
 ---
 

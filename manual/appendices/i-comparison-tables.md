@@ -4,7 +4,7 @@
 
 **"Which one should I use?" This page answers that question for every category in the manual, side by side.** The ratings are
 friendly rules of thumb, not lab results. Tools change fast, so treat these as a starting shortlist and let
-[your own eval](../part-10-mastery/74-evaluating-ai.md) pick the winner. ⚖️
+[your own eval](../part-12-mastery/105-evaluating-ai.md) pick the winner. ⚖️
 
 > [!NOTE]
 > **📌 A snapshot, not a scoreboard**
@@ -39,7 +39,22 @@ The big chat apps, and what each is especially good at.
 | **Research mode** | ✅ | ✅ | ✅ | ✅ | ✅ (its core) |
 | **Standout extra** | Artifacts, Projects, skills | Image generation, agent mode | Gemini Notebook, video understanding | Deep Office integration | Citations everywhere |
 
-More: [The AI Landscape](../part-1-foundations/04-the-ai-landscape.md), [Choosing Your AI Stack](../part-1-foundations/06-choosing-your-ai-stack.md).
+**And the rest of the lineup:**
+
+| | Grok | Meta AI | DeepSeek | Le Chat | Qwen / Kimi |
+|---|---|---|---|---|---|
+| **Made by** | xAI (part of SpaceX) | Meta | DeepSeek (China) | Mistral AI (France) | Alibaba / Moonshot (China) |
+| **Especially good at** | Real-time X posts, images and video | WhatsApp/Instagram chats, smart glasses | Free reasoning, open models | Speed, documents, EU privacy | Multilingual, long documents, open models |
+| **Free tier** | ✅ (weekly allowance) | ✅ | ✅ | ✅ | ✅ |
+| **Standout extra** | Grok Imagine, Expert/Heavy modes | Imagine, Vibes, Ray-Ban Meta | DeepThink shows its reasoning | Memories with ChatGPT import, MCP connectors | Open weights you can run at home |
+| **Privacy note** | Check X training settings | Chats personalize ads | Data stored in China | GDPR | Data stored in China (run open models locally instead) |
+
+**Built-in assistants:** Siri (Apple Intelligence, rebuilt in iOS 27), Alexa+ (free with Prime in the US), Gemini on
+Android and Nest, Galaxy AI on Samsung phones ([chapter 28](../part-2-ai-assistants-field-guide/28-built-in-assistants.md)).
+
+More: [Meet the Assistants: The Big Comparison](../part-2-ai-assistants-field-guide/17-meet-the-assistants.md),
+[Head-to-Head Showdowns](../part-2-ai-assistants-field-guide/30-head-to-head-showdowns.md),
+[The AI Landscape](../part-3-foundations/35-the-ai-landscape.md), [Choosing Your AI Stack](../part-3-foundations/37-choosing-your-ai-stack.md).
 
 ## ⚙️ Automation platforms
 
@@ -60,7 +75,7 @@ The robot-recipe builders, compared on ease, power and price style.
 | **Billing unit** | Tasks (per step) | Operations/credits | Executions (per run) | Per user/flow |
 | **Pick it when** | You want it working in 10 minutes | You want visual power at good value | You want control, code and local models | You live in Microsoft 365 |
 
-More: [Automation Platforms](../part-3-automation/14-automation-platforms.md).
+More: [Automation Platforms](../part-5-automation/45-automation-platforms.md).
 
 ## 🛠️ AI coding tools
 
@@ -81,7 +96,7 @@ Tools that build apps for you, from "describe it" websites to coding helpers in 
 | **Codex / Gemini CLI** | Agent | Similar agentic workflows in other ecosystems | None to start |
 | **Aider / Cline / OpenCode** | Open-source agents | Bring-your-own-model, local models | Some |
 
-More: [Agents & AI Coding Tools](../part-5-building-with-ai/29-agents-and-coding-tools.md), [Cursor & AI IDEs](../part-5-building-with-ai/33-cursor-and-ai-ides.md).
+More: [Agents & AI Coding Tools](../part-7-building-with-ai/60-agents-and-coding-tools.md), [Cursor & AI IDEs](../part-7-building-with-ai/64-cursor-and-ai-ides.md).
 
 ## 🧱 Agent frameworks
 
@@ -102,7 +117,7 @@ LEGO sets for building your own AI helpers, and what each one is best at.
 | **Vercel AI SDK / Mastra** | TypeScript | Web-native streaming, workflows | Building web apps |
 | **n8n AI Agent** | Visual | No-code agents in workflows | Business automations |
 
-More: [Agent Frameworks Tour](../part-5-building-with-ai/38-agent-frameworks-tour.md).
+More: [Agent Frameworks Tour](../part-7-building-with-ai/69-agent-frameworks-tour.md).
 
 ## 🏠 Local AI runners
 
@@ -123,7 +138,7 @@ Apps for running AI on your own computer, from simple to super-powerful.
 | **MLX** | Apple framework | Speed on Apple Silicon |
 | **vLLM / SGLang** | Server | Serving many users on GPUs |
 
-More: [Local & Open Models](../part-7-local-ai/47-local-and-open-models.md).
+More: [Local & Open Models](../part-9-local-ai/78-local-and-open-models.md).
 
 ## 💻 Hardware for local AI
 
@@ -142,7 +157,7 @@ Which kinds of computers are best for running AI at home.
 | **Quiet & efficient** | ⭐⭐⭐ | ⭐ | ⭐⭐ | ⭐⭐⭐ |
 | **Upgradeable** | ❌ | ✅ | ❌ | ❌ |
 
-More: [Hardware for Local AI](../part-7-local-ai/48-hardware-for-local-ai.md).
+More: [Hardware for Local AI](../part-9-local-ai/79-hardware-for-local-ai.md).
 
 ## 🗄️ Vector databases
 
@@ -162,7 +177,7 @@ Databases that find things by meaning, from tiny ones for learning to giant ones
 | **Pinecone / Turbopuffer** | Managed | Zero ops at huge scale |
 | **Elasticsearch / OpenSearch** | Search engine | Great keyword + vector hybrid |
 
-More: [Embeddings & Vector Databases](../part-6-knowledge-and-memory/42-embeddings-and-vector-databases.md).
+More: [Embeddings & Vector Databases](../part-8-knowledge-and-memory/73-embeddings-and-vector-databases.md).
 
 ## 📚 Note apps for a second brain
 
@@ -182,7 +197,7 @@ Notebook apps compared, so you can pick where to keep your notes.
 | **Privacy / local AI** | ⭐⭐⭐ | ⭐ | ⭐ | ⭐⭐ |
 | **Teams** | ⭐ | ⭐⭐⭐ | ⭐⭐⭐ | ⭐ |
 
-More: [Personal Knowledge Management](../part-6-knowledge-and-memory/46-personal-knowledge-management.md).
+More: [Personal Knowledge Management](../part-8-knowledge-and-memory/77-personal-knowledge-management.md).
 
 ## 🎨 Creative tools
 
@@ -206,7 +221,7 @@ The best tools for pictures, videos, voices and music, side by side.
 | **Songs with vocals** | Suno |
 | **Edit by transcript** | Descript |
 
-More: [The Multimodal Playground](../part-8-creative-ai/52-multimodal-playground.md).
+More: [The Multimodal Playground](../part-10-creative-ai/83-multimodal-playground.md).
 
 ## 🗣️ Voice-agent platforms
 
@@ -225,7 +240,7 @@ Websites for building phone robots, compared.
 | **Voices** | Many providers | Many providers | ⭐⭐⭐ | Any |
 | **Pick it when** | Flexible dev-friendly agents | Business phone calls | The best voices | Full control, self-hosting |
 
-More: [Voice Agents](../part-8-creative-ai/56-voice-agents.md).
+More: [Voice Agents](../part-10-creative-ai/87-voice-agents.md).
 
 ## 🌍 Hosting
 
@@ -244,7 +259,7 @@ Places to put your apps on the internet, and which kind of app each one suits.
 | **Render / Railway / Fly.io** | ✅ | ✅ | ✅ | Some |
 | **A VPS or home server** | ✅ | ✅ | ✅ | Your hardware |
 
-More: [Deploying & Hosting](../part-5-building-with-ai/35-deploying-and-hosting.md).
+More: [Deploying & Hosting](../part-7-building-with-ai/66-deploying-and-hosting.md).
 
 ## 💳 Subscription vs. API vs. local
 
@@ -263,7 +278,7 @@ Three ways to pay for AI: a monthly plan, pay-per-use, or run it at home for fre
 | **Quality** | Frontier | Frontier | Good and improving |
 | **Watch out for** | Hitting limits | Surprise bills (set spend limits!) | Slower on small machines |
 
-More: [Cost Optimization](../part-10-mastery/75-cost-optimization.md).
+More: [Cost Optimization](../part-12-mastery/106-cost-optimization.md).
 
 ## 🔌 MCP: local vs. remote servers
 
@@ -283,7 +298,7 @@ AI plug-ins can live on your computer or on the internet. Each way has pros and 
 | **Install for others** | `npx` / `uvx` one-liner | Paste a URL |
 | **Best for** | Filesystem, local apps, dev tools | SaaS integrations, sharing, mobile |
 
-More: [MCP Under the Hood](../part-2-mcp-and-connectors/08-mcp-under-the-hood.md), [Building MCP Servers](../part-2-mcp-and-connectors/11-building-mcp-servers.md).
+More: [MCP Under the Hood](../part-4-mcp-and-connectors/39-mcp-under-the-hood.md), [Building MCP Servers](../part-4-mcp-and-connectors/42-building-mcp-servers.md).
 
 ---
 

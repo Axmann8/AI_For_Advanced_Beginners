@@ -20,6 +20,13 @@ This is a giant menu of ready-made things to ask AI. Each one has little picture
 
 <!-- in-this-chapter -->
 
+> [!TIP]
+> **💡 Works in every assistant**
+> These prompts work in ChatGPT, Gemini, Claude, Copilot, Grok, Perplexity, Le Chat and the rest. The tagged ones need
+> the matching connector or tool switched on. Brand new to AI? Start with the gentler
+> [Beginner's Prompt Cookbook](../part-1-ai-from-zero/08-beginners-prompt-cookbook.md) (101 everyday prompts), then
+> come back here.
+
 ## ☀️ Daily life & productivity (1–20)
 
 <details class="eli5">

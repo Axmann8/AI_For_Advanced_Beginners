@@ -15,6 +15,43 @@ set up AI safely, launch projects, and build good habits. 📝✔️
 
 <!-- in-this-chapter -->
 
+## 🐣 Absolute beginner's starter checklist
+
+<details class="eli5">
+<summary>🧸 ELI5</summary>
+
+The very first steps if you've never used AI: get the app, keep it safe, and have your first chats.
+
+</details>
+
+- [ ] Choose **one** assistant ([Choosing Your First AI Assistant](../part-1-ai-from-zero/04-choosing-your-first-assistant.md))
+- [ ] Install the **official app** (check the developer name) and sign in
+- [ ] Turn on **two-step verification**
+- [ ] Fill in **custom instructions** about you ([Getting Set Up](../part-1-ai-from-zero/05-getting-set-up.md))
+- [ ] Have your **first three conversations** ([Your First AI Conversation](../part-1-ai-from-zero/03-your-first-ai-conversation.md))
+- [ ] Use the **five-ingredient** prompt recipe once ([Prompting 101](../part-1-ai-from-zero/06-prompting-101.md))
+- [ ] **Fact-check** one answer by clicking its sources ([When AI Gets It Wrong](../part-1-ai-from-zero/10-when-ai-gets-it-wrong.md))
+- [ ] Learn where **memory**, **training** and **temporary chat** settings live
+- [ ] Start the [30-Day Plan](../part-1-ai-from-zero/16-your-30-day-plan.md) 🎉
+
+## 🛡️ Scam-proof your family
+
+<details class="eli5">
+<summary>🧸 ELI5</summary>
+
+Simple things to do so AI-powered tricksters can't fool you or the people you love.
+
+</details>
+
+- [ ] Agree a **family safe word** for emergency calls
+- [ ] Tell older relatives and teens about **voice-cloning** scams
+- [ ] Rule: **hang up and call back** on a known number before sending money
+- [ ] Never **invest** from a video ad, however famous the face
+- [ ] Only install **official** AI apps and trusted browser extensions
+- [ ] Know how to **report** fraud and who to call at your bank
+
+([Staying Safe: Privacy, Scams & Deepfakes](../part-1-ai-from-zero/11-staying-safe-with-ai.md))
+
 ## 🚀 Your first week with AI
 
 <details class="eli5">
@@ -27,9 +64,9 @@ Seven small steps for your first week, one a day.
 - [ ] Pick **one main assistant** and set custom instructions about you ([Your First Hour](../start-here/b-your-first-hour.md))
 - [ ] Try **voice mode** on a walk
 - [ ] Show it a **photo** and ask about it
-- [ ] Connect **one app** (email, calendar or Drive) ([Built-in Connectors](../part-2-mcp-and-connectors/10-built-in-connectors.md))
+- [ ] Connect **one app** (email, calendar or Drive) ([Built-in Connectors](../part-4-mcp-and-connectors/41-built-in-connectors.md))
 - [ ] Make a **Gemini Notebook** from 5 sources and generate an Audio Overview
-- [ ] Do the **overwhelm reset** prompt ([Life Admin](../part-9-ai-for-life-and-work/64-life-admin-and-productivity.md#-the-overwhelm-reset))
+- [ ] Do the **overwhelm reset** prompt ([Life Admin](../part-11-ai-for-life-and-work/95-life-admin-and-productivity.md#-the-overwhelm-reset))
 - [ ] Teach **one person** something you learned 💛
 
 ## 🛡️ Safety pre-flight (before anything runs unattended)
@@ -48,7 +85,7 @@ Check these before letting a robot run by itself.
 - [ ] **Failure notification** set up
 - [ ] No **private data + untrusted content + outbound actions** without a human gate
 
-([Safety, Costs & Gotchas](../part-10-mastery/72-safety-costs-and-gotchas.md))
+([Safety, Costs & Gotchas](../part-12-mastery/103-safety-costs-and-gotchas.md))
 
 ## 🔒 Privacy settings tune-up
 
@@ -67,7 +104,7 @@ Switches to check in every AI app, so your information goes only where you want.
 - [ ] Old shared links revoked
 - [ ] Two-factor authentication on 🔑
 
-([Privacy & Your Data](../part-10-mastery/73-privacy-and-your-data.md))
+([Privacy & Your Data](../part-12-mastery/104-privacy-and-your-data.md))
 
 ## 🔌 Installing an MCP server safely
 
@@ -85,7 +122,7 @@ Before adding a plug-in, make sure it comes from someone you trust and only gets
 - [ ] Untrusted servers run in **Docker** or a sandbox
 - [ ] Approvals **on** for destructive tools
 
-([MCP Security & Trust](../part-2-mcp-and-connectors/12-mcp-security-and-trust.md))
+([MCP Security & Trust](../part-4-mcp-and-connectors/43-mcp-security-and-trust.md))
 
 ## 🧑‍💻 Before asking a coding agent for a big change
 
@@ -103,7 +140,7 @@ Get ready before your AI helper makes big changes, so you can always undo.
 - [ ] `CLAUDE.md` / `AGENTS.md` is up to date
 - [ ] Dangerous commands still on **ask**
 
-([Claude Code Masterclass](../part-5-building-with-ai/31-claude-code-masterclass.md))
+([Claude Code Masterclass](../part-7-building-with-ai/62-claude-code-masterclass.md))
 
 ## 🌍 Launching a web app
 
@@ -123,7 +160,7 @@ Check all the locks before inviting people to your app.
 - [ ] Accessibility pass: contrast, labels, keyboard
 - [ ] One real friend has used it 🎉
 
-([Vibe Coding](../part-5-building-with-ai/34-vibe-coding-your-first-app.md), [Deploying & Hosting](../part-5-building-with-ai/35-deploying-and-hosting.md))
+([Vibe Coding](../part-7-building-with-ai/65-vibe-coding-your-first-app.md), [Deploying & Hosting](../part-7-building-with-ai/66-deploying-and-hosting.md))
 
 ## 📦 Publishing an MCP server
 
@@ -142,7 +179,7 @@ Steps before sharing your plug-in with the world.
 - [ ] `npm publish --access public`, then `mcp-publisher publish`
 - [ ] Remote version (if any) has **real auth**
 
-([Build-Along: Publish Your Own MCP Server](../part-11-build-alongs/82-build-along-publish-an-mcp-server.md))
+([Build-Along: Publish Your Own MCP Server](../part-13-build-alongs/113-build-along-publish-an-mcp-server.md))
 
 ## 🗣️ Voice agent go-live
 
@@ -161,7 +198,7 @@ Check these before a talking robot answers real phone calls.
 - [ ] Transcripts stored securely, deleted on a schedule
 - [ ] 10+ test calls listened to end to end
 
-([Build-Along: An AI Voice Receptionist](../part-11-build-alongs/88-build-along-voice-receptionist.md))
+([Build-Along: An AI Voice Receptionist](../part-13-build-alongs/119-build-along-voice-receptionist.md))
 
 ## ⚖️ The builder's ethics check
 
@@ -181,7 +218,7 @@ Questions to make sure what you built is fair, honest and kind.
 - [ ] **Accessible:** people with disabilities can use it
 - [ ] Comfortable seeing it on the **front page**, explained in full 📰
 
-([AI Ethics for Builders](../part-10-mastery/76-ai-ethics-for-builders.md))
+([AI Ethics for Builders](../part-12-mastery/107-ai-ethics-for-builders.md))
 
 ## 🔁 Weekly AI habits
 
@@ -192,10 +229,10 @@ Little things to do every week so you keep learning and stay organized.
 
 </details>
 
-- [ ] Triage my notes inbox ([Second Brain](../part-11-build-alongs/83-build-along-second-brain.md))
+- [ ] Triage my notes inbox ([Second Brain](../part-13-build-alongs/114-build-along-second-brain.md))
 - [ ] Friday weekly review
 - [ ] Try **one** new AI thing (30 minutes)
-- [ ] Skim one newsletter or my digest ([Staying Current](../part-10-mastery/79-staying-current.md))
+- [ ] Skim one newsletter or my digest ([Staying Current](../part-12-mastery/110-staying-current.md))
 - [ ] Add one line to my **learning log**
 - [ ] Check automation executions for failures
 - [ ] Glance at API usage dashboards 💸
@@ -218,8 +255,8 @@ Bigger check-ups every month and every few months.
 
 **Quarterly**
 
-- [ ] Re-run my personal eval on current models ([Evaluating AI](../part-10-mastery/74-evaluating-ai.md))
-- [ ] Re-evaluate my stack ([Choosing Your AI Stack](../part-1-foundations/06-choosing-your-ai-stack.md))
+- [ ] Re-run my personal eval on current models ([Evaluating AI](../part-12-mastery/105-evaluating-ai.md))
+- [ ] Re-evaluate my stack ([Choosing Your AI Stack](../part-3-foundations/37-choosing-your-ai-stack.md))
 - [ ] Rotate API keys and remove unused connectors
 - [ ] Pick next quarter's build from the [Project Ideas](f-project-ideas.md) 🚀
 

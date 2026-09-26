@@ -18,3 +18,5 @@ examples/my-first-mcp-server-ts/notes.json
 examples/newsletter-pipeline/out/
 examples/newsletter-pipeline/seen.json
 examples/research-agent/reports/*.md
+.cache/
+MANUAL*.pdf

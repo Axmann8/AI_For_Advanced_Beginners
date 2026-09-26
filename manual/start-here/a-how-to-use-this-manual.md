@@ -2,8 +2,9 @@
 
 > ⏱️ 6 min read · 🎯 Everyone · 🧰 Needs: nothing but curiosity
 
-**Welcome!** 🎉 This manual is big on purpose, but it's designed so you never have to read it front to back. Think of it
-like a theme park map: pick the rides that excite you, and come back for more whenever you like.
+**Welcome!** 🎉 This manual is for everyone, from people who've never typed a word to a chatbot to people ready to build
+their own AI agents. It's big on purpose, but it's designed so you never have to read it front to back. Think of it like
+a theme park map: pick the rides that excite you, and come back for more whenever you like.
 
 <details class="eli5" open>
 <summary>🧸 ELI5: This page in 30 seconds</summary>
@@ -21,24 +22,26 @@ chapter as done (you get confetti!). Start anywhere you like.
 <details class="eli5">
 <summary>🧸 ELI5</summary>
 
-Eleven "parts," like the lands in a theme park. Each land has several rides (chapters). There are also build-along
-projects and a reference section at the back.
+Thirteen "parts," like the lands in a theme park. The first two are for beginners, and each land has several rides
+(chapters). There are also build-along projects and a reference section at the back.
 
 </details>
 
 | Part | What it's about |
 |---|---|
-| 🧠 **I · Foundations** | How AI really works, its history, who's who, context engineering, and picking your stack |
-| 🔌 **II · MCP & Connectors** | The universal plug that gives AI hands and eyes |
-| ⚙️ **III · Automation** | n8n, Zapier, Make, phone shortcuts, scraping, and 50 ready-made workflows |
-| 🏡 **IV · AI in Your Apps** | Notion, Google, Microsoft, Obsidian, email, spreadsheets, chat bots |
-| 🛠️ **V · Building with AI** | Coding agents, Git, Claude Code, Cursor, vibe coding, deploying, APIs, agents |
-| 📚 **VI · Knowledge & Memory** | RAG, embeddings, agent memory, Gemini Notebook (NotebookLM), second brains |
-| 🏠 **VII · Local AI** | Models on your own machine, hardware, home labs, fine-tuning |
-| 🎨 **VIII · Creative AI** | Images, video, music, voice, 3D, games, stories, design |
-| 🌱 **IX · AI for Life & Work** | Research, writing, business, careers, money, health, family, travel, accessibility |
-| 🏆 **X · Mastery** | Safety, privacy, evals, costs, ethics, teaching, earning, the future |
-| 🧱 **XI · Build-Alongs** | Eight long, step-by-step projects you finish in a weekend |
+| 🐣 **I · AI from Zero** | For complete beginners: what AI is, your first chat, prompting basics, staying safe, a 30-day plan |
+| 🤖 **II · The AI Assistants Field Guide** | Complete guides to ChatGPT, Gemini, Claude, Copilot, Grok, Perplexity, Meta AI and every other major assistant |
+| 🧠 **III · Foundations** | How AI really works, its history, who's who, context engineering, and picking your stack |
+| 🔌 **IV · MCP & Connectors** | The universal plug that gives AI hands and eyes |
+| ⚙️ **V · Automation** | n8n, Zapier, Make, phone shortcuts, scraping, and 50 ready-made workflows |
+| 🏡 **VI · AI in Your Apps** | Notion, Google, Microsoft, Obsidian, email, spreadsheets, chat bots |
+| 🛠️ **VII · Building with AI** | Coding agents, Git, Claude Code, Codex, Cursor, vibe coding, deploying, APIs, agents |
+| 📚 **VIII · Knowledge & Memory** | RAG, embeddings, agent memory, Gemini Notebook (NotebookLM), second brains |
+| 🏠 **IX · Local AI** | Models on your own machine, hardware, home labs, fine-tuning |
+| 🎨 **X · Creative AI** | Images, video, music, voice, 3D, games, stories, design |
+| 🌱 **XI · AI for Life & Work** | Research, writing, business, careers, money, health, family, travel, accessibility |
+| 🏆 **XII · Mastery** | Safety, privacy, evals, costs, ethics, teaching, earning, the future |
+| 🧱 **XIII · Build-Alongs** | Eight long, step-by-step projects you finish in a weekend |
 | 📎 **Appendices** | Glossary, cheat sheet, FAQ, prompt library, comparisons, checklists and the **ELI5 Edition** |
 
 ## 🧸 The boxes and what they mean
@@ -109,12 +112,14 @@ Pick the path that matches what you want most. You can always switch paths later
 
 | You are… | Your first five stops |
 |---|---|
-| ⚡ **Impatient** (I want a win *now*) | [Your First Hour](b-your-first-hour.md) → [Built-in Connectors](../part-2-mcp-and-connectors/10-built-in-connectors.md) → [The Prompt Library](../appendices/d-prompt-library.md) → [The MCP Recipe Book](../part-2-mcp-and-connectors/13-mcp-recipe-book.md) → [Life Admin](../part-9-ai-for-life-and-work/64-life-admin-and-productivity.md) |
-| 🧠 **Curious** (I want to *understand*) | [The Mental Model](../part-1-foundations/01-the-mental-model.md) → [How Models Really Work](../part-1-foundations/02-how-models-really-work.md) → [MCP Explained](../part-2-mcp-and-connectors/07-mcp-explained.md) → [Build Your Own Agent](../part-5-building-with-ai/37-build-your-own-agent.md) → [RAG, Memory & Knowledge](../part-6-knowledge-and-memory/41-rag-memory-and-knowledge.md) |
-| ⚙️ **Busy professional** | [Choosing Your AI Stack](../part-1-foundations/06-choosing-your-ai-stack.md) → [Email & Calendar Superpowers](../part-4-ai-in-your-apps/26-email-and-calendar.md) → [Automation Platforms](../part-3-automation/14-automation-platforms.md) → [The Automation Recipe Book](../part-3-automation/21-automation-recipe-book.md) → [Google & Microsoft AI](../part-4-ai-in-your-apps/24-google-and-microsoft-ai.md) |
-| 🛠️ **Aspiring builder** | [Agents & Coding Tools](../part-5-building-with-ai/29-agents-and-coding-tools.md) → [Git & GitHub](../part-5-building-with-ai/30-git-and-github.md) → [Claude Code Masterclass](../part-5-building-with-ai/31-claude-code-masterclass.md) → [Vibe Coding](../part-5-building-with-ai/34-vibe-coding-your-first-app.md) → [Build-Along: A Web App](../part-11-build-alongs/84-build-along-web-app-with-ai.md) |
-| 🔒 **Privacy-minded tinkerer** | [Local & Open Models](../part-7-local-ai/47-local-and-open-models.md) → [Hardware](../part-7-local-ai/48-hardware-for-local-ai.md) → [Home Lab](../part-7-local-ai/49-home-lab.md) → [Privacy & Your Data](../part-10-mastery/73-privacy-and-your-data.md) → [Build-Along: Private Assistant](../part-11-build-alongs/86-build-along-private-home-assistant.md) |
-| 🎨 **Creator** | [Multimodal Playground](../part-8-creative-ai/52-multimodal-playground.md) → [Image Generation](../part-8-creative-ai/53-image-generation-deep-dive.md) → [Video & Audio](../part-8-creative-ai/54-video-and-audio-production.md) → [Music](../part-8-creative-ai/55-music-making-with-ai.md) → [Storytelling](../part-8-creative-ai/58-storytelling-and-interactive-fiction.md) |
+| 🐣 **Brand new to AI** | [What Is AI, Really?](../part-1-ai-from-zero/01-what-is-ai-really.md) → [Your First AI Conversation](../part-1-ai-from-zero/03-your-first-ai-conversation.md) → [Prompting 101](../part-1-ai-from-zero/06-prompting-101.md) → [Staying Safe](../part-1-ai-from-zero/11-staying-safe-with-ai.md) → [Your 30-Day Plan](../part-1-ai-from-zero/16-your-30-day-plan.md) |
+| 📱 **Using ChatGPT/Gemini/Claude and want more** | [Meet the Assistants](../part-2-ai-assistants-field-guide/17-meet-the-assistants.md) → your assistant's [Field Guide chapter](../part-2-ai-assistants-field-guide/index.md) → [Prompting 102](../part-1-ai-from-zero/07-prompting-102.md) → [Using Several Assistants](../part-2-ai-assistants-field-guide/31-using-several-assistants.md) → [Your First Hour](b-your-first-hour.md) |
+| ⚡ **Impatient** (I want a win *now*) | [Your First Hour](b-your-first-hour.md) → [Built-in Connectors](../part-4-mcp-and-connectors/41-built-in-connectors.md) → [The Prompt Library](../appendices/d-prompt-library.md) → [The MCP Recipe Book](../part-4-mcp-and-connectors/44-mcp-recipe-book.md) → [Life Admin](../part-11-ai-for-life-and-work/95-life-admin-and-productivity.md) |
+| 🧠 **Curious** (I want to *understand*) | [The Mental Model](../part-3-foundations/32-the-mental-model.md) → [How Models Really Work](../part-3-foundations/33-how-models-really-work.md) → [MCP Explained](../part-4-mcp-and-connectors/38-mcp-explained.md) → [Build Your Own Agent](../part-7-building-with-ai/68-build-your-own-agent.md) → [RAG, Memory & Knowledge](../part-8-knowledge-and-memory/72-rag-memory-and-knowledge.md) |
+| ⚙️ **Busy professional** | [Choosing Your AI Stack](../part-3-foundations/37-choosing-your-ai-stack.md) → [Email & Calendar Superpowers](../part-6-ai-in-your-apps/57-email-and-calendar.md) → [Automation Platforms](../part-5-automation/45-automation-platforms.md) → [The Automation Recipe Book](../part-5-automation/52-automation-recipe-book.md) → [Google & Microsoft AI](../part-6-ai-in-your-apps/55-google-and-microsoft-ai.md) |
+| 🛠️ **Aspiring builder** | [Agents & Coding Tools](../part-7-building-with-ai/60-agents-and-coding-tools.md) → [Git & GitHub](../part-7-building-with-ai/61-git-and-github.md) → [Claude Code Masterclass](../part-7-building-with-ai/62-claude-code-masterclass.md) → [Vibe Coding](../part-7-building-with-ai/65-vibe-coding-your-first-app.md) → [Build-Along: A Web App](../part-13-build-alongs/115-build-along-web-app-with-ai.md) |
+| 🔒 **Privacy-minded tinkerer** | [Local & Open Models](../part-9-local-ai/78-local-and-open-models.md) → [Hardware](../part-9-local-ai/79-hardware-for-local-ai.md) → [Home Lab](../part-9-local-ai/80-home-lab.md) → [Privacy & Your Data](../part-12-mastery/104-privacy-and-your-data.md) → [Build-Along: Private Assistant](../part-13-build-alongs/117-build-along-private-home-assistant.md) |
+| 🎨 **Creator** | [Multimodal Playground](../part-10-creative-ai/83-multimodal-playground.md) → [Image Generation](../part-10-creative-ai/84-image-generation-deep-dive.md) → [Video & Audio](../part-10-creative-ai/85-video-and-audio-production.md) → [Music](../part-10-creative-ai/86-music-making-with-ai.md) → [Storytelling](../part-10-creative-ai/89-storytelling-and-interactive-fiction.md) |
 
 ## 💬 A few friendly promises
 
@@ -133,6 +138,8 @@ always tell you the next fun thing to try.
 4. **Current, but humble.** Written in September 2026. Apps change fast, so if a button moved, trust the app, and the
    concepts will still hold.
 5. **Safety without scolding.** You'll get practical guardrails, never lectures.
+6. **Every assistant, not just one.** Whether you use ChatGPT, Gemini, Claude, Copilot, Grok, Perplexity, Meta AI or
+   something else, you'll find instructions for it.
 
 ## 🎯 Key takeaways
 
@@ -140,11 +147,13 @@ always tell you the next fun thing to try.
 - 🧸 boxes are the simplest explanations, and **ELI5 mode** opens them all.
 - Use the **section cards**, **sidebar**, **search** and **Next up** buttons to move around.
 - Press **✅** at the end of chapters to track progress (it's stored only in your browser).
+- Prefer paper? [Download the whole manual as a PDF book](../download.md). 📄
 
 > [!TIP]
 > **🎮 Try this**
-> Tap the **🧸 ELI5 mode** button right now, then jump to [Your First Hour](b-your-first-hour.md). In 60 minutes you'll
-> have an AI that can read your files, browse the web, and remember things about you.
+> Tap the **🧸 ELI5 mode** button right now. Brand new? Jump to [Part I · AI from Zero](../part-1-ai-from-zero/index.md).
+> Already comfortable? Try [Your First Hour](b-your-first-hour.md): in 60 minutes you'll have an AI that can read your
+> files, browse the web, and remember things about you.
 
 ---
 
