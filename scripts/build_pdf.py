@@ -478,12 +478,10 @@ def divider(part: Doc, chapters: list[Doc]) -> str:
             f'<span class="name">{html.escape(plain(short) or short)}</span><span class="leader"></span>'
             f'<span class="pg">{ref(d.anchor)}</span></a>'
         )
-    numeral = kicker.split()[-1] if kicker.startswith("Part ") else ""
     points = part.extras.get("keypoints")
     points_html = f'<div class="points-card"><p class="label">✅ Key points</p>{points}</div>' if points else ""
     return f"""
 <section class="full divider"><div class="inner">
-  {f'<div class="part-number" aria-hidden="true">{numeral}</div>' if numeral else ""}
   <div class="part-kicker">{html.escape(kicker)}</div>
   <div class="part-emoji">{emoji}</div>
   <h1 class="part-title" id="{part.anchor}" data-bm="{html.escape(emoji + " " + label)}">{html.escape(name)}</h1>

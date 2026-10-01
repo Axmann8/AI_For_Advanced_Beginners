@@ -167,18 +167,6 @@ body {
 }
 
 /* ----------------------------------------------------------- dividers */
-.divider .part-number {
-  position: absolute;
-  right: 0.75in;
-  top: 1.25in;
-  font-size: 150pt;
-  font-weight: 800;
-  line-height: 1;
-  color: transparent;
-  -webkit-text-stroke: 2px #ddd6fe;
-  letter-spacing: -0.02em;
-  z-index: 0;
-}
 .divider .part-emoji {
   font-family: var(--emoji);
   font-size: 56pt;
