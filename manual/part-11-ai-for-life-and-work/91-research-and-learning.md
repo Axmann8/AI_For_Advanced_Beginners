@@ -1,19 +1,21 @@
 # 91 · AI for Research & Learning: Learn Anything Faster 🔬🎓
 
-> ⏱️ 7 min read · 🎯 Everyone who's curious (students, professionals, lifelong learners) · 🧰 Needs: an assistant with web search or deep research, optionally Gemini Notebook and Anki
+> ⏱️ 8 min read · 🎯 Everyone who's curious (students, professionals, lifelong learners) · 🧰 Needs: an assistant with web search or deep research, optionally Gemini Notebook and Anki
 
 **AI is the best tutor and research assistant most of us have ever had access to.** It's patient, available 24/7, and it can
 explain anything at any level. Used well, it makes you **learn faster and think better**. Used lazily, it just makes you
 *feel* like you learned. This chapter is about the first one: the research tool lineup, a five-step research workflow,
 checking sources, the AI tutor setup, learning techniques with AI superpowers, and guardrails that keep your brain strong. 🧠💪
 
-<details class="eli5" open>
-<summary>🧸 ELI5: This chapter in 30 seconds</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Imagine a super-patient teacher who knows a little about everything, never gets tired of your questions, and can explain things
-with dinosaurs, football or cooking, whatever you love. That's AI as a tutor. It can also be a research helper that reads
-lots of articles and tells you what they say. The trick is to make it help you *think*, not think *for* you, like a coach
-who spots you at the gym instead of lifting the weights. 🏋️
+AI can serve as a patient, always-available tutor and a fast research assistant that reads and summarizes many sources. To get the most from it, use AI to support your thinking rather than replace it.
+
+- **Research workflow:** frame questions, gather sources, verify, synthesize and decide.
+- **Verify important claims** by opening the sources.
+- **Set up an AI tutor** that asks questions and gives hints rather than answers.
+- **Use proven learning techniques,** such as active recall and spaced repetition, with AI's help.
 
 </details>
 
@@ -21,11 +23,10 @@ who spots you at the gym instead of lifting the weights. 🏋️
 
 ## 🔎 The research tool lineup
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Different tools are good at different research jobs: quick answers, big reports, reading your own documents, or finding
-science papers.
+Different tools suit different research tasks: deep research modes for multi-source reports, Perplexity for quick sourced answers, Gemini Notebook for your own documents, and Elicit or Consensus for academic papers. The table compares them.
 
 </details>
 
@@ -43,11 +44,16 @@ you already have → Gemini Notebook. Scientific evidence → academic tools.
 
 ## 🧭 The 5-step research workflow
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Ask a sharp question, let AI gather information, check the important bits yourself, put it all together, and decide what it
-means for you.
+A reliable research workflow has five steps:
+
+1. **Frame:** turn your curiosity into specific questions.
+2. **Gather:** run deep research and collect sources.
+3. **Verify:** check the key claims against the sources.
+4. **Synthesize:** combine findings and note disagreements.
+5. **Decide:** determine what the evidence means for you.
 
 </details>
 
@@ -64,11 +70,10 @@ flowchart LR
 
 ## 🕵️ Checking sources like a pro
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-AI can sometimes get facts wrong or misread an article. For anything important, click the source and check it says what the
-AI claims.
+AI can misread or misstate sources, so verify anything important: confirm the source exists, check that it actually says what the AI claims, and consider its date and reputation. The table explains each check.
 
 </details>
 
@@ -88,10 +93,10 @@ AI claims.
 
 ## 💬 Research prompts that punch above their weight
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-A few clever questions get much better research: ask for both sides, the common mistakes, and what experts would argue about.
+Well-designed prompts produce much better research: ask for the strongest arguments on each side, common misconceptions, expert disagreements and what evidence would change the conclusion. The table offers a prompt for each goal.
 
 </details>
 
@@ -107,11 +112,14 @@ A few clever questions get much better research: ask for both sides, the common 
 
 ## 🧑‍🏫 The AI tutor setup
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Give your AI instructions to act like a great teacher: ask you questions, give hints instead of answers, and check that you
-understood.
+Set up a tutor persona in a Project, Gem or custom instructions.
+
+1. Instruct the AI to ask questions and give hints rather than answers.
+2. Have it check your understanding before moving on.
+3. Tell it your level and goals so it pitches explanations correctly.
 
 </details>
 
@@ -128,11 +136,10 @@ when you actually want to *learn*.
 
 ## 🚀 Learning techniques, AI-supercharged
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Scientists know which study tricks work best: testing yourself, spacing out practice, explaining things back. AI makes every
-trick easier.
+Research-backed learning techniques become much easier with AI: active recall through quizzes, spaced repetition with flashcards, explaining concepts back in your own words, and practice problems at the right difficulty. The table shows the AI version of each.
 
 </details>
 
@@ -149,11 +156,10 @@ trick easier.
 
 ## 📚 Read, watch & listen smarter
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-AI can help you get more from books, videos, papers and podcasts: explaining the hard parts and turning them into notes and
-quizzes.
+AI helps you get more from books, videos, papers and podcasts by summarizing arguments, explaining difficult sections and turning material into notes and quizzes. The table outlines a workflow for each medium.
 
 </details>
 
@@ -167,10 +173,10 @@ quizzes.
 
 ## 🗺️ Learning plans for real skills
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-AI can make you a step-by-step plan to learn anything, from guitar to coding to a new language, with little daily goals.
+AI can create structured learning plans for practical skills, with daily goals and milestones. The table gives a strong first prompt for learning an instrument, a language, coding and more.
 
 </details>
 
@@ -184,10 +190,10 @@ AI can make you a step-by-step plan to learn anything, from guitar to coding to 
 
 ## 🧠 Don't let AI make you dumber
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-If AI does all the thinking, your brain doesn't grow. Try first, ask for hints, and explain things back in your own words.
+Relying on AI for all your thinking reduces how much you learn. Try problems yourself first, ask for hints instead of answers, explain concepts back in your own words, and test yourself without AI.
 
 </details>
 

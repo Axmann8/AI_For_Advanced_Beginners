@@ -7,13 +7,15 @@ palettes, logos, layouts, full app screens, slide decks, and code that matches t
 a start-to-finish design workflow, how to get design *taste* out of AI (critique!), design-to-code with Figma and MCP,
 accessibility, and quick wins for presentations and everyday graphics. ✨📱
 
-<details class="eli5" open>
-<summary>🧸 ELI5: This chapter in 30 seconds</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Design is making things look nice *and* easy to use: the colors, the fonts, where the buttons go. AI can now suggest colors
-that go together, draw app screens from a description, make slides look professional, and even turn a drawing of a website
-into a real, working website. And it can look at your design and say "this button is too small" or "this text is hard to
-read," like a friendly design teacher. 🎨🧑‍🏫
+AI can help with every stage of design: choosing color palettes and fonts, generating layouts and app screens, building slide decks, critiquing your work and turning designs into working code.
+
+1. **Start with a brief** and gather visual references.
+2. **Choose colors, type and layout** with AI's help, then create mockups.
+3. **Ask for critique** using a screenshot to find problems early.
+4. **Check accessibility** and turn designs into code with Figma MCP.
 
 </details>
 
@@ -26,11 +28,10 @@ read," like a friendly design teacher. 🎨🧑‍🏫
 
 ## 🧰 The AI design toolbox
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Some tools make pretty posters and slides, some design app screens, some turn designs into code, and some help plan whole
-websites.
+Different tools handle different design jobs: graphics and social posts (Canva, Adobe Express), app and web screens (Figma Make, v0), presentations (Gamma) and logos (Looka, Recraft). The table summarizes each.
 
 </details>
 
@@ -47,11 +48,10 @@ websites.
 
 ## 🔁 A start-to-finish design workflow
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Start with a feeling and pictures you like, pick colors and fonts, sketch simple boxes, make it pretty, then turn it into
-the real thing.
+A complete design workflow moves from brief to mood board, style choices, wireframe, polished mockup and finally code. The table shows what to ask AI at each step and what you get.
 
 </details>
 
@@ -73,10 +73,10 @@ flowchart LR
 
 ## 🎨 Color, type & layout with AI
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-AI can pick colors that look good together, fonts that match the mood, and tell you how to space things so they look tidy.
+AI can generate color palettes with accessible contrast, suggest font pairings that match a mood and recommend spacing and layout systems. The table includes prompts and explains why they work.
 
 </details>
 
@@ -93,11 +93,10 @@ consistency, and "one primary action per screen." Ask: *"Explain these design pr
 
 ## 🧐 Getting taste out of AI: critique
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Show AI a screenshot of your design and ask it to be a design teacher. It'll point out what's confusing, hard to read, or
-messy, so you can fix it.
+Screenshot your design and ask AI for critique through a specific lens, such as first impressions, visual hierarchy, readability or consistency. It's an effective way to find problems before users do.
 
 </details>
 
@@ -121,11 +120,14 @@ AI critique is one of the most underrated design tools. Screenshot your work and
 
 ## 🔌 Design-to-code with Figma & MCP
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Figma's plug-in lets coding AIs read your design directly, with the exact colors, sizes and spacing, so the website they build
-matches your drawing.
+The Figma MCP server lets coding agents read your designs directly, including exact colors, spacing and components.
+
+1. Design screens in Figma (or generate them with Figma Make).
+2. Connect the Figma MCP server to Claude Code, Cursor or VS Code.
+3. Ask the agent to build a selected frame as code that matches the design.
 
 </details>
 
@@ -141,11 +143,10 @@ reuse them instead of inventing new ones.
 
 ## ♿ Accessibility: design for everyone
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Good design works for everyone, including people who can't see colors well, use screen readers, or have shaky hands. AI can
-check your designs for these things.
+Accessible design works for everyone, including people with low vision, color blindness or motor impairments, and people using screen readers. AI can check contrast, write alt text, review touch-target sizes and audit structure. The table lists each check.
 
 </details>
 
@@ -162,10 +163,10 @@ More in [Accessibility & AI](../part-11-ai-for-life-and-work/101-accessibility-a
 
 ## 📊 Presentations & everyday graphics
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-AI can turn your notes into a nice slideshow, and make flyers, invitations and social posts look professional in minutes.
+AI can turn an outline or document into a polished slide deck, and produce flyers, invitations and social graphics in minutes. The table suggests the fastest path for each need.
 
 </details>
 
@@ -183,10 +184,10 @@ remember? If it's unclear, split or cut the slide."*
 
 ## 🎮 12 design projects
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Twelve fun design projects to practice with AI.
+The table lists twelve design projects for practicing with AI.
 
 </details>
 

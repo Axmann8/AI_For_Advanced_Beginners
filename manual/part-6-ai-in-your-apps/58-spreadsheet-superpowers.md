@@ -6,12 +6,15 @@
 messy data, classifies hundreds of rows with a single function, builds charts, and finds the story in your numbers. This
 chapter turns you into the spreadsheet wizard of your group, no formula memorization required. 🧙
 
-<details class="eli5" open>
-<summary>🧸 ELI5: This chapter in 30 seconds</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Spreadsheets are grids of boxes. Now AI can fill boxes for you: "is this review happy or sad?", "what country is this
-address in?", "write a summary of this row." It can also write the tricky math formulas, clean up messy lists, and draw
-charts that explain what your numbers mean.
+AI turns spreadsheets into powerful tools for working with text and data. It can classify or summarize every row, write and explain formulas, clean messy data, and analyze trends with charts.
+
+- **Formulas:** describe what you need in plain language and get a working formula with an explanation.
+- **AI functions** like `=AI()` apply a prompt to every row.
+- **Cleaning and analysis:** standardize messy data, then ask questions and generate charts.
+- **Verify results:** check a sample by hand and convert final AI outputs to fixed values.
 
 </details>
 
@@ -19,11 +22,10 @@ charts that explain what your numbers mean.
 
 ## 💞 Why spreadsheets + AI is a perfect match
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Spreadsheets have lots of rows that each need the same little job done. AI is great at doing the same little job over and
-over, so they're best friends.
+Spreadsheets are structured, repetitive and often full of unstructured text such as comments and descriptions. AI handles exactly that kind of work well: the same small task applied consistently across many rows.
 
 </details>
 
@@ -33,11 +35,10 @@ easy to spot-check.
 
 ## 🧮 Formula help: write, explain, fix
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Instead of memorizing tricky formulas, just describe what you want in plain words, and the AI writes the formula and
-explains how it works.
+Describe the calculation you need in plain language, and AI will write the formula and explain how it works. It can also explain an existing formula or fix one that returns an error. The table shows examples.
 
 </details>
 
@@ -45,7 +46,7 @@ explains how it works.
 |---|---|
 | *"Sum column C where column A is 'Paid' and the date in B is this month."* | `=SUMIFS(C:C, A:A, "Paid", B:B, ">="&EOMONTH(TODAY(),-1)+1, B:B, "<="&EOMONTH(TODAY(),0))` |
 | *"Look up each email in Sheet2 and return the plan name."* | An `XLOOKUP` (or `INDEX/MATCH`) with error handling |
-| *"Explain this formula like I'm five."* | A step-by-step breakdown of a scary nested formula |
+| *"Explain this formula step by step in plain English."* | A step-by-step breakdown of a scary nested formula |
 | *"Why does this return #N/A?"* | The likely cause (extra spaces, text vs. number, missing value) + a fix |
 | *"Extract the domain from these emails."* | `REGEXEXTRACT` or `TEXTAFTER` formulas |
 
@@ -53,10 +54,10 @@ explains how it works.
 
 ## 🤖 AI functions in cells
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Some spreadsheets now have an "ask AI" formula. Put it in a column and it answers your question for every single row.
+Google Sheets, Excel and other tools offer functions that send a prompt to AI for each row, such as classifying sentiment or extracting a value. The table lists each tool's function with an example.
 
 </details>
 
@@ -76,11 +77,10 @@ theme. Qualitative mush becomes a clear chart in 10 minutes. 🪄
 
 ## 🧹 Cleaning messy data
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Real lists are messy: the same company spelled five ways, dates in different formats, names squished together. AI can tidy
-all of that up.
+AI can clean inconsistent data: standardizing company names, reformatting dates, splitting combined fields and removing duplicates. Ask it to show a mapping or preview first so you can check the changes before applying them.
 
 </details>
 
@@ -97,10 +97,10 @@ your friend.
 
 ## 📈 Analysis & charts
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Ask your spreadsheet questions in normal words, like "which month was best?", and the AI works out the answer and draws a chart.
+Ask questions about your data in plain language. Gemini in Sheets and Copilot in Excel can answer, build pivot tables and suggest charts, or you can upload the file to an assistant with code execution for deeper analysis.
 
 </details>
 
@@ -111,10 +111,10 @@ Ask your spreadsheet questions in normal words, like "which month was best?", an
 
 ## 🐍 Python in Excel & friendly scripts
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-For really big or tricky jobs, the spreadsheet can run little Python programs, and AI can write those programs for you.
+For large or complex jobs, Python in Excel and Google Apps Script let you run full programs on your data. AI assistants can write the code from a description of what you need.
 
 </details>
 
@@ -125,11 +125,10 @@ For really big or tricky jobs, the spreadsheet can run little Python programs, a
 
 ## 🔌 Spreadsheets as AI databases
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Spreadsheets are also great "memory boxes" for robot recipes: a place to log what happened, store lists, and keep settings
-that automations read.
+Spreadsheets work well as simple databases for automations: a log of every run, a settings sheet that non-technical teammates can edit, and lists that workflows read and update.
 
 </details>
 
@@ -142,10 +141,10 @@ Google Sheets, Excel Online and Airtable all have great nodes in n8n, Zapier and
 
 ## 🧪 10 spreadsheet projects to try
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Ten fun spreadsheet jobs where AI saves you hours.
+The table lists ten spreadsheet projects where AI saves significant time, from survey analysis to expense categorization.
 
 </details>
 
@@ -164,11 +163,10 @@ Ten fun spreadsheet jobs where AI saves you hours.
 
 ## ⚠️ Pitfalls to avoid
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-AI can occasionally make up numbers or mislabel rows, so check a few by hand, save final answers as plain values, and keep
-private information private.
+AI in spreadsheets can make errors, and AI functions may recalculate with different results. Verify a sample by hand, use real formulas for arithmetic, convert final AI outputs to fixed values, and keep sensitive data out. The table lists each pitfall with its fix.
 
 </details>
 

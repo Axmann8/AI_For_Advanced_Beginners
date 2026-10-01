@@ -9,13 +9,15 @@ handling. Examples use Python and the Claude API (`anthropic` SDK), with TypeScr
 side-by-side section showing the same first call with **OpenAI, Google Gemini, xAI, DeepSeek and local models**. The same
 ideas work with every provider.
 
-<details class="eli5" open>
-<summary>🧸 ELI5: This chapter in 30 seconds</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-A chat app is like ordering at a restaurant counter. An **API** is the kitchen's back door: your own programs can send
-orders directly ("summarize this," "read this receipt") and get answers back, thousands of times a day, without anyone
-typing into a chat box. You get a secret key (like a membership card), send a message in a special format, and get the
-AI's reply as data your program can use.
+An AI API lets your own programs send requests to a model and receive responses as data, without a chat interface. This is how apps, automations and agents use AI behind the scenes.
+
+1. **Set up an account** with a spending limit and an API key.
+2. **Make your first call** in Python or TypeScript, with any provider.
+3. **Learn the core techniques:** conversations, streaming, structured output, tool use and vision.
+4. **Make it production-ready:** control costs, handle errors and keep keys on the server.
 
 </details>
 
@@ -23,11 +25,14 @@ AI's reply as data your program can use.
 
 ## 🛠️ Setup (5 minutes)
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Make an account, add a little money, set a spending limit so you can never overspend, and get your secret key. Then install
-one small package.
+Setup takes about five minutes.
+
+1. Create an account at console.anthropic.com (or another provider), add credit and set a monthly spending limit.
+2. Create an API key, store it in an environment variable, and never put it in your code.
+3. Install the SDK for your language.
 
 </details>
 
@@ -56,10 +61,10 @@ one small package.
 
 ## 👋 Your first call
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-You send a message, you get a message back, plus a little receipt saying how many "word pieces" (tokens) it used.
+A basic API call sends a list of messages and receives the model's reply, along with a usage record showing how many input and output tokens were used.
 
 </details>
 
@@ -111,11 +116,10 @@ You send a message, you get a message back, plus a little receipt saying how man
 
 ## 🔀 The same first call with OpenAI, Gemini & friends
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Every AI company's back door looks a little different, but they all work the same way: send a message, get a message back.
-Here's the "hello" for each one.
+Every provider's API works the same way: send messages, receive a reply. The tabs show the same first request using the OpenAI, Gemini and other SDKs.
 
 </details>
 
@@ -199,11 +203,10 @@ caching, batching) exists in all the major SDKs. Check each provider's docs for 
 
 ## 💬 Conversations & system prompts
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-The AI doesn't remember you between messages. To have a conversation, your program sends the whole chat so far every time.
-The "system" message is the permanent instruction card, like "you are a friendly pirate."
+APIs are stateless: they don't remember previous requests. To hold a conversation, your program sends the full message history each time. The **system prompt** sets standing instructions, such as the assistant's role and style.
 
 </details>
 
@@ -229,11 +232,10 @@ long-running bots ([Context Engineering](../part-3-foundations/36-context-engine
 
 ## 🌊 Streaming
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Instead of waiting for the whole answer, you get it word by word as it's written, like watching someone type. It feels much
-faster.
+Streaming returns the response piece by piece as it's generated, so text appears immediately instead of after the whole answer is complete. Use it for any long response shown to a user.
 
 </details>
 
@@ -252,11 +254,10 @@ Use streaming for anything long: text appears immediately, users stay happy, and
 
 ## 📦 Structured output: data instead of prose
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Instead of a paragraph, you ask the AI to fill in a form with exact boxes (title, date, place), so your program can use the
-answers directly.
+Structured output returns data in a defined format instead of prose. Define the fields you need (for example with a Pydantic model), and the SDK returns a validated object your program can use directly.
 
 </details>
 
@@ -287,11 +288,10 @@ print(event.title, event.date, event.attendees)
 
 ## 🔧 Tool use: letting the model call your functions
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-You tell the AI "here are some buttons you can press: check the weather, look up a recipe." When it needs one, it asks your
-program to press the button, reads the result, and keeps going. That's how an AI becomes an agent.
+Tool use lets the model call functions you define. You describe each tool; when the model needs one, it returns a tool request, your code runs the function, and you send back the result. The SDK's tool runner can handle this loop for you.
 
 </details>
 
@@ -335,11 +335,10 @@ Want to see the loop *without* the helper? That's exactly what [Build Your Own A
 
 ## 👁️ Vision & documents
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-You can send pictures and PDFs, not just words. The AI can read a receipt, describe a photo, or pull the numbers out of a
-chart.
+You can send images and PDFs along with text, so the model can read receipts, describe photos, extract figures from charts or analyze documents.
 
 </details>
 
@@ -363,11 +362,10 @@ page images (charts, tables, handwriting). Combine with structured output for a 
 
 ## 🌐 Server-side tools: search, fetch & code execution
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Some tools are run by Anthropic for you: searching the web, reading web pages, and running little programs in a safe box.
-You just switch them on, with no code of your own.
+Server-side tools, such as web search, web fetch and code execution, run on Anthropic's infrastructure. You enable them in your request without writing any tool code yourself.
 
 </details>
 
@@ -392,11 +390,10 @@ response = client.messages.create(
 
 ## ⚡ Make it cheap & fast
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-A few tricks make AI calls cheaper and faster: use smaller models for easy jobs, reuse long instructions (caching), and
-send big non-urgent piles of work as a batch.
+Several techniques reduce cost and latency: choose the smallest model that does the job well, use prompt caching for repeated long instructions, and use the Batch API for large, non-urgent workloads. The table explains each.
 
 </details>
 
@@ -440,11 +437,10 @@ More in [Cost Optimization](../part-12-mastery/106-cost-optimization.md).
 
 ## 🧯 Handling errors gracefully
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Sometimes the internet hiccups or you send too many requests too fast. Good programs notice, wait a moment, and try again,
-instead of crashing.
+API calls occasionally fail because of network problems, rate limits or server load. Catch errors, retry with increasing delays for temporary failures, and show a clear message when something can't be recovered.
 
 </details>
 
@@ -473,11 +469,10 @@ Also check `response.stop_reason`:
 
 ## 🌍 Other providers & gateways
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Other AI companies have very similar back doors. Once you know one, you know them all. Some services even give you one key
-for hundreds of different AIs.
+Other providers offer very similar APIs, so what you learn transfers directly. Gateways like OpenRouter let you access many models with a single key. The table compares the options.
 
 </details>
 
@@ -491,11 +486,10 @@ for hundreds of different AIs.
 
 ## 🧱 Where API calls live in real apps
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-In a real app, the AI call happens on the server (the kitchen), never in the visitor's browser (the dining room), so nobody
-can steal your key.
+In a real application, AI API calls must run on the server, never in the user's browser, so your API key can't be exposed. Web apps use API routes or serverless functions; automations use HTTP request steps.
 
 </details>
 
@@ -513,10 +507,10 @@ flowchart LR
 
 ## 🎮 10 weekend API projects
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Ten small projects that each teach one API skill.
+The table lists ten small projects, each teaching one API skill, from a receipt scanner (vision and structured output) to an email responder.
 
 </details>
 

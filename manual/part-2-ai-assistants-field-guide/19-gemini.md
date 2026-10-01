@@ -1,18 +1,21 @@
 # 19 · Google Gemini: The Complete Guide ✨
 
-> ⏱️ 11 min read · 🎯 Beginners to advanced beginners · 🧰 Needs: a Google account (gemini.google.com or the Gemini app)
+> ⏱️ 12 min read · 🎯 Beginners to advanced beginners · 🧰 Needs: a Google account (gemini.google.com or the Gemini app)
 
 **Gemini is Google's AI assistant, and its superpower is Google itself.** It's built into Android phones, Chrome, Gmail,
 Docs, Google Home and more, and (if you let it) it can use your own Gmail, Calendar, Photos and Drive to give answers
 that are truly personal. Add excellent voice-and-camera conversations, image and video creation, Deep Research and
 custom Gems, and you've got one of the most capable assistants around. Here's how to get the most from it.
 
-<details class="eli5" open>
-<summary>🧸 ELI5: This chapter in 30 seconds</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Gemini is Google's AI helper. Because Google also makes Gmail, Maps, YouTube, Photos and Android, Gemini can use all of
-them to help you: "when is my flight?", "find that recipe video I watched," "what's this plant in my photo?" It can also
-talk with you, look through your camera, draw pictures and even make short videos.
+Gemini is Google's AI assistant. Its biggest advantage is integration with Google's services: with your permission, it can use Gmail, Calendar, Drive, Photos, Maps and YouTube to give answers specific to your life.
+
+- **Core features:** conversation, Gemini Live voice and camera, image and video creation, and web search.
+- **Personal features:** Personal Intelligence, Gems (custom assistants) and Gemini inside Gmail, Docs and Chrome.
+- **Advanced tools:** Deep Research, Canvas, scheduled actions, Gemini Notebook and developer tools.
+- **Privacy:** how to control activity history and app access.
 
 </details>
 
@@ -20,10 +23,10 @@ talk with you, look through your camera, draw pictures and even make short video
 
 ## ✨ Quick facts
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-The basics: who makes Gemini, where you can use it and what it's best at.
+Gemini is made by Google, with models built by Google DeepMind. It's available on the web, as an app (built into most Android phones), in Chrome and inside Google Workspace apps.
 
 </details>
 
@@ -38,10 +41,14 @@ The basics: who makes Gemini, where you can use it and what it's best at.
 
 ## 🚪 Getting started
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Sign in with your Google account, choose which Google apps Gemini may use, and start asking.
+Getting started with Gemini is quick if you already have a Google account.
+
+1. Open Gemini: long-press the power button on Android, install the app on iPhone, or visit gemini.google.com.
+2. Sign in with your Google account.
+3. Choose which Google apps Gemini may access, then start asking.
 
 </details>
 
@@ -56,10 +63,10 @@ Sign in with your Google account, choose which Google apps Gemini may use, and s
 
 ## 💳 Plans in plain English
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Gemini is free. Paid Google AI plans add the smartest models, more video and image making, and extra cloud storage.
+Gemini's free tier is generous. Google AI plans (Plus, Pro and Ultra) add the most capable models, more image and video generation, and extra cloud storage. The table summarizes each plan.
 
 </details>
 
@@ -75,11 +82,14 @@ discounted or free offers, and some phones (like new Pixels) come with trial mon
 
 ## 👤 Personal Intelligence: Gemini that knows your stuff
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-If you say yes, Gemini can look through your Gmail, Photos, Calendar and more to answer questions about your own life,
-like "what time is my dentist appointment?"
+Personal Intelligence is an opt-in feature that lets Gemini draw on your Gmail, Calendar, Drive, Photos, YouTube and Maps to answer questions about your own life.
+
+1. Open **Settings** and turn on **Personal Intelligence** (or connect individual apps).
+2. Ask questions that need your data, such as *"When is my next dentist appointment?"*
+3. Review or turn off access at any time in the same settings.
 
 </details>
 
@@ -103,11 +113,10 @@ for a single prompt from the **Tools** menu. It's available in many countries wo
 
 ## 🎙️ Gemini Live: talk, show and share
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Gemini Live is like a video call with a helpful expert: you talk, point your camera at things, or share your screen, and
-it helps in real time.
+Gemini Live is a real-time voice conversation. During a session, you can turn on your camera or share your screen so Gemini can see what you're asking about and guide you.
 
 </details>
 
@@ -121,11 +130,14 @@ Tap **Live** (the waveform icon) to start a flowing voice conversation. Then:
 
 ## 💎 Gems: your custom assistants
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-A Gem is a special version of Gemini that you set up once for a job you do often, like a recipe helper or a writing
-coach.
+Gems are custom versions of Gemini with saved instructions and optional files, ideal for tasks you repeat.
+
+1. In the sidebar, open **Gems** and choose **New Gem**.
+2. Name it and write instructions describing its job and your preferences.
+3. Add reference files if useful, save, and start chatting with it.
 
 </details>
 
@@ -141,11 +153,10 @@ try or copy.
 
 ## 🔬 Deep Research and Canvas
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Deep Research reads loads of websites (and your own files if you want) and writes you a full report. Canvas is a space
-where Gemini makes documents, quizzes and even little apps with you.
+**Deep Research** reads many websites (and, optionally, your Gmail and Drive) and produces a detailed, cited report. **Canvas** is a shared workspace where Gemini creates documents, quizzes and small interactive apps with you.
 
 </details>
 
@@ -158,10 +169,10 @@ where Gemini makes documents, quizzes and even little apps with you.
 
 ## 🎨 Images and video
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Gemini can make and edit pictures from your words, and on paid plans it can make short videos with sound.
+Gemini creates and edits images from your descriptions and is especially good at editing your own photos while keeping people recognizable. Paid plans add short video generation with sound.
 
 </details>
 
@@ -177,11 +188,10 @@ with Google AI.
 
 ## 📧 Gemini in Gmail, Docs, Chrome and more
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Gemini also lives inside Google's other apps, so you can get help writing an email or summarizing a document right where
-you are.
+Gemini is built into Gmail, Docs, Sheets, Slides, Meet, Chrome and other Google apps, so you can draft, summarize and analyze without leaving the app you're using. The table shows what it does in each.
 
 </details>
 
@@ -202,11 +212,10 @@ Availability depends on your plan (personal Google AI plans or business Google W
 
 ## 🤖 Agents and scheduled actions
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Gemini is learning to do jobs for you, not just answer questions: checking things every day, or doing multi-step tasks on
-the web.
+Scheduled actions let Gemini run a task on a regular schedule, such as a morning summary of your calendar. Google's agent features can also carry out multi-step tasks on the web for you.
 
 </details>
 
@@ -219,11 +228,10 @@ the web.
 
 ## 📓 Gemini Notebook and learning tools
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Gemini Notebook turns your notes and documents into summaries, quizzes and even podcasts. Gemini also has special modes
-for learning.
+Gemini Notebook (formerly NotebookLM) answers questions based only on the sources you upload and can generate study guides, flashcards and Audio Overviews. Gemini also offers guided learning modes for studying.
 
 </details>
 
@@ -235,10 +243,10 @@ for learning.
 
 ## 💻 For builders
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-If you want to build apps, Google has free tools to try Gemini's brain directly and even make apps by describing them.
+For developers and builders, Google AI Studio lets you try Gemini models for free and build apps by describing them, and Gemini CLI brings AI coding help to your terminal.
 
 </details>
 
@@ -248,10 +256,10 @@ If you want to build apps, Google has free tools to try Gemini's brain directly 
 
 ## 🍳 Step-by-step recipes
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Four real jobs you can do with Gemini today.
+These four recipes walk through real tasks in Gemini step by step, combining Personal Intelligence, Gems, Deep Research and Live.
 
 </details>
 
@@ -278,10 +286,10 @@ Four real jobs you can do with Gemini today.
 
 ## 🔐 Privacy and settings
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-The important switches: whether Google keeps your chats, which apps Gemini can see, and private chats.
+The table lists Gemini's main privacy settings, including activity history, auto-delete and app access, and explains what each one controls.
 
 </details>
 
@@ -302,10 +310,10 @@ The important switches: whether Google keeps your chats, which apps Gemini can s
 
 ## 💡 Pro tips and limitations
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Clever tricks Gemini fans know, and the things to watch out for.
+These tips help you get more out of Gemini, followed by its current limitations so you know when to double-check its answers.
 
 </details>
 

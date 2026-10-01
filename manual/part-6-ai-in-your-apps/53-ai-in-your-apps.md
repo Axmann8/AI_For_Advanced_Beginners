@@ -1,17 +1,20 @@
 # 53 · AI Inside the Apps You Already Use 🏡✨
 
-> ⏱️ 6 min read · 🎯 Everyone · 🧰 Needs: the apps you already use
+> ⏱️ 7 min read · 🎯 Everyone · 🧰 Needs: the apps you already use
 
 **You don't always need a new tool.** The apps you already live in (notes, docs, email, spreadsheets, chat, design tools,
 even your phone's operating system) now have serious AI built in, and many are **MCP-connected**, so your AI can reach in
 and your apps can reach out. This chapter is a guided tour of where the AI is hiding and the best tricks in each.
 
-<details class="eli5" open>
-<summary>🧸 ELI5: This chapter in 30 seconds</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Your favorite apps got secret AI helpers! Your notes app can organize itself, your email can summarize itself, your
-spreadsheet can fill itself in, and your phone can read your screen. This chapter is a treasure map showing where each
-helper lives and one great trick for each.
+Most popular apps now include AI features. Because the AI already sees your document, spreadsheet or inbox, these built-in tools are often the fastest way to get help with everyday tasks.
+
+- **Notes, documents and spreadsheets** can draft, organize, analyze and fill in data.
+- **Email, calendar and team tools** summarize threads, draft replies and track decisions.
+- **Design, meeting, phone and reading apps** each have their own AI features.
+- **Choose one hub** for your information, and audit the apps you use to find features you're not using yet.
 
 </details>
 
@@ -19,11 +22,10 @@ helper lives and one great trick for each.
 
 ## 🧭 Why built-in AI is underrated
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-The AI inside your apps already knows what you're looking at, so you don't have to copy and paste. That makes small jobs
-super fast.
+Built-in AI already has access to whatever you're working on, so you don't need to copy and paste context, and results appear where you need them. The table compares built-in AI with standalone chat assistants.
 
 </details>
 
@@ -39,11 +41,10 @@ connectors for *cross-app* jobs (read my email + calendar + notes and plan my we
 
 ## 📒 Notes & docs
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Notes apps now have helpers that can write, tidy up, answer questions about all your notes, and even run little jobs on a
-schedule.
+Notes and document apps such as Notion, Obsidian, Google Docs, Word and Evernote now include AI that can write, reorganize, answer questions across your notes and run scheduled tasks. The table summarizes each.
 
 </details>
 
@@ -59,11 +60,10 @@ schedule.
 
 ## 📊 Spreadsheets
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Spreadsheets can now have AI in the cells: you can ask each row "is this customer happy or sad?" and it fills in the answers
-for hundreds of rows.
+Spreadsheet AI can generate formulas, build tables and charts, and analyze data. Functions like `=AI()` in Google Sheets let you apply a prompt to every row, such as classifying customer feedback.
 
 </details>
 
@@ -76,10 +76,10 @@ Everything else in [Spreadsheet Superpowers](58-spreadsheet-superpowers.md).
 
 ## ✉️ Email & calendar
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Email apps can now summarize long threads, write replies that sound like you, and find the right time for meetings.
+Email and calendar AI can summarize long threads, draft replies in your style, search your inbox in plain language and find meeting times. Gmail, Outlook and AI-first clients like Superhuman and Shortwave all offer these features.
 
 </details>
 
@@ -91,11 +91,10 @@ Full playbook: [Email & Calendar Superpowers](57-email-and-calendar.md).
 
 ## 🗂️ Project & team tools
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Team apps have helpers that write status updates, find duplicate tasks, summarize long discussions and answer "what did we
-decide?"
+Project and team tools such as Linear, Asana, Jira, Slack and Teams use AI to write status updates, detect duplicate tasks, summarize discussions and answer questions about past decisions.
 
 </details>
 
@@ -110,11 +109,10 @@ decide?"
 
 ## 🎨 Design & creative apps
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Design apps can now make images, remove backgrounds, resize designs for every social network, and turn sketches into
-real layouts.
+Design apps like Canva, Figma and Adobe's tools can generate images, remove backgrounds, resize designs for different platforms and turn rough sketches into layouts.
 
 </details>
 
@@ -127,10 +125,10 @@ real layouts.
 
 ## 🎙️ Meetings & voice
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Meeting helpers listen to your calls and write the notes for you: who said what, what was decided and who does what next.
+AI meeting tools transcribe calls and produce notes, decisions and action items. Dictation apps convert speech into clean, formatted text in any app.
 
 </details>
 
@@ -140,11 +138,10 @@ Meeting helpers listen to your calls and write the notes for you: who said what,
 
 ## 📱 Your phone's operating system
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Phones now have AI built into the whole system: it can summarize notifications, rewrite texts, describe photos, and run
-magic-button shortcuts.
+Phone operating systems now include AI throughout: notification summaries, writing tools, photo descriptions and AI-powered shortcuts. The table compares Apple, Google and Samsung features.
 
 </details>
 
@@ -159,10 +156,10 @@ Build your own magic buttons in [Phone & Desktop Automation](../part-5-automatio
 
 ## 📚 Reading & learning apps
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Reading apps can explain hard paragraphs, make flashcards, and even turn your notes into a podcast you can listen to on a walk.
+Reading and learning apps can explain difficult passages, generate flashcards and convert your sources into audio overviews you can listen to.
 
 </details>
 
@@ -173,11 +170,14 @@ Reading apps can explain hard paragraphs, make flashcards, and even turn your no
 
 ## 🕸️ The "hub" strategy
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Pick one main home for all your stuff, send everything there automatically, and let your AI read from that one home. One
-tidy home beats ten messy ones.
+Choose one main home for your knowledge, such as Notion, Obsidian or Google Drive.
+
+1. Send information into it automatically using automations.
+2. Connect your AI assistant to it through a connector or MCP server.
+3. Ask questions across everything in one place.
 
 </details>
 
@@ -191,11 +191,14 @@ A single well-fed hub beats ten half-used apps. 🏡
 
 ## 🔍 Audit your apps (10-minute exercise)
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Make a list of the five apps you use most and go find the AI button in each one. You'll probably discover helpers you
-didn't know you had!
+This ten-minute exercise helps you find AI features you already have.
+
+1. List the five apps you use most.
+2. Find the AI feature in each one.
+3. Choose one task to try with each feature this week.
 
 </details>
 

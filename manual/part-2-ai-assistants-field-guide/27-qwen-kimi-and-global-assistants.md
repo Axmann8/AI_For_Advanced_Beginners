@@ -1,18 +1,20 @@
 # 27 · Qwen, Kimi & the Global Assistants 🌏
 
-> ⏱️ 5 min read · 🎯 Curious explorers, multilingual users and travelers · 🧰 Needs: nothing (free accounts for the assistants you try)
+> ⏱️ 6 min read · 🎯 Curious explorers, multilingual users and travelers · 🧰 Needs: nothing (free accounts for the assistants you try)
 
 **The AI world isn't just Silicon Valley.** Some of the most impressive (and most openly shared) AI models now come from
 China, and there are excellent assistants built for Europe, India, Korea, the Middle East and beyond. This chapter is
 your passport: Qwen, Kimi, Z.ai, MiniMax and friends, what they're great at, how to try them, and the privacy rules of
 the road. 🛂
 
-<details class="eli5" open>
-<summary>🧸 ELI5: This chapter in 30 seconds</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Lots of countries make AI helpers now, not just America. Some Chinese AIs, like Qwen and Kimi, are really good and even
-let anyone download their brains for free. Others are made for special languages, like the ones spoken in India or
-Korea. It's fun to try them, but think about which country your chats are stored in.
+Strong AI assistants now come from around the world, not only the United States. Chinese labs such as Alibaba (Qwen) and Moonshot AI (Kimi) offer capable, often free assistants with openly published models, and many regions have assistants built for their own languages.
+
+- **Benefits:** generous free tiers, open models and strong support for many languages.
+- **Notable options:** Qwen, Kimi, Z.ai, MiniMax, and regional assistants in Europe, India, Korea and the Middle East.
+- **Privacy:** your chats are subject to the laws where each company stores data, so choose what you share accordingly.
 
 </details>
 
@@ -20,10 +22,10 @@ Korea. It's fun to try them, but think about which country your chats are stored
 
 ## 🌍 Why look beyond the big names?
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Other AIs can be free, great with your language, or open for anyone to use and change. That's why they're worth a peek.
+Assistants beyond the best-known names can offer generous free tiers, better support for your language, or open models you can run and customize yourself.
 
 </details>
 
@@ -37,11 +39,10 @@ Other AIs can be free, great with your language, or open for anyone to use and c
 
 ## 🟣 Qwen (Alibaba)
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Qwen is Alibaba's AI. It speaks more than a hundred languages, makes pictures and videos, and its brains are free for
-anyone to download.
+Qwen is Alibaba's assistant. It supports 119 languages, understands images and video, generates images, and is built on models Alibaba publishes openly.
 
 </details>
 
@@ -57,11 +58,10 @@ well culturally."*
 
 ## 🌙 Kimi (Moonshot AI)
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Kimi is great at reading really long things, like whole books or lots of files, and it can make slides and do research
-tasks for you.
+Kimi, from Moonshot AI, excels at very long documents and many files at once, and offers agent features for research and creating slides.
 
 </details>
 
@@ -77,10 +77,10 @@ idea per slide."*
 
 ## 🟢 Z.ai, MiniMax and more from China
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-More Chinese AI companies make helpers that are good at coding, making videos and doing tasks. Many are free to try.
+Other Chinese labs offer notable assistants too, including Z.ai (strong at coding and building websites) and MiniMax (known for video and agents). The table compares them.
 
 </details>
 
@@ -94,10 +94,10 @@ More Chinese AI companies make helpers that are good at coding, making videos an
 
 ## 🌐 Around the world
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Countries all over the world are building AIs that speak their languages and understand their cultures.
+Many regions now have assistants designed for local languages and cultures. The table lists examples from Europe, India, Korea, Japan and the Middle East, and why they matter.
 
 </details>
 
@@ -116,11 +116,10 @@ may surprise you.
 
 ## 🔐 Privacy: know where your words go
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Every AI company follows the laws of its own country. Before you share anything private, think about where the company is
-and who might be able to see your chats.
+Every assistant is subject to the laws of the country where it stores data. Chinese services may be required to share data with authorities, so keep personal and work information out of them, or run their open models locally instead.
 
 </details>
 
@@ -137,10 +136,10 @@ The same rule applies to every assistant: **your chats are subject to the laws w
 
 ## 🍳 Step-by-step recipes
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Three fun ways to try global assistants today.
+These three recipes offer practical ways to try global assistants, such as comparing how well each handles a second language.
 
 </details>
 

@@ -7,12 +7,15 @@ It's private, it's free to run all day, and it's one of the best ways to underst
 together. This chapter gets you from zero to a working lab in about 15 minutes, then shows you how to grow it into a 24/7
 private assistant with voice, search, RAG and remote access from your phone. 🧪📱
 
-<details class="eli5" open>
-<summary>🧸 ELI5: This chapter in 30 seconds</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-A home lab is like a science kit for AI that lives in your house. With one command, your computer starts three helpers: a
-**brain** (Ollama, which runs the AI models), a **chat window** (Open WebUI, like your own private ChatGPT), and a **robot
-arm** (n8n, which does automatic chores). Everything stays inside your house, and you can add more gadgets whenever you like.
+A home lab runs a complete private AI setup on your own computer: **Ollama** runs models, **Open WebUI** provides a ChatGPT-style interface, and **n8n** runs automations. One Docker command starts all three, and nothing leaves your network.
+
+1. **Install Docker** and start the lab with the provided compose file.
+2. **Connect the services** and download your first model.
+3. **Add upgrades** like remote access, voice transcription and private search.
+4. **Keep it secure** and maintained.
 
 </details>
 
@@ -20,10 +23,10 @@ arm** (n8n, which does automatic chores). Everything stays inside your house, an
 
 ## 🧩 What's in the lab
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Three programs work together: one runs the AI, one lets you chat with it, and one does automatic jobs with it.
+The lab has three services: Ollama runs open models and provides an API, Open WebUI gives you a private chat interface with document support, and n8n automates tasks using your local models.
 
 </details>
 
@@ -45,10 +48,14 @@ flowchart LR
 
 ## 🚀 The one-command lab
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Install Docker (a program that runs other programs in neat boxes), then one command starts everything.
+Starting the lab takes a few minutes.
+
+1. Install Docker Desktop (Mac or Windows) or Docker Engine (Linux).
+2. Run the compose command below from the homelab folder.
+3. Open http://localhost:3000, create your admin account and download a model.
 
 </details>
 
@@ -75,11 +82,10 @@ read the error messages for you.
 
 ## 🔌 Wire everything together
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Tell the automation robot where the AI brain lives, and optionally give the chat window a key to a smarter online AI for
-hard questions.
+Connect the services: in n8n, add an Ollama credential pointing to `http://ollama:11434`, and optionally add a cloud API key to Open WebUI for questions that need a more capable model. The table lists each connection.
 
 </details>
 
@@ -93,11 +99,10 @@ hard questions.
 
 ## 📈 Level-ups for your lab
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Once the basics work, you can add gadgets: a way to reach your lab from your phone, a database, voice transcription, private
-web search, and more.
+Once the base lab works, you can add Tailscale for secure access from your phone, a database, speech-to-text, private web search and more. The table explains each upgrade and how to install it.
 
 </details>
 
@@ -121,10 +126,10 @@ web search, and more.
 
 ## 🎮 Eight home lab projects
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Eight fun projects for your lab, from chatting with private documents to building a voice diary that never leaves your house.
+These eight projects make use of the lab, from chatting privately with your documents to a voice journal that never leaves your home.
 
 </details>
 
@@ -167,10 +172,10 @@ SearXNG + Open WebUI web search = a research assistant that doesn't log your que
 
 ## 🔐 Security basics
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Keep your lab's doors locked: only let in your own devices, use strong passwords, and never open it up to the whole internet.
+Keep the lab secure: run services only on localhost or Tailscale, never expose them directly to the internet, use strong passwords and keep everything updated. The table explains each rule.
 
 </details>
 
@@ -190,10 +195,10 @@ Keep your lab's doors locked: only let in your own devices, use strong passwords
 
 ## 🧰 Maintenance cheat sheet
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-A few commands to update everything, see what's installed, free up space, and make backups.
+These commands cover routine maintenance: checking what's running, viewing logs, updating containers, listing models, freeing disk space and making backups.
 
 </details>
 
@@ -211,10 +216,10 @@ credentials. Ask your agent: *"Write a nightly backup script for these Docker vo
 
 ## 🗺️ A lab growth plan
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Grow your lab one step at a time over a month, adding one gadget each week.
+This plan grows the lab over four weeks, adding one capability each week.
 
 </details>
 

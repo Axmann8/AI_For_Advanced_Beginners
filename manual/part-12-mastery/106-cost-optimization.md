@@ -7,12 +7,15 @@ costs dramatically with no loss in quality. This chapter is your money-saving pl
 automation platforms: how the bill works, the levers in the order you should pull them, model routing, guardrails against
 surprise bills, and worked examples. Let's make every token count. 🪙
 
-<details class="eli5" open>
-<summary>🧸 ELI5: This chapter in 30 seconds</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Using AI is a bit like using electricity: every little bit costs a tiny amount, and it adds up if you leave the lights on. This
-chapter teaches you to switch off lights you don't need, use cheaper bulbs for small rooms, and save the super-bright ones for
-when you really need them. Same brightness where it matters, smaller bill. 💡💰
+AI costs add up through subscriptions and per-token API usage. This chapter shows how to reduce your bill while keeping quality where it matters.
+
+- **Subscriptions:** keep one main paid plan and use free tiers for the rest.
+- **API costs:** output tokens cost more than input, and long contexts and agent loops add up.
+- **Biggest levers:** prompt caching, batching, right-sized models and model routing.
+- **Guardrails:** spending caps, step limits and small test batches.
 
 </details>
 
@@ -20,11 +23,10 @@ when you really need them. Same brightness where it matters, smaller bill. 💡�
 
 ## 📦 Subscriptions: stop overpaying
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Many people pay for several AI apps they barely use. Keep one main one, use free versions of others, and check every few
-months.
+Many people pay for several AI subscriptions they rarely use. Keep one main paid assistant, use free tiers for others, take advantage of annual or bundled pricing, and review subscriptions every few months.
 
 </details>
 
@@ -39,11 +41,10 @@ months.
 
 ## 🧾 API costs: understanding the bill
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-You pay for the words going in and the words coming out. The words coming out cost more. Long conversations and robot loops
-use lots of words.
+API pricing charges separately for input and output tokens, and output typically costs several times more. Long conversations, large documents and agent loops consume the most tokens. The table explains what drives costs.
 
 </details>
 
@@ -65,10 +66,10 @@ cost ≈ (input tokens × input price) + (output tokens × output price)
 
 ## 🎚️ The levers, in order
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Start with the free savings that don't change quality at all, then try the ones that need a bit of testing.
+Apply cost levers in order. Start with techniques that don't affect quality, such as prompt caching, batch processing and trimming unnecessary context. Then test options that might, such as smaller models and shorter outputs. The tables quantify typical savings.
 
 </details>
 
@@ -100,11 +101,10 @@ Start with the free savings that don't change quality at all, then try the ones 
 
 ## 🔀 Model routing: the biggest structural win
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Send easy jobs to a small, cheap AI and only send hard jobs to the big, expensive one, like asking a junior helper first and
-calling the expert only when needed.
+Model routing sends simple tasks to a small, inexpensive model and only escalates difficult ones to a larger model. It's usually the single biggest structural saving for high-volume systems.
 
 </details>
 
@@ -124,10 +124,10 @@ model **plans** while small models **execute** the steps ([Multi-Agent Systems](
 
 ## ⚙️ Automation-platform costs
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Automation apps charge in different ways: per step, per action or per run. Knowing which helps you design cheaper robots.
+Automation platforms bill differently: Zapier per task, Make per operation and n8n per execution or not at all when self-hosted. Understanding the unit helps you design cheaper workflows. The table lists optimizations for each.
 
 </details>
 
@@ -140,10 +140,10 @@ Automation apps charge in different ways: per step, per action or per run. Knowi
 
 ## 🛡️ Guardrails against surprise bills
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Set limits so a mistake can never cost a lot: spending caps, step limits on robots, and trying things on a few items first.
+Protect yourself from unexpected bills with spending caps and alerts in every API console, separate keys per project, step limits on agents and small test batches before full runs.
 
 </details>
 
@@ -156,10 +156,10 @@ Set limits so a mistake can never cost a lot: spending caps, step limits on robo
 
 ## 🧮 Worked example: the email summarizer
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Here's a real example: the same robot job done the expensive way and the smart way, with the same quality where it counts.
+This worked example compares several versions of a daily email summarizer, from a naive setup to an optimized one, showing how routing, filtering and caching reduce cost without lowering quality where it matters.
 
 </details>
 

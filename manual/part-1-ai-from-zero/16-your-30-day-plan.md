@@ -6,11 +6,14 @@
 builds the habits that make AI genuinely useful: a little practice every day, a new skill each week, and a clear map of
 where to go next in this manual when you're ready for more. Print it, stick it on the fridge, tick the boxes. ✅
 
-<details class="eli5" open>
-<summary>🧸 ELI5: This chapter in 30 seconds</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Learning AI is like learning to ride a bike: a little practice every day works better than one giant lesson. This is a
-one-month plan with one small thing to do each day. By the end, using AI will feel as normal as sending a text.
+Short daily practice builds skill faster than occasional long sessions. This 30-day plan gives you one small task per day, organized into four weekly themes.
+
+- **About ten minutes a day;** if you miss a day, simply continue where you left off.
+- **Weeks 1–2** build everyday habits; **weeks 3–4** add new tools and reusable helpers.
+- **At the end,** use the "where to go next" guide to choose your next part of the manual.
 
 </details>
 
@@ -18,10 +21,10 @@ one-month plan with one small thing to do each day. By the end, using AI will fe
 
 ## 🗓️ How the plan works
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Ten minutes a day, one small task at a time. Skip a day? No problem, just carry on.
+Each day's task takes about ten minutes. Keep a one-line log of what you tried, and don't worry about missed days.
 
 </details>
 
@@ -35,10 +38,10 @@ Ten minutes a day, one small task at a time. Skip a day? No problem, just carry 
 
 ## 🌱 Week 1: The basics
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-The first week is about getting comfortable: set up your AI, ask questions, and learn the recipe for good requests.
+Week 1 focuses on the basics: setting up your assistant, asking good questions and applying the prompting recipe.
 
 </details>
 
@@ -54,10 +57,10 @@ The first week is about getting comfortable: set up your AI, ask questions, and 
 
 ## 🌿 Week 2: Everyday habits
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Week two is about using AI for real everyday things: meals, messages, paperwork and learning.
+Week 2 builds everyday habits: meal planning, messages, photos, documents and learning.
 
 </details>
 
@@ -73,11 +76,10 @@ Week two is about using AI for real everyday things: meals, messages, paperwork 
 
 ## 🌳 Week 3: Level up
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Week three you try new tricks: a second AI, making pictures, researching with sources, and AI inside apps you already
-use.
+Week 3 expands your skills: trying a second assistant, creating images, researching with sources and using AI inside apps you already have.
 
 </details>
 
@@ -93,10 +95,10 @@ use.
 
 ## 🌲 Week 4: Advanced beginner
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-In the last week you build your own helper, connect AI to your apps, and pick what you want to learn next.
+Week 4 moves you toward advanced use: building reusable helpers, connecting AI to your apps and choosing what to learn next.
 
 </details>
 
@@ -114,11 +116,10 @@ In the last week you build your own helper, connect AI to your apps, and pick wh
 
 ## 🧭 Where to go next
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Now you can pick what to learn next, depending on what excites you most: getting better at your favorite AI, automating
-chores, building apps, making art, or using AI for real life.
+You've finished the beginner section. Use the table below to pick your next part of the manual based on your interests.
 
 </details>
 
@@ -148,11 +149,10 @@ flowchart TD
 
 ## 📈 Signs you're ready for more
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-If you use AI every day without thinking and you're starting to wonder "can it do even more?", you're ready for the next
-level.
+You're ready for the rest of the manual when you use AI most days, naturally add context and follow up, fact-check important answers, and find yourself wondering what else it can do.
 
 </details>
 

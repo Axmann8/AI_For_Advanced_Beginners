@@ -1,18 +1,21 @@
 # 93 · AI for Small Business & Side Hustles 🏪🚀
 
-> ⏱️ 7 min read · 🎯 Small business owners, freelancers, side-hustlers and dreamers · 🧰 Needs: an assistant, Canva, and optionally Zapier, Make or n8n
+> ⏱️ 8 min read · 🎯 Small business owners, freelancers, side-hustlers and dreamers · 🧰 Needs: an assistant, Canva, and optionally Zapier, Make or n8n
 
 **For a small business, AI is like hiring a marketing assistant, a bookkeeper's helper, a receptionist and an analyst for
 less than the cost of lunch each month.** This chapter maps AI to every part of running a business, with five concrete setups
 you can deploy this week, a pile of AI-powered side-hustle ideas, and the guardrails that keep customers' trust. Whether you
 run a bakery, a plumbing company, an Etsy shop or a one-person consultancy, there's something here for you. 🧁🔧🛍️
 
-<details class="eli5" open>
-<summary>🧸 ELI5: This chapter in 30 seconds</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Running a small business means doing a hundred jobs: making things, selling them, answering questions, sending bills,
-posting on social media. AI can be your little team of helpers for the boring jobs, writing posts, answering common
-questions and sorting receipts, so you have more time for the parts you love, like baking the cakes or fixing the pipes. 🎂
+Small business owners handle many roles at once. AI can take on much of the routine work, such as marketing content, customer questions, invoices and analysis, so you can focus on the work you do best.
+
+1. **Start where AI pays off fastest:** marketing, customer service, administration and insights.
+2. **Set up one system at a time** using the five setups in this chapter.
+3. **Roll out gradually** over 30 days, checking that each change actually helps.
+4. **Follow guardrails** for privacy, accuracy and transparency.
 
 </details>
 
@@ -20,10 +23,10 @@ questions and sorting receipts, so you have more time for the parts you love, li
 
 ## 💰 Where AI pays off fastest
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Some jobs get the biggest boost from AI: marketing, answering customers, paperwork and understanding your sales. Start there.
+AI delivers the quickest returns in marketing, customer service, administration and business analysis. The table lists high-impact uses in each area and where to start.
 
 </details>
 
@@ -39,10 +42,14 @@ Some jobs get the biggest boost from AI: marketing, answering customers, paperwo
 
 ## 📣 Setup 1: The marketing engine (an afternoon)
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Teach the AI all about your business once, then it helps you plan a month of posts, pictures and emails in one sitting.
+A marketing engine takes about an afternoon to set up.
+
+1. Have AI interview you and write a brand voice guide, customer personas and content themes.
+2. Save these in a Project so every request uses them.
+3. Generate a month-long content calendar, then the posts, images and emails.
 
 </details>
 
@@ -56,11 +63,14 @@ Teach the AI all about your business once, then it helps you plan a month of pos
 
 ## 💬 Setup 2: The customer-service copilot
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Write down all your answers to common questions once. Then a chatbot can answer customers any time, and AI can draft email
-replies for you to check.
+A customer-service assistant answers common questions consistently.
+
+1. Write a knowledge base with your hours, pricing, policies and FAQs (AI can draft it from past emails).
+2. Use it to power a website chatbot or to draft email replies.
+3. Review answers regularly and add any questions it couldn't handle.
 
 </details>
 
@@ -80,10 +90,10 @@ replies for you to check.
 
 ## 📞 Setup 3: The never-miss-a-call front desk
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-A voice robot answers your phone when you're busy, books appointments and takes messages, so you never lose a customer.
+A voice agent can answer calls when you're busy or closed, respond to common questions, book appointments and take messages, so you don't lose customers to missed calls.
 
 </details>
 
@@ -94,11 +104,10 @@ A voice robot answers your phone when you're busy, books appointments and takes 
 
 ## 🧾 Setup 4: Admin autopilot
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Little robots read your bills and receipts, put the numbers in your spreadsheet, and send polite reminders to people who
-haven't paid yet.
+Administrative automations extract data from invoices and receipts, record it in your accounting system or spreadsheet, and send polite payment reminders. The table lists the tools for each flow.
 
 </details>
 
@@ -113,11 +122,10 @@ haven't paid yet.
 
 ## 📊 Setup 5: Business insights
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Give the AI your sales numbers and customer reviews, and it tells you what's selling, who hasn't come back, and what customers
-love or complain about.
+Export your sales, customer or review data as a CSV and upload it to an assistant with code execution. Ask which products are growing, which customers haven't returned and what reviews praise or criticize.
 
 </details>
 
@@ -130,10 +138,10 @@ Export your sales, customers or reviews as CSV → upload to an assistant with c
 
 ## 🗓️ A 30-day AI rollout plan
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Don't try everything at once. Add one AI helper each week, and check it's really helping before adding the next.
+This 30-day plan introduces one AI system per week, so you can confirm each one helps before adding the next.
 
 </details>
 
@@ -146,10 +154,10 @@ Don't try everything at once. Add one AI helper each week, and check it's really
 
 ## 💡 Side-hustle ideas powered by AI
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-AI makes it easier to start a small business on the side. Here are ideas where AI does a lot of the heavy lifting.
+AI lowers the barrier to starting a side business. The table lists ideas where AI handles much of the work, such as a niche newsletter or AI setup services for local businesses.
 
 </details>
 
@@ -168,11 +176,10 @@ Much more in [Turning AI Skills into Income](../part-12-mastery/109-turning-ai-s
 
 ## ⚖️ Guardrails for businesses
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Protect your customers: keep their information private, make sure the chatbot tells the truth, tell people when they're
-talking to AI, and always offer a real person.
+Protect your customers: use business plans with appropriate data policies, make sure chatbots give accurate information, tell people when they're talking to AI, and always offer a way to reach a person. The table explains why each matters.
 
 </details>
 

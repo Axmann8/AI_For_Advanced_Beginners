@@ -3,11 +3,14 @@
 The playground: images, video, audio, music, voice agents, 3D and games, interactive stories and design. Make things you
 can see, hear and play.
 
-<details class="eli5" open>
-<summary>🧸 ELI5: This part in 30 seconds</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-AI can now paint pictures, film little movies, sing songs, talk in voices, build 3D worlds and tell choose-your-own-adventure
-stories. This part is your art studio: which tools do what, how to describe what you want, and fun projects to try.
+AI tools can now generate images, video, music, voices, 3D models and interactive stories. This part explains which tools do what and how to get results you're proud of.
+
+- **Choose the right tool** for each kind of media, from free options to professional suites.
+- **Describe what you want** precisely: style, composition, mood and format all shape the output.
+- **Finish real projects** step by step, and learn the rules around copyright and labeling AI-made work.
 
 </details>
 
@@ -55,7 +58,7 @@ stories. This part is your art studio: which tools do what, how to describe what
 
     ---
 
-    <span class="card-meta">⏱️ 7 min read · 🎯 Everyone (musicians and "I can't play anything" folks alike)</span>
+    <span class="card-meta">⏱️ 8 min read · 🎯 Everyone (musicians and "I can't play anything" folks alike)</span>
 
     AI can now write and sing a full song from a sentence, and that's only the beginning. It can also help you write lyrics, learn theory, separate a song into its instruments so you can practice along, master your tracks, and even control a real music production app through MCP.
 
@@ -63,7 +66,7 @@ stories. This part is your art studio: which tools do what, how to describe what
 
     ---
 
-    <span class="card-meta">⏱️ 7 min read · 🎯 Beginner → intermediate</span>
+    <span class="card-meta">⏱️ 8 min read · 🎯 Beginner → intermediate</span>
 
     Voice is the most natural interface there is. Today you can build an AI that answers your phone, books appointments, runs a language-practice session, or quizzes you while you drive, and it sounds natural.
 
@@ -71,7 +74,7 @@ stories. This part is your art studio: which tools do what, how to describe what
 
     ---
 
-    <span class="card-meta">⏱️ 7 min read · 🎯 Everyone who's ever wanted to make a game</span>
+    <span class="card-meta">⏱️ 8 min read · 🎯 Everyone who's ever wanted to make a game</span>
 
     Making a game used to take a team and a year. Now you can vibe-code a playable browser game in an evening.
 

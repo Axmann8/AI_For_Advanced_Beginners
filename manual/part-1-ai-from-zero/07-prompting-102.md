@@ -7,12 +7,15 @@ magic happens when you react, steer and refine. This chapter gives you a steerin
 step-by-step method for big tasks, tricks to make the AI check its own work, and what to do when it just isn't
 getting it.
 
-<details class="eli5" open>
-<summary>🧸 ELI5: This chapter in 30 seconds</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Talking to AI is like working with a helpful friend on a drawing: they draw something, you say "make the house bigger,"
-"add a dog," "the sky should be orange," and together you end up with exactly the picture you imagined. Don't expect
-the first try to be perfect. Steer it.
+The first answer an AI gives is best treated as a draft. This chapter shows how to refine it through follow-up messages until it's exactly what you need.
+
+- **Steer with short follow-ups** like "shorter," "more formal" or "add examples."
+- **Break big tasks into stages:** brainstorm, outline, draft, then polish.
+- **Ask the AI to review its own work,** and give it real material (documents, photos) instead of descriptions.
+- **Save prompts that work well** so you can reuse them.
 
 </details>
 
@@ -20,10 +23,14 @@ the first try to be perfect. Steer it.
 
 ## 🔁 Think in conversations, not single questions
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-The first answer is a first try. Tell the AI what you like and what to change, and it gets better each time.
+Treat each answer as a draft and refine it in a short loop. Two or three rounds usually produce an excellent result.
+
+1. Read the answer.
+2. Say what works and what to change.
+3. Repeat until it's right.
 
 </details>
 
@@ -44,10 +51,10 @@ each follow-up can be tiny: *"shorter,"* *"warmer,"* *"remove the second paragra
 
 ## 🎛️ Your steering wheel: 30 follow-up phrases
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-These are handy little sentences to change an answer: make it shorter, simpler, friendlier, or more detailed.
+These follow-up phrases cover the most common adjustments: length, depth, simplicity, tone, format and more. Keep the table handy until they become second nature.
 
 </details>
 
@@ -72,11 +79,15 @@ These are handy little sentences to change an answer: make it shorter, simpler, 
 
 ## 🧱 Big tasks: go step by step
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-For a big job, like a speech or a plan, don't ask for everything at once. First make an outline, then fill in each part,
-then polish it, like building with LEGO one piece at a time.
+For large tasks like a speech or a business plan, work in stages rather than asking for everything at once.
+
+1. **Brainstorm:** have the AI ask you questions or generate ideas.
+2. **Outline:** agree on the structure.
+3. **Draft:** write one section at a time.
+4. **Polish:** review the whole thing for tone, flow and length.
 
 </details>
 
@@ -96,10 +107,10 @@ Each step, **you** stay in charge of the direction, and the result sounds much m
 
 ## 🪞 Make the AI check its own work
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-You can ask the AI to look at its own answer like a teacher marking homework and fix the mistakes it finds.
+AI can find weaknesses in its own drafts when asked. Request a review, a critique from an expert's perspective, or a score with a rewrite.
 
 </details>
 
@@ -116,11 +127,10 @@ yourself ([When AI Gets It Wrong](10-when-ai-gets-it-wrong.md)).
 
 ## 📎 Give it something to work with
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-The AI does its best work when you give it the actual stuff: paste the letter, upload the document, share the photo,
-instead of just describing it.
+The AI produces better results when it works from the actual material. Paste the text, upload the document or share the photo instead of describing it, and remove sensitive details like account numbers first.
 
 </details>
 
@@ -139,11 +149,10 @@ dramatically reduces made-up answers. Uploading files and photos is covered in [
 
 ## 🧭 When it just isn't getting it
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Sometimes the AI keeps misunderstanding. Usually it's missing a piece of information. Tell it more, show an example, or
-start a fresh chat with a clearer request.
+If the AI keeps missing the mark after a few attempts, something is usually missing from the request. Use the table to diagnose the cause, or start a new chat with a clearer prompt that includes everything you've learned.
 
 </details>
 
@@ -165,10 +174,10 @@ If you've steered three times and it's still wrong, diagnose:
 
 ## 👀 A real conversation, start to finish
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Here's an example of a whole chat where someone steers the AI step by step until they get just what they need.
+This example conversation shows how a vague request becomes a specific, useful plan in just a few follow-ups.
 
 </details>
 
@@ -199,10 +208,14 @@ That's the skill. 🏆
 
 ## 💾 Save your best prompts
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-When a question works really well, save it somewhere so you can use it again, like saving a favorite recipe.
+Keep prompts that work well so you can reuse them.
+
+1. Save them in a note on your phone or computer.
+2. Move preferences you repeat into your custom instructions.
+3. Later, turn your favorites into reusable Projects or Gems.
 
 </details>
 

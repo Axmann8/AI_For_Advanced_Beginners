@@ -9,13 +9,13 @@ go further: connect AI to your apps with MCP, automate your life with n8n, Zapie
 agents, run models on your own machine, make art, music and games, and use all of it for real work and real life. Plus
 **8 weekend build-alongs** and **tested starter kits** you can run in minutes.
 
-> 📄 **Download the whole thing as a printable PDF book:** [US Letter](https://axmann8.github.io/AI_For_Advanced_Beginners/MANUAL.pdf) ·
-> [A4](https://axmann8.github.io/AI_For_Advanced_Beginners/MANUAL-A4.pdf) (cover, contents with page numbers, part
+> 📄 **Download the whole thing as a printable PDF book:** [US Letter](https://axmann8.github.io/The_Massive_AI_Manual/MANUAL.pdf) ·
+> [A4](https://axmann8.github.io/The_Massive_AI_Manual/MANUAL-A4.pdf) (cover, contents with page numbers, part
 > dividers, bookmarks and clickable links).
 
-> 📖 **Read it as a website:** [axmann8.github.io/AI_For_Advanced_Beginners](https://axmann8.github.io/AI_For_Advanced_Beginners/)
-> (searchable, dark mode, progress tracking), grab the **printable PDF book** ([US Letter](https://axmann8.github.io/AI_For_Advanced_Beginners/MANUAL.pdf) ·
-> [A4](https://axmann8.github.io/AI_For_Advanced_Beginners/MANUAL-A4.pdf)) or the one-file [`MANUAL.md`](https://axmann8.github.io/AI_For_Advanced_Beginners/MANUAL.md), or browse [`manual/`](manual/index.md) right
+> 📖 **Read it as a website:** [axmann8.github.io/The_Massive_AI_Manual](https://axmann8.github.io/The_Massive_AI_Manual/)
+> (searchable, dark mode, progress tracking), grab the **printable PDF book** ([US Letter](https://axmann8.github.io/The_Massive_AI_Manual/MANUAL.pdf) ·
+> [A4](https://axmann8.github.io/The_Massive_AI_Manual/MANUAL-A4.pdf)) or the one-file [`MANUAL.md`](https://axmann8.github.io/The_Massive_AI_Manual/MANUAL.md), or browse [`manual/`](manual/index.md) right
 > here on GitHub.
 >
 > 📅 Current as of **September 2026**. Product names shift fast. The concepts last.
@@ -28,14 +28,14 @@ agents, run models on your own machine, make art, music and games, and use all o
 |---|---|
 | 🐣 **Starts from zero** | [Part I · AI from Zero](manual/part-1-ai-from-zero/index.md) takes complete beginners from their first chat to confident everyday use, with a 30-day plan |
 | 🌍 **Every assistant** | [Part II · The AI Assistants Field Guide](manual/part-2-ai-assistants-field-guide/index.md): complete guides to ChatGPT, Gemini, Claude, Copilot, Grok, Perplexity, Meta AI, DeepSeek, Le Chat, Qwen, Siri, Alexa+ and more |
-| 📄 **A real book, too** | The whole manual as a [beautifully formatted PDF](https://axmann8.github.io/AI_For_Advanced_Beginners/download/), rebuilt automatically |
-| 🧸 **An ELI5 for everything** | Every chapter *and every section* opens with an "explain like I'm five" box. Flip on **ELI5 mode** on the website to read the whole manual in kid-simple language, or read the [ELI5 Edition](manual/appendices/g-eli5-edition.md) in one go |
+| 📄 **A real book, too** | The whole manual as a [beautifully formatted PDF](https://axmann8.github.io/The_Massive_AI_Manual/download/), rebuilt automatically |
+| ✅ **Key Points & Steps everywhere** | Every chapter *and every section* opens with a plain-language summary, with numbered steps whenever there's something to do. Skim them for the big picture, or read the [Key Points Edition](manual/appendices/g-key-points-edition.md) in one go |
 | 🧭 **Clickable sections** | Every chapter starts with "In this chapter" cards that jump straight to each section |
 | 🧠 **Quizzes & takeaways** | Every chapter ends with key takeaways, a "Check yourself" quiz and a 🎮 Try this challenge |
 | ✅ **Progress tracking** | Mark chapters done on the website and watch your progress bar grow (with confetti 🎊) |
 | 🧱 **Build-alongs** | Eight step-by-step weekend projects with ✅ checkpoints |
 | 🧪 **Tested starter kits** | Runnable code and workflows, checked in CI on every push |
-| 💬 **Hover tooltips** | Acronyms anywhere on the site explain themselves from the ELI5 glossary |
+| 💬 **Hover tooltips** | Acronyms anywhere on the site explain themselves from the glossary |
 
 ## 📚 The Manual
 
@@ -60,7 +60,7 @@ Already comfortable? Try [How to Use This Manual](manual/start-here/a-how-to-use
 | **🌱 Part XI · AI for Life & Work** | [91 · AI for Research & Learning](manual/part-11-ai-for-life-and-work/91-research-and-learning.md) · [92 · AI for Writing & Content Creators](manual/part-11-ai-for-life-and-work/92-writing-and-content.md) · [93 · AI for Small Business & Side Hustles](manual/part-11-ai-for-life-and-work/93-small-business.md) · [94 · Careers & Job Hunting with AI](manual/part-11-ai-for-life-and-work/94-careers-and-job-hunting.md) · [95 · Life Admin & Personal Productivity](manual/part-11-ai-for-life-and-work/95-life-admin-and-productivity.md) · [96 · Money & Personal Finance with AI](manual/part-11-ai-for-life-and-work/96-money-and-personal-finance.md) · [97 · Health, Fitness & Wellbeing with AI](manual/part-11-ai-for-life-and-work/97-health-fitness-and-wellbeing.md) · [98 · Parents, Teachers & Students](manual/part-11-ai-for-life-and-work/98-parents-teachers-and-students.md) · [99 · Travel & Adventures with AI](manual/part-11-ai-for-life-and-work/99-travel-and-adventures.md) · [100 · Home, Cooking & DIY with AI](manual/part-11-ai-for-life-and-work/100-home-cooking-and-diy.md) · [101 · Accessibility & AI](manual/part-11-ai-for-life-and-work/101-accessibility-and-ai.md) · [102 · Data Analysis for Everyone](manual/part-11-ai-for-life-and-work/102-data-analysis.md) |
 | **🏆 Part XII · Mastery** | [103 · Safety, Costs & Gotchas](manual/part-12-mastery/103-safety-costs-and-gotchas.md) · [104 · Privacy & Your Data](manual/part-12-mastery/104-privacy-and-your-data.md) · [105 · Evaluating & Comparing AI](manual/part-12-mastery/105-evaluating-ai.md) · [106 · Cost Optimization Deep Dive](manual/part-12-mastery/106-cost-optimization.md) · [107 · AI Ethics for Builders](manual/part-12-mastery/107-ai-ethics-for-builders.md) · [108 · Teaching Others About AI](manual/part-12-mastery/108-teaching-others.md) · [109 · Turning AI Skills into Income](manual/part-12-mastery/109-turning-ai-skills-into-income.md) · [110 · Staying Current Without Drowning](manual/part-12-mastery/110-staying-current.md) · [111 · Where This Is All Heading](manual/part-12-mastery/111-where-this-is-heading.md) |
 | **🧱 Part XIII · Build-Alongs** | [112 · Your Pocket AI Assistant on Telegram](manual/part-13-build-alongs/112-build-along-pocket-ai-assistant.md) · [113 · Publish Your Own MCP Server](manual/part-13-build-alongs/113-build-along-publish-an-mcp-server.md) · [114 · The Second Brain](manual/part-13-build-alongs/114-build-along-second-brain.md) · [115 · A Web App with Logins & AI](manual/part-13-build-alongs/115-build-along-web-app-with-ai.md) · [116 · A Research Agent That Writes Reports](manual/part-13-build-alongs/116-build-along-research-agent.md) · [117 · The Private Home Assistant](manual/part-13-build-alongs/117-build-along-private-home-assistant.md) · [118 · The Automated Newsletter](manual/part-13-build-alongs/118-build-along-automated-newsletter.md) · [119 · An AI Voice Receptionist](manual/part-13-build-alongs/119-build-along-voice-receptionist.md) |
-| **📎 Appendices** | [Appendix A · Glossary](manual/appendices/a-glossary.md) · [Appendix B · The Cheat Sheet](manual/appendices/b-cheat-sheet.md) · [Appendix C · Troubleshooting FAQ](manual/appendices/c-troubleshooting-faq.md) · [Appendix D · The Prompt Library](manual/appendices/d-prompt-library.md) · [Appendix E · Resource & Link Library](manual/appendices/e-resource-library.md) · [Appendix F · 80 Project Ideas to Level Up](manual/appendices/f-project-ideas.md) · [Appendix G · The ELI5 Edition](manual/appendices/g-eli5-edition.md) · [Appendix H · Commands & Shortcuts](manual/appendices/h-commands-and-shortcuts.md) · [Appendix I · Comparison Tables](manual/appendices/i-comparison-tables.md) · [Appendix J · Printable Checklists](manual/appendices/j-checklists.md) |
+| **📎 Appendices** | [Appendix A · Glossary](manual/appendices/a-glossary.md) · [Appendix B · The Cheat Sheet](manual/appendices/b-cheat-sheet.md) · [Appendix C · Troubleshooting FAQ](manual/appendices/c-troubleshooting-faq.md) · [Appendix D · The Prompt Library](manual/appendices/d-prompt-library.md) · [Appendix E · Resource & Link Library](manual/appendices/e-resource-library.md) · [Appendix F · 80 Project Ideas to Level Up](manual/appendices/f-project-ideas.md) · [Appendix G · The Key Points Edition](manual/appendices/g-key-points-edition.md) · [Appendix H · Commands & Shortcuts](manual/appendices/h-commands-and-shortcuts.md) · [Appendix I · Comparison Tables](manual/appendices/i-comparison-tables.md) · [Appendix J · Printable Checklists](manual/appendices/j-checklists.md) |
 <!-- toc:end -->
 
 ## 🧪 Starter kits (tested in CI ✅)
@@ -97,7 +97,7 @@ Already comfortable? Try [How to Use This Manual](manual/start-here/a-how-to-use
 ## ⚡ Quick start: your first superpower in 5 minutes
 
 ```bash
-git clone https://github.com/Axmann8/AI_For_Advanced_Beginners && cd AI_For_Advanced_Beginners/examples/my-first-mcp-server
+git clone https://github.com/Axmann8/The_Massive_AI_Manual && cd The_Massive_AI_Manual/examples/my-first-mcp-server
 python -m venv .venv && source .venv/bin/activate
 pip install -r requirements.txt
 python smoke_test.py            # 🎲 🥠 it works!
@@ -111,18 +111,18 @@ claude                          # then: "roll 4d6 and give me a fortune"
 
 The manual is published with [MkDocs Material](https://squidfunk.github.io/mkdocs-material/) via GitHub Actions
 ([`.github/workflows/site.yml`](.github/workflows/site.yml)). The chapters are plain Markdown that reads nicely on GitHub
-too: ELI5 boxes are `<details>` blocks and callouts are GitHub alerts, and a small build hook
+too: Key Points & Steps boxes are `<details>` blocks and callouts are GitHub alerts, and a small build hook
 ([`scripts/mkdocs_hooks.py`](scripts/mkdocs_hooks.py)) upgrades them into the site's design.
 
 - **Turn it on (one time):** repo **Settings → Pages → Source: GitHub Actions**. Every push to `main` then redeploys it.
 - **Preview locally:** `pip install -r requirements-docs.txt && mkdocs serve` → http://127.0.0.1:8000
 - **Adding or editing a chapter?** Edit the Markdown in `manual/`, then run `python scripts/sync_manual.py`. It regenerates
-  the navigation, "Next →" links, part and home pages, reading times, this README's table of contents and the ELI5 Edition,
+  the navigation, "Next →" links, part and home pages, reading times, this README's table of contents and the Key Points Edition,
   and it checks every chapter follows the template. (`--check` only lints, which CI runs.)
 - **One giant file:** `python scripts/build_single_file.py` writes `MANUAL.md`.
 - **The printable PDF book:** `pip install -r requirements-pdf.txt && python -m playwright install chromium`, then
   `mkdocs build && python scripts/build_pdf.py` writes `MANUAL.pdf` (add `--paper a4` for A4). It prints the built site
-  with Chromium, so everything on the website (ELI5 boxes, diagrams, code highlighting) makes it onto paper.
+  with Chromium, so everything on the website (Key Points boxes, diagrams, code highlighting) makes it onto paper.
 - **Link check:** `python scripts/check_links.py`.
 
 ---

@@ -3,12 +3,14 @@
 How AI really works (without the math), where it came from, who's who, how to feed it the right context, and how to
 pick a personal AI stack that fits your life and budget.
 
-<details class="eli5" open>
-<summary>🧸 ELI5: This part in 30 seconds</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Before you build a treehouse, it helps to know what wood is, how nails work, and which tools to buy. This part is the
-"what is wood" part for AI: what these brains are, why they sometimes goof, how to give them the right information, and
-which apps are worth your money.
+This part explains how AI models actually work, so you can predict what they'll do well, understand why they make mistakes, and choose tools with confidence.
+
+- **Understand the engine:** tokens, context windows, training and reasoning, explained without math.
+- **Know the landscape:** a short history of AI and a map of today's companies and models.
+- **Apply it:** give AI the right information (context engineering) and pick a set of tools that fits your budget.
 
 </details>
 
@@ -31,7 +33,7 @@ which apps are worth your money.
 
     ---
 
-    <span class="card-meta">⏱️ 10 min read · 🎯 Beginner-friendly</span>
+    <span class="card-meta">⏱️ 11 min read · 🎯 Beginner-friendly</span>
 
     You already know how to talk to an AI. This chapter is about the leap that makes everything else click: AI that can act, not just answer.
 
@@ -39,7 +41,7 @@ which apps are worth your money.
 
     ---
 
-    <span class="card-meta">⏱️ 10 min read · 🎯 Beginner-friendly, no math</span>
+    <span class="card-meta">⏱️ 11 min read · 🎯 Beginner-friendly, no math</span>
 
     You don't need a PhD to use AI brilliantly, but a dozen under-the-hood ideas explain almost every weird thing AI does: why it forgets, why it's confidently wrong, why one model costs 20× another, why "thinking" models are slower, and why the same model feels different in different apps.
 
@@ -63,7 +65,7 @@ which apps are worth your money.
 
     ---
 
-    <span class="card-meta">⏱️ 8 min read · 🎯 Intermediate</span>
+    <span class="card-meta">⏱️ 9 min read · 🎯 Intermediate</span>
 
     You already know the basics of good prompts. Context engineering is the next level: designing everything the model sees (standing instructions, examples, documents, tool descriptions, memory and conversation history) so it succeeds reliably, not just once.
 

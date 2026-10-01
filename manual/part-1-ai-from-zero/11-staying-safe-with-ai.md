@@ -1,18 +1,21 @@
 # 11 · Staying Safe: Privacy, Scams & Deepfakes 🛡️
 
-> ⏱️ 8 min read · 🎯 Everyone, and especially anyone helping older relatives · 🧰 Needs: 10 minutes in your settings
+> ⏱️ 9 min read · 🎯 Everyone, and especially anyone helping older relatives · 🧰 Needs: 10 minutes in your settings
 
 **AI is safe to use when you follow a few simple rules, and knowing about AI makes you *much* harder to fool.** This
 chapter covers what never to share with a chatbot, the privacy switches worth flipping, the new wave of AI-powered scams
 (cloned voices, fake videos, too-good-to-be-true investment ads), how to spot AI-made content, and what to do if
 something goes wrong. Share it with your family; it might save someone real heartache. 💛
 
-<details class="eli5" open>
-<summary>🧸 ELI5: This chapter in 30 seconds</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Don't tell the AI your secrets, like passwords or bank card numbers. And remember that bad people can use AI too: they
-can fake a family member's voice on the phone or make fake videos of celebrities. So if a call or message makes you
-panic and asks for money, stop, hang up, and check with the real person another way. A family "safe word" helps a lot.
+Using AI safely comes down to protecting your information and recognizing AI-powered scams. This chapter covers both.
+
+- **Never share** passwords, card numbers, ID numbers or other people's private information with a chatbot.
+- **Review your privacy settings** for training, memory and temporary chats.
+- **Be alert to new scams,** including cloned voices and deepfake videos; verify any urgent request for money through another channel.
+- **Agree on a family safe word** to confirm identity in an emergency call.
 
 </details>
 
@@ -20,10 +23,10 @@ panic and asks for money, stop, hang up, and check with the real person another 
 
 ## 🤐 What never to share with a chatbot
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Some things are too private to type into any AI: passwords, bank card numbers, ID numbers and other people's secrets.
+Treat every AI conversation as something that could be read by someone else. The table lists what never to share and safer alternatives.
 
 </details>
 
@@ -47,11 +50,15 @@ steals your password, or anyone you accidentally share a link with.
 
 ## ⚙️ Your privacy switches
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Every AI app has switches for privacy: whether your chats help train the AI, whether it remembers you, and a secret
-mode that doesn't save anything.
+Every major assistant has privacy controls. Spend ten minutes reviewing them.
+
+1. Turn off training on your chats if you prefer.
+2. Review and manage stored memories.
+3. Use temporary or incognito chats for sensitive topics.
+4. Delete old conversations you no longer need.
 
 </details>
 
@@ -70,11 +77,14 @@ Data](../part-12-mastery/104-privacy-and-your-data.md).
 
 ## 🎭 The new AI scams (and how to beat them)
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Tricksters now use AI to copy voices and faces, so a scam call can sound exactly like your grandson. If anyone asks for
-money in a hurry, always check with them another way first.
+Criminals use AI to clone voices, fake videos and write convincing messages. The common thread is urgency and a request for money or information.
+
+1. Pause whenever a message or call creates pressure to act immediately.
+2. Hang up and contact the person or organization through a number you already know.
+3. Use a family safe word to confirm identity.
 
 </details>
 
@@ -106,10 +116,10 @@ flowchart TD
 
 ## 📱 Fake AI apps and extensions
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Some apps pretend to be famous AIs but are fakes that steal money or information. Only download from the real company.
+Fake AI apps and browser extensions imitate well-known assistants to steal money or data. Download apps only from the official developer, and be wary of unfamiliar apps with weekly subscriptions.
 
 </details>
 
@@ -122,11 +132,10 @@ Some apps pretend to be famous AIs but are fakes that steal money or information
 
 ## 🕵️ Spotting AI-made images, video and text
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-AI pictures and videos can look very real. Look for weird details, check where they came from, and be extra careful
-with anything that makes you very angry or excited.
+AI-generated images and video are increasingly realistic, so rely on habits rather than visual clues. Pause when content provokes a strong emotion, check who posted it, and look for coverage from reliable sources.
 
 </details>
 
@@ -145,11 +154,10 @@ AI images and videos are getting harder to spot, so rely on **habits** more than
 
 ## 🧒 Kids, teens and AI
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Kids can learn a lot with AI, but grown-ups should help set rules, check the age limits, and talk openly about what's
-okay.
+AI can be a valuable learning tool for young people, but it needs adult guidance. Check age requirements, use teen accounts and parental controls where available, and talk openly about appropriate use.
 
 </details>
 
@@ -166,10 +174,10 @@ Full guide: [Parents, Teachers & Students](../part-11-ai-for-life-and-work/98-pa
 
 ## 💛 Looking after yourself
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-AI can be a comforting helper, but it's not a real friend or a doctor. Keep talking to real people too.
+AI can be a helpful source of support, but it isn't a therapist, doctor or substitute for human relationships. For ongoing distress, contact a professional or a support line, and keep investing in real-world connections.
 
 </details>
 
@@ -183,11 +191,14 @@ AI can be comforting: it's patient, available at 3am, and never judges. That's g
 
 ## 🆘 If something goes wrong
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-If you think you've been tricked, act fast: call your bank, change your passwords, and tell someone. It happens to smart
-people too, so don't feel ashamed.
+If you think you've been scammed or shared something you shouldn't have, act quickly:
+
+1. Call your bank using the number on your card if money or card details are involved.
+2. Change passwords for any affected accounts and enable two-step verification.
+3. Report the scam, and tell people you trust. Scams happen to smart, careful people.
 
 </details>
 

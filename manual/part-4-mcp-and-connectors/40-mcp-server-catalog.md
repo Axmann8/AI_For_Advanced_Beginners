@@ -6,12 +6,15 @@
 *fun* ones, grouped by what you'd use them for.** Every entry has a "try this" prompt so you can go straight from reading
 to doing.
 
-<details class="eli5" open>
-<summary>🧸 ELI5: This chapter in 30 seconds</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-This is a giant toy catalog of "doors" you can add to your AI. Each door leads somewhere: GitHub, Notion, a web browser,
-your smart home, a music app. Browse by category, pick a few that sound fun, and give your AI new powers today. The
-✅ ones are made by the companies themselves, and the 🧪 ones are made by the community (check them before trusting them).
+This catalog lists the most useful MCP servers by category, each with a suggested first prompt. Use the symbols to judge each one quickly.
+
+- **✅ Official** servers are maintained by the vendor; **🧪 community** servers need a quick check before you trust them.
+- **☁️ Remote** servers connect by URL and login; **🏠 local** servers run on your computer.
+- **Categories** cover development, productivity, business, research, data, creative work and home life.
+- **Meta-servers and directories** at the end lead to thousands more.
 
 </details>
 
@@ -27,11 +30,10 @@ your smart home, a music app. Browse by category, pick a few that sound fun, and
 
 ## 🧱 The starter pack (official reference servers)
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-These are the "training wheels" servers made by the MCP team itself. They're free, need no accounts, and are perfect for
-learning how everything works.
+These reference servers from the official MCP project are free, require no accounts and are ideal for learning how MCP works.
 
 </details>
 
@@ -54,11 +56,10 @@ From the [modelcontextprotocol/servers](https://github.com/modelcontextprotocol/
 
 ## 💻 Developer & DevOps
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Doors for people who build software: your code repositories, bug trackers, web browsers for testing, cloud servers and
-monitoring dashboards. Your AI becomes a teammate who can check on all of them.
+These servers connect AI to software development tools: code repositories, issue trackers, browser automation for testing, cloud infrastructure and monitoring.
 
 </details>
 
@@ -86,11 +87,10 @@ monitoring dashboards. Your AI becomes a teammate who can check on all of them.
 
 ## 📋 Productivity, docs & project management
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Doors to where your work lives: notes, tasks, docs, chats and files. Your AI can find things, tidy them up and create new
-ones for you.
+These servers connect AI to notes, tasks, documents, chat and file storage, so it can search, organize and create content where your work lives.
 
 </details>
 
@@ -115,11 +115,10 @@ ones for you.
 
 ## 💼 Business, sales, support & payments
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Doors to the "business" side: customers, sales, support tickets and money. Your AI becomes a helpful office assistant who
-can look things up and prepare actions for you to approve.
+These servers connect AI to CRM, sales, support and payment systems. Configure them so the AI prepares actions for you to approve rather than acting on its own.
 
 </details>
 
@@ -141,11 +140,10 @@ can look things up and prepare actions for you to approve.
 
 ## 🔎 Web search, research & scraping
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Doors to the whole internet: search engines, web page readers and "scrapers" that collect information from websites. Your
-AI can research anything with real sources instead of guessing.
+These servers give AI access to web search, page reading and scraping, so it can research with real sources instead of relying on its training data.
 
 </details>
 
@@ -168,11 +166,10 @@ More in [Web Scraping & Monitoring with AI](../part-5-automation/51-web-scraping
 
 ## 🗄️ Data & databases
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Doors to the big filing cabinets where apps keep their data. Your AI can look inside, answer questions with real numbers,
-and even help design new cabinets. Always start with read-only keys!
+These servers connect AI to databases so it can answer questions with real data and help design schemas. Always start with read-only credentials.
 
 </details>
 
@@ -199,11 +196,10 @@ and even help design new cabinets. Always start with read-only keys!
 
 ## 🎨 Creative, design & media
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Doors to art studios: design tools, 3D programs, music software and voice generators. Your AI becomes a creative
-assistant that can actually touch the canvas.
+These servers connect AI to design tools, 3D software, music production and voice generation.
 
 </details>
 
@@ -223,11 +219,10 @@ More creative fun in [Part X](../part-10-creative-ai/index.md).
 
 ## 🏠 Life, home, health & fun
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Doors to everyday life: your smart home, music, maps, fitness and even medical reference databases. Some are official,
-many are hobby projects made with love by the community.
+These servers connect AI to your smart home, music, maps, fitness data and reference databases. Many are community projects, so check them before installing.
 
 </details>
 
@@ -251,11 +246,10 @@ many are hobby projects made with love by the community.
 
 ## 🔀 Meta-servers: one connection, thousands of apps
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-These are master keys: one door that leads to a hallway with thousands more doors. Connect one of these and your AI can
-reach most apps in the world.
+Meta-servers like Zapier MCP and Pipedream provide access to thousands of apps through a single connection. You choose exactly which actions the AI is allowed to use.
 
 </details>
 
@@ -270,10 +264,10 @@ reach most apps in the world.
 
 ## 🗺️ Where to find more servers
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Like app stores, there are websites that list thousands of MCP servers with search, ratings and install buttons.
+These directories list thousands of MCP servers with search and install instructions. The official MCP Registry is the canonical source that many others draw from.
 
 </details>
 
@@ -288,11 +282,14 @@ Like app stores, there are websites that list thousands of MCP servers with sear
 
 ## 🔍 Judging a random server in 30 seconds
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Before letting a stranger's helper into your house, check who made it, whether anyone's still looking after it, and
-whether it's asking for more keys than it needs.
+Before installing an unfamiliar server, check three things:
+
+1. **Who made it:** an official vendor is safer than an anonymous account.
+2. **Is it maintained:** look for recent updates and answered issues.
+3. **What does it ask for:** its permissions should match its purpose.
 
 </details>
 

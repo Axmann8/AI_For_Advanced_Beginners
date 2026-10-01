@@ -7,12 +7,14 @@ wrong answer.** All the big assistants are genuinely good, the free versions are
 easy. This chapter gives you a quick way to pick a favorite based on the phone you carry, the apps you already use and
 what you want help with, plus a 15-minute taste test so you can decide for yourself.
 
-<details class="eli5" open>
-<summary>🧸 ELI5: This chapter in 30 seconds</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Choosing an AI is like choosing an ice cream shop: they all sell ice cream, but each has its own special flavors. If
-you live next to the Google shop (Gmail, Android), Gemini is easy. If you want the most popular all-rounder, ChatGPT.
-For thoughtful writing, Claude. For answers with sources, Perplexity. Try two, keep your favorite.
+All the major assistants handle everyday tasks well, but each has particular strengths. The best choice usually depends on the devices and apps you already use and what you plan to do most.
+
+- **ChatGPT** is the most popular all-rounder; **Gemini** fits naturally if you use Google apps and Android.
+- **Claude** is known for clear, thoughtful writing; **Perplexity** gives answers with sources.
+- **The best test is your own:** try two assistants with the same prompts and keep the one you prefer.
 
 </details>
 
@@ -20,10 +22,10 @@ For thoughtful writing, Claude. For answers with sources, Perplexity. Try two, k
 
 ## ⚡ The 30-second answer
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Pick the one that fits the phone and apps you already use. That's the easiest way to start.
+If you want a quick recommendation, start with the assistant that's built into the phone and apps you already use. The table matches common situations to a good first choice.
 
 </details>
 
@@ -42,10 +44,10 @@ Pick the one that fits the phone and apps you already use. That's the easiest wa
 
 ## 🗺️ Meet the lineup
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Here are the main AI helpers side by side, with what each one is best at and what to watch out for.
+The table compares the main assistants on their free versions, standout features and limitations, so you can see the trade-offs at a glance.
 
 </details>
 
@@ -66,10 +68,10 @@ Guide](../part-2-ai-assistants-field-guide/index.md), with sign-up steps, every 
 
 ## 🧩 Find your match in four questions
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Answer a few quick questions and follow the arrows to find an AI that suits you.
+Answer the four questions in the flowchart below to get a personalized starting recommendation. It's a starting point; many people end up using more than one assistant.
 
 </details>
 
@@ -89,11 +91,10 @@ jobs (see [Using Several Assistants Together](../part-2-ai-assistants-field-guid
 
 ## 🆓 Free is plenty to start
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-You don't need to pay anything to learn. The free versions are really good. Paying mostly gets you *more* uses and the
-fanciest features.
+Free tiers are more than enough to learn and handle everyday tasks. Paid plans mainly add higher usage limits, the most capable models and advanced features, so it makes sense to upgrade only once you hit a limit that matters to you.
 
 </details>
 
@@ -117,10 +118,14 @@ two weeks. If you keep hitting limits or wishing for a specific feature, *then* 
 
 ## 🧪 The 15-minute taste test
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Ask two or three AIs the exact same questions and see which answers you like best. Your taste is what matters.
+Running the same prompts through two or three assistants is the most reliable way to choose.
+
+1. Open two or three assistants side by side.
+2. Send each one the same three prompts below.
+3. Compare the answers for usefulness, clarity and tone, and keep the one you like best.
 
 </details>
 
@@ -149,11 +154,10 @@ Showdowns](../part-2-ai-assistants-field-guide/30-head-to-head-showdowns.md).)
 
 ## 🔐 Trust and privacy differences
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Different AI companies treat your information differently. Some use chats to improve their AI unless you say no, and
-some store data in other countries. It's worth a quick peek at the settings.
+Assistants differ in how they handle your data: whether chats are used for training, how long they're stored, and where the company is based. Check the privacy settings of any assistant you plan to use regularly.
 
 </details>
 
@@ -174,10 +178,10 @@ The universal rule, whichever you choose: **don't type anything you wouldn't be 
 
 ## 🤝 One favorite plus a sidekick
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Most people end up with one main AI friend for almost everything, plus a second one they call for special jobs.
+Most experienced users settle on one main assistant for everyday tasks and a second "specialist" for a particular strength, such as sourced research or spreadsheet work.
 
 </details>
 

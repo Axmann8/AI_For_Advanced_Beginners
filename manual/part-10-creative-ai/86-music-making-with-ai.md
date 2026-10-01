@@ -1,19 +1,21 @@
 # 86 · Music Making with AI: From Hum to Hit 🎵🎹
 
-> ⏱️ 7 min read · 🎯 Everyone (musicians and "I can't play anything" folks alike) · 🧰 Needs: a song generator (Suno or similar), optionally a DAW like GarageBand, Ableton or BandLab
+> ⏱️ 8 min read · 🎯 Everyone (musicians and "I can't play anything" folks alike) · 🧰 Needs: a song generator (Suno or similar), optionally a DAW like GarageBand, Ableton or BandLab
 
 **AI can now write and sing a full song from a sentence, and that's only the beginning.** It can also help you write lyrics,
 learn theory, separate a song into its instruments so you can practice along, master your tracks, and even control a real
 music production app through MCP. This chapter covers the song generators, AI tools for *real* musicians, a songwriting
 workflow, practice superpowers, and the rights questions you need to understand before you share or sell. 🎤🎸
 
-<details class="eli5" open>
-<summary>🧸 ELI5: This chapter in 30 seconds</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Imagine telling a robot band "play a happy summer song about my dog Biscuit, with guitars and a catchy chorus," and a minute
-later they've written it, sung it and recorded it. That's AI song-making! If you already play music, AI can also be your
-practice buddy: it can take the singer out of any song so you can sing along, slow it down, or explain why a chord sounds
-sad. 🐶🎶
+AI music tools can generate complete songs with vocals from a description or your own lyrics. For people who already play, AI also works as a practice and production assistant: it can isolate instruments, slow down passages, explain theory and polish recordings.
+
+1. **Generate a first song** with Suno or Udio by describing the style and topic.
+2. **Use AI as a songwriting partner** for ideas, lyrics and chords, while keeping your own choices central.
+3. **Practice and produce** with stem separation, transcription and DAW integration.
+4. **Check the rules** on commercial use and copyright before publishing.
 
 </details>
 
@@ -21,11 +23,10 @@ sad. 🐶🎶
 
 ## 🎛️ The AI music landscape
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Some music AIs make whole songs, some make background music, and some help real musicians practice and polish their own
-songs.
+AI music tools fall into categories: full song generators (Suno, Udio), background music generators, and tools for musicians, such as stem separation, transcription and mastering. The table compares them.
 
 </details>
 
@@ -47,10 +48,15 @@ songs.
 
 ## 🎤 Making your first AI song
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Describe the style, give it a topic or your own words, click create, and pick your favorite of the versions it makes.
+To make your first AI song:
+
+1. Describe the style: genre, mood, instruments, tempo and vocals.
+2. Provide a topic or your own lyrics.
+3. Generate several versions and choose your favorite.
+4. Extend, remix or edit sections as needed.
 
 </details>
 
@@ -83,11 +89,10 @@ Describe the style, give it a topic or your own words, click create, and pick yo
 
 ## ✍️ A songwriting workflow with AI
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Use AI as a songwriting buddy: brainstorm ideas together, try lots of words and chords, but keep your own feelings and
-choices at the center.
+AI works well as a songwriting collaborator: it can brainstorm angles on a theme, suggest rhymes and lyric alternatives, and propose chord progressions. Keep your own experiences and decisions at the center. The table offers prompts for each step.
 
 </details>
 
@@ -111,11 +116,10 @@ flowchart LR
 
 ## 🎹 AI for musicians who play
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-If you play an instrument, AI can be the world's most patient practice partner: remove parts of songs, slow them down,
-explain the music, and help you record.
+For musicians, AI can remove or isolate any instrument in a recording, slow down difficult passages without changing pitch, transcribe music into notation, explain theory and master your recordings. The table lists tools for each.
 
 </details>
 
@@ -131,11 +135,10 @@ explain the music, and help you record.
 
 ## 🔌 Claude + your DAW via MCP
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-With a special plug-in, Claude can press buttons inside real music-making software: add a drum beat, change the tempo, create
-instruments, just by you asking.
+Community MCP servers connect Claude to production software such as Ableton Live, so you can create clips, add instruments and adjust tempo or effects by describing what you want.
 
 </details>
 
@@ -150,10 +153,10 @@ It's early and delightfully nerdy, and a great example of MCP turning an assista
 
 ## 🎵 Music for your projects
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-You can make custom background music for your videos, podcasts, games and even hold-music for your business.
+AI can produce custom music for videos, podcasts, games and business uses such as hold music, timed and styled to fit the project. The table suggests approaches for each need.
 
 </details>
 
@@ -168,11 +171,10 @@ You can make custom background music for your videos, podcasts, games and even h
 
 ## ⚖️ Rights, copyright & being fair
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-AI music has rules: check whether you're allowed to download and sell what you make, don't copy real singers' voices, and
-remember that songs made only by AI may not be protected like songs made by people.
+Before using AI music commercially, check the tool's terms for your plan, don't imitate real artists' voices, and be aware that purely AI-generated works may not qualify for copyright protection. The table answers common questions.
 
 </details>
 
@@ -191,10 +193,10 @@ remember that songs made only by AI may not be protected like songs made by peop
 
 ## 🎮 12 music projects
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Twelve fun music projects, from silly to sweet.
+The table lists twelve music projects to try.
 
 </details>
 

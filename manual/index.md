@@ -7,12 +7,12 @@
 Never used AI before? Ready to build your own agents? **This manual is for everyone.** Start from zero with friendly,
 jargon-free guides, master **ChatGPT, Gemini, Claude, Copilot, Grok, Perplexity, Meta AI** and every other major
 assistant, then go further: connect AI to your apps, automate your life, build your own tools, run models at home, make
-art and music, and use it all in real life, with an 🧸 **ELI5 for everything**.
+art and music, and use it all in real life, with clear **✅ Key Points & Steps** for everything.
 
 [🐣 I'm brand new to AI](part-1-ai-from-zero/index.md "button-primary") [🤖 Master your assistant](part-2-ai-assistants-field-guide/index.md "button") [🚀 Start here](start-here/a-how-to-use-this-manual.md "button") [📄 Download the PDF book](download.md "button")
 
 <!-- stats:start -->
-<div class="hero-stats"><div class="stat"><strong>119</strong><span>chapters</span></div><div class="stat"><strong>1383</strong><span>ELI5 explanations 🧸</span></div><div class="stat"><strong>375</strong><span>quiz questions</span></div><div class="stat"><strong>124</strong><span>try-this challenges</span></div><div class="stat"><strong>12</strong><span>starter kits</span></div><div class="stat"><strong>238k</strong><span>words of fun</span></div></div>
+<div class="hero-stats"><div class="stat"><strong>119</strong><span>chapters</span></div><div class="stat"><strong>1383</strong><span>Key Points & Steps boxes ✅</span></div><div class="stat"><strong>375</strong><span>quiz questions</span></div><div class="stat"><strong>124</strong><span>try-this challenges</span></div><div class="stat"><strong>12</strong><span>starter kits</span></div><div class="stat"><strong>257k</strong><span>words of fun</span></div></div>
 <!-- stats:end -->
 
 </div>
@@ -112,7 +112,7 @@ Not sure where to begin? Pick the card that sounds most like you. Every path is 
 
 ## 🗺️ The thirteen parts
 
-Each part has its own landing page with an ELI5, a suggested path, and clickable chapter cards.
+Each part has its own landing page with key points, a suggested path, and clickable chapter cards.
 
 <!-- parts:start -->
 <div class="grid cards clickable" markdown>
@@ -227,12 +227,12 @@ Each part has its own landing page with an ELI5, a suggested path, and clickable
 
     <span class="card-meta">10 pages</span>
 
-    The reference shelf: an ELI5 glossary, the one-page cheat sheet, troubleshooting, a giant prompt library, links, project ideas, the ELI5 Edition of the whole manual, commands and shortcuts, comparison tables and printable checklists.
+    The reference shelf: a plain-English glossary, the one-page cheat sheet, troubleshooting, a giant prompt library, links, project ideas, the Key Points Edition of the whole manual, commands and shortcuts, comparison tables and printable checklists.
 
 </div>
 <!-- parts:end -->
 
-## 🧸 What makes this manual different
+## 💜 What makes this manual different
 
 <div class="grid cards" markdown>
 
@@ -250,12 +250,13 @@ Each part has its own landing page with an ELI5, a suggested path, and clickable
     ChatGPT, Gemini, Claude, Copilot, Grok, Perplexity, Meta AI, DeepSeek, Le Chat, Qwen, Siri, Alexa+ and more,
     each with a [complete guide](part-2-ai-assistants-field-guide/index.md).
 
--   **🧸 ELI5 for everything**
+-   **✅ Key Points & Steps everywhere**
 
     ---
 
-    Every chapter opens with a 30-second "explain it like I'm five," and **every section** has its own. Hit the
-    🧸 button on any page to open them all, or read the whole [ELI5 Edition](appendices/g-eli5-edition.md) in one go.
+    Every chapter opens with a plain-language summary, and **every section** has its own, with numbered steps
+    whenever there's something to do. Skim them for the big picture, or read the whole
+    [Key Points Edition](appendices/g-key-points-edition.md) in one go.
 
 -   **🗺️ Clickable everything**
 
@@ -287,7 +288,7 @@ Each part has its own landing page with an ELI5, a suggested path, and clickable
 
     ---
 
-    No gatekeeping and no jargon walls. Hover over acronyms like MCP or RAG for instant ELI5 tooltips.
+    No gatekeeping and no jargon walls. Hover over acronyms like MCP or RAG for instant definitions.
 
 -   **📄 A real book, too**
 
@@ -313,9 +314,9 @@ Each part has its own landing page with an ELI5, a suggested path, and clickable
 
 > [!TIP]
 > **📄 Want it on paper, or offline?**
-> The whole manual is also a beautifully formatted **printable PDF book** ([US Letter](https://axmann8.github.io/AI_For_Advanced_Beginners/MANUAL.pdf) ·
-> [A4](https://axmann8.github.io/AI_For_Advanced_Beginners/MANUAL-A4.pdf)), with a cover, contents with page numbers, part dividers, page references and clickable
-> bookmarks. There's also a single [`MANUAL.md`](https://axmann8.github.io/AI_For_Advanced_Beginners/MANUAL.md), which is perfect for handing to an AI as context. Both
+> The whole manual is also a beautifully formatted **printable PDF book** ([US Letter](https://axmann8.github.io/The_Massive_AI_Manual/MANUAL.pdf) ·
+> [A4](https://axmann8.github.io/The_Massive_AI_Manual/MANUAL-A4.pdf)), with a cover, contents with page numbers, part dividers, page references and clickable
+> bookmarks. There's also a single [`MANUAL.md`](https://axmann8.github.io/The_Massive_AI_Manual/MANUAL.md), which is perfect for handing to an AI as context. Both
 > rebuild automatically every time the manual changes.
 
 > 📅 Current as of **September 2026**. AI moves fast: product names and features shift monthly, but the concepts and

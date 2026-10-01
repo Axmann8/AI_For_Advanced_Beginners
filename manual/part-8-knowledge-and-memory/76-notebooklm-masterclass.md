@@ -1,6 +1,6 @@
 # 76 · Gemini Notebook (formerly NotebookLM) Masterclass 🎧📓
 
-> ⏱️ 8 min read · 🎯 Everyone (students, researchers, curious people) · 🧰 Needs: a Google account (some features depend on your plan)
+> ⏱️ 9 min read · 🎯 Everyone (students, researchers, curious people) · 🧰 Needs: a Google account (some features depend on your plan)
 
 **Google's research notebook is one of the most delightful AI tools ever made.** Upload a pile of sources, and it becomes an
 expert on *exactly* that material: every answer cites your sources, and one click turns them into a podcast, a video, a mind
@@ -14,12 +14,15 @@ research, work and fun. 🎉
 > you'll still see both names around the web (and in this manual). Features and limits vary by plan, so check the app for
 > what yours includes.
 
-<details class="eli5" open>
-<summary>🧸 ELI5: This chapter in 30 seconds</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Imagine a study buddy who reads *only* the books you hand them, remembers every page, and always points to the page an answer
-came from. Then they can turn your whole stack of books into a fun radio show, a cartoon explainer, flashcards or a quiz.
-That's Gemini Notebook. It's grounded, which means it sticks to your sources instead of making things up.
+Gemini Notebook (formerly NotebookLM) is a research and study tool that answers questions using only the sources you provide, with a citation for every claim. It can also turn those sources into audio discussions, videos, mind maps, flashcards, quizzes and reports.
+
+1. **Create a notebook** for one topic and add focused, reliable sources.
+2. **Ask questions** and check the citations.
+3. **Generate study materials** such as Audio Overviews, flashcards and quizzes in the Studio.
+4. **Apply it** to studying, research, work and personal decisions.
 
 </details>
 
@@ -27,11 +30,10 @@ That's Gemini Notebook. It's grounded, which means it sticks to your sources ins
 
 ## ✨ Why it's special
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Most AI chats answer from everything they've ever read. This one answers only from your sources and shows you where, so you
-can trust it and check it.
+Unlike general chatbots, Gemini Notebook answers only from your uploaded sources and cites where each statement comes from, which makes hallucinations much rarer and every claim easy to verify. The table lists its other key features.
 
 </details>
 
@@ -48,10 +50,10 @@ can trust it and check it.
 
 ## 📥 Adding sources
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-You feed it your materials: files, websites, videos and notes. The more focused your pile, the smarter your study buddy gets.
+You can add PDFs, Google Docs and Slides, websites, YouTube videos, audio files and pasted text. A focused set of relevant sources produces better answers than a large, mixed one.
 
 </details>
 
@@ -74,11 +76,10 @@ You feed it your materials: files, websites, videos and notes. The more focused 
 
 ## 💬 Chatting with your sources
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Ask questions like you would a teacher who's read everything in the pile. It answers and shows you exactly where each fact
-came from.
+Ask questions that draw across your sources, such as identifying key themes, comparing viewpoints or finding where sources disagree. Every answer links to the exact passages it used. The table shows examples of effective questions.
 
 </details>
 
@@ -97,11 +98,10 @@ answers.") for learning mode. 🧑‍🏫
 
 ## 🎧 Audio Overviews: the podcast machine
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-With one click, two friendly AI hosts turn your documents into a radio show that explains everything. You can even jump in
-and ask them questions.
+Audio Overviews turn your sources into a conversation between two AI hosts. You can customize the focus and length, choose formats such as a brief or a debate, and use interactive mode to ask the hosts questions. The table lists the options.
 
 </details>
 
@@ -124,11 +124,10 @@ Audio Overviews turn your sources into a conversation between two AI hosts. It's
 
 ## 🧰 The Studio: turn sources into anything
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-The Studio is a craft table. The same pile of sources can become a video, a map of ideas, flashcards, a quiz, a report or
-slides, whatever helps you learn.
+The Studio panel converts your sources into different formats: Video Overviews, mind maps, flashcards, quizzes, reports and slides. The table shows what each format is best for.
 
 </details>
 
@@ -147,11 +146,15 @@ after they're generated.
 
 ## 🎓 Workflow: studying anything
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Put all your class stuff in one notebook, listen to the podcast on the bus, test yourself with flashcards and quizzes, and ask
-about anything confusing.
+To study a course with Gemini Notebook:
+
+1. Create a notebook for the course and add slides, readings, notes and recordings.
+2. Listen to an Audio Overview for an introduction.
+3. Test yourself with flashcards and quizzes.
+4. Ask about anything you find confusing, and follow the citations back to the source.
 
 </details>
 
@@ -166,11 +169,14 @@ More in [Research & Learning](../part-11-ai-for-life-and-work/91-research-and-le
 
 ## 🔬 Workflow: research & writing
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-For a big project, collect good sources, find what they agree and disagree on, and write your own piece with citations you
-can check.
+For research and writing:
+
+1. Collect strong sources, using the discovery feature and your own finds.
+2. Ask the notebook to map themes, agreements and disagreements.
+3. Draft your piece in your own words, citing the sources the notebook points to.
 
 </details>
 
@@ -182,10 +188,10 @@ can check.
 
 ## 💼 Workflow: work & life
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Notebooks aren't just for school. Use them for work projects, big life decisions, hobbies and family stuff.
+Notebooks work well for professional projects and personal decisions too, such as buying a home, onboarding at a new job or researching a medical question to discuss with a doctor. The table gives examples.
 
 </details>
 
@@ -201,10 +207,10 @@ Notebooks aren't just for school. Use them for work projects, big life decisions
 
 ## 🔌 Gemini Notebook in your wider toolkit
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Your notebooks can now be used from the Gemini app too, and you can move what you learn into your other tools.
+You can attach notebooks to Gemini chats so answers draw on your sources, add Google Docs and Slides directly, and export notes and reports to your other tools.
 
 </details>
 
@@ -216,10 +222,10 @@ Your notebooks can now be used from the Gemini app too, and you can move what yo
 
 ## 🪤 Limits & tips
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-It's amazing, but it only knows your sources, it can still make small mistakes, and private stuff should be handled with care.
+Gemini Notebook is only as good as the sources you add, its summaries can oversimplify or occasionally misstate details, and sensitive documents should be handled according to your privacy needs. The table pairs each limitation with a tip.
 
 </details>
 

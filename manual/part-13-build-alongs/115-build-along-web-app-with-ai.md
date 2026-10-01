@@ -7,12 +7,15 @@ them), and tap **✨ Remix** to have Claude invent a new dish from whatever's in
 as your pair programmer, store data in Supabase with proper row-level security, keep your AI key safely on the server, and
 deploy on Vercel with a link you can send to friends. This is the full-stack journey, one checkpoint at a time. 🚀
 
-<details class="eli5" open>
-<summary>🧸 ELI5: This build in 30 seconds</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-We're making a recipe website where each person has their own secret recipe box. You log in, save your recipes, and there's a
-magic button: type "I have eggs, spinach and feta" and the AI invents a recipe for you. Then we put the website on the internet
-so your friends can use it too. An AI coding helper writes most of the code while you steer. 👩‍🍳✨
+In this project you'll build "Recipe Box," a web app where each user logs in to a private recipe collection and can generate new recipes from ingredients they have. You'll direct Claude Code to write most of the code, then deploy the app so others can use it.
+
+1. **Write a short spec,** then scaffold the app with Claude Code.
+2. **Set up Supabase** for logins and a secure database table.
+3. **Build the recipe features** and the AI-powered Remix feature.
+4. **Polish the design, deploy to Vercel** and run a security check before launch.
 
 </details>
 
@@ -26,11 +29,10 @@ so your friends can use it too. An AI coding helper writes most of the code whil
 
 ## 🗺️ What you'll build
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-The website runs in your browser, remembers recipes in a database, knows who's logged in, and asks Claude for ideas through a
-safe back door on the server.
+The app runs in the browser, stores recipes in Supabase, handles logins with Supabase Auth and calls Claude through a server-side route so the API key stays secret. The table lists the technology for each feature.
 
 </details>
 
@@ -57,10 +59,10 @@ Background: [Vibe Coding](../part-7-building-with-ai/65-vibe-coding-your-first-a
 
 ## ✅ Before you start
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Make free accounts on GitHub, Supabase and Vercel, and have Claude Code ready. Set a spending limit on your AI key.
+Before starting, install Claude Code and Node.js, create free GitHub, Supabase and Vercel accounts, and set a spending limit on your Anthropic API key.
 
 </details>
 
@@ -71,10 +73,10 @@ Make free accounts on GitHub, Supabase and Vercel, and have Claude Code ready. S
 
 ## 1️⃣ Step 1: Write the spec (20 min)
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Before building, write a short "what I want" note. Clear wishes make a better app.
+Create a project folder with a `SPEC.md` describing the app's users, pages, features and what's excluded from version 1. A clear spec leads to a much better first build.
 
 </details>
 
@@ -109,10 +111,14 @@ Warm and cozy: cream background, tomato-red accent, rounded cards, big friendly 
 
 ## 2️⃣ Step 2: Scaffold with Claude Code (30 min)
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Ask your AI coding helper to set up the empty app and a pretty first page, then check it works on your computer.
+Scaffold the app with Claude Code.
+
+1. Open Claude Code in the project folder and switch to plan mode.
+2. Ask it to read SPEC.md and propose a step-by-step build plan.
+3. Approve the plan and have it build the first step, then confirm the app runs locally.
 
 </details>
 
@@ -135,11 +141,14 @@ Approve the plan, let it build step 1, then open the local URL it gives you. Run
 
 ## 3️⃣ Step 3: Supabase: auth and a secure table (30 min)
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Make a database for recipes and switch on the rule that says "you can only see your own recipes." This is the most important
-safety step!
+Set up Supabase, including the most important security step.
+
+1. Create a Supabase project and configure the authentication redirect URLs.
+2. Create the recipes table.
+3. Enable row-level security (RLS) with policies so each user can access only their own recipes.
 
 </details>
 
@@ -185,10 +194,10 @@ safety step!
 
 ## 4️⃣ Step 4: Recipes CRUD (60 min)
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Build the buttons to add, show, change and delete recipes. "CRUD" just means those four things.
+Build the core recipe features, often called CRUD (create, read, update and delete): a recipe list with search, a form for new recipes, a recipe detail page, and edit and delete actions with confirmation.
 
 </details>
 
@@ -203,11 +212,14 @@ recipes, even by visiting a recipe URL directly.
 
 ## 5️⃣ Step 5: The ✨ Remix feature (60 min)
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Now the magic button: the website sends your ingredients to a safe spot on the server, the server asks Claude for a recipe, and
-sends it back to show you.
+Build the Remix feature through a server-side route.
+
+1. Store the Claude API key in `.env.local` without a public prefix, so it never reaches the browser.
+2. Create a server route that sends the user's ingredients to Claude and returns a structured recipe.
+3. Add rate limiting, and display the result with an option to save it.
 
 </details>
 
@@ -246,10 +258,10 @@ const response = await anthropic.messages.create({
 
 ## 6️⃣ Step 6: Make it beautiful (45 min)
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Polish the look: friendly colors, nice spacing, little animations, and make sure it looks great on phones.
+Improve the design: have Claude Code screenshot each page at phone and desktop sizes, critique it like a product designer, and apply consistent colors, spacing and subtle animations.
 
 </details>
 
@@ -262,10 +274,15 @@ Polish the look: friendly colors, nice spacing, little animations, and make sure
 
 ## 7️⃣ Step 7: Deploy to Vercel (30 min)
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Put your app on the internet: push the code to GitHub, connect it to Vercel, add your secret keys there, and get a link!
+Deploy to Vercel.
+
+1. Push the code to a private GitHub repository.
+2. Import the repository into Vercel.
+3. Add your environment variables in Vercel's settings.
+4. Deploy, then add the production URL to Supabase's redirect settings.
 
 </details>
 
@@ -279,11 +296,10 @@ Put your app on the internet: push the code to GitHub, connect it to Vercel, add
 
 ## 🔐 Step 8: The pre-launch safety check
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Before inviting people, check all the locks: private data stays private, secret keys stay secret, and nobody can run up your
-AI bill.
+Before inviting users, ask Claude Code for a full security review: RLS on every table, no secret keys in client code, authentication checks on every server route and rate limits on AI calls.
 
 </details>
 
@@ -298,10 +314,10 @@ rate limits on /api/remix, input validation. Fix anything serious and explain wh
 
 ## 🚀 Level-ups
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Once it works, you can add more fun features, like photos of dishes, sharing recipes, or scanning grandma's recipe cards.
+Once the app works, you can add features such as generating recipes from a fridge photo, sharing recipes, scanning handwritten recipe cards and meal planning. The table describes each idea.
 
 </details>
 
@@ -316,10 +332,10 @@ Once it works, you can add more fun features, like photos of dishes, sharing rec
 
 ## 🩺 Troubleshooting
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-If something breaks, here are the common reasons and quick fixes.
+The table lists common problems, such as login links redirecting to the wrong site or recipes not saving, with a fix for each.
 
 </details>
 

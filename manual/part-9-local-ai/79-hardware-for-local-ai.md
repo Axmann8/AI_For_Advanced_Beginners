@@ -1,19 +1,20 @@
 # 79 · Hardware for Local AI: What to Buy (and What Not To) 🖥️⚡
 
-> ⏱️ 8 min read · 🎯 Anyone thinking about running AI at home · 🧰 Needs: nothing (this is a buying and understanding guide)
+> ⏱️ 9 min read · 🎯 Anyone thinking about running AI at home · 🧰 Needs: nothing (this is a buying and understanding guide)
 
 **The single most important number for local AI isn't your processor speed. It's memory.** How *much* memory decides which
 models fit, and how *fast* that memory is decides how quickly they talk. Once you understand those two ideas, the whole
 hardware world snaps into focus: why Macs are surprisingly good, why gamers' graphics cards are coveted, and why a used GPU can
 beat a brand-new laptop. This chapter explains it all, then gives you budget tiers, a buying checklist and upgrade paths. 🛒
 
-<details class="eli5" open>
-<summary>🧸 ELI5: This chapter in 30 seconds</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-An AI model is like a giant book the computer must hold open on its desk while it thinks. **Memory** is the size of the desk:
-if the book doesn't fit, it can't be read. **Memory speed** is how fast the computer can flip through the pages: faster
-flipping means faster answers. So for local AI, you want a **big desk** and **fast page-flipping**. Everything else matters
-much less.
+For local AI, two hardware specs matter far more than anything else: **memory capacity**, which determines which models fit, and **memory bandwidth**, which determines how fast they respond. This chapter explains how to choose hardware, and when not to buy anything.
+
+- **Main options:** Apple Silicon Macs, PCs with NVIDIA GPUs, unified-memory mini PCs and small single-board computers.
+- **Start with what you own;** buy new hardware only for a specific, proven need.
+- **Use the checklist** before buying, and budget for storage and power.
 
 </details>
 
@@ -21,11 +22,10 @@ much less.
 
 ## 🧠 The two numbers that matter
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-How much memory decides which AI brains fit. How fast the memory is decides how fast they answer. That's 90% of what you need
-to know.
+**Memory capacity** (VRAM on a GPU or unified memory on a Mac) determines which models fit; a model needs roughly its file size plus some room for the conversation. **Memory bandwidth** determines how quickly it generates text. The table gives rules of thumb.
 
 </details>
 
@@ -46,11 +46,10 @@ usable, but you'll wait.
 
 ## 🗺️ The hardware landscape
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-There are four main kinds of AI-capable computers: Macs with shared memory, PCs with gaming graphics cards, new mini PCs with
-lots of shared memory, and tiny boards for small projects.
+Four kinds of hardware run local AI well: Apple Silicon Macs, PCs with NVIDIA graphics cards, mini PCs with large unified memory, and small boards like the Raspberry Pi for lightweight projects. The table compares strengths and trade-offs.
 
 </details>
 
@@ -64,11 +63,10 @@ lots of shared memory, and tiny boards for small projects.
 
 ## 🍎 Macs: the surprise champions
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Macs share one big pool of memory between everything, so they can hold much bigger AI brains than most computers of the same
-price.
+Apple Silicon Macs use unified memory shared by the CPU and GPU, so a Mac with 64 GB can load models that would require multiple expensive graphics cards on a PC. They're also quiet and energy-efficient.
 
 </details>
 
@@ -89,11 +87,10 @@ later.
 
 ## 🎮 NVIDIA GPUs: the speed kings
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Gaming graphics cards are super fast at AI math. The catch is their memory is small, so pick the card with the most memory you
-can afford.
+NVIDIA graphics cards generate text very quickly and have the best software support, but their memory is limited. Choose the card with the most VRAM you can afford. The table shows what fits at each memory size.
 
 </details>
 
@@ -116,11 +113,10 @@ can afford.
 
 ## 🧊 Unified-memory mini PCs
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-A newer kind of small computer has a huge shared memory pool like a Mac, so it can hold big AI brains in a box the size of a
-lunchbox.
+Mini PCs built on chips like AMD's Ryzen AI Max series and NVIDIA's DGX Spark offer up to about 128 GB of GPU-accessible memory in a compact case, making large models practical outside a Mac.
 
 </details>
 
@@ -133,11 +129,10 @@ use, in a compact box.
 
 ## 💰 Budget tiers
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-You don't need to spend a lot. Start with the computer you already have, and only buy something new when you know exactly
-what you want it for.
+You can start at no cost with the computer you already own and small models or free cloud tiers. The table outlines what each budget tier provides, from free to high-end workstations.
 
 </details>
 
@@ -156,10 +151,10 @@ what you want it for.
 
 ## ✅ The buying checklist
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Before you buy, answer these questions so you get the right computer and don't waste money.
+Before buying, work through this checklist: what you'll run, what model size you need, how fast it must be, whether it will run continuously and how much you can spend.
 
 </details>
 
@@ -178,11 +173,10 @@ and what am I missing?"*
 
 ## 🗄️ Storage, power & the boring-but-important bits
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-AI brains are big files, so you need lots of storage space. And computers that run all day use electricity, so efficient ones
-save money.
+Models range from 2 GB to more than 80 GB each, so plan for a fast SSD of at least 1–2 TB. Systems that run continuously use electricity, so efficient hardware saves money over time. The table covers storage, RAM, power and noise.
 
 </details>
 
@@ -196,11 +190,10 @@ save money.
 
 ## 🔭 Where hardware is heading
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Computers are quickly getting better at AI, and AI brains are getting smaller and smarter, so the same computer can do more
-every year.
+Hardware is improving quickly, and models are becoming more capable at smaller sizes, so the same computer can do more each year.
 
 </details>
 

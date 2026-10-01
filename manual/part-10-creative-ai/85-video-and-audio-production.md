@@ -7,12 +7,15 @@ chapter covers the toolbox (generation, editing, voice, music), how to prompt vi
 complete production pipelines you can follow step by step: an AI short film, an effortless podcast, a faceless YouTube
 explainer, and a family memory video. Lights, camera, AI! 🎥✨
 
-<details class="eli5" open>
-<summary>🧸 ELI5: This chapter in 30 seconds</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Making videos used to need cameras, actors, a studio and lots of money. Now you can **describe a scene** and AI films a short
-clip, **type words** and AI reads them in a lovely voice, and **describe a song** and AI makes the music. Then you put all
-the pieces together in an easy editing app, like building with LEGO. Your first movie can happen this weekend. 🍿
+AI tools now handle most stages of video and audio production: generating clips from descriptions, producing natural voiceovers, composing music, cleaning up recordings and editing. You can produce a complete short film or podcast with consumer tools.
+
+- **The toolbox:** video generators, editors, voice tools and music generators.
+- **Four pipelines:** a short film, a podcast, a faceless explainer video and a family memory video.
+- **Finish professionally** with captions, translation and a production checklist.
+- **Always get consent** before cloning a voice or using someone's likeness.
 
 </details>
 
@@ -20,11 +23,10 @@ the pieces together in an easy editing app, like building with LEGO. Your first 
 
 ## 🧰 The toolbox
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-You need a few kinds of tools: ones that make video clips, ones that cut clips together, ones that make voices, and ones that
-make music.
+Video and audio production uses four kinds of tools: video generators (Veo, Sora, Runway, Kling), editors (CapCut, Descript), voice tools (ElevenLabs) and music generators (Suno, Udio). The tables compare them.
 
 </details>
 
@@ -66,11 +68,10 @@ make music.
 
 ## 🎥 Prompting video models like a cinematographer
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Describe your scene like a movie director: who's in it, what they do, where, how the camera moves, the lighting, and the
-feeling.
+Describe a video shot the way a cinematographer would: subject, action, setting, camera movement, lighting, style, sound and duration, as in the example below.
 
 </details>
 
@@ -99,11 +100,15 @@ Include: **subject + action + setting + camera + lighting + style + sound + dura
 
 ## 🎞️ Pipeline 1: The 60-second AI short film
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Write a tiny story, draw a picture for each scene, turn each picture into a moving clip, add a narrator and music, and glue it
-all together.
+This pipeline produces a 60-second short film.
+
+1. Write a script with six shots using Claude.
+2. Generate a still image for each shot to lock in the look.
+3. Animate each image into a video clip.
+4. Add narration and music, then edit the clips together.
 
 </details>
 
@@ -125,11 +130,14 @@ from reusing reference images.
 
 ## 🎙️ Pipeline 2: The effortless podcast
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Record yourself talking, let AI make it sound professional, edit it by deleting words from the text, and let AI write the
-episode notes and make short clips.
+This pipeline produces a polished podcast episode.
+
+1. Record on any device, then use Adobe Podcast Enhance for studio-quality sound.
+2. Transcribe and edit in Descript by deleting words from the transcript.
+3. Have AI write show notes, titles and social clips.
 
 </details>
 
@@ -144,10 +152,14 @@ Or go meta: **Gemini Notebook Audio Overviews** turn your documents into a two-h
 
 ## 📺 Pipeline 3: The faceless YouTube explainer
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Make a teaching video without showing your face: AI helps write the script, read it aloud, find pictures and add captions.
+This pipeline produces an explainer video without appearing on camera.
+
+1. Research and write the script with Claude and web search.
+2. Generate a voiceover in ElevenLabs, or record your own.
+3. Add visuals (stock footage, generated images or screen recordings) and captions.
 
 </details>
 
@@ -160,10 +172,14 @@ Make a teaching video without showing your face: AI helps write the script, read
 
 ## 👵 Pipeline 4: The family memory video
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Turn old family photos into a gentle, moving video with a narrator and soft music, perfect for a birthday or reunion.
+This pipeline turns old family photos into a narrated video.
+
+1. Scan the photos with a phone scanning app.
+2. Restore and colorize them gently, keeping faces unchanged.
+3. Animate a few with subtle motion, then add narration and soft music.
 
 </details>
 
@@ -181,11 +197,10 @@ Turn old family photos into a gentle, moving video with a narrator and soft musi
 
 ## 🌍 Dubbing, translation & accessibility
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-AI can translate your video into other languages with a voice that sounds like you, and add captions so everyone can follow
-along.
+AI can add accurate captions, translate videos into other languages, and dub them with a voice that matches the original speaker. Captions also make your content accessible and are important because most social video is watched without sound.
 
 </details>
 
@@ -198,10 +213,10 @@ along.
 
 ## ✅ Production checklist
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Before you share your video, check a few things: does it look good, does it sound good, is it fair, and can everyone enjoy it?
+Before publishing, check this list: a tight script, consistent visuals, clean audio, captions, disclosure where appropriate and the right format for each platform.
 
 </details>
 
@@ -216,11 +231,10 @@ Before you share your video, check a few things: does it look good, does it soun
 
 ## ⚖️ Ethics & consent
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Never copy someone's voice or face without asking, never make fake videos that could trick people, and always tell viewers
-when it's AI if it could confuse them.
+Clone voices only with explicit consent, never create deceptive deepfakes of real people, label AI-generated content where viewers could be misled, and follow each platform's disclosure rules.
 
 </details>
 

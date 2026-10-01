@@ -9,7 +9,7 @@ One-time setup:
     pip install -r requirements-pdf.txt
     python -m playwright install chromium         # plus an emoji font, e.g. fonts-noto-color-emoji
 
-How it works: every rendered page of the site is cleaned up for paper (ELI5 boxes and quiz answers
+How it works: every rendered page of the site is cleaned up for paper (Key Points & Steps boxes and quiz answers
 opened, tabs unrolled, links turned into jumps inside the book), then stitched into one HTML book with a
 cover, a legend, contents, part dividers and a back cover. Chromium prints it, and PyMuPDF finishes it:
 page numbers, running headers and bookmarks. Page references ("p. 42") are filled in by printing again
@@ -38,8 +38,8 @@ from pygments.formatters import HtmlFormatter
 sys.path.insert(0, str(Path(__file__).parent))
 from sync_manual import PARTS, ROOT, pages_in  # noqa: E402
 
-SITE_URL = "https://axmann8.github.io/AI_For_Advanced_Beginners/"
-REPO_URL = "https://github.com/Axmann8/AI_For_Advanced_Beginners"
+SITE_URL = "https://axmann8.github.io/The_Massive_AI_Manual/"
+REPO_URL = "https://github.com/Axmann8/The_Massive_AI_Manual"
 TITLE = "The Massive AI Manual"
 PAPER = {"letter": ("8.5in", "11in"), "a4": ("210mm", "297mm")}
 CACHE = ROOT / ".cache" / "pdf"
@@ -156,7 +156,7 @@ def clean(art: Tag, doc: Doc) -> None:
     for c in art.find_all(string=lambda s: isinstance(s, Comment)):
         c.extract()
     for sel in ["a.headerlink", ".chapter-done", ".progress-tracker", "script", "button", "input",
-                ".chapter-toc__title span", ".eli5-toggle"]:
+                ".chapter-toc__title span"]:
         for el in art.select(sel):
             el.decompose()
     for a in art.select("a.next-chapter"):
@@ -328,10 +328,12 @@ def build_docs(site: Path) -> list[Doc]:
             doc.extras["lead"] = str(lead) if lead is not None and lead.name == "p" else ""
             if doc.extras["lead"]:
                 lead.decompose()
-            eli5 = art.select_one("details.eli5")
-            doc.extras["eli5"] = eli5.p.decode_contents() if eli5 and eli5.p else ""
-            if eli5:
-                eli5.decompose()
+            points = art.select_one(".admonition.keypoints, details.keypoints")
+            if points is not None:
+                for t in points.select(":scope > .admonition-title, :scope > summary"):
+                    t.decompose()
+                doc.extras["keypoints"] = points.decode_contents().strip()
+                points.decompose()
             # the chapter list lives on the divider, so drop the card grid (and its heading)
             for grid in art.select("div.grid.cards"):
                 h = grid.find_previous_sibling("h2")
@@ -346,7 +348,7 @@ def build_docs(site: Path) -> list[Doc]:
     heads |= {d.anchor for d in docs}
     rewrite = link_rewriter(docs)
     for doc, art in zip(docs, arts):
-        for lead in ("lead", "eli5"):
+        for lead in ("lead", "keypoints"):
             if doc.extras.get(lead):
                 frag = BeautifulSoup(f"<div>{doc.extras[lead]}</div>", "lxml").div
                 for ab in frag.find_all("abbr"):
@@ -378,9 +380,9 @@ def cover(stats: list[tuple[str, str]], edition: str) -> str:
   <div class="rocket">🚀</div>
   <div class="title">The Massive<br><em>AI</em> Manual</div>
   <p class="subtitle">Your very first chat, every major assistant (ChatGPT, Gemini, Claude, Copilot, Grok, Perplexity
-  and more), and <strong style="color:#fff">everything that comes next:</strong> connecting AI to your apps, automating
-  your life, building your own tools and agents, running models at home, making art and music, and using it all in real
-  life, with an 🧸 ELI5 for everything.</p>
+  and more), and <strong>everything that comes next:</strong> connecting AI to your apps, automating your life, building
+  your own tools and agents, running models at home, making art and music, and using it all in real life. Every chapter
+  and section opens with clear Key Points &amp; Steps.</p>
   <div class="stats">{pills}</div>
   <div class="foot"><div><strong>{html.escape(edition)}</strong>Free and open, forever.</div>
   <div style="text-align:right">{SITE_URL.removeprefix("https://").rstrip("/")}</div></div>
@@ -389,8 +391,8 @@ def cover(stats: list[tuple[str, str]], edition: str) -> str:
 
 def legend(chapters: int, parts: int) -> str:
     boxes = [
-        ("eli5", "🧸 ELI5", "The idea explained like you're five. Every chapter and every section has one. "
-                            "Short on time? Read only these and you'll still get the big picture."),
+        ("keypoints", "✅ Key Points & Steps", "The essentials of a chapter or section, with numbered steps when there's "
+                                              "something to do. Short on time? Read these and you'll still get the big picture."),
         ("tryit", "🎮 Try this", "A hands-on challenge to do right now. Ten minutes of doing beats an hour of reading."),
         ("quiz", "❓ Check yourself", "Quick questions at the end of each chapter. The answer sits right under each one, "
                                      "so cover it with your hand first! 🙈"),
@@ -413,7 +415,7 @@ confident? Skim the contents, pick the part that makes you curious, and dive in.
 <ul>
 <li><strong>Page references.</strong> When the text points somewhere else in the book, a small page number follows the link,
 like this: <a href="#legend">How to Read This Book</a><span class="pref">p.&#8239;{ref("legend")}</span>.</li>
-<li><strong>Every chapter starts the same way:</strong> a reading-time chip, a one-paragraph ELI5 of the whole chapter, and an
+<li><strong>Every chapter starts the same way:</strong> a reading-time chip, a ✅ Key Points &amp; Steps box with the chapter's essentials, and an
 <em>In this chapter</em> map with page numbers.</li>
 <li><strong>Reading on screen?</strong> Every link, contents entry and chapter map is clickable, and the bookmarks panel lists
 every part, chapter and section.</li>
@@ -476,15 +478,15 @@ def divider(part: Doc, chapters: list[Doc]) -> str:
             f'<span class="name">{html.escape(plain(short) or short)}</span><span class="leader"></span>'
             f'<span class="pg">{ref(d.anchor)}</span></a>'
         )
-    eli5 = part.extras.get("eli5")
-    eli5_html = f'<div class="eli5-card"><p><span class="label">🧸 ELI5:</span>{eli5}</p></div>' if eli5 else ""
+    points = part.extras.get("keypoints")
+    points_html = f'<div class="points-card"><p class="label">✅ Key points</p>{points}</div>' if points else ""
     return f"""
 <section class="full divider"><div class="inner">
   <div class="part-kicker">{html.escape(kicker)}</div>
   <div class="part-emoji">{emoji}</div>
   <h1 class="part-title" id="{part.anchor}" data-bm="{html.escape(emoji + " " + label)}">{html.escape(name)}</h1>
   {f'<div class="lead">{part.extras["lead"]}</div>' if part.extras.get("lead") else ""}
-  {eli5_html}
+  {points_html}
   <div class="chapter-list"><div class="list-title">{"In this part" if part.folder.startswith("part-") else "Inside"}</div>{"".join(rows)}</div>
 </div></section>"""
 
@@ -715,7 +717,7 @@ def finish(pdf: Path, out: Path, docs: list[Doc], heads, pages: dict[str, int], 
         "title": f"{TITLE}: From Absolute Beginner to Advanced Beginner",
         "author": "The Massive AI Manual",
         "subject": "A friendly, hands-on manual for everything after \"what is an LLM?\"",
-        "keywords": "AI, MCP, connectors, automation, n8n, Zapier, Notion, agents, Claude Code, local AI, ELI5",
+        "keywords": "AI, beginners, ChatGPT, Gemini, Claude, Copilot, MCP, connectors, automation, n8n, Zapier, Notion, agents, local AI",
         "creator": f"scripts/build_pdf.py · {edition}",
         "producer": "Chromium + PyMuPDF",
     })

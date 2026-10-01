@@ -6,13 +6,15 @@
 loop yourself, every "AI agent" product stops being mysterious, and you can build custom agents for anything: research,
 files, inboxes, games, your home. The secret is surprisingly small. Let's open the hood. 🔧
 
-<details class="eli5" open>
-<summary>🧸 ELI5: This chapter in 30 seconds</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-An agent is an AI that can **do things**, not just talk. You give it a goal and a toolbox (a calculator, a file reader, a web
-search). It thinks "I need the calculator," uses it, looks at the answer, thinks again, uses another tool, and keeps going
-until the job is done. That "think → use a tool → look → think again" circle is called **the loop**, and you'll write it
-yourself in about 100 lines.
+An agent is an AI that takes actions to reach a goal. You give it a goal and a set of tools; it decides which tool to use, reviews the result, and repeats until the task is complete. This chapter shows you how to write that loop yourself in about 100 lines of Python.
+
+1. **Understand the loop:** goal, tool request, result, repeat.
+2. **Run the starter agent** and read through its code.
+3. **Design good tools** and add safeguards like step limits and approvals.
+4. **Debug and extend** the agent, or move to an SDK or framework when you need more.
 
 </details>
 
@@ -27,11 +29,10 @@ yourself in about 100 lines.
 
 ## 🧩 The whole secret, in one diagram
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Your program sends the AI a goal and a list of tools. The AI says "please use this tool." Your program uses it and reports
-back. Repeat until the AI says "done!"
+Your program sends the model a goal and a list of tools. The model responds with a request to use a tool; your code runs it and returns the result. This repeats until the model gives a final answer, as the diagram shows.
 
 </details>
 
@@ -58,11 +59,10 @@ sequenceDiagram
 
 ## 🤔 When do you actually need an agent?
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Not every job needs an agent. If the steps are always the same, a simple recipe is better. Agents are for jobs where the AI
-has to figure out the steps as it goes.
+Not every task needs an agent. A single call suits one-step tasks, and a fixed workflow suits tasks with predictable steps. Use an agent only when the AI needs to decide the steps as it goes. The table compares the patterns.
 
 </details>
 
@@ -78,10 +78,14 @@ the task is **open-ended and multi-step**, and the model needs to decide the pat
 
 ## 🚀 Hands-on: run the ~100-line agent
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-This repo includes a tiny, complete agent with four safe tools. You run it with one command and watch every step it takes.
+This repository includes a complete agent with four safe tools.
+
+1. Open the [build-your-own-agent kit](../../examples/build-your-own-agent/) and install its requirements.
+2. Set your API key as an environment variable.
+3. Run the agent with a goal and watch each step it prints.
 
 </details>
 
@@ -100,11 +104,10 @@ scroll by is the moment agents "click." 💡
 
 ## 🔍 Walkthrough of `agent.py`
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Three parts: a menu that describes the tools, the actual tools, and the loop that keeps asking the AI "what next?" until it's
-done.
+The agent has three parts: **tool definitions** (names, descriptions and input schemas the model reads), **tool implementations** (the Python functions that do the work), and **the loop** that sends messages, runs requested tools and returns results until the task is done.
 
 </details>
 
@@ -147,11 +150,10 @@ That's the entire engine of every coding agent, research agent and automation ag
 
 ## 🏅 Details that separate toy agents from good ones
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Small details make a big difference: telling the AI when a tool failed (so it can try something else), setting a step limit
-so it can't run forever, and keeping a diary of every step.
+A few details make an agent reliable: return all tool results together, send errors back so the model can adjust, cap the number of steps, and log every step. The table explains each.
 
 </details>
 
@@ -168,11 +170,10 @@ so it can't run forever, and keeping a diary of every step.
 
 ## 🛠️ Designing great tools
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-A good tool does one clear job, has a name that explains itself, and gives back short, useful answers. Think of making tools
-for a clever new helper who has never seen your house.
+Good tools do one clear job, have descriptive names and parameters, include descriptions with examples, and return concise, useful results. The table contrasts good and poor tool design.
 
 </details>
 
@@ -192,11 +193,10 @@ for a clever new helper who has never seen your house.
 
 ## 📈 Leveling up your agent
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Once the basic agent works, you can make it ask permission before risky actions, remember things between runs, plug in
-ready-made tools, and let the SDK do the boring loop code for you.
+Once the basic agent works, you can add approval prompts before risky actions, save memory between runs, connect MCP servers for ready-made tools, and switch to the SDK's tool runner to handle the loop for you.
 
 </details>
 
@@ -229,11 +229,10 @@ For file editing, shell commands, search, subagents and context management out o
 
 ## 🧭 Choosing how to build agents
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-You can build agents from scratch, with a helper library, with a big framework, or with drag-and-drop tools. Start simple and
-move up when you need more.
+You can build agents with a hand-written loop, an SDK helper, a full framework or a visual tool like n8n. Start with the simplest approach that works, and move up when you need more features. The table compares them.
 
 </details>
 
@@ -248,11 +247,10 @@ move up when you need more.
 
 ## 🐞 Debugging agents
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-When an agent does something silly, read its diary (the log of every step). Usually a tool description was confusing or a
-tool gave back something unhelpful.
+When an agent misbehaves, read its step-by-step log. The cause is usually an unclear tool description or an unhelpful tool result. The table pairs common symptoms with fixes.
 
 </details>
 
@@ -267,11 +265,16 @@ tool gave back something unhelpful.
 
 ## 🏛️ Agent design principles
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Five rules for good agents: simple tools, a way to check its work, a small playground, limits on everything, and always
-keeping a diary.
+Five principles guide good agent design:
+
+1. Use a few well-described tools rather than many vague ones.
+2. Give the agent a way to verify its work.
+3. Restrict it to a limited workspace.
+4. Set limits on steps, time and cost.
+5. Log everything.
 
 </details>
 
@@ -283,10 +286,10 @@ keeping a diary.
 
 ## 💡 Agent ideas to build
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-A dozen agents you could build, each with the tools it needs.
+The table suggests a dozen agents to build, along with the tools each one needs.
 
 </details>
 

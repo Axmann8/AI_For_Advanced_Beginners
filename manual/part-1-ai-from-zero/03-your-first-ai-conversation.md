@@ -7,12 +7,15 @@ useful conversation: getting in, finding your way around the screen, ten great f
 and what to do when something looks odd. It works with ChatGPT, Gemini, Claude, Copilot and friends, so pick whichever
 you like. 🎉
 
-<details class="eli5" open>
-<summary>🧸 ELI5: This chapter in 30 seconds</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Go to the AI's website or app, sign in like you would for email, and type a question into the box at the bottom, just
-like texting. The AI texts back. You can ask follow-up questions, ask it to change its answer, or start a brand-new chat
-any time. That's honestly all there is to it, and this chapter shows you each click.
+Using an AI chatbot works much like texting. This chapter walks through every step of your first conversation, from signing in to managing your chat history.
+
+1. **Open** an assistant's website or app and sign in.
+2. **Type a message** in the box at the bottom and press Enter.
+3. **Reply with follow-ups** to refine the answer: shorter, simpler, more detailed.
+4. **Use the buttons** to copy, regenerate or edit, and the sidebar to find past chats.
 
 </details>
 
@@ -20,10 +23,14 @@ any time. That's honestly all there is to it, and this chapter shows you each cl
 
 ## 🚪 Step 1: Get in the door
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Pick one AI, open its website or download its app, and sign in. Some let you try without an account at all.
+Choose one assistant to start with. ChatGPT, Gemini and Claude are all good first choices, and you can try the others later.
+
+1. Go to the assistant's website or install its app.
+2. Sign up or sign in, typically with a Google, Apple, Microsoft or email account.
+3. Confirm you see a message box ready for your first question.
 
 </details>
 
@@ -74,11 +81,10 @@ Assistant](04-choosing-your-first-assistant.md) helps you choose for the long ru
 
 ## 🖥️ Step 2: A quick tour of the screen
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Every AI app looks a lot like a texting app: a box at the bottom for your message, the conversation in the middle, and a
-list of old chats on the side.
+Nearly every AI app shares the same layout: a message box at the bottom, the conversation in the middle, buttons for attachments and voice, and a sidebar listing past chats. The table below explains each area.
 
 </details>
 
@@ -100,10 +106,10 @@ Every chatbot has the same basic layout, whatever the brand:
 
 ## 💬 Step 3: Say hello (your first 10 messages)
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Here are ten fun, useful things to type so you can see what the AI can do. Copy them, change them, make them yours.
+The ten starter prompts below show the range of what an assistant can do, from explaining a concept to planning a meal. Send them one at a time and adjust the details to fit your own life.
 
 </details>
 
@@ -135,11 +141,10 @@ secret, and [Prompting 101](06-prompting-101.md) shows how to make your requests
 
 ## 🔘 Step 4: The buttons that matter
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Under each answer are little buttons: copy it, ask for a new version, or give it a thumbs up or down. You can also fix
-your own message if you made a typo.
+Each answer has small buttons for common actions. The most useful are copy, regenerate (for a different version) and edit (to change your own message and get a new answer from that point).
 
 </details>
 
@@ -162,11 +167,14 @@ Hover over (or long-press) an answer and you'll see small icons. Here's what the
 
 ## 🔁 Step 5: Keep the conversation going
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-The magic is in the back-and-forth. If the answer isn't quite right, just tell it what to change, like you would with a
-friend.
+The most effective way to use AI is as a conversation, not a single search. If an answer is close but not quite right, tell the assistant exactly what to change rather than starting over.
+
+1. Read the answer and decide what's missing or off.
+2. Reply with a specific adjustment, such as *"shorter"* or *"more examples."*
+3. Repeat until the result is what you need.
 
 </details>
 
@@ -187,10 +195,10 @@ You'll master this in [Prompting 102](07-prompting-102.md).
 
 ## 🗂️ Step 6: Find, rename and delete your chats
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Your old chats are saved in a list, like old text conversations. You can reopen them, rename them, or delete them.
+Your conversations are saved in the sidebar so you can return to them later. You can search, rename or delete them, and use temporary chats for anything you don't want stored.
 
 </details>
 
@@ -202,10 +210,10 @@ Your old chats are saved in a list, like old text conversations. You can reopen 
 
 ## 🩹 Step 7: When something looks odd
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Sometimes the app hiccups: it stops mid-sentence or says there's an error. That's normal. Usually trying again fixes it.
+Occasional glitches are normal and rarely mean anything is wrong. The table below lists common issues, such as an answer stopping partway or a usage-limit message, and how to fix each one.
 
 </details>
 

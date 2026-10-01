@@ -6,14 +6,15 @@
 the single most important idea in this whole manual, because once it clicks, you'll see how AI grows "hands" and "eyes",
 and you'll be able to give your own AI new superpowers in minutes.
 
-<details class="eli5" open>
-<summary>🧸 ELI5: This chapter in 30 seconds</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Imagine your AI is a super-smart robot friend who lives inside a box. It can talk, but it can't touch anything
-outside the box. **MCP is a set of little doors in the box.** Each door leads to one thing: your calendar, your
-notes, GitHub, a web browser. When you install an "MCP server," you're adding a new door. Now your robot friend
-can reach through it and actually *do* stuff for you. And because every door is the same shape, any robot
-(Claude, ChatGPT, Cursor…) can use any door.
+The Model Context Protocol (MCP) is an open standard for connecting AI apps to outside tools and data. An MCP server exposes a service, such as your calendar, GitHub or a web browser, in a format any MCP-compatible app can use. Install a server once, and Claude, ChatGPT, Cursor and other apps can all work with it.
+
+- **Three roles:** the host (the AI app), the client (its connection) and the server (the tool provider).
+- **Servers offer** tools (actions), resources (data to read) and prompts (reusable templates).
+- **Servers run locally** on your computer or **remotely** at a URL.
+- **Get started** by installing a few servers, then learn to debug them and keep them secure.
 
 </details>
 
@@ -21,11 +22,10 @@ can reach through it and actually *do* stuff for you. And because every door is 
 
 ## 🧩 The problem MCP solves
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Before MCP, every AI app needed its own special cable for every service, like a drawer full of tangled chargers.
-MCP is one shape of plug that works everywhere, so services build **one** plug and every AI can use it.
+Before MCP, every AI app needed a custom integration for every service. MCP replaces that with one standard: a service builds a single MCP server, and every compatible app can use it.
 
 </details>
 
@@ -68,11 +68,10 @@ and an [official server registry](https://registry.modelcontextprotocol.io).
 
 ## 🏠 The three roles: host, client, server
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-The **host** is the house (the AI app you use). The **server** is a helper who knows how to do one job, like fetching
-the mail. The **client** is the walkie-talkie inside the house that talks to that helper. One walkie-talkie per helper.
+MCP has three roles. The **host** is the AI app you use. The **server** is a program that provides tools for one service. The **client** is the connection the host maintains to each server, one client per server.
 
 </details>
 
@@ -104,11 +103,10 @@ The server is the translator, and the host is the security guard that decides wh
 
 ## 🧰 What a server can offer
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-A server can hand your AI three kinds of things: **tools** (buttons the AI can press), **resources** (books the AI can
-read), and **prompts** (recipe cards you can pick). Tools are the big one: they let AI *do* things.
+A server can offer three kinds of capabilities: **tools**, actions the model decides to use; **resources**, data the app can read; and **prompts**, reusable templates you choose from a menu. Tools are by far the most common.
 
 </details>
 
@@ -148,12 +146,10 @@ means remote servers get faster and more reliable. For builders, see [MCP Under 
 
 ## 🌍 Local vs. remote servers
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-A **local** server is a helper who lives *in your house* (runs on your computer), which makes it great for your files. A
-**remote** server lives *somewhere else on the internet*, and you just call it on the phone (a URL). Remote ones are
-easier to set up, and local ones can touch your own stuff.
+A **local** server (stdio) runs on your computer and can access your files and apps. A **remote** server (Streamable HTTP) runs elsewhere and is reached by URL, usually with a login. Remote servers are easier to set up; local ones can work with things on your machine.
 
 </details>
 
@@ -171,11 +167,10 @@ remain king for anything on *your* machine (files, browsers, local databases, ho
 
 ## 🔗 How a tool call actually flows
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-You ask a question. The AI looks at its list of buttons, picks one, and asks the app to press it. The app presses the
-button (after checking with you if needed), gets the answer, and hands it back to the AI, who then explains it to you.
+When you ask a question, the model reviews the available tools and requests one. The host runs it on the server (asking your permission if configured to), then returns the result to the model, which uses it in its answer. The diagram shows each step.
 
 </details>
 
@@ -204,11 +199,10 @@ Notice step 6: **the approval gate lives in the host**, not the model. That's wh
 
 ## 📲 Installing servers, app by app
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Every AI app has a "plug in a new door" screen. Some let you click a button in a store. Others want you to write a tiny
-note (a config file) saying where the helper lives. Either way it takes a minute or two.
+Every MCP-compatible app has a way to add servers: some through a directory where you click to connect, others through a configuration file listing each server. The sections below give the steps for each major app.
 
 </details>
 
@@ -276,11 +270,15 @@ Codex CLI, Windsurf, Zed, LM Studio, Goose, n8n, Raycast… all speak MCP with n
 
 ## ⚡ Your first 15 minutes with MCP
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-We'll give your AI three new doors: one to a play folder, one to the web, and one to a memory notebook. Then we'll ask
-it to use all three at once and watch the magic happen.
+This exercise sets up three servers and uses them together.
+
+1. Install Claude Desktop (or another MCP host) and create a folder called `ai-playground`.
+2. Add the Filesystem, Fetch and Memory servers to your configuration.
+3. Fully restart the app and confirm the tools appear.
+4. Ask the AI to read a web page, save a summary in the folder and remember a fact about you.
 
 </details>
 
@@ -299,11 +297,10 @@ it to use all three at once and watch the magic happen.
 
 ## 🩺 Debugging MCP like a pro
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-When a door won't open, it's almost always one of four things: the app wasn't fully restarted, there's a typo in the
-note, the computer can't find the helper program, or the helper needs a password (API key) it didn't get.
+Most MCP problems have one of four causes: the app wasn't fully restarted, the configuration file has a typo, the system can't find the server's command, or a required API key is missing. The table lists symptoms and fixes.
 
 </details>
 
@@ -327,11 +324,14 @@ note, the computer can't find the helper program, or the helper needs a password
 
 ## 🔐 Security hygiene: the quick version
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Only let helpers into your house if you trust them, give each one the smallest key that works, and make the app ask you
-before anyone sends, deletes or buys something.
+Keep your MCP setup secure with three habits:
+
+1. Install servers only from trusted sources, such as official vendors and the MCP registry.
+2. Grant the minimum access each server needs.
+3. Require approval before any action that sends, deletes or spends.
 
 </details>
 
@@ -347,11 +347,10 @@ The full story, including tool poisoning and how to audit a server in 5 minutes,
 
 ## 🦄 Myths & quick answers
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Lots of people think MCP is only for programmers, or only for Claude, or that it gives AI access to everything. None of
-those are true, and here's why.
+This section corrects common misconceptions: MCP isn't only for developers, isn't exclusive to Claude, and doesn't give AI unrestricted access to your accounts.
 
 </details>
 

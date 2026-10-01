@@ -1,18 +1,21 @@
 # 108 · Teaching Others About AI: Pass the Magic On 🧑‍🏫✨
 
-> ⏱️ 7 min read · 🎯 Anyone who's become "the AI person" among friends, family or coworkers · 🧰 Needs: a laptop or phone, a projector for workshops (optional), and patience
+> ⏱️ 8 min read · 🎯 Anyone who's become "the AI person" among friends, family or coworkers · 🧰 Needs: a laptop or phone, a projector for workshops (optional), and patience
 
 **You've learned a lot. Now you're probably the person everyone asks "wait, how did you do that?"** Teaching others is one of the
 most rewarding things you can do with your new skills, and one of the best ways to deepen them. This chapter gives you a
 15-minute first-demo recipe, a bank of simple analogies, ways to meet skeptics, worriers and enthusiasts where they are, honest
 answers to common fears, workshop outlines, and tips for building an AI-friendly culture at work. 🌱➡️🌳
 
-<details class="eli5" open>
-<summary>🧸 ELI5: This chapter in 30 seconds</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-When you learn a cool magic trick, it's fun to teach your friends! Teaching AI works best when you show people something that
-helps **them** (not you), use simple comparisons they understand, answer their worries honestly, and let them try it themselves
-right away. Soon they'll be teaching others too. 🪄👫
+Teaching others to use AI works best when you focus on their problems, explain concepts with familiar comparisons, address their concerns honestly and let them try it themselves right away.
+
+1. **Start with their problem,** not the features you find most impressive.
+2. **Run a short, hands-on demo,** and adapt your approach to skeptics, worriers and enthusiasts.
+3. **Answer common fears honestly.**
+4. **Scale up** with workshops and team practices, and measure whether people keep using it.
 
 </details>
 
@@ -20,10 +23,10 @@ right away. Soon they'll be teaching others too. 🪄👫
 
 ## 🎯 The golden rule: start with *their* problem
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Don't show people the coolest trick; show them the trick that fixes something annoying in *their* life.
+The most effective demonstration solves a problem the other person actually has. Ask about a task they find tedious, and show AI helping with that.
 
 </details>
 
@@ -41,10 +44,15 @@ problem in front of them.
 
 ## ⏱️ The 15-minute first demo
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-In 15 minutes: ask what bugs them, show AI fixing it, let them try, and give them one easy thing to do at home.
+A first demonstration takes about fifteen minutes.
+
+1. Ask what tedious task they'd like to hand off.
+2. Show AI handling it, explaining what you're doing.
+3. Let them try it themselves on a variation.
+4. Give them one simple thing to try at home.
 
 </details>
 
@@ -60,12 +68,12 @@ In 15 minutes: ask what bugs them, show AI fixing it, let them try, and give the
 > **💡 Let them type**
 > People remember what they *do*, not what they watch. Even if it's slower, put their hands on the keyboard.
 
-## 🧸 An analogy bank for explaining AI
+## 🧩 An analogy bank for explaining AI
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Good comparisons make hard ideas easy. Here are ready-made ones for explaining how AI works.
+Well-chosen comparisons make abstract concepts easier to understand. The table offers tested analogies for language models, tokens, context windows, hallucinations and more.
 
 </details>
 
@@ -82,15 +90,15 @@ Good comparisons make hard ideas easy. Here are ready-made ones for explaining h
 | **Fine-tuning** | "Cooking lessons in grandma's recipes for an already great chef." |
 | **Local model** | "A pet robot at home instead of calling one on the phone." |
 
-**Pro tip:** this manual has an **🧸 ELI5 box for every section**, and the [ELI5 Edition](../appendices/g-eli5-edition.md)
-collects them all in one place. Perfect teaching material!
+**Pro tip:** this manual has a **✅ Key Points & Steps box for every section**, and the
+[Key Points Edition](../appendices/g-key-points-edition.md) collects them all in one place. Ready-made teaching material!
 
 ## 🎭 Meeting people where they are
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Some people are excited about AI, some are scared, and some think it's silly. Talk to each kind of person in a way that fits.
+People approach AI differently: skeptics need proof on something real, worried people need safety and reassurance, and enthusiasts need direction. The table suggests an approach for each.
 
 </details>
 
@@ -105,10 +113,10 @@ Some people are excited about AI, some are scared, and some think it's silly. Ta
 
 ## 💬 Honest answers to common fears
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-People worry about jobs, privacy, cheating and the planet. Answer honestly: don't pretend AI is perfect, but share what helps.
+People commonly worry about jobs, privacy, cheating and environmental impact. Answer honestly, acknowledging real concerns while sharing practical ways to address them. The table offers answers to each.
 
 </details>
 
@@ -124,10 +132,10 @@ People worry about jobs, privacy, cheating and the planet. Answer honestly: don'
 
 ## 🏫 Workshop outlines
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Ready-made plans for teaching a group: a lunch session at work, a family afternoon, or a community class.
+The tabs provide ready-to-use outlines for a 60-minute workplace lunch session, a family workshop and a community class.
 
 </details>
 
@@ -165,10 +173,10 @@ life."* 🖨️
 
 ## 💼 Building an AI-friendly culture at work
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-At work, help everyone learn together: share good prompts, celebrate wins, and make clear, simple rules.
+To build an AI-friendly culture at work, appoint a few AI champions, keep a shared prompt library, celebrate small wins and publish a clear, simple usage policy. The table describes each practice.
 
 </details>
 
@@ -184,10 +192,10 @@ At work, help everyone learn together: share good prompts, celebrate wins, and m
 
 ## 📈 Measuring whether it worked
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-You'll know your teaching worked when people keep using AI on their own and start teaching others.
+Your teaching has worked when people use AI again on their own within a week, can explain at least one limitation and start showing others.
 
 </details>
 
@@ -200,7 +208,7 @@ You'll know your teaching worked when people keep using AI on their own and star
 
 - Start with **their** problem, not your favorite trick.
 - The **15-minute demo**: ask, show, let them drive, one wow, homework.
-- Use **simple analogies** (the ELI5 boxes in this manual are ready-made).
+- Use **simple analogies** (the analogy bank above is a good place to start).
 - Meet **skeptics, worriers and enthusiasts** where they are, and answer fears **honestly**.
 - At work: **champions, shared prompts, clear policy, celebrated wins**.
 

@@ -6,11 +6,14 @@
 writing, health, travel, fun, tech help and tricky conversations. Copy one, swap the **[bits in brackets]** for your
 own details, and send. Each one is a little lesson in good prompting, too. 🍽️
 
-<details class="eli5" open>
-<summary>🧸 ELI5: This chapter in 30 seconds</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-This is a recipe book, but for questions. Find something you need help with, copy the question, change the words in
-[brackets] to fit your life, and give it to your AI. Easy peasy.
+This chapter is a library of 101 ready-to-use prompts, organized by area of life. They work in any major assistant.
+
+1. **Find** a prompt close to what you need.
+2. **Replace** everything in [brackets] with your own details.
+3. **Send it,** then refine the answer with follow-ups.
 
 </details>
 
@@ -24,10 +27,10 @@ This is a recipe book, but for questions. Find something you need help with, cop
 
 ## 🏠 Home & family
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Prompts to help run your home: chores, family plans, organizing, and fixing little problems.
+These prompts help with running a household: chore charts, family schedules, organizing projects and small repairs.
 
 </details>
 
@@ -48,10 +51,10 @@ Prompts to help run your home: chores, family plans, organizing, and fixing litt
 
 ## 🍳 Food & cooking
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Prompts for meals, recipes, shopping lists and using up leftovers.
+These prompts cover meal ideas, weekly plans, shopping lists, recipe adjustments and using up leftovers.
 
 </details>
 
@@ -70,10 +73,10 @@ Prompts for meals, recipes, shopping lists and using up leftovers.
 
 ## 💰 Money & paperwork
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Prompts to understand bills, make a budget and deal with boring paperwork (without sharing private numbers!).
+These prompts help you understand bills, build a budget and handle paperwork. Always remove account numbers, card numbers and passwords before pasting a document.
 
 </details>
 
@@ -97,11 +100,10 @@ Prompts to understand bills, make a budget and deal with boring paperwork (witho
 
 ## 💼 Work & career
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Prompts for jobs: emails, CVs, interviews, meetings and asking for a raise. Check your workplace rules before pasting
-work documents.
+These prompts help with professional emails, CVs, interview practice, meetings and salary conversations. Check your employer's AI policy before pasting work documents.
 
 </details>
 
@@ -120,10 +122,10 @@ work documents.
 
 ## 📚 Learning & curiosity
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Prompts for learning anything: explanations, quizzes, study plans and "why" questions.
+These prompts help you learn anything: clear explanations, practice quizzes, study plans and answers to "why" questions.
 
 </details>
 
@@ -142,10 +144,10 @@ Prompts for learning anything: explanations, quizzes, study plans and "why" ques
 
 ## ✍️ Writing & messages
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Prompts for writing things: cards, invitations, social posts, speeches and awkward messages.
+These prompts help you write cards, invitations, social posts, speeches and difficult messages.
 
 </details>
 
@@ -164,11 +166,10 @@ Prompts for writing things: cards, invitations, social posts, speeches and awkwa
 
 ## ❤️ Health & wellbeing (information, not diagnosis)
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-AI can explain health stuff and help you prepare questions for your doctor, but it's not a doctor. For anything
-worrying, see a real one.
+These prompts help you understand health information and prepare questions for appointments. AI is not a substitute for a medical professional; for anything urgent or worrying, contact a doctor or emergency services.
 
 </details>
 
@@ -190,10 +191,10 @@ worrying, see a real one.
 
 ## ✈️ Travel & outings
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Prompts to plan trips, days out, packing and getting around in new places.
+These prompts help plan trips and outings, from itineraries and packing lists to local customs and getting around.
 
 </details>
 
@@ -210,10 +211,10 @@ Prompts to plan trips, days out, packing and getting around in new places.
 
 ## 🎉 Fun & creativity
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Prompts just for fun: games, stories, quizzes, jokes and creative projects.
+These prompts are for entertainment and creativity: games, stories, quizzes, poems and creative projects.
 
 </details>
 
@@ -232,10 +233,10 @@ Prompts just for fun: games, stories, quizzes, jokes and creative projects.
 
 ## 📱 Tech help
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Prompts to fix phone and computer problems, step by step, in simple language.
+These prompts get step-by-step help with phone and computer problems, explained in plain language.
 
 </details>
 
@@ -252,10 +253,10 @@ Prompts to fix phone and computer problems, step by step, in simple language.
 
 ## 🤝 Relationships & tricky conversations
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Prompts to help you think through hard talks with people you care about, and practice what to say.
+These prompts help you prepare for difficult conversations: deciding what to say, wording it kindly, and practicing through role-play.
 
 </details>
 

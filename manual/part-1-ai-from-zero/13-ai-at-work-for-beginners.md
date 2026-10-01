@@ -1,18 +1,20 @@
 # 13 · AI at Work for Beginners 💼
 
-> ⏱️ 7 min read · 🎯 Anyone with a job (or looking for one) · 🧰 Needs: your workplace's approved AI tool, or any assistant for practice
+> ⏱️ 8 min read · 🎯 Anyone with a job (or looking for one) · 🧰 Needs: your workplace's approved AI tool, or any assistant for practice
 
 **AI can take the grind out of work: the email you've been dreading, the meeting notes nobody wrote up, the spreadsheet
 formula you can never remember, the report that needs to be half as long by 5pm.** This chapter shows beginners how to
 use AI at work safely and well, with ready-made prompts for emails, meetings, documents and spreadsheets, ideas for
 every kind of job, and the rules that keep you out of trouble.
 
-<details class="eli5" open>
-<summary>🧸 ELI5: This chapter in 30 seconds</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-At work, AI is like a super-fast helper for the boring bits: writing emails, tidying notes, explaining spreadsheets and
-getting ready for tricky conversations. But work has rules: some information is secret, so first check which AI tools
-your job allows, and always read what the AI wrote before you send it.
+AI can take on much of the routine work in a typical job: drafting emails, summarizing meetings, explaining spreadsheets and preparing for difficult conversations. Workplaces have rules about confidential information, so use AI responsibly.
+
+1. **Check your employer's AI policy** and which tools are approved.
+2. **Start with low-risk tasks** like drafting emails or summarizing your own notes.
+3. **Review everything** before you send or share it; you're responsible for the result.
 
 </details>
 
@@ -20,10 +22,14 @@ your job allows, and always read what the AI wrote before you send it.
 
 ## 📜 Step zero: check the rules
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Before using AI for work, find out which AI tools your job allows and what information you're allowed to put in them.
+Before using AI for work, find out what's allowed.
+
+1. Ask which AI tools are approved (often a business version with stronger privacy protections).
+2. Ask what types of information you may and may not enter.
+3. Ask whether you need to disclose AI use.
 
 </details>
 
@@ -42,10 +48,10 @@ Before pasting anything work-related into an AI, find out:
 
 ## 📧 Email superpowers
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-AI can write emails for you, make grumpy emails polite, and turn long email chains into a short summary.
+AI can draft emails from bullet points, soften a tense reply, adjust the tone of your message and summarize long threads. The table includes prompts for each task.
 
 </details>
 
@@ -64,10 +70,10 @@ Superpowers](../part-6-ai-in-your-apps/57-email-and-calendar.md).
 
 ## 🗓️ Meetings: before, during, after
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-AI can help you prepare for meetings, take notes during them, and write up who needs to do what afterwards.
+AI helps at every stage of a meeting: preparing an agenda and questions beforehand, taking notes during the call (with built-in tools in Zoom, Teams and Meet), and summarizing decisions and action items afterward.
 
 </details>
 
@@ -80,10 +86,10 @@ AI can help you prepare for meetings, take notes during them, and write up who n
 
 ## 📝 Documents, reports and presentations
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-AI can help you plan a document, write a first draft, make long things shorter and turn notes into slides.
+For documents and presentations, AI can suggest a structure, produce a first draft, condense long material, rewrite content for a specific audience and turn notes into slides.
 
 </details>
 
@@ -96,10 +102,10 @@ AI can help you plan a document, write a first draft, make long things shorter a
 
 ## 📊 Spreadsheets without the fear
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Spreadsheets can be scary. AI can write the formulas for you and explain what your numbers mean.
+AI can write spreadsheet formulas from a plain-language description, explain what an existing formula does and summarize what your data shows.
 
 </details>
 
@@ -115,10 +121,10 @@ Copilot in Excel and Gemini in Google Sheets can do much of this inside the spre
 
 ## 🧠 A thinking partner for tricky moments
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-AI is great for practicing hard conversations and thinking through problems, like having a wise coworker to talk to.
+AI is useful for thinking through difficult situations at work: rehearsing a tough conversation through role-play, preparing constructive feedback, or weighing the pros and cons of a decision.
 
 </details>
 
@@ -132,10 +138,10 @@ AI is great for practicing hard conversations and thinking through problems, lik
 
 ## 🛠️ Ideas for every kind of job
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-AI isn't just for office jobs. Here are ideas for shops, schools, hospitals, trades and more.
+AI is useful in almost every line of work, not only office jobs. The table lists practical ideas for retail, healthcare, education, trades and more.
 
 </details>
 
@@ -153,11 +159,16 @@ AI isn't just for office jobs. Here are ideas for shops, schools, hospitals, tra
 
 ## ⚠️ Five rules for using AI at work
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Five simple rules: follow company rules, keep secrets secret, check the facts, make it sound like you, and be honest
-about using AI.
+Follow these five rules whenever you use AI at work:
+
+1. Use only approved tools for work data.
+2. Review every output; you're responsible for what you send.
+3. Edit drafts so they sound like you.
+4. Verify facts, figures and names.
+5. Be open about AI use where your workplace expects it.
 
 </details>
 
@@ -170,10 +181,10 @@ about using AI.
 
 ## 📈 AI skills are career skills
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Knowing how to use AI well is becoming a skill that helps you get jobs and do better at work.
+Using AI well is becoming an expected workplace skill, much like using email. Start with one small task each week and build from there.
 
 </details>
 

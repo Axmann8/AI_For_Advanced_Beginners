@@ -5,12 +5,15 @@
 **This is the fastest route from "I use AI to answer questions" to "my AI reads my files, browses the web, remembers me,
 and runs a little automation."** Six mini-missions, ten minutes each. Grab a drink, put on a good playlist, and let's go. 🎧
 
-<details class="eli5" open>
-<summary>🧸 ELI5: This hour in 30 seconds</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-In one hour you'll give your AI friend **eyes** (it reads your stuff), **hands** (it does things), a **memory** (it
-remembers you), and a **little robot helper** that works while you're away. Each mission is a small step, and every step
-ends with a "wow" moment.
+This hour-long session takes you through six short missions that show what modern AI assistants can really do beyond simple chat.
+
+- **You'll connect your own data,** add tools through MCP, and give your assistant a memory.
+- **You'll build a working mini app** and a reusable custom assistant just by describing them.
+- **You'll set up a first automation** that runs on a schedule without you.
+- **What you need:** a free account with ChatGPT, Gemini or Claude; Claude Desktop for mission 2.
 
 </details>
 
@@ -18,10 +21,10 @@ ends with a "wow" moment.
 
 ## 🗺️ The plan
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Six small missions. Do them in order and you'll feel like a wizard by the end.
+Each mission takes about ten minutes and builds on the one before, so it works best in order. The table shows the timing and the capability each mission adds.
 
 </details>
 
@@ -36,11 +39,14 @@ Six small missions. Do them in order and you'll feel like a wizard by the end.
 
 ## 1️⃣ Connect your own data (0–10 min)
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-We'll let the AI peek at *your* files (with your permission) so it can answer questions about your real life instead of
-the whole internet.
+Connecting an app lets the AI answer questions using your real email, files or calendar instead of only its general knowledge. You choose exactly what it can access, and you can disconnect at any time.
+
+1. Pick **one** app you use daily (Gmail, Drive, Calendar, Outlook, Notion or GitHub).
+2. Open your assistant's connector settings (steps for each assistant are below) and sign in.
+3. Ask a question only your data can answer, such as *"What's on my calendar this week?"*
 
 </details>
 
@@ -79,11 +85,14 @@ Then start a new chat and ask:
 
 ## 2️⃣ Install your first MCP servers (10–20 min)
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Now we give the AI "hands": a little program that lets it create files in a safe play folder, and another that lets it
-read any web page.
+MCP servers are small programs that give your AI new abilities. Here you'll add two: one that reads web pages and one that can create files, limited to a single folder you choose.
+
+1. Install **Claude Desktop** and create a folder for the AI to work in.
+2. Paste the configuration below into the settings file and restart the app.
+3. Test it by asking the AI to read a web page and save a summary into that folder.
 
 </details>
 
@@ -123,10 +132,14 @@ read any web page.
 
 ## 3️⃣ Give your AI a memory (20–30 min)
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Normally AI forgets you after every chat. The memory server is like a notebook it can write in and read later.
+By default, an assistant starts every chat from scratch. A memory feature (or the Memory MCP server you just installed) lets it store facts about you and use them in later conversations.
+
+1. Tell the assistant a few facts and preferences, and ask it to remember them.
+2. Open a brand-new chat and ask what it knows about you.
+3. Review what's stored from time to time, and delete anything you don't want kept.
 
 </details>
 
@@ -143,10 +156,14 @@ The config above already added the **Memory** server. Now try:
 
 ## 4️⃣ Build a mini app in chat (30–40 min)
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-You describe a tiny app in normal words, and the AI builds a working one right there on the screen that you can click and play with.
+Features like Claude Artifacts, ChatGPT Canvas and Gemini Canvas can build small interactive apps from a plain-language description and run them right in the chat.
+
+1. Describe the app you want, including what it should do and how it should look.
+2. Try the result immediately.
+3. Ask for one change at a time until it works the way you want.
 
 </details>
 
@@ -166,10 +183,14 @@ Then iterate, one change at a time:
 
 ## 5️⃣ Create a reusable assistant (40–50 min)
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Instead of explaining what you want every time, you write it down once, and the AI remembers it for that job forever.
+A Project (Claude or ChatGPT) or a Gem (Gemini) stores instructions for a recurring task, so you don't have to repeat them every time.
+
+1. Choose a task you do often, such as meal planning or writing emails.
+2. Create a Project or Gem and paste in instructions like the example below.
+3. Start each new conversation inside it with a short request, like *"plan my week."*
 
 </details>
 
@@ -186,11 +207,14 @@ Now just say *"plan my week"* whenever you want. ✨
 
 ## 6️⃣ Your first automation (50–60 min)
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-An automation is a little robot that does a job by itself when something happens, like "every morning at 7" or "when an
-email arrives." We'll make one that sends you a daily AI summary.
+An automation runs a task for you whenever something happens, such as a set time each day or a new email arriving. You'll set up a simple daily briefing.
+
+1. Choose the easiest option below (your assistant's scheduled tasks, Zapier, or a phone shortcut).
+2. Set the schedule and write the instruction the AI should follow.
+3. Run it once manually to check the result, then let it run on its own.
 
 </details>
 
@@ -211,11 +235,10 @@ Pick the easiest option for you:
 
 ## 🏁 You did it! What's next?
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-You now have an AI that sees, does, remembers, builds and works on autopilot. Pick whichever part felt the most fun and
-go deeper there.
+In one hour you've connected data, added tools, set up memory, built an app, created a custom assistant and automated a task. Choose the mission you enjoyed most and use the table below to find the chapters that go deeper.
 
 </details>
 

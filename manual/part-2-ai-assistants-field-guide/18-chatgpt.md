@@ -1,18 +1,21 @@
 # 18 · ChatGPT: The Complete Guide 💬
 
-> ⏱️ 12 min read · 🎯 Beginners to advanced beginners · 🧰 Needs: a free ChatGPT account (chatgpt.com)
+> ⏱️ 13 min read · 🎯 Beginners to advanced beginners · 🧰 Needs: a free ChatGPT account (chatgpt.com)
 
 **ChatGPT is the assistant that started the AI boom in late 2022, and it's still the most-used AI app in the world.**
 It's a genuine all-rounder: conversation, voice, vision, images, web search, deep research, memory, projects, apps and
 an agent that can do multi-step work for you. This guide takes you from your first chat to the power features, with
 step-by-step recipes and the privacy switches worth knowing.
 
-<details class="eli5" open>
-<summary>🧸 ELI5: This chapter in 30 seconds</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-ChatGPT is like a Swiss Army knife of AI: it can chat, talk out loud, look at photos, draw pictures, search the internet,
-write long reports, remember things about you, and even do jobs on the web for you. This chapter shows you where each
-tool is and how to use it.
+ChatGPT, made by OpenAI, is the most widely used AI assistant and one of the most feature-rich. This chapter covers everything from setup to its most advanced tools.
+
+- **Core features:** conversation, voice, image understanding and creation, web search and memory.
+- **Organizing your work:** Projects, Canvas and custom instructions.
+- **Advanced tools:** deep research, connected apps, agent mode, ChatGPT Work and Codex.
+- **Privacy:** where to control training, memory and temporary chats.
 
 </details>
 
@@ -20,10 +23,10 @@ tool is and how to use it.
 
 ## 💬 Quick facts
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-The basics: who makes ChatGPT, where you can use it and what it's best at.
+ChatGPT is made by OpenAI and runs on the web, phone apps and desktop apps for Mac and Windows. It has a free tier and several paid plans.
 
 </details>
 
@@ -38,11 +41,14 @@ The basics: who makes ChatGPT, where you can use it and what it's best at.
 
 ## 🚪 Getting started
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Sign up with your email or Google account, tell ChatGPT a bit about yourself, pick a personality style you like, and
-start chatting.
+Setting up ChatGPT takes a few minutes.
+
+1. Sign up at chatgpt.com or in the app, using email, Google, Apple or Microsoft.
+2. Add custom instructions about yourself under **Settings → Personalization**.
+3. Choose a personality style, then start your first chat.
 
 </details>
 
@@ -58,10 +64,10 @@ start chatting.
 
 ## 💳 Plans in plain English
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Free is good for most people. Paid plans give you more messages, the smartest models and extra tools.
+The free plan covers most everyday use. Paid plans (Go, Plus, Pro, Business and Enterprise) add higher limits, stronger models and features like agent mode and deep research. The table compares them.
 
 </details>
 
@@ -77,11 +83,10 @@ Check **chatgpt.com/pricing** for current prices in your country.
 
 ## 🧠 Models and modes
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-ChatGPT has a fast brain for quick questions and a thinking brain for hard problems. Usually it picks for you, but you
-can choose.
+ChatGPT offers a fast model for everyday questions and a Thinking mode for complex problems. **Auto** chooses for you, or you can pick a mode from the model picker at the top of the chat.
 
 </details>
 
@@ -99,11 +104,14 @@ harder about this."*
 
 ## 🗂️ Projects: your organized workspaces
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Projects are like folders for your chats. Put a topic's chats and files in one place, add special instructions, and
-ChatGPT remembers the context every time you work on it.
+Projects group related chats with shared files and instructions, so ChatGPT keeps the right context for an ongoing topic.
+
+1. In the sidebar, choose **New project** and name it.
+2. Add instructions and upload any reference files.
+3. Start new chats inside the project whenever you work on that topic.
 
 </details>
 
@@ -127,11 +135,10 @@ health journal, a novel.
 
 ## 🧠 Memory and personalization
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-ChatGPT can remember things about you, like that you're vegetarian, so you don't have to repeat yourself. You can see
-and delete what it remembers.
+ChatGPT personalizes its answers using three things: custom instructions you write, saved memories it records, and references to your past chats. You can view, edit or delete memories in **Settings → Personalization**.
 
 </details>
 
@@ -147,10 +154,10 @@ top of a new chat) when you don't want anything remembered.
 
 ## 🎙️ Voice and vision
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-You can talk to ChatGPT out loud, and show it things with your camera or screen while you talk.
+Voice mode lets you have a spoken conversation and interrupt at any time. On mobile, you can turn on your camera or share your screen during voice mode so ChatGPT can see what you're asking about.
 
 </details>
 
@@ -162,10 +169,10 @@ You can talk to ChatGPT out loud, and show it things with your camera or screen 
 
 ## 🖼️ Creating images
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Describe a picture and ChatGPT draws it. You can also upload a photo and ask it to change things.
+ChatGPT generates images from descriptions and edits photos you upload. It's especially strong at accurate text inside images, such as posters and labels, and at making targeted edits.
 
 </details>
 
@@ -183,11 +190,10 @@ date bigger,"* *"Add a dog."*
 
 ## 🌐 Search and deep research
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-ChatGPT can look things up on the internet and show you where it found them. For big questions, deep research reads lots
-of websites and writes you a full report.
+ChatGPT searches the web automatically when it needs current information and shows source links. **Deep research** goes much further, reading many sources over several minutes and producing a detailed, cited report.
 
 </details>
 
@@ -201,10 +207,10 @@ of websites and writes you a full report.
 
 ## 🔌 Apps, plugins and connectors
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-You can plug other apps into ChatGPT, like Spotify or your Google Drive, so it can use them for you right in the chat.
+Plugins and connectors let ChatGPT work with other services, such as Spotify, Canva, Google Drive or Gmail, directly in the chat. Mention a plugin by name or enable connectors in **Settings**.
 
 </details>
 
@@ -223,11 +229,10 @@ Manage everything in **Settings** (look for **Plugins** and **Connectors**). Onl
 
 ## 🤖 Agent mode and ChatGPT Work
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-In agent mode, ChatGPT can go on websites and do jobs for you, like researching hotels or filling in forms, while you
-watch. Work mode can make whole documents, spreadsheets and slides.
+Agent mode lets ChatGPT complete tasks on websites, such as researching, comparing options or filling in forms, while you watch and approve key steps. ChatGPT Work produces finished documents, spreadsheets and presentations.
 
 </details>
 
@@ -251,11 +256,10 @@ This is where ChatGPT stops just talking and starts **doing**:
 
 ## ✍️ Canvas, study mode and Health
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Canvas is a side page for editing writing together. Study mode turns ChatGPT into a tutor. Health helps you understand
-your own health records.
+**Canvas** opens a side-by-side editor for longer writing and code. **Study mode** turns ChatGPT into a tutor that guides you to answers. **Health** helps you understand your own health records and keeps that data separate.
 
 </details>
 
@@ -269,10 +273,10 @@ your own health records.
 
 ## 💻 Codex: ChatGPT for coding
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Codex is ChatGPT's coding helper. It can write and fix whole programs for you, even from your phone.
+Codex is OpenAI's coding agent, available in the desktop app, on the web, from the command line and inside code editors. It can build features, fix bugs and review code across a whole project.
 
 </details>
 
@@ -284,10 +288,10 @@ Tools](../part-7-building-with-ai/60-agents-and-coding-tools.md) and
 
 ## 🍳 Step-by-step recipes
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Four real jobs you can do with ChatGPT today, click by click.
+These four recipes walk through real tasks in ChatGPT step by step, combining features like Projects, deep research and agent mode.
 
 </details>
 
@@ -317,10 +321,10 @@ Four real jobs you can do with ChatGPT today, click by click.
 
 ## 🔐 Privacy and settings
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-The important switches: whether your chats train the AI, what it remembers, and secret chats that aren't saved.
+The table lists ChatGPT's key privacy settings, where to find them and what we recommend. Review them when you set up your account.
 
 </details>
 
@@ -336,10 +340,10 @@ The important switches: whether your chats train the AI, what it remembers, and 
 
 ## 💡 Pro tips and limitations
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Clever tricks power users know, and the things ChatGPT still isn't good at.
+These tips help you get more out of ChatGPT, followed by its current limitations so you know when to double-check or use another tool.
 
 </details>
 

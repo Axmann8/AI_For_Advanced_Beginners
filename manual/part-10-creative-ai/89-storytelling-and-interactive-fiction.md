@@ -7,12 +7,15 @@ a kind editor, and a bedtime-story machine.** This chapter shows how to co-write
 build a story bible, run tabletop and chat adventures, make choose-your-own-adventure games, craft bedtime stories with kids,
 and publish responsibly. Once upon a time, you opened this chapter... ✨
 
-<details class="eli5" open>
-<summary>🧸 ELI5: This chapter in 30 seconds</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-AI can be your story buddy. It can help you think up ideas ("what if the dragon is scared of mice?"), pretend to be your
-characters so you can ask them questions, run a make-believe adventure where you decide what happens next, and tell bedtime
-stories starring your kids. You're still the author: AI just helps the ideas flow. 🐉🐭
+AI is a capable creative writing partner: it can brainstorm ideas, role-play your characters, critique drafts and run interactive adventures. The best results come from treating it as a collaborator while you remain the author.
+
+1. **Build a story bible** so the AI keeps your world and characters consistent.
+2. **Use targeted techniques** for each stage: ideas, outlining, drafting and revision.
+3. **Try interactive formats:** AI-run adventures and choose-your-own-adventure stories.
+4. **Publish responsibly** by disclosing AI involvement where required.
 
 </details>
 
@@ -20,10 +23,10 @@ stories starring your kids. You're still the author: AI just helps the ideas flo
 
 ## ✍️ Co-writer, not ghostwriter
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-The best stories come from you. Let AI help with ideas, questions and feedback, but keep the heart of the story yours.
+AI excels at generating options, asking questions and giving feedback; you bring the vision, voice and emotional truth. Keeping that division produces stories that feel like yours. The table describes each side's role.
 
 </details>
 
@@ -43,11 +46,10 @@ The best stories come from you. Let AI help with ideas, questions and feedback, 
 
 ## 📚 Build a story bible
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-A story bible is a notebook about your story world: who the characters are, what places exist, and the rules. Giving it to
-the AI keeps everything consistent.
+A story bible records your characters, settings, rules and timeline. Store it in a Claude Project (or a `STORY.md` file for Claude Code) so every conversation stays consistent with your world.
 
 </details>
 
@@ -80,10 +82,10 @@ Old Grey's fear could raise the stakes in act two."*
 
 ## 🧰 Writing workflows
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Different tricks for different moments: getting ideas, planning the story, getting unstuck, and polishing the final words.
+Different techniques help at each stage of writing, from "what if" brainstorms for ideas to targeted feedback during revision. The table pairs each stage with a technique and a prompt.
 
 </details>
 
@@ -100,11 +102,10 @@ Different tricks for different moments: getting ideas, planning the story, getti
 
 ## 🎲 AI as game master
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-The AI can run a pretend adventure: it describes the world, you say what you do, it tells you what happens next. Like a board
-game with no board.
+AI can run a text-based role-playing adventure: it describes the scene, you decide what your character does, and it narrates the consequences. A detailed setup prompt, like the example below, makes the experience much better.
 
 </details>
 
@@ -137,11 +138,10 @@ Begin in the village square on market day.
 
 ## 🌳 Build a choose-your-own-adventure
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Make a story where readers pick what happens next: "open the door" or "run away." You can build it as a little website or
-game.
+Choose-your-own-adventure stories let readers decide what happens. Tools like Twine and Ink help you build branching stories, and AI can draft branches, check for dead ends and generate the final web page. The table compares the tools.
 
 </details>
 
@@ -171,11 +171,10 @@ for this story graph with page-turn animations and a map of choices made."*
 
 ## 🌙 Bedtime stories & kids' books
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Make up bedtime stories together with your kids: they pick the hero, the place and the problem, and the AI helps tell the
-tale. You can even turn favorites into little picture books.
+AI can help you create bedtime stories with your children: they choose the hero, setting and problem, and you shape the story together. Favorites can become illustrated picture books.
 
 </details>
 
@@ -191,10 +190,10 @@ More for families in [Parents, Teachers & Students](../part-11-ai-for-life-and-w
 
 ## 🌍 Worldbuilding superpowers
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-AI can help you invent whole worlds: countries, history, languages, recipes, even the currency the dragons use.
+AI is excellent for worldbuilding: designing geography, history, cultures, languages, economies and magic systems that fit together. The table offers prompts for each element.
 
 </details>
 
@@ -209,11 +208,10 @@ AI can help you invent whole worlds: countries, history, languages, recipes, eve
 
 ## 📤 Publishing & ethics
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-If you share or sell a story made with AI help, be honest about it, follow the publisher's rules, and don't copy other
-people's characters or writing.
+When publishing work created with AI assistance, follow each platform's disclosure rules (Amazon KDP, for example, asks), avoid imitating other authors' characters or text, and understand the copyright limits on purely AI-generated content. The table gives practical guidance.
 
 </details>
 

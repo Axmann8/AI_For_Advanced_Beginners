@@ -7,12 +7,14 @@ answer more than anything else.** The good news: there's no secret code. Good pr
 bit of context, the kind you'd give a smart new assistant on their first day. This chapter gives you a five-ingredient
 recipe, lots of before-and-after examples, and a printable card to keep by your screen.
 
-<details class="eli5" open>
-<summary>🧸 ELI5: This chapter in 30 seconds</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-If you ask a friend "make me something to eat," you might get anything. If you say "make me a quick cheese sandwich,
-I'm starving and I don't like tomatoes," you get exactly what you want. AI is the same: tell it **what** you want,
-**who it's for**, **what it should know**, **what it should look like**, and **what tone** to use.
+A prompt is the request you give an AI. The more clearly you describe what you need, the more useful the answer will be. This chapter teaches a simple recipe and several techniques that work with any assistant.
+
+- **Include five ingredients:** the task, the context, key details, the format and the tone.
+- **Use helpful techniques:** assign a role, show an example, or ask the AI to interview you first.
+- **Avoid common mistakes,** like being too vague or asking for too much at once.
 
 </details>
 
@@ -20,11 +22,10 @@ I'm starving and I don't like tomatoes," you get exactly what you want. AI is th
 
 ## ✍️ Why prompts matter so much
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-The AI can't read your mind. The more it knows about what you want, the better it can help, just like a new helper on
-their first day.
+An AI doesn't know your situation, audience or preferences unless you tell it. A request with specific details produces a far more useful answer than a vague one, as the comparison below shows.
 
 </details>
 
@@ -42,11 +43,16 @@ Same AI, same five seconds of your time, wildly different results. That's all pr
 
 ## 🧩 The five-ingredient recipe
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Great prompts usually have five ingredients: the job, who it's for, the important details, the shape of the answer, and
-the mood. You don't always need all five.
+Strong prompts usually combine five ingredients. You won't need all five every time, but checking for each one is a reliable way to improve a request.
+
+1. **Task:** what you want done.
+2. **Context:** who it's for and why.
+3. **Details:** what to include or avoid.
+4. **Format:** the shape of the answer (list, table, length).
+5. **Tone:** the style or mood.
 
 </details>
 
@@ -73,11 +79,10 @@ flowchart LR
 
 ## 🔄 Before & after: the recipe in action
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Here are lots of examples of a "meh" question turned into a great one. See how adding a few details changes
-everything.
+The examples below show how adding a few specific details turns a vague request into one that produces a genuinely useful answer.
 
 </details>
 
@@ -94,11 +99,10 @@ everything.
 
 ## 🎭 Give it a role
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-You can ask the AI to pretend to be a certain kind of expert or helper, like a patient teacher or a friendly chef, and
-its answers change to match.
+Starting a prompt with "You are…" or "Act as…" sets the perspective, expertise and style the AI should use, such as a patient tutor or an experienced editor.
 
 </details>
 
@@ -114,10 +118,10 @@ gets tired or judges you. 💪
 
 ## 📋 Show an example
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-If you show the AI one example of what you like, it copies that style, like showing a hairdresser a photo.
+When you want a specific style, an example communicates it better than a description. Paste a sample you like and ask the AI to match it.
 
 </details>
 
@@ -131,10 +135,10 @@ The AI will match the length, emoji use, rhythm and tone. This is called giving 
 
 ## 📐 Ask for the shape you want
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Tell the AI what kind of answer you want: a list, a table, steps, a short text, so it's easy for you to use.
+Specify the format you want, such as a bullet list, numbered steps, a table or a word limit, so the answer is ready to use without reworking.
 
 </details>
 
@@ -154,11 +158,14 @@ AI can format answers in almost any way. Just ask:
 
 ## 🙋 Let the AI ask *you* questions
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-If you're not sure what details matter, ask the AI to interview you first. It will ask you the right questions, then do
-the job.
+When you're unsure what details matter, ask the AI to interview you before it answers.
+
+1. Describe your goal in a sentence or two.
+2. Add: *"Before you answer, ask me any questions you need."*
+3. Answer its questions, and it will produce a tailored result.
 
 </details>
 
@@ -175,11 +182,10 @@ having a coach who does a proper consultation. 🏃
 
 ## 🚫 Common beginner mistakes (and easy fixes)
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Most beginner problems come from a few small mistakes, like asking too little or asking for everything at once. Here's
-how to avoid them.
+Most weak results come from a handful of avoidable mistakes. The table pairs each common mistake with a simple fix.
 
 </details>
 
@@ -195,10 +201,10 @@ how to avoid them.
 
 ## 🃏 Your prompt card (print me!)
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-A tiny cheat sheet to keep next to your computer so you remember the recipe.
+This card summarizes the prompting recipe on one page. Print it or save it somewhere handy for quick reference.
 
 </details>
 

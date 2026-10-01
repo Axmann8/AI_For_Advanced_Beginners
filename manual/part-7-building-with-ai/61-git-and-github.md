@@ -1,18 +1,21 @@
 # 61 · Git & GitHub for AI Builders 🌳🐙
 
-> ⏱️ 10 min read · 🎯 Everyone who builds with AI (no coding background needed) · 🧰 Needs: a free GitHub account, Git installed
+> ⏱️ 11 min read · 🎯 Everyone who builds with AI (no coding background needed) · 🧰 Needs: a free GitHub account, Git installed
 
 **Git is the undo button that makes AI building fearless.** When a coding agent rewrites twenty files and something breaks,
 Git lets you rewind in one command. GitHub adds a home in the cloud for your projects, free websites, automation robots
 (Actions), and a place where AI agents can open pull requests for you to review. Learn these ten ideas and you'll build
 with AI like a pro. 🦸
 
-<details class="eli5" open>
-<summary>🧸 ELI5: This chapter in 30 seconds</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Imagine a video game where you can **save your progress** any time. If you fall into lava, you just load your last save.
-**Git** is that save system for your projects. **GitHub** is a cloud locker where your saves live, where friends (and AI
-helpers) can suggest changes, and where little robots can check your work and even turn it into a website.
+**Git** records snapshots of your project so you can return to any earlier version. **GitHub** stores those snapshots online and adds collaboration, automated checks and free website hosting. For anyone building with AI agents, Git is the essential safety net.
+
+1. **Install Git** and create a GitHub account.
+2. **Learn the daily loop:** check changes, stage, commit and push.
+3. **Use branches and pull requests** to try ideas safely and review AI-generated changes.
+4. **Keep secrets out** of your repository, and know how to recover from mistakes.
 
 </details>
 
@@ -20,11 +23,10 @@ helpers) can suggest changes, and where little robots can check your work and ev
 
 ## 🤔 Why AI builders need Git
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-AI helpers work fast and sometimes break things. With save points, you can always go back to "the last time it worked,"
-so trying wild ideas becomes totally safe.
+Coding agents make large changes quickly, and occasionally break things. With Git, you can always return to the last working version, which makes it safe to experiment.
 
 </details>
 
@@ -45,11 +47,10 @@ Coding agents make **big, fast changes**. That's their superpower and their risk
 
 ## 🧠 The 10 ideas that explain all of Git
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Git has a lot of words, but they're simple ideas: a project folder (repository), save points (commits), parallel universes
-to try things (branches), and a cloud copy (remote).
+Git's vocabulary describes ten simple ideas, including a repository (a project with full history), a commit (a saved snapshot), a branch (a separate line of work) and a remote (the online copy). The table explains each in plain language.
 
 </details>
 
@@ -81,10 +82,15 @@ gitGraph
 
 ## 🛠️ Setup in 10 minutes
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Install Git, tell it your name, make a free GitHub account, and connect the two. You only do this once.
+One-time setup takes about ten minutes.
+
+1. Install Git for your operating system.
+2. Set your name and email with `git config`.
+3. Create a free GitHub account.
+4. Connect them by signing in with the GitHub CLI or setting up an SSH key.
 
 </details>
 
@@ -115,11 +121,15 @@ Install Git, tell it your name, make a free GitHub account, and connect the two.
 
 ## 💾 Your daily loop: save, check, share
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Every day it's the same little dance: look at what changed, pick what to save, save it with a note, and send it to the
-cloud.
+The everyday workflow is the same each time:
+
+1. `git status` to see what changed.
+2. `git add` to stage the changes you want to keep.
+3. `git commit -m "message"` to save a snapshot.
+4. `git push` to upload it to GitHub.
 
 </details>
 
@@ -145,11 +155,10 @@ That last command creates the GitHub repo **and** pushes to it in one go. ✨
 
 ## 🤖 Git + coding agents: the perfect partnership
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-You can ask your AI helper to do the Git stuff for you: save with good notes, explain what changed, and rewind when
-something breaks. You just say it in plain words.
+Coding agents handle Git fluently, so you can ask in plain language: *"Commit this with a clear message," "What changed since yesterday?"* or *"Undo the last change."* The table lists useful requests.
 
 </details>
 
@@ -177,11 +186,10 @@ flowchart LR
 
 ## 🌿 Branches & worktrees: safe experiments, parallel agents
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-A branch is a copy of your project where you can try a wild idea. If the idea is great, you keep it. If not, you throw that
-branch away and nothing is hurt. Worktrees let several AI helpers each work in their own copy at the same time.
+A branch is a separate line of work where you can try an idea without affecting the main version; merge it if it works, delete it if it doesn't. Worktrees give each branch its own folder, so several agents can work in parallel without interfering.
 
 </details>
 
@@ -206,11 +214,10 @@ Copilot coding agent, Cursor background agents) each get their own branch automa
 
 ## 🐙 GitHub superpowers
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-GitHub is more than a locker. It has a to-do board (issues), a review room (pull requests), robots that run checks
-(Actions), free websites (Pages), and coding computers in the cloud (Codespaces).
+GitHub adds issues (task tracking), pull requests (change review), Actions (automated workflows), Pages (free website hosting) and Codespaces (cloud development environments). The table explains how each one helps when building with AI.
 
 </details>
 
@@ -228,11 +235,10 @@ GitHub is more than a locker. It has a to-do board (issues), a review room (pull
 
 ## 🔀 Pull requests: how you review AI work
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-A pull request is like handing in homework: "here's what I changed, please check it." When an AI does the work, you're the
-teacher who checks it before it counts.
+A pull request proposes a set of changes for review before they become part of the main project. Even when working alone, use pull requests to review what an agent changed before accepting it.
 
 </details>
 
@@ -255,11 +261,10 @@ alone, PRs are fantastic for AI work:
 
 ## ⚙️ GitHub Actions: robots that work for you
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Actions are little robots that wake up when something happens (like you saving code) and do a job: run tests, build your
-website, or even ask an AI to fix a bug.
+GitHub Actions run automated jobs when events occur, such as running tests on every push, deploying a website, or asking an AI agent to fix an issue. Each workflow is a YAML file in `.github/workflows/`.
 
 </details>
 
@@ -294,11 +299,14 @@ You don't have to write YAML by hand: *"Add a GitHub Action that runs my tests o
 
 ## 🔐 Secrets & safety (the stuff that bites beginners)
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Never put passwords or secret keys in your project files, because anyone who sees your project could steal them. Keep them
-in a special hidden file that Git ignores, or in GitHub's secret vault.
+Never commit passwords or API keys to a repository.
+
+1. Store secrets in a `.env` file and add it to `.gitignore`.
+2. Use GitHub's encrypted secrets for Actions.
+3. If a key is ever committed, revoke it and create a new one immediately.
 
 </details>
 
@@ -318,10 +326,10 @@ in a special hidden file that Git ignores, or in GitHub's secret vault.
 
 ## 🆘 "Oh no" rescue guide
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Here's what to do when something goes wrong. Almost everything in Git can be fixed, so don't panic!
+Nearly every Git mistake can be undone. The table lists common problems, such as discarding unwanted changes or undoing a commit, with the command that fixes each.
 
 </details>
 
@@ -343,11 +351,10 @@ Here's what to do when something goes wrong. Almost everything in Git can be fix
 
 ## 🌟 Open source & sharing your work
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-When you make your project public, anyone can see it, learn from it, and help improve it. It's like putting your drawing
-on the fridge for the whole world.
+Making a project public lets others learn from it and contribute. Add a README, a license (MIT is a common default) and a screenshot, and consider contributing to open-source projects you use.
 
 </details>
 

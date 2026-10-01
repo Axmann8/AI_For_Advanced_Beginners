@@ -7,12 +7,14 @@ cheating? What about the planet, artists and privacy? Could it get out of contro
 seriously and answers it honestly, without hype and without doom, so you can form your own views and explain them to
 the curious (or worried) people in your life.
 
-<details class="eli5" open>
-<summary>🧸 ELI5: This chapter in 30 seconds</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-People have lots of worries about AI, and some of them are good worries! AI isn't alive, it can't read your mind, and
-it's not a magic brain. It will change some jobs, it uses a lot of electricity, and it can be unfair or used for bad
-things. The best thing to do is learn how it works, use it wisely, and keep talking about the rules we want for it.
+Many common concerns about AI are reasonable, while others are based on misconceptions. This chapter addresses the biggest questions directly and honestly.
+
+- **Today's AI is not conscious** and cannot read your mind, but it can sound remarkably human.
+- **Real concerns include** job changes, energy use, bias, creators' rights and long-term safety.
+- **The best response** is to understand how AI works, use it thoughtfully, and stay engaged in the public conversation about how it should be governed.
 
 </details>
 
@@ -20,11 +22,10 @@ things. The best thing to do is learn how it works, use it wisely, and keep talk
 
 ## 🤖 "Is AI alive? Does it have feelings?"
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-AI can talk like a person, but it's a very clever computer program. Scientists don't think today's chatbots feel things
-the way people and animals do.
+Chatbots produce remarkably human-sounding language, but the mainstream scientific view is that current AI is not conscious and does not have feelings. It's sophisticated software that predicts text.
 
 </details>
 
@@ -38,11 +39,10 @@ confuse fluent words with a friend who knows and loves you.** 💛
 
 ## 💼 "Will AI take my job?"
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-AI will change lots of jobs, taking over some boring tasks. People who learn to use AI well will usually do better than
-people who ignore it.
+AI is changing many jobs by automating routine tasks, and some roles will shrink while new ones appear. People who learn to use AI effectively in their field are generally better positioned than those who avoid it.
 
 </details>
 
@@ -65,11 +65,10 @@ What you can do: **learn to use AI in your field**, lean into the human parts of
 
 ## 🧠 "Will using AI make me lazy or less smart?"
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-If you let AI do all your thinking, you might get rusty. If you use it to learn and check your ideas, it can make you
-smarter.
+The effect depends on how you use it. Relying on AI for every answer can weaken your skills, while using it to explain concepts, quiz you and critique your work can strengthen them.
 
 </details>
 
@@ -87,11 +86,10 @@ don't.** Calculators didn't stop people learning math, but they did change *whic
 
 ## 🎓 "Isn't using AI cheating?"
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-It depends on the rules. Using AI to learn is great. Handing in AI's work as your own when you're not allowed to is
-cheating.
+Whether AI use counts as cheating depends on the rules of the setting. Using it to learn and practice is usually encouraged; submitting AI-generated work as your own where that isn't allowed is not.
 
 </details>
 
@@ -107,11 +105,10 @@ It depends on the **context and the rules**:
 
 ## 🌍 "What about the environment?"
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-AI runs on huge computers that use lots of electricity and water. One question uses a little; billions of questions use
-a lot. Use it for things that matter to you, and don't waste it.
+AI data centers use significant amounts of electricity and water, and demand is growing quickly. A single chat uses relatively little energy, but the total adds up, so use AI for tasks that genuinely help you.
 
 </details>
 
@@ -131,11 +128,10 @@ dozens of throwaway images or videos, and support transparency about AI's energy
 
 ## 🎨 "Is AI stealing from artists and writers?"
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-AI learned from lots of people's art and writing, often without asking. Some people think that's fair and some think
-it's unfair. Courts and governments are still deciding.
+AI models were trained on large amounts of human-created work, often without permission or payment. This is the subject of ongoing lawsuits and policy debates, and the legal rules are still being settled.
 
 </details>
 
@@ -153,11 +149,10 @@ support human creators you love, and prefer tools with fair licensing when you c
 
 ## ⚖️ "Is AI biased?"
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-AI learned from people's writing, including unfair ideas, so sometimes its answers can be unfair too. Companies try to
-fix this, and you can ask for different viewpoints.
+Because AI learns from human data, it can reflect human biases. Companies work to reduce this, but no system is perfect. For important or debated topics, ask for multiple perspectives.
 
 </details>
 
@@ -171,11 +166,10 @@ and be especially careful when AI is used for decisions about people, like hirin
 
 ## 🔭 "Could AI get out of control?"
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Some very smart people worry that future AI could become too powerful to control, and others think that's unlikely.
-Many scientists are working hard on keeping AI safe.
+Experts disagree about whether future, more capable AI systems could become difficult to control. Many researchers and organizations work on AI safety, and governments are developing rules for advanced systems.
 
 </details>
 
@@ -195,11 +189,10 @@ You don't need to resolve this debate to use AI well. But it's worth staying inf
 
 ## 👂 "Is AI listening to me all the time?"
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Voice assistants listen for their wake word ("Hey Siri") but don't send everything you say to the company. You can check
-and delete recordings in settings.
+Voice assistants listen locally for their wake word and only send audio after detecting it, though accidental activations happen. You can review and delete recordings in your assistant's privacy settings.
 
 </details>
 
@@ -212,10 +205,10 @@ you want privacy, and check app microphone permissions on your phone.
 
 ## ⚡ Quick myth-busters
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Some things people believe about AI aren't true. Here's a quick list of myths and facts.
+The table below pairs common myths about AI with the reality behind each one.
 
 </details>
 

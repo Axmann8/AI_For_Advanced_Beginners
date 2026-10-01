@@ -5,13 +5,14 @@
 **Before diving into chapters, here's the whole territory on one page.** Once you can see how models, apps, connectors,
 automations and your own data fit together, every chapter in this manual slots neatly into place.
 
-<details class="eli5" open>
-<summary>🧸 ELI5: This page in 30 seconds</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Think of AI like a city. The **models** are the power plant (the brains). The **apps** are the buildings you walk into
-(Claude, ChatGPT, Cursor). **Connectors and MCP** are the roads and pipes that link buildings to everything else.
-**Automations** are the delivery trucks that run on a schedule. And **your data** is your house, full of your stuff.
-This map shows how it all connects.
+The AI world can look chaotic, but it fits into five layers that work together. Knowing the layers helps you understand any new tool you come across.
+
+- **Models** are the AI systems that read and generate text, images and more.
+- **Apps** like ChatGPT, Gemini and Claude are how you talk to models.
+- **Connectors, MCP and automations** link those apps to **your data** and to other tools, so AI can act, not just answer.
 
 </details>
 
@@ -19,11 +20,10 @@ This map shows how it all connects.
 
 ## 🏙️ The whole landscape in one picture
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-You talk to an app. The app uses a brain (a model). The app reaches your stuff through connectors. Robots (automations)
-can also use the brain on their own while you sleep.
+You interact with an app, which sends your request to a model. Through connectors, the app can reach your files and services. Automations can use the same models on their own, on a schedule or when something happens.
 
 </details>
 
@@ -62,11 +62,10 @@ flowchart TB
 
 ## 🧱 The five layers
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Five building blocks stack together: brains, apps, connections, robots, and your data. You'll learn each block in its
-own part of the manual.
+The five layers stack on top of each other, and each one has a dedicated part of this manual. The table maps every layer to examples and to the chapters where you'll learn it.
 
 </details>
 
@@ -84,11 +83,10 @@ and full projects ([Part XIII](../part-13-build-alongs/index.md)).
 
 ## 🪜 The skills ladder
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Like levels in a video game: first you chat, then you connect, then you automate, then you build, then you run your own
-AI, and finally you teach others. You can skip levels whenever you want!
+Most people's AI skills grow in a predictable order: chatting, connecting apps, automating, building, running models locally, and finally teaching others. Each level has a natural next step, but you can jump ahead whenever a topic interests you.
 
 </details>
 
@@ -108,10 +106,10 @@ flowchart LR
 
 ## ❓ Which chapter answers my question?
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Got a question? Find it in this list and jump straight to the chapter that answers it.
+If you have a specific question, find it in the table below and follow the link to the chapter that answers it.
 
 </details>
 
@@ -134,26 +132,25 @@ Got a question? Find it in this list and jump straight to the chapter that answe
 
 ## 🔤 Your vocabulary starter pack
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Ten words you'll see everywhere. Learn these and the rest of the manual gets much easier. The full list (with an ELI5
-for every word) is in the [Glossary](../appendices/a-glossary.md).
+These ten terms come up constantly. Learning them now makes the rest of the manual much easier to follow; the [Glossary](../appendices/a-glossary.md) defines more than 200 others.
 
 </details>
 
-| Word | 🧸 ELI5 |
+| Word | What it means |
 |---|---|
-| **Model** | The brain: a giant pattern-matcher that predicts what words come next |
-| **Token** | A word-chunk. AI reads, writes and charges in tokens |
-| **Context window** | How much the AI can "hold in its head" at once |
-| **Tool / function calling** | When the AI asks your app to press a button for it |
-| **Agent** | An AI that loops: think → use a tool → look at the result → repeat until done |
-| **MCP** | The universal plug that lets any AI app use any tool |
-| **Connector** | A ready-made MCP plug inside an app (click to install) |
-| **RAG** | Letting AI look things up in your documents before answering |
-| **Automation / workflow** | A robot recipe: "when X happens, do Y" |
-| **Local model** | A brain that runs on your own computer, with no internet needed |
+| **Model** | The AI system itself: a large pattern-learning program that predicts what text should come next |
+| **Token** | A chunk of text, roughly ¾ of a word. Models read, write and bill in tokens |
+| **Context window** | How much text the model can consider at once: your messages, files and its replies |
+| **Tool / function calling** | The model asking your app to run an action for it, like searching or creating an event |
+| **Agent** | An AI that works in a loop: decide on a step → use a tool → check the result → repeat until done |
+| **MCP** | An open standard that lets any AI app connect to any tool or data source |
+| **Connector** | A ready-made MCP connection inside an app, installed with a few clicks |
+| **RAG** | Retrieval-augmented generation: the AI searches your documents and answers from what it finds |
+| **Automation / workflow** | A rule that runs on its own: "when X happens, do Y" |
+| **Local model** | A model that runs on your own computer, privately and without an internet connection |
 
 ## 🎯 Key takeaways
 

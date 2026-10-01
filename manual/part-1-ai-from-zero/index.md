@@ -4,12 +4,14 @@ Brand new to AI? You're in exactly the right place. This part assumes nothing: w
 first conversation, how to ask good questions, how to stay safe, and a gentle 30-day plan that turns you into a
 confident everyday user. No jargon without an explanation, no judgment, and lots of little wins along the way. 🌱
 
-<details class="eli5" open>
-<summary>🧸 ELI5: This part in 30 seconds</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-AI chatbots are like a super-helpful friend who has read almost every book in the world and loves answering questions.
-This part teaches you how to say hello, how to ask for help so you get great answers, how to tell when your friend is
-making something up, and how to keep your secrets safe. By the end you'll use AI every day without even thinking about it.
+This part takes you from never having used an AI chatbot to using one confidently every day. No technical background is needed.
+
+- **Learn the basics:** what AI is, how chatbots produce their answers, and how to set up your first assistant.
+- **Get better results:** how to write clear requests, follow up, and use voice, photos and files.
+- **Use it wisely:** how to spot mistakes, protect your privacy, and build a simple daily habit over 30 days.
 
 </details>
 
@@ -47,7 +49,7 @@ making something up, and how to keep your secrets safe. By the end you'll use AI
 
     ---
 
-    <span class="card-meta">⏱️ 8 min read · 🎯 Complete beginners</span>
+    <span class="card-meta">⏱️ 9 min read · 🎯 Complete beginners</span>
 
     You don't need to understand engines to drive a car, but knowing a little about how chatbots work makes you dramatically better at using them.
 
@@ -119,7 +121,7 @@ making something up, and how to keep your secrets safe. By the end you'll use AI
 
     ---
 
-    <span class="card-meta">⏱️ 8 min read · 🎯 Everyone, and especially anyone helping older relatives</span>
+    <span class="card-meta">⏱️ 9 min read · 🎯 Everyone, and especially anyone helping older relatives</span>
 
     AI is safe to use when you follow a few simple rules, and knowing about AI makes you much harder to fool.
 
@@ -127,7 +129,7 @@ making something up, and how to keep your secrets safe. By the end you'll use AI
 
     ---
 
-    <span class="card-meta">⏱️ 7 min read · 🎯 Complete beginners</span>
+    <span class="card-meta">⏱️ 8 min read · 🎯 Complete beginners</span>
 
     You don't always need to open a chatbot app: AI is now built into the phone in your pocket, the speaker in your kitchen, your web browser, your car and even glasses.
 
@@ -135,7 +137,7 @@ making something up, and how to keep your secrets safe. By the end you'll use AI
 
     ---
 
-    <span class="card-meta">⏱️ 7 min read · 🎯 Anyone with a job (or looking for one)</span>
+    <span class="card-meta">⏱️ 8 min read · 🎯 Anyone with a job (or looking for one)</span>
 
     AI can take the grind out of work: the email you've been dreading, the meeting notes nobody wrote up, the spreadsheet formula you can never remember, the report that needs to be half as long by 5pm.
 

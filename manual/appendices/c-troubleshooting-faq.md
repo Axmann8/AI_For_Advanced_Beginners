@@ -6,11 +6,14 @@
 the #1 universal trick: **paste the exact error message into your AI assistant**, along with what you did and what you
 expected. It's usually the fastest fix of all. 🪄
 
-<details class="eli5" open>
-<summary>🧸 ELI5: This page in 30 seconds</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-When something breaks, don't panic! Find your problem in this list (they're grouped like drawers: plug-ins, robots, coding,
-money…), and follow the fix. If it's not here, copy the error message and ask your AI helper. 🔧🙂
+This FAQ collects solutions to the most common problems, grouped by area: everyday assistants, MCP, automations, AI behavior, coding agents, APIs, deployment, voice agents, local models and this repository's starter kits.
+
+1. **Find your area** in the list of sections.
+2. **Locate the matching symptom** and follow the fix.
+3. **If it isn't listed,** copy the exact error message and ask your AI assistant, describing what you did and what you expected.
 
 </details>
 
@@ -18,10 +21,15 @@ money…), and follow the fix. If it's not here, copy the error message and ask 
 
 ## 🧭 The universal debugging recipe
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-For any problem: write down what you did, what you expected, and what happened, then check one thing at a time.
+This general method solves most problems:
+
+1. Reproduce the problem reliably.
+2. Read the full error message carefully.
+3. Change one thing at a time and test again.
+4. Check logs, and search for the exact error text.
 
 </details>
 
@@ -33,11 +41,10 @@ For any problem: write down what you did, what you expected, and what happened, 
 
 ## 🐣 Beginner questions & everyday assistant hiccups
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-The most common little problems people hit in ChatGPT, Gemini, Claude and friends, like limits, logins and answers that
-stop halfway, and how to fix each one.
+These are the most common issues in everyday assistants such as ChatGPT, Gemini and Claude, including usage limits, sign-in problems and answers that stop partway, with the fix for each.
 
 </details>
 
@@ -85,10 +92,10 @@ or do the 15-minute taste test.
 
 ## 🔌 MCP & connectors
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Problems with plug-ins: they don't show up, they crash, or the AI ignores them.
+These fixes cover MCP servers and connectors that don't appear, fail to start or aren't used by the AI.
 
 </details>
 
@@ -123,10 +130,10 @@ integration. In Claude Code, use `/mcp` to re-authenticate.
 
 ## ⚙️ Automations
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Problems with robot recipes in n8n, Zapier or Make: they work in testing but not for real, or they give messy answers.
+These fixes cover automations in n8n, Zapier and Make, such as workflows that work in testing but not when active, or AI steps that return inconsistent output.
 
 </details>
 
@@ -158,10 +165,10 @@ Is the workflow **Active**, and is n8n reachable over **HTTPS**? Does the "Only 
 
 ## 🤖 AI behavior
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Problems with how the AI answers: making things up, forgetting, or sounding boring.
+These fixes cover AI behavior problems: confident errors, forgotten instructions and generic-sounding output.
 
 </details>
 
@@ -187,10 +194,10 @@ misunderstanding, rephrasing usually works.
 
 ## 🧑‍💻 Coding agents & Git
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Problems when an AI coding helper breaks things, goes in circles, or Git gets confusing.
+These fixes cover coding agent problems, such as fixes that break other code or repeated loops, and common Git confusion.
 
 </details>
 
@@ -215,10 +222,10 @@ rules that must *always* happen, use a **hook** ([Claude Code Power-Ups](../part
 
 ## 🔑 API & costs
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Problems with AI keys and bills: login errors, surprise costs, or answers that stop halfway.
+These fixes cover API errors and cost issues, including authentication failures, unexpected bills and truncated responses.
 
 </details>
 
@@ -242,10 +249,10 @@ Server tool type names are **versioned** (e.g. `web_search_20260318`). Check the
 
 ## 🌍 Deploying & hosting
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Problems putting your app on the internet: it works at home but not online, or logins go to the wrong place.
+These fixes cover deployment problems, such as apps that work locally but fail when hosted, or login redirects to the wrong address.
 
 </details>
 
@@ -265,10 +272,10 @@ Enable **row-level security** on every table and write per-user policies. Test w
 
 ## 🗣️ Voice agents
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Problems with talking robots: they're slow, talk too much, or mishear names.
+These fixes cover voice agent problems: long pauses, overly long responses and misheard names.
 
 </details>
 
@@ -283,10 +290,10 @@ More: [Voice Receptionist troubleshooting](../part-13-build-alongs/119-build-alo
 
 ## 🏠 Local models & home lab
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Problems with AI on your own computer: too slow, can't find the model, or programs fighting over the same door number.
+These fixes cover local models and home lab issues, such as slow performance, missing models and port conflicts.
 
 </details>
 
@@ -311,10 +318,10 @@ Pick a model with **tool calling**, give it a longer context (32k–64k+), and g
 
 ## 🧰 This repo's starter kits
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Problems running the example projects that come with this manual.
+This table lists what to check if one of this repository's starter kits fails to run.
 
 </details>
 
@@ -329,10 +336,10 @@ Problems running the example projects that come with this manual.
 
 ## 🌐 This manual's website
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-How to publish or preview the website version of this manual.
+These answers explain how to preview and publish this manual's website.
 
 </details>
 

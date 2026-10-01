@@ -12,12 +12,15 @@ turns you into a wizard. 🧙)
 > **👋 Fun fact**
 > This entire manual, website, examples and CI included, was built with Claude Code.
 
-<details class="eli5" open>
-<summary>🧸 ELI5: This chapter in 30 seconds</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Claude Code is like having a super-smart helper sitting at your computer. You type what you want in plain words ("make me a
-website about my cat"), and it opens files, writes code, runs it, sees what's broken and fixes it, asking your permission
-for anything risky. Your job is to be a good boss: explain the goal, check the plan, and say "yes, keep going."
+Claude Code is an AI coding agent that works directly in your project folder. You describe what you want in plain language, and it reads files, writes code, runs commands and fixes errors, asking permission before anything risky. Your role is to set the goal, review the plan and check the result.
+
+1. **Install it** and open it in a project folder.
+2. **Follow the core workflow:** explore, plan, code, verify, commit.
+3. **Set up CLAUDE.md** with your project's rules, and configure permissions.
+4. **Manage context** between tasks to keep quality high.
 
 </details>
 
@@ -40,10 +43,14 @@ for anything risky. Your job is to be a good boss: explain the goal, check the p
 
 ## 🚀 Install & first launch
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-You install it once, open a folder, type `claude`, log in, and start chatting. That's it.
+Installation takes a few minutes.
+
+1. Install Claude Code with the command below (or use the desktop app, web or IDE extension).
+2. Open a terminal in your project folder and type `claude`.
+3. Sign in with a Claude subscription or an API key, and start with a simple request.
 
 </details>
 
@@ -76,11 +83,10 @@ Log in with your **Claude subscription** (Pro and Max include Claude Code) or an
 
 ## 🎛️ Essential controls
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-A few keyboard shortcuts let you steer: stop it, rewind it, point at a file, or switch it into "plan first, build later"
-mode.
+A few controls let you steer Claude Code: `Shift+Tab` cycles through modes (including plan mode), `Esc` stops the current action, double `Esc` rewinds the conversation, and `@` references a specific file. The table lists the rest.
 
 </details>
 
@@ -115,11 +121,16 @@ mode.
 
 ## 🔁 The workflow that works: Explore → Plan → Code → Verify → Commit
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-First let it look around, then have it tell you its plan, then let it build, then make it check its own work, then save.
-Skipping the "check" step is how bugs sneak in.
+The most reliable workflow has five steps:
+
+1. **Explore:** have Claude read the relevant code and explain it, without making changes.
+2. **Plan:** switch to plan mode and review the proposed approach.
+3. **Code:** let Claude implement the plan.
+4. **Verify:** have it run tests or check the result.
+5. **Commit:** save the working change with Git.
 
 </details>
 
@@ -144,11 +155,10 @@ flowchart LR
 
 ## 🧠 CLAUDE.md: your project's memory
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-`CLAUDE.md` is a sticky note that Claude reads every time it starts: "here's how this project works, here are the house
-rules." Write it once and you never repeat yourself.
+Claude Code loads `CLAUDE.md` files automatically at the start of every session. Use them to record project facts, commands and rules so you never have to repeat them. Run `/init` to generate a first version.
 
 </details>
 
@@ -190,11 +200,10 @@ Claude Code automatically loads `CLAUDE.md` files at startup:
 
 ## 🔐 Permissions & safety
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Claude asks before doing anything that could cause trouble, like deleting files or running commands. You can tell it which
-safe things it may always do, and which things it must never do.
+By default, Claude Code asks before editing files or running commands. Configure `/permissions` to always allow safe commands like tests, and to deny access to sensitive files like `.env`. The table explains each permission mode.
 
 </details>
 
@@ -224,11 +233,10 @@ By default, Claude Code **asks before** editing files or running commands. You t
 
 ## 🧹 Context management: the hidden skill
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Claude has a backpack that can only hold so much. If you stuff it with old, unrelated stuff, it gets confused. Empty the
-backpack between different jobs.
+Everything Claude reads and runs fills its context window, and a cluttered context reduces quality. Use `/clear` between unrelated tasks, `/compact` to summarize a long session, and subagents for research-heavy work.
 
 </details>
 
@@ -246,11 +254,10 @@ context makes any model worse ([Context Engineering](../part-3-foundations/36-co
 
 ## 🗣️ Prompt patterns that work brilliantly
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Tell it what "finished" looks like, show it pictures and examples, and ask it to explain its choices. Clear bosses get
-great work.
+Effective prompts define what "done" looks like, include screenshots or examples, reference specific files, and ask Claude to explain its choices. The table gives an example of each pattern.
 
 </details>
 
@@ -268,11 +275,10 @@ great work.
 
 ## 🧪 Non-coding superpowers
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Claude Code isn't just for programmers. It can tidy your folders, rename photos, crunch spreadsheets and write documents,
-because it can use your computer's files and tools.
+Claude Code is useful beyond programming. It can organize and rename files, process spreadsheets, convert documents and automate repetitive computer tasks in any folder you point it at.
 
 </details>
 
@@ -288,10 +294,10 @@ Claude Code is a general-purpose **computer assistant with hands**. Point it at 
 
 ## 💎 20 pro tips
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Twenty little tricks that experienced users swear by.
+These twenty tips come from experienced users, including using plan mode for larger tasks, always providing a way to verify results, and committing after each working step.
 
 </details>
 
@@ -318,10 +324,10 @@ Twenty little tricks that experienced users swear by.
 
 ## 🗺️ 25 Claude Code projects for non-programmers
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Twenty-five fun things you could build this month, even if you've never written code.
+The table lists twenty-five projects that people without programming experience can build with Claude Code.
 
 </details>
 

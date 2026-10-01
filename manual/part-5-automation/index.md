@@ -3,12 +3,14 @@
 AI that works while you sleep: automation platforms, webhooks and APIs explained gently, the n8n masterclass, AI agents
 inside workflows, Zapier and Make walkthroughs, phone shortcuts, web scraping, and a recipe book of 50 ready-made workflows.
 
-<details class="eli5" open>
-<summary>🧸 ELI5: This part in 30 seconds</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-An automation is a little robot recipe: **"When this happens, do that."** When an email arrives, summarize it. Every
-morning, send me the news. When I say an idea into my phone, put it in my notes. Add AI to the recipe and the robot can
-also *think* a little: sort things, write things, decide things.
+An automation is a rule that runs on its own: **when something happens, do something else.** Adding AI lets those rules read, sort, summarize and write along the way.
+
+- **Learn the building blocks:** triggers, actions, webhooks, APIs and JSON.
+- **Master the platforms:** n8n, Zapier, Make, and the automation tools on your phone and computer.
+- **Use the recipe book** to set up proven automations in minutes.
 
 </details>
 
@@ -32,7 +34,7 @@ also *think* a little: sort things, write things, decide things.
 
     ---
 
-    <span class="card-meta">⏱️ 8 min read · 🎯 Beginner-friendly</span>
+    <span class="card-meta">⏱️ 9 min read · 🎯 Beginner-friendly</span>
 
     Chat-based AI needs you to press enter. Automation platforms run on triggers: a new email, a form submission, 7am every day, a webhook.
 
@@ -40,7 +42,7 @@ also *think* a little: sort things, write things, decide things.
 
     ---
 
-    <span class="card-meta">⏱️ 8 min read · 🎯 Beginner-friendly, no coding required</span>
+    <span class="card-meta">⏱️ 9 min read · 🎯 Beginner-friendly, no coding required</span>
 
     Three concepts unlock everything in automation and AI integrations: JSON (how data looks), APIs (how apps talk), and webhooks (how apps poke each other).
 
@@ -48,7 +50,7 @@ also *think* a little: sort things, write things, decide things.
 
     ---
 
-    <span class="card-meta">⏱️ 7 min read · 🎯 Beginner → intermediate</span>
+    <span class="card-meta">⏱️ 8 min read · 🎯 Beginner → intermediate</span>
 
     n8n is the playground where automation meets AI, and because you can self-host it for free, you can experiment without watching a meter.
 
@@ -56,7 +58,7 @@ also *think* a little: sort things, write things, decide things.
 
     ---
 
-    <span class="card-meta">⏱️ 9 min read · 🎯 Intermediate</span>
+    <span class="card-meta">⏱️ 10 min read · 🎯 Intermediate</span>
 
     The AI Agent node puts a full tool-using agent inside a workflow, with any model, memory, tools, MCP, RAG, structured output and human approvals.
 
@@ -64,7 +66,7 @@ also *think* a little: sort things, write things, decide things.
 
     ---
 
-    <span class="card-meta">⏱️ 6 min read · 🎯 Beginner-friendly, no code</span>
+    <span class="card-meta">⏱️ 7 min read · 🎯 Beginner-friendly, no code</span>
 
     n8n is the tinkerer's tool. Zapier and Make are the fastest paths from idea to working automation: no servers, no code, giant app catalogs.
 
@@ -80,7 +82,7 @@ also *think* a little: sort things, write things, decide things.
 
     ---
 
-    <span class="card-meta">⏱️ 7 min read · 🎯 Beginner → intermediate</span>
+    <span class="card-meta">⏱️ 8 min read · 🎯 Beginner → intermediate</span>
 
     A huge amount of useful information lives on web pages with no API: prices, job posts, event listings, government notices, product restocks, competitor updates.
 
@@ -88,7 +90,7 @@ also *think* a little: sort things, write things, decide things.
 
     ---
 
-    <span class="card-meta">⏱️ 7 min read (or grab one recipe!) · 🎯 Everyone</span>
+    <span class="card-meta">⏱️ 8 min read (or grab one recipe!) · 🎯 Everyone</span>
 
     Fifty ready-to-build AI automations, each written as trigger → steps → result, grouped by life area, and rated by difficulty.
 

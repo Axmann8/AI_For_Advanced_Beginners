@@ -7,12 +7,15 @@ members get their own accounts, it answers questions about your household docume
 listen and talk, it's reachable from everyone's phone, and it can optionally control your smart home through Home Assistant.
 It's the [Home Lab](../part-9-local-ai/80-home-lab.md), turned into something the whole family actually uses. 🏡✨
 
-<details class="eli5" open>
-<summary>🧸 ELI5: This build in 30 seconds</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-We're building a family robot helper that lives in your house, not on some company's faraway computer. Everyone gets their own
-login, it knows about your house stuff (like how the dishwasher works), you can talk to it out loud, and it can even turn the
-lights off. And because it lives at home, your family's secrets stay at home. 🤫🏠
+In this project you'll build a private AI assistant for your household that runs entirely on a computer in your home. Each family member gets an account, it answers questions from your household documents, supports voice conversation and can optionally control smart home devices. Because it runs locally, your family's data stays at home.
+
+1. **Start the home lab** and download a model.
+2. **Create family accounts** and a house assistant with its own personality.
+3. **Add a household knowledge base** and turn on voice.
+4. **Connect every phone privately** with Tailscale, and optionally add Home Assistant.
 
 </details>
 
@@ -20,11 +23,10 @@ lights off. And because it lives at home, your family's secrets stay at home. �
 
 ## 🗺️ What you'll build
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Phones connect privately to the home computer. There, the chat app talks to the local AI, reads your family documents, listens
-and speaks, and can control smart devices.
+Family devices connect over a private Tailscale network to Open WebUI on your home computer, which uses a local model, searches your household documents, handles voice and can control smart devices. The diagram shows the setup.
 
 </details>
 
@@ -49,10 +51,10 @@ flowchart LR
 
 ## ✅ Before you start
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-You need a computer that can stay on (an old desktop, a mini PC or a Mac), Docker, and about an afternoon.
+You'll need an always-on computer (a mini PC, an older desktop or a Mac mini, with 16 GB of RAM or more), Docker and an afternoon.
 
 </details>
 
@@ -64,10 +66,10 @@ You need a computer that can stay on (an old desktop, a mini PC or a Mac), Docke
 
 ## 1️⃣ Step 1: Start the lab (20 min)
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Start the home AI with one command and download a brain for it.
+Start the lab with Docker Compose and download a model. On a Mac, run Ollama natively for GPU acceleration and point Open WebUI at it, as described in the kit README.
 
 </details>
 
@@ -86,10 +88,14 @@ Open **http://localhost:3000**, create the **admin** account (you!), and chat.
 
 ## 2️⃣ Step 2: Family accounts and a house personality (20 min)
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Make a login for each family member, and give the helper a friendly name and personality that fits your family.
+Set up accounts and the assistant's personality.
+
+1. In **Admin Panel → Users**, add an account for each family member.
+2. In **Workspace → Models**, create a house assistant with a name and system prompt suited to your family.
+3. Set appropriate permissions, especially for children's accounts.
 
 </details>
 
@@ -111,11 +117,14 @@ Make a login for each family member, and give the helper a friendly name and per
 
 ## 3️⃣ Step 3: The household knowledge base (30 min)
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Give the helper your family's important papers, like the dishwasher manual and the recipe book, so it can answer questions
-about them.
+Build a knowledge base from your household documents.
+
+1. In **Workspace → Knowledge**, create a collection called "House."
+2. Upload appliance manuals, family recipes, emergency contacts and household routines.
+3. Attach the collection to your house assistant so it answers from those documents.
 
 </details>
 
@@ -132,10 +141,14 @@ concert?"* ([RAG, Memory & Knowledge](../part-8-knowledge-and-memory/72-rag-memo
 
 ## 4️⃣ Step 4: Talk to it (30 min)
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Switch on listening and speaking, so you can talk to the helper with your voice and hear it answer, all inside your house.
+Enable voice input and output.
+
+1. In **Settings → Audio**, choose local Whisper for speech-to-text.
+2. Choose a text-to-speech engine for replies.
+3. Test a spoken conversation; the audio is processed on your home computer.
 
 </details>
 
@@ -152,10 +165,14 @@ Perfect for the kitchen: *"Hearth, how long do I boil an egg for a runny yolk?"*
 
 ## 5️⃣ Step 5: Reach it from every phone, privately (20 min)
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Make a secret tunnel so family phones can reach the home helper from anywhere, without opening your house to strangers.
+Make the assistant reachable from family phones without exposing it to the internet.
+
+1. Install Tailscale on the home computer and each family phone.
+2. Sign in with the same account or a shared network.
+3. Open the home computer's Tailscale address in each phone's browser, and add it to the home screen.
 
 </details>
 
@@ -172,10 +189,10 @@ Make a secret tunnel so family phones can reach the home helper from anywhere, w
 
 ## 🏡 Step 6 (optional): Smart home with Home Assistant
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-If you have smart lights and gadgets, connect them so the helper can turn things on and off, or tell you if a door is open.
+If you use smart home devices, Home Assistant (a free, private smart home hub) can connect to the assistant, letting it control lights and devices or report status, such as whether a door is open.
 
 </details>
 
@@ -194,10 +211,10 @@ on?"*
 
 ## 🧰 Keeping it healthy
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Like any pet, your home helper needs a little care: updates, backups, and checking it still works well.
+Keep the system healthy with monthly updates, regular backups of your data volumes and periodic checks that the models and knowledge base are still working well. The table lists each task.
 
 </details>
 
@@ -211,10 +228,10 @@ Like any pet, your home helper needs a little care: updates, backups, and checki
 
 ## 🩺 Troubleshooting
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-If the home helper is slow or confused, here's what usually fixes it.
+The table lists common problems, such as slow answers or poor document recall, with a fix for each.
 
 </details>
 

@@ -7,12 +7,14 @@ mix up dates, cite a law that isn't real, or agree with you just to be nice. Non
 means using a few simple habits, the same way you'd double-check a bargain that looks too good to be true. This chapter
 makes you the person who gets all of AI's benefits and none of the embarrassing mistakes.
 
-<details class="eli5" open>
-<summary>🧸 ELI5: This chapter in 30 seconds</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Sometimes the AI is like a kid who didn't study but answers the test question confidently anyway. It's not lying on
-purpose; it just guessed. So for important things, like medicine, money or facts you'll share with others, check its
-answer with a real source. For fun things like poems and ideas, it doesn't matter.
+AI assistants sometimes state incorrect information with complete confidence, which is called a hallucination. This chapter shows you how to recognize errors and how much checking each kind of task needs.
+
+- **Match your checking to the stakes:** creative tasks rarely need verifying, but health, money and legal questions always do.
+- **Build simple habits:** ask for sources, open them, and get a second opinion.
+- **Watch for subtler problems,** including math errors, outdated news, excessive agreement and bias.
 
 </details>
 
@@ -20,11 +22,10 @@ answer with a real source. For fun things like poems and ideas, it doesn't matte
 
 ## 🤥 What AI mistakes look like
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-AI mistakes don't look like mistakes. They look like normal, confident answers. That's why you need to know the usual
-kinds.
+AI errors look just as confident as correct answers. Knowing the common types, such as invented sources, wrong dates and made-up details, helps you spot them.
 
 </details>
 
@@ -47,11 +48,14 @@ when the assistant searches the web, but they still happen. Knowing that is your
 
 ## 🚦 The traffic-light rule
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Green things (like poems) you don't need to check. Yellow things (facts you'll use) check quickly. Red things (health,
-money, laws, safety) always check with an expert.
+The traffic-light rule matches your fact-checking to the stakes:
+
+1. 🟢 **Green** (creative, low-stakes): use the answer freely.
+2. 🟡 **Yellow** (facts you'll rely on or share): check quickly.
+3. 🔴 **Red** (health, money, law, safety): always verify with an official source or professional.
 
 </details>
 
@@ -73,11 +77,16 @@ flowchart LR
 
 ## 🔍 Five fact-checking habits
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Five easy tricks: ask where it got the info, click the links, ask a second AI, check the official website, and ask how
-sure it is.
+These five habits catch most errors:
+
+1. Ask for sources, and open them to confirm they say what the AI claims.
+2. Ask a second assistant the same question.
+3. Check official websites for rules, prices and dates.
+4. Ask the AI how confident it is and what it might have wrong.
+5. Verify specific names, numbers and quotes.
 
 </details>
 
@@ -102,10 +111,10 @@ sure it is.
 
 ## 🧮 Math, counting and numbers
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-AI can slip up on sums when it does them "in its head." Ask it to show its work, or to use a calculator tool.
+Chatbots can make arithmetic mistakes when they calculate without a tool. Ask the AI to show its work or use its calculator or code tool, and double-check anything involving money.
 
 </details>
 
@@ -120,10 +129,10 @@ built-in calculator or code tool for math, which is much more reliable.
 
 ## 📰 News, current events and "is this true?"
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-For news, make sure the AI actually searched the internet, and check the date and source of what it found.
+For current events, confirm the assistant actually searched the web (look for source links), check the dates of what it found, and consider the reputation of each source.
 
 </details>
 
@@ -136,11 +145,10 @@ For news, make sure the AI actually searched the internet, and check the date an
 
 ## 🙋 When AI is *too* nice: agreeing too easily
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Sometimes the AI says "great idea!" just to be nice. If you want honest advice, ask it to be tough and point out
-problems.
+Assistants sometimes agree with you too readily or praise weak ideas, a tendency called sycophancy. When you want honest feedback, explicitly ask the AI to be critical and point out problems.
 
 </details>
 
@@ -160,11 +168,10 @@ Assistants are trained to be helpful and pleasant, which sometimes tips into **t
 
 ## ⚖️ Bias and one-sided answers
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-The AI learned from people's writing, so it can pick up people's unfair ideas. For big topics, ask it to show different
-points of view.
+AI learns from human writing, so it can reflect human biases. For debated topics, ask it to present the strongest arguments on each side and to say where experts agree and disagree.
 
 </details>
 
@@ -179,10 +186,10 @@ Then make up your own mind. AI is a great way to *understand* views, not to be t
 
 ## ✅ The quick fact-check checklist
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-A short list to run through whenever an answer really matters.
+Before you act on or share an important AI answer, run through this checklist.
 
 </details>
 

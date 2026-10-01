@@ -7,13 +7,15 @@ like this."** They turn words, images and sounds into coordinates on a giant map
 together. This chapter builds the intuition first (no math degree needed), then shows you how to make embeddings on your
 laptop, store them in a vector database, and use them for way more than chatbots. 🗺️✨
 
-<details class="eli5" open>
-<summary>🧸 ELI5: This chapter in 30 seconds</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Imagine a huge playground map where every word, sentence and picture gets a spot. Things that *mean* similar stuff stand
-close together: "puppy" is near "dog," "pizza" is near "pasta," and a photo of a beach is near the sentence "sunny day by the
-sea." An **embedding** is just the address of a spot on that map (a list of numbers). A **vector database** is a super-fast
-helper that answers "who's standing near this spot?" That's how AI finds things by meaning instead of exact words.
+An **embedding** is a list of numbers that represents the meaning of a piece of text (or an image). Texts with similar meanings get similar numbers, so you can search by meaning rather than exact words. A **vector database** stores embeddings and quickly finds the ones closest to a query.
+
+- **Embeddings power semantic search,** which finds relevant content even when the wording differs.
+- **You can create embeddings locally** for free, or use a hosted model for higher quality.
+- **Vector databases** make search fast at scale.
+- **Uses go beyond RAG:** clustering, deduplication, recommendations and anomaly detection.
 
 </details>
 
@@ -21,11 +23,10 @@ helper that answers "who's standing near this spot?" That's how AI finds things 
 
 ## 🗺️ The map of meaning
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Every piece of text gets a location made of numbers. Close locations mean similar meanings, far locations mean different
-meanings.
+An embedding model converts text into a vector, a list of hundreds or thousands of numbers. Each position captures some aspect of meaning, and texts with similar meanings end up close together in this numerical space.
 
 </details>
 
@@ -57,11 +58,10 @@ same: **distance = difference in meaning**.
 
 ## 📐 Measuring "closeness"
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-To check if two things are similar, we look at whether their arrows point in the same direction. Same direction means
-similar, opposite directions means very different.
+Similarity between embeddings is usually measured with **cosine similarity**, which checks whether two vectors point in the same direction (1 means very similar, 0 means unrelated). The table compares it with other measures.
 
 </details>
 
@@ -76,11 +76,10 @@ close to 1 = very similar**.
 
 ## 🔤 Words vs. meaning: why embeddings beat keyword search
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Old search only finds the exact words you typed. Meaning search also finds things said in different words, like finding
-"automobile" when you asked about "cars."
+Keyword search only finds documents containing the exact words you typed. Embedding search also finds content expressed differently, such as matching "car won't start" with "engine turns over but doesn't fire." The table shows more examples.
 
 </details>
 
@@ -96,10 +95,14 @@ systems use **hybrid search** (keywords + embeddings) ([Build a RAG System](74-b
 
 ## 🧪 Make embeddings on your laptop (no API key)
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-You can make these meaning-maps on your own computer for free with a small open-source model. Here's how, in about ten lines.
+You can generate embeddings on your own computer for free.
+
+1. Install `sentence-transformers` (Python) or the equivalent JavaScript library.
+2. Load a small open model.
+3. Encode your sentences and compare their similarity, as in the example below.
 
 </details>
 
@@ -141,11 +144,10 @@ in it. That's the moment embeddings click. ☕✨
 
 ## 🏷️ Choosing an embedding model
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Different map-makers draw slightly different maps. Some are free and run on your computer, some are online and extra
-accurate. Pick one and stick with it, because maps from different makers don't match.
+Embedding models vary in quality, cost and whether they run locally. Choose one and use it consistently, because embeddings from different models aren't compatible. The table compares the main options.
 
 </details>
 
@@ -172,11 +174,10 @@ accurate. Pick one and stick with it, because maps from different makers don't m
 
 ## 🗄️ Vector databases
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-When you have millions of spots on the map, you need a special helper that can find the nearest ones instantly. That's a
-vector database.
+For a few thousand chunks, a simple list in memory works fine. For larger collections, a vector database stores embeddings with metadata and finds the nearest matches quickly. The table compares Chroma, pgvector, Qdrant, Pinecone and others.
 
 </details>
 
@@ -205,11 +206,10 @@ select content, source from notes order by embedding <=> $1 limit 5;
 
 ## ⚡ How vector search stays fast
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Instead of checking every single spot on the map, the database builds shortcuts, like signposts, so it can jump straight to
-the right neighborhood.
+Comparing a query against every vector works up to about a hundred thousand vectors. Beyond that, databases use approximate nearest-neighbor (ANN) indexes, such as HNSW, which find close matches very quickly with a small trade-off in accuracy.
 
 </details>
 
@@ -227,11 +227,10 @@ faster. 🏎️
 
 ## 🎨 Beyond RAG: 10 things embeddings can do
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-The meaning-map isn't just for chatbots. You can use it to group similar things, find duplicates, recommend stuff, and
-spot weird ones out.
+Embeddings have many uses beyond RAG, including semantic search, clustering similar items, finding duplicates, recommendations and spotting outliers. The table gives an example of each.
 
 </details>
 
@@ -255,11 +254,10 @@ spot weird ones out.
 
 ## 🪤 Pitfalls & best practices
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-A few rules keep your meaning-map useful: use the same map-maker for everything, cut documents into sensible pieces, and
-keep labels on every card so you know where it came from.
+Follow a few best practices: use one embedding model per index, split documents into sensibly sized chunks with some overlap, and store metadata (source, date, title) with every chunk. The table lists more.
 
 </details>
 

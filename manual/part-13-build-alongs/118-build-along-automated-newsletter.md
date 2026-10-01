@@ -7,12 +7,15 @@ picks the best items and explains why each matters, and a lovely email lands in 
 the [newsletter-pipeline kit](../../examples/newsletter-pipeline/), make it yours, put it on autopilot, and optionally rebuild it
 with no code in n8n. Your own personal editor-in-chief, working while you sleep. ☕📬
 
-<details class="eli5" open>
-<summary>🧸 ELI5: This build in 30 seconds</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Imagine a helper who reads all your favorite websites every week, picks the five most interesting things, writes a friendly
-sentence about each, and puts them in a pretty email for you. That's this project! You choose the websites, and the helper
-does the reading. 📰✨
+In this project you'll build a Python pipeline that reads your favorite websites each week, has Claude choose the most interesting items and write a short note on each, and sends the result as a well-designed email newsletter.
+
+1. **Test the pipeline** with sample data and a dry run.
+2. **Choose your feeds** and generate your first AI-curated issue.
+3. **Customize** the voice, design and sections.
+4. **Send it automatically** every week.
 
 </details>
 
@@ -26,10 +29,10 @@ does the reading. 📰✨
 
 ## 🗺️ What you'll build
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Feeds come in, old and repeated stories are thrown out, Claude picks the best, and a pretty email goes out.
+Feed items are collected, previously seen and duplicate items are removed, Claude selects and describes the best ones, and the pipeline renders and sends an HTML email. The diagram shows each stage.
 
 </details>
 
@@ -45,10 +48,10 @@ flowchart LR
 
 ## ✅ Before you start
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Get Python ready and pick a few websites you love reading. That's most of it!
+Before starting, install Python 3.10 or later and the kit's requirements, get an Anthropic API key with a spending limit, and pick a few websites you enjoy reading.
 
 </details>
 
@@ -59,10 +62,10 @@ Get Python ready and pick a few websites you love reading. That's most of it!
 
 ## 1️⃣ Step 1: Test and dry run (10 min)
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-First check the machine works with pretend data, then try it with real websites but without the AI, just to see the email design.
+Run the tests, then do a dry run with real feeds but no AI step, to confirm everything works and preview the email design in your browser.
 
 </details>
 
@@ -77,10 +80,10 @@ Open `out/newsletter-YYYY-MM-DD.html` in your browser: that's your email design.
 
 ## 2️⃣ Step 2: Choose your feeds (20 min)
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Pick the websites your newsletter reads. Most websites have a hidden "feed" address that lists their newest posts.
+List the feeds your newsletter will read in `feeds.txt`, one URL per line. Most blogs, news sites, YouTube channels and subreddits offer RSS feeds; the table shows the common URL patterns.
 
 </details>
 
@@ -104,10 +107,10 @@ Edit `feeds.txt`, one feed URL per line:
 
 ## 3️⃣ Step 3: Your first AI-curated issue (15 min)
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Now let Claude read everything and pick the best stories for you, with a friendly note about each.
+Run the pipeline with AI curation enabled. Claude receives the candidate items and returns a structured issue with a subject line, an introduction and the selected items, each with a note on why it matters.
 
 </details>
 
@@ -126,10 +129,10 @@ warm and specific?
 
 ## 4️⃣ Step 4: Make it yours (30 min)
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Change the colors, the writing style and the sections so the newsletter feels like yours.
+Customize the newsletter's voice and audience, the number of items, the sections and the email's colors and layout. The table shows where to make each change.
 
 </details>
 
@@ -148,10 +151,10 @@ test_newsletter.py."*
 
 ## 5️⃣ Step 5: Send it (20 min)
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Send the newsletter by email. For just you, your own email account works. For lots of readers, use a proper newsletter service.
+Choose how to send it: your own email account (via SMTP with an app password) for personal use, or a newsletter service like Buttondown for many subscribers. The tabs explain each option.
 
 </details>
 
@@ -178,10 +181,10 @@ Send the newsletter by email. For just you, your own email account works. For lo
 
 ## 6️⃣ Step 6: Put it on autopilot (15 min)
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Set a weekly alarm for the robot so the newsletter makes itself every Monday morning.
+Schedule the pipeline to run weekly using cron on your computer or a GitHub Actions schedule, so each issue is created and sent automatically.
 
 </details>
 
@@ -207,10 +210,10 @@ Set a weekly alarm for the robot so the newsletter makes itself every Monday mor
 
 ## 🚀 Level-ups
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Extra ideas to make your newsletter even better: add your own notes, research, pictures or an audio version.
+Possible upgrades include adding your own introduction, including research summaries, generating images and producing an audio version. The table explains how to add each.
 
 </details>
 
@@ -225,10 +228,10 @@ Extra ideas to make your newsletter even better: add your own notes, research, p
 
 ## 🩺 Troubleshooting
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-If the newsletter is empty or doesn't send, here are the usual fixes.
+The table lists common problems, such as an empty issue or a failed send, with a fix for each.
 
 </details>
 

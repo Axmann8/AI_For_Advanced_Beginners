@@ -7,13 +7,14 @@ earth than the movies suggest.** It's software that has learned from enormous am
 understand what you type or say and help: answering questions, writing, explaining, planning, translating, and much
 more. This chapter clears away the jargon and the hype so you know exactly what you're dealing with.
 
-<details class="eli5" open>
-<summary>🧸 ELI5: This chapter in 30 seconds</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Normal computer programs follow a recipe someone wrote step by step. AI is different: instead of a recipe, it learned
-by looking at millions and millions of examples, the way you learned to recognize a dog by seeing lots of dogs.
-Chatbots like ChatGPT, Gemini and Claude learned from so much writing that they can chat with you, explain things and
-help with almost anything involving words. They're clever helpers, not magic and not alive.
+Traditional software follows rules that a programmer writes step by step. AI works differently: it learns patterns from enormous numbers of examples. Chatbots like ChatGPT, Gemini and Claude learned from so much text that they can hold a conversation, explain ideas and help with nearly any task involving language.
+
+- **AI is pattern-learning software,** not a thinking being and not magic.
+- **Generative AI** creates new text, images, audio and video instead of only recognizing things.
+- **It has clear strengths and weaknesses:** excellent with language and ideas, less reliable with exact facts and math.
 
 </details>
 
@@ -21,10 +22,10 @@ help with almost anything involving words. They're clever helpers, not magic and
 
 ## 🌱 AI in one sentence
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-AI is a computer that learned from examples instead of being told every single step.
+AI is software that learns from examples rather than following hand-written instructions for every situation. That approach lets it handle tasks that once required a person, like understanding language or recognizing images.
 
 </details>
 
@@ -50,11 +51,10 @@ The big difference from regular software is *how it's made*:
 
 ## 🏠 You already use AI every day
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-You've been using AI for years without noticing: your phone's face unlock, your email's spam filter and your streaming
-app's suggestions are all AI.
+You've likely been using AI for years. Face unlock, spam filters, keyboard suggestions, streaming recommendations and map traffic estimates all rely on it.
 
 </details>
 
@@ -76,11 +76,10 @@ anything with words, images and sound. That's the part this manual is about. �
 
 ## 🤖 The new kind of AI: generative AI
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Old AI could only sort and recognize things ("that's a cat"). New AI can *make* things: write a story about a cat, draw
-a cat, or even sing a song about a cat.
+Earlier AI mostly recognized and predicted things, such as flagging spam or identifying a photo. Generative AI can create new content, including text, images, music, voices, video and code, based on what you ask for.
 
 </details>
 
@@ -106,11 +105,10 @@ the later parts of this manual take you, once you're comfortable.
 
 ## 💬 So what exactly is a chatbot?
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-A chatbot is an AI you talk to by typing or speaking, like texting a very knowledgeable friend. Different companies make
-different ones, the way different companies make different phones.
+A chatbot (or AI assistant) is an app where you type or speak to an AI and it replies in plain language. Several companies make them, and each has its own strengths, similar to how different companies make competing phones.
 
 </details>
 
@@ -141,11 +139,10 @@ don't need to use all of them! Most people pick one favorite and maybe a second 
 
 ## 🧩 What AI is great at (and not so great at)
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-AI is a superstar at words and ideas, but it can get facts and math wrong, and it doesn't truly *know* you or feel
-things.
+Knowing where AI is reliable helps you use it with confidence. It excels at writing, explaining and brainstorming, but you should double-check facts, numbers, recent news and anything involving health, law or money.
 
 </details>
 
@@ -166,10 +163,10 @@ things.
 
 ## 📛 The words you'll hear, decoded
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-There are lots of fancy AI words, but most of them mean simple things. Here are the ones you'll hear the most.
+AI comes with a lot of jargon, but most of the terms describe simple ideas. The table below defines the ones you'll see most often; the [Glossary](../appendices/a-glossary.md) covers the rest.
 
 </details>
 
@@ -187,15 +184,14 @@ There are lots of fancy AI words, but most of them mean simple things. Here are 
 | **Open-source / open-weight model** | A model anyone can download and run themselves |
 
 Don't try to memorize these! You'll pick them up naturally. There's a full beginner-friendly
-[Glossary](../appendices/a-glossary.md) with an 🧸 ELI5 for every word whenever you need it.
+[Glossary](../appendices/a-glossary.md) with a plain-English definition and real-world example for every term.
 
 ## 🗺️ Your journey through this manual
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-This manual is like a staircase. You're on the first step now, and each part takes you one step higher, at your own
-speed.
+The manual is designed to be read at your own pace. Part I covers the basics; each later part adds new skills, and you can stop at whatever level meets your needs.
 
 </details>
 

@@ -1,19 +1,21 @@
 # 74 · Build a RAG System, Step by Step 🏗️📚
 
-> ⏱️ 7 min read · 🎯 Intermediate (copy-paste friendly) · 🧰 Needs: Python 3.10+, the [rag-from-scratch kit](../../examples/rag-from-scratch/), optionally an Anthropic API key and n8n
+> ⏱️ 8 min read · 🎯 Intermediate (copy-paste friendly) · 🧰 Needs: Python 3.10+, the [rag-from-scratch kit](../../examples/rag-from-scratch/), optionally an Anthropic API key and n8n
 
 **In [RAG, Memory & Knowledge](72-rag-memory-and-knowledge.md) you learned *what* RAG is. Now you'll build one, four
 times, each better than the last.** First from scratch (to understand every piece), then with real embeddings and a vector
 database, then with hybrid search and reranking, and finally with zero code in n8n. By the end, you can make AI answer
 questions about *any* pile of documents, with citations. 📚✅
 
-<details class="eli5" open>
-<summary>🧸 ELI5: This chapter in 30 seconds</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-We're building a robot librarian. Step one: cut your notes into index cards. Step two: give every card a "meaning address."
-Step three: when you ask a question, the robot fetches the best few cards. Step four: the AI reads those cards and answers,
-pointing to which card each fact came from. We'll build it the simple way first so you see every gear turning, then make
-it smarter and smarter.
+A RAG system answers questions using your own documents. It splits documents into chunks, indexes them for search, retrieves the most relevant chunks for each question, and has the AI answer from those chunks with citations. This chapter builds one in four stages.
+
+1. **Build from scratch** with simple keyword search to see every component.
+2. **Upgrade to embeddings** with Chroma for meaning-based search.
+3. **Add professional retrieval:** hybrid search, reranking and contextual chunks.
+4. **Build a no-code version** in n8n, then evaluate and tune.
 
 </details>
 
@@ -21,11 +23,10 @@ it smarter and smarter.
 
 ## 🗺️ The four stages
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-We'll build the same librarian four times: a basic one, a smarter one, a super-precise one, and one made by dragging blocks
-around with no code at all.
+The chapter builds the same system four ways, each improving search quality: from scratch, with embeddings, with professional retrieval techniques, and with no code. The table compares effort and quality.
 
 </details>
 
@@ -38,11 +39,14 @@ around with no code at all.
 
 ## 1️⃣ Stage 1: RAG from scratch
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-The simplest robot librarian: it finds cards that share the most important words with your question, then asks Claude to
-answer using only those cards.
+The [rag-from-scratch kit](../../examples/rag-from-scratch/) is a complete RAG system in about 120 lines of Python.
+
+1. Install the requirements and add a few Markdown notes to the notes folder.
+2. Run the search script (no API key needed) to see which chunks match a question.
+3. Add your API key and run the answer script to get a cited answer from Claude.
 
 </details>
 
@@ -84,11 +88,10 @@ Answer using ONLY the provided sources. Cite them like [1]. If the sources don't
 
 ## 2️⃣ Stage 2: Real embeddings with Chroma
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Now the librarian understands meaning, not just matching words. "Espresso machine error" finds the card about the "coffee
-maker E4 code."
+Stage 2 replaces keyword matching with embeddings using Chroma, a vector database that runs inside your Python program. Searches now match meaning, so a question about an "espresso machine error" finds notes about a "coffee maker E4 code."
 
 </details>
 
@@ -123,11 +126,14 @@ Then pass `results["documents"]` into the same answering prompt as Stage 1. That
 
 ## 3️⃣ Stage 3: Pro retrieval
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Three upgrades make the librarian excellent: search by meaning AND exact words, have a second expert re-sort the best cards,
-and write a tiny summary on each card so it makes sense on its own.
+Three techniques significantly improve retrieval:
+
+1. **Hybrid search:** combine keyword (BM25) and vector search, then merge the results.
+2. **Reranking:** use a reranking model to reorder the top results by relevance.
+3. **Contextual chunks:** add a short summary of the surrounding document to each chunk before embedding it.
 
 </details>
 
@@ -171,11 +177,13 @@ flowchart LR
 
 ## 4️⃣ Stage 4: No-code RAG in n8n
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-The same librarian built by connecting blocks: one robot files new documents automatically, and another answers questions in
-a chat window.
+The no-code version uses two n8n workflows.
+
+1. **Ingest:** watch a Drive folder, load and split each document, create embeddings and store them in a vector database.
+2. **Query:** a chat trigger connects to an AI Agent with a vector store tool that retrieves relevant chunks.
 
 </details>
 
@@ -199,10 +207,10 @@ More n8n detail in [n8n AI Agents](../part-5-automation/48-n8n-ai-agents.md#-rag
 
 ## ✨ The tuning checklist
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-When the librarian gives bad answers, here's a list of what's probably wrong and how to fix it.
+When answers are poor, the table identifies the likely cause and fix, such as retrieving more chunks, adjusting chunk size or improving the prompt.
 
 </details>
 
@@ -225,11 +233,14 @@ When the librarian gives bad answers, here's a list of what's probably wrong and
 
 ## 🧪 Evaluate it (seriously, 10 minutes)
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Write a quiz for your librarian with questions you already know the answers to. Every time you change something, run the quiz
-again to see if it got better or worse.
+Evaluate your system so you can tell whether changes help.
+
+1. Write 15–20 questions with known answers from your documents, including a few whose answers aren't in them.
+2. For each, check whether the right chunk was retrieved, whether the answer was correct, and whether it admitted when it didn't know.
+3. Re-run the set after every change.
 
 </details>
 
@@ -244,11 +255,10 @@ Change **one thing at a time** (chunk size, k, embedding model, reranker) and re
 
 ## 🚀 Going to production
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-If real people will use your librarian, add a few grown-up features: keep documents fresh, respect who's allowed to see what,
-show sources, and keep an eye on costs.
+Before real users rely on the system, use this checklist: automatic re-indexing of changed documents, metadata with permissions, visible citations, monitoring and cost controls.
 
 </details>
 
@@ -263,10 +273,10 @@ show sources, and keep an eye on costs.
 
 ## 🎮 Project ideas
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Six fun librarians you could build this month.
+The table suggests six RAG projects, each labeled with the stage it requires.
 
 </details>
 

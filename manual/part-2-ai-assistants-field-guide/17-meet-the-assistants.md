@@ -6,12 +6,14 @@
 brilliant at, how they feel to talk to, and how they treat your data. Use this chapter to get your bearings, then dive
 into the full guide for the assistant you use most. Think of it as the map at the entrance of the AI zoo. 🦁🦒🐧
 
-<details class="eli5" open>
-<summary>🧸 ELI5: This chapter in 30 seconds</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-All these AI helpers can chat, explain and write, but each has special talents: one is great with Google stuff, one
-with Microsoft stuff, one shows its sources, one lives in WhatsApp, one is extra good at writing. This chapter lines
-them all up so you can see which one fits you.
+All the major AI assistants can chat, explain and write, but each has distinct strengths, plans and privacy policies. This chapter compares them side by side so you can choose the right one, or the right combination.
+
+- **Strengths differ:** Gemini integrates with Google, Copilot with Microsoft, Perplexity cites sources, Meta AI lives in WhatsApp, and Claude is known for writing.
+- **The tables compare** features, personalities, plans, privacy and availability.
+- **Every chapter that follows** uses the same layout, so it's easy to compare any two assistants.
 
 </details>
 
@@ -19,10 +21,10 @@ them all up so you can see which one fits you.
 
 ## 🦁 The lineup at a glance
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Here are the main AI helpers, who makes them, and what each is best at, all in one table.
+This table lists each major assistant, its maker, where you can use it and what it does best, with a link to its full chapter.
 
 </details>
 
@@ -43,11 +45,10 @@ Here are the main AI helpers, who makes them, and what each is best at, all in o
 
 ## 🧰 Who can do what
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-A big checklist of powers: which AIs can talk, see through your camera, make pictures and videos, search the web, remember
-you, and do jobs for you.
+This feature matrix shows which assistants support voice, camera input, image and video creation, web search, memory, agents and more. Use the legend above the table to read partial support.
 
 </details>
 
@@ -72,11 +73,10 @@ Features roll out unevenly by country, plan and device, and change often. Each a
 
 ## 🎭 Personalities: how they feel to talk to
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Each AI has its own way of talking: some are chatty, some are careful, some are jokey. Try a few and see who you get
-along with.
+Each assistant has a recognizable conversational style, from detailed and enthusiastic to concise and measured. Most let you adjust their tone in settings, so try a few and see which suits you.
 
 </details>
 
@@ -96,10 +96,10 @@ This part is subjective (and each assistant lets you adjust its style), but most
 
 ## 💳 Plans at a glance
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Every AI has a free version. Paying gets you more uses and fancier features. Here's what each company calls its plans.
+Every assistant offers a free tier, and paid plans add higher limits, stronger models and premium features. The table lists the current plan names for each.
 
 </details>
 
@@ -121,11 +121,10 @@ Advice on whether to pay at all: [Getting Set Up](../part-1-ai-from-zero/05-gett
 
 ## 🔐 Privacy at a glance
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Different AI companies handle your chats differently. Some use them to train their AI unless you switch it off, and some
-keep data in other countries. Check the switches.
+Assistants differ in whether they use your chats for training by default, how long they keep data and where the company is based. The table summarizes each one's defaults and the setting to change.
 
 </details>
 
@@ -146,10 +145,10 @@ picture, see [Privacy & Your Data](../part-12-mastery/104-privacy-and-your-data.
 
 ## 🌍 Where you can use them
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Most AIs work in most countries and speak lots of languages, but some features only arrive in some places first.
+Most assistants are available in most countries and many languages, but new features often launch in certain regions first, and a few assistants aren't officially available everywhere.
 
 </details>
 
@@ -163,10 +162,10 @@ Most AIs work in most countries and speak lots of languages, but some features o
 
 ## 📖 How each Field Guide chapter works
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Every chapter in this part is laid out the same way, so once you've read one, you can find things in all the others.
+Every assistant chapter follows the same structure, from quick facts and setup through features, step-by-step recipes, privacy settings and pro tips, so you can find the same information in each one.
 
 </details>
 

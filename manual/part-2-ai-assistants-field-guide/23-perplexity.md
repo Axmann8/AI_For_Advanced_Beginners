@@ -1,18 +1,20 @@
 # 23 · Perplexity: The Complete Guide 🔎
 
-> ⏱️ 7 min read · 🎯 Beginners to advanced beginners · 🧰 Needs: nothing (an account saves your history; perplexity.ai)
+> ⏱️ 8 min read · 🎯 Beginners to advanced beginners · 🧰 Needs: nothing (an account saves your history; perplexity.ai)
 
 **Perplexity calls itself an "answer engine": ask a question and you get a clear, written answer with numbered sources
 you can click, like a search engine and a research assistant rolled into one.** It's the go-to tool for fact-finding,
 comparisons, product research and staying on top of news, and its free **Comet** browser brings an AI assistant to every
 web page. If you care about *where* an answer came from, this is your tool.
 
-<details class="eli5" open>
-<summary>🧸 ELI5: This chapter in 30 seconds</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Perplexity is like a librarian who runs off, reads lots of websites for you, and comes back with a short answer plus
-little numbered notes saying exactly where each fact came from. So you can check it! It's great for questions like
-"which vacuum should I buy?" or "what happened in the news today?"
+Perplexity is an "answer engine": it searches the web for you and returns a written answer with numbered citations, so you can verify every claim. It's especially useful for research, product comparisons and current events.
+
+- **Search modes** range from quick answers to deep, multi-source research reports.
+- **Spaces** organize research by topic, and **Comet** is Perplexity's AI-powered browser.
+- **Always check the citations** behind important claims.
 
 </details>
 
@@ -20,10 +22,10 @@ little numbered notes saying exactly where each fact came from. So you can check
 
 ## 🔎 Quick facts
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-The basics: who makes Perplexity, where you can use it and what it's best at.
+Perplexity is made by Perplexity AI. It's available on the web, as phone and desktop apps, and through its Comet browser.
 
 </details>
 
@@ -38,10 +40,14 @@ The basics: who makes Perplexity, where you can use it and what it's best at.
 
 ## 🚪 Getting started
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Go to perplexity.ai and just ask a question. Sign up if you want to save your searches.
+You can start using Perplexity immediately.
+
+1. Go to perplexity.ai or install the app and ask a question; no account is required.
+2. Sign up with email, Google or Apple to save your searches in your Library.
+3. Try a follow-up question to dig deeper.
 
 </details>
 
@@ -52,10 +58,10 @@ Go to perplexity.ai and just ask a question. Sign up if you want to save your se
 
 ## 💳 Plans in plain English
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Free Perplexity is great for everyday questions. Pro lets you pick the smartest AI models and do more deep research.
+The free plan covers everyday searching. Pro adds a choice of top models (from OpenAI, Anthropic, Google and others), more Pro searches and more research. The table compares the plans.
 
 </details>
 
@@ -70,11 +76,10 @@ Students and some phone or telecom partners often get Pro free or discounted, so
 
 ## 🧭 Search modes: quick, Pro, Research and Labs
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Perplexity has quick answers for easy questions, deeper searches for harder ones, a research mode that writes reports,
-and Labs, which can even build spreadsheets and dashboards.
+Perplexity offers several modes: quick **Search** for simple facts, **Pro Search** for multi-step questions, **Research** for full cited reports, and **Labs** for building spreadsheets, dashboards and small apps.
 
 </details>
 
@@ -90,10 +95,14 @@ and Labs, which can even build spreadsheets and dashboards.
 
 ## 🔗 Reading sources like a pro
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Every fact has a little number. Tap it to see the website it came from, and check that the website really says that.
+Every answer includes numbered citations, and checking them is what makes Perplexity trustworthy.
+
+1. Hover over or tap a citation number to see its source.
+2. Open the sources behind important claims.
+3. Confirm the page actually says what the answer claims, and check how recent it is.
 
 </details>
 
@@ -110,10 +119,14 @@ This habit makes Perplexity one of the most **trustworthy** ways to use AI for f
 
 ## 🗂️ Spaces: your research folders
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Spaces are folders for a topic, with your own instructions and files, so all your research on one thing stays together.
+Spaces are topic folders with custom instructions and uploaded files, keeping related research together.
+
+1. In the sidebar, open **Spaces** and choose **Create a Space**.
+2. Add instructions and any reference files.
+3. Run all searches on that topic inside the Space.
 
 </details>
 
@@ -126,11 +139,10 @@ Spaces are folders for a topic, with your own instructions and files, so all you
 
 ## ☄️ Comet: the AI browser
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Comet is a web browser with an AI helper built in. It can explain the page you're on, compare things across tabs, and even
-do web chores for you while you watch.
+Comet is Perplexity's free browser for Windows, Mac, iPhone and Android. It includes an AI assistant on every page that can summarize, compare across tabs and complete web tasks while you supervise.
 
 </details>
 
@@ -151,11 +163,10 @@ bookmarks), but has an AI **assistant** on every page:
 
 ## 🔌 Connectors, files and more
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-You can connect Perplexity to your email, calendar and other apps, upload your own files, and use it for shopping and
-finance questions.
+Connectors let Perplexity search your Gmail, Calendar, Outlook, Notion, GitHub and other accounts alongside the web. You can also upload files and use dedicated features for shopping and finance.
 
 </details>
 
@@ -168,10 +179,10 @@ finance questions.
 
 ## 🍳 Step-by-step recipes
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Four real jobs you can do with Perplexity today.
+These four recipes walk through real tasks in Perplexity step by step, from choosing a product to researching a big decision.
 
 </details>
 
@@ -198,10 +209,10 @@ Four real jobs you can do with Perplexity today.
 
 ## 🔐 Privacy and settings
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-The important switches: whether your data helps train Perplexity's AI, private searches, and clearing your history.
+The table lists Perplexity's privacy settings, including AI data retention, incognito mode and history deletion.
 
 </details>
 
@@ -215,10 +226,10 @@ The important switches: whether your data helps train Perplexity's AI, private s
 
 ## 💡 Pro tips and limitations
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Clever tricks Perplexity fans know, and the things to watch out for.
+These tips help you get more out of Perplexity, followed by its current limitations so you know what to watch for.
 
 </details>
 

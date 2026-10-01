@@ -7,12 +7,15 @@
 "how did I live without this?" This chapter shows you how to use each superpower in the popular apps, with fun first
 things to try.
 
-<details class="eli5" open>
-<summary>🧸 ELI5: This chapter in 30 seconds</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Your AI can do more than text. You can **talk** to it like a phone call, **show** it things with your camera ("what
-plant is this?"), **give** it documents to read ("what does this letter mean?"), and ask it to **draw** pictures ("a
-cat astronaut!"). It's like your helper got ears, eyes and paintbrushes.
+Modern assistants work with much more than typed text. This chapter shows you how to use each of these capabilities.
+
+- **Voice:** have a natural spoken conversation, hands-free.
+- **Photos and live camera:** ask questions about anything you can point your phone at.
+- **Files:** upload documents, spreadsheets and PDFs and ask questions about them.
+- **Image creation:** generate and edit pictures from a written description.
 
 </details>
 
@@ -20,10 +23,14 @@ cat astronaut!"). It's like your helper got ears, eyes and paintbrushes.
 
 ## 🎙️ Talk to it: voice mode
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Tap the voice button and just talk, like a phone call. The AI talks back, and you can interrupt it any time.
+Voice mode lets you talk with the assistant out loud, much like a phone call. You can interrupt and change direction at any time.
+
+1. Tap the voice or waveform icon in the app.
+2. Allow microphone access when asked.
+3. Speak naturally, and tap the icon again to end the conversation.
 
 </details>
 
@@ -72,11 +79,14 @@ mind mid-sentence, and it responds in a natural voice with feeling.
 
 ## 📸 Show it things: photos and the live camera
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Take a photo of something and ask about it: a plant, a menu in another language, a broken thing, a confusing sign. The
-AI looks and explains.
+You can share a photo, or point your live camera at something, and ask questions about it, such as identifying a plant, translating a menu or diagnosing a problem.
+
+1. Tap the camera or ➕ button.
+2. Take or choose a photo.
+3. Ask a specific question about it.
 
 </details>
 
@@ -101,11 +111,14 @@ like video-calling a patient expert. 📹
 
 ## 📄 Give it documents to read
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-You can give the AI a whole document, like a long letter or a manual, and ask it questions about it, so you don't have
-to read every word yourself.
+Assistants can read PDFs, documents and spreadsheets and answer questions about them, which saves you from reading every page.
+
+1. Tap 📎 or ➕ and choose **Upload file** (or drag the file into the chat).
+2. Ask for a summary, specific information or an explanation.
+3. Ask follow-up questions about any part you need.
 
 </details>
 
@@ -133,11 +146,10 @@ Tap **📎 / ➕ → Upload file** (or drag a file into the chat on a computer).
 
 ## 🖼️ Make pictures from words
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Describe a picture in words and the AI paints it for you in seconds. You can also give it a photo and ask it to change
-things.
+Many assistants can create images from a description and edit existing pictures. The table shows how each one does it; describe the subject, style and mood for the best results.
 
 </details>
 
@@ -172,10 +184,10 @@ Many assistants can **create images** from a description. Just ask *"Create an i
 
 ## 🎬 Bonus: video, music and more
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Some AIs can even make short videos and songs from a description. It's amazing fun to try.
+Some tools go further and create short videos, songs and other media from a description. These are good to explore once you're comfortable with the basics.
 
 </details>
 
@@ -192,11 +204,10 @@ When you're ready: [The Multimodal Playground](../part-10-creative-ai/83-multimo
 
 ## 🔒 Voice and photo privacy in a nutshell
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Photos and voice recordings can show more than you think, like your address on an envelope. Take a quick look before
-you share.
+Photos and voice recordings can reveal more than you intend, such as an address in the background. Review what's in a photo before sharing it, and check your assistant's settings for how recordings are stored.
 
 </details>
 

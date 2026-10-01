@@ -6,12 +6,15 @@
 AI: every tool, script, agent and model can read and write your notes, and you stay in full control. This chapter shows how
 to turn a vault into an AI-powered thinking partner, privately if you want.
 
-<details class="eli5" open>
-<summary>🧸 ELI5: This chapter in 30 seconds</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Obsidian keeps your notes as simple text files in a folder, like pages in a real notebook you own. Because they're just
-files, any AI helper can read them: an AI inside Obsidian, Claude through a connector, or a coding agent that tidies your
-whole notebook. You can even use an AI that lives only on your computer, so your diary never leaves home.
+Obsidian stores notes as plain Markdown files in a folder on your computer. Because they're ordinary files, any AI tool can work with them: plugins inside Obsidian, chat assistants through MCP, coding agents working in the folder, or local models that keep everything private.
+
+1. **Choose how to add AI:** plugins, MCP or a coding agent.
+2. **Structure your vault** with clear folders and a CLAUDE.md file explaining your system.
+3. **Build daily habits** like an AI-assisted daily note and a weekly review.
+4. **Protect your notes** with Git so every AI change can be reviewed and undone.
 
 </details>
 
@@ -19,11 +22,10 @@ whole notebook. You can even use an AI that lives only on your computer, so your
 
 ## 💜 Why Obsidian + AI is special
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Your notes belong to you, they work with any AI, they're connected like a spider web, and you can undo any change the AI
-makes.
+With Obsidian, you own your files, any AI tool can use them, links between notes form a knowledge graph AI can follow, and version control lets you undo any change.
 
 </details>
 
@@ -35,11 +37,10 @@ makes.
 
 ## 🔌 Three ways to add AI
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-You can add AI *inside* Obsidian (plugins), let chat apps visit your notes (MCP), or let a coding agent work directly in
-your notes folder.
+There are three ways to add AI to Obsidian: **community plugins** that work inside the app, **MCP servers** that let chat assistants read your vault, and **coding agents** like Claude Code that work directly in the vault folder.
 
 </details>
 
@@ -83,11 +84,10 @@ full file-system skills (grep, bulk edits, scripts) ([Claude Code Masterclass](.
 
 ## 🗂️ Set up your vault for AI
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Give your notebook clear folders and leave a note at the front that explains your system to AI helpers, like a map of your
-notebook.
+An AI-friendly vault has a clear folder structure and a CLAUDE.md (or AGENTS.md) file at the top level explaining your system, conventions and rules for AI visitors.
 
 </details>
 
@@ -119,11 +119,10 @@ Add a `CLAUDE.md` (or `AGENTS.md`) at the root:
 
 ## 🎮 15 things to ask an AI with vault access
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Here are fifteen fun questions and jobs to give an AI that can read your notebook, from monthly reflections to finding
-notes that should be friends.
+These fifteen prompts show what an AI with access to your vault can do, from writing monthly reflections to suggesting links between related notes.
 
 </details>
 
@@ -145,11 +144,10 @@ notes that should be friends.
 
 ## 🔁 Workflows that stick
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-A few daily habits make the whole system work: an AI-assisted morning note, an easy way to capture ideas, and a Friday
-tidy-up.
+Three habits make an AI-assisted vault work well over time: an AI-generated daily note each morning, quick capture into an Inbox folder, and a weekly review where AI helps file and link new notes.
 
 </details>
 
@@ -169,10 +167,10 @@ Use a **skill** or a saved prompt: wins, open loops, lessons, next week's top 3
 
 ## 🔒 Private mode: fully local AI
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-For really personal notes (like a diary), use an AI that runs only on your computer, so nothing ever goes to the internet.
+For sensitive notes such as journals or health information, use a local model through Ollama or LM Studio with an Obsidian plugin, so nothing leaves your computer.
 
 </details>
 
@@ -182,10 +180,10 @@ notes and private thoughts 100% on-device. Small local models are great at summa
 
 ## 🔄 Syncing across devices
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-To use your notebook on your phone and computer, you need a way to copy it between them. There are paid, free and nerdy options.
+To use your vault on several devices you need a sync method: Obsidian Sync (paid, encrypted), iCloud Drive, Syncthing (free) or Git. The table compares them.
 
 </details>
 
@@ -198,10 +196,14 @@ To use your notebook on your phone and computer, you need a way to copy it betwe
 
 ## ✅ Your safety net
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Before letting AI rearrange your notebook, make a save point (Git) so you can always go back if you don't like the changes.
+Before letting AI make large changes, set up a safety net.
+
+1. Put the vault under Git version control (the Obsidian Git plugin makes this easy).
+2. Ask agents to propose changes before making bulk edits.
+3. Review the changes and undo anything you don't want.
 
 </details>
 

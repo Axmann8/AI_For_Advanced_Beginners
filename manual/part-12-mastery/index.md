@@ -3,11 +3,14 @@
 Doing it *well*: safety and gotchas, privacy, evaluating and comparing AI, cost optimization, ethics for builders,
 teaching others, turning your skills into income, staying current, and where this is all heading.
 
-<details class="eli5" open>
-<summary>🧸 ELI5: This part in 30 seconds</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-You've learned to ride the bike. Now it's about riding **safely** (helmet on!), **cheaply** (not wasting money),
-**kindly** (being fair to others), and eventually **teaching your friends** to ride too. Plus a peek at where the road goes next.
+Once you're comfortable with AI, the next step is using it well over the long term: safely, affordably, ethically and with up-to-date knowledge.
+
+- **Protect yourself:** manage risks, costs and your personal data.
+- **Measure quality:** test and compare AI tools on the tasks you actually care about.
+- **Share and grow:** teach others, earn from your skills, keep up with the field, and see where AI is heading.
 
 </details>
 
@@ -32,7 +35,7 @@ You've learned to ride the bike. Now it's about riding **safely** (helmet on!), 
 
     ---
 
-    <span class="card-meta">⏱️ 8 min read · 🎯 Everyone who uses AI beyond simple chat</span>
+    <span class="card-meta">⏱️ 9 min read · 🎯 Everyone who uses AI beyond simple chat</span>
 
     This isn't a lecture. It's the short list of things that will actually bite you, and the simple habits that prevent them, so you can experiment freely.
 
@@ -48,7 +51,7 @@ You've learned to ride the bike. Now it's about riding **safely** (helmet on!), 
 
     ---
 
-    <span class="card-meta">⏱️ 6 min read · 🎯 Everyone choosing models, prompts or tools (and every builder)</span>
+    <span class="card-meta">⏱️ 7 min read · 🎯 Everyone choosing models, prompts or tools (and every builder)</span>
 
     "Which model is best?" The honest answer is "best at what, for you?" Leaderboards are a starting point, but the only benchmark that truly matters is your tasks.
 
@@ -72,7 +75,7 @@ You've learned to ride the bike. Now it's about riding **safely** (helmet on!), 
 
     ---
 
-    <span class="card-meta">⏱️ 7 min read · 🎯 Anyone who's become "the AI person" among friends, family or coworkers</span>
+    <span class="card-meta">⏱️ 8 min read · 🎯 Anyone who's become "the AI person" among friends, family or coworkers</span>
 
     You've learned a lot. Now you're probably the person everyone asks "wait, how did you do that?" Teaching others is one of the most rewarding things you can do with your new skills, and one of the best ways to deepen them.
 
@@ -80,7 +83,7 @@ You've learned to ride the bike. Now it's about riding **safely** (helmet on!), 
 
     ---
 
-    <span class="card-meta">⏱️ 8 min read · 🎯 Anyone who wants their new AI skills to pay off: a raise, a side hustle or a business</span>
+    <span class="card-meta">⏱️ 9 min read · 🎯 Anyone who wants their new AI skills to pay off: a raise, a side hustle or a business</span>
 
     Everything in this manual is a valuable skill: automations, agents, RAG bots, MCP servers, content pipelines, prompt systems.
 

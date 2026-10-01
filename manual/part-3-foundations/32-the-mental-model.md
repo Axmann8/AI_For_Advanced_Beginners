@@ -1,18 +1,20 @@
 # 32 · The Mental Model: From Chatbot to Teammate 🧠➡️🤖
 
-> ⏱️ 10 min read · 🎯 Beginner-friendly · 🧰 Needs: nothing but curiosity
+> ⏱️ 11 min read · 🎯 Beginner-friendly · 🧰 Needs: nothing but curiosity
 
 **You already know how to *talk* to an AI. This chapter is about the leap that makes everything else click: AI that can
 *act*, not just answer.** Once you see the four superpowers and the agent loop, every tool in this manual (MCP,
 connectors, automations, coding agents) turns out to be a variation on the same simple idea.
 
-<details class="eli5" open>
-<summary>🧸 ELI5: This chapter in 30 seconds</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-A regular chatbot is like a very smart friend on the phone: it can talk, but it can't *do* anything for you. Now imagine
-giving that friend **hands** (it can press buttons in your apps), **eyes** (it can see your files and calendar), a
-**memory** (it remembers you), and **patience** (it keeps working step by step until the job is done). That's an **agent**.
-Everything in this manual is about giving your AI those four gifts.
+A basic chatbot can only respond with text. An **agent** is an AI that can also take actions: it uses tools in your apps, reads your data, remembers context and keeps working step by step until a task is done. This chapter explains that shift and the vocabulary that goes with it.
+
+- **Agents run a loop:** decide on a step, use a tool, check the result, and repeat.
+- **Tools** are actions an app makes available to the AI, each with a name, description and inputs.
+- **Autonomy has levels,** from simple suggestions to fully independent work; match the level to how much you trust the setup.
+- **Three principles:** give the AI the context it needs, describe tools and tasks clearly, and use plain automation for predictable steps.
 
 </details>
 
@@ -20,11 +22,10 @@ Everything in this manual is about giving your AI those four gifts.
 
 ## 🫙 From brain-in-a-jar to teammate
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-A chatbot is a genius locked in a jar: brilliant, but it only knows what you tell it and can only talk back. We're going
-to open the jar.
+On its own, a chatbot only knows what you paste in and can only return text, leaving you to do the copying, clicking and following up. Connecting it to tools and data turns it into a teammate that can act for you.
 
 </details>
 
@@ -51,11 +52,16 @@ the results, and repeats until it's done.
 
 ## 🔁 The agent loop, demystified
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-An agent is like a kid doing a treasure hunt: read the clue, go look, see what you found, read the next clue, repeat until
-you find the treasure. The AI does exactly that with tools.
+Every agent, whether built in or one you create, follows the same loop:
+
+1. The model reads the goal and decides the next step.
+2. It calls a tool (search, read a file, create an event).
+3. It reads the result and decides whether it's done or needs another step.
+
+The key difference from a fixed script is that the model chooses each step based on what it finds.
 
 </details>
 
@@ -95,11 +101,10 @@ feature, or a research agent writes a 10-page report.
 
 ## 🔧 What "tools" really are
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-A tool is a button with a label. The label says what the button does and what information it needs. The AI reads the
-labels, picks a button, and asks your app to press it.
+A tool has three parts: a name, a plain-language description of what it does and when to use it, and a list of required inputs. The model reads these descriptions, chooses a tool, and asks the app to run it.
 
 </details>
 
@@ -124,11 +129,10 @@ tools in [Building MCP Servers](../part-4-mcp-and-connectors/42-building-mcp-ser
 
 ## 🗺️ Where all the buzzwords fit
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-All the fancy words are just pieces of one picture: the app you talk to, the brain inside it, the plugs that connect it to
-your stuff, and robots that run on their own.
+The diagram shows how the main terms fit together: **hosts** (the apps you talk to), **models** (the AI inside), **connectors and MCP servers** (links to your data and tools) and **automations** (workflows that run on their own).
 
 </details>
 
@@ -175,11 +179,10 @@ Trigger), and your workflows can run *full agents* inside them (n8n's AI Agent n
 
 ## 🚗 Autonomy levels: from autocomplete to autopilot
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Like learning to drive: first a grown-up does everything, then you steer with help, then you drive with someone watching,
-and one day you drive alone on familiar roads. AI helpers grow up the same way.
+AI setups range from suggestions you approve one by one to agents that work independently on familiar tasks. Naming the level helps you decide how much oversight a setup needs; the table describes each level and your role in it.
 
 </details>
 
@@ -199,11 +202,10 @@ actions that are **cheap to undo**. Sending an email to your boss? Level 2 forev
 
 ## ⚖️ What AI is great at (and where it still trips)
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-AI is like a super-talented friend who has read every book but sometimes misremembers details and gets distracted during
-very long tasks. Give it the right jobs and double-check the important stuff.
+AI has a "jagged frontier": it's excellent at some difficult tasks, like summarizing and drafting, and surprisingly unreliable at some simple-looking ones, like precise counting or very long multi-step tasks. Assign work accordingly and verify what matters.
 
 </details>
 
@@ -225,10 +227,10 @@ manual is mostly about tools!
 
 ## 🧪 A day in the life with an AI teammate
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Here's a story of one normal day where an AI helper quietly does lots of little jobs, so you can picture what's possible.
+This example day shows how an AI teammate can handle many small tasks in the background: a morning briefing, email triage, research, scheduling and a weekly report.
 
 </details>
 
@@ -248,11 +250,14 @@ None of this is science fiction. Every single piece is covered in this manual wi
 
 ## 🧭 Three principles that'll save you hours
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-One: AI can only help with what it can see. Two: explain tools and tasks clearly, like to a new friend. Three: use plain
-robots for boring, predictable steps and save the AI for the thinking steps.
+Three principles prevent most frustration:
+
+1. **Context is king:** most poor answers happen because the AI couldn't see the information it needed.
+2. **Be explicit:** describe tasks and tools as clearly as you would to a new colleague.
+3. **Use the right tool for each step:** plain automation for predictable steps, AI for steps that need judgment.
 
 </details>
 

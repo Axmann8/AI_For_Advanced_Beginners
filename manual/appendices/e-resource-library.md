@@ -6,11 +6,13 @@
 or docs where possible. Products evolve (and occasionally disappear), so if something moved, search the name, or ask your
 assistant with web search on. 🔎
 
-<details class="eli5" open>
-<summary>🧸 ELI5: This page in 30 seconds</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-This is the address book for the whole manual: where to find every tool and website we talked about, sorted into groups so
-it's easy to look things up. 📒🌐
+This appendix collects links to the tools, documentation and websites referenced throughout the manual, grouped by topic for quick lookup.
+
+- **Sections** cover MCP, assistants and developer platforms, automation, building, local AI, knowledge tools, creative tools, voice, accessibility, free APIs and evaluation.
+- **Links point to official sources** wherever possible.
 
 </details>
 
@@ -18,10 +20,10 @@ it's easy to look things up. 📒🌐
 
 ## 🔌 MCP
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Where to learn about AI plug-ins, find ready-made ones, and build your own.
+These resources cover MCP: the official specification and documentation, SDKs, server directories and the registry.
 
 </details>
 
@@ -42,10 +44,10 @@ Where to learn about AI plug-ins, find ready-made ones, and build your own.
 
 ## 🧠 AI assistants & developer platforms
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-The main AI chat apps and the websites for building with them.
+These are the main AI assistants and the developer platforms for building with their models.
 
 </details>
 
@@ -72,10 +74,10 @@ The main AI chat apps and the websites for building with them.
 
 ## ⚙️ Automation
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Websites for building robot recipes that do chores automatically.
+These are the automation platforms covered in Part V, with their documentation.
 
 </details>
 
@@ -90,10 +92,10 @@ Websites for building robot recipes that do chores automatically.
 
 ## 🛠️ Building apps & agents
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Tools for building apps, websites and your own AI helpers, and for putting them on the internet.
+These tools help you build apps and agents and deploy them online.
 
 </details>
 
@@ -113,10 +115,10 @@ Tools for building apps, websites and your own AI helpers, and for putting them 
 
 ## 🖱️ Browser & computer-use agents
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Tools that let AI click and type on websites for you.
+These tools let AI operate a web browser or computer.
 
 </details>
 
@@ -129,10 +131,10 @@ Tools that let AI click and type on websites for you.
 
 ## 🏠 Local AI
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Tools for running AI on your own computer, privately.
+These tools run AI models on your own computer.
 
 </details>
 
@@ -151,10 +153,10 @@ Tools for running AI on your own computer, privately.
 
 ## 📚 Knowledge & notes
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Apps for keeping notes and databases that help AI find things by meaning.
+These are note-taking apps and vector databases for organizing and searching your knowledge.
 
 </details>
 
@@ -169,10 +171,10 @@ Apps for keeping notes and databases that help AI find things by meaning.
 
 ## 🎨 Creative
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Tools for making pictures, videos, music, voices, designs, 3D and games.
+These tools generate and edit images, video, music, voices, designs, 3D models and games.
 
 </details>
 
@@ -193,10 +195,10 @@ Tools for making pictures, videos, music, voices, designs, 3D and games.
 
 ## 🗣️ Voice agents
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Tools for building AI you can talk to on the phone.
+These platforms build voice agents that can handle phone calls.
 
 </details>
 
@@ -210,10 +212,10 @@ Tools for building AI you can talk to on the phone.
 
 ## ♿ Accessibility
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Tools that help people who can't see, hear or focus easily.
+These tools support blind and low-vision users, deaf and hard-of-hearing users, and people with cognitive and mobility needs.
 
 </details>
 
@@ -226,10 +228,10 @@ Tools that help people who can't see, hear or focus easily.
 
 ## 🌐 Free data & APIs used in this manual
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Free information sources the example projects use.
+These are the free data sources and APIs used by the manual's example projects.
 
 </details>
 
@@ -242,10 +244,10 @@ Free information sources the example projects use.
 
 ## 📊 Evaluation & staying current
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Places to compare AIs and keep learning.
+These resources help you compare AI models and keep up with new developments.
 
 </details>
 

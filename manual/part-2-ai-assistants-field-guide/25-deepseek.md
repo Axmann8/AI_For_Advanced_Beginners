@@ -1,18 +1,21 @@
 # 25 · DeepSeek: The Complete Guide 🐋
 
-> ⏱️ 5 min read · 🎯 Curious beginners and budget-minded users · 🧰 Needs: a free DeepSeek account (chat.deepseek.com) or a local AI setup
+> ⏱️ 6 min read · 🎯 Curious beginners and budget-minded users · 🧰 Needs: a free DeepSeek account (chat.deepseek.com) or a local AI setup
 
 **DeepSeek shook the AI world in January 2025, when a small Chinese lab released a free reasoning model that rivaled the
 best in the West, and published it openly for anyone to download.** Today DeepSeek offers a capable, completely free
 chat app with a "DeepThink" reasoning mode, plus open-weight models you can run yourself. It's also the assistant where
 you most need to think about privacy. Here's how to use it wisely.
 
-<details class="eli5" open>
-<summary>🧸 ELI5: This chapter in 30 seconds</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-DeepSeek is a free AI from a company in China. It's really good at thinking through problems, and it shows you its
-thinking. The company also shares its AI "brains" so anyone can use them. But the app stores your chats in China, so use
-it for general questions, not your private information.
+DeepSeek is a free AI assistant from a Chinese lab, known for strong reasoning and for publishing its models openly. Its app stores data in China, which matters for privacy.
+
+- **Strengths:** free access, visible step-by-step reasoning, and open models anyone can run.
+- **Privacy:** the app stores conversations on servers in China, so avoid personal or work information.
+- **Limits:** it avoids topics considered sensitive by the Chinese government.
+- **Private option:** run its open models locally or through other hosting providers.
 
 </details>
 
@@ -20,10 +23,10 @@ it for general questions, not your private information.
 
 ## 🐋 Quick facts
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-The basics: who makes DeepSeek, where you can use it and what it's best at.
+DeepSeek is made by an AI lab in Hangzhou, China. It's available at chat.deepseek.com and in phone apps, and its open models can be downloaded and run elsewhere.
 
 </details>
 
@@ -38,10 +41,14 @@ The basics: who makes DeepSeek, where you can use it and what it's best at.
 
 ## 🚪 Getting started
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Go to the DeepSeek website or app, sign up, and switch on DeepThink when you have a hard question.
+Getting started with DeepSeek is quick.
+
+1. Go to chat.deepseek.com or install the app (confirm the developer is DeepSeek).
+2. Sign up with email or a supported sign-in option.
+3. Turn on **DeepThink** for difficult questions and **Search** for recent information.
 
 </details>
 
@@ -54,10 +61,10 @@ Go to the DeepSeek website or app, sign up, and switch on DeepThink when you hav
 
 ## 🧠 DeepThink: watch it reason
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-When DeepThink is on, DeepSeek thinks out loud before answering, so you can see how it worked the problem out.
+In DeepThink mode, DeepSeek shows its chain of thought, so you can expand and read how it worked through the problem. This is especially useful for learning math and logic.
 
 </details>
 
@@ -72,11 +79,10 @@ Reading the reasoning helps you **spot where it went wrong** if the answer seems
 
 ## 🔓 Open weights: DeepSeek beyond the app
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-DeepSeek lets anyone download its AI brains. That means other companies can run them, and you can even run smaller
-versions on your own computer, where nothing leaves your home.
+DeepSeek publishes its models under a permissive license. Other companies can host them (often with different privacy terms), and you can run smaller versions on your own computer so your data never leaves it.
 
 </details>
 
@@ -90,11 +96,10 @@ DeepSeek publishes its models openly (under a permissive license). That has big 
 
 ## 🔐 Privacy: the important bit
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-The DeepSeek app keeps your chats on computers in China, where the government can ask for data. So don't put private or
-work information into it.
+The DeepSeek app and website store data on servers in China, where companies can be required to share data with authorities, and several governments have restricted its use. Avoid entering personal, financial or work information.
 
 </details>
 
@@ -112,11 +117,10 @@ have investigated its data practices.
 
 ## 🧭 Content limits to know about
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-DeepSeek won't talk about some topics the Chinese government considers sensitive, so for those questions, use a
-different AI.
+Because DeepSeek operates under Chinese regulations, the app avoids or deflects questions about topics that are sensitive to the Chinese government. Use another assistant for those topics.
 
 </details>
 
@@ -127,10 +131,10 @@ somewhat differently, but still reflect their training.)
 
 ## 🍳 Step-by-step recipes
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Three good jobs for DeepSeek today.
+These three recipes show tasks where DeepSeek works well, such as learning math with visible reasoning.
 
 </details>
 
@@ -151,10 +155,10 @@ Three good jobs for DeepSeek today.
 
 ## 💡 Pro tips and limitations
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Clever tricks DeepSeek fans know, and the things to watch out for.
+These tips help you get more out of DeepSeek, followed by its current limitations.
 
 </details>
 

@@ -4,12 +4,14 @@ Become a builder, even if you've never coded: coding agents, Git and GitHub, the
 Cursor and AI IDEs, vibe coding a real app, deploying it, calling AI APIs, building your own agents, frameworks,
 multi-agent teams and computer-use agents.
 
-<details class="eli5" open>
-<summary>🧸 ELI5: This part in 30 seconds</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Today, you can *describe* the app you want and an AI helper writes the code, runs it, tests it, and fixes it while you
-watch and steer. This part teaches you how to be a great "director" of those AI builders, plus how to save your work,
-put it on the internet, and build your own AI helpers from scratch.
+You can now describe an app in plain language and have AI write, run, test and fix the code while you direct it. This part teaches you to build real software that way.
+
+- **Learn the tools:** AI coding agents, Claude Code, Cursor, Git and GitHub.
+- **Ship something:** build your first app and put it on the internet.
+- **Go deeper:** call AI APIs directly, build your own agent, and coordinate several agents together.
 
 </details>
 
@@ -33,7 +35,7 @@ put it on the internet, and build your own AI helpers from scratch.
 
     ---
 
-    <span class="card-meta">⏱️ 7 min read · 🎯 Everyone (yes, even if you've never coded)</span>
+    <span class="card-meta">⏱️ 8 min read · 🎯 Everyone (yes, even if you've never coded)</span>
 
     Here's the secret: you don't need to be a programmer to build software anymore. Coding agents write, run, test and fix code for you.
 
@@ -41,7 +43,7 @@ put it on the internet, and build your own AI helpers from scratch.
 
     ---
 
-    <span class="card-meta">⏱️ 10 min read · 🎯 Everyone who builds with AI (no coding background needed)</span>
+    <span class="card-meta">⏱️ 11 min read · 🎯 Everyone who builds with AI (no coding background needed)</span>
 
     Git is the undo button that makes AI building fearless. When a coding agent rewrites twenty files and something breaks, Git lets you rewind in one command.
 
@@ -57,7 +59,7 @@ put it on the internet, and build your own AI helpers from scratch.
 
     ---
 
-    <span class="card-meta">⏱️ 10 min read · 🎯 Intermediate</span>
+    <span class="card-meta">⏱️ 11 min read · 🎯 Intermediate</span>
 
     Out of the box, Claude Code is brilliant. Customized, it's a whole team.
 
@@ -81,7 +83,7 @@ put it on the internet, and build your own AI helpers from scratch.
 
     ---
 
-    <span class="card-meta">⏱️ 10 min read · 🎯 Beginner → intermediate</span>
+    <span class="card-meta">⏱️ 11 min read · 🎯 Beginner → intermediate</span>
 
     An app on your laptop is a hobby. An app with a link is a gift to the world.
 
@@ -113,7 +115,7 @@ put it on the internet, and build your own AI helpers from scratch.
 
     ---
 
-    <span class="card-meta">⏱️ 7 min read · 🎯 Intermediate → advanced</span>
+    <span class="card-meta">⏱️ 8 min read · 🎯 Intermediate → advanced</span>
 
     One agent is useful. Several agents that divide the work can take on much bigger jobs: deep research across dozens of sources, big codebases, content pipelines, and "build it and then check it" loops.
 

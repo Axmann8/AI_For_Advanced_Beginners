@@ -7,13 +7,15 @@ prompt, get a picture": how to pick the right tool for the job, write prompts li
 characters consistent across dozens of images, run open models locally, and automate image pipelines. Plus a pile of fun
 projects and the ethics you need to know. 🖌️✨
 
-<details class="eli5" open>
-<summary>🧸 ELI5: This chapter in 30 seconds</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Image AI is a magic painter. You describe a picture ("a sleepy fox in a scarf on a pile of books, painted in watercolors")
-and it paints it in seconds. The more clearly you describe what you see in your head (the thing, the place, the colors, the
-lighting, the style) the closer it gets. And you can keep saying "now make it nighttime" or "give the fox a yellow scarf"
-until it's perfect.
+Image models generate pictures from text descriptions and edit them through conversation. The more precisely you describe the subject, setting, style, lighting and mood, the closer the result will be to what you imagine.
+
+1. **Choose a tool** suited to the job.
+2. **Write a layered prompt:** subject, action, setting, style, lighting, mood.
+3. **Refine through editing** rather than starting over.
+4. **Use reference images** to keep characters consistent across a series.
 
 </details>
 
@@ -21,11 +23,10 @@ until it's perfect.
 
 ## 🧭 Choosing your tool (by job)
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Different magic painters are best at different things: some paint beautiful art, some are great at words on pictures, some are
-best at fixing photos.
+Different image tools excel at different jobs, such as following complex instructions, rendering text, photorealism, artistic styles or editing photos. The table recommends tools for each.
 
 </details>
 
@@ -47,11 +48,10 @@ best at fixing photos.
 
 ## 🧬 The anatomy of a great image prompt
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-A great picture description has layers: what's in it, what it's doing, where it is, what style, what lighting, and what
-feeling. Fill in the ones you care about.
+A strong image prompt covers several layers: subject, action, setting, composition, style, lighting, color and mood. Include the layers you care about and leave the rest to the model. The table gives examples for each.
 
 </details>
 
@@ -82,10 +82,10 @@ Think like a photographer or art director. Cover these layers (skip any you don'
 
 ## 🎨 Style vocabulary cheat sheet
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Here are magic words that change the look of your picture: art styles, camera words and lighting words.
+Specific vocabulary changes results significantly. The table lists useful terms for art styles, camera and lens choices, lighting and texture.
 
 </details>
 
@@ -105,11 +105,10 @@ copying a real person's work.
 
 ## ✂️ Editing: the real superpower
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-You can change pictures just by asking: "make it nighttime," "remove the lamp," "put my dog in this scene." No drawing skills
-needed.
+Modern image models edit through conversation: change details, remove or add objects, change the setting, combine images or apply a new style. The table gives an example of each kind of edit.
 
 </details>
 
@@ -128,11 +127,14 @@ Modern models edit images **conversationally**:
 
 ## 🧑‍🎨 Consistency: same character, many images
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-To draw the same character in lots of pictures, first make a "character sheet" picture, then show it to the AI every time
-you ask for a new scene.
+To keep a character consistent across many images:
+
+1. Generate a character reference sheet showing front, side and back views.
+2. Attach that reference whenever you request a new scene.
+3. Repeat the same key descriptive phrases in every prompt.
 
 </details>
 
@@ -144,11 +146,10 @@ you ask for a new scene.
 
 ## 🖥️ Running image models locally
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-You can run picture-making AI on your own computer if it has a good graphics card. Then you can make as many pictures as you
-like, for free and privately.
+With a capable graphics card, you can run image models locally using tools like ComfyUI, Forge or Draw Things, giving you unlimited, private generation. The table compares them.
 
 </details>
 
@@ -167,10 +168,10 @@ pipelines.
 
 ## 💼 Practical uses that pay off
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Picture AI isn't just for fun. It helps with social posts, presentations, product photos, logos and more.
+Image generation is useful for social posts and thumbnails, presentation visuals, product mockups, logos and illustrations. The table gives tips for each use.
 
 </details>
 
@@ -186,10 +187,10 @@ Picture AI isn't just for fun. It helps with social posts, presentations, produc
 
 ## ⚙️ Automating image generation
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Robots can make pictures for you automatically, like a new picture for every blog post you write.
+You can automate image generation through APIs from OpenAI, Google, Black Forest Labs and others, or through aggregators like Replicate and fal, for example to create a header image for every new blog post.
 
 </details>
 
@@ -201,11 +202,10 @@ Robots can make pictures for you automatically, like a new picture for every blo
 
 ## ⚖️ Ethics & rights (the practical version)
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Be fair: don't make fake pictures of real people, don't pretend AI pictures are real photos, and check the rules before selling
-AI art.
+Don't create misleading or harmful images of real people, don't present AI images as real photographs, and check the terms and laws on commercial use before selling AI-generated work. The table explains the reasoning behind each guideline.
 
 </details>
 
@@ -220,10 +220,10 @@ AI art.
 
 ## 🎮 15 image projects
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Fifteen fun picture projects to try this month.
+The table lists fifteen image projects to try.
 
 </details>
 

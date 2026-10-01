@@ -5,11 +5,13 @@
 **Every command and keyboard shortcut from the manual, in one place.** Terminal basics for total beginners, then Claude
 Code, Git, MCP, Ollama, Docker, Python and Node, n8n, and AI editors. Keep it open while you build. 🛠️
 
-<details class="eli5" open>
-<summary>🧸 ELI5: This page in 30 seconds</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-A terminal is a window where you type commands instead of clicking buttons. This page is a list of the most useful commands
-and keyboard shortcuts, like a cheat card of magic words for your computer. 🪄⌨️
+A terminal lets you control your computer by typing commands. This appendix collects the commands and keyboard shortcuts used throughout the manual, for the terminal, Claude Code, MCP, Git, Ollama, Docker, Python, Node.js, n8n and AI code editors.
+
+- **New to the terminal?** Start with the basics section.
+- **Each section** links to the chapter that explains the tool in depth.
 
 </details>
 
@@ -17,10 +19,10 @@ and keyboard shortcuts, like a cheat card of magic words for your computer. 🪄
 
 ## 🐚 Terminal basics (start here!)
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-The first few commands everyone learns: where am I, what's here, go into a folder, make a folder.
+These basic commands let you see where you are, list files, move between folders and create folders.
 
 </details>
 
@@ -48,10 +50,10 @@ The first few commands everyone learns: where am I, what's here, go into a folde
 
 ## 🧑‍💻 Claude Code
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-The keys and commands for driving your AI coding helper.
+These keys and commands control Claude Code.
 
 </details>
 
@@ -100,10 +102,10 @@ claude -p "fix lint" --allowedTools "Edit,Bash(npm run lint)"
 
 ## 🔌 MCP
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Commands for adding, listing and testing AI plug-ins.
+These commands add, list and test MCP servers.
 
 </details>
 
@@ -123,10 +125,10 @@ mcp-publisher publish
 
 ## 🌳 Git & GitHub
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Save-point commands for your projects, and GitHub's helper commands.
+These commands cover everyday Git version control and the GitHub CLI.
 
 </details>
 
@@ -151,10 +153,10 @@ Save-point commands for your projects, and GitHub's helper commands.
 
 ## 🦙 Ollama & local AI
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Commands for downloading and running AI brains on your own computer.
+These commands download, run and manage local models with Ollama.
 
 </details>
 
@@ -172,10 +174,10 @@ OpenAI-compatible endpoint: `http://localhost:11434/v1`. ([Local & Open Models](
 
 ## 🐳 Docker & the home lab
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Commands for starting, stopping and updating the programs in your home lab.
+These commands start, stop, update and inspect the home lab containers.
 
 </details>
 
@@ -193,10 +195,10 @@ docker system df                              # disk usage
 
 ## 🐍 Python & 🟩 Node basics
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Commands for installing and running Python and JavaScript projects, like the examples in this repo.
+These commands create environments, install dependencies and run Python and Node.js projects, including the examples in this repository.
 
 </details>
 
@@ -210,10 +212,10 @@ Commands for installing and running Python and JavaScript projects, like the exa
 
 ## ⚙️ n8n
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Commands for starting the automation tool on your computer, and its handy tricks.
+These commands and techniques help you run and work efficiently in n8n.
 
 </details>
 
@@ -231,10 +233,10 @@ docker run -it --rm -p 5678:5678 -v n8n_data:/home/node/.n8n docker.n8n.io/n8nio
 
 ## ✍️ AI editors (Cursor & VS Code)
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Keyboard shortcuts for code editors with AI helpers.
+These keyboard shortcuts control the AI features in Cursor and VS Code with Copilot.
 
 </details>
 
@@ -251,10 +253,10 @@ Shortcuts change between versions. Check each editor's keyboard shortcuts screen
 
 ## 🏗️ This repo's kits
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-The exact commands to run every example project in this repository.
+These are the exact commands to set up and test each example project in this repository.
 
 </details>
 

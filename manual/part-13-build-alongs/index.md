@@ -3,12 +3,14 @@
 Eight long, friendly, step-by-step projects. Each one combines skills from across the manual into something real you'll
 actually use, and each is doable in a weekend.
 
-<details class="eli5" open>
-<summary>🧸 ELI5: This part in 30 seconds</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-These are like LEGO instruction booklets. Each one has numbered steps, pictures of what you're building, and checkpoints
-so you know it's working. At the end, you have a real, working thing: a pocket assistant, your own MCP server, a web app,
-a research robot, and more.
+Each build-along is a complete project with numbered steps, checkpoints to confirm things are working, and a finished result you can keep using.
+
+- **Pick one project** that interests you; each lists the time, cost and tools it needs up front.
+- **Follow the steps in order** and stop at each checkpoint to make sure everything works before moving on.
+- **Make it yours:** every project ends with ideas for extending and customizing it.
 
 </details>
 

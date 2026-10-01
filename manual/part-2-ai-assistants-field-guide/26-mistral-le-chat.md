@@ -7,12 +7,14 @@ capable, generous on its free tier, and comes with memories, connectors, deep re
 friendly price for Pro. For anyone who wants a strong alternative to the American giants, or prefers a company under
 European privacy rules, Le Chat is well worth a look. 🇪🇺
 
-<details class="eli5" open>
-<summary>🧸 ELI5: This chapter in 30 seconds</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Le Chat ("the cat" in French 🐈) is an AI helper made by a company in France. It answers super quickly, remembers things
-about you if you want, can look things up, make pictures, and connect to your apps. Because it's European, it follows
-Europe's strict privacy rules.
+Le Chat is the AI assistant from Mistral AI, a French company. It's fast, inexpensive, and subject to European privacy law, which makes it a good choice for privacy-conscious users.
+
+- **Features:** very fast answers, reasoning, web search, deep research, document reading, image creation and memories.
+- **Connectors** link it to your other apps, with you in control of access.
+- **Privacy:** governed by the GDPR and EU AI Act, with a training opt-out.
 
 </details>
 
@@ -20,10 +22,10 @@ Europe's strict privacy rules.
 
 ## 🌬️ Quick facts
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-The basics: who makes Le Chat, where you can use it and what it's best at.
+Le Chat is made by Mistral AI in Paris. It's available at chat.mistral.ai and in phone apps, with a generous free tier and a lower-priced Pro plan.
 
 </details>
 
@@ -38,10 +40,14 @@ The basics: who makes Le Chat, where you can use it and what it's best at.
 
 ## 🚪 Getting started
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Sign up on the website or app, switch on memories if you like, and start chatting.
+Getting started with Le Chat is straightforward.
+
+1. Go to chat.mistral.ai or install **Le Chat by Mistral AI**.
+2. Sign up with email, Google, Apple or Microsoft.
+3. Turn on **Memories** if you want personalized answers, then start chatting.
 
 </details>
 
@@ -52,10 +58,10 @@ Sign up on the website or app, switch on memories if you like, and start chattin
 
 ## 💳 Plans in plain English
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Le Chat is free to use. Pro costs less than most other AIs and gives you more of everything.
+The free plan includes most features with daily limits. Pro, priced below most competitors, raises the limits substantially. The table compares the plans.
 
 </details>
 
@@ -68,10 +74,10 @@ Le Chat is free to use. Pro costs less than most other AIs and gives you more of
 
 ## ⚡ Features tour
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Le Chat can answer fast, think harder, search the web, research deeply, read documents, make pictures and remember you.
+The table summarizes Le Chat's features, including fast answers, Think mode, web search, deep research, document and image understanding, and image generation.
 
 </details>
 
@@ -92,11 +98,10 @@ Le Chat can answer fast, think harder, search the web, research deeply, read doc
 
 ## 🧠 Memories and connectors
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Memories let Le Chat remember you. Connectors let it reach your other apps. You decide what it keeps and what it can
-touch.
+**Memories** let Le Chat save facts and preferences to personalize answers; you can view, edit and delete each one. **Connectors** link it to other apps, and you decide what it can access.
 
 </details>
 
@@ -108,11 +113,10 @@ touch.
 
 ## 🔐 Privacy and settings
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Le Chat follows Europe's privacy rules. You can stop your chats being used for training, and delete memories and
-history.
+As a European company, Mistral is subject to the GDPR and the EU AI Act. You can opt out of training in settings, and delete memories and chat history at any time.
 
 </details>
 
@@ -124,10 +128,10 @@ history.
 
 ## 🍳 Step-by-step recipes
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Three real jobs you can do with Le Chat today.
+These three recipes walk through real tasks in Le Chat step by step, such as transcribing and cleaning up a scanned document.
 
 </details>
 
@@ -148,10 +152,10 @@ Three real jobs you can do with Le Chat today.
 
 ## 💡 Pro tips and limitations
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Clever tricks Le Chat fans know, and the things to watch out for.
+These tips help you get more out of Le Chat, followed by its current limitations.
 
 </details>
 

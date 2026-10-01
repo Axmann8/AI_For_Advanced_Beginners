@@ -12,11 +12,13 @@ friendly rules of thumb, not lab results. Tools change fast, so treat these as a
 > entirely. The *questions* in each table ("do I need self-hosting?", "do I care about privacy?") age much better than the
 > answers.
 
-<details class="eli5" open>
-<summary>🧸 ELI5: This page in 30 seconds</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-When you're picking between toys at a shop, it helps to see them side by side. These tables put similar AI tools next to each
-other, so you can quickly see which is best for what you want to do. 🛍️
+This appendix places similar tools side by side, so you can compare their strengths, costs and trade-offs at a glance and choose the right one for your needs.
+
+- **Tables cover** assistants, automation platforms, coding tools, agent frameworks, local AI, hardware, vector databases, note apps, creative tools, voice platforms and hosting.
+- **Each table links** to the chapter with full details.
 
 </details>
 
@@ -24,10 +26,10 @@ other, so you can quickly see which is best for what you want to do. 🛍️
 
 ## 🧠 AI assistants
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-The big chat apps, and what each is especially good at.
+This table compares the major AI assistants on their particular strengths, integrations, free tiers and privacy defaults.
 
 </details>
 
@@ -58,10 +60,10 @@ More: [Meet the Assistants: The Big Comparison](../part-2-ai-assistants-field-gu
 
 ## ⚙️ Automation platforms
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-The robot-recipe builders, compared on ease, power and price style.
+This table compares automation platforms on ease of use, power, self-hosting, AI features and pricing model.
 
 </details>
 
@@ -79,10 +81,10 @@ More: [Automation Platforms](../part-5-automation/45-automation-platforms.md).
 
 ## 🛠️ AI coding tools
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Tools that build apps for you, from "describe it" websites to coding helpers in your terminal.
+This table compares AI coding tools, from chat-to-app builders to terminal agents, by type, best use and how much coding knowledge each requires.
 
 </details>
 
@@ -100,10 +102,10 @@ More: [Agents & AI Coding Tools](../part-7-building-with-ai/60-agents-and-coding
 
 ## 🧱 Agent frameworks
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-LEGO sets for building your own AI helpers, and what each one is best at.
+This table compares agent frameworks by language, standout capability and when to choose each.
 
 </details>
 
@@ -121,10 +123,10 @@ More: [Agent Frameworks Tour](../part-7-building-with-ai/69-agent-frameworks-tou
 
 ## 🏠 Local AI runners
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Apps for running AI on your own computer, from simple to super-powerful.
+This table compares tools for running models locally, from simple desktop apps to developer-oriented runners.
 
 </details>
 
@@ -142,10 +144,10 @@ More: [Local & Open Models](../part-9-local-ai/78-local-and-open-models.md).
 
 ## 💻 Hardware for local AI
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Which kinds of computers are best for running AI at home.
+This table compares hardware options for local AI on memory, speed, cost, power use and noise.
 
 </details>
 
@@ -161,10 +163,10 @@ More: [Hardware for Local AI](../part-9-local-ai/79-hardware-for-local-ai.md).
 
 ## 🗄️ Vector databases
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Databases that find things by meaning, from tiny ones for learning to giant ones for big apps.
+This table compares vector databases, from embedded options for learning to managed services for production apps.
 
 </details>
 
@@ -181,10 +183,10 @@ More: [Embeddings & Vector Databases](../part-8-knowledge-and-memory/73-embeddin
 
 ## 📚 Note apps for a second brain
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Notebook apps compared, so you can pick where to keep your notes.
+This table compares note-taking apps for a second brain on file ownership, AI features, collaboration and privacy.
 
 </details>
 
@@ -201,10 +203,10 @@ More: [Personal Knowledge Management](../part-8-knowledge-and-memory/77-personal
 
 ## 🎨 Creative tools
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-The best tools for pictures, videos, voices and music, side by side.
+This table recommends the strongest tools for each creative need: images, video, voice and music.
 
 </details>
 
@@ -225,10 +227,10 @@ More: [The Multimodal Playground](../part-10-creative-ai/83-multimodal-playgroun
 
 ## 🗣️ Voice-agent platforms
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Websites for building phone robots, compared.
+This table compares voice agent platforms on setup, flexibility, voice quality and pricing.
 
 </details>
 
@@ -244,10 +246,10 @@ More: [Voice Agents](../part-10-creative-ai/87-voice-agents.md).
 
 ## 🌍 Hosting
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Places to put your apps on the internet, and which kind of app each one suits.
+This table compares hosting providers by the kinds of projects they support and their free tiers.
 
 </details>
 
@@ -263,10 +265,10 @@ More: [Deploying & Hosting](../part-7-building-with-ai/66-deploying-and-hosting.
 
 ## 💳 Subscription vs. API vs. local
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Three ways to pay for AI: a monthly plan, pay-per-use, or run it at home for free.
+This table compares the three ways to pay for AI: subscriptions, pay-per-token APIs and local models.
 
 </details>
 
@@ -282,10 +284,10 @@ More: [Cost Optimization](../part-12-mastery/106-cost-optimization.md).
 
 ## 🔌 MCP: local vs. remote servers
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-AI plug-ins can live on your computer or on the internet. Each way has pros and cons.
+This table compares local (stdio) and remote (Streamable HTTP) MCP servers on how they run, setup, access and security.
 
 </details>
 

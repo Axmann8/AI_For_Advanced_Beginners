@@ -13,12 +13,15 @@ whole multimedia storybook. 🖼️🎧📖
 > constantly (and some tools disappear: OpenAI shut down its Sora video app in 2026). Focus on the *kinds* of tools and
 > skills, which last much longer than any version number.
 
-<details class="eli5" open>
-<summary>🧸 ELI5: This chapter in 30 seconds</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-"Multimodal" means the AI can use more than words. It can **see** (look at your photo), **hear** (listen to your voice),
-and **make** things: pictures, little movies, voices and even songs. It's like having an art studio, a recording studio and
-a movie studio in your pocket, and you just describe what you want.
+"Multimodal" means an AI can work with more than text: it can understand images, audio and video, and generate them. This chapter surveys what's possible across each medium.
+
+- **Inputs:** show the AI photos, screenshots, documents, audio and video for analysis.
+- **Outputs:** generate images, video, voices and music from descriptions.
+- **Chaining:** combine tools so one output becomes the next tool's input.
+- **Responsibility:** get consent for real people, and label AI-generated content where it matters.
 
 </details>
 
@@ -26,10 +29,10 @@ a movie studio in your pocket, and you just describe what you want.
 
 ## 🗺️ The multimodal map
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-AI can take in pictures, sounds and videos, and it can make pictures, sounds and videos. Here's the whole map on one page.
+The table maps each medium (images, video, audio and documents) to what AI can understand as input and what it can generate as output.
 
 </details>
 
@@ -45,11 +48,10 @@ AI can take in pictures, sounds and videos, and it can make pictures, sounds and
 
 ## 🧪 Multimodal *inputs*: the underrated superpower
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-You can show the AI a photo or play it a sound and ask about it. That's often even more useful than asking it to make
-pictures.
+Showing AI an image, document or recording is often more useful than generating new media. Every major assistant accepts images and documents, and many handle audio and video, for tasks like diagnosing a problem from a photo or summarizing a recording.
 
 </details>
 
@@ -76,11 +78,10 @@ and many handle audio and video too.
 
 ## 🖼️ Images
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Describe a picture and AI paints it. You can also ask it to change a photo: new background, different colors, add a hat to
-your cat.
+Image models generate pictures from descriptions and edit existing images on request, such as changing a background or adjusting colors. The table compares the leading tools and their strengths.
 
 </details>
 
@@ -100,10 +101,10 @@ Deep dive: [Image Generation](84-image-generation-deep-dive.md).
 
 ## 🎬 Video
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Describe a scene and AI films a short clip, sometimes with sound and talking. You can also turn a photo into a moving video.
+Video models create short clips from text descriptions, sometimes with synchronized sound and dialogue, and can animate still images. The table compares the leading tools.
 
 </details>
 
@@ -121,10 +122,10 @@ Deep dive: [Video & Audio Production](85-video-and-audio-production.md).
 
 ## 🗣️ Voice & audio
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-AI can turn words into very natural voices, turn speech into text, and even have a real conversation with you out loud.
+Audio tools produce realistic synthetic voices, transcribe speech accurately and power real-time voice conversations. The table compares the main options.
 
 </details>
 
@@ -139,10 +140,10 @@ AI can turn words into very natural voices, turn speech into text, and even have
 
 ## 🎵 Music
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Type "a happy song about my dog, in the style of summer pop" and AI writes and sings a whole song.
+Music generators like Suno and Udio create complete songs, including vocals, from a short description of the genre, mood and topic.
 
 </details>
 
@@ -156,11 +157,10 @@ Deep dive: [Music Making with AI](86-music-making-with-ai.md).
 
 ## 🔗 Chaining modes: where the magic happens
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-The coolest projects use several AI tools in a row: one writes a story, another draws it, another reads it aloud, another adds
-music.
+The most impressive projects chain several tools: an AI writes a script, another generates images, another narrates and another composes music. You can ask Claude or another assistant to act as creative director and write the prompts for each step.
 
 </details>
 
@@ -182,11 +182,10 @@ flowchart LR
 
 ## 🔐 Creative responsibility
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Be kind and fair with AI art: don't copy real people's faces or voices without asking, be honest when something is
-AI-made, and respect artists.
+Use AI creative tools responsibly: label AI-generated content when it could be mistaken for real, get consent before using a real person's likeness or voice, and respect artists' work. The table lists specific do's and don'ts.
 
 </details>
 
@@ -202,10 +201,10 @@ More in [AI Ethics for Builders](../part-12-mastery/107-ai-ethics-for-builders.m
 
 ## 🎮 20 creative experiments
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Twenty fun things to try with pictures, sounds and videos.
+The table lists twenty creative experiments across images, video, audio and music.
 
 </details>
 

@@ -1,19 +1,21 @@
 # 77 · Personal Knowledge Management with AI: A Second Brain That Talks Back 🧠🗃️
 
-> ⏱️ 8 min read · 🎯 Everyone · 🧰 Needs: a notes app (Obsidian, Notion, Google Docs…), optionally an automation tool for capture
+> ⏱️ 9 min read · 🎯 Everyone · 🧰 Needs: a notes app (Obsidian, Notion, Google Docs…), optionally an automation tool for capture
 
 **You consume a firehose of information: articles, podcasts, meetings, books, ideas in the shower. Most of it evaporates.**
 Personal Knowledge Management (PKM) is the practice of capturing, organizing and *using* what you learn. AI makes every step
 dramatically easier, and finally makes your notes **talk back**. This chapter gives you the loop, the tools, self-running
 capture pipelines, prompts for distilling ideas, review rituals, and a 30-day plan to build a second brain that sticks. 🌱
 
-<details class="eli5" open>
-<summary>🧸 ELI5: This chapter in 30 seconds</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Your brain is great at *having* ideas but bad at *keeping* them. A **second brain** is a special place (like a notebook app)
-where you save the cool things you learn. With AI, you can save stuff super quickly (just talk!), the AI tidies it up for
-you, and later you can ask your notes questions like "what have I learned about sleep?" and get an answer from your own
-past self. 🧠➡️📓➡️💡
+Personal knowledge management (PKM) means capturing, organizing and using what you learn. A "second brain" is a notes system that does this, and AI makes every step faster: capture by voice, automatic organization, and the ability to ask your notes questions.
+
+- **The loop:** capture, organize, distill and use.
+- **Choose one home base,** such as Obsidian, Notion or Google Docs.
+- **Automate capture** so saving takes seconds.
+- **Review regularly** with AI's help, and follow the 30-day plan to build the habit.
 
 </details>
 
@@ -21,11 +23,10 @@ past self. 🧠➡️📓➡️💡
 
 ## 🔁 The AI-powered knowledge loop
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Four steps, round and round: save things, sort them, squeeze out the best bits, and use them to make something. AI helps with
-every step.
+A second brain runs on a four-step loop: capture information, organize it, distill the key points and use it to create something. AI speeds up each step, as the table shows.
 
 </details>
 
@@ -53,10 +54,10 @@ flowchart LR
 
 ## 🏡 Choose your home base
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Pick one main place to keep your notes. Each app is good at different things. The best one is the one you'll actually use.
+Choose one main app for your notes. Obsidian offers ownership and privacy, Notion offers databases and collaboration, and Google Docs and Apple Notes offer simplicity. The best choice is the one you'll use consistently.
 
 </details>
 
@@ -75,11 +76,10 @@ make that easy).
 
 ## 📥 Capture pipelines that run themselves
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Make saving so easy it takes two seconds: talk into your phone, tap "share," forward an email. Little robots do the rest and
-put it in your notes inbox.
+Capture should take only seconds. Set up pipelines for voice ideas, web articles, emails and meetings that send everything to a single inbox automatically. The table describes each pipeline.
 
 </details>
 
@@ -102,10 +102,10 @@ put it in your notes inbox.
 
 ## 🗂️ Organizing (without the busywork)
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Instead of spending hours sorting, keep it simple: one inbox, a few big folders, and let AI suggest tags and links.
+Keep your structure simple: one inbox and a few broad categories. PARA (Projects, Areas, Resources, Archive) and similar frameworks work well, with AI suggesting tags, links and where each note belongs.
 
 </details>
 
@@ -128,11 +128,10 @@ Embeddings can do this at scale: they find related notes even when they use diff
 
 ## 💎 Distilling with AI: prompts that work
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Distilling means squeezing a long thing into its juiciest bits. AI is great at squeezing, but it's even better when you ask
-it to connect new ideas to things you already know.
+AI is excellent at condensing long material into its key points. The most valuable prompts go further, connecting new ideas to what you already know and identifying what's genuinely new. The table lists prompts for each goal.
 
 </details>
 
@@ -152,10 +151,10 @@ it to connect new ideas to things you already know.
 
 ## 🗣️ Asking your notes questions
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Once the AI can read your notes, you can ask them anything, like asking your past self for advice.
+Once AI can access your notes through MCP, Gemini Notebook, Notion AI or a RAG system, you can ask questions across everything you've saved, such as what you've learned about a topic over the years.
 
 </details>
 
@@ -170,10 +169,10 @@ Once AI can read your knowledge base (MCP, Gemini Notebook, Notion AI, [RAG](74-
 
 ## 🔁 Review rituals (with AI doing the heavy lifting)
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Every day, week, month and year, spend a few minutes looking back with AI's help. That's how saved stuff turns into wisdom.
+Regular reviews turn saved information into usable knowledge: five minutes daily, twenty minutes weekly and longer monthly and yearly reflections, with AI summarizing and surfacing patterns. The table outlines each ritual.
 
 </details>
 
@@ -186,10 +185,10 @@ Every day, week, month and year, spend a few minutes looking back with AI's help
 
 ## 🛠️ Three second-brain setups
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Three ready-made setups: one that's simple, one that's powerful, and one that's totally private.
+The tabs describe three complete setups: a simple one using Notion or Google Docs, a powerful one using Obsidian with automations, and a fully private one using local AI.
 
 </details>
 
@@ -219,10 +218,10 @@ The full build is in [Build-Along: Your Second Brain](../part-13-build-alongs/11
 
 ## 🗓️ A 30-day second-brain plan
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Build your second brain in small steps over a month, so it becomes a habit instead of a chore.
+This four-week plan builds your second brain gradually, one stage per week, so it becomes a habit.
 
 </details>
 
@@ -235,11 +234,10 @@ Build your second brain in small steps over a month, so it becomes a habit inste
 
 ## 🌳 Principles for a PKM that lasts
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Make saving easy, keep one inbox, write some things yourself, link ideas together, actually use your notes, and keep them in a
-format you own.
+Lasting systems follow a few principles: make capture effortless, use one inbox, write some notes in your own words, link related ideas, use your notes regularly and keep them in formats you own.
 
 </details>
 

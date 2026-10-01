@@ -5,12 +5,14 @@ DeepSeek, Le Chat, Qwen, Kimi and friends, plus the AI built into Siri, Alexa an
 signing up, plans, every feature worth knowing, step-by-step how-tos, privacy settings and pro tips. Then we pit them
 against each other and show you how to use several together. 🥊
 
-<details class="eli5" open>
-<summary>🧸 ELI5: This part in 30 seconds</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-There are lots of AI helpers, made by different companies, and each has its own special tricks. This part is like a
-guidebook to a zoo: one page for each animal, what it eats, what it's good at and how to make friends with it. Read the
-page for the AI you use most, and peek at the others when you're curious.
+Many companies make AI assistants, and each one has different strengths, features, prices and privacy policies. This part gives every major assistant its own complete chapter.
+
+- **Start with the comparison** if you're still choosing, or jump straight to the assistant you already use.
+- **Each chapter covers** sign-up, plans, key features, step-by-step how-tos, privacy settings and pro tips.
+- **Finish with the showdowns** to see which assistant fits which task, and how to use several together.
 
 </details>
 
@@ -48,7 +50,7 @@ page for the AI you use most, and peek at the others when you're curious.
 
     ---
 
-    <span class="card-meta">⏱️ 12 min read · 🎯 Beginners to advanced beginners</span>
+    <span class="card-meta">⏱️ 13 min read · 🎯 Beginners to advanced beginners</span>
 
     ChatGPT is the assistant that started the AI boom in late 2022, and it's still the most-used AI app in the world.
 
@@ -56,7 +58,7 @@ page for the AI you use most, and peek at the others when you're curious.
 
     ---
 
-    <span class="card-meta">⏱️ 11 min read · 🎯 Beginners to advanced beginners</span>
+    <span class="card-meta">⏱️ 12 min read · 🎯 Beginners to advanced beginners</span>
 
     Gemini is Google's AI assistant, and its superpower is Google itself. It's built into Android phones, Chrome, Gmail, Docs, Google Home and more, and (if you let it) it can use your own Gmail, Calendar, Photos and Drive to give answers that are truly personal.
 
@@ -64,7 +66,7 @@ page for the AI you use most, and peek at the others when you're curious.
 
     ---
 
-    <span class="card-meta">⏱️ 9 min read · 🎯 Beginners to advanced beginners</span>
+    <span class="card-meta">⏱️ 11 min read · 🎯 Beginners to advanced beginners</span>
 
     Claude is Anthropic's assistant, loved for writing that sounds human, careful thinking, and working brilliantly with long documents.
 
@@ -72,7 +74,7 @@ page for the AI you use most, and peek at the others when you're curious.
 
     ---
 
-    <span class="card-meta">⏱️ 7 min read · 🎯 Windows, Office and Outlook users</span>
+    <span class="card-meta">⏱️ 8 min read · 🎯 Windows, Office and Outlook users</span>
 
     Copilot is Microsoft's AI assistant, and it lives where millions of people already work: Windows, the Edge browser, Word, Excel, PowerPoint, Outlook and Teams.
 
@@ -80,7 +82,7 @@ page for the AI you use most, and peek at the others when you're curious.
 
     ---
 
-    <span class="card-meta">⏱️ 7 min read · 🎯 Beginners to advanced beginners</span>
+    <span class="card-meta">⏱️ 8 min read · 🎯 Beginners to advanced beginners</span>
 
     Grok is the AI assistant from xAI, Elon Musk's AI company (now part of SpaceX), and it's built right into X (formerly Twitter).
 
@@ -88,7 +90,7 @@ page for the AI you use most, and peek at the others when you're curious.
 
     ---
 
-    <span class="card-meta">⏱️ 7 min read · 🎯 Beginners to advanced beginners</span>
+    <span class="card-meta">⏱️ 8 min read · 🎯 Beginners to advanced beginners</span>
 
     Perplexity calls itself an "answer engine": ask a question and you get a clear, written answer with numbered sources you can click, like a search engine and a research assistant rolled into one.
 
@@ -96,7 +98,7 @@ page for the AI you use most, and peek at the others when you're curious.
 
     ---
 
-    <span class="card-meta">⏱️ 6 min read · 🎯 WhatsApp, Instagram and Facebook users</span>
+    <span class="card-meta">⏱️ 7 min read · 🎯 WhatsApp, Instagram and Facebook users</span>
 
     Meta AI is the assistant you probably already have: it's built into WhatsApp, Instagram, Messenger and Facebook, used by billions of people.
 
@@ -104,7 +106,7 @@ page for the AI you use most, and peek at the others when you're curious.
 
     ---
 
-    <span class="card-meta">⏱️ 5 min read · 🎯 Curious beginners and budget-minded users</span>
+    <span class="card-meta">⏱️ 6 min read · 🎯 Curious beginners and budget-minded users</span>
 
     DeepSeek shook the AI world in January 2025, when a small Chinese lab released a free reasoning model that rivaled the best in the West, and published it openly for anyone to download.
 
@@ -120,7 +122,7 @@ page for the AI you use most, and peek at the others when you're curious.
 
     ---
 
-    <span class="card-meta">⏱️ 5 min read · 🎯 Curious explorers, multilingual users and travelers</span>
+    <span class="card-meta">⏱️ 6 min read · 🎯 Curious explorers, multilingual users and travelers</span>
 
     The AI world isn't just Silicon Valley. Some of the most impressive (and most openly shared) AI models now come from China, and there are excellent assistants built for Europe, India, Korea, the Middle East and beyond.
 
@@ -128,7 +130,7 @@ page for the AI you use most, and peek at the others when you're curious.
 
     ---
 
-    <span class="card-meta">⏱️ 6 min read · 🎯 iPhone, Echo, Galaxy and Pixel owners</span>
+    <span class="card-meta">⏱️ 7 min read · 🎯 iPhone, Echo, Galaxy and Pixel owners</span>
 
     The assistants built into your devices have had a glow-up. Siri was rebuilt with Apple Intelligence and Google's Gemini models, Alexa+ turned Amazon's speakers into real conversationalists, Gemini replaced Google Assistant on Android and Nest, and Samsung's Galaxy AI translates phone calls live.
 
@@ -136,7 +138,7 @@ page for the AI you use most, and peek at the others when you're curious.
 
     ---
 
-    <span class="card-meta">⏱️ 6 min read · 🎯 Explorers, privacy fans, learners and the curious</span>
+    <span class="card-meta">⏱️ 7 min read · 🎯 Explorers, privacy fans, learners and the curious</span>
 
     Beyond the big-name assistants there's a whole ecosystem of clever AI apps: hubs that give you many models in one place, privacy-first chatbots that don't keep your data, character and companion apps, AI tutors, and specialist tools for writing, meetings and more.
 

@@ -1,18 +1,21 @@
 # 36 · Context Engineering: Prompting's Big Sibling 🧩📐
 
-> ⏱️ 8 min read · 🎯 Intermediate · 🧰 Needs: any AI assistant
+> ⏱️ 9 min read · 🎯 Intermediate · 🧰 Needs: any AI assistant
 
 **You already know the basics of good prompts. Context engineering is the next level: designing *everything* the model
 sees** (standing instructions, examples, documents, tool descriptions, memory and conversation history) so it succeeds
 reliably, not just once. It's the single biggest skill difference between casual users and people who get jaw-dropping
 results.
 
-<details class="eli5" open>
-<summary>🧸 ELI5: This chapter in 30 seconds</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Imagine asking a new babysitter to look after your kids. A good note says who the kids are, the rules, where the snacks
-are, what to do if something goes wrong, and an example of a perfect bedtime routine. **Context engineering is writing that
-perfect note for your AI**, and keeping its desk tidy so the important stuff doesn't get buried.
+Context engineering means deliberately shaping everything an AI receives, not just your prompt: standing instructions, examples, documents, tool descriptions and conversation history. It's the most reliable way to improve results in any serious AI setup.
+
+- **Write standing instructions** once, in Projects, Gems or files like CLAUDE.md.
+- **Show examples** instead of describing a style, and structure documents clearly.
+- **Write clear tool descriptions** and request structured outputs when another program will use the result.
+- **Manage long sessions** to prevent context rot, and keep a reusable kit of your best context.
 
 </details>
 
@@ -20,11 +23,10 @@ perfect note for your AI**, and keeping its desk tidy so the important stuff doe
 
 ## 🔭 From prompting to context engineering
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-A prompt is one sentence you say. Context is *everything* on the AI's desk: rules, examples, files, tools and past chat.
-Getting the whole desk right matters more than the one sentence.
+A prompt is the message you type; context is the entire package the model receives. In modern setups, system instructions, files, tool definitions and history often outweigh the prompt itself, so getting all of it right matters most.
 
 </details>
 
@@ -46,11 +48,14 @@ for agents especially, the prompt is only a sliver of what determines success.
 
 ## 📜 Standing instructions that actually work
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Standing instructions are the note you leave once that the AI reads every single time, like the rules on the fridge. Write
-them clearly and you'll never have to repeat yourself.
+Standing instructions are read with every request, so writing them well saves you from repeating yourself. Keep them in a Project, Gem, custom instructions or an agent memory file like CLAUDE.md or AGENTS.md.
+
+1. State who you are and what the assistant is for.
+2. Describe the style, format and rules it should follow.
+3. Add the key facts it should always know, and update the instructions as you learn what works.
 
 </details>
 
@@ -76,11 +81,10 @@ files like **`CLAUDE.md` / `AGENTS.md`**. A great one covers:
 
 ## 🧪 Examples beat adjectives
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Saying "make it fun and punchy" is fuzzy. Showing one example of what you mean is crystal clear. AI copies examples
-really well.
+One good example communicates a style more precisely than a list of adjectives. Use two or three varied examples if you want range, so the AI doesn't copy one too closely.
 
 </details>
 
@@ -106,11 +110,10 @@ Now write one for: Cast-iron skillet
 
 ## 📎 Feeding documents the right way
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-When you give the AI a big stack of papers, put the papers first and your question at the end, label each paper clearly,
-and ask it to find the exact quotes before answering.
+When working with long documents, place them first and your question last, label each document clearly, and ask the AI to quote relevant passages before answering. The table explains why each technique works.
 
 </details>
 
@@ -128,11 +131,10 @@ For big, changing collections, you'll want **RAG** (fetching only the relevant c
 
 ## 🔧 Tool descriptions are prompts too
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Each tool has a little label telling the AI what it does. If the label is confusing, the AI will use the tool wrong, just
-like you would with a mislabeled button.
+For agents, tool names and descriptions are critical context. A specific name and a description that explains when to use the tool and what each input means prevent most tool misuse.
 
 </details>
 
@@ -151,10 +153,10 @@ the task doesn't need.
 
 ## 📦 Structured outputs: context for machines
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-When a robot (not a person) will read the AI's answer, ask the AI to fill in a form with fixed boxes. Robots love forms.
+When another program will read the AI's output, ask for structured output, such as JSON with defined fields. Many APIs can enforce a schema so the output is always valid.
 
 </details>
 
@@ -170,11 +172,14 @@ Many APIs and tools can **enforce** a schema so the output is always valid JSON 
 
 ## 🗜️ Managing long sessions (context rot)
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-After a long, messy conversation, the AI's desk gets cluttered with old ideas and mistakes, and it starts getting
-confused. Sometimes the best fix is a clean desk: a new chat with a short summary of what matters.
+Long conversations accumulate outdated ideas, failed attempts and contradictions, which gradually degrade quality (context rot).
+
+1. Watch for signs like repeated mistakes or forgotten instructions.
+2. Ask the AI to summarize the decisions and key facts so far.
+3. Start a fresh session with that summary.
 
 </details>
 
@@ -192,11 +197,10 @@ this **context rot**: quality slowly drops even when there's room left.
 
 ## 🧠 What to remember, and where
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Some things the AI should always know (put them in the fridge note). Some things only matter for one project (put them in
-that project's folder). Some things change every day (let it look them up fresh).
+Different kinds of information belong in different places: stable personal facts in custom instructions or memory, project knowledge in project files, and changing information fetched live through tools. The table gives examples.
 
 </details>
 
@@ -212,11 +216,14 @@ Deep dive: [Memory for Agents](../part-8-knowledge-and-memory/75-memory-for-agen
 
 ## 🧰 Build a reusable context kit
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Keep a little folder of your best notes (who you are, how you write, your project rules) and reuse it everywhere. It's
-like having your favorite recipe cards ready.
+A reusable context kit is a folder of your best context files (about you, your writing style, your project rules) that you attach or reference whenever you start important work.
+
+1. Create a folder or a Notion page.
+2. Add the files shown below and fill them in.
+3. Turn them into Projects, Gems or agent memory files.
 
 </details>
 
@@ -237,10 +244,10 @@ repo or Obsidian vault.
 
 ## ✅ The context engineering checklist
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Before a big AI task, run through this list like a pilot's pre-flight check.
+Before a significant AI task, run through this checklist to confirm the AI has the goal, the right documents, an example, the necessary tools and a clear output format.
 
 </details>
 

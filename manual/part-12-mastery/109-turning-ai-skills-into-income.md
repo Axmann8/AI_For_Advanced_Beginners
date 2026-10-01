@@ -1,6 +1,6 @@
 # 109 · Turning AI Skills into Income 💼💰
 
-> ⏱️ 8 min read · 🎯 Anyone who wants their new AI skills to pay off: a raise, a side hustle or a business · 🧰 Needs: 2–3 projects from this manual that you've actually built
+> ⏱️ 9 min read · 🎯 Anyone who wants their new AI skills to pay off: a raise, a side hustle or a business · 🧰 Needs: 2–3 projects from this manual that you've actually built
 
 **Everything in this manual is a valuable skill: automations, agents, RAG bots, MCP servers, content pipelines, prompt systems.**
 Plenty of businesses and teams want these things and don't have time to learn them. This chapter maps the honest, sustainable
@@ -8,12 +8,15 @@ ways to turn your skills into income: leveling up in your current job, freelanci
 Plus pricing, finding clients, proposals, a 90-day plan, and how to spot the "get rich with AI" scams. Real value, real income.
 No hype. 🌱💸
 
-<details class="eli5" open>
-<summary>🧸 ELI5: This chapter in 30 seconds</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-You've learned to make AI robots that do helpful jobs. Lots of people and businesses would love a robot like that but don't know
-how to build one. You can help them, and they can pay you! Start small, show what you've built, be honest about what it can do,
-and your skills can become a job, a side business or a raise. 🧑‍🔧💰
+The skills in this manual are valuable to employers and clients. Many businesses want AI automations, assistants and integrations but don't know how to build them, which creates opportunities to earn through your job, freelance work or your own products.
+
+- **Four paths:** advance in your current job, freelance, offer productized services or sell digital products.
+- **Price by value,** not just hours.
+- **Show your work** with a portfolio of two or three projects.
+- **Avoid "get rich quick" schemes;** sustainable income comes from solving real problems.
 
 </details>
 
@@ -21,11 +24,10 @@ and your skills can become a job, a side business or a raise. 🧑‍🔧💰
 
 ## 🗺️ Four paths to income
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-There are four main ways to earn with AI skills: get better at your current job, help clients, sell a ready-made service, or
-sell something you've made.
+There are four main ways to earn from AI skills, each with a different speed to first income and long-term potential. The table compares them.
 
 </details>
 
@@ -43,10 +45,15 @@ sell something you've made.
 
 ## 📈 Path 1: Level up in your current job
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Use AI to fix annoying problems at your own job. Your boss notices, and you become the person everyone asks for help.
+To advance in your current job:
+
+1. Identify the most repetitive or frustrating task on your team.
+2. Build a small solution using approved tools.
+3. Measure the time saved and share the result.
+4. Offer to help colleagues with similar problems.
 
 </details>
 
@@ -58,10 +65,10 @@ Use AI to fix annoying problems at your own job. Your boss notices, and you beco
 
 ## 🧑‍💼 Path 2: Freelance services people pay for
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Businesses pay helpers to set up AI robots for them. Here are the jobs people most often need.
+Businesses commonly pay for workflow automation, AI chatbots, document processing, content systems and AI training. The table shows who needs each service and which chapters teach the skills.
 
 </details>
 
@@ -81,10 +88,10 @@ platforms, and n8n or Make community showcases. **A warm introduction beats a hu
 
 ## 📦 Path 3: Productized services
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Instead of doing different work for every customer, offer one clear package with one price, like a menu item.
+A productized service is one clearly defined offer with a fixed price and a predictable result, such as "AI receptionist setup in one week." It's easier to sell and deliver than custom work. The table gives examples.
 
 </details>
 
@@ -102,11 +109,10 @@ toward **monthly retainers** for maintenance and improvements.
 
 ## 🛍️ Path 4: Digital products
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Make something once and sell it many times, like a template, a course or a small app. It takes longer to start earning, but it
-can keep earning.
+Digital products such as templates, courses, small apps and prompt packs are created once and sold many times. They take longer to earn from but can provide ongoing income. The table lists examples.
 
 </details>
 
@@ -122,11 +128,10 @@ can keep earning.
 
 ## 💲 Pricing without panic
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Charge based on how much your work helps the customer, not just how many hours it took you. If your robot saves them 10 hours a
-week, that's worth a lot!
+Price based on the value you deliver, not only the hours you spend, especially since AI makes you faster. Hourly pricing suits early or undefined projects; fixed and value-based pricing suit clear deliverables. The table compares models.
 
 </details>
 
@@ -147,10 +152,10 @@ week, that's worth a lot!
 
 ## 📄 Portfolio, proposals & case studies
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Show people what you've built, explain clearly what you'll do for them, and share stories of how you helped others.
+A portfolio of two or three projects is enough: for each, show a short demo, the problem, what you built and the measurable result. Proposals should state the problem, solution, timeline and price clearly.
 
 </details>
 
@@ -182,11 +187,10 @@ client's permission before sharing.
 
 ## 🚀 Delivering like a pro
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Do what you promised, test it well, teach the customer how to use it, and check in afterwards. Happy customers tell their
-friends.
+Deliver professionally: understand the workflow before automating it, start with one working piece, test thoroughly, document and train the client, and follow up after launch.
 
 </details>
 
@@ -199,11 +203,10 @@ friends.
 
 ## 🚩 Spotting "get rich with AI" scams
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Some people promise you'll get rich super fast with AI if you buy their course. Real income comes from helping people, not
-from magic tricks.
+Be wary of offers promising fast, passive AI income in exchange for buying a course. Sustainable income takes time and comes from solving real problems for real customers. The table lists common red flags.
 
 </details>
 
@@ -219,10 +222,10 @@ from magic tricks.
 
 ## 🗓️ Your 90-day plan
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-A three-month plan: build your examples, help your first customers, then turn it into a repeatable offer.
+This 90-day plan moves from building portfolio projects, to serving your first clients, to packaging a repeatable offer.
 
 </details>
 

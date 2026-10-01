@@ -7,12 +7,14 @@ across the major assistants and explains which ones tend to shine at each task a
 feature). Then it hands you a scorecard to run your own showdown, because your taste and your tasks matter more than any
 ranking. And rankings change every few months anyway! 🏁
 
-<details class="eli5" open>
-<summary>🧸 ELI5: This chapter in 30 seconds</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-We give the same jobs to lots of AIs, like a cooking competition where every chef makes the same dish. Some are better at
-pictures, some at research, some at writing. The winner depends on the job, so it's smart to know which AI to ask for
-which job.
+This chapter runs ten everyday tasks through the major assistants to show which ones tend to perform best at what. The differences usually come from specific features rather than overall intelligence.
+
+- **Each showdown** includes the exact prompt, what to look for and which assistants typically shine.
+- **No single assistant wins everything;** the best choice depends on the task.
+- **The final section** shows you how to run your own showdown on the tasks you actually do.
 
 </details>
 
@@ -26,11 +28,10 @@ which job.
 
 ## ✉️ Showdown 1: The tricky email
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Every AI can write a good email. The differences are in how natural it sounds and whether the AI lives inside your email
-app.
+All the top assistants write competent emails. The differences lie in how natural the tone sounds and whether the assistant is built into your email app.
 
 </details>
 
@@ -45,10 +46,10 @@ you send.
 
 ## 🛒 Showdown 2: Research a purchase
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-For shopping research, the best AIs show where their information came from, so you can check the reviews yourself.
+For purchase research, prioritize assistants that cite recent sources, so you can check the underlying reviews yourself.
 
 </details>
 
@@ -62,10 +63,10 @@ Gemini and Claude for more thorough reports. Always click two sources before buy
 
 ## 📰 Showdown 3: What's happening right now
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-For today's news, you need an AI that searches the internet and tells you where it read things.
+For current news, the assistant must search the web and show its sources. Check that the stories are from today and from reputable outlets.
 
 </details>
 
@@ -79,10 +80,10 @@ people on X are saying (just remember that chatter isn't confirmation).
 
 ## 📄 Showdown 4: Understand a long document
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Give each AI the same long document and see which one understands it best and points to the right pages.
+Upload the same long document to each assistant and compare how accurately it summarizes, whether it catches important details, and whether it quotes the right sections.
 
 </details>
 
@@ -96,10 +97,10 @@ long inputs; **Gemini Notebook** is superb when you want answers grounded strict
 
 ## 🖼️ Showdown 5: Make an image
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Ask each AI for the same picture and see whose looks best, especially if the picture has words in it.
+Give each assistant the same image request and compare the results, paying particular attention to whether any text in the image is spelled correctly.
 
 </details>
 
@@ -114,10 +115,10 @@ doesn't make photos.)
 
 ## 🎬 Showdown 6: Make a short video
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Only some AIs can make videos. Ask them for the same little clip and compare.
+Only some assistants can generate video. Compare realistic motion, matching sound and freedom from visual glitches.
 
 </details>
 
@@ -130,10 +131,10 @@ tools like Runway and Kling go further ([Video & Audio Production](../part-10-cr
 
 ## 🗓️ Showdown 7: Plan from *your* data
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-The best AI for your own life is the one connected to your email and calendar.
+For questions about your own schedule and email, the best assistant is the one connected to those accounts. Compare accuracy about your real commitments.
 
 </details>
 
@@ -148,10 +149,10 @@ connects to where your life actually lives.
 
 ## 🧮 Showdown 8: A genuinely tricky problem
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-For hard puzzles and math, switch on each AI's "thinking" mode and see who gets it right.
+For multi-step math and logic problems, turn on each assistant's reasoning mode and check whether the final answer is correct.
 
 </details>
 
@@ -166,10 +167,10 @@ in reasoning mode; fast modes are where slips happen. Check the numbers yourself
 
 ## 🎙️ Showdown 9: A voice conversation
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Talk to each AI out loud and see which one feels most like a natural conversation.
+Hold the same voice conversation with each assistant and compare how natural it sounds, how well it handles interruptions and how engaging it is.
 
 </details>
 
@@ -184,10 +185,10 @@ loud.
 
 ## 🛠️ Showdown 10: Build a mini-app
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Ask each AI to build the same little app and see whose works best and looks nicest.
+Ask each assistant to build the same small interactive tool, and compare whether it works correctly and how polished it looks.
 
 </details>
 
@@ -202,10 +203,15 @@ Coding](../part-7-building-with-ai/65-vibe-coding-your-first-app.md).
 
 ## 📋 Run your own showdown
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Pick your own jobs, give them to a few AIs, and score them. Your own test is the one that counts.
+The most useful comparison is one based on your own tasks.
+
+1. Choose five tasks you actually do.
+2. Use the exact same prompt in two to four assistants, each in a fresh chat.
+3. Score each result from 1 to 5 on the criteria below.
+4. Use the assistant that wins on the tasks that matter most to you.
 
 </details>
 

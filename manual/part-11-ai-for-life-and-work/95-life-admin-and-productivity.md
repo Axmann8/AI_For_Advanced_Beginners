@@ -1,18 +1,21 @@
 # 95 · Life Admin & Personal Productivity 🏡✅
 
-> ⏱️ 7 min read · 🎯 Everyone with a to-do list (so, everyone) · 🧰 Needs: an assistant with calendar/email connectors (optional), a notes app or spreadsheet
+> ⏱️ 8 min read · 🎯 Everyone with a to-do list (so, everyone) · 🧰 Needs: an assistant with calendar/email connectors (optional), a notes app or spreadsheet
 
 **Forms, bills, appointments, school emails, renewals, "did I ever reply to that?": life admin eats hours every week.** AI
 won't do your laundry (yet 🧺), but it can take a huge bite out of the thinking, planning and paperwork. This chapter gives you
 the life-admin toolkit, five systems that run themselves, AI-enhanced productivity methods, an "overwhelm reset" for busy or
 neurodivergent brains, and the privacy basics. Let's get your evenings back. 🌙
 
-<details class="eli5" open>
-<summary>🧸 ELI5: This chapter in 30 seconds</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Grown-ups have lots of little boring jobs: paying bills, filling forms, remembering birthdays, planning the week. AI is like a
-helpful organizer friend who reads confusing letters and explains them, makes your to-do list less scary, and reminds you of
-important things before you forget. You still decide everything, but your brain feels much lighter. 🎈
+Everyday adult life involves a steady stream of small administrative tasks: bills, forms, appointments, renewals and planning. AI can explain confusing paperwork, organize your tasks and remind you before things are due, which frees up a lot of mental energy.
+
+1. **Use the toolkit** of prompts for common life-admin tasks.
+2. **Set up five systems:** weekly planning, a household command center, a paperwork processor, a subscription audit and a personal CRM.
+3. **Use the overwhelm reset** when everything feels like too much.
+4. **Protect sensitive documents** by redacting numbers before sharing.
 
 </details>
 
@@ -20,10 +23,10 @@ important things before you forget. You still decide everything, but your brain 
 
 ## 🧰 The life-admin AI toolkit
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Here's a list of boring grown-up jobs and exactly what to ask AI for each one.
+The table pairs common life-admin tasks, from email and appointments to forms and travel, with how AI helps and a prompt to try.
 
 </details>
 
@@ -42,10 +45,14 @@ Here's a list of boring grown-up jobs and exactly what to ask AI for each one.
 
 ## 🔁 System 1: The Sunday planning session (20 minutes)
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Once a week, show AI your calendar and to-do list, and it helps you make a realistic plan with breaks and fun built in.
+A weekly planning session takes about twenty minutes.
+
+1. Connect or paste your calendar and task list.
+2. Ask AI to build a realistic plan for the week, including breaks and buffer time.
+3. Adjust the plan, and schedule your most important tasks first.
 
 </details>
 
@@ -59,11 +66,10 @@ With your calendar connected (or pasted in):
 
 ## 🏠 System 2: The household command center
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Keep all the important house stuff in one place, like bill dates and when to change the air filter, and let robots remind
-you before things are due.
+A household command center keeps important information in one place: bill dates, maintenance schedules, warranties and contacts. AI can build the Notion page or spreadsheet for you, and automations can send reminders before things are due.
 
 </details>
 
@@ -79,10 +85,16 @@ Create a Notion page or Google Sheet (AI can build it for you: *"Create a househ
 
 ## 📨 System 3: The paperwork processor
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Take a photo of any confusing letter, and AI tells you what it means, what you need to do, and by when, then adds a reminder.
+For any confusing letter or form:
+
+1. Take a photo of it.
+2. Ask AI to explain what it means, what you need to do and the deadline.
+3. Add the action and deadline to your task list or calendar.
+
+You can automate this with a phone shortcut that sends photos to a workflow.
 
 </details>
 
@@ -103,10 +115,10 @@ Do it by hand in a chat, or automate it: phone shortcut → n8n → vision model
 
 ## 💳 System 4: The subscription audit
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-AI looks at your bank statement and finds all the things you pay for every month, including ones you forgot about.
+Export three months of bank transactions and ask AI to list every recurring charge, when each renews, and which ones you might not use. Many people find forgotten subscriptions this way.
 
 </details>
 
@@ -117,11 +129,10 @@ people find money here on the very first try. 💰 Then: *"Draft cancellation me
 
 ## ❤️ System 5: A personal CRM for the people you love
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Keep a little notebook about your friends and family, like birthdays and what they love, and get a reminder with gift ideas
-before each birthday.
+A personal CRM is a simple database of the people you care about: birthdays, family members, recent life events and gift ideas. An automated reminder before each birthday, with gift suggestions, helps you stay in touch.
 
 </details>
 
@@ -132,10 +143,10 @@ reminder a week before each birthday with a draft message and three gift suggest
 
 ## ⚡ Productivity methods, AI-enhanced
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Famous tricks for getting things done work even better with AI helping you plan, start and review.
+Popular productivity methods work even better with AI: it can process your inbox into next actions (Getting Things Done), help you prioritize (Eisenhower matrix) and break large tasks into small first steps. The table explains each.
 
 </details>
 
@@ -151,11 +162,10 @@ Famous tricks for getting things done work even better with AI helping you plan,
 
 ## 💛 The overwhelm reset
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-When your head is too full, tell the AI everything that's worrying you. It sorts the mess into "now," "later" and "never," and
-gives you just one small thing to do first.
+When you feel overwhelmed, write down everything on your mind and ask AI to sort it into "now," "later" and "never," then suggest one small next step. Reducing the list to a single action makes it much easier to start.
 
 </details>
 
@@ -176,11 +186,10 @@ More in [Accessibility & AI](101-accessibility-and-ai.md).
 
 ## 🔒 Privacy & safety for personal life
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Be careful with very private things like ID cards, bank numbers and medical papers. Hide the secret numbers before sharing, and
-ask a real expert for big decisions.
+Redact account numbers, ID numbers and passwords before uploading documents, use temporary chats for sensitive topics, and consult a qualified professional for major legal or financial decisions. The table lists more guidelines.
 
 </details>
 

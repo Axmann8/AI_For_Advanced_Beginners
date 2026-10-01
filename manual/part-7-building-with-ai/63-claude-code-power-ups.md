@@ -1,19 +1,21 @@
 # 63 · Claude Code Power-Ups: Skills, Subagents, Hooks, Plugins & More ⚡🧙
 
-> ⏱️ 10 min read · 🎯 Intermediate · 🧰 Needs: Claude Code installed ([Masterclass](62-claude-code-masterclass.md) first)
+> ⏱️ 11 min read · 🎯 Intermediate · 🧰 Needs: Claude Code installed ([Masterclass](62-claude-code-masterclass.md) first)
 
 **Out of the box, Claude Code is brilliant. Customized, it's a whole team.** This chapter covers the power-user layer:
 custom slash commands, skills, subagents, hooks, MCP servers, plugins, output styles, headless mode, GitHub Actions and the
 Agent SDK. Each one is a small file you can write in minutes (or ask Claude to write for you), and together they turn a
 general assistant into *your* assistant. 🛠️✨
 
-<details class="eli5" open>
-<summary>🧸 ELI5: This chapter in 30 seconds</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Think of Claude Code as a robot with an empty backpack. **Skills** are instruction booklets it can pull out when needed.
-**Subagents** are little helper robots it can send off on errands. **Hooks** are automatic rules ("always wipe your feet
-when you come in"). **MCP** gives it new tools. **Plugins** are gift boxes containing all of the above. You can build every
-one of them, or install ones other people made.
+Claude Code can be extended in several ways, each suited to a different need. You can build each one yourself or install ones others have shared.
+
+- **Slash commands** save prompts you use often.
+- **Skills** package instructions that load only when needed.
+- **Subagents** handle focused tasks in their own context; **hooks** enforce rules automatically.
+- **MCP servers** add tools, and **plugins** bundle all of these for easy sharing.
 
 </details>
 
@@ -27,10 +29,10 @@ one of them, or install ones other people made.
 
 ## 🗺️ The power-up map
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Here's every power-up on one page, with when to use each one.
+The table summarizes every extension type: where it's stored, when it loads and what it's best for.
 
 </details>
 
@@ -65,11 +67,10 @@ flowchart TB
 
 ## ⌨️ Custom slash commands
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-A slash command is a saved message. Instead of typing the same long request every time, you type `/standup` and it's sent
-for you.
+A custom slash command is a saved prompt stored as a Markdown file in `.claude/commands/`. Typing the command (for example `/fix-issue 42`) sends the full prompt, with arguments filled in.
 
 </details>
 
@@ -101,11 +102,10 @@ Now `/fix-issue 42` does the whole dance. Other favorites:
 
 ## 🎓 Skills: packaged expertise
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-A skill is an instruction booklet in a folder. Claude only sees the booklet's title until it needs it, then reads the whole
-thing. So you can give it a hundred booklets without filling its backpack.
+A skill is a folder containing a `SKILL.md` file (name, description and instructions) plus optional scripts and reference files. Claude sees only the description until a task calls for the skill, so you can install many without filling its context.
 
 </details>
 
@@ -146,11 +146,10 @@ playbook · "set up a new Python project our way" · grocery-list-from-recipes �
 
 ## 👥 Subagents: your specialist team
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Subagents are helper robots. The main robot says "go research this" or "go check my work," the helper does it in its own
-room, and comes back with a short report. The main robot's backpack stays light.
+Subagents have their own context window, instructions and tool permissions. The main agent delegates focused tasks, such as research or code review, and receives only a summary, which keeps the main conversation clean.
 
 </details>
 
@@ -184,11 +183,10 @@ built."* Subagents can also run **in parallel** for big jobs ([Multi-Agent Syste
 
 ## 🪝 Hooks: automatic guardrails
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Hooks are rules that always happen, no matter what. "Every time you edit a file, tidy it up." "Never, ever touch the secret
-file." The robot can't forget them, because they're not suggestions, they're automatic.
+Hooks run your own commands automatically at specific moments, such as after every file edit or before a tool runs. Because they're deterministic, they enforce rules reliably, for example formatting code or blocking access to sensitive files.
 
 </details>
 
@@ -244,10 +242,10 @@ Register it under `PreToolUse` with the matcher `Edit|Write` and the command `py
 
 ## 🔌 MCP in Claude Code
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-MCP servers are plug-in tools: plug in GitHub, a web browser, or your notes app, and Claude can use them.
+You can add MCP servers to Claude Code with the `claude mcp add` command, scoped to yourself, the current project or your whole team. The table explains each scope.
 
 </details>
 
@@ -280,11 +278,10 @@ docs), a database server, Sentry, and your notes app. Full catalog in [MCP Serve
 
 ## 🎁 Plugins & marketplaces
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-A plugin is a gift box with commands, skills, helpers, hooks and tools inside. Install the box, get everything at once.
-Share your box, and your friends get your whole setup.
+Plugins bundle slash commands, skills, subagents, hooks and MCP servers into one installable package. You can install plugins from marketplaces or publish your own to share your setup.
 
 </details>
 
@@ -306,11 +303,10 @@ installable package. Browse and install with `/plugin`:
 
 ## 🎨 Output styles, status line & other comforts
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-You can change how Claude talks to you (more teaching, more brief) and what little info bar you see at the bottom of the
-screen.
+Output styles change how Claude communicates, for example a learning mode that explains as it works. The status line shows custom information at the bottom of the screen.
 
 </details>
 
@@ -324,11 +320,10 @@ screen.
 
 ## 🤖 Headless mode & scripting
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Headless mode means Claude works without you chatting to it: a script says "do this job," Claude does it and prints the
-answer. That's how you put Claude inside your own robots and schedules.
+Headless mode (`claude -p`) runs Claude Code from scripts without interactive chat, so you can use it in cron jobs, automations and pipelines.
 
 </details>
 
@@ -348,11 +343,14 @@ claude -p "Fix lint errors" --allowedTools "Edit,Bash(npm run lint)"            
 
 ## 🐙 Claude Code in GitHub Actions
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-You can invite Claude into your GitHub project. Write "@claude please fix this" on a bug report, and Claude writes the fix
-and sends it to you for review.
+With the Claude GitHub app, you can mention @claude on an issue or pull request and Claude will implement changes and open a pull request for your review.
+
+1. Run `/install-github-app` in Claude Code, or add the workflow below.
+2. Add your API key as a repository secret.
+3. Mention @claude in an issue or pull request comment.
 
 </details>
 
@@ -380,11 +378,10 @@ schedule or on every PR for automatic reviews.
 
 ## 🧰 The Claude Agent SDK
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-The Agent SDK is Claude Code's engine, available as building blocks so you can put the same smart helper inside your own
-programs.
+The Claude Agent SDK, available for Python and TypeScript, provides the same capabilities that power Claude Code as a library, so you can build agents into your own applications.
 
 </details>
 
@@ -413,11 +410,10 @@ an ops agent for your server. To understand what's happening under the hood firs
 
 ## ☁️ Parallel & cloud sessions
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-You can have several Claudes working at the same time, each on a different job, even in the cloud while your laptop is
-closed. You just check their work later.
+You can run several Claude Code sessions at once: in separate Git worktrees locally, or in the cloud while your computer is off. The table compares the options.
 
 </details>
 
@@ -431,10 +427,10 @@ closed. You just check their work later.
 
 ## 🧪 Starter kit: a power-user setup in 15 minutes
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Copy these steps and you'll have a customized, safer, smarter Claude Code in a quarter of an hour.
+This checklist sets up a customized, safer Claude Code configuration in about fifteen minutes.
 
 </details>
 

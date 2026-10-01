@@ -1,17 +1,19 @@
 # 41 · Built-in Connectors & Plugins 🧩✨
 
-> ⏱️ 8 min read · 🎯 Beginner-friendly · 🧰 Needs: an account with Claude, ChatGPT, Gemini or Copilot
+> ⏱️ 9 min read · 🎯 Beginner-friendly · 🧰 Needs: an account with Claude, ChatGPT, Gemini or Copilot
 
 **MCP is the engine. Connectors are the polished, click-to-install version inside the big AI apps.** If you want results
 *today* with zero config files, start here. You'll learn what each major assistant offers, how connectors differ from
 skills and plugins, the best combos, and how to keep permissions tidy.
 
-<details class="eli5" open>
-<summary>🧸 ELI5: This chapter in 30 seconds</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Connectors are like apps on your phone's app store, but for your AI. Tap "Connect Gmail," log in, and now your AI can
-read and help with your email. No setup files, no code. This chapter shows you where the "app store" is in each AI app
-and which connections give you the biggest wow.
+Built-in connectors are the simplest way to link an AI assistant to your other apps: choose an app from a directory, sign in, and the assistant can work with it. No configuration files or code are needed.
+
+- **Know the terms:** connectors, raw MCP servers, skills and plugins each serve a different purpose.
+- **Each assistant** (Claude, ChatGPT, Gemini, Copilot and others) has its own directory and features.
+- **Combine connectors** for the most useful workflows, and set approvals for actions that send, delete or spend.
 
 </details>
 
@@ -19,11 +21,10 @@ and which connections give you the biggest wow.
 
 ## 🧩 Connectors vs. MCP vs. skills vs. plugins
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-A **connector** is a door to one app. A **skill** is a how-to guide the AI can pull off the shelf. A **plugin** is a gift
-box with several doors and guides inside. **Raw MCP** is building the door yourself.
+A **connector** is a ready-made link to one service. A **raw MCP server** is any server you configure yourself. A **skill** is a packaged set of instructions the AI loads when relevant. A **plugin** bundles several of these together. The table compares them.
 
 </details>
 
@@ -39,11 +40,10 @@ custom. Add skills when you keep explaining the same process.
 
 ## 🟠 Claude
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Claude has a directory where you can add connectors, skills and plugins with a click, plus Projects for standing
-instructions and Artifacts for building mini apps.
+Claude offers a connectors directory in **Settings → Connectors**, plus skills, plugins, Projects for standing instructions and Artifacts for building interactive content. The table describes each feature.
 
 </details>
 
@@ -61,11 +61,10 @@ instructions and Artifacts for building mini apps.
 
 ## 🟢 ChatGPT
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-ChatGPT has plugins (little apps that can even show buttons and forms inside the chat), connectors to your files, an agent
-that can browse for you, and a developer mode for adding any MCP server.
+ChatGPT offers plugins (third-party integrations that can show interactive elements in the chat), connectors to your files and accounts, agent mode for web tasks, and a developer mode for adding any MCP server.
 
 </details>
 
@@ -81,11 +80,10 @@ that can browse for you, and a developer mode for adding any MCP server.
 
 ## 🔵 Google Gemini
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Gemini is best friends with Gmail, Docs, Drive, Calendar, Maps and YouTube, so it can help across all your Google stuff.
-It also comes with Gemini Notebook (NotebookLM), a magical study buddy.
+Gemini integrates deeply with Google's services: Personal Intelligence draws on Gmail, Calendar, Drive, Photos, YouTube and Maps, and Gemini Notebook (formerly NotebookLM) answers questions from sources you provide.
 
 </details>
 
@@ -100,11 +98,10 @@ It also comes with Gemini Notebook (NotebookLM), a magical study buddy.
 
 ## 🟣 Microsoft Copilot
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Copilot lives inside Outlook, Teams, Word and Excel, and companies can build their own Copilot helpers that connect to
-their tools (including MCP servers).
+Copilot connects to your Microsoft 365 email and files and works inside Outlook, Teams, Word and Excel. Organizations can build custom Copilot agents that connect to their own tools, including MCP servers.
 
 </details>
 
@@ -116,10 +113,10 @@ their tools (including MCP servers).
 
 ## ⚫ Others worth knowing
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Lots of other apps have their own connector shelves too: your notes app, your chat app, your computer's launcher and your phone.
+Many other AI tools, including Perplexity, Le Chat, Notion, Slack, Raycast and phone assistants, have their own connector options. The table summarizes each.
 
 </details>
 
@@ -137,11 +134,10 @@ Lots of other apps have their own connector shelves too: your notes app, your ch
 
 ## ✨ Ten connector combos that feel like magic
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Connecting two or three apps at once is where AI really shines: it can take something from one app, think about it, and
-put the result in another.
+Connecting two or three apps lets AI move information between them, such as reading email, checking your calendar and drafting replies in one request. The table lists ten combinations with ready-to-use prompts.
 
 </details>
 
@@ -162,11 +158,14 @@ More in [The MCP Recipe Book](44-mcp-recipe-book.md).
 
 ## 🔐 Permissions & approvals
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-For each connector you choose what the AI may do: always allowed, ask me first, or never. Keep "ask me first" for anything
-that sends, deletes or spends.
+Most apps let you set each connector tool to **always allow**, **ask first** or **never**.
+
+1. Allow read-only tools (search, list, read) freely.
+2. Set anything that sends, deletes, buys, shares or posts to **ask first**.
+3. Review your settings periodically and remove connectors you no longer use.
 
 </details>
 
@@ -179,11 +178,10 @@ that sends, deletes or spends.
 
 ## 🏢 Connectors at work
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-At work, the grown-ups in IT decide which doors are allowed. If a connector is missing, ask them nicely. They're trying
-to keep company data safe.
+On Team and Enterprise plans, administrators usually decide which connectors are available. If one you need is missing, ask your IT team; they're balancing usefulness with data protection.
 
 </details>
 
@@ -194,11 +192,10 @@ to keep company data safe.
 
 ## 🧭 Connector, MCP server, or automation?
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Use a connector when you want to *ask* your AI about an app. Use an automation when you want something to *happen by
-itself*. Build an MCP server when no connector exists.
+Use a **connector** when you want to ask your AI about an app on demand. Use an **automation** when something should happen automatically. Build or install an **MCP server** when no connector exists for what you need.
 
 </details>
 

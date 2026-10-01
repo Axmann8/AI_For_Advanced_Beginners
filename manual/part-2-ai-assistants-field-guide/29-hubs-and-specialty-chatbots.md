@@ -1,18 +1,21 @@
 # 29 · Hubs & Specialty Chatbots 🧩
 
-> ⏱️ 6 min read · 🎯 Explorers, privacy fans, learners and the curious · 🧰 Needs: nothing (most have free tiers)
+> ⏱️ 7 min read · 🎯 Explorers, privacy fans, learners and the curious · 🧰 Needs: nothing (most have free tiers)
 
 **Beyond the big-name assistants there's a whole ecosystem of clever AI apps:** hubs that give you many models in one
 place, privacy-first chatbots that don't keep your data, character and companion apps, AI tutors, and specialist tools
 for writing, meetings and more. This chapter maps the landscape, points out the gems, and gives you a checklist for
 deciding whether a new AI app deserves your data and your money.
 
-<details class="eli5" open>
-<summary>🧸 ELI5: This chapter in 30 seconds</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-There are lots of smaller AI apps too. Some let you use many different AIs in one place, some are extra private, some let
-you chat with made-up characters, and some are special teachers for languages or school subjects. They can be great, but
-check who made them and what they do with your information.
+Beyond the major assistants, many smaller AI apps serve specific needs. Some are excellent, but always check who makes an app and how it handles your data.
+
+- **Hubs** give you many AI models in one app, which is useful for comparing answers.
+- **Privacy-first assistants** don't keep or train on your chats.
+- **Specialists** cover tutoring, language learning, writing and meeting notes.
+- **Companion and character apps** can be entertaining but need care, especially for young people.
 
 </details>
 
@@ -20,11 +23,10 @@ check who made them and what they do with your information.
 
 ## 🧩 Multi-model hubs: many AIs, one app
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Hub apps let you talk to lots of different AIs (ChatGPT's brain, Claude's brain, Gemini's brain and more) in one place,
-so you can compare them easily.
+Multi-model hubs give you access to models from OpenAI, Anthropic, Google, Meta, DeepSeek, Mistral and others under one account, often for a single subscription. They're useful for comparing answers and choosing the best model for each task.
 
 </details>
 
@@ -44,11 +46,10 @@ data passes through both the hub and the model provider.
 
 ## 🔒 Privacy-first assistants
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Some AI apps are built to protect your privacy: they don't keep your chats or use them for training, and some even lock
-your chats so the company can't read them.
+Privacy-first assistants limit what's stored about you: some don't require an account, some anonymize your requests, and some encrypt chats so even the provider can't read them. The table compares their approaches.
 
 </details>
 
@@ -70,11 +71,10 @@ rather not build a profile anywhere. The trade-off: usually fewer bells and whis
 
 ## 🎭 Characters and companions
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Some apps let you chat with pretend characters or an AI "friend." They can be fun, but they're not real friends, and they
-aren't right for kids.
+Character and companion apps let you chat with fictional characters or an ongoing AI "friend." They can be fun or useful for practice, but they aren't substitutes for real relationships, and many have age restrictions.
 
 </details>
 
@@ -92,10 +92,10 @@ professional support. 💛
 
 ## 🎓 Learning and tutoring
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Some AIs are made just for learning: they teach you step by step instead of just giving answers.
+Learning-focused AI tools guide you through material step by step rather than handing over answers. The table lists options for school subjects and language learning.
 
 </details>
 
@@ -112,10 +112,10 @@ Students](../part-11-ai-for-life-and-work/98-parents-teachers-and-students.md).
 
 ## 💼 Specialists for work and writing
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Some AI apps do one job really well, like fixing your writing or taking notes in meetings.
+Specialist tools focus on one job, such as polishing your writing, transcribing and summarizing meetings, or creating presentations. The table lists examples in each category.
 
 </details>
 
@@ -132,11 +132,10 @@ Many of these are in [Part VI · AI in Your Apps](../part-6-ai-in-your-apps/inde
 
 ## ✅ Should you trust a new AI app? A checklist
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Before you give a new AI app your information or money, check who made it, what it does with your data, and what other
-people say about it.
+Before signing up for an unfamiliar AI app, especially before paying or uploading personal data, run through this checklist covering who makes it, how it handles data and what other users report.
 
 </details>
 

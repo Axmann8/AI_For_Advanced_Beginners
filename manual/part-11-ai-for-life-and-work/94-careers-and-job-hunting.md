@@ -1,18 +1,21 @@
 # 94 · Careers & Job Hunting with AI 💼🚀
 
-> ⏱️ 7 min read · 🎯 Job seekers, career changers, students, anyone ready for a next step · 🧰 Needs: an assistant (voice mode is great for interview practice), your résumé
+> ⏱️ 8 min read · 🎯 Job seekers, career changers, students, anyone ready for a next step · 🧰 Needs: an assistant (voice mode is great for interview practice), your résumé
 
 **Job hunting is stressful, repetitive and full of guesswork, which makes it perfect territory for an AI sidekick.** AI can
 help you figure out what you actually want, tailor every application honestly, practice interviews out loud until you're
 confident, negotiate better offers, and make a great start in your new role. This chapter is your complete career toolkit,
 plus the honesty rules that keep you trusted. You've got this! 💪
 
-<details class="eli5" open>
-<summary>🧸 ELI5: This chapter in 30 seconds</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Finding a job is like a big quest. AI can be your quest guide: it helps you figure out which jobs would make you happy,
-makes your résumé shine for each job (without fibbing!), pretends to be the interviewer so you can practice, and helps you
-ask for a fair salary. You still do the talking and the deciding, but you'll feel way more ready. 🗺️✨
+AI can support every stage of a job search: clarifying what you want, tailoring your résumé for each application, practicing interviews and preparing for salary negotiation. You still do the talking and the deciding, but you'll be much better prepared.
+
+1. **Clarify your goals** with AI as a career coach.
+2. **Build a master résumé,** then tailor it honestly for each role.
+3. **Practice interviews** aloud in voice mode.
+4. **Research and rehearse** your salary negotiation.
 
 </details>
 
@@ -20,11 +23,10 @@ ask for a fair salary. You still do the talking and the deciding, but you'll fee
 
 ## 🧭 Figure out what you want
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Before hunting, figure out what makes you happy at work: what you're good at, what you enjoy, and what matters to you. AI can
-ask you great questions to help.
+Before searching, get clear on what you want: your strengths, what energizes you and what matters most. AI can interview you like a career coach and suggest roles that fit. The table offers prompts for each goal.
 
 </details>
 
@@ -43,11 +45,13 @@ ask you great questions to help.
 
 ## 📄 Résumés that get read
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-A résumé is a one-page story of what you've done. AI helps make it clear, tailored to each job, and full of real results, but
-never with made-up stuff.
+Build your résumé in two stages.
+
+1. Create a master résumé listing everything you've done, with measurable results; ask AI to interview you to uncover accomplishments.
+2. For each application, have AI tailor a version to the job description, using only true information.
 
 </details>
 
@@ -78,11 +82,10 @@ include the job's key skills *if you truly have them*.
 
 ## ✉️ Cover letters & outreach
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-A cover letter says "here's why I'd be great for this job and why I want it." AI helps you write it, but your real reasons
-make it special.
+A strong cover letter explains why you fit the role and why you want it. AI can help structure it and tighten the wording, but your specific stories and genuine reasons are what make it persuasive.
 
 </details>
 
@@ -95,10 +98,10 @@ make it special.
 
 ## 🔎 Smarter job searching
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Instead of scrolling job sites for hours, let AI help find good matches, track your applications, and remind you to follow up.
+AI can streamline the search itself: finding relevant roles, setting custom alerts, tracking applications and reminding you to follow up. The table describes the approach for each task.
 
 </details>
 
@@ -114,11 +117,14 @@ Instead of scrolling job sites for hours, let AI help find good matches, track y
 
 ## 🎤 Interview practice (the superpower)
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Practice interviews out loud with AI pretending to be the interviewer. It asks tough questions, listens, and gives you tips,
-as many times as you want, with zero embarrassment.
+Practice interviews aloud with AI playing the interviewer.
+
+1. Start voice mode and paste the interviewer prompt below with the job description.
+2. Answer each question out loud.
+3. Ask for feedback on your answers and practice again until you're confident.
 
 </details>
 
@@ -145,10 +151,14 @@ Be realistic but kind. After 8 questions, give me an overall score and my top 3 
 
 ## 💰 Negotiating offers
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-When you get a job offer, it's normal and OK to ask for more. AI helps you find out what's fair and practice what to say.
+Negotiating an offer is normal and expected.
+
+1. Research the salary range for your role, level and location.
+2. Identify your value and your minimum acceptable offer.
+3. Practice the conversation with AI playing the hiring manager.
 
 </details>
 
@@ -160,10 +170,10 @@ When you get a job offer, it's normal and OK to ask for more. AI helps you find 
 
 ## 🏁 Your first 90 days
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Once you get the job, AI helps you learn fast, plan your first months, and remember who everyone is and what they need.
+Once you're hired, AI can help you draft a 30-60-90 day plan, learn the domain quickly and keep organized notes on colleagues and priorities.
 
 </details>
 
@@ -174,10 +184,10 @@ Once you get the job, AI helps you learn fast, plan your first months, and remem
 
 ## 🤖 Your AI skills are a career asset
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Knowing how to use AI well is now a skill employers want. Show what you've built with it!
+AI skills are increasingly valued by employers. Show what you've built, such as automations, agents and tools, in a portfolio, on your résumé and in interviews.
 
 </details>
 
@@ -190,10 +200,10 @@ Everything in this manual is **employable**: automations, agents, RAG bots, MCP 
 
 ## ⚖️ Honesty rules
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Use AI to prepare, but be yourself in the actual interview, and never lie about what you've done.
+Use AI to prepare, practice and polish, but never to invent experience, qualifications or skills. Review every line before sending, and answer interviews in your own words. The table lists more do's and don'ts.
 
 </details>
 

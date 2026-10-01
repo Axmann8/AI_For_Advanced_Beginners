@@ -7,12 +7,15 @@
 the AI about yourself so answers fit *your* life, and a plain-English guide to free vs. paid plans so you never pay for
 something you don't need.
 
-<details class="eli5" open>
-<summary>🧸 ELI5: This chapter in 30 seconds</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Setting up your AI is like moving into a new room: put the lock on the door (a safe password), put your name on it
-(tell the AI a little about you), and decide what gets kept and what gets thrown away (privacy settings). Then you can
-decide later whether you want the bigger room (a paid plan).
+A few minutes of setup makes your assistant more secure, more personal and more private. This chapter walks through each step.
+
+1. **Install the official app** on your phone and/or computer.
+2. **Secure your account** with a strong password or sign-in provider, plus two-step verification.
+3. **Personalize it** by adding a short description of yourself and your preferences.
+4. **Review privacy settings** for memory and training, then decide whether a paid plan is worth it.
 
 </details>
 
@@ -20,11 +23,10 @@ decide later whether you want the bigger room (a paid plan).
 
 ## 📱 Phone, computer or browser?
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-You can use AI on your phone, in a program on your computer, or on a website. They all share the same chats, so use
-whichever is handy.
+Your account works on the phone app, the desktop app and the website, and your chats sync between them. Most people use the phone for voice and photos, and a computer for longer work.
 
 </details>
 
@@ -45,11 +47,14 @@ Your account works everywhere, and your chats sync between devices. Most people 
 
 ## 🔑 Lock the door: account security
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Your AI account may hold lots of your personal chats, so protect it like your email: a strong password and a second
-"are you really you?" check.
+Your chat history can contain a lot of personal information, so protect the account like you would your email.
+
+1. Sign in with Google, Apple or Microsoft, or use a strong, unique password (or a passkey if offered).
+2. Turn on two-step verification in the account's security settings.
+3. Sign out on any shared or public device when you're done.
 
 </details>
 
@@ -67,11 +72,14 @@ Your chat history can contain a surprising amount about your life, so protect th
 
 ## ⚙️ Five settings to check on day one
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Before you start chatting a lot, peek at five switches: what the AI knows about you, what it remembers, whether your
-chats help train it, how it looks, and how it sounds.
+Five settings shape how your assistant behaves and what it keeps. Review each one before you start using it heavily.
+
+1. Open **Settings** (usually through your profile picture or name).
+2. Go through the five settings in the table below.
+3. Make a choice for each one; you can change any of them later.
 
 </details>
 
@@ -122,11 +130,14 @@ Where to find them in the popular apps (menus shift occasionally, so look for th
 
 ## 👤 Tell it about you (it makes a huge difference)
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-If the AI knows a few things about you, like where you live and what you like, its answers fit you much better, the way
-a friend who knows you gives better advice than a stranger.
+Custom instructions (sometimes called "about you" or personalization) are included automatically in every conversation, so the assistant can tailor its answers to you.
+
+1. Open the personalization or custom instructions setting.
+2. Copy the template below and fill in details you're comfortable sharing.
+3. Leave out sensitive information such as exact addresses or ID numbers.
 
 </details>
 
@@ -158,11 +169,10 @@ change it any time, and a good test is to ask afterwards: *"What do you know abo
 
 ## 💳 Free vs. paid plans, in plain English
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-The free version is like a library card: great and free, but with limits. Paying is like a membership: more books, the
-newest ones, and some extra rooms. Start free.
+Every assistant offers a free tier and one or more paid tiers. Paid plans add higher limits, the strongest models and premium features. Start with the free version and upgrade only if you consistently hit its limits.
 
 </details>
 
@@ -193,11 +203,14 @@ For exact current prices, check the company's pricing page. They change, and the
 
 ## 🧾 Paying smart: subscriptions without surprises
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-If you do pay, set a reminder before any free trial ends, and know where to cancel. That way you never pay for
-something you forgot about.
+If you subscribe, a few habits prevent unexpected charges.
+
+1. Note where you subscribed (app store or website); that's where you'll cancel.
+2. Set a calendar reminder two days before any free trial ends.
+3. Check your bank statement after the first billing cycle.
 
 </details>
 
@@ -211,11 +224,10 @@ something you forgot about.
 
 ## 👨‍👩‍👧 Families, kids and shared devices
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Everyone should have their own account so their chats and memories stay separate, and kids should use AI with a
-grown-up's guidance.
+Each person should have their own account so memory and chat history stay separate. Most assistants have minimum age requirements, and several offer teen accounts and parental controls; children should use AI with adult guidance.
 
 </details>
 
@@ -229,10 +241,10 @@ The full guide for parents is in [Parents, Teachers & Students](../part-11-ai-fo
 
 ## ✅ Your setup checklist
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Tick these off and you're all set up, safe and ready.
+Use this checklist to confirm your setup is complete: app installed, account secured, personalization added, and memory, training and subscription choices made deliberately.
 
 </details>
 

@@ -1,18 +1,21 @@
 # 59 · Chat Apps & Bots: Slack, Discord, Telegram & WhatsApp 💬🤖
 
-> ⏱️ 6 min read · 🎯 Beginner → intermediate · 🧰 Needs: a Slack workspace, Discord server or Telegram account (+ n8n or a little Python)
+> ⏱️ 7 min read · 🎯 Beginner → intermediate · 🧰 Needs: a Slack workspace, Discord server or Telegram account (+ n8n or a little Python)
 
 **Chat apps are where people already hang out, which makes them the perfect home for AI.** Build a bot that answers team
 questions from your docs, a Discord game master for your friends, a Telegram assistant in your pocket, or a Slack helper
 that summarizes channels. This chapter covers built-in AI in chat apps, then shows three ways to build your own bot, from
 no-code to code.
 
-<details class="eli5" open>
-<summary>🧸 ELI5: This chapter in 30 seconds</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-A chat bot is a robot friend that lives in your group chat. You message it like a person ("what's the wifi password?" or
-"summarize today's chat"), and it answers using AI. You can build one without coding using n8n, or with a little Python if
-you're feeling adventurous.
+A chat bot is an AI assistant that lives in Slack, Discord, Telegram or WhatsApp, where people can message it like a colleague. You can build one without code using n8n, or with a short Python program.
+
+- **Check built-in AI first:** Slack, Teams and others already summarize conversations and answer questions.
+- **Three ways to build:** no-code platforms, code, or a coding agent that writes the code for you.
+- **Three builds:** a Telegram assistant, a Slack documentation helper and a Discord game-master bot.
+- **Keep it safe:** restrict access, protect tokens and be transparent about the bot.
 
 </details>
 
@@ -20,11 +23,10 @@ you're feeling adventurous.
 
 ## 🧭 Built-in AI in chat apps
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Some chat apps already have AI helpers inside that can summarize conversations and answer questions. Try those before
-building anything.
+Several chat apps already include AI that summarizes channels and threads, searches conversations and answers questions. Try these before building your own bot. The table compares them.
 
 </details>
 
@@ -38,11 +40,10 @@ building anything.
 
 ## 🏗️ Three ways to build your own bot
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-You can build a bot by connecting blocks (no code), by writing a small program, or by letting an AI coding helper write the
-program for you. Pick whatever feels comfy.
+You can build a bot with a no-code platform like n8n, by writing a small program, or by having a coding agent write it for you. The table compares the approaches and what each suits best.
 
 </details>
 
@@ -54,11 +55,15 @@ program for you. Pick whatever feels comfy.
 
 ## 🟢 Build: a Telegram assistant with n8n (no code)
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-We'll make a robot you can text on Telegram. It uses AI to answer, remembers the conversation, and only talks to you, not
-strangers.
+This no-code build creates a private Telegram assistant.
+
+1. Message @BotFather on Telegram, send `/newbot`, and copy the token.
+2. In n8n, add a **Telegram Trigger** using that token.
+3. Add an **AI Agent** node with a model and memory keyed to the chat ID.
+4. Restrict replies to your own user ID, then send the response back through Telegram.
 
 </details>
 
@@ -74,11 +79,14 @@ and see the full build in [Build-Along: Your Pocket AI Assistant](../part-13-bui
 
 ## 💼 Build: a Slack "ask our docs" helper
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-A Slack bot that answers teammates' questions using your team's documents, like "how do I request time off?", and tells
-them which document the answer came from.
+This Slack bot answers teammates' questions from your team's documents and links to the source.
+
+1. Load your documents into a vector store.
+2. Trigger a workflow when someone mentions the bot.
+3. Retrieve relevant passages, have AI answer from them, and reply in the thread with source links.
 
 </details>
 
@@ -96,11 +104,10 @@ them which document the answer came from.
 
 ## 🎲 Build: a Discord game-master bot (with code)
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-A Discord robot that runs a fantasy adventure game for your friends: it describes the scene, rolls dice, and reacts to what
-everyone does.
+This Python example uses `discord.py` and the Claude API to run a tabletop adventure game in a Discord channel. A coding agent can extend it with dice commands and saved campaign memory.
 
 </details>
 
@@ -138,10 +145,10 @@ Then type `!gm We enter the misty tavern.` and let the adventure begin. 🐉 Mor
 
 ## 🧠 Designing a bot people love
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Good bots have a clear job, a friendly personality, short answers, and they admit when they don't know something.
+Successful bots have one clear job, a consistent personality, concise answers and honesty about what they don't know. The table explains each principle in practice.
 
 </details>
 
@@ -157,11 +164,10 @@ Good bots have a clear job, a friendly personality, short answers, and they admi
 
 ## 🔐 Safety, privacy & etiquette
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Keep your bot's secret token secret, only let it into rooms where people know it's there, and don't let strangers use your
-expensive AI for free.
+Restrict who can use your bot to avoid unexpected API costs, store tokens and keys securely, tell people when a bot is present in a conversation, and follow each platform's rules.
 
 </details>
 
@@ -175,10 +181,10 @@ expensive AI for free.
 
 ## 💡 20 bot ideas
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Twenty robot friends you could build for your chats: for work, for friends, for family and for fun.
+The table lists twenty bot ideas for work, friends and family, and fun.
 
 </details>
 

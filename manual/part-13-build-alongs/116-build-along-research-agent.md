@@ -8,12 +8,15 @@ tools (web search and fetch) mix with your own tool (`save_report`), handle long
 add features, test it offline, and schedule weekly reports. It's the agent loop from [Build Your Own Agent](../part-7-building-with-ai/68-build-your-own-agent.md),
 doing real work. 🧑‍🔬
 
-<details class="eli5" open>
-<summary>🧸 ELI5: This build in 30 seconds</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-We're building a robot researcher. You ask a big question like "do heat pumps work in snowy places?" and it goes off to read
-lots of web pages, checks that different sources agree, and writes you a neat report with a list of where every fact came
-from. You can even have it send you a fresh report every Monday. 📚🤖
+In this project you'll run and extend a Python research agent. Given a question, it searches the web, reads sources, compares what they say and writes a structured report with citations. You can schedule it to deliver an updated report every week.
+
+1. **Run the offline tests,** then generate your first real report.
+2. **Read the code** to understand the agent loop.
+3. **Tune the research method** through the system prompt, and add a feature.
+4. **Schedule weekly reports,** with spending limits in place.
 
 </details>
 
@@ -28,10 +31,10 @@ from. You can even have it send you a fresh report every Monday. 📚🤖
 
 ## 🗺️ What you'll build
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Your question goes to Claude, which searches and reads the web on its own, then calls your little "save the report" helper.
+Your question goes to Claude, which uses built-in web search and fetch tools on its own, then calls your local tool to save the finished report. The diagram shows the sequence.
 
 </details>
 
@@ -61,10 +64,10 @@ sequenceDiagram
 
 ## ✅ Before you start
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Get Python ready, install one package, and set a spending limit on your AI key.
+Before starting, install Python 3.10 or later and the kit's requirements, and set a spending limit on your Anthropic API key.
 
 </details>
 
@@ -74,10 +77,10 @@ Get Python ready, install one package, and set a spending limit on your AI key.
 
 ## 1️⃣ Step 1: Run the offline tests (5 min)
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-First, check the robot's parts work using pretend answers, so it costs nothing and needs no internet.
+Run the tests first. They use a fake client that replays scripted responses, so you can confirm the agent loop works without any cost or internet connection.
 
 </details>
 
@@ -92,10 +95,14 @@ search cap and the report saving without spending a cent.
 
 ## 2️⃣ Step 2: Your first real report (15 min)
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Now ask a real question and watch the robot search and write.
+Generate your first real report.
+
+1. Run the agent with a research question.
+2. Watch the log as it searches, reads and saves.
+3. Open the report in `reports/` and read it critically, checking a few citations.
 
 </details>
 
@@ -116,10 +123,10 @@ Watch the log: 💭 thoughts, 🔎 searches and fetches, then 💾 the saved rep
 
 ## 3️⃣ Step 3: Understand the loop (20 min)
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Open the code and see the robot's heartbeat: ask Claude, do what it asks, send back the results, repeat until done.
+Open `research_agent.py` and find three key ideas: the difference between server tools (web search and fetch, run by Anthropic) and client tools (saving reports, run by your code); the agent loop; and how paused turns are resumed.
 
 </details>
 
@@ -146,10 +153,10 @@ write outside `reports/`.
 
 ## 4️⃣ Step 4: Tune the research process (30 min)
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Change the robot's instructions to make better reports: more trustworthy sources, a special format, or a certain reading level.
+The system prompt defines the research method. Change one thing at a time, such as source quality requirements, report format or reading level, re-run the same question and compare the results.
 
 </details>
 
@@ -168,11 +175,10 @@ You can also restrict where it searches with `allowed_domains` on the web search
 
 ## 5️⃣ Step 5: Add a feature (45 min)
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Teach the robot a new trick, like emailing you the report or checking your own notes first. An AI coding helper can do most of
-the work.
+Add a feature with Claude Code's help, such as emailing the report, checking your own notes first or exporting to PDF. Ask it to extend the tests as well. The table provides a prompt for each idea.
 
 </details>
 
@@ -190,10 +196,10 @@ Pick one and pair with Claude Code (remind it to extend the tests!):
 
 ## 6️⃣ Step 6: Schedule a weekly report (20 min)
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Make the robot run by itself every Monday and send you what's new in a topic you care about.
+Schedule the agent to run weekly with cron on your computer or server, or with a GitHub Actions schedule, so a fresh report on your topic arrives automatically.
 
 </details>
 
@@ -216,11 +222,10 @@ Pair it with the email feature and you have a personal research newsletter
 
 ## 💸 Costs & responsibility
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Research robots read a lot, which costs money, so start with quick mode and set a spending limit. And always check important
-facts yourself.
+Research agents read a lot of content, which consumes tokens. Start with quick mode, set a spending limit and verify important facts yourself before relying on them.
 
 </details>
 
@@ -234,10 +239,10 @@ facts yourself.
 
 ## 🩺 Troubleshooting
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-If the robot gets stuck or makes mistakes, here's what to try.
+The table lists common problems, such as a rejected tool type or a stalled loop, with a fix for each.
 
 </details>
 

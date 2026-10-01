@@ -7,13 +7,14 @@ Local models now power autocomplete, chat, and even agent tools like Cline, Aide
 Anthropic-compatible API). This chapter shows you the setups, which models work best, how to size context, and, just as
 importantly, where local agents still struggle so you can mix local and cloud wisely. 🧠⚖️
 
-<details class="eli5" open>
-<summary>🧸 ELI5: This chapter in 30 seconds</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Coding helpers usually send your code to a big AI far away. With **local AI**, the helper lives on your own computer: your
-code never leaves the house. It's great for secret projects, working on a plane, or just not paying per question. The home
-helper isn't quite as clever as the biggest online ones for giant jobs, so smart builders use the home helper for everyday
-stuff and call the big one for the really hard puzzles.
+Local models can power coding assistants and agents so your code and data never leave your computer. This is valuable for confidential projects, offline work and avoiding per-request costs. Local models are less capable than the strongest cloud models on large, complex tasks, so many developers combine the two.
+
+- **Local excels** at autocomplete, quick questions and small, well-defined tasks.
+- **Three setups:** editor autocomplete and chat, local coding agents, and Claude Code with local models.
+- **Get better results** with smaller tasks, clear instructions and tests.
 
 </details>
 
@@ -21,10 +22,10 @@ stuff and call the big one for the really hard puzzles.
 
 ## ⚖️ Local vs. cloud for coding: the honest picture
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Home AI is great for small, private coding jobs. For big, tricky, many-step jobs, the best online AIs still do better.
+Local models handle autocomplete, code explanations and small edits well. For large, multi-step tasks, frontier cloud models are still noticeably stronger. The table compares them task by task.
 
 </details>
 
@@ -44,11 +45,10 @@ Home AI is great for small, private coding jobs. For big, tricky, many-step jobs
 
 ## 🧠 Choosing coding models
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Some AI brains are specially trained for code. Pick the biggest one your computer can hold, because coding agents need
-brainpower and a big memory.
+Choose a model trained for code, and pick the largest one that fits your memory, because coding agents need both capability and a long context. The table suggests models by available memory.
 
 </details>
 
@@ -70,10 +70,14 @@ brainpower and a big memory.
 
 ## 🧩 Setup 1: autocomplete + chat in your editor
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Plug your home AI into your code editor so it finishes your lines and answers questions, just like the online helpers.
+Extensions like Continue add local autocomplete and chat to VS Code and JetBrains.
+
+1. Install the extension in your editor.
+2. Add Ollama or LM Studio as the provider.
+3. Choose a small, fast model for autocomplete and a larger one for chat.
 
 </details>
 
@@ -89,10 +93,10 @@ for **chat**.
 
 ## 🤖 Setup 2: local coding agents
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Some coding helpers can do whole jobs by themselves. Many of them can use your home AI brain instead of an online one.
+Several coding agents, including Cline, Roo Code, Aider, OpenCode and Goose, can use local models. Point them at Ollama or LM Studio as the provider. The table shows how to connect each.
 
 </details>
 
@@ -106,11 +110,14 @@ Some coding helpers can do whole jobs by themselves. Many of them can use your h
 
 ## 🦙 Setup 3: Claude Code on local models
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Claude Code is a great coding helper. Ollama can pretend to be Claude's online service, so Claude Code's tools and workflow run
-with a home AI brain instead.
+Ollama (version 0.14 and later) supports Anthropic's Messages API, so Claude Code's full workflow, including file editing, commands, skills and hooks, can run on a local model.
+
+1. Install or update Ollama and download a capable coding model.
+2. Set the environment variables shown below to point Claude Code at Ollama.
+3. Launch Claude Code with the local model name.
 
 </details>
 
@@ -139,10 +146,10 @@ Ollama also offers `:cloud` models through the same setup if you want a bigger o
 
 ## 🧪 Making local agents work better
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Home AI brains are a bit less clever, so give them smaller jobs, clearer instructions, and tests to check their work.
+Local models benefit from tighter direction: break work into smaller, well-defined tasks, provide a thorough `AGENTS.md`, include tests the agent can run, and keep the context focused. The table explains why each tip helps.
 
 </details>
 
@@ -159,11 +166,10 @@ Home AI brains are a bit less clever, so give them smaller jobs, clearer instruc
 
 ## 🛠️ Local agents beyond coding
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Home AI helpers can also do non-coding jobs: sorting files, reading documents, running automations, all without your data
-leaving the house.
+Local agents can also handle non-coding work on private data, such as organizing files, processing documents and running automations. The table suggests setups for each.
 
 </details>
 

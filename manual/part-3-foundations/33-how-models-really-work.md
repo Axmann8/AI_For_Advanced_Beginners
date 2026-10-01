@@ -1,18 +1,20 @@
 # 33 · How Models Really Work (for Power Users) ⚙️🧠
 
-> ⏱️ 10 min read · 🎯 Beginner-friendly, no math · 🧰 Needs: nothing
+> ⏱️ 11 min read · 🎯 Beginner-friendly, no math · 🧰 Needs: nothing
 
 **You don't need a PhD to use AI brilliantly, but a dozen under-the-hood ideas explain almost every weird thing AI does:**
 why it forgets, why it's confidently wrong, why one model costs 20× another, why "thinking" models are slower, and why the
 same model feels different in different apps. Learn these and you'll debug AI like a pro.
 
-<details class="eli5" open>
-<summary>🧸 ELI5: This chapter in 30 seconds</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-An AI model is a giant guessing machine that read a huge library and learned to guess **the next word** really, really
-well. It reads and writes in little word-pieces called **tokens**, it can only "hold" a certain amount in its head at once
-(the **context window**), and it only knows what was in the library when it stopped reading (the **cutoff**). When it
-doesn't know something, it may *guess confidently*, which is why giving it real sources and tools matters so much.
+This chapter explains the concepts behind how AI models behave, without math. Understanding them helps you predict what a model will do well, why it makes mistakes, and how to fix problems.
+
+- **Training** happens in stages: broad pre-training, then instruction tuning and reinforcement learning.
+- **Tokens and context windows** set how much a model can read and write at once.
+- **Next-token prediction** explains both the fluency and the hallucinations.
+- **Practical levers:** reasoning modes, system prompts, tool calling, multimodal input and model tiers.
 
 </details>
 
@@ -20,11 +22,10 @@ doesn't know something, it may *guess confidently*, which is why giving it real 
 
 ## 🏫 How a model is made (three schools)
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-First the model reads almost everything (like a kid reading a whole library). Then it goes to "manners school" to learn to
-be a helpful assistant. Then it practices with a coach who rewards good answers and good reasoning.
+Models are built in three main stages. **Pre-training** on huge amounts of text builds knowledge and language skills. **Instruction tuning** teaches the model to act as a helpful assistant. **Reinforcement learning** rewards good answers and good reasoning. The table explains what each stage contributes.
 
 </details>
 
@@ -39,11 +40,10 @@ code pass the tests? is the math right?) and learned to reason step by step and 
 
 ## 🔤 Tokens: the atoms of AI
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-The AI doesn't read letters or whole words. It reads LEGO-brick-sized pieces of words called tokens. "Unbelievable" might
-be three bricks: "un", "believ", "able".
+Models read and write in tokens, chunks of text averaging about three-quarters of an English word. Tokens determine how much fits in the context window and how API usage is billed.
 
 </details>
 
@@ -66,11 +66,10 @@ Models read and write **tokens**, chunks averaging about ¾ of an English word.
 
 ## 🪟 The context window: the model's working memory
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-The context window is the AI's desk. Everything it's working on right now has to fit on the desk: your messages, the
-files, the instructions. When the desk overflows, older papers fall off or get squished into summaries.
+The context window is everything the model can consider at once: instructions, tool descriptions, the conversation, attached files, tool results and its own reply. When a conversation exceeds it, earlier content is dropped or summarized, which is why long chats can lose details.
 
 </details>
 
@@ -97,11 +96,10 @@ flowchart LR
 
 ## 🎲 Next-token prediction (and why hallucinations happen)
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-The AI is always playing "guess the next word." Most of the time its guesses are right because it read so much. But if
-you ask about something it never read, it still guesses, and a confident guess can be totally wrong. That's a hallucination.
+A model generates text by repeatedly predicting the most plausible next token. Usually plausible matches correct, but when the model lacks the information it still produces plausible-sounding text, which is a hallucination. Supplying sources and tools reduces this.
 
 </details>
 
@@ -124,11 +122,10 @@ up* instead of guessing, and asking for citations lets *you* check. That's why P
 
 ## 📅 Training cutoff vs. live knowledge
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-The AI read its library up to a certain day and then stopped. Anything that happened after that, it doesn't know, unless
-you let it read the news (search) or hand it the new pages yourself.
+Every model has a knowledge cutoff. For anything more recent, it needs a web search tool, information you paste or attach, or a connector to a live data source.
 
 </details>
 
@@ -142,11 +139,10 @@ Every model has a **knowledge cutoff**. After that date it simply doesn't know t
 
 ## 🤔 Reasoning ("thinking") models
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Some AIs can "think before they talk," like when you work out a math problem on scrap paper before saying the answer.
-It takes a bit longer but gets hard problems right much more often.
+Reasoning models work through a problem before answering, exploring approaches and checking their work. This takes longer but substantially improves results on math, logic, planning and coding. The table compares quick and thinking modes.
 
 </details>
 
@@ -164,11 +160,10 @@ max). Crank it up for hard, high-stakes problems, and turn it down for high-volu
 
 ## 🌡️ Randomness & variation
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Ask the AI the same question twice and it might answer a little differently, like a person telling the same story two
-ways. That's normal, and it's also a clue: if the answers disagree a lot, it's probably unsure.
+Models sample from likely next tokens, so the same prompt can produce different outputs. Some APIs offer a temperature setting to control variation. If several answers to the same question disagree significantly, treat that as a sign the model is uncertain.
 
 </details>
 
@@ -180,11 +175,10 @@ uncertainty signal. For automations that need consistency, ask for **structured 
 
 ## 🎭 System prompts, roles & the "harness"
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-The app you use whispers secret instructions to the AI before you even say hi: "be friendly, use these tools, format like
-this." That's why the same brain feels different in different apps.
+Apps add instructions you don't see: a system prompt (personality, rules, formatting), tool definitions and other context. This surrounding "harness" is why the same model can behave quite differently in different apps.
 
 </details>
 
@@ -201,11 +195,10 @@ write project instructions or a `CLAUDE.md`, you're adding to it.
 
 ## 🔧 Tool calling: how AI "does" things
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-The AI can't press buttons itself. It writes a note saying "please press the calendar button with these details," and the
-app presses it and tells the AI what happened.
+A model can't take actions directly. When it wants to use a tool, it outputs a structured request with the tool name and inputs; the app runs the tool and returns the result to the model, which then continues.
 
 </details>
 
@@ -221,11 +214,10 @@ That makes the app responsible for permissions and safety, which is why "ask bef
 
 ## 👁️ Multimodality: seeing and hearing
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Modern AI doesn't just read words. It can look at pictures, screenshots and charts, and some can listen to audio and watch
-videos. You can show it a photo and ask "what's this?"
+Modern models accept images, PDFs, screenshots, audio and sometimes video as input, while separate models generate images, audio and video. This is especially useful for debugging from screenshots and reading charts or documents.
 
 </details>
 
@@ -239,11 +231,10 @@ Modern models natively take **images, PDFs, screenshots, audio, and sometimes vi
 
 ## 🏷️ Model families & tiers: which brain for which job
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-AI companies make big, medium and small brains. Big brains are smartest but slowest and priciest. Small brains are fast
-and cheap, which is perfect for simple jobs done thousands of times.
+Each AI company offers a family of models in tiers: large flagship models for the hardest tasks, mid-size models for everyday work, and small, fast models for simple tasks at high volume. The table shows examples and when to use each tier.
 
 </details>
 
@@ -265,11 +256,10 @@ Every big lab ships a **family** with tiers. Names change often, but the *shape*
 
 ## 🧯 Debugging AI with these ideas
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-When the AI acts weird, check this list: it's usually forgetting (desk too full), guessing (no source), randomness, or
-too many instructions at once.
+When a model behaves unexpectedly, the cause is usually one of a few things: overflowing context, missing sources, randomness or conflicting instructions. The table pairs each symptom with its likely cause and a fix.
 
 </details>
 

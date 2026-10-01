@@ -6,13 +6,15 @@
 *lot* of names. This chapter is your field guide: who makes what, how the pieces stack together, what "open-weight" means,
 and how to decode model names, so you can read AI news without feeling lost.
 
-<details class="eli5" open>
-<summary>🧸 ELI5: This chapter in 30 seconds</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Think of AI like the food world. A few big **farms** grow the ingredients (the labs that make models: Anthropic, OpenAI,
-Google…). **Supermarkets** sell those ingredients to everyone (the cloud platforms). **Restaurants** cook them into dishes
-you actually eat (apps like Cursor, Perplexity or Notion). Some farms give their seeds away for free so anyone can grow
-their own (**open-weight** models). This chapter shows you who's who in each group.
+The AI industry has distinct layers: labs that build models, cloud platforms that host them, and companies that build apps on top. Some labs release open-weight models anyone can download and run. This chapter maps who's who in each layer.
+
+- **Frontier labs** such as Anthropic, OpenAI, Google DeepMind, xAI and Meta build the most capable models.
+- **Big platforms** like Microsoft, Apple, Amazon and Google build AI into products billions of people use.
+- **Open vs. closed:** closed models are used through a company's service; open-weight models can be run and modified by anyone.
+- **Staying informed:** use leaderboards as hints and your own tests as the final word.
 
 </details>
 
@@ -20,11 +22,10 @@ their own (**open-weight** models). This chapter shows you who's who in each gro
 
 ## 🧱 The stack in one picture
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-At the bottom are the computer chips. Then the giant data centers. Then the companies that train the AI brains. Then the
-apps built on top. And at the very top: you!
+The AI stack runs from chips at the bottom, through data centers and model-building labs, to the apps you use at the top. Most of what you interact with lives in the top layers, but the lower layers explain prices, speed and availability.
 
 </details>
 
@@ -45,10 +46,10 @@ model shows up in many apps.
 
 ## 🏛️ The frontier labs
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-These are the companies that build the biggest, smartest AI brains. Each has its own flavor, like different chefs.
+Frontier labs build the largest, most capable models. Each has its own strengths and flagship products, summarized in the table.
 
 </details>
 
@@ -74,10 +75,10 @@ Every one of these has a friendly, complete user guide in [Part II · The AI Ass
 
 ## 🏢 The big platforms
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Giant tech companies bake AI into the stuff billions of people already use: phones, email, office apps, search and shopping.
+Large technology companies build AI into products people already use every day, including operating systems, office software, search, email and shopping, and also host models for businesses.
 
 </details>
 
@@ -91,11 +92,10 @@ Giant tech companies bake AI into the stuff billions of people already use: phon
 
 ## 🔓 Open vs. closed models
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-A **closed** model is like a secret family recipe: you can order the dish at their restaurant, but you can't see the recipe.
-An **open-weight** model is a recipe given away for free: you can cook it at home, change it, and nobody sees what you eat.
+A **closed** model is available only through its maker's app or API. An **open-weight** model can be downloaded, run on your own hardware and modified. The table compares the trade-offs in cost, privacy, capability and control.
 
 </details>
 
@@ -111,11 +111,10 @@ data or full recipe. Licenses vary: some are very permissive, others restrict ce
 
 ## 📱 The app & tool layer
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Lots of clever companies don't make brains. They build great apps that *use* brains to do one job really well, like
-coding, searching, drawing or talking.
+Many companies don't build models but create apps that use them for a specific purpose, such as coding, search, writing, design or voice. The table lists popular tools by category and the chapter that covers each.
 
 </details>
 
@@ -132,11 +131,10 @@ coding, searching, drawing or talking.
 
 ## ☁️ Where models actually run
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-The AI brains live in huge buildings full of computers. Some companies rent out those computers, and some specialize in
-running AI super fast. You can reach many brains through one "universal remote" service.
+Models run on large cloud platforms (AWS, Google Cloud, Azure), on specialized inference providers optimized for speed and cost, and through routers like OpenRouter that offer many models through a single API.
 
 </details>
 
@@ -149,11 +147,10 @@ running AI super fast. You can reach many brains through one "universal remote" 
 
 ## 🏷️ How to decode model names
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Model names look like secret codes, but they follow patterns: a family name, a version number, and words that mean "big,"
-"small," "fast," or "for coding."
+Model names follow consistent patterns: a family name, a version number and a tier or specialty label (such as Opus, Flash or Coder). The table explains what the common terms usually mean.
 
 </details>
 
@@ -173,10 +170,10 @@ Model names look like secret codes, but they follow patterns: a family name, a v
 
 ## 📊 Keeping track without drowning
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-You don't need to follow every new AI. Check a couple of scoreboards now and then, and trust your own tests most.
+You don't need to follow every release. Check leaderboards like LMArena and Artificial Analysis occasionally, read the release notes for tools you actually use, and rely most on your own testing.
 
 </details>
 
@@ -188,11 +185,10 @@ You don't need to follow every new AI. Check a couple of scoreboards now and the
 
 ## 🔮 Trends worth watching
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-AI is getting better at doing long jobs on its own, cheaper every year, better at seeing and hearing, and easier to connect
-to everything.
+Key trends to watch include agents that work for hours, steadily falling costs, open-weight models closing the gap with closed ones, better multimodal abilities and growing integration through standards like MCP.
 
 </details>
 

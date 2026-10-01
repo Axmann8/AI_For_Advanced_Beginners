@@ -7,12 +7,15 @@ fridge and get dinner ideas. Snap a leaky pipe and learn what that part is calle
 This chapter covers cooking, DIY repairs (and when to call a pro), home maintenance, gardening, decorating, cleaning, moving,
 pets and the smart home. Let's make home life easier and more fun. 🌿🏡
 
-<details class="eli5" open>
-<summary>🧸 ELI5: This chapter in 30 seconds</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Take a photo of anything in your house and ask AI about it: "what can I cook with this?", "what is this broken thing?", "why
-are my plant's leaves yellow?" It explains, gives you step-by-step instructions, and warns you when a job is dangerous and you
-should call a grown-up expert, like an electrician. 📸🔧
+Photograph almost anything around the house and AI can help: suggest meals from what's in your fridge, identify a broken part and explain how to fix it, or diagnose a struggling plant. It will also tell you when a job is unsafe and needs a professional, such as an electrician or gas engineer.
+
+- **Cooking:** meal ideas from your ingredients, recipe adjustments and technique help.
+- **Repairs:** step-by-step guidance from a photo, with safety warnings.
+- **Home care:** maintenance schedules, gardening, decorating, moving and pets.
+- **Smart home:** AI-powered assistants and automations.
 
 </details>
 
@@ -20,11 +23,10 @@ should call a grown-up expert, like an electrician. 📸🔧
 
 ## 🍳 Cooking: your pocket chef
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Show AI what's in your fridge and it suggests dinners. It can also change recipes, swap ingredients, and teach you cooking
-tricks.
+AI can suggest meals from a photo of your fridge, scale and adapt recipes, find substitutions for missing ingredients and teach cooking techniques. The table offers a prompt for each situation.
 
 </details>
 
@@ -50,11 +52,10 @@ fill in missing steps (mark them as guesses)."* Then make a family cookbook ([Im
 
 ## 🔧 DIY & repairs
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Show AI a photo of something broken, and it tells you what the part is called, how to fix it step by step, and which tools you
-need, or tells you to call an expert if it's dangerous.
+For a repair, photograph the problem and ask AI to identify the part, the likely issue, the tools you need and the steps to fix it, including any safety concerns. For electrical, gas and structural work, call a qualified professional.
 
 </details>
 
@@ -79,10 +80,10 @@ need, or tells you to call an expert if it's dangerous.
 
 ## 🗓️ Home maintenance on autopilot
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Houses need regular care, like changing filters and testing alarms. AI makes a schedule, and robots remind you when it's time.
+Ask AI for a seasonal maintenance schedule based on your home's age, climate and systems, then add the tasks to your calendar or an automation that reminds you when each is due.
 
 </details>
 
@@ -100,10 +101,10 @@ Put it in your household command center with automatic reminders ([Life Admin](9
 
 ## 🌱 Gardening & plants
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Take a photo of a plant and AI tells you what it is, why it looks sick, and when to plant things in your garden.
+AI can identify plants from photos, diagnose problems like yellowing leaves, check whether plants are safe for pets and create a planting calendar for your area. The table offers prompts.
 
 </details>
 
@@ -120,11 +121,10 @@ Take a photo of a plant and AI tells you what it is, why it looks sick, and when
 
 ## 🛋️ Decorating & organizing
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Show AI a photo of your room and it can show you what it might look like painted a new color or with different furniture,
-and help you tidy up.
+Upload a photo of a room and AI can show how it might look with a different paint color or furniture. It can also create step-by-step plans for decluttering and organizing.
 
 </details>
 
@@ -138,10 +138,10 @@ and help you tidy up.
 
 ## 📦 Moving house
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Moving has a million little jobs. AI makes a checklist, a packing plan, and reminds you to tell everyone your new address.
+Ask AI for a detailed moving checklist covering the weeks before the move: packing, utilities, address changes and moving-day logistics.
 
 </details>
 
@@ -153,11 +153,10 @@ doctor, subscriptions, voter registration, deliveries).
 
 ## 🐾 Pets
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-AI can help you care for your pet: training tips, feeding schedules and understanding their behavior. For anything health-related,
-you still call the vet.
+AI can help with pet training plans, care routines and understanding behavior. For anything health-related, contact your veterinarian.
 
 </details>
 
@@ -169,11 +168,10 @@ you still call the vet.
 
 ## 🏡 The AI-powered smart home
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-A smart home has lights, thermostats and speakers you can control with your voice or phone. AI can make it smarter, like
-turning off lights when everyone leaves.
+AI makes smart homes more capable, from natural-language voice control to automations that respond to who's home. The table describes each level, from voice assistants to Home Assistant with MCP.
 
 </details>
 

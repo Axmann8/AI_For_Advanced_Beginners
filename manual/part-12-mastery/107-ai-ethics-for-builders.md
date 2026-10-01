@@ -8,12 +8,15 @@ into practical habits: honesty and disclosure, consent, fairness and bias testin
 environmental footprint, the rules taking shape around AI, and a one-page checklist you can run before you ship. Build boldly,
 and build kindly. 💛
 
-<details class="eli5" open>
-<summary>🧸 ELI5: This chapter in 30 seconds</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-When you build something with AI, it's like inviting people to play in a treehouse you made. You want it to be **safe** (no
-broken boards), **fair** (everyone can climb up), **honest** (no hidden tricks), and **kind** (it doesn't take things that
-aren't yours). This chapter is a checklist for building a treehouse everyone's happy to play in. 🌳🏠
+Anyone who builds with AI affects real people, even with a small project. This chapter covers the ethical practices that keep your work safe, fair, honest and respectful.
+
+- **Be honest** about AI involvement, and get consent before using anyone's likeness, voice, data or work.
+- **Test for bias,** and keep humans responsible for consequential decisions.
+- **Respect creators,** and minimize your environmental footprint.
+- **Run the ethics checklist** before you ship.
 
 </details>
 
@@ -21,10 +24,10 @@ aren't yours). This chapter is a checklist for building a treehouse everyone's h
 
 ## 🧭 Why builders need ethics (not just big companies)
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Even small projects affect real people. A little care at the start prevents big problems later.
+Individual builders can now ship tools that once required whole teams, such as customer-service bots, hiring tools and voice agents. A little care at the design stage prevents real harm later.
 
 </details>
 
@@ -43,10 +46,10 @@ Good ethics is also **good business**: trust is the hardest thing to rebuild onc
 
 ## 🗣️ Honesty & disclosure
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Be honest when AI made something or when someone's talking to a robot. People deserve to know.
+Tell people when they're interacting with AI or viewing AI-generated content, and offer a way to reach a person. The table describes honest practice for chatbots, content, voice agents and more.
 
 </details>
 
@@ -60,10 +63,10 @@ Be honest when AI made something or when someone's talking to a robot. People de
 
 ## ✋ Consent: faces, voices, data & work
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Always ask before using someone's face, voice, words or art. If they say no, that's the answer.
+Use real people's faces, voices, personal data or creative work only with explicit permission, and never to deceive or humiliate.
 
 </details>
 
@@ -76,11 +79,10 @@ Always ask before using someone's face, voice, words or art. If they say no, tha
 
 ## ⚖️ Fairness & bias
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-AI learned from the internet, which has unfair ideas in it. So AI can sometimes treat people unfairly. Test for it, and keep
-humans in charge of big decisions about people.
+AI models can reflect biases in their training data. This matters most when AI influences decisions about people, such as hiring, lending or access to services. Test outputs across different groups, and keep humans involved in consequential decisions.
 
 </details>
 
@@ -103,10 +105,10 @@ lending, housing, education, healthcare, policing.
 
 ## 👩‍⚖️ Human oversight & accountability
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-For important choices, a real person should always check the AI's work and be responsible for the final decision.
+For decisions involving money, health, legal matters, employment or safety, a person should review AI outputs and be accountable for the result. Log decisions and provide a way to appeal. The table describes each principle.
 
 </details>
 
@@ -120,11 +122,10 @@ For important choices, a real person should always check the AI's work and be re
 
 ## 🎨 Respecting creators
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Artists, writers and musicians work hard on their creations. Don't copy their work or style to compete with them, and give
-credit where it's due.
+Avoid imitating living artists' distinctive styles to compete with them, credit sources and collaborators, and use tools trained on licensed data where possible.
 
 </details>
 
@@ -137,10 +138,10 @@ credit where it's due.
 
 ## 🌱 Environmental footprint
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-AI computers use electricity and water. You can help by using smaller AIs for small jobs and not wasting runs.
+AI uses significant energy and water. The habits that save money also reduce environmental impact: use appropriately sized models, avoid unnecessary runs and cache repeated work.
 
 </details>
 
@@ -153,10 +154,10 @@ AI uses real energy and water, mostly in data centers. The same habits that save
 
 ## 📜 The rules taking shape
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Countries are making new laws about AI. Most say: be honest, be careful with risky uses, and protect people's information.
+AI regulation is developing worldwide. Common themes include risk-based rules (such as the EU AI Act), transparency requirements, data protection and specific rules for deepfakes and automated decisions. The table gives examples.
 
 </details>
 
@@ -174,10 +175,10 @@ AI regulation is evolving worldwide. Common themes:
 
 ## ✅ The builder's ethics checklist
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Before you share what you built, go through these questions. If any answer worries you, fix it first.
+Before shipping, work through this checklist: honesty, consent, fairness, human oversight, privacy, safety and respect for creators.
 
 </details>
 

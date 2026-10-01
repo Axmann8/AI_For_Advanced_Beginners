@@ -1,18 +1,20 @@
 # 47 · The n8n Masterclass 🟣⚙️
 
-> ⏱️ 7 min read · 🎯 Beginner → intermediate · 🧰 Needs: Node.js (for `npx n8n`) or Docker
+> ⏱️ 8 min read · 🎯 Beginner → intermediate · 🧰 Needs: Node.js (for `npx n8n`) or Docker
 
 **n8n is the playground where automation meets AI, and because you can self-host it for free, you can experiment without
 watching a meter.** This chapter takes you from install to confident builder: the mental model, expressions, the nodes you'll
 use daily, code nodes, credentials, error handling and running n8n reliably. The next chapter
 ([n8n AI Agents Deep Dive](48-n8n-ai-agents.md)) goes all-in on agents.
 
-<details class="eli5" open>
-<summary>🧸 ELI5: This chapter in 30 seconds</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-n8n is a big LEGO board for robot recipes. Each LEGO brick (a "node") does one thing: check email, ask Claude, post to
-Slack. You snap them together left to right, and information flows through them like water through pipes. You can run the
-whole board on your own computer for free.
+n8n is a visual workflow tool where each node performs one step, such as reading an email, calling an AI model or posting a message. Nodes connect from left to right, and data flows through them. You can self-host it for free.
+
+1. **Install n8n** with Docker, npx or the cloud service.
+2. **Learn the core concepts:** nodes, items and expressions.
+3. **Build your first AI workflow,** then add credentials, error handling and backups.
 
 </details>
 
@@ -20,11 +22,10 @@ whole board on your own computer for free.
 
 ## 🚀 Get n8n running (pick one)
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-You can try n8n with one command, run it in a container so it's always on, use their cloud version, or put it on a tiny
-rented server.
+n8n can run in several ways: a quick trial with npx, Docker for an always-on setup (recommended), n8n Cloud for no maintenance, or a small virtual server. The table compares the options.
 
 </details>
 
@@ -52,11 +53,10 @@ Open **http://localhost:5678** and create your owner account. 🎉
 
 ## 🧠 The n8n mental model
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Information travels through the bricks as a stack of cards (items). Most bricks do their job once for each card. That one
-idea explains most of n8n.
+Data moves through an n8n workflow as a list of **items**, and most nodes run once for each item. Understanding this explains most of n8n's behavior, including loops, merges and why a node runs multiple times.
 
 </details>
 
@@ -74,11 +74,10 @@ flowchart LR
 
 ## 🧮 Expressions: pulling data from anywhere
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Expressions are little magic phrases in double curly braces that grab information from earlier bricks, like "the subject of
-the email" or "today's date."
+Expressions, written in double curly braces, pull values from earlier nodes into any field, such as an email subject or today's date. The table shows the most useful expressions.
 
 </details>
 
@@ -95,10 +94,10 @@ the email" or "today's date."
 
 ## 🧰 The nodes you'll use every day
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Out of hundreds of bricks, about fifteen do most of the work. Learn these and you can build almost anything.
+About fifteen nodes handle most workflows, including Schedule, Webhook, HTTP Request, Edit Fields, IF, Switch, Code and the AI nodes. The table lists each with its purpose.
 
 </details>
 
@@ -122,11 +121,15 @@ Out of hundreds of bricks, about fifteen do most of the work. Learn these and yo
 
 ## 🤖 Your first AI workflow (15 minutes)
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-We'll build a robot that reads each new email, writes a two-sentence summary, decides if it's urgent, and pings you on your
-phone for the urgent ones.
+This workflow summarizes new emails and alerts you to urgent ones.
+
+1. Add a **Gmail Trigger** for new messages.
+2. Add an AI node that returns a summary and an urgency rating as JSON.
+3. Add an **IF** node that checks the urgency.
+4. Send urgent messages to your phone or Slack.
 
 </details>
 
@@ -148,11 +151,10 @@ Want it pre-built? Import the [example workflows](../../examples/n8n-workflows/)
 
 ## 🧑‍💻 Code nodes for superpowers
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-When no brick does exactly what you need, the Code brick lets you write a few lines of instructions. Your AI assistant can
-write them for you!
+Code nodes run JavaScript or Python for anything the built-in nodes can't do. If you're not comfortable writing code, ask an AI assistant to write the node for you, describing the input and the output you need.
 
 </details>
 
@@ -174,10 +176,10 @@ counts them."* It's great at this.
 
 ## 🔐 Credentials & secrets
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Passwords and keys go in n8n's locked drawer (credentials), never written inside your recipe steps where anyone could see them.
+Store API keys and passwords in n8n's **Credentials**, never typed directly into nodes. Use a separate key for each project so you can track and cap spending.
 
 </details>
 
@@ -188,10 +190,10 @@ Passwords and keys go in n8n's locked drawer (credentials), never written inside
 
 ## 🛡️ Error handling & reliability
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Robots sometimes trip. Tell them to try again a few times, and if they still fail, send you a message so you know.
+Plan for failures: set retries on nodes that call external services, create an error workflow that alerts you when something fails, and add fallbacks for important steps. The table explains each technique.
 
 </details>
 
@@ -207,11 +209,10 @@ Robots sometimes trip. Tell them to try again a few times, and if they still fai
 
 ## 🏗️ Running n8n like a pro
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Once you depend on your robots, keep their home safe: back it up, update it carefully, give it a real address with HTTPS,
-and save copies of your recipes in Git.
+When you start relying on n8n, run it like a production service: schedule backups (including the encryption key), update carefully after reading release notes, use HTTPS, and keep copies of your workflows in Git.
 
 </details>
 
@@ -225,10 +226,10 @@ and save copies of your recipes in Git.
 
 ## 🧱 10 n8n builds to try
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Here are ten robot recipes to practice with, from easy to adventurous.
+The table lists ten practice workflows, from beginner to advanced, several of which can be imported directly.
 
 </details>
 
