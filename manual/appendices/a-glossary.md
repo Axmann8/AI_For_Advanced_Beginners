@@ -90,6 +90,8 @@ This glossary defines more than 200 AI terms used in this manual. Each entry giv
 
 | Term | Meaning | In practice |
 |---|---|---|
+| **Database automation (Notion)** | A Notion rule that runs actions when a row is added or a property changes, or on a schedule; on paid plans it can send webhooks. | When Status becomes Won, send a webhook to n8n to start client onboarding. |
+| **Data source (Notion)** | A table of rows inside a Notion database, with its own property schema. Since API version 2025-09-03, a database can hold several data sources. | Querying `POST /v1/data_sources/{id}/query` to list a Tasks table's rows. |
 | **Deep research** | An assistant mode that runs a multi-step, multi-source investigation and writes a cited report. | Asking for a cited comparison of heat pumps for cold climates and getting a report minutes later. |
 | **Deepfake** | Realistic fake video, audio or images of real people made with AI. | A fake video of a celebrity endorsing an investment scheme. |
 | **DeepSeek (assistant)** | A Chinese AI lab and its free assistant, known for strong open-weight reasoning models. App data is stored in China. | Turning on DeepThink to watch it reason through a math problem step by step. |
@@ -107,6 +109,7 @@ This glossary defines more than 200 AI terms used in this manual. Each entry giv
 | **Embedding** | A list of numbers that represents the meaning of text (or images). Similar meanings get similar numbers. | Turning each note into a vector so "dentist appointment" finds a note about "teeth cleaning." |
 | **Endpointing** | Deciding when a speaker has finished their turn, in voice agents. | Why a good voice agent waits for you to finish a sentence instead of cutting in mid-pause. |
 | **Environment variable** | A named setting (like an API key) given to a program when it runs, instead of being written in the code. | `export OPENAI_API_KEY=...` in your shell, or a secret setting in Vercel. |
+| **Error workflow (n8n)** | A workflow starting with an Error Trigger that runs whenever another workflow that names it fails. | Every failed workflow adds a row to a Notion Automation Log with a link to the execution. |
 | **Eval (evaluation)** | A repeatable test set for measuring AI quality on your tasks. | Twenty real support questions with known good answers, rerun after every prompt change. |
 
 ## 🇫 F
@@ -156,6 +159,7 @@ This glossary defines more than 200 AI terms used in this manual. Each entry giv
 | Term | Meaning | In practice |
 |---|---|---|
 | **IDE** | Integrated development environment: a code editor with extras (VS Code, Cursor, JetBrains). | Writing code in Cursor or VS Code with AI suggestions alongside. |
+| **Idempotency** | Designing an operation so running it twice has the same effect as running it once. Essential for webhooks and retries. | A capture workflow that updates the existing row for an email instead of creating a second one. |
 | **Image-to-video** | Animating a still image with a video model. | Turning a product photo into a slow, rotating video clip for social media. |
 | **Inference** | Running a model to get output (as opposed to training it). | Every chat message you send triggers inference; API pricing is for inference, not training. |
 | **Inpainting / outpainting** | Editing part of an image, or extending it beyond its edges. | Removing a stranger from a photo's background, or extending a portrait into a landscape. |
@@ -209,6 +213,7 @@ This glossary defines more than 200 AI terms used in this manual. Each entry giv
 | **n8n** | An open-source, self-hostable visual automation platform with strong AI features. | A self-hosted workflow that emails you an AI summary of new RSS articles every morning. |
 | **Nano Banana** | The nickname for Google's Gemini image generation and editing models. | Asking Gemini to put you and a friend on a beach while keeping both faces recognizable. |
 | **Node (n8n / Make)** | One step in a visual workflow. | A "Gmail Trigger" node feeding an "AI Agent" node, then a "Slack" node. |
+| **Notion integration** | A connection that gives external software (like n8n) access to the Notion pages and databases you share with it, using a secret token or OAuth. | Creating an "n8n automations" integration and sharing your Tasks database with it. |
 | **NPU** | Neural processing unit: a chip in newer laptops and phones for efficient AI tasks. | The chip that runs on-device features like live captions and photo search on newer laptops and phones. |
 
 ## 🇴 O
@@ -310,6 +315,7 @@ This glossary defines more than 200 AI terms used in this manual. Each entry giv
 | Term | Meaning | In practice |
 |---|---|---|
 | **Unified memory** | A design (e.g. Apple Silicon) where CPU and GPU share one big memory pool, great for local AI. | A Mac with 64 GB of unified memory running models that would need several GPUs on a PC. |
+| **Upsert** | Update a record if it exists, otherwise create it, usually by matching on an ID. | Searching Notion for a GitHub issue number, then updating that row or creating a new one. |
 | **VAD** | Voice activity detection: noticing when someone starts and stops speaking. | How a voice agent knows you've started talking so it can stop and listen. |
 | **Vector** | A list of numbers, such as an embedding. | `[0.12, -0.48, 0.91, …]`, often with hundreds or thousands of numbers. |
 | **Vector database** | A database built to find embeddings that are "near" each other, i.e. similar in meaning. | Chroma, pgvector or Pinecone storing the embeddings for a document search bot. |

@@ -1,0 +1,209 @@
+{
+  "name": "📥 Capture → AI triage → Notion Inbox",
+  "nodes": [
+    {
+      "parameters": {
+        "httpMethod": "POST",
+        "path": "capture",
+        "authentication": "headerAuth",
+        "responseMode": "responseNode",
+        "options": {}
+      },
+      "id": "f6c6e252-0c7e-5143-876a-138dae88e95e",
+      "name": "Capture webhook",
+      "type": "n8n-nodes-base.webhook",
+      "typeVersion": 2,
+      "position": [
+        0,
+        0
+      ],
+      "webhookId": "c7cf2eb7-f65a-532f-9c91-c906095964d6"
+    },
+    {
+      "parameters": {
+        "promptType": "define",
+        "text": "=You triage items for a personal Notion inbox. Reply with ONLY a JSON object, no prose:\n{\"title\": \"clear title, max 10 words\", \"type\": one of [\"Task\", \"Idea\", \"Note\", \"Link\"], \"priority\": one of [\"High\", \"Medium\", \"Low\"], \"summary\": \"one or two plain sentences\", \"next_step\": \"one concrete next action, or empty for notes\"}\n\nToday is {{ $now.toISODate() }}. Source: {{ $json.body.source || 'Other' }}.\nItem:\n{{ $json.body.text }}"
+      },
+      "id": "569a8eeb-1100-50ff-9ae0-f226c447f82d",
+      "name": "Triage with AI",
+      "type": "@n8n/n8n-nodes-langchain.chainLlm",
+      "typeVersion": 1.5,
+      "position": [
+        240,
+        0
+      ]
+    },
+    {
+      "parameters": {
+        "model": {
+          "__rl": true,
+          "mode": "id",
+          "value": "claude-haiku-4-5"
+        },
+        "options": {
+          "maxTokensToSample": 800
+        }
+      },
+      "id": "ca595ec9-4ac7-5638-8b2e-af28a64118eb",
+      "name": "Claude (fast)",
+      "type": "@n8n/n8n-nodes-langchain.lmChatAnthropic",
+      "typeVersion": 1.3,
+      "position": [
+        240,
+        220
+      ]
+    },
+    {
+      "parameters": {
+        "mode": "runOnceForEachItem",
+        "jsCode": "// Parse the model's JSON and force every select value into the allowed options.\nconst raw = ($json.text || '').replace(/```json|```/g, '').trim();\nlet d = {};\ntry { d = JSON.parse(raw); } catch (e) { d = { title: raw.slice(0, 80), summary: raw }; }\nconst pick = (v, allowed, fallback) => allowed.includes(v) ? v : fallback;\nconst body = $('Capture webhook').item.json.body || {};\nreturn { json: {\n  title: String(d.title || body.text || 'Untitled').slice(0, 200),\n  type: pick(d.type, ['Task', 'Idea', 'Note', 'Link'], 'Note'),\n  priority: pick(d.priority, ['High', 'Medium', 'Low'], 'Medium'),\n  source: pick(body.source, ['Phone', 'Email', 'Web', 'Telegram', 'Slack', 'Other'], 'Other'),\n  summary: String(d.summary || '').slice(0, 1900),\n  next_step: String(d.next_step || '').slice(0, 1900),\n  original: String(body.text || '').slice(0, 1900),\n} };"
+      },
+      "id": "700b89f8-5a34-5b23-b049-4886f23c2aff",
+      "name": "Parse and validate",
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [
+        480,
+        0
+      ]
+    },
+    {
+      "parameters": {
+        "resource": "databasePage",
+        "databaseId": {
+          "__rl": true,
+          "mode": "url",
+          "value": "https://www.notion.so/PASTE-YOUR-INBOX-DATABASE-URL"
+        },
+        "title": "={{ $json.title }}",
+        "propertiesUi": {
+          "propertyValues": [
+            {
+              "key": "Type|select",
+              "selectValue": "={{ $json.type }}"
+            },
+            {
+              "key": "Priority|select",
+              "selectValue": "={{ $json.priority }}"
+            },
+            {
+              "key": "Source|select",
+              "selectValue": "={{ $json.source }}"
+            },
+            {
+              "key": "Status|status",
+              "statusValue": "New"
+            },
+            {
+              "key": "Summary|rich_text",
+              "textContent": "={{ $json.summary }}"
+            },
+            {
+              "key": "Next step|rich_text",
+              "textContent": "={{ $json.next_step }}"
+            }
+          ]
+        },
+        "blockUi": {
+          "blockValues": [
+            {
+              "type": "paragraph",
+              "textContent": "={{ $json.original }}"
+            }
+          ]
+        },
+        "options": {}
+      },
+      "id": "334ac56a-e415-5605-b614-6417c9c64bde",
+      "name": "Create Inbox row",
+      "type": "n8n-nodes-base.notion",
+      "typeVersion": 2.2,
+      "position": [
+        720,
+        0
+      ],
+      "retryOnFail": true,
+      "maxTries": 3,
+      "waitBetweenTries": 2000
+    },
+    {
+      "parameters": {
+        "respondWith": "json",
+        "responseBody": "={{ { ok: true, title: $('Parse and validate').item.json.title, url: $json.url } }}",
+        "options": {}
+      },
+      "id": "e73b326a-14ef-5de3-92ff-a42566ef88b4",
+      "name": "Reply",
+      "type": "n8n-nodes-base.respondToWebhook",
+      "typeVersion": 1.1,
+      "position": [
+        960,
+        0
+      ]
+    }
+  ],
+  "connections": {
+    "Capture webhook": {
+      "main": [
+        [
+          {
+            "node": "Triage with AI",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Claude (fast)": {
+      "ai_languageModel": [
+        [
+          {
+            "node": "Triage with AI",
+            "type": "ai_languageModel",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Triage with AI": {
+      "main": [
+        [
+          {
+            "node": "Parse and validate",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Parse and validate": {
+      "main": [
+        [
+          {
+            "node": "Create Inbox row",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Create Inbox row": {
+      "main": [
+        [
+          {
+            "node": "Reply",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    }
+  },
+  "settings": {
+    "executionOrder": "v1"
+  },
+  "pinData": {},
+  "meta": {
+    "templateNote": "POST {\"text\": \"…\", \"source\": \"Phone\"} with your secret header. Set the Inbox database URL and credentials."
+  }
+}

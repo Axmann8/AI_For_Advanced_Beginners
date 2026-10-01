@@ -19,7 +19,7 @@ You may not need a new app at all. The tools you already use, including notes, e
 | If you… | Read |
 |---|---|
 | Want a quick tour of AI everywhere | [AI Inside Your Apps](53-ai-in-your-apps.md) |
-| Live in Notion | [Notion AI Deep Dive](54-notion-ai-deep-dive.md) |
+| Live in Notion | [Notion AI Deep Dive](54-notion-ai-deep-dive.md) → [Part XIV · n8n & Notion](../part-14-n8n-and-notion/index.md) |
 | Live in Google or Microsoft | [Google Workspace & Microsoft 365 AI](55-google-and-microsoft-ai.md) |
 | Love plain-text notes | [Obsidian + AI](56-obsidian-and-ai.md) |
 | Are drowning in email and meetings | [Email & Calendar Superpowers](57-email-and-calendar.md) |

@@ -301,6 +301,12 @@ Agents can become expensive because each step calls the model. Filter out irrele
 - **Max iterations:** set a sensible cap on agent loops.
 - **Set API spend limits** in your provider console ([Cost Optimization](../part-12-mastery/106-cost-optimization.md)).
 
+> [!TIP]
+> **🔗 Going deeper: agents across n8n + Notion**
+> [AI Agents Across n8n + Notion](../part-14-n8n-and-notion/124-ai-agents-across-n8n-and-notion.md) shows how to give an
+> n8n agent Notion tools, expose your workflows to Claude and Notion's Custom Agents over MCP, and run RAG over your
+> Notion workspace.
+
 ## 🎯 Key takeaways
 
 - The **AI Agent node** = model + memory + tools + optional output parser, running the agent loop inside a workflow.

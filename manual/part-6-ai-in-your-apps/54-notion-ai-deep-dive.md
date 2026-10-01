@@ -223,6 +223,12 @@ Agents can only access pages they have permission to see, and scheduled agents u
 - **Page access matters:** MCP connections and agents only see what they've been given access to.
 - **Sensitive data:** check your workspace's AI data settings, especially at work ([Privacy & Your Data](../part-12-mastery/104-privacy-and-your-data.md)).
 
+> [!TIP]
+> **🔗 Going deeper: Notion + n8n**
+> To connect Notion to email, chat, your phone, AI assistants and business apps, see [Part XIV · n8n & Notion: The Power
+> Stack](../part-14-n8n-and-notion/index.md). It covers Notion's data model and API, buttons that run workflows,
+> two-way sync, AI agents and a complete build-along.
+
 ## 🎯 Key takeaways
 
 - **Notion Agent** works on demand, and **Custom Agents** work on schedules and triggers for your team.

@@ -201,7 +201,7 @@ flowchart TD
     B --> C["🧠 Part III · Foundations<br/>how it really works"]
     C --> D["🔌 Parts IV–VI<br/>connect AI to your apps & automate"]
     D --> E["🛠️ Parts VII–X<br/>build, remember, run locally, create"]
-    E --> F["🌱 Parts XI–XIII<br/>real life, mastery & big projects"]
+    E --> F["🌱 Parts XI–XIV<br/>real life, mastery & big projects"]
 ```
 
 There's no rush and no test. Some people happily stay in Parts I and II forever and get enormous value from AI. Others

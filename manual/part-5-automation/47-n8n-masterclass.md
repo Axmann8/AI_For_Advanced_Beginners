@@ -246,6 +246,12 @@ The table lists ten practice workflows, from beginner to advanced, several of wh
 | 9 | 🏷️ Support ticket classifier + suggested answers | 🟡 |
 | 10 | 🗓️ Friday weekly review from calendar, tasks and GitHub | 🟡 |
 
+> [!TIP]
+> **🔗 Going deeper: n8n + Notion**
+> n8n pairs especially well with Notion as its control panel and source of truth. [Part XIV · n8n & Notion: The Power
+> Stack](../part-14-n8n-and-notion/index.md) covers the complete integration, Notion buttons that run workflows, AI agents
+> across both tools, 40 ready-made recipes and a full build-along.
+
 ## 🎯 Key takeaways
 
 - n8n = **nodes** passing **items**, where most nodes run **once per item**.

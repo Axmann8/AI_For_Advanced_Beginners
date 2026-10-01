@@ -340,4 +340,4 @@ transcripts**, **10 test calls**.
 
 ---
 
-**Next:** [Appendix A · Glossary →](../appendices/a-glossary.md)
+**Next:** [120 · The Power Stack →](../part-14-n8n-and-notion/120-the-power-stack.md)

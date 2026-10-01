@@ -12,13 +12,13 @@ art and music, and use it all in real life, with clear **✅ Key Points & Steps*
 [🐣 I'm brand new to AI](part-1-ai-from-zero/index.md "button-primary") [🤖 Master your assistant](part-2-ai-assistants-field-guide/index.md "button") [🚀 Start here](start-here/a-how-to-use-this-manual.md "button") [📄 Download the PDF book](download.md "button")
 
 <!-- stats:start -->
-<div class="hero-stats"><div class="stat"><strong>119</strong><span>chapters</span></div><div class="stat"><strong>1383</strong><span>Key Points & Steps boxes ✅</span></div><div class="stat"><strong>375</strong><span>quiz questions</span></div><div class="stat"><strong>124</strong><span>try-this challenges</span></div><div class="stat"><strong>12</strong><span>starter kits</span></div><div class="stat"><strong>257k</strong><span>words of fun</span></div></div>
+<div class="hero-stats"><div class="stat"><strong>128</strong><span>chapters</span></div><div class="stat"><strong>1468</strong><span>Key Points & Steps boxes ✅</span></div><div class="stat"><strong>402</strong><span>quiz questions</span></div><div class="stat"><strong>133</strong><span>try-this challenges</span></div><div class="stat"><strong>13</strong><span>starter kits</span></div><div class="stat"><strong>277k</strong><span>words of fun</span></div></div>
 <!-- stats:end -->
 
 </div>
 
 <!-- progress:start -->
-<div class="progress-tracker" data-total="119"></div>
+<div class="progress-tracker" data-total="128"></div>
 <!-- progress:end -->
 
 ## 🧭 Pick your path
@@ -110,7 +110,7 @@ Not sure where to begin? Pick the card that sounds most like you. Every path is 
 
 </div>
 
-## 🗺️ The thirteen parts
+## 🗺️ The fourteen parts
 
 Each part has its own landing page with key points, a suggested path, and clickable chapter cards.
 
@@ -220,6 +220,14 @@ Each part has its own landing page with key points, a suggested path, and clicka
     <span class="card-meta">8 chapters</span>
 
     Eight long, friendly, step-by-step projects. Each one combines skills from across the manual into something real you'll actually use, and each is doable in a weekend.
+
+-   **🔗 [Part XIV · n8n & Notion: The Power Stack](part-14-n8n-and-notion/index.md)**
+
+    ---
+
+    <span class="card-meta">9 chapters</span>
+
+    Two tools show up in almost every chapter of this manual: n8n, the automation engine, and Notion, the workspace where your information lives.
 
 -   **📎 [Appendices](appendices/index.md)**
 

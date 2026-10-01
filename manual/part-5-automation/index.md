@@ -24,6 +24,7 @@ An automation is a rule that runs on its own: **when something happens, do somet
 | Live on your phone | [Phone & Desktop Automation](50-phone-and-desktop-automation.md) |
 | Want to track prices, news or changes online | [Web Scraping & Monitoring](51-web-scraping-and-monitoring.md) |
 | Just want ideas to steal | [The Automation Recipe Book](52-automation-recipe-book.md) |
+| Use Notion and want everything connected | [Part XIV · n8n & Notion: The Power Stack](../part-14-n8n-and-notion/index.md) |
 
 ## 📚 Chapters in this part
 

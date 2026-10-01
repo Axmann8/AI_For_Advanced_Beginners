@@ -1,0 +1,332 @@
+{
+  "name": "🔘 Notion button → AI plan → back to Notion",
+  "nodes": [
+    {
+      "parameters": {
+        "httpMethod": "POST",
+        "path": "process-with-ai",
+        "authentication": "headerAuth",
+        "responseMode": "onReceived",
+        "options": {}
+      },
+      "id": "73155888-cb7d-5165-b16a-563648cd2d22",
+      "name": "Notion button webhook",
+      "type": "n8n-nodes-base.webhook",
+      "typeVersion": 2,
+      "position": [
+        0,
+        0
+      ],
+      "webhookId": "d9eaf4b4-0002-5f6d-8f8e-63215c776761"
+    },
+    {
+      "parameters": {
+        "mode": "runOnceForEachItem",
+        "jsCode": "// Notion's Send webhook action posts the page that was clicked. Find its ID.\nconst b = $json.body || {};\nconst id = b.data?.id || b.id || b.page_id;\nif (!id) throw new Error('No page ID in the webhook payload. Check the button sends the page.');\nreturn { json: { pageId: id } };"
+      },
+      "id": "d7f5dd28-a90b-5aaf-a626-8b8b9c2bb0ba",
+      "name": "Get page ID",
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [
+        220,
+        0
+      ]
+    },
+    {
+      "parameters": {
+        "resource": "databasePage",
+        "operation": "update",
+        "pageId": {
+          "__rl": true,
+          "mode": "id",
+          "value": "={{ $json.pageId }}"
+        },
+        "propertiesUi": {
+          "propertyValues": [
+            {
+              "key": "Status|status",
+              "statusValue": "Processing"
+            }
+          ]
+        },
+        "options": {}
+      },
+      "id": "cca0f4bc-7b7d-50d7-9c21-67ccd6003e6d",
+      "name": "Mark Processing",
+      "type": "n8n-nodes-base.notion",
+      "typeVersion": 2.2,
+      "position": [
+        440,
+        0
+      ]
+    },
+    {
+      "parameters": {
+        "resource": "databasePage",
+        "operation": "get",
+        "pageId": {
+          "__rl": true,
+          "mode": "id",
+          "value": "={{ $('Get page ID').item.json.pageId }}"
+        },
+        "simple": true
+      },
+      "id": "49d18963-3607-5f52-8229-ba36f1d2988b",
+      "name": "Read the page",
+      "type": "n8n-nodes-base.notion",
+      "typeVersion": 2.2,
+      "position": [
+        660,
+        0
+      ]
+    },
+    {
+      "parameters": {
+        "promptType": "define",
+        "text": "=Turn this inbox item into a short, practical plan. Reply with ONLY JSON:\n{\"summary\": \"2 sentences\", \"next_step\": \"the single next action\", \"subtasks\": [{\"title\": \"…\", \"priority\": \"High|Medium|Low\", \"due_in_days\": number}] (max 5)}\n\nToday is {{ $now.toISODate() }}.\nTitle: {{ $json.name || $json.property_name }}\nType: {{ $json.property_type }}\nCurrent summary: {{ $json.property_summary }}"
+      },
+      "id": "74449a6f-78b1-5a13-a667-5edf7701c257",
+      "name": "Plan with AI",
+      "type": "@n8n/n8n-nodes-langchain.chainLlm",
+      "typeVersion": 1.5,
+      "position": [
+        880,
+        0
+      ]
+    },
+    {
+      "parameters": {
+        "model": {
+          "__rl": true,
+          "mode": "id",
+          "value": "claude-sonnet-5-5"
+        },
+        "options": {
+          "maxTokensToSample": 1500
+        }
+      },
+      "id": "5d7dee28-9c2a-5901-ab7e-ff7f52092b21",
+      "name": "Claude",
+      "type": "@n8n/n8n-nodes-langchain.lmChatAnthropic",
+      "typeVersion": 1.3,
+      "position": [
+        880,
+        220
+      ]
+    },
+    {
+      "parameters": {
+        "mode": "runOnceForAllItems",
+        "jsCode": "// One item for the page update, plus one item per subtask.\nconst raw = ($input.first().json.text || '').replace(/```json|```/g, '').trim();\nlet d = {};\ntry { d = JSON.parse(raw); } catch (e) { d = { summary: raw.slice(0, 1900), subtasks: [] }; }\nconst pageId = $('Get page ID').first().json.pageId;\nconst prio = p => ['High', 'Medium', 'Low'].includes(p) ? p : 'Medium';\nconst subtasks = (d.subtasks || []).slice(0, 5).map(s => ({\n  title: String(s.title || 'Subtask').slice(0, 200),\n  priority: prio(s.priority),\n  due: DateTime.now().plus({ days: Number(s.due_in_days) || 3 }).toISODate(),\n}));\nreturn [{ json: { pageId, summary: String(d.summary || '').slice(0, 1900),\n  next_step: String(d.next_step || '').slice(0, 1900), subtasks } }];"
+      },
+      "id": "308f3771-1783-5e29-8e5a-953e0abc9fcc",
+      "name": "Parse plan",
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [
+        1100,
+        0
+      ]
+    },
+    {
+      "parameters": {
+        "resource": "databasePage",
+        "operation": "update",
+        "pageId": {
+          "__rl": true,
+          "mode": "id",
+          "value": "={{ $json.pageId }}"
+        },
+        "propertiesUi": {
+          "propertyValues": [
+            {
+              "key": "Status|status",
+              "statusValue": "Processed"
+            },
+            {
+              "key": "Summary|rich_text",
+              "textContent": "={{ $json.summary }}"
+            },
+            {
+              "key": "Next step|rich_text",
+              "textContent": "={{ $json.next_step }}"
+            },
+            {
+              "key": "AI processed|checkbox",
+              "checkboxValue": true
+            }
+          ]
+        },
+        "options": {}
+      },
+      "id": "e1c68830-8766-5439-9f53-d84fb5b102f4",
+      "name": "Write results back",
+      "type": "n8n-nodes-base.notion",
+      "typeVersion": 2.2,
+      "position": [
+        1320,
+        -100
+      ]
+    },
+    {
+      "parameters": {
+        "fieldToSplitOut": "subtasks",
+        "options": {}
+      },
+      "id": "117c1235-c3c8-5605-9464-3215dd804dab",
+      "name": "One item per subtask",
+      "type": "n8n-nodes-base.splitOut",
+      "typeVersion": 1,
+      "position": [
+        1320,
+        100
+      ]
+    },
+    {
+      "parameters": {
+        "resource": "databasePage",
+        "databaseId": {
+          "__rl": true,
+          "mode": "url",
+          "value": "https://www.notion.so/PASTE-YOUR-TASKS-DATABASE-URL"
+        },
+        "title": "={{ $json.title }}",
+        "propertiesUi": {
+          "propertyValues": [
+            {
+              "key": "Priority|select",
+              "selectValue": "={{ $json.priority }}"
+            },
+            {
+              "key": "Due|date",
+              "date": "={{ $json.due }}"
+            },
+            {
+              "key": "Status|status",
+              "statusValue": "To do"
+            },
+            {
+              "key": "Source|select",
+              "selectValue": "AI"
+            }
+          ]
+        },
+        "options": {}
+      },
+      "id": "94c9b452-c3b7-5668-95a0-aefeac1956d7",
+      "name": "Create task",
+      "type": "n8n-nodes-base.notion",
+      "typeVersion": 2.2,
+      "position": [
+        1540,
+        100
+      ],
+      "retryOnFail": true,
+      "maxTries": 3,
+      "waitBetweenTries": 2000
+    }
+  ],
+  "connections": {
+    "Notion button webhook": {
+      "main": [
+        [
+          {
+            "node": "Get page ID",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Get page ID": {
+      "main": [
+        [
+          {
+            "node": "Mark Processing",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Mark Processing": {
+      "main": [
+        [
+          {
+            "node": "Read the page",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Read the page": {
+      "main": [
+        [
+          {
+            "node": "Plan with AI",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Claude": {
+      "ai_languageModel": [
+        [
+          {
+            "node": "Plan with AI",
+            "type": "ai_languageModel",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Plan with AI": {
+      "main": [
+        [
+          {
+            "node": "Parse plan",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Parse plan": {
+      "main": [
+        [
+          {
+            "node": "Write results back",
+            "type": "main",
+            "index": 0
+          },
+          {
+            "node": "One item per subtask",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "One item per subtask": {
+      "main": [
+        [
+          {
+            "node": "Create task",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    }
+  },
+  "settings": {
+    "executionOrder": "v1"
+  },
+  "pinData": {},
+  "meta": {
+    "templateNote": "Point a Notion button's Send webhook action at the Production URL with your secret header."
+  }
+}
