@@ -7,12 +7,15 @@ the game code, generate 3D models from a sentence or a photo, drive Blender thro
 effects, give characters living dialogue, and even generate whole interactive worlds. This chapter is your game studio tour:
 tools, workflows, a first-game walkthrough and a pile of projects. Press start! 🕹️✨
 
-<details class="eli5" open>
-<summary>🧸 ELI5: This chapter in 30 seconds</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Want a game where a cat jumps between clouds collecting fish? Tell an AI coding helper, and it writes the game so you can play
-it in your browser. Want a 3D dragon? Describe it or show a drawing, and AI makes a 3D model you can spin around, put in a
-game, or even print on a 3D printer. It's like having a whole game company that listens to you. 🐱☁️🐟
+AI can help create every part of a game, from code to art, 3D models, music and character dialogue. You can describe a simple game to a coding assistant and play it in your browser minutes later, or turn a description or drawing into a 3D model you can use in a game or 3D-print.
+
+1. **Build a small browser game** by describing one simple mechanic.
+2. **Improve it** through short play-and-adjust cycles.
+3. **Create 3D assets** with text-to-3D tools, or control Blender and game engines through MCP.
+4. **Go further** with AI characters, world models and 3D printing.
 
 </details>
 
@@ -26,11 +29,10 @@ game, or even print on a 3D printer. It's like having a whole game company that 
 
 ## 🗺️ The AI game-making map
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-AI can help with every part of a game: the code, the pictures, the 3D models, the music, the characters' voices and even
-the world itself.
+AI tools can assist with each part of game development: code, art, 3D models, audio, character dialogue and level design. The table lists tools for each.
 
 </details>
 
@@ -46,10 +48,14 @@ the world itself.
 
 ## 🕹️ Vibe-code your first game (tonight!)
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Describe a simple game to an AI coding helper, play what it makes, and keep asking for changes until it's fun.
+Start with a game that has one core mechanic, such as jumping or dodging, and fits on a single web page.
+
+1. Describe the game to Claude, ChatGPT or Gemini, as in the example below.
+2. Play the result immediately.
+3. Ask for one change at a time until it's fun.
 
 </details>
 
@@ -76,10 +82,10 @@ in the browser), **Pygame** (Python), and **Godot** (a free, full game engine wi
 
 ## 🔁 The game-dev loop with AI
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Play it, notice what's not fun, ask for one change, play again. Games get fun through lots of tiny tweaks.
+Games become fun through many small adjustments: play, identify what doesn't feel right, request one specific change and play again. The table translates common feel problems into precise requests.
 
 </details>
 
@@ -103,10 +109,10 @@ flowchart LR
 
 ## 🧊 Text-to-3D and image-to-3D
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Describe an object or show a picture, and AI makes a 3D model you can spin around, use in a game, or print on a 3D printer.
+Text-to-3D and image-to-3D tools such as Meshy, Tripo and Rodin generate textured 3D models from a description or picture, ready for game engines, animation or 3D printing.
 
 </details>
 
@@ -123,11 +129,10 @@ export (`.glb` for the web, `.fbx` for engines, `.stl` for printing).
 
 ## 🔌 Blender, Godot & Unity via MCP
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-With special plug-ins, Claude can press the buttons in real 3D and game programs for you: "make a low-poly forest," "add a
-sunset light," "make the player jump higher."
+Community MCP servers connect Claude to Blender, Godot and Unity, so you can create scenes, adjust lighting and change game behavior by describing what you want. The table gives example requests for each app.
 
 </details>
 
@@ -144,11 +149,10 @@ call. Start with backups, and review scripts before running them ([MCP Security 
 
 ## 🗣️ AI characters that talk back
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Game characters can now answer anything you say to them, remember you, and have their own personalities, instead of repeating
-the same three lines.
+Language models can power non-player characters with distinct personalities, memories and goals, so players can hold open-ended conversations instead of choosing from fixed lines.
 
 </details>
 
@@ -167,11 +171,10 @@ If the player is kind, hint that the old oak hides a door.
 
 ## 🌍 World models: generated, explorable worlds
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-New AIs can make a whole little world you can walk around in, just from a description or a picture, like stepping into a
-painting.
+World models, such as Google DeepMind's Genie research, generate interactive environments frame by frame as you move through them, starting from a description or image.
 
 </details>
 
@@ -181,11 +184,14 @@ toward games and simulations that are *generated* rather than built. Worth tryin
 
 ## 🖨️ From AI to real objects: 3D printing
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-You can turn an AI-made 3D model into a real toy or tool with a 3D printer. Imagine holding a figurine of your own made-up
-creature!
+To turn an AI-generated model into a physical object:
+
+1. Generate a model with a text-to-3D tool, or have Claude write OpenSCAD code for precise functional parts.
+2. Check and repair the mesh in a slicer.
+3. Print it on a 3D printer or order it from a printing service.
 
 </details>
 
@@ -200,10 +206,10 @@ knob. 🧩
 
 ## 🎮 20 game & 3D projects
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Twenty fun things to build, from tiny games to printed toys.
+The table lists twenty game and 3D projects to try.
 
 </details>
 

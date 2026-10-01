@@ -8,12 +8,15 @@ else: **testing things properly.** It's easier than it sounds, surprisingly fun,
 We'll cover the 15-minute personal eval, scoring methods, LLM-as-judge, leaderboards, evaluating your own RAG bots and agents,
 comparing tools, and the mindset that keeps you honest. 🧑‍🔬
 
-<details class="eli5" open>
-<summary>🧸 ELI5: This chapter in 30 seconds</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Imagine you want to find the best pizza place in town. You wouldn't trust one ad. You'd try a few, order the same pizza at each,
-and score them. **Evals** are the same for AI: give several AIs the same real jobs, score the answers fairly (without peeking at
-which AI made which), and see which one does best for *your* needs. 🍕🏆
+An evaluation ("eval") is a structured test: give several AI models or tools the same real tasks, score the results fairly and see which performs best for your needs. Evals also tell you whether a change improved your system or made it worse.
+
+1. **Collect 10–20 real tasks** and define what a good result looks like.
+2. **Run them** on the models or tools you're comparing.
+3. **Score fairly,** ideally blind, using checks, rubrics or side-by-side comparison.
+4. **Repeat after changes** to catch regressions.
 
 </details>
 
@@ -21,11 +24,10 @@ which AI made which), and see which one does best for *your* needs. 🍕🏆
 
 ## 🤔 Why evaluate?
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Testing tells you which AI is really best for your jobs, whether your changes helped, and whether something broke after an
-update.
+Evals help you choose the right model or tool, confirm that changes actually help and catch regressions after updates. The table gives an example of each.
 
 </details>
 
@@ -39,10 +41,15 @@ update.
 
 ## 🏃 The 15-minute personal eval
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Write down 10 real jobs, decide what a good answer looks like, try each job on a few AIs, and score them fairly. That's it!
+A personal eval takes about fifteen minutes.
+
+1. Collect 10–20 real tasks you actually do.
+2. Write down what a good result looks like for each.
+3. Run every task on two or three models.
+4. Score the results, ideally without knowing which model produced which.
 
 </details>
 
@@ -63,11 +70,10 @@ Put it in a spreadsheet. Congratulations, you've built an **eval set**. 🎉
 
 ## 📏 Scoring methods
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Some answers are simply right or wrong. Others need a checklist of what makes them good. Comparing two answers side by side is
-often easiest.
+Choose a scoring method that fits the task: exact checks for extraction, classification and code; rubrics with specific criteria for writing; and side-by-side comparison when quality is subjective. The table explains each.
 
 </details>
 
@@ -90,11 +96,10 @@ often easiest.
 
 ## 🤖 LLM-as-judge (and how not to fool yourself)
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-You can ask a smart AI to grade other AIs' answers using your checklist. It's fast, but check its grading yourself sometimes,
-because judges can be unfair too.
+A capable model can grade outputs against your rubric, which saves time on large test sets. Use specific yes-or-no criteria, ask for reasons, and spot-check the grades yourself, because AI judges have biases too.
 
 </details>
 
@@ -118,11 +123,10 @@ Return JSON: {"scores": [..], "reasons": [..], "total": n}.
 
 ## 🏟️ Arenas & leaderboards
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Leaderboards are like sports rankings for AI. They tell you who the top players are, but your own test tells you who's best for
-your team.
+Public leaderboards such as LMArena, Artificial Analysis and SWE-bench indicate which models are strongest in general. They're useful starting points, but your own eval shows what's best for your tasks.
 
 </details>
 
@@ -139,11 +143,10 @@ Leaderboards tell you **who's in the top tier**. Your own eval tells you **who's
 
 ## 🛠️ Evaluating your own AI systems
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-If you build an AI bot or robot, keep a quiz for it. Every time you change something, run the quiz again to make sure it got
-better, not worse.
+For RAG systems, agents and automations, keep a test set of inputs with expected outputs and run it after every change to confirm quality improves rather than declines.
 
 </details>
 
@@ -167,10 +170,10 @@ flowchart LR
 
 ## 🧰 Comparing tools (not just models)
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-When choosing between apps, try each one on the same real jobs and score them on quality, ease, price and privacy.
+When comparing tools rather than models, run each on the same three real scenarios and score them on quality, ease of use, price, privacy and integration.
 
 </details>
 
@@ -191,11 +194,10 @@ When choosing between, say, three meeting-note apps or two automation platforms:
 
 ## 🧠 Mindset tips
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-One great or terrible answer doesn't prove anything. Test lots of times, and remember the cheapest option is sometimes just as
-good.
+A single impressive or poor answer isn't conclusive. Test at least ten examples, run important tests more than once to account for variation, and consider whether a cheaper option performs just as well.
 
 </details>
 

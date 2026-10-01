@@ -6,11 +6,14 @@
 code execution, vision, voice, memory or automations. Each is tagged with what it needs. Copy, swap in your details, and go!
 Organized in clickable categories, so jump to whatever matches your day. 🚀
 
-<details class="eli5" open>
-<summary>🧸 ELI5: This page in 30 seconds</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-This is a giant menu of ready-made things to ask AI. Each one has little pictures showing what it needs, like "📧 email" or
-"🔎 web search." Pick one that sounds useful or fun, copy it, change the details to fit your life, and try it! 🍽️
+This library contains 250 ready-to-use prompts organized by topic. Tags show what each prompt needs, such as 📧 email access, 🔎 web search or 🐍 code execution.
+
+1. **Browse the section** that matches your goal.
+2. **Check the tags** to confirm your assistant has the required tools or connectors.
+3. **Copy the prompt** and replace the details in brackets.
 
 </details>
 
@@ -29,10 +32,10 @@ This is a giant menu of ready-made things to ask AI. Each one has little picture
 
 ## ☀️ Daily life & productivity (1–20)
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Prompts that help with everyday grown-up stuff: email, calendar, to-dos and remembering things.
+These prompts handle everyday productivity: briefings, email, calendar, tasks and reminders.
 
 </details>
 
@@ -59,10 +62,10 @@ Prompts that help with everyday grown-up stuff: email, calendar, to-dos and reme
 
 ## 🔎 Research & learning (21–35)
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Prompts for finding things out and learning new stuff, with sources you can check.
+These prompts support research and learning, with sources you can verify.
 
 </details>
 
@@ -84,10 +87,10 @@ Prompts for finding things out and learning new stuff, with sources you can chec
 
 ## 🧑‍💻 Building & coding (36–55)
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Prompts for building apps and fixing code with an AI coding helper.
+These prompts help you build software and fix code with an AI coding agent.
 
 </details>
 
@@ -114,10 +117,10 @@ Prompts for building apps and fixing code with an AI coding helper.
 
 ## 💼 Work & business (56–70)
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Prompts for jobs and small businesses: catching up, customers, sales and planning.
+These prompts support work and small business: catching up on team activity, customers, sales and planning.
 
 </details>
 
@@ -139,10 +142,10 @@ Prompts for jobs and small businesses: catching up, customers, sales and plannin
 
 ## 🎨 Creative (71–85)
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Prompts for making pictures, music, stories and videos.
+These prompts generate creative work: images, music, stories and video.
 
 </details>
 
@@ -164,10 +167,10 @@ Prompts for making pictures, music, stories and videos.
 
 ## 🏠 Home & fun (86–100)
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Prompts for your house, your free time and silly fun.
+These prompts cover your home, smart devices and leisure time.
 
 </details>
 
@@ -189,10 +192,10 @@ Prompts for your house, your free time and silly fun.
 
 ## 💸 Money (101–115)
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Prompts for understanding and planning your money (always double-check the math, and ask an expert for big decisions).
+These prompts help you understand and plan your finances. Double-check calculations, and consult a professional for major decisions.
 
 </details>
 
@@ -214,10 +217,10 @@ Prompts for understanding and planning your money (always double-check the math,
 
 ## 💚 Health & fitness (116–125)
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Prompts for staying active and preparing for doctor visits (AI helps you prepare; doctors make the decisions).
+These prompts support fitness planning and medical appointment preparation. AI helps you prepare; health professionals make diagnoses and treatment decisions.
 
 </details>
 
@@ -234,10 +237,10 @@ Prompts for staying active and preparing for doctor visits (AI helps you prepare
 
 ## 👨‍👩‍👧 Family & education (126–140)
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Prompts for parents, kids, students and teachers: homework help, school stuff and family fun.
+These prompts support parents, students and teachers with schoolwork, school communications and family activities.
 
 </details>
 
@@ -259,10 +262,10 @@ Prompts for parents, kids, students and teachers: homework help, school stuff an
 
 ## ✈️ Travel (141–150)
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Prompts for planning trips and adventures (always check official sites for visas and opening times).
+These prompts help plan trips. Always confirm visas, opening hours and bookings on official sites.
 
 </details>
 
@@ -279,10 +282,10 @@ Prompts for planning trips and adventures (always check official sites for visas
 
 ## 🍳 Home, cooking & DIY (151–160)
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Prompts for cooking, fixing things and looking after your home (call a professional for dangerous jobs).
+These prompts help with cooking, repairs and home maintenance. Hire a professional for electrical, gas and structural work.
 
 </details>
 
@@ -299,10 +302,10 @@ Prompts for cooking, fixing things and looking after your home (call a professio
 
 ## 🚀 Careers & job hunting (161–175)
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Prompts for finding and landing a job you'll love (never make things up on a résumé!).
+These prompts support career planning and job hunting. Never include false information on a résumé.
 
 </details>
 
@@ -324,10 +327,10 @@ Prompts for finding and landing a job you'll love (never make things up on a ré
 
 ## ✍️ Writing & content (176–190)
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Prompts for writing better in your own voice: editing, headlines and turning one post into many.
+These prompts help you write in your own voice: editing, headlines and repurposing content.
 
 </details>
 
@@ -349,10 +352,10 @@ Prompts for writing better in your own voice: editing, headlines and turning one
 
 ## 🔒 Local AI & privacy (191–200)
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Prompts for keeping private things private and using AI that lives on your own computer.
+These prompts help you protect your privacy and use local AI.
 
 </details>
 
@@ -369,10 +372,10 @@ Prompts for keeping private things private and using AI that lives on your own c
 
 ## 🤖 Agents & automation building (201–215)
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Prompts for building your own AI helpers and robot recipes.
+These prompts help you design and build agents and automations.
 
 </details>
 
@@ -394,10 +397,10 @@ Prompts for building your own AI helpers and robot recipes.
 
 ## 📊 Data analysis (216–225)
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Prompts for finding the story in spreadsheets and numbers.
+These prompts help you explore and analyze data in spreadsheets and CSV files.
 
 </details>
 
@@ -414,10 +417,10 @@ Prompts for finding the story in spreadsheets and numbers.
 
 ## ♿ Accessibility (226–235)
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Prompts that make things easier for everyone, including people with disabilities.
+These prompts support accessibility, for yourself and in content you create.
 
 </details>
 
@@ -434,10 +437,10 @@ Prompts that make things easier for everyone, including people with disabilities
 
 ## 🧑‍🏫 Teaching others (236–242)
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Prompts for helping friends, family and coworkers learn AI.
+These prompts help you teach AI to friends, family and colleagues.
 
 </details>
 
@@ -451,10 +454,10 @@ Prompts for helping friends, family and coworkers learn AI.
 
 ## 🌟 Reflection & fun (243–250)
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Prompts for thinking about your life and having fun with AI.
+These prompts encourage reflection and creative fun.
 
 </details>
 

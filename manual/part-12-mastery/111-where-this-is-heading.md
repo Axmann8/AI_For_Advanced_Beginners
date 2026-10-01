@@ -12,12 +12,14 @@ unfold, a personal roadmap for your next 90 days, and a few parting thoughts bef
 > Predictions are hard, especially about the future. 😄 These are directions already visible today, and the details will
 > surprise all of us.
 
-<details class="eli5" open>
-<summary>🧸 ELI5: This chapter in 30 seconds</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-AI is growing up fast. Soon it will do more jobs by itself, plug into almost every app, see and hear the world, remember what
-matters to you, and help anyone build their own apps. The most important skills for people will be: explaining clearly what
-you want, checking the work, and being kind and wise about how AI is used. You've been practicing all of those! 🌟
+AI is advancing quickly. It's taking on longer tasks independently, connecting to more tools, perceiving the world through sight and sound, remembering context and making software creation accessible to everyone. The human skills that matter most are clear communication, careful judgment and responsible use.
+
+- **Eight major trends** shape the next few years, from delegation to cheaper, more local AI.
+- **The most valuable skills** are the ones you've practiced throughout this manual.
+- **Your roadmap:** choose the area you enjoyed most and follow a 90-day plan.
 
 </details>
 
@@ -25,11 +27,10 @@ you want, checking the work, and being kind and wise about how AI is used. You'v
 
 ## 🤝 Trend 1: From chatting to delegating
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Instead of just answering questions, AI will do bigger and bigger jobs for you, like a helper who works while you do something
-else and reports back.
+AI is moving from answering questions to completing tasks: you describe an outcome, it works independently over minutes or hours, and it reports back for review.
 
 </details>
 
@@ -41,10 +42,10 @@ reviewing work. (Sound familiar? It's managing, and you've been practicing it al
 
 ## 🔌 Trend 2: Everything becomes connectable
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Almost every app will get a plug for AI, so AI helpers can use all your tools together.
+Standards like MCP mean nearly every app can become a tool for AI, letting assistants work across all your services together.
 
 </details>
 
@@ -56,10 +57,10 @@ better auth, richer apps inside chats). Apps with good AI connections will win; 
 
 ## 👀 Trend 3: AI that sees, hears and acts
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-AI will talk and listen naturally, watch videos, use computers like people do, and even help robots in the real world.
+AI is gaining natural voice conversation, video understanding, the ability to operate any computer application and, increasingly, a role in physical robotics.
 
 </details>
 
@@ -69,11 +70,10 @@ through menus ([Voice Agents](../part-10-creative-ai/87-voice-agents.md), [Compu
 
 ## 🧠 Trend 4: Personal AI that knows you
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-AI helpers will remember your projects and preferences, like a friend who knows you well, and you should stay in charge of what
-they remember.
+Memory, connectors and personal knowledge bases are converging into assistants with rich, long-term context about your work and life. Staying in control of what they remember will be essential.
 
 </details>
 
@@ -86,10 +86,10 @@ become a **compounding asset**. The better your context, the better your AI. And
 
 ## 🛠️ Trend 5: Everyone can build software
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Soon anyone will be able to make their own apps just by describing them, even for tiny jobs only their family needs.
+Coding agents and vibe coding are making software creation accessible to anyone, leading toward a world of personal software built for very specific needs.
 
 </details>
 
@@ -101,10 +101,10 @@ Vibe coding and coding agents are collapsing the gap between "idea" and "working
 
 ## 💸 Trend 6: Cheaper, faster, more local
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-AI keeps getting cheaper and smaller. Things that cost a lot today will be almost free tomorrow, and will run on your own phone.
+AI capability keeps getting cheaper: today's most advanced models become tomorrow's budget options and eventually run on your own devices.
 
 </details>
 
@@ -116,10 +116,10 @@ affordable. **Design for the abundance that's coming.**
 
 ## 🌍 Trend 7: AI in science, health and learning
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-AI is starting to help scientists discover new things, help doctors, and give every student a patient tutor.
+Some of the most promising developments are in science and public good: AI accelerating protein and materials research, supporting medical diagnosis and providing personalized tutoring.
 
 </details>
 
@@ -132,11 +132,10 @@ field *and* the tools will lead.
 
 ## ⚖️ Trend 8: Trust, safety and judgment become the premium skills
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-As AI makes lots of stuff, being able to tell what's true, what's good and what's safe becomes super important, and that's a
-human superpower.
+As AI-generated content multiplies, judgment becomes more valuable: knowing what's true, what's good, what's safe and what's worth doing.
 
 </details>
 
@@ -148,11 +147,10 @@ and protections for people ([AI Ethics for Builders](107-ai-ethics-for-builders.
 
 ## 🧰 The skills that will matter most
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-The best skills for the future: explaining clearly, checking carefully, connecting ideas, being kind and honest, and never
-stopping learning.
+The table lists the skills likely to matter most, including clear communication, verification, systems thinking and ethical judgment, along with the chapters where you practiced each.
 
 </details>
 
@@ -168,10 +166,10 @@ stopping learning.
 
 ## 🗺️ Your personal roadmap from here
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Pick the part of AI you loved most, and here's what to do over the next three months.
+Choose the area of AI you enjoyed most, and use the table to find a concrete 90-day plan for going deeper.
 
 </details>
 
@@ -187,11 +185,10 @@ Pick the part of AI you loved most, and here's what to do over the next three mo
 
 ## 💛 A few parting thoughts
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-You're ahead of most people now. Stay curious, be kind, use AI to have more time for the people and things you love, and have
-fun!
+You now know more about using AI effectively than most people. Stay curious, use AI responsibly, and use the time it saves you for the people and work that matter most.
 
 </details>
 

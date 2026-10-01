@@ -5,11 +5,14 @@
 **The manual's most useful checklists, gathered in one printable place.** Stick them on the fridge, pin them above your desk, or
 paste them into Notion. Each one links back to the chapter that explains the *why*. Tick boxes, feel great. ✅
 
-<details class="eli5" open>
-<summary>🧸 ELI5: This page in 30 seconds</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Checklists are like packing lists for a trip: you tick each thing so you don't forget anything important. These ones help you
-set up AI safely, launch projects, and build good habits. 📝✔️
+These checklists cover the moments where a quick review prevents problems: getting started, protecting your privacy, installing tools, launching projects and maintaining good habits. Print them or copy them into your notes.
+
+- **Getting started:** beginner setup, scam protection and your first week.
+- **Before you launch:** safety pre-flight, MCP installation, coding changes, web apps, MCP publishing and voice agents.
+- **Ongoing:** ethics review, weekly habits and monthly and quarterly maintenance.
 
 </details>
 
@@ -17,10 +20,10 @@ set up AI safely, launch projects, and build good habits. 📝✔️
 
 ## 🐣 Absolute beginner's starter checklist
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-The very first steps if you've never used AI: get the app, keep it safe, and have your first chats.
+Use this checklist if you've never used an AI assistant: choose one, secure your account, adjust key settings and have your first conversations.
 
 </details>
 
@@ -36,10 +39,10 @@ The very first steps if you've never used AI: get the app, keep it safe, and hav
 
 ## 🛡️ Scam-proof your family
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Simple things to do so AI-powered tricksters can't fool you or the people you love.
+These steps protect your family from AI-powered scams such as cloned voices and deepfakes.
 
 </details>
 
@@ -54,10 +57,10 @@ Simple things to do so AI-powered tricksters can't fool you or the people you lo
 
 ## 🚀 Your first week with AI
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Seven small steps for your first week, one a day.
+These seven steps, one per day, establish your first AI habits.
 
 </details>
 
@@ -71,10 +74,10 @@ Seven small steps for your first week, one a day.
 
 ## 🛡️ Safety pre-flight (before anything runs unattended)
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Check these before letting a robot run by itself.
+Confirm each item before letting any automation or agent run unattended.
 
 </details>
 
@@ -89,10 +92,10 @@ Check these before letting a robot run by itself.
 
 ## 🔒 Privacy settings tune-up
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Switches to check in every AI app, so your information goes only where you want.
+Review these settings in every AI app you use so your information is handled the way you choose.
 
 </details>
 
@@ -108,10 +111,10 @@ Switches to check in every AI app, so your information goes only where you want.
 
 ## 🔌 Installing an MCP server safely
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Before adding a plug-in, make sure it comes from someone you trust and only gets the access it needs.
+Before installing an MCP server, confirm it comes from a trusted source and requests only the access it needs.
 
 </details>
 
@@ -126,10 +129,10 @@ Before adding a plug-in, make sure it comes from someone you trust and only gets
 
 ## 🧑‍💻 Before asking a coding agent for a big change
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Get ready before your AI helper makes big changes, so you can always undo.
+Complete these steps before asking a coding agent to make a large change, so you can always roll back.
 
 </details>
 
@@ -144,10 +147,10 @@ Get ready before your AI helper makes big changes, so you can always undo.
 
 ## 🌍 Launching a web app
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Check all the locks before inviting people to your app.
+Confirm each item before inviting users to a web app you've built.
 
 </details>
 
@@ -164,10 +167,10 @@ Check all the locks before inviting people to your app.
 
 ## 📦 Publishing an MCP server
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Steps before sharing your plug-in with the world.
+Complete these steps before publishing an MCP server for others to use.
 
 </details>
 
@@ -183,10 +186,10 @@ Steps before sharing your plug-in with the world.
 
 ## 🗣️ Voice agent go-live
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Check these before a talking robot answers real phone calls.
+Confirm each item before a voice agent handles real phone calls.
 
 </details>
 
@@ -202,10 +205,10 @@ Check these before a talking robot answers real phone calls.
 
 ## ⚖️ The builder's ethics check
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Questions to make sure what you built is fair, honest and kind.
+Review these questions before releasing anything you've built, to confirm it's honest, consensual, fair and safe.
 
 </details>
 
@@ -222,10 +225,10 @@ Questions to make sure what you built is fair, honest and kind.
 
 ## 🔁 Weekly AI habits
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Little things to do every week so you keep learning and stay organized.
+These short weekly habits keep your notes organized and your skills growing.
 
 </details>
 
@@ -239,10 +242,10 @@ Little things to do every week so you keep learning and stay organized.
 
 ## 🗓️ Monthly & quarterly maintenance
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Bigger check-ups every month and every few months.
+These periodic reviews keep your subscriptions, data, security and tools in good shape.
 
 </details>
 

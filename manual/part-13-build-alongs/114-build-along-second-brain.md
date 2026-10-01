@@ -7,12 +7,15 @@ AI triages them into the right folders with tags and links, a weekly review writ
 questions like *"what have I learned about sleep?"* Everything is plain Markdown files **you own**, so it works with any AI,
 today and in ten years. Let's build a brain that remembers so you don't have to. 🌱
 
-<details class="eli5" open>
-<summary>🧸 ELI5: This build in 30 seconds</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-We're making a magic notebook. You drop notes into a "to sort" box by typing or talking. Your AI helper sorts them into the
-right drawers, sticks labels on them, and connects related ideas with strings. Every Friday it writes you a little "what you did
-this week" report. And whenever you forget something, you just ask the notebook. 📓✨
+In this project you'll build an AI-assisted second brain in Obsidian. Notes go into an inbox from anywhere, including by voice; an AI agent sorts and links them using rules you control, writes a weekly review and answers questions about everything you've saved.
+
+1. **Set up the starter vault** and review its AI rules.
+2. **Capture real notes,** then have AI triage the inbox.
+3. **Ask your notes questions,** and add one-tap voice capture.
+4. **Automate a weekly review,** and protect the vault with version history.
 
 </details>
 
@@ -26,11 +29,10 @@ this week" report. And whenever you forget something, you just ask the notebook.
 
 ## 🗺️ What you'll build
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Notes come in from everywhere, land in one inbox, get sorted by AI, and turn into weekly reviews and answers to your
-questions.
+Notes arrive from many sources into one inbox; AI triages them into PARA folders, links related notes, produces weekly reviews and answers questions. The diagram shows the flow.
 
 </details>
 
@@ -51,10 +53,10 @@ house rules, two Claude Code skills (`inbox-triage`, `weekly-review`) and a `/ca
 
 ## ✅ Before you start
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-You need the free Obsidian app and Claude Code or Claude Desktop. That's it!
+You need Obsidian (free) and Claude Code (recommended) or Claude Desktop. A phone automation app is optional, for voice capture.
 
 </details>
 
@@ -65,10 +67,14 @@ You need the free Obsidian app and Claude Code or Claude Desktop. That's it!
 
 ## 1️⃣ Step 1: Set up the vault (10 min)
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Copy the starter notebook folder to your computer and open it in Obsidian.
+Copy the starter vault to your computer and open it in Obsidian.
+
+1. Copy the kit folder to a location like `~/Documents/SecondBrain`.
+2. In Obsidian, choose **Open folder as vault** and select it.
+3. Enable the core Templates plugin and point it at the templates folder.
 
 </details>
 
@@ -86,11 +92,10 @@ cp -r examples/second-brain-vault ~/Documents/SecondBrain
 
 ## 2️⃣ Step 2: Meet your vault's AI rules (5 min)
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-The CLAUDE.md file is the house rules for AI helpers: never throw notes away, ask before moving lots of things, and keep your
-words as you wrote them.
+The vault's `CLAUDE.md` sets rules for any AI working in it: the PARA structure, never deleting notes, proposing plans before moving files and preserving your original wording.
 
 </details>
 
@@ -106,10 +111,10 @@ to match how *you* like to work.
 
 ## 3️⃣ Step 3: Capture 10 real things (15 min)
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Fill your inbox with real stuff from your life: ideas, links, to-dos. Don't sort anything yet!
+Add ten real items to the `00-Inbox` folder, such as ideas, links, tasks and notes, using Obsidian or Claude Code. Don't sort them yet.
 
 </details>
 
@@ -125,10 +130,14 @@ Put **ten real things** into `00-Inbox/`, using any mix of:
 
 ## 4️⃣ Step 4: AI triage (20 min)
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Ask your AI helper to sort the inbox. It shows you a plan first, you say yes, and it moves everything to the right drawers.
+Ask Claude Code, running in the vault folder, to "triage my inbox."
+
+1. Review the proposed plan showing where each note will go.
+2. Approve it or request changes.
+3. Check that notes were moved, tagged and linked correctly.
 
 </details>
 
@@ -153,10 +162,10 @@ Review it, adjust anything (*"put the recipe under a new Cooking area instead"*)
 
 ## 5️⃣ Step 5: Ask your notes questions (15 min)
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Now ask your notebook anything, like "what should I work on this weekend?", and the AI reads your notes to answer.
+Ask questions across your notes, such as what to focus on this weekend or what you've learned about a topic. The AI reads relevant notes and answers with links to them.
 
 </details>
 
@@ -174,10 +183,10 @@ Still in Claude Code (or Claude Desktop with the filesystem MCP server, from the
 
 ## 6️⃣ Step 6: One-tap voice capture (30 min)
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Make a button on your phone: press it, say your idea, and it appears as a tidy note in your inbox.
+Set up one-tap voice capture using the route that matches your setup: an iPhone shortcut, an Android automation or an n8n webhook. Dictated ideas then arrive in your inbox as clean notes.
 
 </details>
 
@@ -203,11 +212,10 @@ Pick the route that fits your setup ([Phone & Desktop Automation](../part-5-auto
 
 ## 7️⃣ Step 7: The self-writing weekly review (10 min)
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Every Friday, the AI reads your week and writes a friendly report: your wins, what you learned, and your top three things for
-next week.
+Ask Claude Code to "do my weekly review." It reads your journal and recent notes, then writes a summary of wins, lessons, stalled projects and your top three priorities for next week.
 
 </details>
 
@@ -219,10 +227,10 @@ projects, and saves `Reviews/YYYY-MM-DD-weekly-review.md` with wins, lessons, st
 
 ## 🔒 Step 8 (optional): Make it private and permanent
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Keep your notebook safe: save a history of every change, and use an AI that lives only on your computer for private stuff.
+To protect the vault, track changes with Git in a private repository and commit weekly. For sensitive notes, use a local model so nothing leaves your computer. The table explains each upgrade.
 
 </details>
 
@@ -235,10 +243,10 @@ Keep your notebook safe: save a history of every change, and use an AI that live
 
 ## 🩺 Troubleshooting
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-If the AI helpers don't behave, here's what to check.
+If skills don't trigger or AI changes aren't what you expect, the table lists common problems and their fixes.
 
 </details>
 

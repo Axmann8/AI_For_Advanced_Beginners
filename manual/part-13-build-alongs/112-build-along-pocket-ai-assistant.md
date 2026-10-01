@@ -7,12 +7,15 @@ remembers your conversation, checks your Google Calendar, adds events after you 
 everyone except you. You'll use n8n's AI Agent, a memory node and tools, all visually, no code. Then you'll level it up with
 voice notes, a morning briefing and more. Let's build your pocket sidekick! 🚀
 
-<details class="eli5" open>
-<summary>🧸 ELI5: This build in 30 seconds</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-We're building a robot friend you can text from your phone. You send "what's on tomorrow?" and it looks at your calendar and
-answers. You say "add dentist Friday at 3" and it asks "shall I add it?" and then does. It remembers what you talked about,
-and it only listens to you, never strangers. It's built from blocks you connect together, like LEGO. 🧱📱
+In this project you'll build "Pip," a personal AI assistant you message on Telegram. It can read and add events on your calendar (asking for confirmation first), remembers your conversation and responds only to you. It's built in n8n from an importable workflow.
+
+1. **Create a Telegram bot** with BotFather.
+2. **Import the workflow** into n8n and connect Telegram, Claude and Google Calendar.
+3. **Lock it to your user ID** and test your first conversation.
+4. **Customize** Pip's personality and add upgrades like voice messages.
 
 </details>
 
@@ -26,11 +29,10 @@ and it only listens to you, never strangers. It's built from blocks you connect 
 
 ## 🗺️ What you'll build
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Here's the map: your message goes to Telegram, then to n8n, which checks it's you, asks the AI brain (with memory and tools),
-and sends the answer back to your phone.
+Your message goes from Telegram to n8n, which confirms it's from you, passes it to an AI Agent with memory and calendar tools, and sends the reply back to your phone. The table explains each component.
 
 </details>
 
@@ -60,10 +62,10 @@ The ready-made workflow is [`telegram-pocket-assistant.json`](../../examples/n8n
 
 ## ✅ Before you start
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Gather your ingredients first: an n8n account, Telegram on your phone, an AI key, and your Google calendar.
+Before starting, make sure you have n8n running with a public HTTPS URL, Telegram on your phone, an Anthropic API key and a Google account with a calendar.
 
 </details>
 
@@ -76,11 +78,14 @@ Gather your ingredients first: an n8n account, Telegram on your phone, an AI key
 
 ## 1️⃣ Step 1: Create your Telegram bot (5 min)
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Telegram has a special robot called BotFather who makes new robots. You ask it for a new bot, give it a name, and it gives
-you a secret key.
+Create the bot through Telegram's official BotFather account.
+
+1. Search for @BotFather (with the blue verification check) and start a chat.
+2. Send `/newbot` and choose a name and a username ending in "bot."
+3. Copy the token BotFather gives you and keep it private.
 
 </details>
 
@@ -94,11 +99,14 @@ you a secret key.
 
 ## 2️⃣ Step 2: Import the workflow (5 min)
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Instead of building from scratch, load the ready-made blueprint into n8n. It's like opening a LEGO set that's already
-sorted.
+Import the ready-made workflow instead of building it from scratch.
+
+1. Download `telegram-pocket-assistant.json`.
+2. In n8n, choose **Import from File** and select it.
+3. Review the nodes to see how the workflow is structured.
 
 </details>
 
@@ -111,10 +119,14 @@ sorted.
 
 ## 3️⃣ Step 3: Connect Telegram and lock it to you (10 min)
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Give n8n your bot's secret key so it can hear messages, and write your ID in the lock so only you get answers.
+Connect Telegram and restrict the bot to you.
+
+1. Add your bot token as a credential on the **Telegram Trigger** and **Reply** nodes.
+2. Find your Telegram user ID (for example, via @userinfobot).
+3. Enter it in the **Only me** check so the bot ignores everyone else.
 
 </details>
 
@@ -131,10 +143,10 @@ Give n8n your bot's secret key so it can hear messages, and write your ID in the
 
 ## 4️⃣ Step 4: Connect Claude (5 min)
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Plug in the AI brain by giving n8n your Anthropic key.
+Add your Anthropic API key as a credential on the **Claude** node. The model is preset, and you can change it later.
 
 </details>
 
@@ -145,10 +157,14 @@ Plug in the AI brain by giving n8n your Anthropic key.
 
 ## 5️⃣ Step 5: Connect Google Calendar (10 min)
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Let Pip peek at your calendar and add events, by signing in to Google through n8n.
+Connect Google Calendar.
+
+1. On the **Upcoming events** node, create a credential using **Sign in with Google**, and allow calendar access.
+2. Select the same credential on the **Create event** node.
+3. Choose which calendar to use.
 
 </details>
 
@@ -163,10 +179,14 @@ The tool parameters use `$fromAI(...)`, which lets the AI fill in values like th
 
 ## 6️⃣ Step 6: First conversation! (10 min)
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Turn it on and say hi. If it answers, your robot is alive! 🎉
+Activate the workflow and test it.
+
+1. Click **Save**, then switch the workflow to **Active**.
+2. Message your bot to say hello, then ask about your schedule.
+3. Ask it to add an event and confirm when it asks.
 
 </details>
 
@@ -183,10 +203,10 @@ Turn it on and say hi. If it answers, your robot is alive! 🎉
 
 ## 🎨 Step 7: Give Pip a personality
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Change how your robot talks: cheerful coach, wise owl, pirate… whatever makes you smile.
+Edit the system message in the **Pip (AI Agent)** node to change its personality, tone and response style. Keep the existing date, tool rules and safety instructions in place.
 
 </details>
 
@@ -204,10 +224,10 @@ Keep the tool rules (confirm before creating events, never invent events). They'
 
 ## 🚀 Level-ups
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Once Pip works, you can teach it new tricks: understanding voice messages, sending you a morning plan, and more.
+Once the basics work, you can add voice message transcription, a scheduled morning briefing, more tools and longer-term memory. The table explains how to add each.
 
 </details>
 
@@ -223,10 +243,10 @@ Once Pip works, you can teach it new tricks: understanding voice messages, sendi
 
 ## 🩺 Troubleshooting
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-If your robot doesn't answer, check these things one by one, like checking if a toy has batteries.
+If Pip doesn't respond or behaves unexpectedly, the table lists common problems, such as an inactive workflow or a missing HTTPS URL, and how to fix each.
 
 </details>
 

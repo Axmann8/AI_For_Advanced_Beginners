@@ -7,12 +7,15 @@ to use AI as editor, sparring partner, researcher and production assistant, whil
 charge. This chapter covers the creator workflow, teaching AI your voice, banishing "AI voice," the AI editor, a repurposing
 machine, special formats, the creator tool stack and the ethics that keep your audience's trust. ✨
 
-<details class="eli5" open>
-<summary>🧸 ELI5: This chapter in 30 seconds</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Writing with AI is like having a really good friend read your work. They help you find ideas when you're stuck, tell you which
-parts are confusing, fix spelling, and turn one story into lots of little posts. But the ideas, the jokes and the way you talk
-are **yours**. That's what makes people want to read it. ✍️💛
+AI is a strong writing partner: it helps generate ideas, research, outline, edit and repurpose content for different channels. What makes your work worth reading, though, is your perspective, your experiences and your voice.
+
+- **Use AI at each stage** of the creative process while you make the key decisions.
+- **Teach it your voice** with a style guide, and ban generic "AI-sounding" phrases.
+- **Its most valuable role is editor:** it finds what's unclear, weak or too long.
+- **Repurpose content** across formats, and stay honest with your audience.
 
 </details>
 
@@ -20,11 +23,10 @@ are **yours**. That's what makes people want to read it. ✍️💛
 
 ## 🔁 The creator's AI workflow
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Making content has steps: ideas, research, planning, writing, fixing, packaging and sharing. AI can help at each step, but
-you make the important choices.
+Content creation moves through stages: ideas, research, outlining, drafting, editing, packaging and distribution. AI helps at each one, but you choose what's worth saying and how to say it. The table divides the work.
 
 </details>
 
@@ -47,10 +49,14 @@ flowchart LR
 
 ## 🗣️ Teaching AI your voice
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Show the AI some of your best writing so it learns how you sound. Save those notes as a "style guide" it reads every time.
+To teach AI your writing voice:
+
+1. Collect five to ten samples of your best writing.
+2. Ask the AI to analyze your style: sentence length, vocabulary, tone, humor and structure.
+3. Save the result as a style guide in a Project or custom instructions, and refine it over time.
 
 </details>
 
@@ -63,11 +69,10 @@ Show the AI some of your best writing so it learns how you sound. Save those not
 
 ## 🚫🤖 Banishing "AI voice"
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-AI writing can sound bland and full of the same tired phrases. Tell it which phrases to avoid, and give it real details only
-you know.
+AI-generated text often relies on generic phrasing and predictable structures. List the phrases and patterns you want avoided, and supply specific details only you know, such as stories, numbers and opinions.
 
 </details>
 
@@ -90,11 +95,10 @@ antidote to blandness.**
 
 ## 🧐 The AI editor (the highest-value use)
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-The best way to use AI for writing is as an editor: you write, and it tells you what's unclear, what's weak and what could
-be shorter.
+Using AI as an editor is often more valuable than having it draft. Write the piece yourself, then ask for edits for clarity and concision, structural feedback or a reader's-eye critique, while preserving your voice. The table offers prompts for each.
 
 </details>
 
@@ -110,11 +114,10 @@ be shorter.
 
 ## ♻️ The content repurposing machine
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Turn one big piece of writing into lots of little ones for different places: a thread, a video script, a newsletter, and
-more.
+One long piece of content can become a week of material: a thread, a LinkedIn post, a newsletter section, a video script and short captions. Ask AI to adapt it to each platform's format and audience.
 
 </details>
 
@@ -138,10 +141,10 @@ flowchart LR
 
 ## 📝 Special formats
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-AI helps with all kinds of writing: emails, speeches, stories, résumés and applications. Here are the best tricks for each.
+AI helps with specific formats too, including emails, speeches, résumés, grant applications and fiction. The table offers a targeted prompt for each.
 
 </details>
 
@@ -158,10 +161,10 @@ AI helps with all kinds of writing: emails, speeches, stories, résumés and app
 
 ## 🧰 The creator tool stack
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-A list of handy tools for writing, pictures, videos, newsletters and scheduling posts.
+The table lists useful tools for each part of a creator's workflow: writing, grammar, images, video, newsletters and scheduling.
 
 </details>
 
@@ -177,11 +180,10 @@ A list of handy tools for writing, pictures, videos, newsletters and scheduling 
 
 ## 📊 Learning from your audience
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-AI can read all the comments and numbers on your posts and tell you what people liked, what confused them, and what they want
-next.
+AI can analyze comments and performance data to identify what your audience values, what confuses them and what they want next, for example by summarizing hundreds of comments into themes and ideas.
 
 </details>
 
@@ -192,11 +194,10 @@ next.
 
 ## 🤝 Ethics & trust
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Be honest with readers: check your facts, don't copy other people's work, and say when AI helped if your readers would want to
-know.
+Maintain your readers' trust: disclose AI use where your audience or platform expects it, never publish unverified facts or quotes, and respect other creators' work.
 
 </details>
 

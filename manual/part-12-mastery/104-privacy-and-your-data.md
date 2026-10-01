@@ -7,13 +7,15 @@ paranoid, just intentional. This chapter explains what happens to what you type,
 a simple traffic-light system for deciding what to share, how to handle work data, connectors and kids' data, when to go fully
 local, and how to build privacy-respecting AI tools yourself. 🛡️
 
-<details class="eli5" open>
-<summary>🧸 ELI5: This chapter in 30 seconds</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-When you tell an AI something, it's a bit like writing it on a postcard: it travels to the AI company's computers. Most of the
-time that's fine. But some things, like passwords, secret family stuff or bank numbers, you'd never write on a postcard. This
-chapter teaches you which things are OK to share, which settings to switch on, and how to use AI that stays on your own
-computer for the really secret stuff. 📮🔐
+Anything you type into a cloud AI service is sent to the provider's servers, where it may be stored and, depending on your settings, used for training. Most everyday use is fine, but some information should never be shared, and some belongs only with local models.
+
+1. **Understand what happens** to your data with each provider.
+2. **Review the privacy settings** in every AI app you use.
+3. **Apply the traffic-light system** to decide what to share.
+4. **Use local AI** for your most sensitive information.
 
 </details>
 
@@ -21,11 +23,10 @@ computer for the really secret stuff. 📮🔐
 
 ## 📮 What happens to what you type?
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Your messages go to the AI company's computers so the AI can answer. Depending on your settings, they might be saved, or used to
-help teach future AIs.
+Your messages go to the provider's servers so the model can respond. Depending on the product and your settings, they may be retained for a period and used to improve future models. The table summarizes the general picture; check each product's current policy.
 
 </details>
 
@@ -45,10 +46,10 @@ help teach future AIs.
 
 ## ⚙️ Settings to check in every AI app
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Every AI app has privacy switches. Spend 20 minutes finding them and setting them the way you like.
+Spend twenty minutes reviewing these settings in each AI app: training, chat history, memory, connected apps, temporary chats and data export or deletion.
 
 </details>
 
@@ -68,11 +69,10 @@ Every AI app has privacy switches. Spend 20 minutes finding them and setting the
 
 ## 🚦 The traffic-light system: what to share
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Green things are fine to share. Yellow things are OK with care. Red things you should never share, or only with AI that lives on
-your own computer.
+The traffic-light system sorts information by sensitivity: 🟢 general questions are fine to share, 🟡 personal details need care, and 🔴 passwords, ID numbers and confidential data should never be shared, or should only go to local models. The table gives examples.
 
 </details>
 
@@ -90,10 +90,10 @@ sharing it with an AI tool."* (Do this on a local model if the doc is sensitive!
 
 ## 💼 Work data & company policies
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Your job has its own rules about AI. Use the AI tools your work says are OK, and never paste secret work stuff into random apps.
+At work, use only your company's approved AI tools and plans, follow its policies on confidential data, and never paste sensitive work information into personal accounts. The table lists do's and don'ts.
 
 </details>
 
@@ -110,11 +110,10 @@ safe options beat shadow IT.
 
 ## 🔌 Connectors, MCP & permissions
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-When you connect AI to your email or files, it can read them. Only give it access to what it really needs, and remove access
-when you're done.
+Connectors give AI access to your email, files and other accounts. Connect only what's needed, prefer read-only access, and remove connections you no longer use. The table explains each principle.
 
 </details>
 
@@ -128,10 +127,10 @@ when you're done.
 
 ## 🏠 Going local for maximum privacy
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-For the most secret stuff, use an AI that lives on your own computer. Then nothing ever leaves your house.
+Local models run entirely on your device, so nothing leaves your computer. They're the right choice for journals, health records, financial documents and confidential client data.
 
 </details>
 
@@ -150,10 +149,10 @@ cleaned version. 🔒➡️☁️
 
 ## 👨‍👩‍👧 Kids, family & other people's data
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Be extra careful with photos and information about kids and other people, because they didn't get to choose whether to share.
+Take extra care with information about children and other people, who haven't consented to sharing. Avoid uploading identifiable photos of children to unfamiliar tools, and remove other people's personal details from documents.
 
 </details>
 
@@ -165,10 +164,10 @@ Be extra careful with photos and information about kids and other people, becaus
 
 ## ⚖️ Your rights
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-In many places, laws say you can ask companies what data they have about you, and ask them to delete it.
+Depending on where you live, privacy laws such as the GDPR and CCPA may give you the right to access, correct and delete your data and to opt out of certain uses. Most providers offer forms or settings for these requests.
 
 </details>
 
@@ -179,11 +178,10 @@ is a great AI task. ✉️
 
 ## 🛠️ Privacy for builders
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-If you build AI apps for other people, treat their information the way you'd want yours treated: collect less, protect it,
-explain what you do, and let them delete it.
+If you build AI applications, collect only the data you need, protect it, explain clearly how it's used and let users delete it. The table describes each principle in practice.
 
 </details>
 

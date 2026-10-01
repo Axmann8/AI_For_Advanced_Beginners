@@ -7,12 +7,15 @@ You'll run and test Weather Buddy (live weather, forecasts and packing advice fr
 with a new tool, connect it to Claude, publish it to **npm**, list it in the **official MCP Registry**, and optionally host it
 as a **remote server**. By the end, you're an MCP author. 🎉
 
-<details class="eli5" open>
-<summary>🧸 ELI5: This build in 30 seconds</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-An MCP server is a plug-in that gives AI a new skill. We'll take a weather plug-in, test it, add your own twist, and then put
-it in the world's "plug-in shop" (npm and the MCP Registry) so anyone can install it with one line. It's like writing a
-little app and putting it in an app store. ☔🛍️
+In this project you'll take a working weather MCP server, test it, add a tool of your own and publish it to npm and the official MCP Registry so anyone can install it with one line of configuration.
+
+1. **Run and test** the starter kit, then explore it in the MCP Inspector.
+2. **Add your own tool** and connect the server to Claude.
+3. **Publish** to npm and list it in the MCP Registry.
+4. **Optionally host it remotely,** and maintain it with versioned releases.
 
 </details>
 
@@ -26,11 +29,10 @@ little app and putting it in an app store. ☔🛍️
 
 ## 🗺️ What you'll build
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-You'll test the plug-in on your computer, connect it to Claude, then share it on npm and the MCP Registry, and maybe put it on
-the internet too.
+You'll test the server locally, connect it to Claude, publish it to npm and the MCP Registry, and optionally deploy it as a remote server. The diagram shows the path.
 
 </details>
 
@@ -50,10 +52,10 @@ Streamable HTTP mode with optional bearer-token auth, an offline smoke test, a `
 
 ## ✅ Before you start
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Make sure you have Node.js installed and accounts on GitHub and npm (both free).
+Before starting, make sure you have Node.js 18 or later, a GitHub account (which provides your registry namespace) and a free npm account.
 
 </details>
 
@@ -65,10 +67,10 @@ Make sure you have Node.js installed and accounts on GitHub and npm (both free).
 
 ## 1️⃣ Step 1: Run and test the kit (15 min)
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Download the parts, then run the automatic test that checks everything works, without even needing the internet.
+Install the kit's dependencies and run its smoke test. The test starts a mock weather service and calls each tool, so it works without an internet connection or API key.
 
 </details>
 
@@ -93,10 +95,14 @@ checks that the HTTP mode rejects requests without the right token. Tests that n
 
 ## 2️⃣ Step 2: Explore it in the MCP Inspector (15 min)
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-The Inspector is a test window where you can press your plug-in's buttons yourself and see exactly what the AI would see.
+Explore the server in the MCP Inspector.
+
+1. Run the Inspector command and click **Connect**.
+2. Open **Tools**, select `get_forecast` and enter a city.
+3. Run it and review the exact response the AI would receive.
 
 </details>
 
@@ -116,10 +122,14 @@ Look at how each tool has a **title**, **description**, **input schema** and **a
 
 ## 3️⃣ Step 3: Make it yours (45 min)
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Add your own new button to the plug-in, like "is it a good day for a picnic?" Your AI coding helper can write most of it.
+Add a fourth tool of your own, such as a picnic score or a "what to wear" suggestion.
+
+1. Choose an idea from the table or invent one.
+2. Ask a coding agent to implement it following the existing tools' pattern.
+3. Add a test for it and run the smoke test again.
 
 </details>
 
@@ -144,10 +154,10 @@ Then **update the version** in `package.json` and `server.json` (e.g. `1.1.0`: n
 
 ## 4️⃣ Step 4: Connect it to Claude (10 min)
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Plug your new skill into Claude and ask it about the weather. Claude will use your plug-in to answer.
+Add the server to Claude Code or Claude Desktop using the configuration below, restart if needed, and ask a weather question to confirm Claude uses your tools.
 
 </details>
 
@@ -177,10 +187,14 @@ call your tools. 🤩
 
 ## 5️⃣ Step 5: Prepare for publishing (20 min)
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Before putting your plug-in in the shop, give it your name, a good description and a clear instruction page.
+Prepare the package for publishing.
+
+1. Create a GitHub repository and copy in the kit's files.
+2. Update `package.json` with your package name, description and repository URL.
+3. Write a clear README with installation and usage instructions.
 
 </details>
 
@@ -204,10 +218,10 @@ Before putting your plug-in in the shop, give it your name, a good description a
 
 ## 6️⃣ Step 6: Publish to npm (10 min)
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-npm is the giant shop for JavaScript packages. Publishing puts your plug-in there so anyone can download it with one command.
+Publish to npm with `npm login` and `npm publish`. Anyone can then run your server with `npx`, without downloading or installing anything first.
 
 </details>
 
@@ -231,10 +245,14 @@ Now anyone can run your server with **no download or install step**:
 
 ## 7️⃣ Step 7: List it in the MCP Registry (15 min)
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-The MCP Registry is the official list of plug-ins that AI apps can search. Adding yours helps people find it.
+List your server in the official MCP Registry so clients and catalogs can find it.
+
+1. Install the `mcp-publisher` tool.
+2. Create a `server.json` that points to your npm package.
+3. Authenticate with GitHub and publish.
 
 </details>
 
@@ -258,11 +276,10 @@ mcp-publisher publish          # reads server.json and publishes the listing
 
 ## 🌍 Step 8 (optional): Host it as a remote server
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-You can also run your plug-in on a computer on the internet, so it works from phones and web apps without anyone installing
-anything.
+Optionally, deploy the server with the Streamable HTTP transport to a host like Cloudflare or Render. Remote servers work from web and mobile AI apps without any installation; add authentication if they access private data.
 
 </details>
 
@@ -288,10 +305,10 @@ Remote servers work from Claude on the web and mobile, and from other people's a
 
 ## 🔁 Maintaining your server
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-After you share it, keep your plug-in healthy: fix bugs, add features, and give each new version a new number.
+Maintain your server with semantic versioning (patch, minor and major releases), a changelog, automated tests and prompt responses to issues. The table explains each habit.
 
 </details>
 
@@ -305,10 +322,10 @@ After you share it, keep your plug-in healthy: fix bugs, add features, and give 
 
 ## 🩺 Troubleshooting
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-If something doesn't work, here are the usual suspects and how to fix them.
+The table lists common problems, such as Claude not detecting the tools or publishing errors, with a fix for each.
 
 </details>
 

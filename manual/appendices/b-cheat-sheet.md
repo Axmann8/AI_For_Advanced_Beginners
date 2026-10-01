@@ -5,11 +5,13 @@
 **The whole manual, squeezed onto (a very long) one page.** Every section here is a reminder of a full chapter, so when a line
 makes you think *"wait, how does that work?"*, follow the link. Print it, pin it, screenshot it. 📌
 
-<details class="eli5" open>
-<summary>🧸 ELI5: This page in 30 seconds</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-This is the "tiny notes" version of the whole book, like the notes you'd bring into a test if the teacher allowed it. Each
-little box reminds you of a big idea. 📝
+This cheat sheet condenses the manual's most important ideas, commands and checklists into quick-reference sections. Each section links to the chapter with full details.
+
+- **Use it as a refresher** after reading the relevant chapters.
+- **Print it** and keep it nearby while you work.
 
 </details>
 
@@ -17,10 +19,10 @@ little box reminds you of a big idea. 📝
 
 ## 🧠 The core ideas
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-The biggest lessons of the whole manual, in six lines.
+These six principles summarize the manual's most important lessons.
 
 </details>
 
@@ -33,10 +35,10 @@ The biggest lessons of the whole manual, in six lines.
 
 ## 🤖 Assistant quick reference
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Where to find the most useful features in each popular AI app.
+This table shows where to find the most useful features in ChatGPT, Gemini, Claude, Copilot and Perplexity.
 
 </details>
 
@@ -54,10 +56,10 @@ Full guides: [Part II · The AI Assistants Field Guide](../part-2-ai-assistants-
 
 ## 🪜 The knowledge ladder
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Six ways to teach AI your stuff, from easiest to hardest.
+The knowledge ladder lists the ways to give AI your information, from simplest to most involved.
 
 </details>
 
@@ -69,10 +71,10 @@ in your own app? **RAG.**
 
 ## 🔌 MCP quick reference
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-The commands and settings for plugging new tools into your AI apps.
+These commands and configuration snippets add MCP servers to the most common AI apps.
 
 </details>
 
@@ -100,10 +102,10 @@ npx @modelcontextprotocol/inspector <command> <args>
 
 ## ⚙️ The automation pattern
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Every robot recipe looks the same: something happens, gather info, let AI think, decide where it goes, then do something.
+Every automation follows the same pattern: trigger, gather, AI, route, act. The table recommends a platform for each need.
 
 </details>
 
@@ -120,10 +122,10 @@ Every robot recipe looks the same: something happens, gather info, let AI think,
 
 ## 🧑‍💻 Claude Code essentials
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-The most useful keys and commands for your AI coding helper.
+These are the most useful Claude Code keys and commands.
 
 </details>
 
@@ -143,10 +145,10 @@ The most useful keys and commands for your AI coding helper.
 
 ## 🌳 Git in 8 commands
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-The save-point commands you'll use every day.
+These eight Git commands cover nearly all everyday version control.
 
 </details>
 
@@ -165,10 +167,10 @@ git log --oneline   # history
 
 ## 🐍 API quick reference
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-The smallest program that talks to Claude, plus the key settings.
+This is a minimal Claude API program, followed by the key options for streaming, structured output, tools and more.
 
 </details>
 
@@ -193,10 +195,10 @@ print(r.content[0].text, r.usage)
 
 ## 🏷️ Picking a model
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Start with a good all-rounder, go bigger for hard jobs, smaller for simple repeated jobs, and home AI for secrets.
+Start with a mid-tier "workhorse" model, move up a tier for difficult tasks, move down for simple high-volume tasks, and use local models for sensitive data.
 
 </details>
 
@@ -207,10 +209,10 @@ Start with a good all-rounder, go bigger for hard jobs, smaller for simple repea
 
 ## 🏠 Local AI in 5 commands
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-The commands for running AI on your own computer.
+These commands install and run local models, along with a rule of thumb for how much memory each model needs.
 
 </details>
 
@@ -226,10 +228,10 @@ ollama launch claude       # Claude Code on local models
 
 ## 📚 RAG in 4 moves
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Cut into cards, give each card a meaning-address, find the best cards, answer only from them.
+A RAG system works in four steps: chunk, embed, search and answer from the retrieved sources with citations.
 
 </details>
 
@@ -239,10 +241,10 @@ Not enough? Hybrid search · reranking · contextual chunks · agentic retrieval
 
 ## 🌐 HTTP status codes
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-The number codes websites send back: 200 means "yay," 400s mean "you made a mistake," 500s mean "they made a mistake."
+HTTP status codes in the 200s mean success, the 400s mean a problem with your request, and the 500s mean a problem on the server.
 
 </details>
 
@@ -250,10 +252,10 @@ The number codes websites send back: 200 means "yay," 400s mean "you made a mist
 
 ## 💸 Cost savers (in order)
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Ways to spend less on AI, starting with the ones that don't make anything worse.
+These cost-saving techniques are listed in order, starting with those that don't affect quality.
 
 </details>
 
@@ -262,10 +264,10 @@ Caching → trim input → filter before AI → dedupe → batch → lower effor
 
 ## 🛡️ Safety pre-flight
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Check these before letting a robot run by itself.
+Confirm each item on this checklist before letting an automation or agent run unattended.
 
 </details>
 
@@ -278,10 +280,10 @@ Check these before letting a robot run by itself.
 
 ## 🚦 Privacy traffic lights
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Green is fine to share, yellow needs care, red never (or only with home AI).
+Share green-category information freely, yellow with care, and red never, or only with local models.
 
 </details>
 
@@ -293,10 +295,10 @@ Green is fine to share, yellow needs care, red never (or only with home AI).
 
 ## 🧪 The 15-minute eval
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Test AIs fairly: same questions, clear scoring, no peeking.
+A fair evaluation uses the same tasks for every option, clear scoring criteria and blind comparison.
 
 </details>
 
@@ -305,10 +307,10 @@ Test AIs fairly: same questions, clear scoring, no peeking.
 
 ## 🎓 Learning with AI
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Use AI as a coach that asks questions, not a machine that does your homework.
+Use AI to strengthen your learning: attempt problems first, ask for hints rather than answers, explain concepts back and quiz yourself regularly.
 
 </details>
 
@@ -317,10 +319,10 @@ repetition) → verify important facts. ([Research & Learning](../part-11-ai-for
 
 ## 🎮 Ten prompts to try right now
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Ten ready-to-copy questions that show off what AI can do.
+These ten prompts demonstrate a wide range of what AI can do. Copy them and adapt the details.
 
 </details>
 

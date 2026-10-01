@@ -12,12 +12,15 @@ chapter shows you how, with an important promise: **AI helps you understand; you
 > AI can explain, calculate and organize, but it can be wrong, and it doesn't know your full situation. For investments, taxes,
 > debt strategy, insurance and retirement decisions, verify the numbers and talk to a qualified professional.
 
-<details class="eli5" open>
-<summary>🧸 ELI5: This chapter in 30 seconds</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Money can feel confusing, like a jigsaw puzzle with lots of pieces. AI can help sort the pieces: show you where your money goes
-each month, help you make a plan to save for something you want, and explain grown-up money words like "interest" in simple
-ways. It's like a friendly teacher for money, but for the really big choices, you still ask a real expert. 🐷💰
+AI can help you understand your spending, build a realistic budget, plan for savings goals and debt repayment, and learn financial concepts. It's a useful tool for organizing and understanding, but major financial decisions still benefit from a qualified professional.
+
+1. **Analyze your spending** by uploading redacted bank transactions.
+2. **Build a budget** using a method that fits your life.
+3. **Plan goals** for savings and debt repayment.
+4. **Learn concepts** and protect yourself from AI-powered scams.
 
 </details>
 
@@ -25,11 +28,10 @@ ways. It's like a friendly teacher for money, but for the really big choices, yo
 
 ## 🗺️ What AI is great at (and not) with money
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-AI is great at sorting, explaining and calculating. It's not great at predicting the future or knowing what's right for your
-whole life.
+AI is excellent at categorizing, explaining and calculating. It can't predict markets or know your full financial situation, and it shouldn't replace professional advice on major decisions. The table compares strengths and cautions.
 
 </details>
 
@@ -49,11 +51,15 @@ whole life.
 
 ## 🔍 Where does my money go? (the spending analyzer)
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Download your bank's list of spending, give it to AI, and it sorts everything into groups like "food" and "fun," then draws
-charts so you can see where the money went.
+To see where your money goes:
+
+1. Export three months of transactions as a CSV from your bank.
+2. Remove account numbers and anything else you prefer not to share.
+3. Upload the file to an assistant with code execution.
+4. Ask it to categorize spending, chart the totals and highlight patterns.
 
 </details>
 
@@ -71,11 +77,10 @@ charts so you can see where the money went.
 
 ## 🧮 A budget you'll actually keep
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-A budget is a plan for your money: how much for needs, how much for fun, and how much to save. AI helps you make one that fits
-your real life.
+A budget plans how your income is divided between needs, wants and savings. Methods like 50/30/20, zero-based budgeting and pay-yourself-first suit different people; AI can tailor any of them to your income and expenses. The table includes prompts.
 
 </details>
 
@@ -91,10 +96,10 @@ budget. What went well? One thing to adjust?"*), and celebrating wins. 🎉
 
 ## 🎯 Goals, savings & debt plans
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-AI can make a plan for saving up for something special or paying off money you owe, showing how long it'll take each month.
+AI can build month-by-month plans for savings goals, debt repayment (comparing avalanche and snowball methods) and emergency funds, showing how long each will take. The table offers prompts.
 
 </details>
 
@@ -115,10 +120,10 @@ flowchart LR
 
 ## 📚 Money concepts in plain English
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Grown-up money words can be confusing. AI can explain any of them simply, with examples, and quiz you until you understand.
+AI is a patient, judgment-free tutor for financial concepts such as compound interest, APR, index funds and tax brackets. Ask for plain explanations with examples, then ask it to quiz you.
 
 </details>
 
@@ -136,10 +141,10 @@ Use AI as a **judgment-free money tutor** ([Research & Learning](91-research-and
 
 ## ⚖️ Big purchases & comparisons
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Before buying something big, AI can compare the choices side by side, including hidden costs, so you pick the best one.
+For major purchases, ask AI to compare options over their full lifetime, including hidden costs like insurance, maintenance, financing and resale value.
 
 </details>
 
@@ -152,11 +157,10 @@ Before buying something big, AI can compare the choices side by side, including 
 
 ## 🧾 Taxes & paperwork
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-At tax time, AI can help you gather and organize the papers and explain the forms, but a tax expert or official tool should
-check the final answers.
+At tax time, AI can help you list the documents you need, organize receipts and explain forms. Have a tax professional or official software check your final return.
 
 </details>
 
@@ -168,11 +172,10 @@ check the final answers.
 
 ## 🗣️ Negotiating & saving money
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-AI can write polite messages asking for a better price, a refund or a lower bill, and help you practice what to say on the
-phone.
+AI can write scripts and messages for negotiating a lower bill, requesting a refund or disputing a charge, and help you rehearse phone calls. The table gives prompts for common situations.
 
 </details>
 
@@ -186,11 +189,10 @@ phone.
 
 ## 🛡️ Scams & AI-powered fraud
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Bad people use AI too, for example faking a family member's voice on the phone. If a message is urgent and asks for money,
-stop, check with the real person, and ask AI if it looks like a scam.
+Scammers use AI to fake voices, write convincing emails and create deepfakes. If a message is urgent and asks for money, stop and verify through a channel you already trust. AI can also give you a second opinion on whether a message looks like a scam.
 
 </details>
 

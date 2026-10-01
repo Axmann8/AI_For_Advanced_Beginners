@@ -8,12 +8,15 @@ tested tools from the [voice-receptionist workflow](../../examples/n8n-workflows
 tricky calls, add a human handoff and post-call summaries, and launch it responsibly. Perfect for a small business, a side
 hustle, or just the coolest party trick you'll ever show your friends. 📞✨
 
-<details class="eli5" open>
-<summary>🧸 ELI5: This build in 30 seconds</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-We're building a robot receptionist that answers the phone for a pretend (or real!) business. When someone calls, it says hello,
-answers questions like "what are your opening hours?", checks the calendar for free times, books the appointment, and then texts
-the owner a summary. It always says it's an AI, and it can pass the call to a real person when needed. ☎️🤖
+In this project you'll build an AI phone receptionist for a business. It answers calls, responds to common questions, checks calendar availability, books appointments and sends the owner a summary after each call. It identifies itself as an AI and can transfer callers to a person when needed.
+
+1. **Import and test** the n8n calendar tools.
+2. **Create the voice agent** with instructions written for spoken conversation.
+3. **Connect the tools** and test with many kinds of callers.
+4. **Add handoff and summaries,** then go live responsibly.
 
 </details>
 
@@ -26,11 +29,10 @@ the owner a summary. It always says it's an AI, and it can pass the call to a re
 
 ## 🗺️ What you'll build
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-A caller talks to the voice robot. When it needs to check or book times, it asks n8n, which talks to Google Calendar. After the
-call, you get a summary.
+A caller speaks with the voice agent, which calls n8n webhooks to check availability and book appointments in Google Calendar. After the call, n8n sends you a summary. The diagram shows the sequence.
 
 </details>
 
@@ -57,10 +59,10 @@ sequenceDiagram
 
 ## ✅ Before you start
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-You'll need an account on a voice-robot website, the automation tool n8n on the internet, and a Google calendar.
+You'll need an account on a voice agent platform (Vapi, Retell or ElevenLabs Agents), n8n reachable over HTTPS and a Google Calendar.
 
 </details>
 
@@ -72,11 +74,14 @@ You'll need an account on a voice-robot website, the automation tool n8n on the 
 
 ## 1️⃣ Step 1: Import and test the tools (30 min)
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Load the two ready-made robot helpers into n8n (one checks free times, one books), and test them before the voice robot uses
-them.
+Import and test the calendar tools first.
+
+1. Import `voice-receptionist-tools.json` into n8n.
+2. Connect your Google Calendar credential.
+3. Test both webhooks (check availability and book appointment) with sample requests before connecting the voice agent.
 
 </details>
 
@@ -106,10 +111,14 @@ them.
 
 ## 2️⃣ Step 2: Create the voice agent (30 min)
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-On the voice-robot website, make a new receptionist, choose its voice, and give it instructions written for talking out loud.
+Create the voice agent.
+
+1. Create a new agent on your platform.
+2. Choose fast speech-to-text, a language model and a natural voice.
+3. Paste the system prompt from the kit, written for spoken conversation, and customize the business details.
 
 </details>
 
@@ -145,10 +154,10 @@ More on writing for the ear in [Voice Agents](../part-10-creative-ai/87-voice-ag
 
 ## 3️⃣ Step 3: Connect the tools (30 min)
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Tell the voice robot about its two helpers: "check free times" and "book appointment," and where to find them on the internet.
+Add the two n8n webhooks as custom tools on the voice platform, with clear descriptions of when to use each and the parameters they expect. The table lists the details.
 
 </details>
 
@@ -174,11 +183,10 @@ agent decides when to call it ([Build Your Own Agent](../part-7-building-with-ai
 
 ## 4️⃣ Step 4: Test like a mischievous caller (45 min)
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Pretend to be all sorts of tricky callers (confused, chatty, grumpy) and see how the robot handles each one. Then fix what
-goes wrong.
+Test thoroughly, first with web test calls and then from a real phone. Try each scenario in the table, including confused, talkative and difficult callers, and fix what goes wrong.
 
 </details>
 
@@ -202,10 +210,10 @@ After each round, update the system prompt or tool descriptions, and **re-test t
 
 ## 5️⃣ Step 5: Human handoff & messages (30 min)
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Sometimes a caller needs a real person. Set up a way for the robot to pass the call on, or take a message for the owner.
+Set up a way to reach a person: a call transfer tool for urgent or complex requests, and a message-taking flow for when no one is available.
 
 </details>
 
@@ -216,10 +224,10 @@ Sometimes a caller needs a real person. Set up a way for the robot to pass the c
 
 ## 6️⃣ Step 6: Post-call summaries (30 min)
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-After each call, get a short report on your phone: who called, what they wanted, and what happened.
+Configure the platform to send an end-of-call report (transcript, summary and recording link) to an n8n webhook, which forwards a short summary to your phone or email.
 
 </details>
 
@@ -233,11 +241,10 @@ callers ask most? What should I add to the FAQ?"* 📊
 
 ## 7️⃣ Step 7: Go live responsibly (30 min)
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Before real customers call, double-check the robot says it's an AI, follows the rules about recording and calling, and has
-spending limits.
+Before going live, connect a phone number, run a final round of tests, confirm the agent discloses that it's an AI, follow recording and calling regulations, and set spending limits.
 
 </details>
 
@@ -258,10 +265,10 @@ More in [Safety, Costs & Gotchas](../part-12-mastery/103-safety-costs-and-gotcha
 
 ## 🚀 Level-ups
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Once it works, you can teach the receptionist new tricks: reminders, cancellations, other languages, and more.
+Once it's working, you can add appointment reminders, cancellations and rescheduling, multiple languages and integration with your CRM. The table describes each idea.
 
 </details>
 
@@ -276,10 +283,10 @@ Once it works, you can teach the receptionist new tricks: reminders, cancellatio
 
 ## 🩺 Troubleshooting
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-If calls go wrong, here are the usual culprits and fixes.
+The table lists common problems, such as tools never being called or the agent talking over callers, with a fix for each.
 
 </details>
 

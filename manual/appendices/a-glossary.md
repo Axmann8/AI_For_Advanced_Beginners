@@ -6,11 +6,14 @@
 sidebar or the cards below. Tip: on the website, **acronyms anywhere in the manual show their ELI5 when you hover over
 them** (or tap them on a phone). That magic comes from this page. ✨
 
-<details class="eli5" open>
-<summary>🧸 ELI5: This page in 30 seconds</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-This is the dictionary at the back of the book. Every tricky AI word is here, first with a grown-up explanation and then with a
-super-simple one, so you'll never feel lost. 📚🙂
+This glossary defines more than 200 AI terms used in this manual. Each entry gives a clear definition and a practical example of where you'll encounter the term or how it's used.
+
+- **Search** with your browser's find function (Ctrl/Cmd+F) or the site search.
+- **Follow the links** to the chapter that covers each term in depth.
+- **On the website,** hovering over common acronyms anywhere in the manual shows their definitions.
 
 </details>
 

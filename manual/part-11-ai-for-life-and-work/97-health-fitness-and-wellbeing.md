@@ -13,12 +13,15 @@ appointments, fitness and nutrition plans, sleep and habits, wearable data, ment
 > emergency services or a crisis line right now** (in the US, call or text **988**; elsewhere, your local emergency number or
 > crisis service). AI is not a substitute for urgent human help.
 
-<details class="eli5" open>
-<summary>🧸 ELI5: This chapter in 30 seconds</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-AI can be like a friendly helper for staying healthy: it can make you a fun exercise plan, suggest healthy dinners, explain
-what a doctor's words mean, and help you think of questions to ask at your checkup. But it's not a real doctor, so for anything
-serious, or if you feel really sad or unwell, you always talk to a real person who can help. 🩺🤗
+AI can help you understand health information, prepare for appointments, plan exercise and meals, and build healthier habits. It is not a doctor: for diagnosis, treatment or anything urgent, consult a professional, and if you're struggling emotionally, reach out to a real person or a helpline.
+
+- **Use AI to learn and prepare:** explain terms, organize symptoms and draft questions for your doctor.
+- **Personalize** fitness and nutrition plans to your schedule, equipment and preferences.
+- **Mental wellbeing:** AI can support reflection, but it isn't a substitute for professional care.
+- **Protect your health data** by sharing only what's needed.
 
 </details>
 
@@ -26,10 +29,10 @@ serious, or if you feel really sad or unwell, you always talk to a real person w
 
 ## 🗺️ AI's role in your health
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-AI is great for learning, planning and preparing. Doctors and other experts are for diagnosing, treating and deciding.
+AI is useful for explaining, planning and preparing. Diagnosis, treatment and medication decisions belong to qualified professionals. The table lists what fits on each side.
 
 </details>
 
@@ -44,11 +47,14 @@ AI is great for learning, planning and preparing. Doctors and other experts are 
 
 ## 📋 Understanding health information & appointments
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Doctors sometimes use big words. AI can explain them, help you write down your questions before the visit, and help you
-remember what the doctor said afterwards.
+AI can help before and after medical appointments.
+
+1. **Before:** organize your symptoms (when they started, what helps, what makes them worse) and list your questions.
+2. **During:** take notes or, with permission, record the key points.
+3. **After:** ask AI to explain unfamiliar terms in plain language, and confirm anything important with your doctor.
 
 </details>
 
@@ -75,11 +81,10 @@ settings carefully ([Privacy & Your Data](../part-12-mastery/104-privacy-and-you
 
 ## 🏋️ Fitness plans that fit your life
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Tell the AI what equipment you have, how much time, and what you like, and it makes an exercise plan just for you, and changes
-it as you get stronger.
+AI fitness plans work best when personalized to your schedule, available equipment, experience, preferences and any limitations. Describe these in detail, as in the example below, and ask it to adjust the plan as you progress.
 
 </details>
 
@@ -104,10 +109,10 @@ Keep it encouraging!
 
 ## 🥗 Nutrition & meal planning
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-AI can plan tasty, healthy meals for the week, make a shopping list, and use up what's in your fridge.
+AI can create weekly meal plans that fit your dietary needs, time and budget, generate shopping lists organized by store section, and suggest recipes for what's already in your fridge.
 
 </details>
 
@@ -119,11 +124,10 @@ AI can plan tasty, healthy meals for the week, make a shopping list, and use up 
 
 ## 😴 Sleep, habits & wearables
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-AI can help you build good habits, like sleeping better or drinking more water, and can read your fitness tracker numbers to
-spot patterns.
+AI can help you build habits around sleep, hydration and activity by suggesting small, realistic steps, and it can analyze data from fitness trackers to spot patterns. The table offers prompts for each area.
 
 </details>
 
@@ -137,11 +141,10 @@ spot patterns.
 
 ## 🧠 Mental wellbeing: supportive, not a substitute
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Talking to AI can help you sort out your feelings, like writing in a diary that answers back. But if you feel very sad, scared,
-or unsafe, talk to a real person: a trusted adult, a doctor, a counselor or a helpline.
+Many people find AI helpful for journaling, reflecting and rehearsing difficult conversations. It isn't a therapist, though. If you're feeling persistently low, anxious or unsafe, contact a doctor, counselor or crisis line, and keep investing in your relationships.
 
 </details>
 
@@ -168,11 +171,10 @@ take breaks.
 
 ## 👵 Caring for others
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-If you look after someone, like a grandparent, AI can help keep track of their medicines and appointments, and explain things
-so you can help them better.
+If you care for someone else, AI can turn a medication list into a printable daily schedule, track appointments and explain conditions and instructions. Always confirm medication details with a pharmacist or doctor.
 
 </details>
 
@@ -184,11 +186,10 @@ so you can help them better.
 
 ## 🔒 Health data privacy
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Health information is very private. Only share what you need to, check the app's privacy settings, and use apps that keep
-things on your own device for really private stuff.
+Health information is highly sensitive. Share only what's necessary, remove names and ID numbers from documents, review the app's privacy settings, and use on-device tools for the most private information. The table explains each guideline.
 
 </details>
 

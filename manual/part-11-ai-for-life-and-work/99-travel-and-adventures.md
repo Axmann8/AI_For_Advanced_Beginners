@@ -7,12 +7,15 @@ realistic itinerary, compare routes and budgets, build packing lists for the act
 menus and signs through your camera, and rescue you when trains get cancelled. This chapter covers the full journey: dreaming,
 planning, booking, packing, on the road and after you're home. Bon voyage! 🧳🌍
 
-<details class="eli5" open>
-<summary>🧸 ELI5: This chapter in 30 seconds</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Planning a trip is like planning a treasure hunt: where to go, how to get there, what to pack, what to see. AI can help with
-all of it: suggest cool places, make a day-by-day plan, tell you what clothes to bring, help you say "hello" and "thank you" in
-another language, and even read a menu written in a language you don't know. 🍝🗼
+AI can help with every stage of travel: choosing destinations, building realistic itineraries, comparing transport and accommodation, packing, communicating in other languages and handling problems along the way.
+
+1. **Find destinations** based on your interests, time and budget.
+2. **Build an itinerary** with realistic pacing and verified details.
+3. **Compare and book** transport and accommodation yourself.
+4. **Travel with AI** for translation, changed plans and recommendations, then use it to preserve memories afterward.
 
 </details>
 
@@ -20,10 +23,10 @@ another language, and even read a menu written in a language you don't know. �
 
 ## 💭 Dreaming: where should I go?
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Tell AI what you love and how much time and money you have, and it suggests places you might never have thought of.
+Describe your interests, dates, budget and starting point, and ask AI to suggest destinations with reasons, including some you might not have considered.
 
 </details>
 
@@ -40,10 +43,10 @@ Tell AI what you love and how much time and money you have, and it suggests plac
 
 ## 🗓️ Planning a realistic itinerary
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-AI makes you a day-by-day plan with time for rest and snacks, so the trip is fun instead of exhausting.
+Ask for a day-by-day itinerary with realistic travel times, rest breaks and meal stops. Then verify opening hours, prices and booking requirements on official websites. The table lists ways to improve the plan.
 
 </details>
 
@@ -72,10 +75,10 @@ Plan a 4-day trip to Kyoto for two slow travelers who love food, gardens and sma
 
 ## 🎫 Booking & comparing
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-AI can help you compare flights, trains and hotels, and spot the hidden costs, but you do the actual booking yourself.
+AI can compare transport options on door-to-door time, cost and convenience, and help identify hidden fees in accommodation and flights. Do the actual booking yourself through trusted sites.
 
 </details>
 
@@ -87,11 +90,10 @@ AI can help you compare flights, trains and hotels, and spot the hidden costs, b
 
 ## 🧳 Packing lists & practical prep
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-AI makes a packing list for the weather where you're going and the things you'll do, so you don't forget your swimsuit or
-your charger.
+Ask for a packing list based on the destination's expected weather, your activities, trip length and luggage limits, grouped by category so nothing gets forgotten.
 
 </details>
 
@@ -114,11 +116,10 @@ your charger.
 
 ## 🗣️ Languages & communication
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-AI can teach you a few useful words before you go, translate conversations, and read menus and signs through your phone's
-camera.
+AI can teach you essential phrases before you go, translate conversations in real time, and read menus and signs through your phone camera. The table lists tools and prompts for each need.
 
 </details>
 
@@ -133,11 +134,10 @@ camera.
 
 ## 🚆 On the road: your pocket travel buddy
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-During the trip, AI can help when plans go wrong, find somewhere to eat, explain what you're looking at, and keep your
-travel diary.
+During a trip, AI can help you reorganize when plans change, find nearby food, explain what you're seeing and keep a travel journal. The table offers prompts for common moments.
 
 </details>
 
@@ -152,10 +152,10 @@ travel diary.
 
 ## 🌄 Adventures closer to home
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-You don't need to go far for an adventure. AI can plan hikes, day trips, picnics and treasure hunts right near home.
+AI can plan local adventures too: day trips, hikes, picnics and inexpensive weekend outings within a short distance of home.
 
 </details>
 
@@ -168,10 +168,10 @@ You don't need to go far for an adventure. AI can plan hikes, day trips, picnics
 
 ## 📸 After the trip
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-When you get home, AI can help you sort your photos, write about your trip, and make a photo book or video to remember it.
+After you return, AI can help you choose and organize your best photos, write up the story of your trip and create a photo book or video.
 
 </details>
 

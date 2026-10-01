@@ -7,12 +7,15 @@ analyze it, chart it and explain what it means, in plain English. This chapter c
 AI inside spreadsheets, notebooks, talking to databases with MCP, and building live dashboards, plus the thinking skills that
 keep you from fooling yourself with numbers. Let's find the story in your data. 📈✨
 
-<details class="eli5" open>
-<summary>🧸 ELI5: This chapter in 30 seconds</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Data is just a big table of numbers and words, like a list of everything you bought last year. AI can read the whole table in
-seconds and answer questions like "what did I spend the most on?" or "which month was the busiest?", then draw a chart to show
-you. It's like having a detective for numbers. 🕵️📊
+AI makes data analysis accessible to anyone. Upload a spreadsheet and ask questions in plain language, and AI writes and runs the analysis code, then shows you the results and charts.
+
+1. **Start by chatting with a spreadsheet** in any major assistant.
+2. **Use AI inside your spreadsheet** for formulas and per-row analysis.
+3. **Move to notebooks** for repeatable analysis, and connect databases through MCP.
+4. **Build dashboards,** and think critically about what the data really shows.
 
 </details>
 
@@ -20,11 +23,10 @@ you. It's like having a detective for numbers. 🕵️📊
 
 ## 🪜 The five levels
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-There are five levels: chatting about a spreadsheet, AI inside your spreadsheet, fancy notebooks, asking questions of big
-databases, and building live dashboards.
+Data analysis with AI spans five levels, from chatting about a spreadsheet to building live dashboards. The table shows the effort each requires.
 
 </details>
 
@@ -38,11 +40,10 @@ databases, and building live dashboards.
 
 ## 1️⃣ Chat with a spreadsheet
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Upload your spreadsheet to an AI assistant and ask it questions. Behind the scenes, it writes a little program to find the
-answers.
+Upload a CSV or Excel file to Claude, ChatGPT or Gemini, which can execute code. Ask your question in plain language; the assistant writes and runs code to answer it and produces charts on request.
 
 </details>
 
@@ -63,11 +64,10 @@ it writes and runs Python for you.
 
 ## 2️⃣ AI inside your spreadsheet
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Spreadsheet apps now have AI built in: it writes tricky formulas, and special AI columns can read every row and add a label,
-like "happy" or "sad" for reviews.
+Google Sheets with Gemini and Excel with Copilot can generate formulas, build tables and run per-row AI prompts, such as labeling sentiment in reviews. The table describes each.
 
 </details>
 
@@ -82,11 +82,14 @@ pivot by theme. Qualitative data becomes quantitative in minutes. 🪄 Full deta
 
 ## 3️⃣ Analysis notebooks with AI
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-A notebook is a document mixing notes, code and charts. AI can write the whole thing, and you can re-run it any time new data
-arrives.
+For larger or repeatable analysis, use a notebook that combines notes, code and charts.
+
+1. Open Claude Code or Cursor in a folder with your data, or use Jupyter or Google Colab.
+2. Ask AI to write the analysis as a notebook.
+3. Re-run it whenever new data arrives.
 
 </details>
 
@@ -121,11 +124,10 @@ Ask your agent to write queries like this for you, then read them to learn SQL a
 
 ## 4️⃣ Talk to databases with MCP
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Big companies keep data in databases. With a special plug-in, you can ask the database questions in normal English, and AI
-writes the database code for you.
+Connect a database MCP server with a read-only account, and you can ask questions about your data in plain language while AI writes the SQL queries for you.
 
 </details>
 
@@ -143,11 +145,10 @@ The AI writes SQL, runs it, checks the results and explains. This is a game-chan
 
 ## 5️⃣ Dashboards & data apps
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-A dashboard is a page with charts that update by themselves. AI can build one for you in minutes, so you and your team can see
-the numbers any time.
+Dashboards display charts that update automatically. AI can build them quickly with Claude Artifacts, Streamlit, or business intelligence tools like Looker Studio and Power BI. The table compares the options.
 
 </details>
 
@@ -164,11 +165,10 @@ the numbers any time.
 
 ## 🧠 Thinking clearly about data
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Numbers can trick you. Two things happening together doesn't mean one caused the other, and a few examples don't prove a rule.
-AI can help you check.
+Data can mislead. Correlation doesn't prove causation, small samples are unreliable, and averages can hide important differences. Ask AI to suggest alternative explanations and check the strength of your conclusions. The table lists common traps.
 
 </details>
 
@@ -186,10 +186,10 @@ you found a bug. 🐛
 
 ## 🎮 Fun datasets to practice with
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Practice with data about your own life, like your music, your steps or your spending. It's way more fun when it's about you!
+Practicing with data about your own life, such as spending, music listening or fitness, makes learning more engaging. The table suggests datasets and questions to ask.
 
 </details>
 
@@ -204,10 +204,10 @@ Practice with data about your own life, like your music, your steps or your spen
 
 ## 🔒 Privacy with data
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Before sharing data with AI, remove people's names, emails and account numbers, especially if the data is about other people.
+Before uploading data, remove names, emails and account numbers, aggregate where possible, and use business plans or local models for sensitive data, especially data about other people.
 
 </details>
 

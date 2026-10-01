@@ -9,11 +9,14 @@ ideas sorted by passion. Every one teaches something real, and most link to the 
 > **💡 How to pick**
 > Choose something that fixes an **actual annoyance in your life** or makes someone you love smile. You'll finish it.
 
-<details class="eli5" open>
-<summary>🧸 ELI5: This page in 30 seconds</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-This is a big list of fun things to build with AI, from super easy to super challenging. Pick one that sounds exciting, and
-the list tells you which tools to use and what you'll learn. 🧱✨
+This appendix lists 80 AI projects organized by difficulty, each with the tools it uses and the skills it teaches. It ends with projects grouped by interest and a 30-day plan.
+
+- **🟢 Starter** projects take an afternoon and need no code.
+- **🟡 Intermediate** projects take a weekend with light configuration.
+- **🟠 Advanced** and **🔴 ambitious** projects involve code, with AI assistance.
 
 </details>
 
@@ -21,10 +24,10 @@ the list tells you which tools to use and what you'll learn. 🧱✨
 
 ## 🟢 Starter: an afternoon, no code (1–15)
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Easy projects you can finish in an afternoon without writing any code.
+These projects can be completed in an afternoon without writing code.
 
 </details>
 
@@ -48,10 +51,10 @@ Easy projects you can finish in an afternoon without writing any code.
 
 ## 🟡 Intermediate: a weekend, light config (16–35)
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Weekend projects with a bit of setup: robot recipes, bots and home AI.
+These weekend projects involve light configuration: automations, bots and local AI.
 
 </details>
 
@@ -80,10 +83,10 @@ Weekend projects with a bit of setup: robot recipes, bots and home AI.
 
 ## 🟠 Advanced: a few weekends, code with AI help (36–55)
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Bigger projects where you (and your AI helper) write some code.
+These projects take a few weekends and involve writing code with an AI coding assistant.
 
 </details>
 
@@ -112,10 +115,10 @@ Bigger projects where you (and your AI helper) write some code.
 
 ## 🔴 Ambitious: stretch goals (56–65)
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Big, exciting projects for when you're feeling brave.
+These ambitious projects combine several skills and are well suited to experienced builders.
 
 </details>
 
@@ -134,10 +137,10 @@ Big, exciting projects for when you're feeling brave.
 
 ## 💛 Ideas by passion (66–80)
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Project ideas sorted by what you love: pets, sports, music, cooking and more.
+These project ideas are grouped by personal interest, such as pets, sports, music and cooking.
 
 </details>
 
@@ -161,10 +164,10 @@ Project ideas sorted by what you love: pets, sports, music, cooking and more.
 
 ## 🗓️ A 30-day "go deeper" plan
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-A month-long plan: one theme per week, with projects that build on each other.
+This 30-day plan focuses on one theme per week, with projects from this list that build on one another.
 
 </details>
 

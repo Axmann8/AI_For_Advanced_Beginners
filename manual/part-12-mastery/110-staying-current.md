@@ -7,12 +7,15 @@ don't need to follow everything (nobody can!). You need a **light, reliable syst
 learning. This chapter gives you a sustainable "AI diet," the best newsletters, podcasts, courses and communities, a
 self-running news digest, a hype filter, and a learning log that compounds. Stay curious, stay calm. 😌
 
-<details class="eli5" open>
-<summary>🧸 ELI5: This chapter in 30 seconds</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-AI news is like a firehose: way too much water to drink! Instead of trying to drink it all, you use a little cup: a few minutes
-a day of news, one new thing to try each week, and a bigger learning session each month. That way you keep growing without
-getting overwhelmed. 🥤🌱
+AI moves quickly, and trying to follow everything leads to overwhelm. A sustainable routine of brief daily reading, weekly experiments and monthly deeper learning keeps you current without burning out.
+
+1. **Choose one or two sources** from the newsletters, podcasts and courses listed.
+2. **Join a community** focused on your interests.
+3. **Automate an AI news digest** for yourself.
+4. **Filter out hype,** and keep a learning log.
 
 </details>
 
@@ -20,10 +23,10 @@ getting overwhelmed. 🥤🌱
 
 ## 🥗 The sustainable AI diet
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-A little bit every day, a bit more every week, and a big session every month. Small and steady wins the race.
+A sustainable routine has three rhythms: five minutes of news daily, one hands-on experiment weekly and a longer learning session monthly. The table describes each.
 
 </details>
 
@@ -40,10 +43,10 @@ A little bit every day, a bit more every week, and a big session every month. Sm
 
 ## 📬 Newsletters & blogs
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-A few trusted email newsletters and websites that explain AI news clearly. Pick one or two, not all of them.
+A few reliable newsletters and blogs explain AI developments clearly. Choose one or two rather than subscribing to all of them; the table describes each source.
 
 </details>
 
@@ -59,10 +62,10 @@ A few trusted email newsletters and websites that explain AI news clearly. Pick 
 
 ## 🎧 Podcasts & YouTube
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Shows you can listen to on a walk or watch on the couch to learn about AI.
+Podcasts and YouTube channels are convenient for learning while walking, commuting or relaxing. The table describes the style of each.
 
 </details>
 
@@ -82,10 +85,10 @@ Shows you can listen to on a walk or watch on the couch to learn about AI.
 
 ## 🎓 Courses & learning paths
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Free online classes that teach AI skills step by step, from building with Claude to automation tools.
+Free courses and documentation from Anthropic, OpenAI, Google, DeepLearning.AI, Hugging Face and others teach AI skills step by step. The table shows what each is best for.
 
 </details>
 
@@ -101,10 +104,10 @@ Free online classes that teach AI skills step by step, from building with Claude
 
 ## 👥 Communities
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Places online and in real life where people who love AI help each other and share what they've made.
+Online and local communities, such as subreddits, Discord servers and meetups, are good places to ask questions, share projects and learn from others. The table lists options by topic.
 
 </details>
 
@@ -119,10 +122,10 @@ Places online and in real life where people who love AI help each other and shar
 
 ## 🤖 Automate your own AI news feed
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Build a little robot that reads AI news for you every morning and sends you just the five best bits.
+Import the Morning AI Digest workflow into n8n and point it at your preferred sources to receive a short daily summary of the most relevant AI news.
 
 </details>
 
@@ -137,10 +140,10 @@ build: [Build-Along: Automated Newsletter](../part-13-build-alongs/118-build-alo
 
 ## 🧭 Filtering the hype
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Lots of AI news is exciting but not useful for you. Ask a few questions before getting excited or spending money.
+Before getting excited about an announcement, ask whether you can try it today, whether it solves a problem you actually have, whether it's better than what you use now and what it costs.
 
 </details>
 
@@ -158,10 +161,10 @@ Ask of any announcement:
 
 ## 🌱 Keep a learning log
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Write down what you tried each week and whether you liked it. After a few months, you'll see how much you've grown!
+Record what you try each week, what you learned and whether you'll keep using it. After a few months, the log shows how much your skills have grown.
 
 </details>
 

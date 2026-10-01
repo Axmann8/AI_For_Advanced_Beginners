@@ -7,12 +7,15 @@ a language-practice session, or quizzes you while you drive, and it sounds natur
 today, how voice agents work under the hood, the platforms, a full phone-agent build, how to write prompts for the ear
 instead of the eye, testing, and the rules for doing it responsibly. 🎙️✨
 
-<details class="eli5" open>
-<summary>🧸 ELI5: This chapter in 30 seconds</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-A voice agent is a robot you can **talk to out loud**, like calling a friendly receptionist. It listens to your words, turns
-them into text, thinks with an AI brain, and answers in a natural voice, all in about a second. You can build one that
-answers your phone, practices Spanish with you, or calls you every morning to plan your day. ☎️🤖
+A voice agent is an AI you talk to aloud, often over the phone. It converts your speech to text, generates a response with a language model and replies in a natural voice, usually within about a second. Voice agents can answer calls, book appointments, tutor languages or check in with you on a schedule.
+
+- **Use voice AI today** in ChatGPT, Gemini and Claude without building anything.
+- **Two architectures:** a pipeline (speech-to-text, model, text-to-speech) or a single speech-to-speech model.
+- **Platforms** like Vapi and Retell provide phone numbers, voices and tool integration.
+- **Build responsibly:** disclose that callers are talking to AI and get consent for recording.
 
 </details>
 
@@ -20,11 +23,10 @@ answers your phone, practices Spanish with you, or calls you every morning to pl
 
 ## 🎧 Using voice AI today (no building required)
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-You can already talk out loud with AI in the apps you have. It's great for practicing, brainstorming on walks, and typing
-without your hands.
+Voice modes in ChatGPT, Gemini and Claude, along with dictation apps, already let you brainstorm, learn and type hands-free. The table lists the best uses for each.
 
 </details>
 
@@ -51,11 +53,10 @@ without your hands.
 
 ## 🔧 How voice agents work
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-The agent has ears (turning speech into text), a brain (the AI), and a mouth (turning text back into speech). Newer ones
-hear and speak with one single brain.
+A **pipeline** voice agent uses three models in sequence: speech-to-text, a language model and text-to-speech. A **speech-to-speech** agent uses a single realtime model that hears and speaks directly, with lower latency. The table compares the two.
 
 </details>
 
@@ -85,11 +86,10 @@ flowchart LR
 
 ## 🧱 Voice agent platforms
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Building ears, brain and mouth from scratch is hard, so companies offer ready-made kits. You pick the voice, write the
-instructions, connect tools, and get a phone number.
+Voice agent platforms handle the difficult parts: speech recognition, voices, phone numbers, interruptions and tool connections. You write the instructions and connect your tools. The table compares the main platforms.
 
 </details>
 
@@ -109,11 +109,15 @@ LiveKit or Pipecat. Want the most natural voices → ElevenLabs.
 
 ## 📅 Build: an appointment-booking phone agent (1–2 hours)
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-We'll build a phone receptionist that answers calls, checks your calendar, books appointments and reads the details back to
-make sure they're right.
+This build creates a phone agent that books appointments on your calendar.
+
+1. Create an agent on a voice platform and choose a voice.
+2. Write instructions for greeting callers and collecting the details needed to book.
+3. Connect tools to check availability and create calendar events.
+4. Have the agent read the details back for confirmation, then assign it a phone number and test.
 
 </details>
 
@@ -158,11 +162,10 @@ The full, polished version is [Build-Along: Voice Receptionist](../part-13-build
 
 ## 🎙️ Writing prompts for the ear
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Talking is different from writing. Voice agents need short sentences, numbers said the way people say them, and a friendly
-way to handle "sorry, what?"
+Speech needs a different style than writing: short replies, numbers spoken naturally, confirmation of important details and graceful handling of misheard words. The table gives tips and examples.
 
 </details>
 
@@ -179,11 +182,10 @@ way to handle "sorry, what?"
 
 ## 🧪 Testing & improving
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Call your agent lots of times, pretending to be different kinds of callers, and listen to the recordings to find what to
-fix.
+Test your agent with many simulated calls, including normal requests, confused callers, interruptions and edge cases, and review the recordings and transcripts to find what to improve. The table lists test scenarios.
 
 </details>
 
@@ -202,11 +204,10 @@ platforms also run **simulated test calls** automatically.
 
 ## 🎮 More voice projects
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Other talking robots you could build: a morning coach that calls you, a language tutor, a kitchen helper, or a story narrator
-for games.
+Other voice projects include a coach that calls you each morning, a language tutor, a hands-free kitchen assistant and a game narrator. The table suggests a stack for each.
 
 </details>
 
@@ -223,11 +224,10 @@ for games.
 
 ## ⚖️ Responsible voice AI
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Always tell people they're talking to an AI, ask before recording, never copy someone's voice without permission, and follow
-the rules about calling people.
+Build voice agents responsibly: disclose at the start of every call that it's an AI, get consent before recording, never clone a voice without permission, and follow the laws governing automated calls. The table explains each rule.
 
 </details>
 

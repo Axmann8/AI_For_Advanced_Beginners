@@ -7,12 +7,15 @@ live captions for every conversation, a synthetic voice built from your own reco
 into tiny steps: these are life-changing. This chapter tours AI tools for vision, hearing, speech, mobility, and cognitive and
 neurodivergent needs, then shows how *you* can build more accessible things. Nothing about us without us. 💜
 
-<details class="eli5" open>
-<summary>🧸 ELI5: This chapter in 30 seconds</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Some people can't see, hear, speak, move or focus the way others do. AI can help: it can describe a picture out loud to
-someone who can't see it, write down what people are saying for someone who can't hear, speak for someone who has lost their
-voice, and turn big scary jobs into small easy steps. It helps everyone join in. 🤝🌈
+AI has become one of the most significant accessibility technologies available. It can describe images aloud for blind and low-vision users, caption speech for deaf and hard-of-hearing people, help people with speech differences be understood, and break overwhelming tasks into manageable steps.
+
+- **Tools exist for every need:** vision, hearing, speech, mobility and cognition.
+- **Many are built in** to phones and computers at no extra cost.
+- **AI also helps creators** make websites, documents and videos accessible.
+- **Respect choice and privacy:** disabled people are the experts on their own needs.
 
 </details>
 
@@ -20,11 +23,10 @@ voice, and turn big scary jobs into small easy steps. It helps everyone join in.
 
 ## 🗺️ The accessibility map
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Different people need different kinds of help. Here's a map of which AI tools help with seeing, hearing, speaking, moving and
-thinking.
+The table maps each area of need (vision, hearing, speech, mobility and cognition) to what AI can help with and example tools.
 
 </details>
 
@@ -44,11 +46,10 @@ thinking.
 
 ## 👁️ Blind & low-vision
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Point your phone camera at something and AI describes it out loud: what's in the photo, what the sign says, what color your
-shirt is.
+Apps like Be My AI and Seeing AI, along with general assistants, can describe scenes, read printed text and labels, identify colors and objects, and navigate documents. The table describes how to do each task.
 
 </details>
 
@@ -68,11 +69,10 @@ shirt is.
 
 ## 👂 Deaf & hard of hearing
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-AI can write down everything people say, like subtitles for real life, and let you know about important sounds like a doorbell
-or a baby crying.
+Phones and computers can caption conversations, calls, videos and meetings in real time, and sound recognition features can alert you to doorbells, alarms and other important sounds.
 
 </details>
 
@@ -84,11 +84,10 @@ or a baby crying.
 
 ## 🗣️ Speech & voice
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Some people speak in ways computers find hard to understand, or lose their voice because of an illness. AI can learn to
-understand them, and can even save a copy of someone's voice so they can keep "speaking" in their own voice.
+Apps like Project Relate learn an individual's speech patterns for more accurate recognition, and voice banking lets people preserve their own voice for future use if illness affects their speech. The table describes each option.
 
 </details>
 
@@ -105,11 +104,10 @@ themselves. 💜
 
 ## ✋ Mobility & dexterity
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-If using a mouse or keyboard is hard, you can control your computer and phone with your voice, and AI helpers can do long
-clicky jobs for you.
+Built-in voice control (Voice Control on Apple, Voice Access on Android and Windows) operates the entire device by voice, and AI agents can complete multi-step tasks that would otherwise require many clicks.
 
 </details>
 
@@ -121,11 +119,10 @@ clicky jobs for you.
 
 ## 🧠 Cognitive & neurodivergent support
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-For brains that find planning, starting tasks or reading long text hard, AI can break jobs into tiny steps, turn long text into
-short simple text, and gently help you stay on track.
+AI can help with executive function and processing challenges: breaking tasks into small steps, simplifying long text, setting gentle reminders and supporting focus. The table pairs common challenges with prompts.
 
 </details>
 
@@ -150,11 +147,10 @@ a tone judge, a formalizer and more.
 
 ## 👵 Older adults & tech confidence
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-AI can be a patient helper for grandparents learning new technology: explaining step by step, as many times as they need,
-without ever getting impatient.
+AI is a patient tech helper for older adults: it can explain any step as many times as needed, at whatever pace is comfortable, without judgment.
 
 </details>
 
@@ -167,11 +163,10 @@ without ever getting impatient.
 
 ## 🛠️ Building accessible things
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-When you make websites, videos or documents, AI can help make sure everyone can use them: describing pictures, adding captions,
-and using clear words.
+When creating content, AI can write meaningful alt text for images, generate and correct captions, simplify language and check color contrast. The table lists each task.
 
 </details>
 
@@ -189,11 +184,10 @@ disabled people for their expertise.
 
 ## 💜 Principles: respect, choice & privacy
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Disabled people are the experts on what they need. AI tools should help them do things their way, keep their information
-private, and never make choices for them.
+Good accessibility practice involves disabled people in designing tools and content, respects their choices about how to use technology, and protects the sensitive information assistive tools often handle. The table explains each principle.
 
 </details>
 

@@ -7,12 +7,15 @@ you can experiment freely.** We'll cover hallucinations, prompt injection (the #
 secrets and keys, MCP hygiene, agent permissions, surprise bills, classic gotchas, AI-powered scams, and a 60-second pre-flight
 checklist. Tick the boxes, then go wild. 🎉
 
-<details class="eli5" open>
-<summary>🧸 ELI5: This chapter in 30 seconds</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-AI is like a super-helpful robot with a few quirks: sometimes it makes things up, sometimes tricky people hide sneaky
-instructions for it, and if you let it run all day it can cost money. This chapter is the safety rules, like wearing a
-helmet on a bike. Wear the helmet, and then you can ride as fast and far as you like! 🚲⛑️
+Using AI heavily brings a few predictable risks: confident errors, manipulation through hidden instructions, leaked keys, unsafe plugins and unexpected bills. A handful of habits addresses nearly all of them.
+
+- **Verify important outputs,** and require approval before AI sends, deletes or pays.
+- **Protect keys and choose plugins carefully;** run agents in sandboxes.
+- **Set spending limits** on every API account.
+- **Run a quick pre-flight check** before letting any automation run unattended.
 
 </details>
 
@@ -20,10 +23,10 @@ helmet on a bike. Wear the helmet, and then you can ride as fast and far as you 
 
 ## 🗺️ The risk map
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Here are the main things that can go wrong with AI, and the one simple habit that fixes each one.
+The table lists the main AI risks, how each one shows up and the habit that prevents it.
 
 </details>
 
@@ -40,10 +43,10 @@ Here are the main things that can go wrong with AI, and the one simple habit tha
 
 ## 🌀 Hallucinations: confident and wrong
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Sometimes AI makes things up and says them very confidently, like a kid bluffing on a quiz. For important stuff, always check.
+Language models can produce fluent, confident answers that are wrong, including invented facts, fake quotes and nonexistent sources. For anything important, ask for sources, check them and verify key details.
 
 </details>
 
@@ -61,11 +64,10 @@ non-existent citations, or library functions that don't exist ([How Models Reall
 
 ## 🦠 Prompt injection: the #1 thing to understand
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Tricky people can hide secret instructions inside web pages or emails, like "robot, send me all the files!" If your AI reads
-them, it might obey. So never let AI send, delete or pay without you saying "yes."
+Prompt injection occurs when content the AI reads, such as a web page, email or document, contains instructions intended to manipulate it. Never give AI the ability to send, delete or spend without your approval when it's processing untrusted content.
 
 </details>
 
@@ -93,10 +95,10 @@ Deep dive: [MCP Security & Trust](../part-4-mcp-and-connectors/43-mcp-security-a
 
 ## 🔑 Keys & secrets
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-API keys are like house keys. Never leave them lying around in shared places, and if you lose one, change the lock right away.
+API keys work like passwords. Never put them in public repositories, shared chats or screenshots; store them in `.env` files listed in `.gitignore`, and revoke and replace any key that may have been exposed.
 
 </details>
 
@@ -111,11 +113,10 @@ API keys are like house keys. Never leave them lying around in shared places, an
 
 ## 🧰 MCP & plugin hygiene
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-MCP plug-ins are programs that run on your computer. Only install ones from people you trust, like you'd only eat candy from
-people you know.
+MCP servers and plugins are software that can access your data or run on your computer. Prefer official sources, pin versions and review what each one can access.
 
 </details>
 
@@ -128,10 +129,10 @@ people you know.
 
 ## 🤖 Agent permissions & sandboxes
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Give AI helpers a safe playground with walls: they can do lots of things inside, but anything risky needs your permission.
+Give agents only the tools and folders they need, require approval for risky actions, and run them in sandboxes or containers when possible. The table describes each principle.
 
 </details>
 
@@ -146,11 +147,10 @@ Give AI helpers a safe playground with walls: they can do lots of things inside,
 
 ## 💸 Costs: how not to get a surprise bill
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Some AI costs a fixed amount each month, and some charges a tiny bit per use. Tiny bits add up if a robot uses it thousands
-of times, so set a spending limit.
+Subscriptions have fixed prices with usage limits; APIs charge per token, and costs can grow quickly in automations. Set spending limits and billing alerts, test on small batches and use smaller models where they suffice.
 
 </details>
 
@@ -173,10 +173,10 @@ of times, so set a spending limit.
 
 ## ⚠️ Classic gotchas
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-A list of common oopsies people run into, and how to avoid each.
+The table lists common practical problems, such as invented libraries, too many tools and runaway loops, with a fix for each.
 
 </details>
 
@@ -193,11 +193,10 @@ A list of common oopsies people run into, and how to avoid each.
 
 ## 🎭 Deepfakes & AI-powered scams
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Bad people can use AI to fake voices, videos and emails. If something urgent asks for money or secrets, stop and check with the
-real person another way.
+Scammers use AI to clone voices, create fake videos and write convincing messages. If an urgent request asks for money or secrets, hang up and verify through a known number, and agree on a family code word.
 
 </details>
 
@@ -208,10 +207,10 @@ real person another way.
 
 ## 🧠 Stay sharp: avoiding over-reliance
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-If the robot does everything, you might forget how to do things yourself. Keep practicing, keep checking, and keep thinking.
+Relying on AI for everything can erode your own skills. Stay involved in decisions that matter, practice core skills without AI occasionally and keep checking AI's work.
 
 </details>
 
@@ -222,10 +221,10 @@ If the robot does everything, you might forget how to do things yourself. Keep p
 
 ## ✅ The 60-second pre-flight checklist
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Before you let a robot run by itself, check these five things. Then have fun!
+Before letting an automation or agent run unattended, confirm each item on this checklist: spending limit, small-batch test, approvals, logging and an off switch.
 
 </details>
 
