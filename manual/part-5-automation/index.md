@@ -3,12 +3,14 @@
 AI that works while you sleep: automation platforms, webhooks and APIs explained gently, the n8n masterclass, AI agents
 inside workflows, Zapier and Make walkthroughs, phone shortcuts, web scraping, and a recipe book of 50 ready-made workflows.
 
-<details class="eli5" open>
-<summary>🧸 ELI5: This part in 30 seconds</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-An automation is a little robot recipe: **"When this happens, do that."** When an email arrives, summarize it. Every
-morning, send me the news. When I say an idea into my phone, put it in my notes. Add AI to the recipe and the robot can
-also *think* a little: sort things, write things, decide things.
+An automation is a rule that runs on its own: **when something happens, do something else.** Adding AI lets those rules read, sort, summarize and write along the way.
+
+- **Learn the building blocks:** triggers, actions, webhooks, APIs and JSON.
+- **Master the platforms:** n8n, Zapier, Make, and the automation tools on your phone and computer.
+- **Use the recipe book** to set up proven automations in minutes.
 
 </details>
 

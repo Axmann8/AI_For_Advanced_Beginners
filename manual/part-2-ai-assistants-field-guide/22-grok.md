@@ -7,12 +7,14 @@ Twitter).** It stands out for real-time knowledge of what's happening on X, a ca
 reasoning modes, and **Grok Imagine** for making images and videos. It's also been the most controversial of the big
 assistants, so this guide covers both the fun features and the sensible precautions.
 
-<details class="eli5" open>
-<summary>🧸 ELI5: This chapter in 30 seconds</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Grok is an AI helper that lives inside X (the app that used to be Twitter) and also has its own app. It knows what
-people are posting about right now, it can be quite funny, and it can make pictures and short videos. Like any AI, check
-important facts, and be extra careful with images of real people.
+Grok is the AI assistant from xAI (now part of SpaceX), available in its own app and built into X. It stands out for real-time awareness of posts on X, a distinctive personality, and image and video generation.
+
+- **Core features:** chat, voice, web and X search, and several reasoning modes.
+- **Creative tools:** Grok Imagine for images and short videos.
+- **Use with care:** posts on X aren't always accurate, so check sources, and never create misleading images of real people.
 
 </details>
 
@@ -20,10 +22,10 @@ important facts, and be extra careful with images of real people.
 
 ## ⚡ Quick facts
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-The basics: who makes Grok, where you can use it and what it's best at.
+Grok is made by xAI, now SpaceX's AI division. It's available at grok.com, in the Grok app, inside X and in Tesla vehicles.
 
 </details>
 
@@ -38,10 +40,14 @@ The basics: who makes Grok, where you can use it and what it's best at.
 
 ## 🚪 Getting started
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Sign up on grok.com or the Grok app (or just tap Grok inside X), pick a mode, and start chatting.
+Getting started with Grok is simple.
+
+1. Sign up at grok.com or in the Grok app using X, Google, Apple or email (or tap the Grok icon in X).
+2. Choose a mode (Auto is fine to start).
+3. Ask your first question.
 
 </details>
 
@@ -53,11 +59,10 @@ Sign up on grok.com or the Grok app (or just tap Grok inside X), pick a mode, an
 
 ## 💳 Plans in plain English
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Grok is free with a weekly limit. Paying for SuperGrok gives you more uses, the Expert mode and more image and video
-making.
+Grok's free tier includes a weekly usage allowance. SuperGrok plans add higher limits, Expert and Heavy modes, and more image and video generation. The table summarizes them.
 
 </details>
 
@@ -72,11 +77,10 @@ Usage is pooled weekly across chat, Imagine, voice and building. Check **grok.co
 
 ## 🧠 Modes: Fast, Expert and Heavy
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Grok has a quick mode for easy questions, an Expert mode that thinks harder, and a Heavy mode where several AIs work
-together on really hard problems.
+Grok offers several modes: **Auto/Fast** for everyday questions, **Expert** for harder reasoning, and **Heavy**, where multiple AI agents collaborate on the most difficult problems. The table explains when to use each.
 
 </details>
 
@@ -88,11 +92,10 @@ together on really hard problems.
 
 ## 📰 Real-time X and web search
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Grok can read what people are posting on X right now, so it's good for "what's everyone talking about?" questions. But
-posts aren't always true, so check the sources.
+Grok can search posts on X in real time as well as the web, which makes it useful for understanding trending topics and public reaction. Because posts can be inaccurate, check the sources it cites before relying on a claim.
 
 </details>
 
@@ -110,11 +113,10 @@ Grok's signature skill is **live awareness of X**, plus web search:
 
 ## 🎨 Grok Imagine: images and video
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Grok Imagine turns your words into pictures and short videos with sound. Use it for fun and creativity, never to fake
-real people.
+Grok Imagine creates images and short videos with sound from text descriptions. Use it for creative projects, and never to create deceptive images of real people.
 
 </details>
 
@@ -134,10 +136,10 @@ real people.
 
 ## 🎙️ Voice and companions
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-You can talk to Grok out loud and pick different voices and personalities. Some are animated characters.
+Voice mode supports spoken conversation with a choice of voices and personality styles. Grok also offers animated "companion" characters; review their settings carefully, especially for younger users.
 
 </details>
 
@@ -150,11 +152,10 @@ You can talk to Grok out loud and pick different voices and personalities. Some 
 
 ## 🗂️ Projects, memory and more
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Grok can remember things about you and keep your work organized in projects, and xAI also runs an AI-written
-encyclopedia called Grokipedia.
+Grok supports Projects for organizing chats and files by topic, memory across conversations, and file uploads. xAI also runs Grokipedia, an AI-generated encyclopedia.
 
 </details>
 
@@ -167,10 +168,10 @@ encyclopedia called Grokipedia.
 
 ## 🍳 Step-by-step recipes
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Three real jobs you can do with Grok today.
+These three recipes walk through real tasks in Grok step by step, including understanding a trending topic.
 
 </details>
 
@@ -191,10 +192,10 @@ Three real jobs you can do with Grok today.
 
 ## 🔐 Privacy and settings
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-The important switches: whether your chats and X posts help train Grok, what it remembers, and private chats.
+The table lists Grok's privacy settings, including whether your conversations and X posts are used for training, memory and private chats.
 
 </details>
 
@@ -208,10 +209,10 @@ The important switches: whether your chats and X posts help train Grok, what it 
 
 ## 💡 Pro tips and limitations
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Clever tricks Grok fans know, and the things to watch out for.
+These tips help you get more out of Grok, followed by its current limitations so you know when to double-check.
 
 </details>
 

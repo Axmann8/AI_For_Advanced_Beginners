@@ -3,12 +3,14 @@
 The universal plug that gives AI hands and eyes: what MCP is, how it works under the hood, the best servers to install,
 how to build and publish your own, and how to stay safe while doing it.
 
-<details class="eli5" open>
-<summary>🧸 ELI5: This part in 30 seconds</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Your AI is like a brilliant friend stuck in a room with no windows. **Connectors and MCP servers are doors** to the
-outside world: your calendar, your notes, GitHub, the web, your smart home. This part teaches you which doors exist,
-how to install them, how to build your own door, and how to make sure only friendly visitors come through.
+On its own, an AI assistant can only work with what you type into the chat. Connectors and MCP servers give it secure access to other tools and data, such as your calendar, notes, files, GitHub or the web.
+
+- **Learn how MCP works** and browse the most useful servers and built-in connectors.
+- **Build your own MCP server** step by step, in Python or TypeScript.
+- **Stay safe:** decide what to trust, grant only the access a tool needs, and combine servers into useful recipes.
 
 </details>
 

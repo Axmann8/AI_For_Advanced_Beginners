@@ -4,14 +4,15 @@ Authors write plain, GitHub-friendly Markdown. At build time these hooks upgrade
 
   Source (renders fine on GitHub)                    →  Website
   ------------------------------------------------------------------------------------------
-  <details class="eli5" [open]><summary>…</summary>   →  collapsible styled box (??? eli5)
+  <details class="keypoints" open><summary>…</summary> →  "✅ Key Points & Steps" box (!!! keypoints)
+  <details class="quiz"><summary>…</summary>          →  collapsible styled box (??? quiz)
   > [!TIP] + **🎮 Try this**                          →  styled admonition (type from emoji)
   > ⏱️ 20 min · 🎯 Level · 🧰 Needs                  →  "chips" row under the title
   <!-- in-this-chapter -->                            →  clickable section cards (from the real TOC)
   **Next:** [Title →](file.md)                        →  big "Next up" button + ✅ done button
   [Text](file.md "button") / "button-primary"        →  site buttons
   links leaving manual/ (../../examples/…)            →  GitHub URLs
-  acronyms from the glossary (MCP, RAG, …)            →  hover tooltips with an ELI5 definition
+  acronyms from the glossary (MCP, RAG, …)            →  hover tooltips with the plain definition
 """
 
 import html
@@ -19,7 +20,7 @@ import posixpath
 import re
 from pathlib import Path
 
-REPO = "https://github.com/Axmann8/AI_For_Advanced_Beginners"
+REPO = "https://github.com/Axmann8/The_Massive_AI_Manual"
 ROOT = Path(__file__).resolve().parent.parent
 GLOSSARY = ROOT / "manual" / "appendices" / "a-glossary.md"
 
@@ -60,7 +61,7 @@ def _q(title: str) -> str:
 ALERT = re.compile(r"^> \[!(NOTE|TIP|IMPORTANT|WARNING|CAUTION)\][ \t]*\n((?:>.*(?:\n|$))*)", re.M)
 ALERT_TYPES = {"NOTE": "note", "TIP": "tip", "IMPORTANT": "info", "WARNING": "warning", "CAUTION": "danger"}
 EMOJI_TYPES = {
-    "🎮": "tryit", "🧸": "eli5", "🤿": "deepdive", "🤯": "funfact", "🎯": "takeaway",
+    "🎮": "tryit", "🤿": "deepdive", "🤯": "funfact", "🎯": "takeaway",
     "⚠": "warning", "🔐": "danger", "🛡": "danger", "💡": "tip", "📌": "note",
     "🧪": "example", "✅": "success", "❓": "quiz", "🚧": "pitfall", "🧭": "note",
 }
@@ -96,7 +97,7 @@ DETAILS = re.compile(
 def _details(match: re.Match) -> str:
     kind, is_open, title, body = match.groups()
     title = re.sub(r"<[^>]+>", "", title).strip()
-    marker = "???+" if is_open else "???"
+    marker = "!!!" if kind == "keypoints" else ("???+" if is_open else "???")
     extra = " emoji-title" if title and not title[0].isalnum() else ""
     return f'{marker} {kind}{extra} "{_q(title)}"\n\n{_indent(body.strip(chr(10)))}\n'
 
@@ -122,7 +123,7 @@ _ABBR_CACHE: list[str] | None = None
 
 
 def _abbreviations() -> list[str]:
-    """Acronym rows of the glossary become site-wide hover tooltips (ELI5 column)."""
+    """Acronym rows of the glossary become site-wide hover tooltips (the "Meaning" column)."""
     global _ABBR_CACHE
     if _ABBR_CACHE is None:
         _ABBR_CACHE = []
@@ -135,8 +136,8 @@ def _abbreviations() -> list[str]:
                 acronym = re.fullmatch(r"[A-Za-z0-9./+-]{2,8}", term) and sum(ch.isupper() for ch in term) >= 2
                 if not acronym:
                     continue
-                tip = re.sub(r"\[([^\]]+)\]\([^)]*\)", r"\1", cells[-1])  # drop links
-                tip = re.sub(r"[*`_]", "", tip).replace("🧸", "").strip()
+                tip = re.sub(r"\[([^\]]+)\]\([^)]*\)", r"\1", cells[1])  # drop links
+                tip = re.sub(r"[*`_]", "", tip).strip()
                 if tip:
                     _ABBR_CACHE.append(f"*[{term}]: {tip}")
     return _ABBR_CACHE

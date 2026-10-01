@@ -7,12 +7,15 @@ between them, and use them to double-check each other. This chapter shows you ho
 the best hand-off workflows, how to carry your preferences and memory between apps, and how to do it all without
 spreading your data everywhere or paying for five subscriptions.
 
-<details class="eli5" open>
-<summary>🧸 ELI5: This chapter in 30 seconds</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Using a few AIs is like having a team of friends with different talents: one is great at finding facts, one at writing,
-one at drawing. You can ask the fact-finder first, then give the facts to the writer. And if two friends agree on
-something, you can feel more confident it's right.
+Many experienced users combine a main assistant with one or two specialists. Each handles what it does best, and comparing them helps catch errors.
+
+- **Build a small team:** one main assistant plus specialists for specific strengths.
+- **Hand work between them:** for example, research in one assistant and write in another.
+- **Use them to check each other** through second opinions and the "judge" pattern.
+- **Stay organized:** keep a portable profile, export your data, and limit paid subscriptions.
 
 </details>
 
@@ -20,10 +23,10 @@ something, you can feel more confident it's right.
 
 ## 🤝 Why use more than one?
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Different AIs are good at different things, and asking two of them helps you catch mistakes.
+Assistants have different strengths, such as sourced research, Google or Microsoft integration, writing or image generation. Asking two of them about something important also helps you spot mistakes.
 
 </details>
 
@@ -36,11 +39,10 @@ Different AIs are good at different things, and asking two of them helps you cat
 
 ## 🧑‍🤝‍🧑 Build your AI squad
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Pick one main AI for most things, and a couple of helpers for special jobs. Here are example teams for different kinds of
-people.
+Most people need one main assistant and one or two specialists. The table suggests combinations for students, professionals, creators and other common profiles.
 
 </details>
 
@@ -58,11 +60,14 @@ Most people need **one main assistant + one or two specialists**. Some sample sq
 
 ## 🔀 Hand-off workflows
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-You can pass work from one AI to another, like a relay race: one finds the facts, the next writes them up, and the last
-one makes a picture.
+A hand-off workflow passes work from one assistant to the next, so each does what it's best at.
+
+1. Use a research-focused assistant to gather sourced facts.
+2. Paste the results into a writing-focused assistant to draft.
+3. Use an image tool for visuals, if needed.
 
 </details>
 
@@ -90,10 +95,10 @@ Check it for gaps, then write a 600-word article from it."*
 
 ## ⚖️ The "second opinion" and "judge" patterns
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Ask two AIs the same question and compare, or ask one AI to check another AI's answer for mistakes.
+For a **second opinion**, ask two assistants the same question independently: agreement builds confidence, and disagreement shows you what to verify. For the **judge** pattern, ask one assistant to critique another's answer for errors and gaps.
 
 </details>
 
@@ -109,10 +114,10 @@ sources.)
 
 ## 🧳 Take your "about me" everywhere
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Write one note about yourself and how you like answers, and paste it into every AI you use, so they all know you.
+A portable profile is a short note describing you and your preferences that you can paste into any assistant's custom instructions, so every assistant starts with the same context.
 
 </details>
 
@@ -142,10 +147,10 @@ Keep your **favorite prompts** in the same note so your "prompt library" goes wh
 
 ## 📦 Exporting your chats and data
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-You can download a copy of your chats from most AI apps, so you don't lose them if you switch.
+Most assistants let you download your chats and data, usually from **Settings → Data controls**, **Privacy** or **Account**. The table lists where to find the export option in each.
 
 </details>
 
@@ -163,10 +168,10 @@ Useful when switching, and a good habit for important projects.
 
 ## 💸 Smart subscription strategy
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-You don't need to pay for every AI. Pay for your favorite one if you need to, and use the free versions of the rest.
+Pay for one assistant (two at most) where higher limits genuinely help you, and use free tiers for specialists and second opinions. Review your subscriptions every few months.
 
 </details>
 
@@ -179,10 +184,10 @@ You don't need to pay for every AI. Pay for your favorite one if you need to, an
 
 ## ⚠️ Pitfalls to avoid
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-More AIs means more places your information lives, so share carefully and keep things simple.
+Using several assistants spreads your data across more companies and can become confusing. Keep sensitive topics with one trusted assistant, delete what you don't need, and keep your setup simple.
 
 </details>
 

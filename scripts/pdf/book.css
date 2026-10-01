@@ -45,7 +45,9 @@ body {
   font-feature-settings: "cv05" 1, "ss03" 1;
 }
 
-/* Full-bleed pages: cover, part dividers, back cover */
+/* Title pages: cover, part dividers, back cover.
+   Mostly white paper with color used as accents (a slim gradient band, outlines and violet type),
+   so they look polished without emptying the printer's ink cartridges. */
 .full {
   page: full;
   break-before: page;
@@ -55,160 +57,177 @@ body {
   overflow: hidden;
   position: relative;
   box-sizing: border-box;
-  color: #fff;
-  background: var(--grad);
+  color: var(--ink);
+  background: #fff;
 }
-.full::before,
-.full::after {
-  /* soft glowing blobs for a bit of depth */
+/* the slim gradient spine on the left edge */
+.full::before {
   content: "";
   position: absolute;
-  pointer-events: none;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  width: 0.34in;
+  background: var(--grad);
 }
-.full::before {
-  width: 5.5in;
-  height: 5.5in;
-  right: -1.6in;
-  top: -1.4in;
-  background: radial-gradient(closest-side, rgba(251, 191, 36, 0.55), rgba(251, 191, 36, 0));
-}
+/* a few thin decorative rings in the top-right corner (outlines only, almost no ink) */
 .full::after {
-  width: 6in;
-  height: 6in;
-  left: -2in;
-  bottom: -2.2in;
-  background: radial-gradient(closest-side, rgba(236, 72, 153, 0.5), rgba(236, 72, 153, 0));
+  content: "";
+  position: absolute;
+  right: -1.3in;
+  top: -1.3in;
+  width: 4.6in;
+  height: 4.6in;
+  border-radius: 50%;
+  border: 1.5px solid #ddd6fe;
+  box-shadow: 0 0 0 0.32in #fff, 0 0 0 calc(0.32in + 1.5px) #ede9fe, 0 0 0 0.64in #fff,
+    0 0 0 calc(0.64in + 1.5px) #fde68a;
 }
 .full > .inner {
   position: relative;
   z-index: 1;
   height: 100%;
   box-sizing: border-box;
-  padding: 0.9in 0.85in;
+  padding: 0.95in 0.9in 0.85in 1.2in;
   display: flex;
   flex-direction: column;
 }
-
-/* ---------------------------------------------------------------- cover */
-.cover .kicker {
-  font-size: 10pt;
-  font-weight: 700;
+.full .kicker,
+.divider .part-kicker {
+  font-size: 9.5pt;
+  font-weight: 800;
   letter-spacing: 0.22em;
   text-transform: uppercase;
-  opacity: 0.85;
+  color: var(--violet-700);
 }
+
+/* ---------------------------------------------------------------- cover */
 .cover .rocket {
   font-family: var(--emoji);
-  font-size: 88pt;
+  font-size: 80pt;
   line-height: 1;
-  margin: 0.7in 0 0.25in;
+  margin: 0.75in 0 0.3in;
 }
 .cover .title {
-  font-size: 50pt;
+  font-size: 52pt;
   line-height: 1.02;
   font-weight: 800;
   letter-spacing: -0.03em;
   margin: 0;
+  color: var(--violet-900);
 }
 .cover .title em {
   font-style: normal;
-  color: #fde68a;
+  color: var(--violet-600);
+  border-bottom: 0.09in solid #fbbf24;
+  padding-bottom: 0.02in;
 }
 .cover .subtitle {
-  font-size: 14pt;
-  line-height: 1.45;
-  max-width: 5.6in;
-  margin: 0.3in 0 0;
-  opacity: 0.95;
+  font-size: 13.5pt;
+  line-height: 1.5;
+  max-width: 5.4in;
+  margin: 0.38in 0 0;
+  color: var(--ink-soft);
+}
+.cover .subtitle strong {
+  color: var(--violet-800);
 }
 .cover .stats {
   display: flex;
   flex-wrap: wrap;
-  gap: 0.12in;
+  gap: 0.11in;
   margin-top: 0.45in;
 }
 .cover .stat {
-  background: rgba(255, 255, 255, 0.14);
-  border: 1px solid rgba(255, 255, 255, 0.35);
+  border: 1.3px solid #c4b5fd;
+  color: var(--violet-800);
   border-radius: 999px;
-  padding: 0.07in 0.17in;
-  font-size: 10pt;
+  padding: 0.06in 0.16in;
+  font-size: 9.5pt;
 }
 .cover .stat strong {
   font-weight: 800;
   margin-right: 0.3em;
+  color: var(--violet-700);
 }
 .cover .foot {
   margin-top: auto;
+  padding-top: 0.16in;
+  border-top: 2px solid #ede9fe;
   display: flex;
   justify-content: space-between;
   align-items: flex-end;
   font-size: 9.5pt;
-  opacity: 0.9;
+  color: var(--muted);
 }
 .cover .foot strong {
   display: block;
   font-size: 11pt;
+  color: var(--violet-800);
 }
 
 /* ----------------------------------------------------------- dividers */
-.divider .part-kicker {
-  font-size: 10pt;
-  font-weight: 700;
-  letter-spacing: 0.24em;
-  text-transform: uppercase;
-  opacity: 0.85;
+.divider .part-number {
+  position: absolute;
+  right: 0.75in;
+  top: 1.25in;
+  font-size: 150pt;
+  font-weight: 800;
+  line-height: 1;
+  color: transparent;
+  -webkit-text-stroke: 2px #ddd6fe;
+  letter-spacing: -0.02em;
+  z-index: 0;
 }
 .divider .part-emoji {
   font-family: var(--emoji);
-  font-size: 64pt;
+  font-size: 56pt;
   line-height: 1;
-  margin: 0.45in 0 0.18in;
+  margin: 0.5in 0 0.2in;
 }
 .divider h1.part-title {
   font-size: 36pt;
   line-height: 1.05;
   font-weight: 800;
   letter-spacing: -0.025em;
-  margin: 0 0 0.18in;
-  color: #fff;
+  margin: 0 0 0.2in;
+  color: var(--violet-900);
+  max-width: 5.6in;
 }
 .divider .lead {
   font-size: 12pt;
-  line-height: 1.5;
-  max-width: 6in;
-  opacity: 0.95;
-  margin: 0 0 0.2in;
+  line-height: 1.55;
+  max-width: 5.8in;
+  color: var(--ink-soft);
+  margin: 0 0 0.22in;
 }
-.divider .eli5-card {
-  background: rgba(255, 255, 255, 0.13);
-  border: 1px solid rgba(255, 255, 255, 0.32);
-  border-radius: 12px;
-  padding: 0.12in 0.18in;
-  font-size: 10pt;
+.divider .points-card {
+  border-left: 4px solid #f59e0b;
+  background: #fffbeb;
+  border-radius: 0 10px 10px 0;
+  padding: 0.1in 0.18in 0.06in;
+  font-size: 9.6pt;
   line-height: 1.5;
   margin-bottom: 0.22in;
+  max-width: 5.9in;
 }
-.divider .lead strong,
-.divider .lead a,
-.divider .eli5-card strong,
-.divider .eli5-card a {
-  color: #fff;
-}
-.divider .eli5-card p {
-  margin: 0;
-}
-.divider .eli5-card .label {
+.divider .points-card .label {
   font-weight: 800;
-  margin-right: 0.35em;
+  color: #92400e;
+  margin: 0 0 0.04in;
+}
+.divider .points-card p,
+.divider .points-card ul,
+.divider .points-card ol {
+  margin: 0 0 0.05in;
 }
 .divider .chapter-list {
   margin-top: auto;
+  border: 1.3px solid var(--rule);
+  border-top: 3px solid #a78bfa;
+  border-radius: 12px;
+  padding: 0.14in 0.24in;
   background: #fff;
-  color: var(--ink);
-  border-radius: 14px;
-  padding: 0.16in 0.24in;
-  box-shadow: 0 10px 30px -12px rgba(0, 0, 0, 0.45);
 }
 .divider .chapter-list .list-title {
   font-size: 8pt;
@@ -682,7 +701,7 @@ td code {
 .box pre {
   background: #fff;
 }
-.box.eli5 {
+.box.keypoints {
   --c: #f59e0b;
   --bg: #fffbeb;
   --t: #92400e;
@@ -746,11 +765,6 @@ td code {
 }
 .box.quiz > .answer > :last-child {
   margin-bottom: 0.2em;
-}
-/* the chapter-level ELI5 right under the opener gets a little more presence */
-.box.eli5.hero-eli5 {
-  border-left-width: 6px;
-  font-size: 10pt;
 }
 
 /* tabs, unrolled for paper */
@@ -847,13 +861,14 @@ td code {
   line-height: 1.1;
   letter-spacing: -0.02em;
   margin: 0 0 0.25in;
+  color: var(--violet-900);
 }
 .backcover p {
   font-size: 12pt;
   max-width: 5.5in;
-  opacity: 0.95;
+  color: var(--ink-soft);
 }
 .backcover a {
-  color: #fde68a;
+  color: var(--violet-700);
   font-weight: 700;
 }

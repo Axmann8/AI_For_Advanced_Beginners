@@ -6,12 +6,14 @@
 (servers or connectors), the **prompt** to run, and **why it works**. Copy, paste, adapt, enjoy. Most recipes work with
 built-in connectors *or* the equivalent server from [the catalog](40-mcp-server-catalog.md).
 
-<details class="eli5" open>
-<summary>🧸 ELI5: This chapter in 30 seconds</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Like a cookbook, but for AI. Each recipe says which "doors" (apps) to connect and exactly what to say. Mixing two or three
-doors lets your AI do jobs that would take you an hour, like reading your emails, checking your calendar and writing
-replies all at once.
+This chapter is a collection of 44 tested combinations of MCP servers and connectors. Each recipe lists the servers to connect and the exact prompt to use.
+
+1. **Find a recipe** in the section that matches your goal.
+2. **Connect the listed servers** (the "ingredients").
+3. **Paste the prompt,** adjust the details and review the results before anything is sent.
 
 </details>
 
@@ -19,10 +21,10 @@ replies all at once.
 
 ## 🧑‍💻 For builders
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Recipes for people who make software: finding bugs, testing websites, keeping docs fresh and turning designs into code.
+These recipes help software builders triage errors, test websites, keep documentation current and turn designs into code.
 
 </details>
 
@@ -72,10 +74,10 @@ Recipes for people who make software: finding bugs, testing websites, keeping do
 
 ## 📋 For productivity
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Recipes for everyday work: morning briefings, meeting follow-ups, a tidy inbox and a calendar that makes sense.
+These recipes handle everyday work: morning briefings, meeting follow-ups, inbox triage and calendar planning.
 
 </details>
 
@@ -120,10 +122,10 @@ Recipes for everyday work: morning briefings, meeting follow-ups, a tidy inbox a
 
 ## 🔎 For research & learning
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Recipes for curious minds: deep research with real sources, understanding papers, and turning videos into study notes.
+These recipes support research and learning: sourced research briefs, paper summaries and study notes from videos.
 
 </details>
 
@@ -158,10 +160,10 @@ Recipes for curious minds: deep research with real sources, understanding papers
 
 ## 🏠 For life
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Recipes for home: trips, smart lights, money check-ins, gifts, groceries and staying organized as a family.
+These recipes help at home: trip planning, smart home routines, budget check-ins, gift ideas, groceries and family organization.
 
 </details>
 
@@ -201,10 +203,10 @@ Recipes for home: trips, smart lights, money check-ins, gifts, groceries and sta
 
 ## 🎨 For creators
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Recipes for making things: turning one post into many, producing podcasts, building 3D scenes and designing graphics.
+These recipes help creators repurpose content, produce podcasts, build 3D scenes and design graphics.
 
 </details>
 
@@ -236,10 +238,10 @@ Recipes for making things: turning one post into many, producing podcasts, build
 
 ## 💼 For business
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Recipes for running a business: prepping for sales calls, understanding customers, keeping the books and supporting people.
+These recipes support small businesses: sales call preparation, customer insights, bookkeeping and customer support.
 
 </details>
 
@@ -267,10 +269,10 @@ Recipes for running a business: prepping for sales calls, understanding customer
 
 ## 🔀 Meta-recipes (automation ↔ agent)
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Recipes where your AI chat and your automation robots team up: the chat can start robot jobs, and robots can use AI inside them.
+These recipes combine chat with automation: your AI can trigger automated workflows, and automations can include AI steps.
 
 </details>
 
@@ -296,10 +298,10 @@ Recipes where your AI chat and your automation robots team up: the chat can star
 
 ## 🧂 Seasoning tips (make any recipe better)
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-A few extra tricks make every recipe taste better: name the tools, plan first, and always check before anything is sent.
+A few habits improve any recipe: name the specific tools to use, ask the AI to plan before acting on large tasks, and require your approval before anything is sent or changed.
 
 </details>
 

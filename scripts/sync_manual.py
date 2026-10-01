@@ -10,10 +10,10 @@ It regenerates:
   * chapter cards on each part landing page     (<!-- chapters:start/end -->)
   * part cards + stats on the home page          (<!-- parts / stats / progress -->)
   * the chapter table in README.md               (<!-- toc:start/end -->)
-  * appendices/g-eli5-edition.md: the whole manual explained like you're five
+  * appendices/g-key-points-edition.md: every chapter's Key Points & Steps on one page
 
-And it lints: numbering, balanced <details>, the chapter-level ELI5, the section map marker, and an
-ELI5 for every section ("ELI5 for everything" is a promise!).
+And it lints: numbering, balanced <details>, the chapter-level Key Points & Steps box, the section map
+marker, and a Key Points & Steps box at the start of every section.
 """
 
 from __future__ import annotations
@@ -47,7 +47,7 @@ PARTS: dict[str, tuple[str, str]] = {
 }
 SECTION_EXEMPT = re.compile(r"(key takeaways|check yourself|quick quiz|try this|what's next|next steps)", re.I)
 WORDS_PER_MINUTE = 220
-ELI5_EDITION = MANUAL / "appendices" / "g-eli5-edition.md"
+KEY_POINTS_EDITION = MANUAL / "appendices" / "g-key-points-edition.md"
 
 
 @dataclass
@@ -116,7 +116,7 @@ def replace_block(text: str, name: str, content: str) -> str:
 
 
 # ------------------------------------------------------------------ parsing helpers ---
-DETAILS_OPEN_ELI5 = re.compile(r'<details class="eli5" open>\s*\n<summary>.*?</summary>\s*\n(.*?)\n</details>', re.S)
+KEYPOINTS = re.compile(r'<details class="keypoints" open>\s*\n<summary>.*?</summary>\s*\n(.*?)\n</details>', re.S)
 
 
 def strip_code(text: str) -> str:
@@ -150,8 +150,10 @@ def lead(text: str) -> str:
     return ""
 
 
-def chapter_eli5(text: str) -> str:
-    m = DETAILS_OPEN_ELI5.search(text)
+def chapter_keypoints(text: str) -> str:
+    """The page-level Key Points & Steps box: the one before the section map (or the first one)."""
+    head = text.split("<!-- in-this-chapter -->", 1)[0]
+    m = KEYPOINTS.search(head)
     return m.group(1).strip() if m else ""
 
 
@@ -219,15 +221,15 @@ def lint(pages: list[Page]) -> list[str]:
             seen_numbers[num] = p.rel
             if not meta_line(t):
                 problems.append(f"{p.rel}: missing '> ⏱️ …' meta line under the title")
-            if not chapter_eli5(t):
-                problems.append(f"{p.rel}: missing the chapter-level <details class=\"eli5\" open> box")
+            if not chapter_keypoints(t):
+                problems.append(f"{p.rel}: missing the chapter-level <details class=\"keypoints\" open> box")
             if "<!-- in-this-chapter -->" not in t:
                 problems.append(f"{p.rel}: missing <!-- in-this-chapter --> marker")
     return problems
 
 
-def eli5_coverage(pages: list[Page]) -> tuple[int, int, list[str]]:
-    """Every H2 section of a chapter should open with an ELI5 box."""
+def keypoints_coverage(pages: list[Page]) -> tuple[int, int, list[str]]:
+    """Every H2 section of a chapter should open with a Key Points & Steps box."""
     total = covered = 0
     missing = []
     for p in pages:
@@ -240,7 +242,7 @@ def eli5_coverage(pages: list[Page]) -> tuple[int, int, list[str]]:
                 continue
             total += 1
             head = sec[:600]
-            if 'class="eli5"' in head:
+            if 'class="keypoints"' in head:
                 covered += 1
             else:
                 missing.append(f"{p.rel} › {heading.strip()}")
@@ -337,14 +339,14 @@ def sync_home(pages: list[Page], coverage: tuple[int, int]) -> None:
     text = home.read_text(encoding="utf-8")
     chapters = [p for p in pages if p.is_chapter]
     corpus = "\n".join(p.text for p in pages)
-    eli5s = corpus.count('<details class="eli5"')
+    keypoints = corpus.count('<details class="keypoints"')
     quizzes = corpus.count('<details class="quiz"')
     tries = corpus.count("**🎮 Try this")
     words = sum(word_count(p.text) for p in pages)
     kits = len([d for d in (ROOT / "examples").iterdir() if d.is_dir()])
     stats = [
         (len(chapters), "chapters"),
-        (eli5s, "ELI5 explanations 🧸"),
+        (keypoints, "Key Points & Steps boxes ✅"),
         (quizzes, "quiz questions"),
         (tries, "try-this challenges"),
         (kits, "starter kits"),
@@ -395,19 +397,20 @@ def sync_readme() -> None:
     readme.write_text(replace_block(text, "toc", "\n".join(rows)), encoding="utf-8")
 
 
-def sync_eli5_edition() -> None:
+def sync_key_points_edition() -> None:
     out = [
-        "# Appendix G · The ELI5 Edition 🧸",
+        "# Appendix G · The Key Points Edition ✅",
         "",
-        "> ⏱️ 30 min read · 🎯 Everyone, including actual five-year-olds · 🧰 Needs: nothing at all",
+        "> ⏱️ 40 min read · 🎯 Everyone: skimmers, reviewers and anyone deciding what to read next · 🧰 Needs: nothing",
         "",
-        "**The entire manual, explained like you're five.** Every chapter's big idea in a few friendly sentences. "
-        "Read it top to bottom for the whole story, or use it to decide which chapter to dive into next.",
+        "**The whole manual in condensed form.** Every chapter's Key Points & Steps box, gathered on one page in reading "
+        "order. Read it top to bottom for a fast overview, use it to review what you've learned, or scan it to find the "
+        "chapter that answers your question.",
         "",
         "> [!NOTE]",
         "> **📌 This page writes itself**",
-        "> It's generated automatically from the 🧸 box at the top of every chapter (`python scripts/sync_manual.py`),",
-        "> so it always matches the latest version of the manual.",
+        "> It's generated automatically from the Key Points & Steps box at the top of every chapter",
+        "> (`python scripts/sync_manual.py`), so it always matches the latest version of the manual.",
         "",
     ]
     for folder, (label, emoji) in PARTS.items():
@@ -416,20 +419,20 @@ def sync_eli5_edition() -> None:
             continue
         out += [f"## {emoji} {label}", ""]
         for p in chapters:
-            eli5 = chapter_eli5(p.text)
-            if not eli5:
+            points = chapter_keypoints(p.text)
+            if not points:
                 continue
-            out += [f"### [{p.h1}]({rel(p.path, ELI5_EDITION)})", "", eli5, ""]
-    ELI5_EDITION.write_text("\n".join(out).rstrip() + "\n", encoding="utf-8")
+            out += [f"### [{p.h1}]({rel(p.path, KEY_POINTS_EDITION)})", "", points, ""]
+    KEY_POINTS_EDITION.write_text("\n".join(out).rstrip() + "\n", encoding="utf-8")
 
 
 def main() -> int:
     check_only = "--check" in sys.argv
     if not check_only:
-        sync_eli5_edition()
+        sync_key_points_edition()
     pages = all_pages()
     problems = lint(pages)
-    covered, total, missing = eli5_coverage(pages)
+    covered, total, missing = keypoints_coverage(pages)
     if not check_only:
         fixed = fix_anchors(pages)
         if fixed:
@@ -444,9 +447,9 @@ def main() -> int:
         sync_home(pages, (covered, total))
         sync_readme()
     chapters = sum(p.is_chapter for p in pages)
-    print(f"📚 {len(pages)} pages ({chapters} chapters) · 🧸 section ELI5 coverage {covered}/{total}")
+    print(f"📚 {len(pages)} pages ({chapters} chapters) · ✅ section Key Points coverage {covered}/{total}")
     for m in missing[:25]:
-        print(f"   ELI5 missing: {m}")
+        print(f"   Key Points missing: {m}")
     if len(missing) > 25:
         print(f"   … and {len(missing) - 25} more")
     for prob in problems:

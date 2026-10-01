@@ -3,11 +3,14 @@
 Doing it *well*: safety and gotchas, privacy, evaluating and comparing AI, cost optimization, ethics for builders,
 teaching others, turning your skills into income, staying current, and where this is all heading.
 
-<details class="eli5" open>
-<summary>🧸 ELI5: This part in 30 seconds</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-You've learned to ride the bike. Now it's about riding **safely** (helmet on!), **cheaply** (not wasting money),
-**kindly** (being fair to others), and eventually **teaching your friends** to ride too. Plus a peek at where the road goes next.
+Once you're comfortable with AI, the next step is using it well over the long term: safely, affordably, ethically and with up-to-date knowledge.
+
+- **Protect yourself:** manage risks, costs and your personal data.
+- **Measure quality:** test and compare AI tools on the tasks you actually care about.
+- **Share and grow:** teach others, earn from your skills, keep up with the field, and see where AI is heading.
 
 </details>
 

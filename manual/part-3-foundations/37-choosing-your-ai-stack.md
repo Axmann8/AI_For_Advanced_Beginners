@@ -6,12 +6,15 @@
 stack that fits your goals, habits and budget, without drowning in subscriptions. You'll leave with a filled-in stack
 worksheet and a clear "what to try next."
 
-<details class="eli5" open>
-<summary>🧸 ELI5: This chapter in 30 seconds</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-You don't need every toy in the toy store. You need **one great main helper** (like Claude or ChatGPT), a way to **plug it
-into your stuff**, maybe **one robot for chores** (automation), a **place to keep your notes**, and if you like building,
-**a builder tool**. Pick those five well and you're set.
+A personal AI stack is the small set of tools you rely on. Choosing deliberately saves money and keeps things manageable.
+
+- **Five layers:** a main assistant, connections to your apps, an automation tool, a home for your notes and, optionally, a builder tool.
+- **Subscription or API:** flat-rate plans suit personal use; pay-per-use APIs suit automations and apps.
+- **Use the persona and budget tables** to find a starting setup that fits you.
+- **Review regularly** to avoid paying for tools you don't use.
 
 </details>
 
@@ -19,11 +22,10 @@ into your stuff**, maybe **one robot for chores** (automation), a **place to kee
 
 ## 🧱 The five layers of a personal AI stack
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Five slots to fill: the brain you chat with, the plugs to your apps, the chore robot, your notes home, and (optionally) your
-builder toolbox.
+A complete personal stack has five layers. Most people need only one tool per layer, and the builder layer is optional. The table explains each layer's job.
 
 </details>
 
@@ -50,10 +52,10 @@ flowchart TB
 
 ## 🧠 Choosing your main assistant
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-All the big AI helpers are great now. Pick the one that fits where you already spend your day, and what you do most.
+All the major assistants are capable, so choose based on the tools you already use and the work you do most. The table matches common needs to a recommended assistant.
 
 </details>
 
@@ -73,11 +75,10 @@ All the big AI helpers are great now. Pick the one that fits where you already s
 
 ## 💳 Subscriptions vs. API (the money question)
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-A subscription is like an all-you-can-eat buffet with a fair-use limit: one price per month. The API is like ordering à la
-carte: you pay for exactly what you eat, which is perfect for robots and apps but needs a spending limit.
+A **subscription** charges a flat monthly price with fair-use limits and suits interactive use. An **API** charges per token, which suits automations and apps but requires spending limits. The table compares them in detail.
 
 </details>
 
@@ -93,10 +94,10 @@ automations. Small automations often cost cents per day. See [Cost Optimization]
 
 ## 🎭 Starter stacks by persona
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Here are ready-made toolkits for different kinds of people. Find the one that sounds like you and copy it.
+These ready-made stacks are designed for common profiles, such as students, professionals, creators and builders. Find the one closest to you and adapt it.
 
 </details>
 
@@ -146,10 +147,10 @@ Here are ready-made toolkits for different kinds of people. Find the one that so
 
 ## 💰 Stacks by budget
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-You can do a LOT for free. Paying more mostly buys you higher limits, the smartest models, and more automation.
+You can do a great deal for free. Higher budgets mainly buy higher limits, stronger models and more automation. The table suggests a stack at each budget level.
 
 </details>
 
@@ -162,10 +163,10 @@ You can do a LOT for free. Paying more mostly buys you higher limits, the smarte
 
 ## 🧭 A quick decision flowchart
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Answer a few yes-or-no questions and follow the arrows to your best first step.
+Answer the questions in this flowchart to find the best first step for your situation.
 
 </details>
 
@@ -184,11 +185,16 @@ flowchart TD
 
 ## 🔍 Evaluating any new AI tool in 5 minutes
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Before adding a new toy, ask five questions: does it do something new, does it play nicely with my other toys, where does
-my data go, can I take my stuff with me, and is anyone still looking after it?
+Before adding a new AI tool, ask five questions:
+
+1. What does it do that my current tools can't?
+2. Does it connect to my other tools (MCP, API, integrations)?
+3. Where does my data go?
+4. Can I export my work if I leave?
+5. Is it actively maintained?
 
 </details>
 
@@ -200,11 +206,10 @@ my data go, can I take my stuff with me, and is anyone still looking after it?
 
 ## 🕸️ Avoiding tool sprawl
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-If you buy too many toys, you forget to play with most of them and they cost money every month. Check your toy box every
-few months and give away the ones you don't use.
+Too many tools cost money and attention. Review your subscriptions every quarter, cancel anything unused for a month, and prefer one well-connected platform over several single-purpose apps.
 
 </details>
 
@@ -215,10 +220,10 @@ few months and give away the ones you don't use.
 
 ## 📝 Your stack worksheet
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Fill in this little form to design your own toolkit. It takes five minutes and makes everything clearer.
+This worksheet helps you design your own stack in about five minutes. Copy it into your notes and fill in each layer.
 
 </details>
 

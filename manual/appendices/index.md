@@ -3,11 +3,14 @@
 The reference shelf: an ELI5 glossary, the one-page cheat sheet, troubleshooting, a giant prompt library, links,
 project ideas, the ELI5 Edition of the whole manual, commands and shortcuts, comparison tables and printable checklists.
 
-<details class="eli5" open>
-<summary>🧸 ELI5: This section in 30 seconds</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-The back of the book: a dictionary of every AI word (with baby-simple explanations), cheat sheets, fix-it guides,
-hundreds of ideas to try, and checklists you can print and stick on your fridge.
+The appendices are the reference shelf: material you'll come back to rather than read straight through.
+
+- **Look things up:** the glossary defines every AI term in plain language, and the comparison tables put tools side by side.
+- **Fix problems fast:** the troubleshooting FAQ and the commands-and-shortcuts sheet cover the most common snags.
+- **Get ideas and stay organized:** use the prompt library, the project ideas and the printable checklists whenever you need a starting point.
 
 </details>
 
@@ -64,7 +67,7 @@ hundreds of ideas to try, and checklists you can print and stick on your fridge.
 
     Reading is great, but building is where it sticks. Here are 80 projects, from 🟢 weekend-afternoon to 🔴 ambitious, plus ideas sorted by passion.
 
--   **[Appendix G · The ELI5 Edition 🧸](g-eli5-edition.md)**
+-   **[Appendix G · The ELI5 Edition 🧸](g-key-points-edition.md)**
 
     ---
 

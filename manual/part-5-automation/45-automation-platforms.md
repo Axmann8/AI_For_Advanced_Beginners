@@ -6,12 +6,14 @@
 every day, a webhook. Put an AI step in the middle and you've got a tireless little robot employee. This chapter maps the
 whole landscape and helps you pick the right platform.
 
-<details class="eli5" open>
-<summary>🧸 ELI5: This chapter in 30 seconds</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-An automation is a robot recipe: **"When this happens, do that."** When an email arrives, summarize it and put it in my
-notes. Every morning, send me the news. Automation platforms (Zapier, Make, n8n…) are kitchens where you build these
-recipes by connecting blocks, and adding an AI block lets the robot *think*: sort, summarize, write and decide.
+An automation is a workflow that runs on its own: **when something happens, do something else.** Platforms like n8n, Zapier and Make let you build these workflows by connecting blocks, and adding an AI step lets them read, sort, summarize, write and make decisions.
+
+- **Most AI automations follow one pattern:** trigger, gather, AI, route, act.
+- **The main platforms** each have a niche: n8n for flexibility and self-hosting, Zapier for ease and app coverage, Make for complex visual flows.
+- **Automate tasks that repeat** and follow consistent steps, and build your first one in about 15 minutes.
 
 </details>
 
@@ -19,11 +21,16 @@ recipes by connecting blocks, and adding an AI block lets the robot *think*: sor
 
 ## 🧬 The pattern behind every AI automation
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Almost every robot recipe has the same five steps: something happens → grab the info → let AI think about it → decide
-which way to go → do something.
+Nearly every AI automation follows the same five-step pattern:
+
+1. **Trigger:** something happens (an email arrives, a time is reached).
+2. **Gather:** collect the data needed.
+3. **AI:** summarize, classify or draft.
+4. **Route:** choose a path based on the result.
+5. **Act:** send, save or update something.
 
 </details>
 
@@ -41,11 +48,10 @@ you can design automations in your head while waiting for coffee. ☕
 
 ## 🧱 The building blocks (vocabulary)
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Every automation kitchen uses the same kinds of blocks: a starter block, doing blocks, deciding blocks, looping blocks and
-memory blocks. Learn these words once and every platform makes sense.
+All automation platforms use the same kinds of building blocks (triggers, actions, conditions, loops and data storage), though each names them differently. The table maps the terms across Zapier, Make and n8n.
 
 </details>
 
@@ -62,11 +68,10 @@ memory blocks. Learn these words once and every platform makes sense.
 
 ## 🟣 n8n: the tinkerer's favorite
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-n8n is a free robot kitchen you can run on your own computer. It's super powerful, lets you write little bits of code when
-needed, and has amazing AI blocks.
+n8n is a visual workflow builder that you can self-host for free, with code nodes for custom logic and strong built-in AI agent features. It suits people who want flexibility and control over their data.
 
 </details>
 
@@ -83,11 +88,10 @@ needed, and has amazing AI blocks.
 
 ## 🟠 Zapier: the biggest app catalog
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Zapier is the easiest robot kitchen: no setup, works with almost every app in the world, and you can even describe your
-recipe in plain words and it builds it for you.
+Zapier is the easiest platform to start with, requires no setup and connects to more than 8,000 apps. It includes AI steps, Zapier Agents, and the ability to build workflows from a plain-language description.
 
 </details>
 
@@ -101,11 +105,10 @@ recipe in plain words and it builds it for you.
 
 ## 🟦 Make: the visual power tool
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Make is a beautiful drawing board where your robot recipe looks like a map of bubbles and lines. Great for recipes with
-lots of branches and loops.
+Make provides a visual canvas well suited to workflows with many branches, loops and detailed data mapping. It includes AI modules, AI agents and an MCP server.
 
 </details>
 
@@ -116,11 +119,10 @@ lots of branches and loops.
 
 ## 🌈 The rest of the map
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-There are many more robot kitchens: ones for coders, open-source ones, ones built into Microsoft or Google, and ones on
-your phone.
+Other options include Pipedream (code-first), Activepieces (open source), Power Automate (Microsoft), Google Workspace Flows, and phone automation apps. The table describes each one's niche.
 
 </details>
 
@@ -137,10 +139,10 @@ your phone.
 
 ## ⚖️ Side-by-side comparison
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Here's a chart comparing the big three kitchens on ease, cost, privacy and power, so you can pick your favorite.
+The table compares n8n, Zapier, Make, Pipedream and Activepieces on learning curve, self-hosting, pricing model, AI features and best use.
 
 </details>
 
@@ -159,11 +161,10 @@ deep, because self-hosting means unlimited experimentation for free. Many pros u
 
 ## 🧭 When to automate (and when not to)
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Build a robot for jobs you do again and again that follow the same steps. Don't build a robot for something you do once a
-year, or something that needs your personal judgment every time.
+Automate tasks that happen often, follow the same steps each time, and are tedious or error-prone. Avoid automating rare tasks or ones that need your personal judgment every time. The table lists more criteria.
 
 </details>
 
@@ -179,11 +180,15 @@ year, or something that needs your personal judgment every time.
 
 ## 🛠️ Your first automation in 15 minutes
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Let's build a tiny robot right now: every morning it sends you a fun fact and a small challenge. It's the "hello world" of
-AI automation.
+This first automation sends you a daily message with an interesting fact and a small challenge.
+
+1. Choose Zapier (no installation) or n8n.
+2. Add a **Schedule** trigger set to every morning.
+3. Add an AI step with the prompt shown below.
+4. Add an action that sends the result to your email, Slack or phone.
 
 </details>
 
@@ -203,10 +208,10 @@ AI automation.
 
 ## 🍳 A taste of what's possible
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Here are some favorite robot recipes people build. The full cookbook has 50!
+These are some of the most popular AI automations. The [Automation Recipe Book](52-automation-recipe-book.md) has 50 more.
 
 </details>
 
@@ -223,11 +228,10 @@ Here are some favorite robot recipes people build. The full cookbook has 50!
 
 ## 💡 Pro tips
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Test with pretend data first, ask the AI for neat forms (JSON) when a robot will read its answer, add a "ask me first"
-step before anything important, and keep a logbook.
+A few habits make automations more reliable: test with sample data, request JSON when the next step needs structured data, add an approval step before important actions, and log what each run does.
 
 </details>
 

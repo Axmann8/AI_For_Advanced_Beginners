@@ -7,12 +7,14 @@ used by billions of people.** No new app, no new account: just open a chat and a
 Oakley Meta smart glasses, creates images and videos, and has its own app. Because it's woven into social apps run by an
 advertising company, knowing the privacy settings matters. This guide covers both.
 
-<details class="eli5" open>
-<summary>🧸 ELI5: This chapter in 30 seconds</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Meta AI lives inside WhatsApp, Instagram and Facebook. You can chat with it like a friend, ask it to settle a debate in
-your group chat, make funny pictures, or ask your smart glasses "what am I looking at?" Just remember: Meta uses your AI
-chats to personalize what you see (including ads), so don't tell it secrets.
+Meta AI is built into WhatsApp, Instagram, Messenger and Facebook, and works hands-free on Meta's smart glasses. It's convenient for quick questions, group chats and creative images.
+
+- **Use it in chats:** privately, or by tagging @Meta AI in a group conversation.
+- **Create images and short videos** with Imagine, and use it hands-free on Ray-Ban and Oakley Meta glasses.
+- **Mind your privacy:** Meta uses your AI interactions to personalize content and ads, so keep sensitive information out.
 
 </details>
 
@@ -20,10 +22,10 @@ chats to personalize what you see (including ads), so don't tell it secrets.
 
 ## 👓 Quick facts
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-The basics: who makes Meta AI, where you can use it and what it's best at.
+Meta AI is made by Meta and is available in WhatsApp, Instagram, Messenger, Facebook, the Meta AI app, meta.ai and Meta's smart glasses.
 
 </details>
 
@@ -38,11 +40,14 @@ The basics: who makes Meta AI, where you can use it and what it's best at.
 
 ## 🚪 Getting started
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-In WhatsApp or Instagram, look for the colorful ring icon or search for Meta AI, and start chatting. There's also a
-Meta AI app.
+You can start using Meta AI in apps you probably already have.
+
+1. In WhatsApp or Instagram, tap the colorful Meta AI ring icon, or search for Meta AI.
+2. Type your question in the chat.
+3. In a group chat, type **@Meta AI** followed by your question.
 
 </details>
 
@@ -55,11 +60,10 @@ Meta AI app.
 
 ## 💬 Meta AI in your chats
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-You can ask Meta AI questions in a private chat, or tag it in a group chat so everyone sees its answer, like asking a
-friend who knows everything.
+You can chat with Meta AI one-on-one or tag it in group chats, where everyone sees its answer. The table shows examples for each setting.
 
 </details>
 
@@ -79,10 +83,10 @@ friend who knows everything.
 
 ## 🎨 Imagine: images and video
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Type "Imagine" and describe a picture, and Meta AI makes it. It can also turn pictures into short videos.
+Meta AI's Imagine feature creates images from a description, edits photos you upload and can animate images into short videos.
 
 </details>
 
@@ -94,11 +98,10 @@ Type "Imagine" and describe a picture, and Meta AI makes it. It can also turn pi
 
 ## 🕶️ Smart glasses: AI you wear
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Meta's smart glasses have a camera, speakers and Meta AI inside. You can ask "what am I looking at?" or get directions
-without taking out your phone.
+Meta's smart glasses include a camera, speakers and Meta AI. You can ask what you're looking at, translate signs and conversations, and capture photos, all without taking out your phone.
 
 </details>
 
@@ -116,10 +119,10 @@ Some premium glasses features and higher usage limits come with the **Meta One**
 
 ## 🧠 Memory, voice and the Meta AI app
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-The Meta AI app lets you talk out loud with Meta AI, and it can remember things about you, like your favorite foods.
+The Meta AI app offers natural voice conversation and can remember details you share, such as dietary preferences. You can review and delete stored memories in settings.
 
 </details>
 
@@ -133,11 +136,10 @@ The Meta AI app lets you talk out loud with Meta AI, and it can remember things 
 
 ## 🔐 Privacy and settings
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Meta uses what you tell Meta AI to decide what posts and ads to show you. Keep private things out of it, and check what
-you share publicly.
+Meta uses your interactions with Meta AI to personalize content and ads across its apps, and some features can make prompts visible to others. Keep personal information out, and review what you share publicly.
 
 </details>
 
@@ -154,10 +156,10 @@ The key things to know:
 
 ## 🍳 Step-by-step recipes
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Three real jobs you can do with Meta AI today.
+These three recipes walk through real tasks with Meta AI step by step, including planning a trip in a group chat.
 
 </details>
 
@@ -178,10 +180,10 @@ Three real jobs you can do with Meta AI today.
 
 ## 💡 Pro tips and limitations
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Clever tricks Meta AI fans know, and the things to watch out for.
+These tips help you get more out of Meta AI, followed by its current limitations so you know what to watch for.
 
 </details>
 

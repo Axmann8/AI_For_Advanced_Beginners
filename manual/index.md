@@ -255,7 +255,7 @@ Each part has its own landing page with an ELI5, a suggested path, and clickable
     ---
 
     Every chapter opens with a 30-second "explain it like I'm five," and **every section** has its own. Hit the
-    🧸 button on any page to open them all, or read the whole [ELI5 Edition](appendices/g-eli5-edition.md) in one go.
+    🧸 button on any page to open them all, or read the whole [ELI5 Edition](appendices/g-key-points-edition.md) in one go.
 
 -   **🗺️ Clickable everything**
 
@@ -313,9 +313,9 @@ Each part has its own landing page with an ELI5, a suggested path, and clickable
 
 > [!TIP]
 > **📄 Want it on paper, or offline?**
-> The whole manual is also a beautifully formatted **printable PDF book** ([US Letter](https://axmann8.github.io/AI_For_Advanced_Beginners/MANUAL.pdf) ·
-> [A4](https://axmann8.github.io/AI_For_Advanced_Beginners/MANUAL-A4.pdf)), with a cover, contents with page numbers, part dividers, page references and clickable
-> bookmarks. There's also a single [`MANUAL.md`](https://axmann8.github.io/AI_For_Advanced_Beginners/MANUAL.md), which is perfect for handing to an AI as context. Both
+> The whole manual is also a beautifully formatted **printable PDF book** ([US Letter](https://axmann8.github.io/The_Massive_AI_Manual/MANUAL.pdf) ·
+> [A4](https://axmann8.github.io/The_Massive_AI_Manual/MANUAL-A4.pdf)), with a cover, contents with page numbers, part dividers, page references and clickable
+> bookmarks. There's also a single [`MANUAL.md`](https://axmann8.github.io/The_Massive_AI_Manual/MANUAL.md), which is perfect for handing to an AI as context. Both
 > rebuild automatically every time the manual changes.
 
 > 📅 Current as of **September 2026**. AI moves fast: product names and features shift monthly, but the concepts and

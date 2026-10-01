@@ -7,12 +7,14 @@ Word, Excel, PowerPoint, Outlook and Teams.** In 2026 Microsoft merged its consu
 Copilot app into one **Microsoft Copilot** app, so the same assistant now helps with everyday questions *and* your
 documents and email. This chapter shows you what's where, what changed, and the best ways to use it.
 
-<details class="eli5" open>
-<summary>🧸 ELI5: This chapter in 30 seconds</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Copilot is the AI helper built into Windows computers and Microsoft's Office apps. Press the Copilot key and ask a
-question, show it your screen, or ask it to write in Word, make a formula in Excel or summarize your Outlook email. If you
-use a Windows PC for work or school, Copilot is probably the most convenient AI you've got.
+Copilot is Microsoft's AI assistant, built into Windows, the Edge browser and Microsoft 365 apps like Word, Excel, PowerPoint and Outlook. If you use a Windows PC or Office for work or school, it's often the most convenient assistant available.
+
+- **Free features:** chat, voice, Copilot Vision (screen and camera help) and image creation.
+- **With Microsoft 365:** Copilot inside Word, Excel, PowerPoint and Outlook.
+- **Advanced:** Researcher and Analyst agents on premium and business plans.
 
 </details>
 
@@ -20,10 +22,10 @@ use a Windows PC for work or school, Copilot is probably the most convenient AI 
 
 ## 🪟 Quick facts
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-The basics: who makes Copilot, where you can use it and what it's best at.
+Copilot is made by Microsoft and uses models from OpenAI and Microsoft. It's available as an app on Windows, Mac and phones, on the web, in Edge, and inside Microsoft 365 apps.
 
 </details>
 
@@ -45,10 +47,14 @@ The basics: who makes Copilot, where you can use it and what it's best at.
 
 ## 🚪 Getting started
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Open the Copilot app or press the Copilot key, sign in with your Microsoft account, and start asking.
+Getting started with Copilot is quick.
+
+1. Press the Copilot key or taskbar icon on Windows, or open the Copilot app or website.
+2. Sign in with your Microsoft account (or your work account).
+3. Type or speak your first question.
 
 </details>
 
@@ -61,10 +67,10 @@ Open the Copilot app or press the Copilot key, sign in with your Microsoft accou
 
 ## 💳 Plans in plain English
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Chatting with Copilot is free. To use it inside Word, Excel and Outlook at home, you need a Microsoft 365 subscription.
+Copilot chat is free with a Microsoft account. Using Copilot inside Word, Excel, PowerPoint and Outlook at home requires a Microsoft 365 subscription; business plans add work-data features. The table compares them.
 
 </details>
 
@@ -77,10 +83,10 @@ Chatting with Copilot is free. To use it inside Word, Excel and Outlook at home,
 
 ## 💬 Everyday chat, voice and vision
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Copilot can chat, talk out loud and look at your screen or camera to help you with what you're seeing.
+Copilot supports typed and spoken conversation, file and photo uploads, and **Copilot Vision**, which can look at your screen or camera and guide you through what you're seeing.
 
 </details>
 
@@ -94,11 +100,10 @@ Copilot can chat, talk out loud and look at your screen or camera to help you wi
 
 ## 📝 Copilot in Word, Excel, PowerPoint and Outlook
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-With a Microsoft 365 plan, Copilot helps inside your Office apps: drafting in Word, formulas in Excel, slides in
-PowerPoint and emails in Outlook.
+With a Microsoft 365 plan, a Copilot button appears in each Office app. Use it to draft and rewrite in Word, write formulas and analyze data in Excel, build slides in PowerPoint and summarize or draft email in Outlook. The table has example prompts.
 
 </details>
 
@@ -118,10 +123,10 @@ The merged Copilot app also lets you jump from a chat into these apps and your f
 
 ## 🌐 Copilot in Edge and Windows
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-In the Edge browser, Copilot can read the page you're on and help, and in Windows it can help you find and change things.
+In Edge, Copilot can summarize pages, compare products across tabs and draft text; Copilot Mode can also carry out tasks on websites. In Windows, Copilot can help find settings and files.
 
 </details>
 
@@ -134,10 +139,10 @@ In the Edge browser, Copilot can read the page you're on and help, and in Window
 
 ## 🔬 Researcher and Analyst (Premium and business)
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Top plans get two special helpers: Researcher writes big reports, and Analyst digs into data and spreadsheets.
+Premium and business plans include two specialist agents. **Researcher** conducts multi-step research and writes a cited report; **Analyst** works through data and spreadsheets to find insights.
 
 </details>
 
@@ -150,10 +155,10 @@ These are included with **Microsoft 365 Premium** and business Copilot licenses.
 
 ## 🍳 Step-by-step recipes
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Four real jobs you can do with Copilot today.
+These four recipes walk through real tasks in Copilot step by step, from fixing a Windows setting with Vision to drafting in Office.
 
 </details>
 
@@ -179,10 +184,10 @@ Four real jobs you can do with Copilot today.
 
 ## 🔐 Privacy and settings
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-The important switches: what Copilot remembers, whether your chats help train it, and where to delete your history.
+The table lists Copilot's key privacy settings, including memory, model training and history deletion, and where to find each one.
 
 </details>
 
@@ -195,10 +200,10 @@ The important switches: what Copilot remembers, whether your chats help train it
 
 ## 💡 Pro tips and limitations
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Clever tricks Copilot fans know, and the things to watch out for.
+These tips help you get more out of Copilot, followed by its current limitations so you know what to watch for.
 
 </details>
 

@@ -7,12 +7,15 @@ long documents.** It's also become a serious "get work done" tool: it creates re
 slides), builds interactive mini-apps called Artifacts, connects to your apps, works through big tasks on your computer
 with **Cowork**, and powers **Claude Code**, one of the most popular AI coding tools. This guide covers all of it.
 
-<details class="eli5" open>
-<summary>🧸 ELI5: This chapter in 30 seconds</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Claude is a thoughtful AI helper that's especially good at reading and writing. Give it a long document and it
-understands it; ask it to write and it sounds natural. It can also make things you can use, like documents,
-spreadsheets and little apps, and it can even work on tasks on your computer while you do something else.
+Claude, made by Anthropic, is known for natural writing, careful reasoning and handling long documents well. It can also create files and interactive apps, connect to your other tools, and work through longer tasks on your computer.
+
+- **Core features:** conversation, Projects, Artifacts, file creation, memory, web search and Research.
+- **Working with your tools:** connectors, Cowork, and Claude in Chrome, Excel and Slack.
+- **Building:** Claude Code for software projects.
+- **Privacy:** where to control training, memory and incognito chats.
 
 </details>
 
@@ -20,10 +23,10 @@ spreadsheets and little apps, and it can even work on tasks on your computer whi
 
 ## 🧡 Quick facts
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-The basics: who makes Claude, where you can use it and what it's best at.
+Claude is made by Anthropic, a company focused on AI safety. It's available on the web, phone apps, desktop apps for Mac and Windows, and inside Chrome, Excel and Slack.
 
 </details>
 
@@ -38,10 +41,14 @@ The basics: who makes Claude, where you can use it and what it's best at.
 
 ## 🚪 Getting started
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Sign up with your email, tell Claude about yourself, pick your privacy settings and start chatting.
+Setting up Claude takes a few minutes.
+
+1. Sign up at claude.ai or in the app, using an email link or Google.
+2. Add details about yourself and your preferences under **Settings → Profile**.
+3. Review the privacy settings, then start your first chat.
 
 </details>
 
@@ -55,11 +62,10 @@ Sign up with your email, tell Claude about yourself, pick your privacy settings 
 
 ## 💳 Plans in plain English
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Free is fine for trying Claude. Paid plans give you much more usage, the strongest model, and tools like Cowork and
-Claude Code.
+The free plan is good for trying Claude. Paid plans (Pro, Max, Team and Enterprise) add much higher usage, the most capable models and tools such as Cowork and Claude Code. The table compares them.
 
 </details>
 
@@ -74,10 +80,14 @@ Current prices: claude.com/pricing.
 
 ## 📁 Projects: context that sticks
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-A Project is a workspace where you put instructions and files once, and every chat in it remembers them.
+Projects store instructions and reference files for a topic, so every chat inside the project starts with the right context.
+
+1. In the sidebar, open **Projects** and choose **Create project**.
+2. Add instructions describing the project and how Claude should help.
+3. Upload reference files, then start chats inside the project.
 
 </details>
 
@@ -94,11 +104,10 @@ Share projects with teammates on Team plans. Ideas: a book you're writing, a cou
 
 ## 🧩 Artifacts and file creation
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Claude can build things you can see and use right in the chat, like a little game, a chart or a planner, and it can make
-real Word, Excel and PowerPoint files.
+When you ask for something substantial, Claude builds it as an **Artifact** in a panel beside the chat: a document, chart, diagram or interactive mini-app you can use and refine. Claude can also create real Word, Excel, PowerPoint and PDF files.
 
 </details>
 
@@ -114,10 +123,10 @@ real Word, Excel and PowerPoint files.
 
 ## 🧠 Memory and search
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Claude can remember important things from your chats and search your past conversations, and you control what it keeps.
+Claude can remember context across chats, such as your role and ongoing projects, and search your past conversations. You can view and edit stored memories in **Settings**.
 
 </details>
 
@@ -129,11 +138,10 @@ Claude can remember important things from your chats and search your past conver
 
 ## 🌐 Web search and Research
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Claude can look things up online with links to sources, and Research mode digs through many sources to write a thorough
-report.
+With web search on, Claude looks things up and cites sources. **Research** mode runs many searches, and can include your connected apps, to produce a thorough, cited report.
 
 </details>
 
@@ -143,10 +151,10 @@ report.
 
 ## 🔌 Connectors: Claude and your apps
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-You can connect Claude to apps like Gmail, Google Drive, Notion or Canva so it can read your stuff and do things for you.
+Connectors let Claude read from and act in apps like Gmail, Google Drive, Notion, Slack and Canva. Browse and enable them in **Settings → Connectors**; they're built on MCP, the open standard Anthropic created.
 
 </details>
 
@@ -160,11 +168,14 @@ and [Built-in Connectors](../part-4-mcp-and-connectors/41-built-in-connectors.md
 
 ## 🤝 Cowork: Claude works on your computer
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Cowork is like giving Claude a desk next to yours: it can read the files you allow, do long jobs in the background, and
-hand you finished work.
+Cowork (paid plans) lets Claude work through longer tasks using the folders and apps you grant it access to, such as organizing files or assembling a report, and hand you the finished result.
+
+1. Open Cowork in the Claude desktop app.
+2. Describe the task and grant access only to the folders or apps it needs.
+3. Review the result, and approve any important actions it proposes.
 
 </details>
 
@@ -181,10 +192,10 @@ Code](../part-7-building-with-ai/62-claude-code-masterclass.md) for non-coding k
 
 ## 🌍 Claude in Chrome, Excel and Slack
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Claude also lives inside your web browser, Excel and Slack, so it can help right where you're working.
+Claude is available inside other tools: **Claude in Chrome** can read and act on web pages, **Claude in Excel** works directly with spreadsheets, and **Claude in Slack** helps your team in channels and threads.
 
 </details>
 
@@ -197,10 +208,10 @@ Claude also lives inside your web browser, Excel and Slack, so it can help right
 
 ## 🎙️ Voice and vision
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-You can talk with Claude out loud in the app, and show it photos, screenshots and documents.
+Voice mode offers spoken conversation in the mobile app. Claude can also read photos, screenshots, charts, handwriting and long PDFs.
 
 </details>
 
@@ -212,11 +223,10 @@ You can talk with Claude out loud in the app, and show it photos, screenshots an
 
 ## 💻 Claude Code
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Claude Code is Claude's coding helper. It can build and fix whole apps and websites, even for people who aren't
-programmers.
+Claude Code is Anthropic's coding agent, available in the terminal, desktop app, web and code editors. It reads your project, makes changes and runs tests, and many non-programmers use it to build their own tools.
 
 </details>
 
@@ -227,10 +237,10 @@ Masterclass](../part-7-building-with-ai/62-claude-code-masterclass.md) and [Powe
 
 ## 🍳 Step-by-step recipes
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Four real jobs you can do with Claude today.
+These four recipes walk through real tasks in Claude step by step, from understanding a long contract to building a working tool.
 
 </details>
 
@@ -259,10 +269,10 @@ Four real jobs you can do with Claude today.
 
 ## 🔐 Privacy and settings
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-The important switches: whether your chats help train Claude, what it remembers, and secret chats.
+The table lists Claude's key privacy settings, including training, memory and incognito chats, and where to find each one.
 
 </details>
 
@@ -276,10 +286,10 @@ The important switches: whether your chats help train Claude, what it remembers,
 
 ## 💡 Pro tips and limitations
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Clever tricks Claude fans know, and the things to watch out for.
+These tips help you get more out of Claude, followed by its current limitations so you know when to double-check or use another tool.
 
 </details>
 

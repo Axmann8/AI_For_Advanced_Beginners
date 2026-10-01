@@ -3,11 +3,14 @@
 Put it all to work in real life: research and learning, writing, small business, careers, life admin, money, health,
 family and school, travel, home and cooking, accessibility, and data analysis for everyone.
 
-<details class="eli5" open>
-<summary>🧸 ELI5: This part in 30 seconds</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-This is where AI stops being a cool toy and becomes a helpful friend in everyday life: helping you learn, write, earn,
-plan trips, cook dinner, understand your money, look after your health, help your kids with homework, and more.
+This part applies AI to everyday goals: studying, writing, running a business, job hunting, managing money and health, parenting, travel, cooking and accessibility.
+
+- **Each chapter is practical:** ready-to-use prompts, step-by-step workflows and realistic examples.
+- **Know the limits:** where AI saves real time, and where you still need a professional or your own judgment.
+- **Start anywhere:** pick the chapter that matches what's on your plate this week.
 
 </details>
 

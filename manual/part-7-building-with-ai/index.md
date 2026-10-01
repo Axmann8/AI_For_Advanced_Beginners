@@ -4,12 +4,14 @@ Become a builder, even if you've never coded: coding agents, Git and GitHub, the
 Cursor and AI IDEs, vibe coding a real app, deploying it, calling AI APIs, building your own agents, frameworks,
 multi-agent teams and computer-use agents.
 
-<details class="eli5" open>
-<summary>🧸 ELI5: This part in 30 seconds</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Today, you can *describe* the app you want and an AI helper writes the code, runs it, tests it, and fixes it while you
-watch and steer. This part teaches you how to be a great "director" of those AI builders, plus how to save your work,
-put it on the internet, and build your own AI helpers from scratch.
+You can now describe an app in plain language and have AI write, run, test and fix the code while you direct it. This part teaches you to build real software that way.
+
+- **Learn the tools:** AI coding agents, Claude Code, Cursor, Git and GitHub.
+- **Ship something:** build your first app and put it on the internet.
+- **Go deeper:** call AI APIs directly, build your own agent, and coordinate several agents together.
 
 </details>
 

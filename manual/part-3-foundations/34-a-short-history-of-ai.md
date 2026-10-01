@@ -6,13 +6,15 @@
 one very important research paper. Knowing the story makes today's tools less magical and more understandable, and it
 helps you spot hype versus real progress.
 
-<details class="eli5" open>
-<summary>🧸 ELI5: This chapter in 30 seconds</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-People have dreamed of thinking machines since the 1950s. For a long time, computers were too slow and too dumb, so AI
-kept going through "winters" when people gave up. Then computers got super fast, the internet gave us tons of data, and
-in 2017 someone invented a new kind of brain design called the **Transformer**. Feed a Transformer the whole internet and
-you get ChatGPT, Claude and friends. Now AIs don't just chat: they use tools and work like helpers.
+AI research began in the 1950s and went through cycles of excitement and disappointment for decades. Three developments made modern AI possible: abundant data from the internet, fast GPU computing, and the Transformer architecture introduced in 2017.
+
+- **1950s–1990s:** early ambitions, "AI winters" and rule-based expert systems.
+- **2010s:** the deep learning boom, followed by the Transformer.
+- **2018–2024:** scaling up models led to ChatGPT and a wave of competing and open models.
+- **2025–2026:** the age of agents, where AI uses tools to complete real tasks.
 
 </details>
 
@@ -20,10 +22,10 @@ you get ChatGPT, Claude and friends. Now AIs don't just chat: they use tools and
 
 ## 🕰️ The whole story on one timeline
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Here's the story as a picture, from the first idea to today. Each dot is a big moment.
+The timeline below summarizes 75 years of AI history, from Turing's question about thinking machines to today's agents.
 
 </details>
 
@@ -56,11 +58,10 @@ timeline
 
 ## 🌱 The dreamers (1950s–1960s)
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-A long time ago, clever people wondered if computers could think like us. They were super excited and thought it would
-take about a summer to figure out. (It took about 70 years. 😅)
+In 1950, Alan Turing proposed the imitation game (later called the Turing test), and the term "artificial intelligence" was coined at a 1956 workshop at Dartmouth. Early researchers were optimistic that human-level AI was close.
 
 </details>
 
@@ -80,11 +81,10 @@ take about a summer to figure out. (It took about 70 years. 😅)
 
 ## ❄️ Winters and expert systems (1970s–1990s)
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-The early AI couldn't live up to the hype, so money and excitement dried up: an "AI winter." Then people tried writing
-down every rule by hand ("if the patient has a fever, then…"). That helped a bit but got messy, and winter came again.
+When early AI failed to meet expectations, funding collapsed in "AI winters" in the 1970s and late 1980s. Expert systems, which encoded human knowledge as thousands of hand-written rules, had some success but proved brittle and expensive to maintain.
 
 </details>
 
@@ -100,11 +100,10 @@ down every rule by hand ("if the patient has a fever, then…"). That helped a b
 
 ## 🔥 The deep learning boom (2010s)
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Three things arrived at once: tons of pictures and text on the internet, super-fast graphics chips from video games, and
-better recipes for training neural networks. Suddenly computers got really good at seeing and hearing.
+In the 2010s, large datasets, GPUs originally built for video games, and better neural network techniques combined to produce dramatic gains in image and speech recognition, starting with AlexNet in 2012.
 
 </details>
 
@@ -121,12 +120,10 @@ neural networks**.
 
 ## ⚡ The Transformer changes everything (2017)
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-In 2017, researchers invented a new brain design called the Transformer. Its trick, "attention," lets it look at *all*
-the words in a sentence at once and figure out which ones matter to each other. It was fast to train on huge amounts of
-text, and it became the engine inside basically every modern AI.
+The Transformer, introduced in the 2017 paper "Attention Is All You Need," uses a mechanism called attention to relate every word in a passage to every other word at once. It trains efficiently on enormous amounts of text and became the foundation of nearly all modern AI models.
 
 </details>
 
@@ -143,11 +140,10 @@ Nearly every model in this manual, including Claude, GPT, Gemini, Llama and Qwen
 
 ## 📈 Scale is (almost) all you need (2018–2022)
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-People discovered that if you make Transformers bigger and feed them more text, they keep getting smarter, sometimes
-learning surprising new skills nobody taught them directly.
+Researchers found that making Transformers larger and training them on more data steadily improved their abilities, sometimes producing skills no one trained directly. This led from GPT-1 and BERT in 2018 to ChatGPT in late 2022.
 
 </details>
 
@@ -166,11 +162,10 @@ learning surprising new skills nobody taught them directly.
 
 ## 🌍 The Cambrian explosion (2023–2024)
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-After ChatGPT, everyone raced to build AI. Lots of companies made their own smart chatbots, some gave their models away
-for free, and AIs learned to see pictures, hear voices, and think step by step.
+After ChatGPT's release, many companies launched competing models, open-weight models made capable AI freely available, and models gained the ability to process images and audio and to reason step by step.
 
 </details>
 
@@ -183,11 +178,10 @@ for free, and AIs learned to see pictures, hear voices, and think step by step.
 
 ## 🤖 The age of agents (2025–2026)
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Now AIs don't just talk. They do jobs: write and test code for hours, browse websites, organize files, make videos with
-sound, and connect to thousands of apps through MCP. That's the world this manual teaches you to play in.
+Since 2025, AI has moved from conversation to action: coding agents that work for hours, browser agents, computer use, video with sound, and thousands of integrations through MCP.
 
 </details>
 
@@ -204,11 +198,10 @@ sound, and connect to thousands of apps through MCP. That's the world this manua
 
 ## 🧭 What history teaches us
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-The story teaches three things: people always overhype the next few months, underestimate the next ten years, and the big
-wins come from lots of data + fast computers + good recipes, not magic.
+History offers three lessons: short-term hype usually overpromises, long-term change is usually underestimated, and progress comes from data, computing power and better methods rather than sudden breakthroughs from nowhere.
 
 </details>
 

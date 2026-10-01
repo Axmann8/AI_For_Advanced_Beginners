@@ -6,12 +6,15 @@
 flow, how tools/resources/prompts are described, how data moves locally and over the internet, how login works, and what
 changed in the big 2026 spec. You'll finish able to *read* MCP traffic and debug servers like a pro.
 
-<details class="eli5" open>
-<summary>🧸 ELI5: This chapter in 30 seconds</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-MCP is like two walkie-talkies following a strict script. The app says "What can you do?" and the server answers with a
-list of buttons. Later the app says "Press the dice button with 2d6," and the server answers "You rolled 8." Every message
-is a tiny labeled note written in the same format (JSON), so any app and any server can understand each other.
+This chapter explains how MCP works at the protocol level: the messages exchanged, how they travel, and how authorization works. Understanding it makes building and debugging servers much easier.
+
+- **Two layers:** the data layer (JSON-RPC messages) and the transport layer (stdio or Streamable HTTP).
+- **A typical session:** initialize, list tools, then call tools as the model requests them.
+- **Remote servers** use OAuth 2.1 so the AI app never sees your password.
+- **Hands-on:** use the MCP Inspector to watch the messages yourself.
 
 </details>
 
@@ -19,11 +22,10 @@ is a tiny labeled note written in the same format (JSON), so any app and any ser
 
 ## 🧱 Two layers: the letters and the mail truck
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-MCP has two parts: **what the notes say** (the letters) and **how the notes get delivered** (the mail truck). The letters are
-always the same, and the truck can be local (inside your computer) or long-distance (over the internet).
+MCP has two layers. The **data layer** defines the messages (what you can ask and what comes back). The **transport layer** defines how those messages are delivered: stdio for local servers, Streamable HTTP for remote ones.
 
 </details>
 
@@ -37,11 +39,10 @@ exactly what the Pocket Toolkit examples do ([Building MCP Servers](42-building-
 
 ## ✉️ JSON-RPC in 60 seconds
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-JSON-RPC is a super simple note format: "Here's note #7, please do *this* with *these details*." The reply says "Answer
-for note #7: here you go." The number keeps questions and answers matched up.
+MCP messages use JSON-RPC 2.0, a simple format with three message types: a **request** (with an ID, a method and parameters), a **response** (matching that ID) and a **notification** (no reply expected).
 
 </details>
 
@@ -81,11 +82,10 @@ That's it. Every MCP feature is built from these three shapes. 🎉
 
 ## 🔄 The conversation, step by step
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-First the app asks "what can you do?", then the AI decides which button to press, then the app asks the server to press it
-and gets the answer. Repeat as needed.
+A session follows a predictable sequence: the client initializes the connection, asks the server what it offers, and then calls tools as the model requests them. The core methods are listed below.
 
 </details>
 
@@ -122,11 +122,10 @@ you, so you rarely think about it.
 
 ## 🔧 Tools up close
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Each tool comes with an instruction label: its name, what it's for, what information it needs (and in what shape), and
-stickers like "safe to use" or "careful, this deletes stuff."
+Each tool definition includes a name, a description, an input schema describing the required arguments, and optional annotations such as whether the tool is read-only or destructive. The table explains why each field matters.
 
 </details>
 
@@ -162,11 +161,10 @@ A tool definition from `tools/list` looks like this:
 
 ## 📄 Resources & prompts up close
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Resources are like labeled folders the AI can open ("notes://all"). Prompts are fill-in-the-blank recipe cards you can
-choose from a menu.
+**Resources** are data identified by URIs, similar to web addresses, that the app can read. **Prompts** are reusable templates with arguments that users choose from a menu.
 
 </details>
 
@@ -187,11 +185,10 @@ to changes on a resource.
 
 ## 🚚 Transports: local and remote
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Local servers talk through a private tube inside your computer (stdio). Remote servers talk over the internet using normal
-web requests (HTTP). Same notes, different delivery.
+With **stdio**, the app launches the server as a local process and exchanges messages through standard input and output. With **Streamable HTTP**, the app sends HTTP requests to a URL and can receive streamed responses. The messages are identical either way.
 
 </details>
 
@@ -214,11 +211,10 @@ web requests (HTTP). Same notes, different delivery.
 
 ## 🔐 Authorization in one page
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-When you connect a remote server, you log in with the real service (like "Sign in with Notion") and get a special pass that
-only opens certain doors. The AI app never sees your password.
+Remote MCP servers use OAuth 2.1. You sign in with the actual service, which issues the app a token limited to specific permissions (scopes). The AI app never sees your password, and you can revoke access at any time.
 
 </details>
 
@@ -248,11 +244,10 @@ Key ideas:
 
 ## 🧩 Extensions & advanced features
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-On top of the basics, MCP has optional power-ups: long-running jobs you can check on later, mini apps that show up inside
-the chat, and servers that can ask you questions.
+Optional extensions add advanced capabilities: long-running **Tasks**, **MCP Apps** that display interactive interfaces in the chat, and **elicitation**, which lets a server ask you for input. The table shows each one's status.
 
 </details>
 
@@ -266,10 +261,10 @@ the chat, and servers that can ask you questions.
 
 ## 🕰️ A tiny spec timeline
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-MCP keeps getting new versions, like phone updates. Each version is named by its date.
+MCP versions are named by release date. The table summarizes each version's major changes, from the original 2024 release to today.
 
 </details>
 
@@ -286,11 +281,14 @@ and SDKs usually support several at once.
 
 ## 🔍 Watch the wire yourself (hands-on)
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-There's a free tool that lets you peek at the walkie-talkie messages and press the server's buttons yourself. It's the
-best way to really "get" MCP.
+The MCP Inspector is a free web tool for exploring any server directly.
+
+1. Launch it with the command below, pointing it at a server.
+2. Click **List Tools** to see the exact definitions the model receives.
+3. Choose a tool, enter arguments and click **Run** to see the raw response.
 
 </details>
 

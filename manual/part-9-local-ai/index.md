@@ -3,11 +3,14 @@
 Run AI on your own machine, private and offline: open models, choosing hardware, building a home lab, local AI for coding
 and agents, and customizing models with fine-tuning.
 
-<details class="eli5" open>
-<summary>🧸 ELI5: This part in 30 seconds</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Most AI lives in giant computers far away. But smaller AI brains can live **right on your laptop**, like having a pet
-robot at home instead of calling one on the phone. It's private, it works without internet, and it's free to use all day.
+Most AI runs on a company's servers, but smaller models can run directly on your own computer. That keeps your data private, works offline, and costs nothing per use.
+
+- **Get started:** install a local model and chat with it in a few minutes.
+- **Choose hardware:** what your computer can run today, and what to buy if you want more.
+- **Go further:** set up a home lab, use local AI for coding and agents, and customize models with fine-tuning.
 
 </details>
 

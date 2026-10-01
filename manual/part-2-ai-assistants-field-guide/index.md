@@ -5,12 +5,14 @@ DeepSeek, Le Chat, Qwen, Kimi and friends, plus the AI built into Siri, Alexa an
 signing up, plans, every feature worth knowing, step-by-step how-tos, privacy settings and pro tips. Then we pit them
 against each other and show you how to use several together. 🥊
 
-<details class="eli5" open>
-<summary>🧸 ELI5: This part in 30 seconds</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-There are lots of AI helpers, made by different companies, and each has its own special tricks. This part is like a
-guidebook to a zoo: one page for each animal, what it eats, what it's good at and how to make friends with it. Read the
-page for the AI you use most, and peek at the others when you're curious.
+Many companies make AI assistants, and each one has different strengths, features, prices and privacy policies. This part gives every major assistant its own complete chapter.
+
+- **Start with the comparison** if you're still choosing, or jump straight to the assistant you already use.
+- **Each chapter covers** sign-up, plans, key features, step-by-step how-tos, privacy settings and pro tips.
+- **Finish with the showdowns** to see which assistant fits which task, and how to use several together.
 
 </details>
 

@@ -3,11 +3,14 @@
 Make AI know *your* stuff and remember *you*: RAG, embeddings and vector databases, building a RAG system, memory for
 agents, the Gemini Notebook (NotebookLM) masterclass, and personal knowledge management that actually sticks.
 
-<details class="eli5" open>
-<summary>🧸 ELI5: This part in 30 seconds</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-AI knows a lot about the world but nothing about *your* notes, your job, or what you told it yesterday. This part is about
-giving it a **library card** (so it can look things up in your documents) and a **diary** (so it remembers you).
+AI models know a lot about the world but nothing about your own documents, work or past conversations. This part shows you how to give them that knowledge.
+
+- **Retrieval (RAG):** let the AI search your documents and answer with sources.
+- **Memory:** let assistants and agents remember what matters across conversations.
+- **Personal knowledge:** use tools like NotebookLM and a well-organized notes system to learn faster.
 
 </details>
 

@@ -4,12 +4,14 @@ Brand new to AI? You're in exactly the right place. This part assumes nothing: w
 first conversation, how to ask good questions, how to stay safe, and a gentle 30-day plan that turns you into a
 confident everyday user. No jargon without an explanation, no judgment, and lots of little wins along the way. 🌱
 
-<details class="eli5" open>
-<summary>🧸 ELI5: This part in 30 seconds</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-AI chatbots are like a super-helpful friend who has read almost every book in the world and loves answering questions.
-This part teaches you how to say hello, how to ask for help so you get great answers, how to tell when your friend is
-making something up, and how to keep your secrets safe. By the end you'll use AI every day without even thinking about it.
+This part takes you from never having used an AI chatbot to using one confidently every day. No technical background is needed.
+
+- **Learn the basics:** what AI is, how chatbots produce their answers, and how to set up your first assistant.
+- **Get better results:** how to write clear requests, follow up, and use voice, photos and files.
+- **Use it wisely:** how to spot mistakes, protect your privacy, and build a simple daily habit over 30 days.
 
 </details>
 

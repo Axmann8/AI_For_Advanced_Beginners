@@ -6,12 +6,14 @@
 their own AI agents. It's big on purpose, but it's designed so you never have to read it front to back. Think of it like
 a theme park map: pick the rides that excite you, and come back for more whenever you like.
 
-<details class="eli5" open>
-<summary>🧸 ELI5: This page in 30 seconds</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-This is a giant book about making AI do fun and useful things. Every page has little **teddy-bear boxes** that explain
-things super simply, **cards you can tap** to jump around, **quizzes** with hidden answers, and a **✅ button** to mark a
-chapter as done (you get confetti!). Start anywhere you like.
+This manual covers AI from the very first conversation to building your own tools. You don't need to read it in order: start with whatever matches your goal.
+
+- **✅ Key Points & Steps boxes** open every chapter and section with the essentials, so you can skim or dive in.
+- **Section cards** at the top of each chapter let you jump straight to the part you need.
+- **Quizzes, hands-on challenges and a ✅ done button** help you check your understanding and track your progress.
 
 </details>
 
@@ -19,11 +21,10 @@ chapter as done (you get confetti!). Start anywhere you like.
 
 ## 🎁 What's inside
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Thirteen "parts," like the lands in a theme park. The first two are for beginners, and each land has several rides
-(chapters). There are also build-along projects and a reference section at the back.
+The manual is organized into thirteen parts. Parts I and II are written for beginners; the later parts build on them with deeper topics, hands-on projects (Part XIII) and a reference section (the appendices).
 
 </details>
 
@@ -46,11 +47,10 @@ Thirteen "parts," like the lands in a theme park. The first two are for beginner
 
 ## 🧸 The boxes and what they mean
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Different colored boxes mean different things. Teddy bear = super simple explanation. Game controller = go try
-something. Question mark = mini quiz. Diving mask = extra-nerdy details you can skip.
+Each colored box has one job, so you can tell at a glance whether to read it, try it or skip it. The essentials always appear in the amber **✅ Key Points & Steps** boxes; the optional extras (like 🤿 deep dives) are collapsed so they stay out of your way.
 
 </details>
 
@@ -70,11 +70,15 @@ something. Question mark = mini quiz. Diving mask = extra-nerdy details you can 
 
 ## 🗺️ Getting around
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-You can tap cards, use the menu on the left, search with the magnifying glass, or just press the big "Next up" button at
-the bottom of every chapter.
+There are several ways to move around. Use whichever feels most natural:
+
+1. **Tap a section card** at the top of a chapter to jump to that section.
+2. **Use the sidebar** (or the ☰ menu on a phone) to browse every part and chapter.
+3. **Search** by pressing / or s and typing any word.
+4. **Press "Next up"** at the bottom of a chapter to continue in order.
 
 </details>
 
@@ -87,11 +91,14 @@ the bottom of every chapter.
 
 ## ✅ Tracking your progress
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-At the bottom of every chapter there's a big ✅ button. Press it when you finish, and a little check mark appears next to
-that chapter in the menu. The home page shows a progress bar.
+You can track which chapters you've finished, with no account required:
+
+1. Read to the end of a chapter.
+2. Press **✅ Mark this chapter as done**.
+3. Check the sidebar (a ✅ appears next to the chapter) and the home page progress bar, which also links back to where you left off.
 
 </details>
 
@@ -103,10 +110,10 @@ that chapter in the menu. The home page shows a progress bar.
 
 ## 🧭 Choose your own adventure
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Pick the path that matches what you want most. You can always switch paths later.
+The table below suggests a first five chapters for different starting points. Pick the row that sounds most like you; you can switch paths any time.
 
 </details>
 
@@ -123,11 +130,10 @@ Pick the path that matches what you want most. You can always switch paths later
 
 ## 💬 A few friendly promises
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-This book tries to be kind, honest and fun. It won't make you feel silly, it won't pretend things are perfect, and it'll
-always tell you the next fun thing to try.
+The manual is built on a few simple commitments: plain explanations without jargon or condescension, something practical to do in every chapter, and honesty about what AI does well and where it falls short.
 
 </details>
 

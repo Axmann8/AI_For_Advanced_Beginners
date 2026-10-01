@@ -1,9 +1,8 @@
-/* The Massive AI Manual · progress tracking, ELI5 mode, and a little confetti 🎉
+/* The Massive AI Manual · progress tracking, the PDF button, and a little confetti 🎉
    Everything is stored in this browser only (localStorage), and the page works fine without it. */
 (() => {
   const KEY_DONE = "aiab:done:v1";
   const KEY_LAST = "aiab:last:v1";
-  const KEY_ELI5 = "aiab:eli5mode:v1";
 
   const read = (key, fallback) => {
     try {
@@ -107,29 +106,6 @@
     });
   }
 
-  function setupEli5Toggle() {
-    document.querySelectorAll(".eli5-toggle").forEach((b) => b.remove());
-    const boxes = document.querySelectorAll(".md-content details.eli5");
-    if (!boxes.length) return;
-    const button = document.createElement("button");
-    button.type = "button";
-    button.className = "eli5-toggle";
-    const apply = (on) => {
-      button.setAttribute("aria-pressed", String(on));
-      button.innerHTML = on ? '🧸<span class="label"> ELI5 mode: ON</span>' : '🧸<span class="label"> ELI5 mode</span>';
-      button.title = on ? "Collapse the ELI5 explanations" : "Open every ELI5 explanation on this page";
-      if (on) boxes.forEach((d) => d.setAttribute("open", ""));
-    };
-    button.addEventListener("click", () => {
-      const on = !read(KEY_ELI5, false);
-      write(KEY_ELI5, on);
-      if (!on) boxes.forEach((d, i) => { if (i > 0) d.removeAttribute("open"); });
-      apply(on);
-    });
-    apply(Boolean(read(KEY_ELI5, false)));
-    document.body.appendChild(button);
-  }
-
   // a bright "📄 PDF book" button in the header, on every page
   function setupPdfButton() {
     const header = document.querySelector(".md-header__inner");
@@ -147,7 +123,6 @@
     setupPdfButton();
     setupDoneButtons();
     setupProgress();
-    setupEli5Toggle();
     markNav(read(KEY_DONE, {}));
   }
 

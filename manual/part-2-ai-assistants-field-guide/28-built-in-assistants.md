@@ -8,12 +8,15 @@ and Nest, and Samsung's Galaxy AI translates phone calls live. This chapter goes
 tour](../part-1-ai-from-zero/12-ai-everywhere.md): setup, the best things to ask, privacy, and how these hands-free
 helpers team up with chatbot apps.
 
-<details class="eli5" open>
-<summary>🧸 ELI5: This chapter in 30 seconds</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Your phone, speaker and TV have AI helpers built in: Siri on iPhones, Alexa on Echo speakers, Gemini on Android and
-Google speakers, and Galaxy AI on Samsung phones. They're great for quick, hands-free jobs like timers, messages,
-translation and controlling your lights, and they got much smarter recently.
+The assistants built into phones, speakers, TVs and cars have improved dramatically with modern AI. They're best for quick, hands-free tasks such as timers, messages, translation and smart home control.
+
+- **Apple:** Apple Intelligence and a rebuilt Siri, with a strong privacy design.
+- **Amazon and Google:** Alexa+ on Echo devices; Gemini on Android, Nest speakers and Google TV.
+- **Samsung:** Galaxy AI features like live call translation, alongside Gemini.
+- **Know when to switch:** for long conversations or complex projects, a full chatbot app works better.
 
 </details>
 
@@ -21,11 +24,10 @@ translation and controlling your lights, and they got much smarter recently.
 
 ## 🍎 Apple Intelligence and the new Siri
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Apple's AI is called Apple Intelligence. It made Siri much smarter: Siri now understands what's on your screen, knows your
-messages and calendar (privately), and can do things across your apps.
+Apple Intelligence powers a rebuilt Siri (iOS 27, September 2026) that understands what's on your screen, draws on your messages and calendar privately, and takes actions across apps. Larger requests use Apple's Private Cloud Compute, and Siri can hand questions to ChatGPT or Gemini with your permission.
 
 </details>
 
@@ -54,11 +56,10 @@ FaceTime and phone calls.
 
 ## 🔒 Apple's privacy approach
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Apple tries to keep your AI requests on your phone, and when it needs bigger computers, it uses special ones designed so
-not even Apple can see your data.
+Apple processes as many requests as possible on your device. Larger requests go to Private Cloud Compute, servers designed so your data isn't stored or accessible to Apple, and independent researchers can inspect the system.
 
 </details>
 
@@ -69,11 +70,10 @@ not even Apple can see your data.
 
 ## 🔊 Alexa+ (Amazon)
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Alexa+ is the new, smarter Alexa. You can talk to it normally, and it can plan things, order groceries, book stuff and run
-your smart home.
+Alexa+ is Amazon's rebuilt, generative-AI Alexa. It understands natural requests, remembers preferences, and can plan, order groceries, make bookings and control smart home devices. It's included with Prime in the US or available as a standalone subscription.
 
 </details>
 
@@ -97,11 +97,10 @@ button when you want quiet.
 
 ## 🤖 Google: Gemini on Android and at home
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-On Android phones and Google speakers, Gemini has replaced the old Google Assistant, so you get a smarter helper for
-questions, your apps and your home.
+Gemini has replaced Google Assistant on Android phones and on Google's Nest speakers and displays, bringing more natural conversation, screen awareness and smarter home control.
 
 </details>
 
@@ -114,11 +113,10 @@ questions, your apps and your home.
 
 ## 📱 Samsung Galaxy AI
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Samsung phones have their own AI tricks, like translating phone calls live and tidying up your notes, plus Gemini built
-in.
+Samsung Galaxy phones combine Galaxy AI features, such as real-time call translation, note formatting and photo editing, with Gemini as the main assistant. The table describes each feature.
 
 </details>
 
@@ -138,10 +136,10 @@ Find them in **Settings → Galaxy AI**. Some features process on-device (you ca
 
 ## 📺 TVs, watches and cars
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Even TVs, watches and cars have AI helpers now, for finding shows, quick questions and hands-free help while driving.
+AI assistants are also built into TVs (for finding shows), smartwatches (for quick questions and replies) and cars (for hands-free messages, navigation and questions while driving).
 
 </details>
 
@@ -152,10 +150,10 @@ Even TVs, watches and cars have AI helpers now, for finding shows, quick questio
 
 ## 🧭 Which built-in helper for which job?
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Built-in helpers are best for quick, hands-free things. For long chats and big projects, use a chatbot app.
+Built-in assistants are best for quick, hands-free tasks and anything involving your device's own apps. For longer conversations, research or creative projects, use a full chatbot app. The table matches common jobs to the best tool.
 
 </details>
 

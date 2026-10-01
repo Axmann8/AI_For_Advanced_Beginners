@@ -16,7 +16,7 @@
   --md-accent-bg-color--light: rgba(255, 255, 255, 0.7);
 
   --aiab-grad: linear-gradient(120deg, #4338ca 0%, #7c3aed 45%, #c026d3 100%);
-  --aiab-eli5: #f59e0b;
+  --aiab-keypoints: #f59e0b;
   --aiab-tryit: #10b981;
   --aiab-quiz: #8b5cf6;
   --aiab-deepdive: #0ea5e9;
@@ -238,20 +238,20 @@
   background: var(--aiab-grad);
 }
 
-/* ------------------------------------------- custom boxes (ELI5, quiz, …) */
+/* ------------------------------------------- custom boxes (key points, quiz, …) */
 .md-typeset .admonition,
 .md-typeset details {
   border-radius: var(--aiab-radius);
   box-shadow: none;
 }
-.md-typeset .eli5,
+.md-typeset .keypoints,
 .md-typeset .tryit,
 .md-typeset .quiz,
 .md-typeset .deepdive,
 .md-typeset .funfact,
 .md-typeset .takeaway,
 .md-typeset .pitfall {
-  --box: var(--aiab-eli5);
+  --box: var(--aiab-keypoints);
   border: 1.5px solid color-mix(in srgb, var(--box) 55%, transparent);
   background: linear-gradient(180deg, color-mix(in srgb, var(--box) 7%, transparent), transparent 70%);
 }
@@ -262,26 +262,23 @@
 .md-typeset .takeaway { --box: var(--aiab-takeaway); }
 .md-typeset .pitfall { --box: var(--aiab-pitfall); }
 
-.md-typeset :is(.eli5, .tryit, .quiz, .deepdive, .funfact, .takeaway, .pitfall) > :is(.admonition-title, summary) {
+.md-typeset :is(.keypoints, .tryit, .quiz, .deepdive, .funfact, .takeaway, .pitfall) > :is(.admonition-title, summary) {
   background-color: color-mix(in srgb, var(--box) 15%, transparent);
   padding-left: 0.85rem;
   font-weight: 700;
   border-radius: calc(var(--aiab-radius) - 0.2rem) calc(var(--aiab-radius) - 0.2rem) 0 0;
 }
-.md-typeset details:not([open]):is(.eli5, .tryit, .quiz, .deepdive, .funfact, .takeaway, .pitfall) > summary {
+.md-typeset details:not([open]):is(.keypoints, .tryit, .quiz, .deepdive, .funfact, .takeaway, .pitfall) > summary {
   border-radius: calc(var(--aiab-radius) - 0.2rem);
 }
-.md-typeset :is(.eli5, .tryit, .quiz, .deepdive, .funfact, .takeaway, .pitfall) > :is(.admonition-title, summary)::before {
+.md-typeset :is(.keypoints, .tryit, .quiz, .deepdive, .funfact, .takeaway, .pitfall) > :is(.admonition-title, summary)::before {
   display: none;
 }
-.md-typeset :is(.eli5, .tryit, .quiz, .deepdive, .funfact, .takeaway, .pitfall) > summary::after {
+.md-typeset :is(.keypoints, .tryit, .quiz, .deepdive, .funfact, .takeaway, .pitfall) > summary::after {
   background-color: var(--box);
 }
-.md-typeset details.eli5 {
-  font-size: 0.78rem;
-}
-.md-typeset details.eli5 > summary {
-  cursor: pointer;
+.md-typeset .keypoints {
+  font-size: 0.8rem;
 }
 .md-typeset details.quiz > summary {
   font-weight: 600;
@@ -505,31 +502,7 @@
   transition: width 0.8s ease;
 }
 
-/* ------------------------------------------------------ ELI5 mode toggle */
-.eli5-toggle {
-  position: fixed;
-  right: 1rem;
-  bottom: 1rem;
-  z-index: 3;
-  cursor: pointer;
-  font: inherit;
-  font-size: 0.72rem;
-  font-weight: 700;
-  padding: 0.55rem 0.95rem;
-  border-radius: 999px;
-  border: 2px solid var(--aiab-eli5);
-  background: var(--md-default-bg-color);
-  color: var(--md-default-fg-color);
-  box-shadow: 0 10px 24px -14px rgba(0, 0, 0, 0.5);
-  transition: all 0.15s ease;
-}
-.eli5-toggle:hover,
-.eli5-toggle[aria-pressed="true"] {
-  background: var(--aiab-eli5);
-  color: #1f1300;
-}
 @media print {
-  .eli5-toggle,
   .chapter-done {
     display: none;
   }
@@ -581,15 +554,6 @@
   }
   .md-typeset .hero h1 {
     font-size: 1.85rem;
-  }
-  .eli5-toggle {
-    right: 0.6rem;
-    bottom: 0.6rem;
-    padding: 0.45rem 0.6rem;
-    font-size: 0.9rem;
-  }
-  .eli5-toggle .label {
-    display: none;
   }
 }
 

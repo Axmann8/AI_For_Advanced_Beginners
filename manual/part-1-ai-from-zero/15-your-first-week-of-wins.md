@@ -7,12 +7,14 @@ one a day, each solving a genuine everyday problem while quietly teaching you a 
 planned a week of meals, sent a tricky message, decoded a confusing document, learned something new, planned an outing,
 made something creative and built your own personal AI helper. Let's go! 🚀
 
-<details class="eli5" open>
-<summary>🧸 ELI5: This chapter in 30 seconds</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-This is a one-week challenge with seven little missions. Each day you use AI to do something actually useful, like
-planning dinners or writing a hard message. Each mission teaches you a new AI trick. Finish all seven and you're a real
-AI user!
+This chapter is a one-week challenge: seven practical projects, one per day, each taking 20 to 30 minutes. Every project accomplishes something useful and teaches a core AI skill.
+
+1. **Do one mission per day,** in order; each builds on the previous skill.
+2. **Use any assistant** you like.
+3. **Note what worked** so you can reuse it later.
 
 </details>
 
@@ -30,11 +32,14 @@ AI user!
 
 ## 🍽️ Day 1: A week of meals and a shopping list
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Tell the AI who's eating, what you like and your budget, and it plans your dinners for the week and writes your shopping
-list.
+**Skill: giving context and constraints.**
+
+1. Describe your household, preferences, dietary needs and budget.
+2. Ask for five dinners and a combined shopping list.
+3. Refine with follow-ups, such as swapping a meal or sorting the list by store section.
 
 </details>
 
@@ -54,11 +59,14 @@ list.
 
 ## 📬 Day 2: Tame a tricky message
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Pick a message you've been putting off, like a complaint or an awkward "no," and let the AI help you get the words just
-right.
+**Skill: steering tone with follow-ups.**
+
+1. Choose a message you've been putting off, such as a complaint or a polite refusal.
+2. Explain the situation and the outcome you want.
+3. Adjust the tone and length until it sounds right, then edit it into your own words.
 
 </details>
 
@@ -77,10 +85,14 @@ Think of a message you've been putting off: a complaint, a request, saying no, a
 
 ## 🧾 Day 3: Decode a confusing document
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Find a confusing letter, bill or manual, show it to the AI, and ask it to explain it in simple words.
+**Skill: uploading files and asking precise questions.**
+
+1. Choose a confusing document, such as a bill or insurance letter, and remove private numbers.
+2. Upload it or paste the text.
+3. Ask for a plain-language summary and any actions or deadlines you need to know about.
 
 </details>
 
@@ -101,11 +113,14 @@ accuracy.
 
 ## 🎓 Day 4: Learn something in 20 minutes
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Pick something you've always wanted to understand, and let the AI teach you like a patient teacher, then quiz you to
-check you got it.
+**Skill: using AI as a tutor.**
+
+1. Choose a topic you've always wanted to understand.
+2. Ask the AI to teach the basics step by step, checking your understanding as it goes.
+3. Finish by asking it to quiz you.
 
 </details>
 
@@ -124,10 +139,14 @@ basics of a language.
 
 ## 🗺️ Day 5: Plan an outing
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Plan a day out or a trip with the AI, then double-check the important details, like opening times, on the real websites.
+**Skill: planning with web search and fact-checking.**
+
+1. Ask for a day-trip plan with your location, interests and constraints.
+2. Make sure web search is on so it uses current information.
+3. Verify opening times, prices and travel details on official websites.
 
 </details>
 
@@ -145,10 +164,10 @@ Plan a day out or a trip with the AI, then double-check the important details, l
 
 ## 🎨 Day 6: Make something creative
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Make something fun: a story, a poem or a birthday card, with a picture made by AI to go with it.
+**Skill: voice and image creation.** Create something personal, such as a birthday card with a custom poem and image, or a bedtime story co-written through voice mode.
 
 </details>
 
@@ -168,11 +187,14 @@ Choose one:
 
 ## 🤖 Day 7: Build your own helper
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Make a special AI helper for something you do often, like a meal planner or a homework helper, so you don't have to
-explain everything every time.
+**Skill: custom instructions and reusable assistants.**
+
+1. Choose a task you do often.
+2. Create a reusable helper (a Project, Gem or similar; see the table).
+3. Write clear instructions once, then use it whenever the task comes up.
 
 </details>
 
@@ -207,10 +229,10 @@ beginner territory! 🎉
 
 ## 🥳 You did it!
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Seven missions done! You now know the main AI skills. Keep using them every day and they'll become a habit.
+After seven missions you've practiced every core beginner skill: context, follow-ups, documents, tutoring, research, creative tools and reusable assistants. Using them regularly will turn them into habits.
 
 </details>
 

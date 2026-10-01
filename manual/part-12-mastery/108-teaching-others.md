@@ -82,7 +82,7 @@ Good comparisons make hard ideas easy. Here are ready-made ones for explaining h
 | **Fine-tuning** | "Cooking lessons in grandma's recipes for an already great chef." |
 | **Local model** | "A pet robot at home instead of calling one on the phone." |
 
-**Pro tip:** this manual has an **🧸 ELI5 box for every section**, and the [ELI5 Edition](../appendices/g-eli5-edition.md)
+**Pro tip:** this manual has an **🧸 ELI5 box for every section**, and the [ELI5 Edition](../appendices/g-key-points-edition.md)
 collects them all in one place. Perfect teaching material!
 
 ## 🎭 Meeting people where they are

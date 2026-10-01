@@ -6,11 +6,14 @@
 kitchen, your web browser, your car and even glasses.** This chapter is a friendly tour of the AI already waiting on
 your devices, how to switch it on, and the handiest things to ask it. Chances are you own more AI than you realize. 😄
 
-<details class="eli5" open>
-<summary>🧸 ELI5: This chapter in 30 seconds</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-AI isn't just in one app anymore. It lives in your phone (Siri, Gemini), your speaker (Alexa), your computer (Copilot),
-your web browser and even your car. You can just press a button or say a wake word and ask for help, wherever you are.
+AI assistants are now built into phones, computers, browsers, speakers, cars, glasses and messaging apps. You can often get help with a button press or a wake word, without opening a separate app.
+
+- **Phones:** Apple Intelligence and Siri on iPhone; Gemini on Android.
+- **Computers and browsers:** Copilot on Windows, and AI sidebars in Chrome, Edge and other browsers.
+- **Home and on the go:** Alexa+ and Google speakers, in-car assistants, smart glasses and Meta AI inside WhatsApp and Instagram.
 
 </details>
 
@@ -18,11 +21,10 @@ your web browser and even your car. You can just press a button or say a wake wo
 
 ## 🍎 On iPhone, iPad and Mac
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Apple devices have a helper called Apple Intelligence and a much smarter Siri. You can also add apps like ChatGPT,
-Gemini or Claude.
+Apple devices use Apple Intelligence, which powers a much more capable Siri and writing, image and summary tools across the system. You can also install ChatGPT, Gemini or Claude, and connect ChatGPT directly to Siri.
 
 </details>
 
@@ -48,11 +50,14 @@ Shortcuts.
 
 ## 🤖 On Android phones
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Android phones have Gemini built in. Hold the power button or say "Hey Google" and ask anything, even about what's on
-your screen.
+On most Android phones, Gemini has replaced Google Assistant and can see what's on your screen when you ask.
+
+1. Long-press the power button or say *"Hey Google."*
+2. Ask your question, or tap **Ask about screen** to discuss what you're viewing.
+3. Use **Circle to Search** to look up anything you circle on screen.
 
 </details>
 
@@ -72,10 +77,14 @@ more, with Gemini built in. **Pixel phones** add extras like Magic Editor and Ca
 
 ## 🪟 On Windows computers
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Windows has Copilot built in. Press the Copilot key or click its icon to ask for help, even about what's on your screen.
+Windows includes Copilot, which can answer questions and, with Copilot Vision, look at an app or window you share and guide you through tasks.
+
+1. Press the Copilot key or click the Copilot icon on the taskbar.
+2. Type or speak your question.
+3. Share a window with Copilot Vision when you need help with something on screen.
 
 </details>
 
@@ -91,11 +100,10 @@ Any assistant works on Windows too: ChatGPT, Claude and others have desktop apps
 
 ## 🌐 In your web browser
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Some web browsers now have an AI helper in a sidebar that can read the page you're on, summarize it, or even click
-around to help you do things.
+Several browsers now include an AI sidebar that can summarize the page you're on, answer questions about it and, in some cases, complete tasks for you. The table lists the main options.
 
 </details>
 
@@ -118,11 +126,10 @@ Browsers are becoming AI-powered, with a sidebar that can read the page you're l
 
 ## 🔊 Smart speakers and your home
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Speakers like Alexa and Google's now use new AI, so they understand you better and can help with more, like planning
-dinner or controlling your lights with normal sentences.
+Smart speakers have been upgraded with modern AI. Alexa+ and Gemini for Home understand natural requests, remember preferences and can handle multi-step tasks like planning meals or controlling several devices at once.
 
 </details>
 
@@ -139,11 +146,10 @@ dinner or controlling your lights with normal sentences.
 
 ## 🚗 In the car
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Many cars now let you talk to an AI while driving, so you can ask questions or send messages without touching your
-phone.
+Android Auto offers Gemini and Apple CarPlay offers Siri for hands-free messages, directions and questions. Many newer cars also include built-in assistants powered by large AI models.
 
 </details>
 
@@ -159,10 +165,10 @@ phone.
 
 ## 👓 Glasses, watches and gadgets
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Some glasses have a camera and speakers with AI inside, so you can ask "what am I looking at?" hands-free.
+Smart glasses such as Ray-Ban Meta include a camera, speakers and Meta AI, so you can ask about what you're looking at hands-free. Smartwatches and other gadgets increasingly offer AI features too.
 
 </details>
 
@@ -174,10 +180,10 @@ Some glasses have a camera and speakers with AI inside, so you can ask "what am 
 
 ## 💬 In the apps you already chat in
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-You can talk to Meta AI right inside WhatsApp or Instagram, just like chatting with a friend.
+Meta AI is available inside WhatsApp, Instagram and Messenger, including in group chats where anyone can mention @Meta AI. Grok is similarly built into X.
 
 </details>
 

@@ -6,12 +6,16 @@
 code can become a tool that *every* AI app can use. This chapter takes you from "hello world" to a remote, authenticated
 server published to the official registry, with tested starter kits in both Python and TypeScript.
 
-<details class="eli5" open>
-<summary>🧸 ELI5: This chapter in 30 seconds</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Building an MCP server is like building a new button panel for your AI. You write a few little functions ("roll dice,"
-"save a note," "check the weather"), give each a clear label, and the MCP kit turns them into buttons any AI can press. Start
-with our ready-made example, change it, and you've made your first AI superpower. 🦸
+Building an MCP server means writing a few functions, describing each one clearly, and letting an MCP SDK turn them into tools any AI app can use. This chapter takes you from a working example to a published server, in Python or TypeScript.
+
+1. **Plan** what the server is for and which tools it needs.
+2. **Start from a tested starter kit** and confirm it runs.
+3. **Write clear tools,** structured outputs and helpful error messages.
+4. **Test** with the MCP Inspector and smoke tests.
+5. **Deploy remotely, add authentication and publish** when you're ready to share.
 
 </details>
 
@@ -24,11 +28,14 @@ with our ready-made example, change it, and you've made your first AI superpower
 
 ## 🎯 Step 0: Decide what your server should do
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Before building, decide what your panel is for (the "noun," like recipes or weather) and what buttons it needs (the
-"verbs," like search, add, delete). Fewer, clearer buttons are better.
+A good server is small, focused and well described.
+
+1. Name the **noun**: the service or data it covers (recipes, weather, your wiki).
+2. List the **verbs**: the actions it needs (search, add, update).
+3. Keep the list short; a few clear tools work better than many vague ones.
 
 </details>
 
@@ -46,10 +53,15 @@ A great server is **small, focused and well-described**. Answer three questions:
 
 ## 🚀 Step 1: Your first server in 5 minutes
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Copy our ready-made example, run one command to check it works, and plug it into your AI. Then start changing it.
+This manual includes two tested starter kits, one in Python and one in TypeScript.
+
+1. Copy the kit for your preferred language.
+2. Run its smoke test to confirm everything works.
+3. Add the server to your AI app's configuration and try it.
+4. Start modifying the tools for your own purpose.
 
 </details>
 
@@ -119,11 +131,10 @@ model sees ([MCP Under the Hood](39-mcp-under-the-hood.md#-tools-up-close)).
 
 ## ✍️ Step 2: Write tools the AI will use well
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Good buttons have clear labels, ask for simple information, give short helpful answers, and explain kindly what went
-wrong when something fails.
+Well-designed tools have specific names, simple inputs, a description that explains when to use them and what they return, concise outputs, and clear error messages. The table contrasts good and poor patterns.
 
 </details>
 
@@ -143,11 +154,10 @@ the user for confirmation, so set them honestly.
 
 ## 📦 Step 3: Structured output & errors
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Sometimes a robot, not a person, reads the answer, so you can also return a neat form with labeled boxes. And when
-something breaks, say so politely instead of crashing.
+Tools can return structured JSON alongside text, which is useful when results feed into other tools or automations. When something fails, return a clear error message the model can act on instead of letting the server crash.
 
 </details>
 
@@ -159,11 +169,10 @@ something breaks, say so politely instead of crashing.
 
 ## 📄 Step 4: Resources and prompts
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Besides buttons, your panel can offer folders to read (resources) and recipe cards to pick (prompts). These are great for
-"attach my project status" or "run my weekly review."
+Beyond tools, a server can offer **resources** (readable data at URIs, which users can attach as context) and **prompts** (reusable templates that often appear as slash commands).
 
 </details>
 
@@ -173,11 +182,14 @@ Besides buttons, your panel can offer folders to read (resources) and recipe car
 
 ## 🧪 Step 5: Test like a pro
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Press every button yourself before handing the panel to the AI. There's a free tool for that, and you can write a little
-robot that tests it automatically every time you change something.
+Test every tool before relying on it.
+
+1. Use the MCP Inspector to list and call each tool manually.
+2. Write a smoke test that calls your tools automatically.
+3. Run the tests after every change, ideally in CI.
 
 </details>
 
@@ -194,11 +206,10 @@ robot that tests it automatically every time you change something.
 
 ## ☁️ Step 6: Go remote with Streamable HTTP
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-A local panel only works on your computer. To share it with your phone, your team or the world, put it on the internet
-with a web address. Same buttons, longer wire.
+A local server only works on your computer. Running it with the Streamable HTTP transport and hosting it online makes it available at a URL to your phone, your team or the public. Stateless mode is the modern default and scales easily.
 
 </details>
 
@@ -219,11 +230,10 @@ import { StreamableHTTPServerTransport } from "@modelcontextprotocol/sdk/server/
 
 ## 🔐 Step 7: Authentication
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-If your panel can touch private stuff, it needs a lock. Simple locks (a secret password in the request) are fine for you
-and friends, and proper "Sign in with…" locks (OAuth) are for the public.
+Any server that touches private data needs authentication. Options range from keeping it on a private network, to a shared secret header for personal use, to full OAuth for public servers. The table compares them.
 
 </details>
 
@@ -242,11 +252,10 @@ rolling your own.
 
 ## 🌍 Step 8: Publish it
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Share your panel with the world: put the code in a package store so anyone can install it with one command, then add it
-to the official directory so people can find it.
+To share your server, publish it to npm or PyPI so others can run it with one command, then register it in the official MCP Registry so people can find it.
 
 </details>
 
@@ -277,11 +286,10 @@ Bundle your server with skills and slash commands as a Claude Code plugin, so a 
 
 ## 🚀 Step 9: Level up
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Once the basics work, you can add fancy extras: progress bars for slow jobs, questions for the user, and even little
-interactive screens inside the chat.
+Once the basics work, you can add resource templates, prompts that appear as slash commands, progress notifications for long tasks, elicitation to ask users for input, and interactive MCP Apps.
 
 </details>
 
@@ -294,10 +302,10 @@ interactive screens inside the chat.
 
 ## 🚧 Common mistakes (and fixes)
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Here are the oopsies almost everyone makes on their first server, so you can skip them.
+The table lists the mistakes most first-time server builders make, such as printing to standard output in a stdio server, along with the symptom and fix for each.
 
 </details>
 
@@ -313,10 +321,10 @@ Here are the oopsies almost everyone makes on their first server, so you can ski
 
 ## 💡 20 MCP server ideas to build
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Need inspiration? Here are twenty panels you could build, from super easy to spicy.
+The table offers twenty server ideas, sorted by difficulty from easy to advanced.
 
 </details>
 
