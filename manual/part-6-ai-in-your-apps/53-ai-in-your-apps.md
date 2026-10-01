@@ -1,6 +1,6 @@
 # 53 · AI Inside the Apps You Already Use 🏡✨
 
-> ⏱️ 6 min read · 🎯 Everyone · 🧰 Needs: the apps you already use
+> ⏱️ 7 min read · 🎯 Everyone · 🧰 Needs: the apps you already use
 
 **You don't always need a new tool.** The apps you already live in (notes, docs, email, spreadsheets, chat, design tools,
 even your phone's operating system) now have serious AI built in, and many are **MCP-connected**, so your AI can reach in

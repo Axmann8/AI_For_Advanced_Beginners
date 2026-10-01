@@ -50,7 +50,7 @@ AI models know a lot about the world but nothing about your own documents, work 
 
     ---
 
-    <span class="card-meta">⏱️ 7 min read · 🎯 Intermediate (copy-paste friendly)</span>
+    <span class="card-meta">⏱️ 8 min read · 🎯 Intermediate (copy-paste friendly)</span>
 
     In RAG, Memory & Knowledge you learned what RAG is. Now you'll build one, four times, each better than the last.
 
@@ -66,7 +66,7 @@ AI models know a lot about the world but nothing about your own documents, work 
 
     ---
 
-    <span class="card-meta">⏱️ 8 min read · 🎯 Everyone (students, researchers, curious people)</span>
+    <span class="card-meta">⏱️ 9 min read · 🎯 Everyone (students, researchers, curious people)</span>
 
     Google's research notebook is one of the most delightful AI tools ever made. Upload a pile of sources, and it becomes an expert on exactly that material: every answer cites your sources, and one click turns them into a podcast, a video, a mind map, flashcards, a quiz or a slide deck.
 
@@ -74,7 +74,7 @@ AI models know a lot about the world but nothing about your own documents, work 
 
     ---
 
-    <span class="card-meta">⏱️ 8 min read · 🎯 Everyone</span>
+    <span class="card-meta">⏱️ 9 min read · 🎯 Everyone</span>
 
     You consume a firehose of information: articles, podcasts, meetings, books, ideas in the shower.
 

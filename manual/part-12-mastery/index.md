@@ -35,7 +35,7 @@ Once you're comfortable with AI, the next step is using it well over the long te
 
     ---
 
-    <span class="card-meta">⏱️ 8 min read · 🎯 Everyone who uses AI beyond simple chat</span>
+    <span class="card-meta">⏱️ 9 min read · 🎯 Everyone who uses AI beyond simple chat</span>
 
     This isn't a lecture. It's the short list of things that will actually bite you, and the simple habits that prevent them, so you can experiment freely.
 
@@ -51,7 +51,7 @@ Once you're comfortable with AI, the next step is using it well over the long te
 
     ---
 
-    <span class="card-meta">⏱️ 6 min read · 🎯 Everyone choosing models, prompts or tools (and every builder)</span>
+    <span class="card-meta">⏱️ 7 min read · 🎯 Everyone choosing models, prompts or tools (and every builder)</span>
 
     "Which model is best?" The honest answer is "best at what, for you?" Leaderboards are a starting point, but the only benchmark that truly matters is your tasks.
 
@@ -75,7 +75,7 @@ Once you're comfortable with AI, the next step is using it well over the long te
 
     ---
 
-    <span class="card-meta">⏱️ 7 min read · 🎯 Anyone who's become "the AI person" among friends, family or coworkers</span>
+    <span class="card-meta">⏱️ 8 min read · 🎯 Anyone who's become "the AI person" among friends, family or coworkers</span>
 
     You've learned a lot. Now you're probably the person everyone asks "wait, how did you do that?" Teaching others is one of the most rewarding things you can do with your new skills, and one of the best ways to deepen them.
 
@@ -83,7 +83,7 @@ Once you're comfortable with AI, the next step is using it well over the long te
 
     ---
 
-    <span class="card-meta">⏱️ 8 min read · 🎯 Anyone who wants their new AI skills to pay off: a raise, a side hustle or a business</span>
+    <span class="card-meta">⏱️ 9 min read · 🎯 Anyone who wants their new AI skills to pay off: a raise, a side hustle or a business</span>
 
     Everything in this manual is a valuable skill: automations, agents, RAG bots, MCP servers, content pipelines, prompt systems.
 

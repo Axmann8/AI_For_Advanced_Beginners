@@ -184,7 +184,7 @@ AI comes with a lot of jargon, but most of the terms describe simple ideas. The 
 | **Open-source / open-weight model** | A model anyone can download and run themselves |
 
 Don't try to memorize these! You'll pick them up naturally. There's a full beginner-friendly
-[Glossary](../appendices/a-glossary.md) with an 🧸 ELI5 for every word whenever you need it.
+[Glossary](../appendices/a-glossary.md) with a plain-English definition and real-world example for every term.
 
 ## 🗺️ Your journey through this manual
 

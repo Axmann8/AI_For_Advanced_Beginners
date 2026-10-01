@@ -3,7 +3,7 @@ site_description: >-
   The massive, friendly, hands-on AI manual for everyone, from your very first chat
   to building your own agents: every major assistant (ChatGPT, Gemini, Claude,
   Copilot, Grok, Perplexity and more), MCP, automation, agents, local AI, creative
-  tools and real life, with an ELI5 for everything.
+  tools and real life, with clear key points and step-by-step instructions throughout.
 site_url: https://axmann8.github.io/The_Massive_AI_Manual/
 repo_url: https://github.com/Axmann8/The_Massive_AI_Manual
 repo_name: Axmann8/The_Massive_AI_Manual
@@ -265,7 +265,7 @@ nav:
       - "Appendix D · The Prompt Library": appendices/d-prompt-library.md
       - "Appendix E · Resource & Link Library": appendices/e-resource-library.md
       - "Appendix F · 80 Project Ideas to Level Up": appendices/f-project-ideas.md
-      - "Appendix G · The ELI5 Edition": appendices/g-eli5-edition.md
+      - "Appendix G · The Key Points Edition": appendices/g-key-points-edition.md
       - "Appendix H · Commands & Shortcuts": appendices/h-commands-and-shortcuts.md
       - "Appendix I · Comparison Tables": appendices/i-comparison-tables.md
       - "Appendix J · Printable Checklists": appendices/j-checklists.md

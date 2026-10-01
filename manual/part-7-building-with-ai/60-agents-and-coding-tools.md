@@ -1,6 +1,6 @@
 # 60 · Agents & AI Coding Tools: Become a Builder 🛠️🤖
 
-> ⏱️ 7 min read · 🎯 Everyone (yes, even if you've never coded) · 🧰 Needs: curiosity, and optionally a Claude or Cursor plan
+> ⏱️ 8 min read · 🎯 Everyone (yes, even if you've never coded) · 🧰 Needs: curiosity, and optionally a Claude or Cursor plan
 
 **Here's the secret: you don't need to be a programmer to build software anymore.** Coding agents write, run, test and fix
 code for you. Even if you never plan to "code," these tools are the fastest way to build your own automations, MCP servers,

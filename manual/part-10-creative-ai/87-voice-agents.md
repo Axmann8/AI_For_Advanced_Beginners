@@ -1,6 +1,6 @@
 # 87 · Voice Agents: AI You Can Talk To (and That Can Call You) 📞🗣️
 
-> ⏱️ 7 min read · 🎯 Beginner → intermediate · 🧰 Needs: a voice assistant app to start, and a voice-agent platform (Vapi, Retell, ElevenLabs Agents) + n8n for the build
+> ⏱️ 8 min read · 🎯 Beginner → intermediate · 🧰 Needs: a voice assistant app to start, and a voice-agent platform (Vapi, Retell, ElevenLabs Agents) + n8n for the build
 
 **Voice is the most natural interface there is.** Today you can build an AI that answers your phone, books appointments, runs
 a language-practice session, or quizzes you while you drive, and it sounds natural. This chapter covers using voice AI

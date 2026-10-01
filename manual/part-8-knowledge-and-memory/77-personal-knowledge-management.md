@@ -1,6 +1,6 @@
 # 77 · Personal Knowledge Management with AI: A Second Brain That Talks Back 🧠🗃️
 
-> ⏱️ 8 min read · 🎯 Everyone · 🧰 Needs: a notes app (Obsidian, Notion, Google Docs…), optionally an automation tool for capture
+> ⏱️ 9 min read · 🎯 Everyone · 🧰 Needs: a notes app (Obsidian, Notion, Google Docs…), optionally an automation tool for capture
 
 **You consume a firehose of information: articles, podcasts, meetings, books, ideas in the shower. Most of it evaporates.**
 Personal Knowledge Management (PKM) is the practice of capturing, organizing and *using* what you learn. AI makes every step

@@ -1,6 +1,6 @@
 # 54 · Notion AI Deep Dive: Build an AI-Powered Second Brain 📒✨
 
-> ⏱️ 8 min read · 🎯 Beginner → intermediate · 🧰 Needs: a Notion account (AI features vary by plan)
+> ⏱️ 9 min read · 🎯 Beginner → intermediate · 🧰 Needs: a Notion account (AI features vary by plan)
 
 **Notion has become one of the most AI-native workspaces around**: a place where your notes, tasks, docs and databases live
 *and* where AI agents read, write and organize them for you. This chapter covers the whole toolbox, then walks you through

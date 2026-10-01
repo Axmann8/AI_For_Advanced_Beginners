@@ -241,7 +241,7 @@ The table lists eight fine-tuning projects and how many examples each one needs.
 | 4 | 🏴‍☠️ **A game character** with a consistent personality | 300 in-character dialogues |
 | 5 | 🧾 **Receipt → JSON** extractor that always nails your format | 200 receipts + target JSON |
 | 6 | 🐶 **Pet image LoRA** | 15–30 good photos |
-| 7 | 📚 **Kid-friendly explainer** that always uses simple words | 300 question → ELI5 answer pairs |
+| 7 | 📚 **Plain-language explainer** that always avoids jargon | 300 question → plain-English answer pairs |
 | 8 | 🧑‍🍳 **Family recipe rewriter** in grandma's voice | 100 recipes in her style |
 
 ## 🎯 Key takeaways

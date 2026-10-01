@@ -1,6 +1,6 @@
 # 63 · Claude Code Power-Ups: Skills, Subagents, Hooks, Plugins & More ⚡🧙
 
-> ⏱️ 10 min read · 🎯 Intermediate · 🧰 Needs: Claude Code installed ([Masterclass](62-claude-code-masterclass.md) first)
+> ⏱️ 11 min read · 🎯 Intermediate · 🧰 Needs: Claude Code installed ([Masterclass](62-claude-code-masterclass.md) first)
 
 **Out of the box, Claude Code is brilliant. Customized, it's a whole team.** This chapter covers the power-user layer:
 custom slash commands, skills, subagents, hooks, MCP servers, plugins, output styles, headless mode, GitHub Actions and the

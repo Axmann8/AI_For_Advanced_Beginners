@@ -1,6 +1,6 @@
 # 39 · MCP Under the Hood: The Protocol, Demystified 🔬🔌
 
-> ⏱️ 8 min read · 🎯 Intermediate (no coding required to follow) · 🧰 Needs: optional, Node.js for the MCP Inspector
+> ⏱️ 9 min read · 🎯 Intermediate (no coding required to follow) · 🧰 Needs: optional, Node.js for the MCP Inspector
 
 **What actually travels between Claude and an MCP server?** This chapter opens the hood: the messages, the conversation
 flow, how tools/resources/prompts are described, how data moves locally and over the internet, how login works, and what

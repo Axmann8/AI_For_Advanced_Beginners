@@ -1,6 +1,6 @@
 # 20 · Claude: The Complete Guide 🧡
 
-> ⏱️ 9 min read · 🎯 Beginners to advanced beginners · 🧰 Needs: a free Claude account (claude.ai)
+> ⏱️ 11 min read · 🎯 Beginners to advanced beginners · 🧰 Needs: a free Claude account (claude.ai)
 
 **Claude is Anthropic's assistant, loved for writing that sounds human, careful thinking, and working brilliantly with
 long documents.** It's also become a serious "get work done" tool: it creates real files (documents, spreadsheets,

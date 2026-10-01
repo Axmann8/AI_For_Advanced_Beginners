@@ -1,6 +1,6 @@
 # 22 · Grok: The Complete Guide ⚡
 
-> ⏱️ 7 min read · 🎯 Beginners to advanced beginners · 🧰 Needs: a free Grok account (grok.com) or an X account
+> ⏱️ 8 min read · 🎯 Beginners to advanced beginners · 🧰 Needs: a free Grok account (grok.com) or an X account
 
 **Grok is the AI assistant from xAI, Elon Musk's AI company (now part of SpaceX), and it's built right into X (formerly
 Twitter).** It stands out for real-time knowledge of what's happening on X, a casual and witty personality, strong

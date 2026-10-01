@@ -37,7 +37,7 @@ This part applies AI to everyday goals: studying, writing, running a business, j
 
     ---
 
-    <span class="card-meta">⏱️ 7 min read · 🎯 Everyone who's curious (students, professionals, lifelong learners)</span>
+    <span class="card-meta">⏱️ 8 min read · 🎯 Everyone who's curious (students, professionals, lifelong learners)</span>
 
     AI is the best tutor and research assistant most of us have ever had access to. It's patient, available 24/7, and it can explain anything at any level.
 
@@ -45,7 +45,7 @@ This part applies AI to everyday goals: studying, writing, running a business, j
 
     ---
 
-    <span class="card-meta">⏱️ 6 min read · 🎯 Writers, bloggers, newsletter folks, creators, anyone who writes at work</span>
+    <span class="card-meta">⏱️ 7 min read · 🎯 Writers, bloggers, newsletter folks, creators, anyone who writes at work</span>
 
     AI can make you a faster, braver, more consistent writer and creator, without making you sound like a robot.
 
@@ -53,7 +53,7 @@ This part applies AI to everyday goals: studying, writing, running a business, j
 
     ---
 
-    <span class="card-meta">⏱️ 7 min read · 🎯 Small business owners, freelancers, side-hustlers and dreamers</span>
+    <span class="card-meta">⏱️ 8 min read · 🎯 Small business owners, freelancers, side-hustlers and dreamers</span>
 
     For a small business, AI is like hiring a marketing assistant, a bookkeeper's helper, a receptionist and an analyst for less than the cost of lunch each month.
 
@@ -61,7 +61,7 @@ This part applies AI to everyday goals: studying, writing, running a business, j
 
     ---
 
-    <span class="card-meta">⏱️ 7 min read · 🎯 Job seekers, career changers, students, anyone ready for a next step</span>
+    <span class="card-meta">⏱️ 8 min read · 🎯 Job seekers, career changers, students, anyone ready for a next step</span>
 
     Job hunting is stressful, repetitive and full of guesswork, which makes it perfect territory for an AI sidekick.
 
@@ -69,7 +69,7 @@ This part applies AI to everyday goals: studying, writing, running a business, j
 
     ---
 
-    <span class="card-meta">⏱️ 7 min read · 🎯 Everyone with a to-do list (so, everyone)</span>
+    <span class="card-meta">⏱️ 8 min read · 🎯 Everyone with a to-do list (so, everyone)</span>
 
     Forms, bills, appointments, school emails, renewals, "did I ever reply to that?": life admin eats hours every week.
 
@@ -85,7 +85,7 @@ This part applies AI to everyday goals: studying, writing, running a business, j
 
     ---
 
-    <span class="card-meta">⏱️ 7 min read · 🎯 Everyone looking after their body and mind</span>
+    <span class="card-meta">⏱️ 8 min read · 🎯 Everyone looking after their body and mind</span>
 
     AI can be a wonderful health companion: a coach who builds workouts around your life, a patient explainer of confusing medical words, an appointment-prep buddy, a meal planner and a gentle journaling partner.
 
@@ -93,7 +93,7 @@ This part applies AI to everyday goals: studying, writing, running a business, j
 
     ---
 
-    <span class="card-meta">⏱️ 7 min read · 🎯 Parents, teachers, tutors and students of all ages</span>
+    <span class="card-meta">⏱️ 8 min read · 🎯 Parents, teachers, tutors and students of all ages</span>
 
     AI is changing how kids learn, how teachers teach and how families help with homework, and it can be wonderful if we use it thoughtfully.
 

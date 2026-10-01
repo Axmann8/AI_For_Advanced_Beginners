@@ -1,6 +1,6 @@
 # 103 · Safety, Costs & Gotchas: Play Hard, Play Smart 🛡️💸
 
-> ⏱️ 8 min read · 🎯 Everyone who uses AI beyond simple chat · 🧰 Needs: nothing but 15 minutes (and a spend limit on any API key you own!)
+> ⏱️ 9 min read · 🎯 Everyone who uses AI beyond simple chat · 🧰 Needs: nothing but 15 minutes (and a spend limit on any API key you own!)
 
 **This isn't a lecture. It's the short list of things that will actually bite you, and the simple habits that prevent them, so
 you can experiment freely.** We'll cover hallucinations, prompt injection (the #1 thing to understand once AI has tools),

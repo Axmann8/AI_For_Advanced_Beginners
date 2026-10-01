@@ -33,7 +33,7 @@ This part explains how AI models actually work, so you can predict what they'll 
 
     ---
 
-    <span class="card-meta">⏱️ 10 min read · 🎯 Beginner-friendly</span>
+    <span class="card-meta">⏱️ 11 min read · 🎯 Beginner-friendly</span>
 
     You already know how to talk to an AI. This chapter is about the leap that makes everything else click: AI that can act, not just answer.
 
@@ -41,7 +41,7 @@ This part explains how AI models actually work, so you can predict what they'll 
 
     ---
 
-    <span class="card-meta">⏱️ 10 min read · 🎯 Beginner-friendly, no math</span>
+    <span class="card-meta">⏱️ 11 min read · 🎯 Beginner-friendly, no math</span>
 
     You don't need a PhD to use AI brilliantly, but a dozen under-the-hood ideas explain almost every weird thing AI does: why it forgets, why it's confidently wrong, why one model costs 20× another, why "thinking" models are slower, and why the same model feels different in different apps.
 
@@ -65,7 +65,7 @@ This part explains how AI models actually work, so you can predict what they'll 
 
     ---
 
-    <span class="card-meta">⏱️ 8 min read · 🎯 Intermediate</span>
+    <span class="card-meta">⏱️ 9 min read · 🎯 Intermediate</span>
 
     You already know the basics of good prompts. Context engineering is the next level: designing everything the model sees (standing instructions, examples, documents, tool descriptions, memory and conversation history) so it succeeds reliably, not just once.
 

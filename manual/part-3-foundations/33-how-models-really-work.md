@@ -1,6 +1,6 @@
 # 33 · How Models Really Work (for Power Users) ⚙️🧠
 
-> ⏱️ 10 min read · 🎯 Beginner-friendly, no math · 🧰 Needs: nothing
+> ⏱️ 11 min read · 🎯 Beginner-friendly, no math · 🧰 Needs: nothing
 
 **You don't need a PhD to use AI brilliantly, but a dozen under-the-hood ideas explain almost every weird thing AI does:**
 why it forgets, why it's confidently wrong, why one model costs 20× another, why "thinking" models are slower, and why the

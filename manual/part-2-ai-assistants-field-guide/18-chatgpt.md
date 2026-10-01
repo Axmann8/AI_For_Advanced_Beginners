@@ -1,6 +1,6 @@
 # 18 · ChatGPT: The Complete Guide 💬
 
-> ⏱️ 12 min read · 🎯 Beginners to advanced beginners · 🧰 Needs: a free ChatGPT account (chatgpt.com)
+> ⏱️ 13 min read · 🎯 Beginners to advanced beginners · 🧰 Needs: a free ChatGPT account (chatgpt.com)
 
 **ChatGPT is the assistant that started the AI boom in late 2022, and it's still the most-used AI app in the world.**
 It's a genuine all-rounder: conversation, voice, vision, images, web search, deep research, memory, projects, apps and

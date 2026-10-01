@@ -1,6 +1,6 @@
 # 47 · The n8n Masterclass 🟣⚙️
 
-> ⏱️ 7 min read · 🎯 Beginner → intermediate · 🧰 Needs: Node.js (for `npx n8n`) or Docker
+> ⏱️ 8 min read · 🎯 Beginner → intermediate · 🧰 Needs: Node.js (for `npx n8n`) or Docker
 
 **n8n is the playground where automation meets AI, and because you can self-host it for free, you can experiment without
 watching a meter.** This chapter takes you from install to confident builder: the mental model, expressions, the nodes you'll

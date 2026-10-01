@@ -1,6 +1,6 @@
 # 36 · Context Engineering: Prompting's Big Sibling 🧩📐
 
-> ⏱️ 8 min read · 🎯 Intermediate · 🧰 Needs: any AI assistant
+> ⏱️ 9 min read · 🎯 Intermediate · 🧰 Needs: any AI assistant
 
 **You already know the basics of good prompts. Context engineering is the next level: designing *everything* the model
 sees** (standing instructions, examples, documents, tool descriptions, memory and conversation history) so it succeeds

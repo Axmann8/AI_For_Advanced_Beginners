@@ -1,6 +1,6 @@
 # 105 · Evaluating & Comparing AI: Evals for Normal People 🧪⚖️
 
-> ⏱️ 6 min read · 🎯 Everyone choosing models, prompts or tools (and every builder) · 🧰 Needs: a spreadsheet and 10–20 real tasks
+> ⏱️ 7 min read · 🎯 Everyone choosing models, prompts or tools (and every builder) · 🧰 Needs: a spreadsheet and 10–20 real tasks
 
 **"Which model is best?" The honest answer is "best at *what*, for *you*?"** Leaderboards are a starting point, but the only
 benchmark that truly matters is **your tasks**. This chapter teaches the skill that separates AI power users from everyone

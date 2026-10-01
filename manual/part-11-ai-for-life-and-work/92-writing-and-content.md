@@ -1,6 +1,6 @@
 # 92 · AI for Writing & Content Creators ✍️📣
 
-> ⏱️ 6 min read · 🎯 Writers, bloggers, newsletter folks, creators, anyone who writes at work · 🧰 Needs: an assistant (Claude, ChatGPT, Gemini), optionally a Project or skill for your style guide
+> ⏱️ 7 min read · 🎯 Writers, bloggers, newsletter folks, creators, anyone who writes at work · 🧰 Needs: an assistant (Claude, ChatGPT, Gemini), optionally a Project or skill for your style guide
 
 **AI can make you a faster, braver, more consistent writer and creator, without making you sound like a robot.** The trick is
 to use AI as editor, sparring partner, researcher and production assistant, while **your ideas, voice and taste** stay in

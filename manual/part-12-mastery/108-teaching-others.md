@@ -1,6 +1,6 @@
 # 108 · Teaching Others About AI: Pass the Magic On 🧑‍🏫✨
 
-> ⏱️ 7 min read · 🎯 Anyone who's become "the AI person" among friends, family or coworkers · 🧰 Needs: a laptop or phone, a projector for workshops (optional), and patience
+> ⏱️ 8 min read · 🎯 Anyone who's become "the AI person" among friends, family or coworkers · 🧰 Needs: a laptop or phone, a projector for workshops (optional), and patience
 
 **You've learned a lot. Now you're probably the person everyone asks "wait, how did you do that?"** Teaching others is one of the
 most rewarding things you can do with your new skills, and one of the best ways to deepen them. This chapter gives you a
@@ -68,7 +68,7 @@ A first demonstration takes about fifteen minutes.
 > **💡 Let them type**
 > People remember what they *do*, not what they watch. Even if it's slower, put their hands on the keyboard.
 
-## 🧸 An analogy bank for explaining AI
+## 🧩 An analogy bank for explaining AI
 
 <details class="keypoints" open>
 <summary>✅ Key Points & Steps</summary>
@@ -90,8 +90,8 @@ Well-chosen comparisons make abstract concepts easier to understand. The table o
 | **Fine-tuning** | "Cooking lessons in grandma's recipes for an already great chef." |
 | **Local model** | "A pet robot at home instead of calling one on the phone." |
 
-**Pro tip:** this manual has an **🧸 ELI5 box for every section**, and the [ELI5 Edition](../appendices/g-key-points-edition.md)
-collects them all in one place. Perfect teaching material!
+**Pro tip:** this manual has a **✅ Key Points & Steps box for every section**, and the
+[Key Points Edition](../appendices/g-key-points-edition.md) collects them all in one place. Ready-made teaching material!
 
 ## 🎭 Meeting people where they are
 
@@ -208,7 +208,7 @@ Your teaching has worked when people use AI again on their own within a week, ca
 
 - Start with **their** problem, not your favorite trick.
 - The **15-minute demo**: ask, show, let them drive, one wow, homework.
-- Use **simple analogies** (the ELI5 boxes in this manual are ready-made).
+- Use **simple analogies** (the analogy bank above is a good place to start).
 - Meet **skeptics, worriers and enthusiasts** where they are, and answer fears **honestly**.
 - At work: **champions, shared prompts, clear policy, celebrated wins**.
 

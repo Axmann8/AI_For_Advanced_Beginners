@@ -1,6 +1,6 @@
 # 74 · Build a RAG System, Step by Step 🏗️📚
 
-> ⏱️ 7 min read · 🎯 Intermediate (copy-paste friendly) · 🧰 Needs: Python 3.10+, the [rag-from-scratch kit](../../examples/rag-from-scratch/), optionally an Anthropic API key and n8n
+> ⏱️ 8 min read · 🎯 Intermediate (copy-paste friendly) · 🧰 Needs: Python 3.10+, the [rag-from-scratch kit](../../examples/rag-from-scratch/), optionally an Anthropic API key and n8n
 
 **In [RAG, Memory & Knowledge](72-rag-memory-and-knowledge.md) you learned *what* RAG is. Now you'll build one, four
 times, each better than the last.** First from scratch (to understand every piece), then with real embeddings and a vector

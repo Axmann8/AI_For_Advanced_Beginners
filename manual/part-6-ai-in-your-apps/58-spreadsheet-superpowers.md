@@ -46,7 +46,7 @@ Describe the calculation you need in plain language, and AI will write the formu
 |---|---|
 | *"Sum column C where column A is 'Paid' and the date in B is this month."* | `=SUMIFS(C:C, A:A, "Paid", B:B, ">="&EOMONTH(TODAY(),-1)+1, B:B, "<="&EOMONTH(TODAY(),0))` |
 | *"Look up each email in Sheet2 and return the plan name."* | An `XLOOKUP` (or `INDEX/MATCH`) with error handling |
-| *"Explain this formula like I'm five."* | A step-by-step breakdown of a scary nested formula |
+| *"Explain this formula step by step in plain English."* | A step-by-step breakdown of a scary nested formula |
 | *"Why does this return #N/A?"* | The likely cause (extra spaces, text vs. number, missing value) + a fix |
 | *"Extract the domain from these emails."* | `REGEXEXTRACT` or `TEXTAFTER` formulas |
 

@@ -1,6 +1,6 @@
 # 23 · Perplexity: The Complete Guide 🔎
 
-> ⏱️ 7 min read · 🎯 Beginners to advanced beginners · 🧰 Needs: nothing (an account saves your history; perplexity.ai)
+> ⏱️ 8 min read · 🎯 Beginners to advanced beginners · 🧰 Needs: nothing (an account saves your history; perplexity.ai)
 
 **Perplexity calls itself an "answer engine": ask a question and you get a clear, written answer with numbered sources
 you can click, like a search engine and a research assistant rolled into one.** It's the go-to tool for fact-finding,

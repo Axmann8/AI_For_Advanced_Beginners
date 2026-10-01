@@ -1,6 +1,6 @@
 # 109 · Turning AI Skills into Income 💼💰
 
-> ⏱️ 8 min read · 🎯 Anyone who wants their new AI skills to pay off: a raise, a side hustle or a business · 🧰 Needs: 2–3 projects from this manual that you've actually built
+> ⏱️ 9 min read · 🎯 Anyone who wants their new AI skills to pay off: a raise, a side hustle or a business · 🧰 Needs: 2–3 projects from this manual that you've actually built
 
 **Everything in this manual is a valuable skill: automations, agents, RAG bots, MCP servers, content pipelines, prompt systems.**
 Plenty of businesses and teams want these things and don't have time to learn them. This chapter maps the honest, sustainable

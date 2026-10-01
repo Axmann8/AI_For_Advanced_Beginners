@@ -1,6 +1,6 @@
 # 46 · Webhooks, APIs & JSON for Non-Programmers 🌐📦
 
-> ⏱️ 8 min read · 🎯 Beginner-friendly, no coding required · 🧰 Needs: a terminal (optional) and curiosity
+> ⏱️ 9 min read · 🎯 Beginner-friendly, no coding required · 🧰 Needs: a terminal (optional) and curiosity
 
 **Three concepts unlock *everything* in automation and AI integrations: JSON (how data looks), APIs (how apps talk), and
 webhooks (how apps poke each other).** Learn them once and every tool in this manual gets easier, from n8n to MCP to

@@ -33,7 +33,7 @@ Most AI runs on a company's servers, but smaller models can run directly on your
 
     ---
 
-    <span class="card-meta">⏱️ 8 min read · 🎯 Everyone (one command to start)</span>
+    <span class="card-meta">⏱️ 9 min read · 🎯 Everyone (one command to start)</span>
 
     Yes, you can run surprisingly capable AI entirely on your laptop: offline, private, and free per use.
 
@@ -41,7 +41,7 @@ Most AI runs on a company's servers, but smaller models can run directly on your
 
     ---
 
-    <span class="card-meta">⏱️ 8 min read · 🎯 Anyone thinking about running AI at home</span>
+    <span class="card-meta">⏱️ 9 min read · 🎯 Anyone thinking about running AI at home</span>
 
     The single most important number for local AI isn't your processor speed. It's memory.
 

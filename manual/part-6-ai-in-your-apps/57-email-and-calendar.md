@@ -1,6 +1,6 @@
 # 57 · Email & Calendar Superpowers 📬📅
 
-> ⏱️ 7 min read · 🎯 Everyone · 🧰 Needs: Gmail or Outlook (+ optionally Claude/ChatGPT connectors or an automation tool)
+> ⏱️ 8 min read · 🎯 Everyone · 🧰 Needs: Gmail or Outlook (+ optionally Claude/ChatGPT connectors or an automation tool)
 
 **Email and meetings quietly eat a huge share of most people's working week.** AI can triage your inbox, draft replies in
 your voice, turn newsletters into one digest, schedule meetings without the back-and-forth, prep you for every call, and

@@ -1,6 +1,6 @@
 # 61 · Git & GitHub for AI Builders 🌳🐙
 
-> ⏱️ 10 min read · 🎯 Everyone who builds with AI (no coding background needed) · 🧰 Needs: a free GitHub account, Git installed
+> ⏱️ 11 min read · 🎯 Everyone who builds with AI (no coding background needed) · 🧰 Needs: a free GitHub account, Git installed
 
 **Git is the undo button that makes AI building fearless.** When a coding agent rewrites twenty files and something breaks,
 Git lets you rewind in one command. GitHub adds a home in the cloud for your projects, free websites, automation robots

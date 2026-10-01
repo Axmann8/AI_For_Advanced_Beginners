@@ -1,6 +1,6 @@
 # 45 · Automation Platforms: AI That Works While You Sleep ⚙️🌙
 
-> ⏱️ 8 min read · 🎯 Beginner-friendly · 🧰 Needs: a free account on Zapier or Make, or `npx n8n` for a local n8n
+> ⏱️ 9 min read · 🎯 Beginner-friendly · 🧰 Needs: a free account on Zapier or Make, or `npx n8n` for a local n8n
 
 **Chat-based AI needs *you* to press enter. Automation platforms run on triggers**: a new email, a form submission, 7am
 every day, a webhook. Put an AI step in the middle and you've got a tireless little robot employee. This chapter maps the

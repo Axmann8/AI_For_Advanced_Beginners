@@ -1,6 +1,6 @@
 # 66 · Deploying & Hosting: Put Your Creation on the Internet 🌍🚀
 
-> ⏱️ 10 min read · 🎯 Beginner → intermediate · 🧰 Needs: a project in a GitHub repo, and a free Vercel, Netlify, Cloudflare or GitHub account
+> ⏱️ 11 min read · 🎯 Beginner → intermediate · 🧰 Needs: a project in a GitHub repo, and a free Vercel, Netlify, Cloudflare or GitHub account
 
 **An app on your laptop is a hobby. An app with a link is a gift to the world.** Deploying used to be the scary part.
 Today it's often a single click, and most hobby projects host **for free**. This chapter shows you where to host each kind of

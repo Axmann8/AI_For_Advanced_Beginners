@@ -1,6 +1,6 @@
 # 41 · Built-in Connectors & Plugins 🧩✨
 
-> ⏱️ 8 min read · 🎯 Beginner-friendly · 🧰 Needs: an account with Claude, ChatGPT, Gemini or Copilot
+> ⏱️ 9 min read · 🎯 Beginner-friendly · 🧰 Needs: an account with Claude, ChatGPT, Gemini or Copilot
 
 **MCP is the engine. Connectors are the polished, click-to-install version inside the big AI apps.** If you want results
 *today* with zero config files, start here. You'll learn what each major assistant offers, how connectors differ from

@@ -1,6 +1,6 @@
 # 88 · 3D, Games & Interactive Worlds 🎮🧊
 
-> ⏱️ 7 min read · 🎯 Everyone who's ever wanted to make a game · 🧰 Needs: Claude Code or a chat-to-app builder, optionally Blender, Godot or a 3D printer
+> ⏱️ 8 min read · 🎯 Everyone who's ever wanted to make a game · 🧰 Needs: Claude Code or a chat-to-app builder, optionally Blender, Godot or a 3D printer
 
 **Making a game used to take a team and a year. Now you can vibe-code a playable browser game in an evening.** AI can write
 the game code, generate 3D models from a sentence or a photo, drive Blender through MCP, create sprites, music and sound

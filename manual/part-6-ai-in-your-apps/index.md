@@ -35,7 +35,7 @@ You may not need a new app at all. The tools you already use, including notes, e
 
     ---
 
-    <span class="card-meta">⏱️ 6 min read · 🎯 Everyone</span>
+    <span class="card-meta">⏱️ 7 min read · 🎯 Everyone</span>
 
     You don't always need a new tool. The apps you already live in (notes, docs, email, spreadsheets, chat, design tools, even your phone's operating system) now have serious AI built in, and many are MCP-connected, so your AI can reach in and your apps can reach out.
 
@@ -43,7 +43,7 @@ You may not need a new app at all. The tools you already use, including notes, e
 
     ---
 
-    <span class="card-meta">⏱️ 8 min read · 🎯 Beginner → intermediate</span>
+    <span class="card-meta">⏱️ 9 min read · 🎯 Beginner → intermediate</span>
 
     Notion has become one of the most AI-native workspaces around: a place where your notes, tasks, docs and databases live and where AI agents read, write and organize them for you.
 
@@ -67,7 +67,7 @@ You may not need a new app at all. The tools you already use, including notes, e
 
     ---
 
-    <span class="card-meta">⏱️ 7 min read · 🎯 Everyone</span>
+    <span class="card-meta">⏱️ 8 min read · 🎯 Everyone</span>
 
     Email and meetings quietly eat a huge share of most people's working week. AI can triage your inbox, draft replies in your voice, turn newsletters into one digest, schedule meetings without the back-and-forth, prep you for every call, and write the follow-ups.
 
@@ -83,7 +83,7 @@ You may not need a new app at all. The tools you already use, including notes, e
 
     ---
 
-    <span class="card-meta">⏱️ 6 min read · 🎯 Beginner → intermediate</span>
+    <span class="card-meta">⏱️ 7 min read · 🎯 Beginner → intermediate</span>
 
     Chat apps are where people already hang out, which makes them the perfect home for AI. Build a bot that answers team questions from your docs, a Discord game master for your friends, a Telegram assistant in your pocket, or a Slack helper that summarizes channels.
 

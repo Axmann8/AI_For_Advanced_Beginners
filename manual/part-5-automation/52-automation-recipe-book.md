@@ -1,6 +1,6 @@
 # 52 · The Automation Recipe Book: 50 Workflows to Steal 🍳⚙️
 
-> ⏱️ 7 min read (or grab one recipe!) · 🎯 Everyone · 🧰 Needs: Zapier, Make, n8n, or phone Shortcuts
+> ⏱️ 8 min read (or grab one recipe!) · 🎯 Everyone · 🧰 Needs: Zapier, Make, n8n, or phone Shortcuts
 
 **Fifty ready-to-build AI automations**, each written as **trigger → steps → result**, grouped by life area, and rated by
 difficulty. Every one works on Zapier, Make or n8n (and many on phone Shortcuts). Pick one that annoys you *today*, build it

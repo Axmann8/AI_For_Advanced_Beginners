@@ -43,9 +43,9 @@ The manual is organized into thirteen parts. Parts I and II are written for begi
 | 🌱 **XI · AI for Life & Work** | Research, writing, business, careers, money, health, family, travel, accessibility |
 | 🏆 **XII · Mastery** | Safety, privacy, evals, costs, ethics, teaching, earning, the future |
 | 🧱 **XIII · Build-Alongs** | Eight long, step-by-step projects you finish in a weekend |
-| 📎 **Appendices** | Glossary, cheat sheet, FAQ, prompt library, comparisons, checklists and the **ELI5 Edition** |
+| 📎 **Appendices** | Glossary, cheat sheet, FAQ, prompt library, comparisons, checklists and the **Key Points Edition** |
 
-## 🧸 The boxes and what they mean
+## 🎨 The boxes and what they mean
 
 <details class="keypoints" open>
 <summary>✅ Key Points & Steps</summary>
@@ -56,7 +56,7 @@ Each colored box has one job, so you can tell at a glance whether to read it, tr
 
 | Box | Looks like | What it's for |
 |---|---|---|
-| 🧸 **ELI5** | Amber, collapsible | "Explain it like I'm five": the simplest possible version. Every chapter opens with one, and every section has one |
+| ✅ **Key Points & Steps** | Amber, always open | The essentials in plain language, with numbered steps when there's something to do. Every chapter opens with one, and every section has one |
 | 🎮 **Try this** | Green | A hands-on challenge. Doing beats reading! |
 | ❓ **Quiz** | Violet, collapsible | Tap to reveal the answer. Great for checking you've got it |
 | 🤿 **Deep dive** | Blue, collapsible | Extra detail for the curious. Totally skippable |
@@ -64,9 +64,9 @@ Each colored box has one job, so you can tell at a glance whether to read it, tr
 | 📌 **Note** / 💡 **Tip** / ⚠️ **Warning** | Standard colors | Useful asides, pro tips, and "watch out" moments |
 
 > [!TIP]
-> **🧸 Pro move: ELI5 mode**
-> On any page, tap the **🧸 ELI5 mode** button (bottom-right) to open *every* ELI5 box at once. It remembers your choice,
-> so if you love the simple explanations, you'll get them everywhere.
+> **💡 Pro move: skim first**
+> Short on time? Read just the **✅ Key Points & Steps** boxes in a chapter for the big picture, then dive into the
+> sections you need. For a fast tour of the whole manual, read the [Key Points Edition](../appendices/g-key-points-edition.md).
 
 ## 🗺️ Getting around
 
@@ -84,10 +84,10 @@ There are several ways to move around. Use whichever feels most natural:
 
 - **Section cards:** each chapter starts with an *"In this chapter"* map. Tap any card to jump straight to that section.
 - **Sidebar:** the left menu shows every part, and the current chapter's sections appear underneath it, all clickable.
-- **Part landing pages:** click a part's name to see its ELI5, a suggested reading path, and chapter cards.
+- **Part landing pages:** click a part's name to see its key points, a suggested reading path, and chapter cards.
 - **Search:** press <kbd>/</kbd> or <kbd>s</kbd>. It searches every word of every chapter instantly.
 - **Next up:** the big purple button at the end of each chapter always takes you to the next one.
-- **Hover tooltips:** acronyms like MCP, RAG and API have dotted underlines. Hover (or tap) for an instant ELI5.
+- **Hover tooltips:** acronyms like MCP, RAG and API have dotted underlines. Hover (or tap) for an instant definition.
 
 ## ✅ Tracking your progress
 
@@ -137,7 +137,7 @@ The manual is built on a few simple commitments: plain explanations without jarg
 
 </details>
 
-1. **No gatekeeping.** If something is confusing, that's on the manual, not on you. The ELI5s are there for everyone,
+1. **No gatekeeping.** If something is confusing, that's on the manual, not on you. The Key Points boxes are there for everyone,
    including experts who just want the gist.
 2. **Hands-on beats theory.** Every chapter has something to *do*.
 3. **Honest about limits.** AI is amazing *and* imperfect. We'll tell you where it shines and where it trips.
@@ -150,14 +150,14 @@ The manual is built on a few simple commitments: plain explanations without jarg
 ## 🎯 Key takeaways
 
 - Start **anywhere**: every chapter stands on its own.
-- 🧸 boxes are the simplest explanations, and **ELI5 mode** opens them all.
+- **✅ Key Points & Steps** boxes give you the essentials of every chapter and section.
 - Use the **section cards**, **sidebar**, **search** and **Next up** buttons to move around.
 - Press **✅** at the end of chapters to track progress (it's stored only in your browser).
 - Prefer paper? [Download the whole manual as a PDF book](../download.md). 📄
 
 > [!TIP]
 > **🎮 Try this**
-> Tap the **🧸 ELI5 mode** button right now. Brand new? Jump to [Part I · AI from Zero](../part-1-ai-from-zero/index.md).
+> Skim the Key Points boxes on this page, then pick your path. Brand new? Jump to [Part I · AI from Zero](../part-1-ai-from-zero/index.md).
 > Already comfortable? Try [Your First Hour](b-your-first-hour.md): in 60 minutes you'll have an AI that can read your
 > files, browse the web, and remember things about you.
 

@@ -1,6 +1,6 @@
 # 59 · Chat Apps & Bots: Slack, Discord, Telegram & WhatsApp 💬🤖
 
-> ⏱️ 6 min read · 🎯 Beginner → intermediate · 🧰 Needs: a Slack workspace, Discord server or Telegram account (+ n8n or a little Python)
+> ⏱️ 7 min read · 🎯 Beginner → intermediate · 🧰 Needs: a Slack workspace, Discord server or Telegram account (+ n8n or a little Python)
 
 **Chat apps are where people already hang out, which makes them the perfect home for AI.** Build a bot that answers team
 questions from your docs, a Discord game master for your friends, a Telegram assistant in your pocket, or a Slack helper

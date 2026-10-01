@@ -1,6 +1,6 @@
 # 51 · Web Scraping & Monitoring with AI 🕸️👀
 
-> ⏱️ 7 min read · 🎯 Beginner → intermediate · 🧰 Needs: an automation platform or Python (both optional)
+> ⏱️ 8 min read · 🎯 Beginner → intermediate · 🧰 Needs: an automation platform or Python (both optional)
 
 **A huge amount of useful information lives on web pages with no API:** prices, job posts, event listings, government
 notices, product restocks, competitor updates. With AI, turning messy pages into clean, structured data (and getting alerted

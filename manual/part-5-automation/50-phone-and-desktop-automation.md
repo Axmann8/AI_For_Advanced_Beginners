@@ -210,7 +210,7 @@ Text expanders replace short codes with longer text. Static snippets insert fixe
 
 - **Static snippets:** your address, email templates, signatures (espanso, TextExpander, Raycast snippets).
 - **Dynamic AI snippets:** `;fix` → sends the current selection to an AI and replaces it with a corrected version.
-- **Prompt snippets:** keep your best prompts one shortcut away (`;eli5`, `;critique`, `;summarize`).
+- **Prompt snippets:** keep your best prompts one shortcut away (`;simplify`, `;critique`, `;summarize`).
 
 ## 🔐 Privacy notes
 

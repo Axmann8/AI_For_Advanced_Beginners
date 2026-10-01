@@ -1,6 +1,6 @@
 # 21 · Microsoft Copilot: The Complete Guide 🪟
 
-> ⏱️ 7 min read · 🎯 Windows, Office and Outlook users · 🧰 Needs: a Microsoft account (Outlook, Xbox or Office login)
+> ⏱️ 8 min read · 🎯 Windows, Office and Outlook users · 🧰 Needs: a Microsoft account (Outlook, Xbox or Office login)
 
 **Copilot is Microsoft's AI assistant, and it lives where millions of people already work: Windows, the Edge browser,
 Word, Excel, PowerPoint, Outlook and Teams.** In 2026 Microsoft merged its consumer Copilot app and its Microsoft 365

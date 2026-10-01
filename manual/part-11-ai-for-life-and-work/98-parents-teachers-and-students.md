@@ -1,6 +1,6 @@
 # 98 · Parents, Teachers & Students: AI for Learning Together 👨‍👩‍👧🍎
 
-> ⏱️ 7 min read · 🎯 Parents, teachers, tutors and students of all ages · 🧰 Needs: an assistant with a learning or study mode, and your school's AI policy
+> ⏱️ 8 min read · 🎯 Parents, teachers, tutors and students of all ages · 🧰 Needs: an assistant with a learning or study mode, and your school's AI policy
 
 **AI is changing how kids learn, how teachers teach and how families help with homework, and it can be wonderful if we use it
 thoughtfully.** This chapter gives parents a guide to AI safety and healthy habits, students a guide to learning (not cheating)

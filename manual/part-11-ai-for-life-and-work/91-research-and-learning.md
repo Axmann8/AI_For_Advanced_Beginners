@@ -1,6 +1,6 @@
 # 91 · AI for Research & Learning: Learn Anything Faster 🔬🎓
 
-> ⏱️ 7 min read · 🎯 Everyone who's curious (students, professionals, lifelong learners) · 🧰 Needs: an assistant with web search or deep research, optionally Gemini Notebook and Anki
+> ⏱️ 8 min read · 🎯 Everyone who's curious (students, professionals, lifelong learners) · 🧰 Needs: an assistant with web search or deep research, optionally Gemini Notebook and Anki
 
 **AI is the best tutor and research assistant most of us have ever had access to.** It's patient, available 24/7, and it can
 explain anything at any level. Used well, it makes you **learn faster and think better**. Used lazily, it just makes you

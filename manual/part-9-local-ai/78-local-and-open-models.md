@@ -1,6 +1,6 @@
 # 78 · Local & Open Models: AI on Your Own Machine 🏠💻
 
-> ⏱️ 8 min read · 🎯 Everyone (one command to start) · 🧰 Needs: a laptop or desktop with 8 GB+ RAM, and Ollama or LM Studio
+> ⏱️ 9 min read · 🎯 Everyone (one command to start) · 🧰 Needs: a laptop or desktop with 8 GB+ RAM, and Ollama or LM Studio
 
 **Yes, you can run surprisingly capable AI entirely on your laptop: offline, private, and free per use.** Open-weight models
 have improved at a startling pace, and a mid-range computer now runs assistants that would have seemed like frontier

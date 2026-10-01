@@ -1,6 +1,6 @@
 # 86 · Music Making with AI: From Hum to Hit 🎵🎹
 
-> ⏱️ 7 min read · 🎯 Everyone (musicians and "I can't play anything" folks alike) · 🧰 Needs: a song generator (Suno or similar), optionally a DAW like GarageBand, Ableton or BandLab
+> ⏱️ 8 min read · 🎯 Everyone (musicians and "I can't play anything" folks alike) · 🧰 Needs: a song generator (Suno or similar), optionally a DAW like GarageBand, Ableton or BandLab
 
 **AI can now write and sing a full song from a sentence, and that's only the beginning.** It can also help you write lyrics,
 learn theory, separate a song into its instruments so you can practice along, master your tracks, and even control a real

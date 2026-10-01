@@ -279,7 +279,7 @@ fuzzy parts.
 > [!TIP]
 > **🎮 Try this**
 > Add Playwright MCP to Claude Code (one command above) and ask: *"Open the website for this manual, click through three
-> chapters, and tell me which ELI5 box was the most helpful and why. Screenshot your favorite page."* Watch an AI read the
+> chapters, and tell me which Key Points & Steps box was the most helpful and why. Screenshot your favorite page."* Watch an AI read the
 > very manual you're reading. 🤯📖
 
 ---

@@ -1,6 +1,6 @@
 # 32 · The Mental Model: From Chatbot to Teammate 🧠➡️🤖
 
-> ⏱️ 10 min read · 🎯 Beginner-friendly · 🧰 Needs: nothing but curiosity
+> ⏱️ 11 min read · 🎯 Beginner-friendly · 🧰 Needs: nothing but curiosity
 
 **You already know how to *talk* to an AI. This chapter is about the leap that makes everything else click: AI that can
 *act*, not just answer.** Once you see the four superpowers and the agent loop, every tool in this manual (MCP,

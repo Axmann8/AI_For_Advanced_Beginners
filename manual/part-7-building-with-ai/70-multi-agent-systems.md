@@ -1,6 +1,6 @@
 # 70 · Multi-Agent Systems: Teams of AIs 👥🤖
 
-> ⏱️ 7 min read · 🎯 Intermediate → advanced · 🧰 Needs: Claude Code (easiest), or n8n, or a framework from the [Agent Frameworks Tour](69-agent-frameworks-tour.md)
+> ⏱️ 8 min read · 🎯 Intermediate → advanced · 🧰 Needs: Claude Code (easiest), or n8n, or a framework from the [Agent Frameworks Tour](69-agent-frameworks-tour.md)
 
 **One agent is useful. Several agents that divide the work can take on much bigger jobs:** deep research across dozens of
 sources, big codebases, content pipelines, and "build it and then check it" loops. This chapter explains when multi-agent

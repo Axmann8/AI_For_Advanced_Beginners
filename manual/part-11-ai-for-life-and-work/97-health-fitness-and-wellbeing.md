@@ -1,6 +1,6 @@
 # 97 · Health, Fitness & Wellbeing with AI 🏃‍♀️💚
 
-> ⏱️ 7 min read · 🎯 Everyone looking after their body and mind · 🧰 Needs: an assistant, optionally a fitness tracker or health app export
+> ⏱️ 8 min read · 🎯 Everyone looking after their body and mind · 🧰 Needs: an assistant, optionally a fitness tracker or health app export
 
 **AI can be a wonderful health *companion*: a coach who builds workouts around your life, a patient explainer of confusing
 medical words, an appointment-prep buddy, a meal planner and a gentle journaling partner.** It is **not** a doctor, a therapist

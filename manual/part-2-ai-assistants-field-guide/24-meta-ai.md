@@ -1,6 +1,6 @@
 # 24 · Meta AI: The Complete Guide 👓
 
-> ⏱️ 6 min read · 🎯 WhatsApp, Instagram and Facebook users · 🧰 Needs: WhatsApp, Instagram, Messenger or Facebook (or the Meta AI app)
+> ⏱️ 7 min read · 🎯 WhatsApp, Instagram and Facebook users · 🧰 Needs: WhatsApp, Instagram, Messenger or Facebook (or the Meta AI app)
 
 **Meta AI is the assistant you probably already have: it's built into WhatsApp, Instagram, Messenger and Facebook,
 used by billions of people.** No new app, no new account: just open a chat and ask. It also powers Ray-Ban Meta and

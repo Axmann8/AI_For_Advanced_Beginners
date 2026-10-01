@@ -1,6 +1,6 @@
 # 76 · Gemini Notebook (formerly NotebookLM) Masterclass 🎧📓
 
-> ⏱️ 8 min read · 🎯 Everyone (students, researchers, curious people) · 🧰 Needs: a Google account (some features depend on your plan)
+> ⏱️ 9 min read · 🎯 Everyone (students, researchers, curious people) · 🧰 Needs: a Google account (some features depend on your plan)
 
 **Google's research notebook is one of the most delightful AI tools ever made.** Upload a pile of sources, and it becomes an
 expert on *exactly* that material: every answer cites your sources, and one click turns them into a podcast, a video, a mind

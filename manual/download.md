@@ -6,11 +6,11 @@
 
 <div markdown>
 
-**The whole manual as one beautifully designed, printable book: nearly 1,000 pages.** Every chapter, every 🧸 ELI5,
+**The whole manual as one beautifully designed, printable book: nearly 1,000 pages.** Every chapter, every Key Points & Steps box,
 every diagram and every checklist, laid out for paper and for reading offline on a tablet or e-reader.
 
 - 📚 **Every part**, from *AI from Zero* to the build-alongs and appendices
-- 🗂️ **Contents with page numbers**, plus colorful part dividers
+- 🗂️ **Contents with page numbers**, plus elegant part dividers
 - 🔗 **Page references** everywhere ("see p. 142") and **clickable links** on screen
 - 🔖 **Bookmarks** for every part, chapter and section
 - 🎨 **Full color**, syntax-highlighted code, and every diagram redrawn for print
@@ -30,7 +30,7 @@ every diagram and every checklist, laid out for paper and for reading offline on
 
 <figure><img src="../assets/pdf/cover.jpg" alt="PDF cover page" loading="lazy"><figcaption>The cover</figcaption></figure>
 <figure><img src="../assets/pdf/divider.jpg" alt="A full-color part divider page listing the chapters in the part" loading="lazy"><figcaption>A part divider, with page numbers</figcaption></figure>
-<figure><img src="../assets/pdf/chapter.jpg" alt="The opening page of a chapter with its ELI5 box and chapter map" loading="lazy"><figcaption>A chapter opener: ELI5 box and chapter map</figcaption></figure>
+<figure><img src="../assets/pdf/chapter.jpg" alt="The opening page of a chapter with its Key Points and Steps box and chapter map" loading="lazy"><figcaption>A chapter opener: key points and chapter map</figcaption></figure>
 
 </div>
 
@@ -50,7 +50,7 @@ every diagram and every checklist, laid out for paper and for reading offline on
 - **📝 One giant Markdown file:** [`MANUAL.md`](https://axmann8.github.io/The_Massive_AI_Manual/MANUAL.md) has
   the whole manual as plain text, perfect for handing to an AI as context (*"Using this manual, make me a 2-week plan
   to learn automation"*).
-- **🌐 This website:** searchable, with dark mode, progress tracking and ELI5 mode. Bookmark it on your phone's home
+- **🌐 This website:** searchable, with dark mode, progress tracking and hover definitions. Bookmark it on your phone's home
   screen for an app-like feel.
 - **🧑‍💻 The source:** everything, including the starter kits and the scripts that build this PDF, lives on
   [GitHub](https://github.com/Axmann8/The_Massive_AI_Manual).

@@ -1,6 +1,6 @@
 # 93 · AI for Small Business & Side Hustles 🏪🚀
 
-> ⏱️ 7 min read · 🎯 Small business owners, freelancers, side-hustlers and dreamers · 🧰 Needs: an assistant, Canva, and optionally Zapier, Make or n8n
+> ⏱️ 8 min read · 🎯 Small business owners, freelancers, side-hustlers and dreamers · 🧰 Needs: an assistant, Canva, and optionally Zapier, Make or n8n
 
 **For a small business, AI is like hiring a marketing assistant, a bookkeeper's helper, a receptionist and an analyst for
 less than the cost of lunch each month.** This chapter maps AI to every part of running a business, with five concrete setups

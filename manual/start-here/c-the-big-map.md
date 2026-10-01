@@ -139,18 +139,18 @@ These ten terms come up constantly. Learning them now makes the rest of the manu
 
 </details>
 
-| Word | 🧸 ELI5 |
+| Word | What it means |
 |---|---|
-| **Model** | The brain: a giant pattern-matcher that predicts what words come next |
-| **Token** | A word-chunk. AI reads, writes and charges in tokens |
-| **Context window** | How much the AI can "hold in its head" at once |
-| **Tool / function calling** | When the AI asks your app to press a button for it |
-| **Agent** | An AI that loops: think → use a tool → look at the result → repeat until done |
-| **MCP** | The universal plug that lets any AI app use any tool |
-| **Connector** | A ready-made MCP plug inside an app (click to install) |
-| **RAG** | Letting AI look things up in your documents before answering |
-| **Automation / workflow** | A robot recipe: "when X happens, do Y" |
-| **Local model** | A brain that runs on your own computer, with no internet needed |
+| **Model** | The AI system itself: a large pattern-learning program that predicts what text should come next |
+| **Token** | A chunk of text, roughly ¾ of a word. Models read, write and bill in tokens |
+| **Context window** | How much text the model can consider at once: your messages, files and its replies |
+| **Tool / function calling** | The model asking your app to run an action for it, like searching or creating an event |
+| **Agent** | An AI that works in a loop: decide on a step → use a tool → check the result → repeat until done |
+| **MCP** | An open standard that lets any AI app connect to any tool or data source |
+| **Connector** | A ready-made MCP connection inside an app, installed with a few clicks |
+| **RAG** | Retrieval-augmented generation: the AI searches your documents and answers from what it finds |
+| **Automation / workflow** | A rule that runs on its own: "when X happens, do Y" |
+| **Local model** | A model that runs on your own computer, privately and without an internet connection |
 
 ## 🎯 Key takeaways
 

@@ -1,6 +1,6 @@
 # 49 · Zapier & Make Walkthroughs 🟠🟦
 
-> ⏱️ 6 min read · 🎯 Beginner-friendly, no code · 🧰 Needs: free Zapier and/or Make accounts
+> ⏱️ 7 min read · 🎯 Beginner-friendly, no code · 🧰 Needs: free Zapier and/or Make accounts
 
 **n8n is the tinkerer's tool. Zapier and Make are the fastest paths from idea to working automation**: no servers, no code,
 giant app catalogs. This chapter walks through real builds in both, including Zapier Agents, Zapier MCP and Make's visual

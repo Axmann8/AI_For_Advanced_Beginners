@@ -1,6 +1,6 @@
 # 28 · Apple Intelligence, Siri, Alexa+ & Built-In Assistants 🍎
 
-> ⏱️ 6 min read · 🎯 iPhone, Echo, Galaxy and Pixel owners · 🧰 Needs: the devices you already own
+> ⏱️ 7 min read · 🎯 iPhone, Echo, Galaxy and Pixel owners · 🧰 Needs: the devices you already own
 
 **The assistants built into your devices have had a glow-up.** Siri was rebuilt with Apple Intelligence and Google's
 Gemini models, Alexa+ turned Amazon's speakers into real conversationalists, Gemini replaced Google Assistant on Android

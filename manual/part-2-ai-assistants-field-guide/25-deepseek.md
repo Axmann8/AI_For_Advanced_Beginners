@@ -1,6 +1,6 @@
 # 25 · DeepSeek: The Complete Guide 🐋
 
-> ⏱️ 5 min read · 🎯 Curious beginners and budget-minded users · 🧰 Needs: a free DeepSeek account (chat.deepseek.com) or a local AI setup
+> ⏱️ 6 min read · 🎯 Curious beginners and budget-minded users · 🧰 Needs: a free DeepSeek account (chat.deepseek.com) or a local AI setup
 
 **DeepSeek shook the AI world in January 2025, when a small Chinese lab released a free reasoning model that rivaled the
 best in the West, and published it openly for anyone to download.** Today DeepSeek offers a capable, completely free

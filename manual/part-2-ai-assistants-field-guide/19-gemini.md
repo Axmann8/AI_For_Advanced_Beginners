@@ -1,6 +1,6 @@
 # 19 · Google Gemini: The Complete Guide ✨
 
-> ⏱️ 11 min read · 🎯 Beginners to advanced beginners · 🧰 Needs: a Google account (gemini.google.com or the Gemini app)
+> ⏱️ 12 min read · 🎯 Beginners to advanced beginners · 🧰 Needs: a Google account (gemini.google.com or the Gemini app)
 
 **Gemini is Google's AI assistant, and its superpower is Google itself.** It's built into Android phones, Chrome, Gmail,
 Docs, Google Home and more, and (if you let it) it can use your own Gmail, Calendar, Photos and Drive to give answers

@@ -41,7 +41,7 @@ On its own, an AI assistant can only work with what you type into the chat. Conn
 
     ---
 
-    <span class="card-meta">⏱️ 8 min read · 🎯 Intermediate (no coding required to follow)</span>
+    <span class="card-meta">⏱️ 9 min read · 🎯 Intermediate (no coding required to follow)</span>
 
     What actually travels between Claude and an MCP server? This chapter opens the hood: the messages, the conversation flow, how tools/resources/prompts are described, how data moves locally and over the internet, how login works, and what changed in the big 2026 spec.
 
@@ -57,7 +57,7 @@ On its own, an AI assistant can only work with what you type into the chat. Conn
 
     ---
 
-    <span class="card-meta">⏱️ 8 min read · 🎯 Beginner-friendly</span>
+    <span class="card-meta">⏱️ 9 min read · 🎯 Beginner-friendly</span>
 
     MCP is the engine. Connectors are the polished, click-to-install version inside the big AI apps.
 
@@ -65,7 +65,7 @@ On its own, an AI assistant can only work with what you type into the chat. Conn
 
     ---
 
-    <span class="card-meta">⏱️ 9 min read · 🎯 Intermediate (AI can write the code with you)</span>
+    <span class="card-meta">⏱️ 10 min read · 🎯 Intermediate (AI can write the code with you)</span>
 
     Using MCP servers is fun. Building them is a superpower.
 

@@ -183,4 +183,4 @@ projects, and you'll learn tons from the replies. 🎉
 
 ---
 
-**Next:** [Appendix G · The ELI5 Edition →](g-key-points-edition.md)
+**Next:** [Appendix G · The Key Points Edition →](g-key-points-edition.md)

@@ -1,6 +1,6 @@
 # 27 · Qwen, Kimi & the Global Assistants 🌏
 
-> ⏱️ 5 min read · 🎯 Curious explorers, multilingual users and travelers · 🧰 Needs: nothing (free accounts for the assistants you try)
+> ⏱️ 6 min read · 🎯 Curious explorers, multilingual users and travelers · 🧰 Needs: nothing (free accounts for the assistants you try)
 
 **The AI world isn't just Silicon Valley.** Some of the most impressive (and most openly shared) AI models now come from
 China, and there are excellent assistants built for Europe, India, Korea, the Middle East and beyond. This chapter is

@@ -1,6 +1,6 @@
 # 79 · Hardware for Local AI: What to Buy (and What Not To) 🖥️⚡
 
-> ⏱️ 8 min read · 🎯 Anyone thinking about running AI at home · 🧰 Needs: nothing (this is a buying and understanding guide)
+> ⏱️ 9 min read · 🎯 Anyone thinking about running AI at home · 🧰 Needs: nothing (this is a buying and understanding guide)
 
 **The single most important number for local AI isn't your processor speed. It's memory.** How *much* memory decides which
 models fit, and how *fast* that memory is decides how quickly they talk. Once you understand those two ideas, the whole

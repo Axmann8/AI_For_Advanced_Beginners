@@ -1,6 +1,6 @@
 # 29 · Hubs & Specialty Chatbots 🧩
 
-> ⏱️ 6 min read · 🎯 Explorers, privacy fans, learners and the curious · 🧰 Needs: nothing (most have free tiers)
+> ⏱️ 7 min read · 🎯 Explorers, privacy fans, learners and the curious · 🧰 Needs: nothing (most have free tiers)
 
 **Beyond the big-name assistants there's a whole ecosystem of clever AI apps:** hubs that give you many models in one
 place, privacy-first chatbots that don't keep your data, character and companion apps, AI tutors, and specialist tools

@@ -1,6 +1,6 @@
 # 48 · n8n AI Agents Deep Dive 🤖🟣
 
-> ⏱️ 9 min read · 🎯 Intermediate · 🧰 Needs: n8n (local or Cloud) + an AI API key (or Ollama for free local models)
+> ⏱️ 10 min read · 🎯 Intermediate · 🧰 Needs: n8n (local or Cloud) + an AI API key (or Ollama for free local models)
 
 **The AI Agent node puts a full tool-using agent inside a workflow**, with any model, memory, tools, MCP, RAG, structured
 output and human approvals. This chapter is your deep dive: how each piece works, how to design reliable agents, and how to

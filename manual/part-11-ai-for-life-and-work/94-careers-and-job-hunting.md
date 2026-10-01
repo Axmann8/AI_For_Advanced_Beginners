@@ -1,6 +1,6 @@
 # 94 · Careers & Job Hunting with AI 💼🚀
 
-> ⏱️ 7 min read · 🎯 Job seekers, career changers, students, anyone ready for a next step · 🧰 Needs: an assistant (voice mode is great for interview practice), your résumé
+> ⏱️ 8 min read · 🎯 Job seekers, career changers, students, anyone ready for a next step · 🧰 Needs: an assistant (voice mode is great for interview practice), your résumé
 
 **Job hunting is stressful, repetitive and full of guesswork, which makes it perfect territory for an AI sidekick.** AI can
 help you figure out what you actually want, tailor every application honestly, practice interviews out loud until you're

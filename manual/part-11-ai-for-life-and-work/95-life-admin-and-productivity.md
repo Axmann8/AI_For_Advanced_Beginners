@@ -1,6 +1,6 @@
 # 95 · Life Admin & Personal Productivity 🏡✅
 
-> ⏱️ 7 min read · 🎯 Everyone with a to-do list (so, everyone) · 🧰 Needs: an assistant with calendar/email connectors (optional), a notes app or spreadsheet
+> ⏱️ 8 min read · 🎯 Everyone with a to-do list (so, everyone) · 🧰 Needs: an assistant with calendar/email connectors (optional), a notes app or spreadsheet
 
 **Forms, bills, appointments, school emails, renewals, "did I ever reply to that?": life admin eats hours every week.** AI
 won't do your laundry (yet 🧺), but it can take a huge bite out of the thinking, planning and paperwork. This chapter gives you

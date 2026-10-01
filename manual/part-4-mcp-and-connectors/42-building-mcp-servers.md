@@ -1,6 +1,6 @@
 # 42 · Building MCP Servers: The Deep Dive 🏗️🔌
 
-> ⏱️ 9 min read · 🎯 Intermediate (AI can write the code with you) · 🧰 Needs: Python 3.10+ or Node.js 20+
+> ⏱️ 10 min read · 🎯 Intermediate (AI can write the code with you) · 🧰 Needs: Python 3.10+ or Node.js 20+
 
 **Using MCP servers is fun. Building them is a superpower.** Any API, script, database or gadget you can talk to with
 code can become a tool that *every* AI app can use. This chapter takes you from "hello world" to a remote, authenticated

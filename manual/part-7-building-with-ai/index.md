@@ -35,7 +35,7 @@ You can now describe an app in plain language and have AI write, run, test and f
 
     ---
 
-    <span class="card-meta">⏱️ 7 min read · 🎯 Everyone (yes, even if you've never coded)</span>
+    <span class="card-meta">⏱️ 8 min read · 🎯 Everyone (yes, even if you've never coded)</span>
 
     Here's the secret: you don't need to be a programmer to build software anymore. Coding agents write, run, test and fix code for you.
 
@@ -43,7 +43,7 @@ You can now describe an app in plain language and have AI write, run, test and f
 
     ---
 
-    <span class="card-meta">⏱️ 10 min read · 🎯 Everyone who builds with AI (no coding background needed)</span>
+    <span class="card-meta">⏱️ 11 min read · 🎯 Everyone who builds with AI (no coding background needed)</span>
 
     Git is the undo button that makes AI building fearless. When a coding agent rewrites twenty files and something breaks, Git lets you rewind in one command.
 
@@ -59,7 +59,7 @@ You can now describe an app in plain language and have AI write, run, test and f
 
     ---
 
-    <span class="card-meta">⏱️ 10 min read · 🎯 Intermediate</span>
+    <span class="card-meta">⏱️ 11 min read · 🎯 Intermediate</span>
 
     Out of the box, Claude Code is brilliant. Customized, it's a whole team.
 
@@ -83,7 +83,7 @@ You can now describe an app in plain language and have AI write, run, test and f
 
     ---
 
-    <span class="card-meta">⏱️ 10 min read · 🎯 Beginner → intermediate</span>
+    <span class="card-meta">⏱️ 11 min read · 🎯 Beginner → intermediate</span>
 
     An app on your laptop is a hobby. An app with a link is a gift to the world.
 
@@ -115,7 +115,7 @@ You can now describe an app in plain language and have AI write, run, test and f
 
     ---
 
-    <span class="card-meta">⏱️ 7 min read · 🎯 Intermediate → advanced</span>
+    <span class="card-meta">⏱️ 8 min read · 🎯 Intermediate → advanced</span>
 
     One agent is useful. Several agents that divide the work can take on much bigger jobs: deep research across dozens of sources, big codebases, content pipelines, and "build it and then check it" loops.
 

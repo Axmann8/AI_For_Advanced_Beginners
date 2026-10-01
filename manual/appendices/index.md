@@ -1,7 +1,7 @@
 # 📎 Appendices
 
-The reference shelf: an ELI5 glossary, the one-page cheat sheet, troubleshooting, a giant prompt library, links,
-project ideas, the ELI5 Edition of the whole manual, commands and shortcuts, comparison tables and printable checklists.
+The reference shelf: a plain-English glossary, the one-page cheat sheet, troubleshooting, a giant prompt library, links,
+project ideas, the Key Points Edition of the whole manual, commands and shortcuts, comparison tables and printable checklists.
 
 <details class="keypoints" open>
 <summary>✅ Key Points & Steps</summary>
@@ -25,7 +25,7 @@ The appendices are the reference shelf: material you'll come back to rather than
 
     <span class="card-meta">⏱️ 25 min read · 🎯 Everyone (keep it open in a tab!)</span>
 
-    Every piece of AI jargon in this manual, in plain English, with a 🧸 ELI5 for each one. Jump to a letter with the sidebar or the cards below.
+    Every piece of AI jargon in this manual, in plain English, with a real-world example for each one.
 
 -   **[Appendix B · The Cheat Sheet 📋](b-cheat-sheet.md)**
 
@@ -67,13 +67,13 @@ The appendices are the reference shelf: material you'll come back to rather than
 
     Reading is great, but building is where it sticks. Here are 80 projects, from 🟢 weekend-afternoon to 🔴 ambitious, plus ideas sorted by passion.
 
--   **[Appendix G · The ELI5 Edition 🧸](g-key-points-edition.md)**
+-   **[Appendix G · The Key Points Edition ✅](g-key-points-edition.md)**
 
     ---
 
-    <span class="card-meta">⏱️ 30 min read · 🎯 Everyone, including actual five-year-olds</span>
+    <span class="card-meta">⏱️ 40 min read · 🎯 Everyone: skimmers, reviewers and anyone deciding what to read next</span>
 
-    The entire manual, explained like you're five. Every chapter's big idea in a few friendly sentences.
+    The whole manual in condensed form. Every chapter's Key Points & Steps box, gathered on one page in reading order.
 
 -   **[Appendix H · Commands & Shortcuts ⌨️⚡](h-commands-and-shortcuts.md)**
 
