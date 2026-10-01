@@ -7,12 +7,14 @@ notices, product restocks, competitor updates. With AI, turning messy pages into
 when something changes) has become astonishingly easy. This chapter shows you how to do it *politely*, *legally* and
 *reliably*.
 
-<details class="eli5" open>
-<summary>🧸 ELI5: This chapter in 30 seconds</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Scraping means having a robot visit web pages and copy the important bits for you, like a friend who checks the toy store
-website every morning and texts you when your favorite toy goes on sale. AI makes this easy because it can *read* a messy
-page like a person and pull out exactly what you asked for.
+Web scraping means automatically collecting information from web pages; monitoring means checking pages on a schedule and alerting you to changes. AI makes both much easier because it can read a messy page the way a person does and extract exactly what you ask for.
+
+- **Prefer official sources:** use an API, RSS feed or export when one exists.
+- **Scrape responsibly:** follow terms of service, respect robots.txt and rate limits, and avoid personal data.
+- **Use AI extraction** instead of fragile selectors, and build price-drop and news monitors step by step.
 
 </details>
 
@@ -20,11 +22,10 @@ page like a person and pull out exactly what you asked for.
 
 ## 🧭 First: is there an API?
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Before sneaking a peek at the store window, check whether the store has a front desk that happily answers questions. That's
-the API, and it's always the better choice.
+Before scraping, check for a better option: an official API, an RSS feed, a data export or an existing integration. These are more stable, clearly permitted and return structured data.
 
 </details>
 
@@ -42,11 +43,15 @@ Scrape when none of these exist, and do it kindly.
 
 ## ⚖️ The polite (and legal) scraping rules
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Be a good guest on other people's websites: read their rules, don't knock on the door a thousand times a minute, don't take
-people's private information, and don't copy their stuff to sell it.
+Follow these rules to scrape responsibly:
+
+1. Read the site's terms of service, and respect any ban on automated access.
+2. Check `robots.txt` for areas the site asks bots to avoid.
+3. Limit how often you send requests.
+4. Avoid collecting personal data, and don't republish copyrighted content.
 
 </details>
 
@@ -62,11 +67,10 @@ This isn't legal advice. For anything commercial or large-scale, check the rules
 
 ## 🧰 The toolbox
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Some tools let you point and click to pick what to copy. Some turn any web page into clean text for AI. Some are for coders.
-And some just watch a page and tell you when it changes.
+Scraping tools fall into four categories: no-code scrapers (point and click), page-to-text converters that prepare pages for AI, developer libraries, and change monitors. The table lists examples of each.
 
 </details>
 
@@ -81,11 +85,14 @@ And some just watch a page and tell you when it changes.
 
 ## 🤖 AI extraction: from messy page to clean JSON
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Instead of writing fiddly rules like "the price is in the third box on the left," you just tell the AI "find the price, the
-name and whether it's in stock," and it reads the page like a person would.
+Traditional scraping relies on CSS selectors that break whenever a site's layout changes. AI extraction is more resilient:
+
+1. Fetch the page as clean text or Markdown.
+2. Ask the AI to extract specific fields as JSON.
+3. Validate the result before using it.
 
 </details>
 
@@ -107,11 +114,10 @@ pages. **Cost tip:** use a small, fast model for extraction ([Cost Optimization]
 
 ## 👀 Monitoring & alerts
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-A monitor is a robot that checks a page on a schedule, remembers what it saw last time, and pings you only when something
-important changed.
+A monitor checks a page on a schedule, compares the result with the previous check, and alerts you only when something meaningful changes. The table lists useful things to monitor, from price drops to restocks and policy updates.
 
 </details>
 
@@ -140,11 +146,15 @@ meaningful change? Reply YES or NO, and explain in one sentence."* That kills fa
 
 ## 🛠️ Build: a price-drop watcher in n8n (30 min)
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-We'll build a robot that checks a product page twice a day, remembers the price, and messages you when it drops below
-your target.
+This n8n workflow alerts you when a product's price falls below your target.
+
+1. Add a **Schedule Trigger** that runs every 12 hours.
+2. List your products with their URLs and target prices.
+3. Fetch each page as text and ask AI to extract the current price.
+4. Compare it with your target and send an alert if it's lower.
 
 </details>
 
@@ -160,10 +170,14 @@ Swap step 3 for **Apify** or **Browse AI** if the site needs a real browser.
 
 ## 📰 Build: a news & mentions monitor (20 min)
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-A robot that reads the news for you, keeps only stories about things you care about, and sends you a tidy summary.
+This workflow sends you a digest of news about topics you care about.
+
+1. Add RSS feeds for your sources, plus Google News searches for your keywords.
+2. Filter out items you've already seen and items without your keywords.
+3. Have AI summarize and rank the rest, then send the digest.
 
 </details>
 
@@ -176,11 +190,10 @@ It's the same idea as the [Morning AI Digest](../../examples/n8n-workflows/morni
 
 ## 🐍 A tiny Python version
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-If you like code, here's the same idea in a few lines: read a page, ask AI for the price, print it. Your AI coding helper
-can extend it for you.
+This short Python script fetches a page, asks Claude to extract the price as JSON and prints it. An AI coding assistant can extend it into a full monitor with storage and alerts.
 
 </details>
 
@@ -206,11 +219,10 @@ For robust versions, use **structured outputs** so the JSON is guaranteed valid 
 
 ## 🚧 Common problems & fixes
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Some websites build themselves with code after they load, some block robots, some change their look, and some spread info
-over many pages. Here's what to do about each.
+Common scraping problems include pages that load content with JavaScript, blocking or rate limiting, changing layouts and paginated data. The table pairs each problem with a fix.
 
 </details>
 

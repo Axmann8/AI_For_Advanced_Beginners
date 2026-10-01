@@ -6,12 +6,14 @@
 This chapter is your practical tour: the best feature in each app, power workflows that save real hours, how to automate
 with Apps Script and Power Automate, and how to bring outside AI (Claude, ChatGPT) into the mix.
 
-<details class="eli5" open>
-<summary>🧸 ELI5: This chapter in 30 seconds</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Google and Microsoft put AI helpers inside email, documents, spreadsheets, slides and video calls. **Gemini** is Google's
-helper, and **Copilot** is Microsoft's. They can summarize, write, make slides from documents, take meeting notes and more.
-This chapter shows you the best trick in each app, plus how to make little robots that do the boring stuff automatically.
+Google Workspace and Microsoft 365 include AI assistants across email, documents, spreadsheets, presentations and meetings: **Gemini** for Google and **Copilot** for Microsoft. This chapter covers the most useful feature in each app and how to automate routine work.
+
+- **App by app:** what Gemini and Copilot do in each application, with prompts to try.
+- **Beyond single apps:** Gems, Deep Research, Copilot agents, Copilot Studio and Power Automate.
+- **Power workflows** that combine apps, plus how to bring Claude or ChatGPT into either ecosystem.
 
 </details>
 
@@ -24,10 +26,10 @@ This chapter shows you the best trick in each app, plus how to make little robot
 
 ## 🔵 Google Workspace + Gemini, app by app
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Every Google app has a Gemini button. Here's what it's best at in each one, with a prompt you can copy.
+Every Google Workspace app includes Gemini. The table lists its strongest feature in Gmail, Docs, Sheets, Slides, Drive, Meet and Calendar, with a prompt to try in each.
 
 </details>
 
@@ -44,11 +46,10 @@ Every Google app has a Gemini button. Here's what it's best at in each one, with
 
 ## 💎 The Gemini app, Gems & Deep Research
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Outside the individual apps, the Gemini app is a big chat helper. **Gems** are custom helpers you set up once, and **Deep
-Research** reads dozens of websites and writes you a report.
+The Gemini app goes beyond individual Workspace apps. **Gems** are custom assistants with saved instructions for repeated tasks, and **Deep Research** reads many sources and writes a cited report you can export to Docs.
 
 </details>
 
@@ -63,11 +64,10 @@ Research** reads dozens of websites and writes you a report.
 
 ## 🟣 Microsoft 365 + Copilot, app by app
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Every Microsoft app has a Copilot button. It can read your work emails, files and meetings to help you write, analyze and
-catch up.
+Every Microsoft 365 app includes Copilot, which can draw on your work email, files and meetings. The table lists its strongest feature in Outlook, Word, Excel, PowerPoint and Teams.
 
 </details>
 
@@ -82,11 +82,10 @@ catch up.
 
 ## 🤖 Copilot agents, Copilot Studio & Power Automate
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Microsoft lets companies build their own Copilot helpers that know their documents and can use their tools, and Power
-Automate is Microsoft's robot-recipe kitchen.
+Microsoft 365 Copilot includes specialized agents for research and data analysis. **Copilot Studio** lets organizations build custom agents connected to their own documents and tools, and **Power Automate** is Microsoft's workflow automation platform.
 
 </details>
 
@@ -100,11 +99,10 @@ Automate is Microsoft's robot-recipe kitchen.
 
 ## ⚡ Power workflows (Google)
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Four clever combos that save hours in Google-land: research into docs, spreadsheets as AI factories, little scripts that run
-every morning, and custom Gems for repeat jobs.
+These four workflows save significant time in Google Workspace: Deep Research exported to Docs, Sheets as an AI processing pipeline, scheduled Apps Script automations and custom Gems.
 
 </details>
 
@@ -116,11 +114,10 @@ every morning, and custom Gems for repeat jobs.
 
 ## ⚡ Power workflows (Microsoft)
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Four clever combos for Microsoft-land: meetings that turn into tasks, spreadsheets that analyze themselves, custom agents,
-and SharePoint helpers that answer team questions.
+These four workflows save significant time in Microsoft 365: meeting recaps turned into tasks, Copilot with Python in Excel for analysis, custom agents and SharePoint agents that answer team questions.
 
 </details>
 
@@ -131,11 +128,14 @@ and SharePoint helpers that answer team questions.
 
 ## 🧑‍💻 Apps Script + Gemini: a tiny robot (optional)
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Apps Script is a free way to write little robot helpers that live inside Google Sheets and Gmail. Your AI assistant can
-write the whole script for you, and you just paste it in.
+Apps Script is free JavaScript that runs inside Google Workspace and can call Gemini. An AI assistant can write the script for you.
+
+1. Describe the task to your AI assistant and ask it to adapt the example below.
+2. Open **Extensions → Apps Script** in your spreadsheet and paste the code.
+3. Set a time-based trigger so it runs automatically.
 
 </details>
 
@@ -165,11 +165,10 @@ function dailySummary() {
 
 ## 🌉 Bringing outside AI into Google & Microsoft
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-You're not stuck with just Gemini or Copilot. You can let Claude or ChatGPT read your Google Drive or Microsoft files too,
-and pick the best brain for each job.
+You can use other assistants with Google and Microsoft data. Claude and ChatGPT both offer connectors for Google Drive, Gmail, Calendar and Microsoft 365, so you can choose the best model for each task.
 
 </details>
 
@@ -180,10 +179,10 @@ and pick the best brain for each job.
 
 ## 💡 Cross-platform tips
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Point the AI at the exact files you mean, keep your file sharing tidy, and check for important stuff before you send it.
+Point the AI at specific files for much better answers, keep sharing permissions tidy (AI can see whatever you can), and review anything important before sending it.
 
 </details>
 

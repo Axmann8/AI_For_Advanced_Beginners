@@ -6,13 +6,15 @@
 code for you. Even if you never plan to "code," these tools are the fastest way to build your own automations, MCP servers,
 websites and little apps. This chapter maps the whole tool landscape and teaches you how to work with AI builders like a pro.
 
-<details class="eli5" open>
-<summary>🧸 ELI5: This chapter in 30 seconds</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Imagine a super-fast builder robot. You describe the treehouse you want ("two floors, a rope ladder, a secret door"), and
-the robot builds it, tests that the ladder holds, and fixes anything wobbly while you watch. **Coding agents** are that
-robot, but for apps and websites. Some live in your web browser, some in a code editor, and some in a terminal. This
-chapter helps you pick one and be a great boss to it.
+AI coding tools let you describe what you want to build while the AI writes, runs, tests and fixes the code. They range from browser-based app builders to code editors and autonomous agents. This chapter helps you choose one and work with it effectively.
+
+- **Chat-to-app builders** (Artifacts, Lovable, Bolt, v0) need only a browser and an idea.
+- **AI code editors** (Cursor, VS Code with Copilot) put AI alongside your code.
+- **Autonomous agents** (Claude Code, Codex, Gemini CLI) take on whole tasks.
+- **Success depends on direction:** plan first, give the agent ways to check its work, and review the results.
 
 </details>
 
@@ -20,11 +22,10 @@ chapter helps you pick one and be a great boss to it.
 
 ## 🌈 The spectrum of AI building tools
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-On one end are "describe it and get an app" tools, super easy. On the other end are toolkits for building your own AI
-robots, which take more effort. In the middle are editors where you and the AI work together.
+AI building tools fall along a spectrum, from chat-to-app builders that need no code, to AI editors, autonomous coding agents and frameworks for building your own agents. The table shows what each level needs.
 
 </details>
 
@@ -42,11 +43,10 @@ flowchart LR
 
 ## 🪄 Chat-to-app builders (no code needed)
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-These are "wish machines": type what app you want, and a working app appears in your browser that you can click on,
-change by chatting, and share with friends.
+Chat-to-app builders create working apps from a description. You can use the app immediately, refine it by chatting and share it with a link. The table compares Claude Artifacts, Lovable, Bolt, v0 and Replit.
 
 </details>
 
@@ -64,11 +64,10 @@ Full guide: [Vibe Coding Your First Real App](65-vibe-coding-your-first-app.md).
 
 ## ✍️ AI code editors
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-These are writing apps for code where an AI sits next to you: it suggests the next lines, answers questions about your
-project, and can make big changes across many files when you ask.
+AI code editors combine a standard code editor with an AI assistant that suggests code, answers questions about your project and makes multi-file changes on request. The table compares Cursor, VS Code with Copilot, Windsurf and others.
 
 </details>
 
@@ -84,11 +83,10 @@ Deep dive: [Cursor & AI IDEs](64-cursor-and-ai-ides.md).
 
 ## 🤖 Autonomous coding agents
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-These agents take a whole job ("add a login page") and do it themselves: read the project, write code, run tests, fix
-mistakes and report back. You check their work like a manager.
+Autonomous coding agents take on a complete task: they read the project, write code, run tests, fix errors and report back. Your role is to review their work. The table compares Claude Code, Codex, Gemini CLI and others.
 
 </details>
 
@@ -107,11 +105,10 @@ Deep dives: [Claude Code Masterclass](62-claude-code-masterclass.md) → [Claude
 
 ## 🧩 Customizing agents: the power-user layer
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-You can teach your builder robot your house rules (a memory file), give it special how-to guides (skills), hire helper
-robots (subagents), add automatic safety checks (hooks) and install whole kits at once (plugins).
+You can customize coding agents with memory files (project rules), skills (packaged instructions), subagents (specialized helpers), hooks (automatic checks) and plugins (bundles of all of these). The table gives an example of each.
 
 </details>
 
@@ -129,10 +126,10 @@ All of this is covered hands-on in [Claude Code Power-Ups](63-claude-code-power-
 
 ## 🏗️ Agent frameworks (build your own)
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Frameworks are LEGO kits for building your own AI robots from scratch, for when you want an agent inside your own app.
+Agent frameworks let you build agents into your own apps and scripts. Options include the Claude Agent SDK, the OpenAI Agents SDK, Google's ADK, LangGraph and others; see [Agent Frameworks Tour](69-agent-frameworks-tour.md) for details.
 
 </details>
 
@@ -152,11 +149,10 @@ Learn the core loop first in [Build Your Own Agent](68-build-your-own-agent.md),
 
 ## 🧭 Which tool should *you* start with?
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Pick based on who you are: a total beginner starts with "describe it" tools, a curious learner starts with Claude Code, and
-someone who likes seeing code starts with Cursor.
+Choose a starting tool based on your experience: a chat-to-app builder if you've never coded, Claude Code if you want to learn by building, or Cursor if you prefer seeing the code. The table offers more profiles.
 
 </details>
 
@@ -170,11 +166,16 @@ someone who likes seeing code starts with Cursor.
 
 ## 🎯 Working with coding agents like a pro
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Be a good boss: explain the goal clearly, ask for a plan first, let it test its own work, save progress often, and ask it to
-explain what it did.
+Work with coding agents the way an effective manager works with a team:
+
+1. Explain the goal and constraints clearly.
+2. Ask for a plan, review it, then let the agent build.
+3. Give it a way to check its work, such as tests or screenshots.
+4. Save progress often with Git commits.
+5. Ask it to explain what it changed.
 
 </details>
 
@@ -188,11 +189,10 @@ explain what it did.
 
 ## ⚖️ What coding agents are great at (and not)
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Builder robots are amazing at common, well-described jobs with clear tests. They struggle with fuzzy goals, weird old code
-with no instructions, and anything they can't check.
+Coding agents excel at common, well-defined tasks with clear ways to verify the result. They need more guidance with vague goals, unusual legacy code and anything they can't test. The table lists examples of each.
 
 </details>
 

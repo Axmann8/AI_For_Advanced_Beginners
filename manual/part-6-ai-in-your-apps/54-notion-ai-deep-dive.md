@@ -6,12 +6,15 @@
 *and* where AI agents read, write and organize them for you. This chapter covers the whole toolbox, then walks you through
 building a complete AI-assisted second brain, step by step.
 
-<details class="eli5" open>
-<summary>🧸 ELI5: This chapter in 30 seconds</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Notion is like a magic binder where every page can hold notes, lists and tables. Now the binder has a **helper who lives
-inside it**: you can ask it to write pages, tidy your lists, summarize meetings, and even do chores on a schedule while
-you sleep. We'll build a "second brain" binder that organizes itself.
+Notion combines notes, task lists and databases in one workspace, and its built-in AI can write pages, organize databases, take meeting notes and run scheduled tasks. This chapter builds an AI-powered "second brain" that largely organizes itself.
+
+1. **Learn the toolbox:** Notion Agent, Custom Agents, AI Meeting Notes, AI database properties and MCP.
+2. **Build the second brain:** an Inbox plus Projects, Areas and Resources databases.
+3. **Automate the sorting** with an agent that files new items every morning.
+4. **Set rules and permissions** so agents work safely.
 
 </details>
 
@@ -19,11 +22,10 @@ you sleep. We'll build a "second brain" binder that organizes itself.
 
 ## 🧰 The Notion AI toolbox
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Notion's AI has several tools: a personal helper you chat with, team helpers that run on schedules, a meeting note-taker,
-smart table columns, and doors (MCP) so other AIs can come in and Notion's AI can go out.
+Notion's AI includes several tools: the on-demand Notion Agent, scheduled Custom Agents, AI Meeting Notes, AI database properties (autofill), and MCP support in both directions. The table explains what each does and when to use it.
 
 </details>
 
@@ -44,11 +46,10 @@ smart table columns, and doors (MCP) so other AIs can come in and Notion's AI ca
 
 ## 🤖 Notion Agent vs. Custom Agents
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-The **Notion Agent** is your personal helper that works when you ask. **Custom Agents** are team helpers that work by
-themselves on a timer or when something happens, even at 3am.
+The **Notion Agent** works on demand when you ask it. **Custom Agents** run on their own, on a schedule or when a trigger fires, and can serve a whole team. The table compares them.
 
 </details>
 
@@ -64,11 +65,15 @@ say what data to read, what to produce, where to put it, and **what it must neve
 
 ## 🧠 Build: the AI Second Brain
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-We'll build four boxes: an inbox where everything lands, a projects box, an areas box and a library box. Then we'll teach
-the AI helpers to sort the inbox for us every morning.
+This build uses a simplified PARA system (Projects, Areas, Resources, Archive) plus an Inbox.
+
+1. Create the Inbox, Projects, Areas and Resources databases with the properties shown.
+2. Add AI properties that summarize and categorize new entries automatically.
+3. Set up a Custom Agent that sorts the Inbox each morning.
+4. Add capture shortcuts so ideas reach the Inbox from anywhere.
 
 </details>
 
@@ -129,11 +134,10 @@ Connect **Notion MCP** to Claude, ChatGPT or Claude Code:
 
 ## 🗃️ Databases that AI loves
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-AI works best with tidy tables: clear column names, fixed choices instead of free text, and dates in date columns. Tidy
-tables mean smart helpers.
+AI agents work much more reliably with well-structured databases: clear property names, select fields instead of free text for categories, date fields for dates and relations between databases. The table explains why each matters.
 
 </details>
 
@@ -148,11 +152,14 @@ tables mean smart helpers.
 
 ## 🎙️ AI Meeting Notes workflow
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Notion can listen to your meeting, write the notes, and then turn the "we should…" moments into real tasks with owners and
-due dates.
+AI Meeting Notes transcribes your meetings and turns them into actions.
+
+1. Start AI Meeting Notes on a meeting page, and tell participants you're transcribing.
+2. After the call, review the summary of decisions, action items and open questions.
+3. Ask the agent to create tasks from the action items, with owners and due dates.
 
 </details>
 
@@ -164,11 +171,10 @@ due dates.
 
 ## 🔌 Notion + MCP: both directions
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Other AIs (like Claude or Cursor) can open Notion's door and work inside your pages. And Notion's own helpers can open
-other apps' doors, like Linear or Figma.
+MCP works in both directions with Notion. Other AI apps (Claude, ChatGPT, Cursor) can read and edit your Notion pages through its official MCP server, and Notion's agents can use other services such as Linear and Figma through MCP connections.
 
 </details>
 
@@ -182,10 +188,10 @@ Notion status page.
 
 ## ⚡ 12 Notion + AI power moves
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Twelve clever tricks to try, from turning meetings into tasks to making a table translate itself.
+These twelve techniques show what Notion AI can do, from turning meeting notes into tasks to building databases from messy lists and translating content automatically.
 
 </details>
 
@@ -204,11 +210,10 @@ Twelve clever tricks to try, from turning meetings into tasks to making a table 
 
 ## 🔐 Permissions, credits & gotchas
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Helpers can only see pages they're allowed to see, scheduled helpers cost credits each time they run, and you should always
-tell them never to delete things.
+Agents can only access pages they have permission to see, and scheduled agents use credits each time they run. Give agents explicit rules, such as "archive instead of delete," and keep your databases consistently structured.
 
 </details>
 

@@ -6,12 +6,14 @@
 difficulty. Every one works on Zapier, Make or n8n (and many on phone Shortcuts). Pick one that annoys you *today*, build it
 this weekend, and enjoy the hours it gives back.
 
-<details class="eli5" open>
-<summary>🧸 ELI5: This chapter in 30 seconds</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-A cookbook with fifty robot recipes. Each one says what starts it (like "a new email arrives"), what the robot does (like
-"ask AI to summarize it"), and what you get (like "a tidy note in your to-do app"). Find the recipe for the chore you hate
-most and build that one first!
+This chapter is a collection of 50 automation recipes, organized by area. Each describes the trigger, the steps and the result, with a difficulty rating.
+
+1. **Find a recipe** for the task you'd most like to stop doing manually.
+2. **Build it** on your preferred platform, following the method at the end of the chapter.
+3. **Test it** with real data before relying on it.
 
 </details>
 
@@ -25,10 +27,10 @@ most and build that one first!
 
 ## 🧠 Personal productivity
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Recipes that keep your head clear: capturing ideas, planning your day, and making sure nothing falls through the cracks.
+These recipes support personal productivity: capturing ideas, daily planning, briefings and follow-up reminders.
 
 </details>
 
@@ -45,10 +47,10 @@ Recipes that keep your head clear: capturing ideas, planning your day, and makin
 
 ## 📧 Email & communication
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Recipes that tame your inbox: sorting, summarizing, drafting replies and making sure important messages never get buried.
+These recipes manage email and communication: triage, summaries, reply drafts and alerts for important messages.
 
 </details>
 
@@ -64,10 +66,10 @@ Recipes that tame your inbox: sorting, summarizing, drafting replies and making 
 
 ## 💼 Work & business
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Recipes that help a team or a small business: leads, customers, meetings, invoices and reports.
+These recipes support teams and small businesses: lead handling, customer feedback, meeting follow-ups, invoices and reports.
 
 </details>
 
@@ -84,10 +86,10 @@ Recipes that help a team or a small business: leads, customers, meetings, invoic
 
 ## 🎨 Content & creators
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Recipes for people who make things: turning one piece of content into many, planning posts and keeping ideas flowing.
+These recipes help creators repurpose content across channels, plan posts and capture ideas.
 
 </details>
 
@@ -102,10 +104,10 @@ Recipes for people who make things: turning one piece of content into many, plan
 
 ## 🔬 Learning & research
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Recipes for curious people: staying up to date, studying smarter, and turning the internet into your personal tutor.
+These recipes support learning and research: topic monitoring, study aids and research digests.
 
 </details>
 
@@ -120,10 +122,10 @@ Recipes for curious people: staying up to date, studying smarter, and turning th
 
 ## 💰 Money & admin
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Recipes for the boring-but-important stuff: receipts, bills, subscriptions and paperwork.
+These recipes handle financial and administrative tasks: receipts, bills, subscriptions and paperwork.
 
 </details>
 
@@ -137,10 +139,10 @@ Recipes for the boring-but-important stuff: receipts, bills, subscriptions and p
 
 ## 🏡 Home & family
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Recipes for home life: meals, school stuff, chores, plants and family plans.
+These recipes help at home: meal planning, school communications, chores, plant care and family scheduling.
 
 </details>
 
@@ -154,10 +156,10 @@ Recipes for home life: meals, school stuff, chores, plants and family plans.
 
 ## 🛠️ Developer & tech
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Recipes for people who build software or manage tech: code reviews, error alerts, changelogs and uptime.
+These recipes help developers and technical teams: pull request summaries, error alerts, changelogs and uptime checks.
 
 </details>
 
@@ -171,11 +173,16 @@ Recipes for people who build software or manage tech: code reviews, error alerts
 
 ## 🧑‍🍳 How to build any recipe (the method)
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Every recipe gets built the same way: start with the trigger, test with fake data, add the AI step, check the output, then
-add the final action with a safety check.
+Build any recipe using the same method:
+
+1. Write it as one sentence: *"When [trigger], get [data], ask AI to [task], then [action]."*
+2. Build the trigger and capture a real sample.
+3. Add the AI step and check its output on the sample.
+4. Add the final action, with an approval step for anything important.
+5. Turn it on and review the first few runs.
 
 </details>
 
@@ -189,10 +196,10 @@ add the final action with a safety check.
 
 ## 📝 Design your own recipe
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Use this little form to invent your own robot recipe. If you can fill it in, you can build it!
+Use this template to design your own automation. If you can complete each line, you have everything you need to build it.
 
 </details>
 

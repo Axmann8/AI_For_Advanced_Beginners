@@ -7,13 +7,15 @@ style, format or specialty.** It sounds like a PhD-only activity, but tools like
 project on free or cheap hardware. This chapter explains when fine-tuning is worth it (and when it's not!), how LoRA works in
 plain English, how to prepare data, a step-by-step walkthrough, and how to run your custom model in Ollama. 🧪✨
 
-<details class="eli5" open>
-<summary>🧸 ELI5: This chapter in 30 seconds</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Imagine a talented chef who can cook anything. **Fine-tuning** is like giving that chef a week of lessons in *your* grandma's
-recipes: afterwards, everything they cook tastes a little like home. You don't teach them to cook from scratch (that would
-take years); you just show them lots of examples of the style you love. For AI, you show it hundreds of examples of the
-answers you want, and it learns to answer that way naturally.
+Fine-tuning trains an existing model further on your own examples so it consistently produces a particular style, format or behavior. It doesn't teach the model everything from scratch; it adjusts how it responds based on hundreds of examples of what you want.
+
+1. **Check whether you need it;** prompting or RAG often solves the problem more easily.
+2. **Prepare high-quality example data,** which matters most.
+3. **Train a LoRA adapter** with a tool like Unsloth or MLX.
+4. **Evaluate honestly** against the base model, then run the result in Ollama.
 
 </details>
 
@@ -21,11 +23,10 @@ answers you want, and it learns to answer that way naturally.
 
 ## 🤔 Do you actually need fine-tuning?
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Most of the time, you don't! Good instructions or giving the AI your documents solves most problems faster and cheaper. Fine-tuning
-is for special cases.
+Most goals don't require fine-tuning. Prompting with examples handles instructions and formats, and RAG handles knowledge. Fine-tuning helps when you need a consistent style, behavior or efficiency at scale. The table matches goals to the best tool.
 
 </details>
 
@@ -46,11 +47,10 @@ is for special cases.
 
 ## 🧩 How fine-tuning works (LoRA in plain English)
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Instead of rewriting the whole giant brain, LoRA adds a tiny "sticky note" layer that nudges its answers. The sticky note is
-small, cheap to train, and you can peel it off or swap it anytime.
+Full fine-tuning updates every parameter and requires substantial hardware. **LoRA** trains a small adapter layer that adjusts the model's behavior instead; it's fast, inexpensive, and can be swapped or removed. QLoRA does the same with a compressed model to save memory.
 
 </details>
 
@@ -71,11 +71,10 @@ The adapter is often only tens of megabytes. You can keep one base model and swa
 
 ## 📚 Step 1: Prepare your data (the part that matters most)
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Gather lots of good examples of questions and the perfect answers. The AI learns from your examples, so messy examples make a
-messy AI.
+Training data is usually a JSONL file of example conversations, one per line. Aim for hundreds of high-quality, consistent examples, remove personal data, and set aside some examples for testing.
 
 </details>
 
@@ -103,11 +102,10 @@ Fine-tuning data is usually **example conversations** in JSONL (one JSON object 
 
 ## 🛠️ Step 2: Pick your tool
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-There are free tools that do the hard parts for you. Some run in your web browser on free computers, some on a Mac, and some
-companies do it all for you online.
+Tools like Unsloth (free on Google Colab), MLX (on Apple Silicon Macs) and hosted services from OpenAI and others handle most of the complexity. The table compares them.
 
 </details>
 
@@ -122,11 +120,14 @@ companies do it all for you online.
 
 ## 🚀 Step 3: Train (a walkthrough)
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Load a base model, show it your examples a few times, and save the little sticky-note adapter. The tools make this a few
-clicks or one command.
+The tabs walk through training on free Colab with Unsloth and on a Mac with MLX.
+
+1. Load a base model.
+2. Train on your examples for a few passes (epochs).
+3. Save the LoRA adapter, or merge it and export the model.
 
 </details>
 
@@ -161,11 +162,14 @@ clicks or one command.
 
 ## 🧪 Step 4: Evaluate honestly
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Test your new model on examples it never saw, and compare it to the original model with a good prompt. Only keep it if it's
-really better.
+Evaluate the result fairly.
+
+1. Run your held-out test examples through both the fine-tuned model and the base model with your best prompt.
+2. Compare the outputs side by side, ideally without knowing which is which.
+3. Keep the fine-tuned model only if it's clearly better.
 
 </details>
 
@@ -179,10 +183,10 @@ If the base model with a good prompt is just as good, **keep the prompt**. Cheap
 
 ## 🦙 Step 5: Run it in Ollama
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Turn your trained model into a file, give Ollama a tiny recipe card, and now you can chat with your custom AI like any other.
+To run your fine-tuned model locally, export it to GGUF format, write a short Ollama Modelfile, and create the model in Ollama. It then works with n8n, Open WebUI and your scripts like any other model.
 
 </details>
 
@@ -202,10 +206,10 @@ Now n8n, Open WebUI and your scripts can all use `cozy-candles` like any other m
 
 ## 🎨 Fine-tuning beyond text
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-You can also teach picture-making AIs your art style or your pet's face, which is one of the most fun kinds of fine-tuning.
+Fine-tuning isn't limited to text. Image LoRAs can teach an image model a specific style, character, product or pet, and voice models can be trained on recordings. The table gives examples.
 
 </details>
 
@@ -222,10 +226,10 @@ You can also teach picture-making AIs your art style or your pet's face, which i
 
 ## 🎮 Fun fine-tuning projects
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Eight fun things to teach an AI.
+The table lists eight fine-tuning projects and how many examples each one needs.
 
 </details>
 

@@ -7,13 +7,15 @@ turns a clever assistant into *your* assistant: it knows your preferences, remem
 over time. This chapter explains the kinds of AI memory, where memory lives today (built-in, files, MCP servers, APIs), the
 design patterns that work, and how to build a simple, trustworthy memory yourself.
 
-<details class="eli5" open>
-<summary>🧸 ELI5: This chapter in 30 seconds</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Every time you start a new chat, the AI wakes up with no idea who you are, like meeting a new friend who forgets you every
-night. **Memory** is a notebook the AI keeps: "Alex likes short answers," "Alex's dog is called Biscuit," "last time we fixed
-the login bug by restarting the server." Before it answers, it peeks in the notebook. After it learns something useful, it
-writes it down. And you can always read the notebook and cross things out.
+Without memory, every new conversation starts from nothing. Memory lets an AI record useful information, such as your preferences, past decisions and lessons learned, and recall it later. You should always be able to see and edit what's stored.
+
+- **Four kinds of memory:** working, semantic (facts), episodic (past events) and procedural (how-to).
+- **Where it lives:** built-in chat memory, files, memory MCP servers or custom databases.
+- **Build your own** with simple remember and recall tools.
+- **Design it well:** summarize, review periodically, expire old information and keep users in control.
 
 </details>
 
@@ -21,11 +23,10 @@ writes it down. And you can always read the notebook and cross things out.
 
 ## 🧩 The four kinds of memory
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Brains have different memories: what you're thinking about right now, facts you know, stories of things that happened, and
-skills like riding a bike. AI memory has the same four kinds.
+AI memory mirrors human memory in four kinds: **working memory** (the current context window), **semantic memory** (facts), **episodic memory** (past events and conversations) and **procedural memory** (skills and instructions). The table gives examples of each.
 
 </details>
 
@@ -48,11 +49,10 @@ flowchart LR
 
 ## 🏠 Where memory lives today
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-AI notebooks live in different places: inside the chat app, in files on your computer, in special memory plug-ins, or in
-databases you build.
+Memory can live in several places: built-in chat memory, files like CLAUDE.md, memory MCP servers shared across apps, or databases in custom agents. The table explains what each suits.
 
 </details>
 
@@ -68,11 +68,14 @@ databases you build.
 
 ## 💬 Built-in memory: use it well
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-The chat apps already have notebooks. You can tell them things to remember, ask what they remember, and delete anything you
-don't want kept.
+To use built-in memory effectively:
+
+1. Tell the assistant explicitly what to remember.
+2. Ask periodically what it remembers about you.
+3. Correct or delete anything inaccurate or unwanted.
 
 </details>
 
@@ -93,10 +96,10 @@ don't want kept.
 
 ## 📄 File-based memory: simple and powerful
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-The simplest AI notebook is a plain text file. Both you and the AI can read it, change it, and keep old versions.
+The simplest memory is a plain text file that both you and the AI can read and edit. Files are transparent, easy to correct and can be version-controlled with Git, which is why coding agents use them.
 
 </details>
 
@@ -120,11 +123,10 @@ memory/
 
 ## 🔌 Memory MCP servers
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Memory plug-ins let every AI app you use share the same notebook, so Claude on your laptop and your coding agent both know the
-same things about you.
+Memory MCP servers let several AI apps share one memory, so your chat assistant and coding agent know the same things about you. The table compares the main options.
 
 </details>
 
@@ -148,10 +150,14 @@ ideas for my sister?"* 🎁
 
 ## 🏗️ Build: remember & recall tools in 40 lines
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-We'll give our homemade agent two new buttons: "write this down" and "look up what I wrote." The notebook is a simple file.
+You can give your own agent memory with two tools.
+
+1. Add a `remember` tool that appends a dated note to a JSON file.
+2. Add a `recall` tool that searches those notes.
+3. Mention both tools in the system prompt so the agent uses them at the right moments.
 
 </details>
 
@@ -194,11 +200,10 @@ and add a `forget(fact)` tool so users stay in control.
 
 ## 🧭 Memory design patterns
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-A few smart habits for AI notebooks: write short summaries instead of copying everything, tidy the notebook now and then,
-throw out old stuff, and let the owner see and change it.
+Effective memory systems store summaries rather than full transcripts, consolidate notes periodically, expire outdated information and let users view and edit everything. The table explains each pattern.
 
 </details>
 
@@ -220,11 +225,10 @@ throw out old stuff, and let the owner see and change it.
 
 ## 🪤 Memory gone wrong (and fixes)
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Notebooks can have wrong or old notes, or secrets that shouldn't be there. Check the notebook, fix mistakes, and keep private
-stuff out.
+Memory problems include outdated or incorrect facts resurfacing, uncomfortably personal recall and sensitive data stored by accident. Review stored memories regularly, date entries and keep secrets out. The table lists fixes.
 
 </details>
 
@@ -244,10 +248,10 @@ stuff out.
 
 ## 🎮 Memory projects
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Fun things you can build once your AI can remember.
+The table suggests memory-powered projects, each labeled with the kind of memory it uses.
 
 </details>
 

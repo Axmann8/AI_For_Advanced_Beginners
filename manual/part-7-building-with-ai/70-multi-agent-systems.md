@@ -6,13 +6,14 @@
 sources, big codebases, content pipelines, and "build it and then check it" loops. This chapter explains when multi-agent
 setups are worth it, the six core patterns, and how to try them today without drowning in complexity. 🏊
 
-<details class="eli5" open>
-<summary>🧸 ELI5: This chapter in 30 seconds</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Imagine building a huge sandcastle. One kid can do it, but it takes forever. With a team, one kid digs the moat, one builds
-towers, one decorates, and a "boss kid" checks everyone's work and puts it all together. **Multi-agent systems** are teams
-of AI helpers like that. They're great for big jobs, but teams also cost more and can get messy, so you only form a team
-when one helper really isn't enough.
+A multi-agent system divides a large task among several AI agents, each with a focused role, often coordinated by a lead agent. It can improve results on complex work, but it costs more and adds complexity, so use it only when a single agent genuinely falls short.
+
+- **Benefits:** focused context, parallel work and agents that check each other.
+- **Six common patterns:** orchestrator-workers, pipeline, builder-critic, debate, handoffs and best-of-N.
+- **Start with one agent,** split only where you see a specific failure, and set clear limits.
 
 </details>
 
@@ -20,11 +21,10 @@ when one helper really isn't enough.
 
 ## 🤔 Why multiple agents?
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Teams help because each helper can focus on one job, several helpers can work at the same time, and one helper can check
-another's work.
+Multiple agents help in three main ways: each keeps a focused context, several can work in parallel, and one can review another's output. The table explains each benefit.
 
 </details>
 
@@ -43,10 +43,10 @@ another's work.
 
 ## 🎯 Pattern 1: Orchestrator → workers
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-A boss helper splits the big job into pieces, sends each piece to a worker helper, then combines their answers into one.
+In the orchestrator-workers pattern, a lead agent breaks the task into parts, assigns them to worker agents (often in parallel) and combines their summaries. This is how most deep research features work.
 
 </details>
 
@@ -68,10 +68,10 @@ The lead agent breaks the task down, spawns workers (often **in parallel**), and
 
 ## 🏭 Pattern 2: Pipeline (assembly line)
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Like a factory line: the first helper does step one and passes it on, the next does step two, and so on.
+In a pipeline, each agent performs one stage and passes its output to the next. Pipelines are predictable and easy to debug, and many are better built as ordinary workflows in n8n or Make with AI at specific steps.
 
 </details>
 
@@ -85,10 +85,10 @@ Each agent transforms the previous one's output. Predictable and easy to debug. 
 
 ## 🔁 Pattern 3: Builder ↔ critic loop
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-One helper makes something, another helper grades it and gives tips, and they go back and forth until it's good enough.
+In the builder-critic pattern, one agent produces work and another evaluates it against explicit criteria. They repeat until the work passes, with a maximum number of rounds to prevent endless loops.
 
 </details>
 
@@ -104,11 +104,10 @@ limit!). Great for writing quality, code review, and "keep going until the tests
 
 ## ⚖️ Pattern 4: Debate & ensemble
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Several helpers answer the same question separately, then a judge helper compares their answers and picks the best (or
-combines them).
+In the debate or ensemble pattern, several agents or models answer independently and a judge selects or combines the best answer. It's useful for high-stakes decisions and for catching hallucinations.
 
 </details>
 
@@ -117,10 +116,10 @@ and for catching hallucinations: if three independent answers disagree, that's a
 
 ## 📞 Pattern 5: Handoffs (routing)
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-A receptionist helper figures out what you need and passes you to the right specialist helper.
+In the handoff pattern, a front-desk agent routes each request to the right specialist, such as billing, technical support or sales. It's common in customer service and built into several frameworks.
 
 </details>
 
@@ -129,10 +128,10 @@ and a built-in feature of the OpenAI Agents SDK and similar frameworks.
 
 ## 🧑‍🤝‍🧑 Pattern 6: Parallel variants ("best of N")
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Ask several helpers to try the same job in different ways at the same time, then keep the best attempt.
+In the best-of-N pattern, the same task runs several times in parallel with different prompts, models or approaches, and you keep the best result. Coding tools make this easy with parallel sessions.
 
 </details>
 
@@ -142,10 +141,10 @@ once. Costs more, but for creative and hard problems it can be dramatically bett
 
 ## 🧪 Try it today (easiest → hardest)
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-You can try AI teams right now without coding, then level up to building your own.
+You can try multi-agent systems without code through deep research features and Claude Code subagents, then progress to building your own with n8n or an agent framework. The table orders the options from easiest to most advanced.
 
 </details>
 
@@ -161,11 +160,10 @@ You can try AI teams right now without coding, then level up to building your ow
 
 ## 🎬 Example: a content studio crew
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Four helpers make a blog post together: one finds facts, one writes, one checks the facts, and one makes social media posts
-about it.
+This example uses four agents to produce a blog post: a researcher gathers sources, a writer drafts, a fact-checker verifies claims and a social media agent writes promotional posts. The table shows each agent's tools and instructions.
 
 </details>
 
@@ -188,10 +186,10 @@ Social.
 
 ## 💻 Example: a coding team in Claude Code
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-In Claude Code, you can have a planner, a builder, a tester and a reviewer, all as helpers the main Claude calls on.
+In Claude Code, you can define subagents for exploring, planning, testing and reviewing, and the main session delegates to them as needed.
 
 </details>
 
@@ -210,11 +208,15 @@ tests and the code-reviewer review the diff. Fix anything it flags."*
 
 ## 🧩 Design tips
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Start with one helper, give each helper a clear job and a clear way to report back, keep reports short, and put limits on
-everything.
+Follow these design principles:
+
+1. Start with one agent, and split only where you see a specific failure.
+2. Give each agent a clear role and a defined output format.
+3. Keep reports between agents short.
+4. Set limits on rounds, steps and cost.
 
 </details>
 
@@ -229,11 +231,10 @@ everything.
 
 ## 🐛 Failure modes & fixes
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-AI teams can go wrong in funny ways: two helpers doing the same job, helpers chatting forever, or the boss misunderstanding the
-reports. Here's how to spot and fix each.
+Multi-agent systems have characteristic failure modes, such as duplicated work, endless back-and-forth and lost information between agents. The table describes how each looks and how to fix it.
 
 </details>
 
@@ -248,10 +249,10 @@ reports. Here's how to spot and fix each.
 
 ## 💬 The honest truth
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-A lot of fancy "AI teams" are really just a well-planned list of steps with AI doing the tricky ones, and that's totally fine!
+Many effective "multi-agent systems" are actually well-designed workflows: fixed steps with AI handling the parts that need judgment. That approach is often cheaper and more reliable.
 
 </details>
 

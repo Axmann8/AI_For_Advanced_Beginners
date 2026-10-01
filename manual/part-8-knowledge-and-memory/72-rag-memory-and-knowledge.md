@@ -7,13 +7,15 @@ is the map of every way to fix that, from "drag a file into the chat" to "build 
 the six rungs of the knowledge ladder, how RAG really works in plain English, how AI memory works (and how to control it),
 and exactly which approach to pick for your situation. 🪜
 
-<details class="eli5" open>
-<summary>🧸 ELI5: This chapter in 30 seconds</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-An AI is like a super-smart new friend who has read every library book in the world, but has never seen **your** diary,
-**your** school notes, or **your** family recipe box. There are two ways to help: give it a **library card** to look things
-up in your stuff when it needs to (that's called **RAG**), and give it a **notebook** where it writes down things about you
-so it remembers next time (that's **memory**).
+AI models know a great deal about the world but nothing about your own documents, work or history. There are two main ways to fix that: **retrieval-augmented generation (RAG)**, which lets the AI search your documents when it needs information, and **memory**, which lets it record facts about you for future conversations.
+
+- **The knowledge ladder** runs from simply pasting documents in, to building your own RAG system.
+- **Large context windows** make pasting enough for many tasks.
+- **RAG** retrieves only the relevant passages from large collections.
+- **Memory** stores your preferences and context, and you control what's kept.
 
 </details>
 
@@ -21,11 +23,10 @@ so it remembers next time (that's **memory**).
 
 ## 🪜 The knowledge ladder
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-There are six ways to teach AI your stuff, from super easy (just show it a file) to "build your own robot librarian." Most
-people only ever need the easy ones.
+There are six ways to give AI your knowledge, from pasting files into a chat to building a custom RAG system. Most people only need the simpler options. The table compares effort and best uses.
 
 </details>
 
@@ -45,11 +46,10 @@ people only ever need the easy ones.
 
 ## 📏 Context windows: the "just paste it" superpower
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-The AI's "desk" is now so big it can hold whole books at once. So for a few documents, you don't need anything fancy: just
-put them all on the desk.
+Modern context windows can hold entire books, so for a handful of documents you can often paste or upload everything directly, with no special setup.
 
 </details>
 
@@ -68,11 +68,10 @@ huge context. When a context is stuffed with irrelevant material, answers get wo
 
 ## 🔍 How RAG actually works (in 60 seconds)
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-First, you cut your documents into small cards and file them by what they're about. When someone asks a question, a robot
-librarian finds the few cards that match best and hands them to the AI, which answers using only those cards.
+RAG has two phases. **Indexing:** documents are split into chunks, converted into embeddings and stored in a vector database. **Retrieval:** when a question arrives, the system finds the most relevant chunks and gives them to the model, which answers based on them.
 
 </details>
 
@@ -103,11 +102,10 @@ close. 🚗
 
 ## 🧬 RAG flavors: from simple to agentic
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Some robot librarians fetch cards once. Fancier ones search with both keywords and meaning, double-check which cards are best,
-or keep searching again and again until they're sure.
+RAG comes in several forms, from basic similarity search to hybrid search (keywords plus meaning), reranking for better precision, and agentic RAG, where the model searches repeatedly until it has enough information. The table explains when to use each.
 
 </details>
 
@@ -126,11 +124,10 @@ Coding agents like Claude Code are a great example of **agentic retrieval**: the
 
 ## 🧠 Memory: making AI remember *you*
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Memory is the AI's notebook about you: your name, what you like, what you're working on. You can read the notebook, fix
-mistakes in it, or tear pages out.
+Memory stores facts about you, such as preferences and current projects, for use in later conversations. Claude, ChatGPT and Gemini all offer built-in memory you can view, edit and delete. The table compares memory types and controls.
 
 </details>
 
@@ -148,10 +145,10 @@ mistakes in it, or tear pages out.
 
 ## 🧭 Which approach should you use?
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Answer a few questions and follow the arrows to the right tool for your situation.
+Use the flowchart and table to choose the right approach for your situation, from studying a few PDFs to searching a large company knowledge base.
 
 </details>
 
@@ -175,11 +172,10 @@ flowchart TD
 
 ## 🔐 Privacy & knowledge
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-When you give AI your documents, think about who else could see them. For very private stuff, keep everything on your own
-computer.
+Uploaded documents are subject to your plan's data policy. Check where your files go, use work plans with stronger protections for business data, and keep highly sensitive documents on local models.
 
 </details>
 
@@ -194,10 +190,10 @@ computer.
 
 ## 🎮 Fun projects
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Eight fun ways to make AI know your stuff.
+The table lists eight projects for giving AI your knowledge, each labeled with the ladder rung it uses.
 
 </details>
 

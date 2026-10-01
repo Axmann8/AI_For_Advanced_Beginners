@@ -6,12 +6,15 @@
 output and human approvals. This chapter is your deep dive: how each piece works, how to design reliable agents, and how to
 build a personal assistant bot you can text from your phone.
 
-<details class="eli5" open>
-<summary>🧸 ELI5: This chapter in 30 seconds</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-A normal n8n recipe follows fixed steps. An **AI Agent brick** is a little brain inside the recipe that decides for itself
-which tools to use, like a helper you can text: "What's on tomorrow, and add 'buy a birthday card' before my 3pm meeting."
-It checks your calendar, adds the task and texts you back. You give it a brain (model), a memory and a toolbox.
+A standard n8n workflow follows fixed steps. The **AI Agent node** adds a model that decides which tools to use, so a single workflow can handle requests like *"What's on tomorrow? Add a reminder before my 3 p.m. meeting."* You give the agent a model, memory and a set of tools.
+
+- **Configure the agent:** choose a model, add memory and connect tools.
+- **Write a clear system message** describing its role, tools and rules.
+- **Extend it** with structured output, RAG, MCP and human approval steps.
+- **Build a working assistant** on Telegram, then learn multi-agent patterns and cost controls.
 
 </details>
 
@@ -19,11 +22,10 @@ It checks your calendar, adds the task and texts you back. You give it a brain (
 
 ## 🧩 Anatomy of the AI Agent node
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-The agent brick has plug-in slots: one for the brain, one for memory, many for tools, and one for a "fill in this form"
-output helper.
+The AI Agent node has slots for a chat model, a memory, any number of tools and an optional output parser. It runs the standard agent loop, deciding which tool to call at each step.
 
 </details>
 
@@ -47,11 +49,10 @@ agent think. 🔍
 
 ## 🧠 Choosing the chat model
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Pick a smart brain for the agent that makes decisions, and cheaper, faster brains for simple jobs like sorting. You can even
-use a free brain running on your own computer.
+Use a capable model, such as Claude, for agents that make decisions and call tools, and cheaper, faster models for simple classification. Local models through Ollama also work for private or zero-cost setups. The table compares the options.
 
 </details>
 
@@ -67,11 +68,10 @@ classify, summarize and extract. Test the same workflow with two models, because
 
 ## 🗂️ Memory: remembering the conversation
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Memory lets the agent remember what you said earlier in the chat. Each person gets their own memory box, labeled with their
-chat ID, so conversations don't get mixed up.
+Memory lets the agent remember earlier messages in a conversation. Use a session key, such as the chat ID, so each user's conversation stays separate. Simple Memory works for testing; use Postgres or Redis for anything persistent.
 
 </details>
 
@@ -87,11 +87,10 @@ are sent each time: more means better recall but more tokens.
 
 ## 🔧 Tools: what the agent can do
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Tools are the agent's hands. Almost any n8n brick can become a tool, and you can even hand the agent a whole other recipe as
-one big tool.
+Tools are the actions an agent can take. Almost any n8n app node can be used as a tool, along with the HTTP Request tool for any API, Code tools for custom logic, and whole sub-workflows. The table lists each type.
 
 </details>
 
@@ -115,11 +114,15 @@ expressions and "let the model define this parameter" options), with a descripti
 
 ## 📝 Writing the system message
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-The system message is the agent's job description: who it is, who it helps, which tools to use when, and what it must
-always ask permission for.
+The system message is the agent's job description. A strong one covers:
+
+1. **Role:** who the agent is and who it serves.
+2. **Tools:** which tool to use for which kind of request.
+3. **Rules:** what requires confirmation and what it must never do.
+4. **Style:** tone and response length.
 
 </details>
 
@@ -146,11 +149,10 @@ Note the **date injection**: agents don't know today's date unless you tell them
 
 ## 🧾 Structured output & AI helper nodes
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-When the next brick needs neat, labeled answers, attach a "fill in this form" helper. n8n also has ready-made AI bricks for
-common jobs like sorting text into categories.
+Attach a **Structured Output Parser** when the next node needs data in a fixed JSON format. n8n also offers specialized AI nodes for common tasks, such as extracting information, classifying text and analyzing sentiment.
 
 </details>
 
@@ -164,11 +166,13 @@ These specialized nodes are often **more reliable and cheaper** than a general a
 
 ## 📚 RAG inside n8n
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-RAG lets your agent look things up in your own documents before answering. In n8n you build one recipe to put documents in
-a library, and another where the agent reads from it.
+RAG lets your agent search your own documents before answering. In n8n it takes two workflows:
+
+1. **Ingest:** load documents, split them into chunks, create embeddings and store them in a vector database.
+2. **Query:** give the agent a vector store tool so it can retrieve relevant chunks when answering.
 
 </details>
 
@@ -192,11 +196,10 @@ Concepts explained in [RAG, Memory & Knowledge](../part-8-knowledge-and-memory/7
 
 ## 🔌 n8n ❤️ MCP (both directions)
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-n8n can *use* other MCP doors (so your agent gets GitHub, Notion…), and it can *become* an MCP door (so Claude can press
-your n8n recipes like buttons).
+n8n works with MCP in both directions. The **MCP Client Tool** lets your n8n agents use any MCP server, and the **MCP Server Trigger** exposes your n8n workflows as tools that Claude and other AI apps can call.
 
 </details>
 
@@ -211,10 +214,10 @@ phone: *"Log $14 lunch with Sam, category Meals."* 📱➡️📊
 
 ## 🧑‍⚖️ Humans in the loop
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-For important actions, the robot pauses and asks you "Should I?" on Slack, email or Telegram, and waits for your yes or no.
+For important actions, add a human approval step. Send-and-wait nodes for Slack, Gmail, Telegram and other apps pause the workflow until you approve, reject or reply. A common pattern is: agent drafts, you approve, workflow acts.
 
 </details>
 
@@ -225,11 +228,10 @@ For important actions, the robot pauses and asks you "Should I?" on Slack, email
 
 ## 🛡️ Guardrails & evaluations
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Guardrails are safety rails that check what goes in and out of the AI. Evaluations are practice tests that tell you whether
-your agent is getting better or worse when you change it.
+Validate AI outputs before acting on them, using IF or Code nodes, and use guardrail nodes to screen inputs and outputs. n8n's evaluation features let you test an agent against sample cases, so you can tell whether a change improved or worsened it.
 
 </details>
 
@@ -242,11 +244,15 @@ your agent is getting better or worse when you change it.
 
 ## 🏗️ Build: a personal assistant on Telegram (30 min)
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-We'll build a helper you can text from your phone. It can check your calendar, add tasks and look things up. It's like
-having your own mini-assistant in your pocket.
+This build creates a personal assistant you can message from your phone.
+
+1. Create a Telegram bot with @BotFather and copy its token.
+2. Add a **Telegram Trigger** and an **AI Agent** node with a model and memory.
+3. Connect calendar, task and search tools, and write the system message.
+4. Send the agent's reply back through Telegram, and test it from your phone.
 
 </details>
 
@@ -266,10 +272,10 @@ The full, polished version (voice notes, daily briefings, long-term memory) is
 
 ## 👥 Multi-agent patterns in n8n
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-You can have a boss agent that hands jobs to specialist helper agents, each living in its own recipe.
+For complex systems, use an orchestrator agent whose tools are sub-workflows, each containing a specialist agent for research, writing or scheduling. Each specialist stays focused and can be tested on its own.
 
 </details>
 
@@ -281,11 +287,10 @@ You can have a boss agent that hands jobs to specialist helper agents, each livi
 
 ## 💸 Cost & performance tips
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Agents can get chatty and expensive. Give them fewer tools, shorter memories and cheaper brains for easy jobs, and filter
-out stuff that doesn't need AI at all.
+Agents can become expensive because each step calls the model. Filter out irrelevant items before the AI step, keep memory windows short, use cheaper models for simple tasks, and give each agent only the tools it needs.
 
 </details>
 

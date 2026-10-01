@@ -7,12 +7,15 @@ and people with zero programming background are shipping useful apps with it eve
 fuzzy idea to **a live app on the internet with logins and a database**, and shows you how to avoid the traps that stall
 most first-timers. Let's make something! 🛠️
 
-<details class="eli5" open>
-<summary>🧸 ELI5: This chapter in 30 seconds</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-You tell the AI "I want an app where my family can share wish lists," and it builds it. You click around, say "make that
-button bigger" or "it breaks when I do this," and it fixes things. Keep going until it's good, then put it on the internet
-and send the link to your family. You're the director, the AI is the film crew. 🎬
+"Vibe coding" means building software by describing what you want and refining it through conversation with an AI, rather than writing code yourself. This chapter takes you from an idea to a working, deployed app.
+
+1. **Pick a small, real idea** and write a short spec.
+2. **Build version 1** with a browser builder or a coding agent.
+3. **Improve it in small steps,** one change at a time, debugging calmly when things break.
+4. **Deploy it, secure it** and share it with real users.
 
 </details>
 
@@ -27,11 +30,10 @@ and send the link to your family. You're the director, the AI is the film crew. 
 
 ## 🧰 The vibe coding stack
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-An app has a few layers: the part you see (frontend), the part that remembers things (database), the part that knows who you
-are (login), and the place it lives on the internet (hosting). There are friendly, free tools for every layer.
+A typical app has a few layers: the builder where you work with AI, the frontend people see, a database, authentication (logins) and hosting. The table lists beginner-friendly tools for each layer, most with free tiers.
 
 </details>
 
@@ -55,11 +57,10 @@ flowchart LR
 
 ## 💡 Step 1: Pick a small, real idea
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Start with a tiny app that solves one real problem for you or someone you know. Small and finished beats big and forever
-half-done.
+The best first app solves one specific problem for you or someone you know, and you should be able to describe it in three sentences. The table lists good first-app ideas and why each works.
 
 </details>
 
@@ -84,11 +85,15 @@ sentences.**
 
 ## 📝 Step 2: Write a mini spec (5 minutes)
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Before building, write a short "what I want" note: who uses it, what screens it has, how it should look, and what's NOT in
-the first version. Clear wishes, better app.
+A short written spec dramatically improves what the AI builds.
+
+1. Describe who will use the app and what problem it solves.
+2. List the screens and main actions.
+3. Describe the look and feel.
+4. List what's *not* in version 1.
 
 </details>
 
@@ -119,11 +124,10 @@ Payments, notifications, multiple groups.
 
 ## 🏗️ Step 3: Build v1 (two paths)
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-You can build in your web browser with a "describe it" tool (fastest), or on your own computer with Claude Code or Cursor
-(more control, and you learn more). Both work!
+You can build in two ways. **Browser builders** (Lovable, Bolt, v0, Replit) are fastest and need no setup. **Local tools** (Claude Code, Cursor) give you more control and teach you more. The tabs below walk through each path.
 
 </details>
 
@@ -160,10 +164,10 @@ You can build in your web browser with a "describe it" tool (fastest), or on you
 
 ## 🔁 Step 4: The iteration loop
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Try the app, notice one thing to improve, ask for that one change, and try again. Round and round, one small step at a time.
+Improve the app in a simple loop: use it, identify one thing to change, ask for that single change, and test again. Make one change at a time, and describe what you see rather than how to fix it.
 
 </details>
 
@@ -184,11 +188,14 @@ flowchart LR
 
 ## 🐛 Debugging without panic
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-When something breaks, don't guess. Copy the exact error message and show it to the AI, tell it what you clicked, and ask it
-to explain the problem before fixing it.
+When something breaks, give the AI precise information.
+
+1. Copy the exact error message (from the browser console or terminal).
+2. Describe what you did just before it happened.
+3. Ask the AI to explain the cause before it changes anything.
 
 </details>
 
@@ -207,11 +214,10 @@ to explain the problem before fixing it.
 
 ## 🎨 Making it beautiful
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Show the AI pictures of apps you think look nice, pick a color palette and a font, and ask it to make everything match. Pretty
-apps get used more!
+To improve the design, share screenshots of apps you admire, describe the feel you want in a few words, choose a color palette and font, and ask the AI to apply them consistently.
 
 </details>
 
@@ -226,10 +232,10 @@ More in [Design & UI with AI](../part-10-creative-ai/90-design-and-ui.md).
 
 ## 🚀 Step 5: Ship it
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Put your app on the internet so anyone with the link can use it, then send the link to a real person and ask what they think.
+Deploying makes your app available to anyone with the link. Browser builders deploy with one click; local projects deploy by pushing to GitHub and connecting Vercel or Netlify. Then share it with a real user and ask for feedback.
 
 </details>
 
@@ -243,11 +249,14 @@ Then: add a custom domain (optional), send it to a friend, and **collect feedbac
 
 ## 🔐 Step 6: Don't skip the safety basics
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-AI-built apps can have hidden doors that let the wrong people see private data. Before real people use it, ask the AI to
-check all the locks, and turn on the database's "only see your own stuff" rules.
+AI-generated apps can contain security gaps. Before real users arrive:
+
+1. Ask the AI for a full security review (see the prompt below).
+2. Turn on database row-level security so users see only their own data.
+3. Confirm that no API keys are exposed in the frontend code.
 
 </details>
 
@@ -270,10 +279,10 @@ AI-built apps can have security holes. Before real users arrive:
 
 ## ✨ Adding AI features to your app
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Once your app works, you can give it a little AI brain: suggestions, smart search, auto-sorting, or understanding photos.
+Once the core app works, you can add AI features such as smart suggestions, natural-language search, automatic categorization and photo understanding. The table gives examples.
 
 </details>
 
@@ -291,11 +300,10 @@ code. The pattern is in [Calling AI APIs Directly](67-calling-ai-apis.md).
 
 ## 🧗 Growing past v1
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-When your app gets bigger, keep it tidy: add tests so old features don't break, clean up messy code, and write down how
-everything works.
+As your app grows, keep it maintainable: add tests for features that work, schedule regular cleanup (refactoring) sessions, and keep documentation of how it works.
 
 </details>
 
@@ -307,10 +315,10 @@ everything works.
 
 ## 🪤 Common beginner traps (and the fix)
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Everyone falls into these holes. Here's how to climb out quickly.
+The table lists the most common beginner traps, such as an app growing into a tangled mess or fixes that create new bugs, with a fix for each.
 
 </details>
 
@@ -326,10 +334,10 @@ Everyone falls into these holes. Here's how to climb out quickly.
 
 ## 🗓️ A weekend plan
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Here's how to go from idea to a real app your friends use in a single weekend.
+This plan takes you from idea to a working app in a single weekend.
 
 </details>
 

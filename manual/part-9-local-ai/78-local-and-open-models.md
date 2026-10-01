@@ -7,13 +7,15 @@ have improved at a startling pace, and a mid-range computer now runs assistants 
 magic a couple of years ago. This chapter explains why you'd go local, the tools, the model families, what your computer can
 handle, the jargon (quantization, MoE, GGUF), and a pile of fun projects. It's one of the most *fun* rabbit holes in AI. 🐇
 
-<details class="eli5" open>
-<summary>🧸 ELI5: This chapter in 30 seconds</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Most AI lives in giant computers far away, and you "call" it over the internet. But smaller AI brains can now live **right
-on your own computer**, like having a pet robot at home instead of phoning one. It works with the Wi-Fi off, nobody else sees
-what you ask it, and it's free to use as much as you like. It's not quite as clever as the giant ones, but it's clever
-enough for loads of everyday jobs.
+Most AI runs on remote servers, but smaller open models can now run directly on your computer. Local AI keeps your data private, works offline and costs nothing per use. It's less capable than the largest cloud models but more than sufficient for many everyday tasks.
+
+1. **Install Ollama or LM Studio** and download a model.
+2. **Check what your computer can run** based on its memory.
+3. **Connect local models** to your other apps through their OpenAI-compatible API.
+4. **Use open models in the cloud** when your hardware isn't enough.
 
 </details>
 
@@ -21,11 +23,10 @@ enough for loads of everyday jobs.
 
 ## 🤔 Why go local?
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Local AI is great for secrets, for places without internet, and for doing the same job thousands of times for free. For the
-very hardest problems, the big online AIs are still smarter.
+Local AI is ideal for private data, offline use and high-volume repetitive tasks at no cost. Cloud models remain stronger for the most difficult reasoning and large coding tasks. The table compares strengths and weaknesses.
 
 </details>
 
@@ -45,10 +46,14 @@ very hardest problems, the big online AIs are still smarter.
 
 ## 🚀 Your first local model in 5 minutes
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Install one free app, type one command, and you're chatting with an AI that lives on your computer.
+You can run your first local model in about five minutes.
+
+1. Install Ollama (terminal) or LM Studio (desktop app).
+2. Download a model that fits your computer's memory.
+3. Start chatting, entirely offline.
 
 </details>
 
@@ -79,11 +84,10 @@ Ask it something, then **turn off your Wi-Fi and ask again**. It still works. �
 
 ## 🧰 The toolkit
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-There are free apps for running local AI: some are for the terminal, some are pretty desktop apps, and some make your own
-private ChatGPT-style website.
+Several free tools run local models: Ollama for the command line, LM Studio and Jan for desktop apps, and Open WebUI for a ChatGPT-style web interface. The table compares them.
 
 </details>
 
@@ -100,11 +104,10 @@ private ChatGPT-style website.
 
 ## 🌍 Open model families to know
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Different companies share AI brains for anyone to download. Each family has different strengths, and new versions come out
-all the time.
+Several companies publish open models you can download, including Google (Gemma), Alibaba (Qwen), Meta (Llama), Mistral, DeepSeek and OpenAI (gpt-oss). Each family has different strengths, and new versions are released frequently.
 
 </details>
 
@@ -128,11 +131,10 @@ all the time.
 
 ## 💻 What can my computer run?
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Bigger AI brains need more memory. A normal laptop runs small brains well. A computer with lots of memory or a gaming graphics
-card runs bigger, smarter ones.
+A model needs roughly its file size in memory (RAM on a Mac, VRAM on a graphics card), plus some extra for the conversation. Most laptops run small models well; computers with large memory or powerful GPUs can run larger, more capable ones. The table gives guidance by hardware.
 
 </details>
 
@@ -150,11 +152,10 @@ Buying guide in [Hardware for Local AI](79-hardware-for-local-ai.md).
 
 ## 📖 Local AI jargon, decoded
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-A few funny words you'll see everywhere: "quantized" means squished to fit, "MoE" means a team of mini-experts where only a few
-work at a time, and "GGUF" is just the file type.
+Local AI comes with its own terms: **parameters** (model size, such as 7B), **quantization** (compressing a model to use less memory), **GGUF** (a common file format) and **MoE** (mixture of experts, where only part of the model is active at once). The table defines more.
 
 </details>
 
@@ -172,11 +173,10 @@ work at a time, and "GGUF" is just the file type.
 
 ## 🔌 Using local models from other apps
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Your local AI can be plugged into other apps, like your note-taking app, your automations or your code editor, so they use
-your home robot instead of an online one.
+Ollama and LM Studio provide an OpenAI-compatible API on your computer, so most tools that work with OpenAI, including note apps, automations and code editors, can use your local model instead.
 
 </details>
 
@@ -205,10 +205,10 @@ print(reply.choices[0].message.content)
 
 ## 🔀 Open models in the cloud
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-You can also use these open AI brains on fast online computers, which is handy if your own computer is too small.
+If your computer can't run the model you want, cloud providers like OpenRouter, Groq and Together host open models with fast, inexpensive access.
 
 </details>
 
@@ -221,10 +221,10 @@ Handy for trying a big model before buying hardware for it. (Remember: cloud mea
 
 ## 🎮 Fun local projects
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Ten fun things to do with an AI that lives on your own computer.
+The table lists ten projects where running AI locally offers a clear advantage, such as analyzing a private journal.
 
 </details>
 

@@ -6,12 +6,14 @@
 giant app catalogs. This chapter walks through real builds in both, including Zapier Agents, Zapier MCP and Make's visual
 power features, and ends with a clear "which one when" guide.
 
-<details class="eli5" open>
-<summary>🧸 ELI5: This chapter in 30 seconds</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Zapier and Make are robot-recipe kitchens you use in your web browser. **Zapier** is like a simple recipe card: step 1, step
-2, step 3. **Make** is like drawing a map with bubbles and arrows, so recipes can split and loop. Both can add AI to any
-step, and Zapier can even hand your AI chat a remote control for thousands of apps.
+Zapier and Make are browser-based automation platforms. **Zapier** builds workflows as a simple sequence of steps; **Make** uses a visual map that can branch and loop. Both support AI in any step.
+
+- **Zapier:** five-minute setup, the largest app catalog, AI Agents and Zapier MCP.
+- **Make:** visual scenarios for complex branching, iteration and data handling.
+- **Five walkthroughs** cover a lead responder, MCP, an agent, a content repurposer and an invoice extractor.
 
 </details>
 
@@ -19,11 +21,10 @@ step, and Zapier can even hand your AI chat a remote control for thousands of ap
 
 ## 🟠 Zapier concepts in 2 minutes
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-A "Zap" is one robot recipe. Every step that does something counts as a "task," which is how Zapier charges. You can add
-filters, branches, AI steps, and even AI teammates called Agents.
+In Zapier, a **Zap** is one automation: a trigger plus one or more actions. Each successful action counts as a **task**, which is how Zapier bills. Zaps can include filters, paths (branches), AI steps and Agents. The table defines each term.
 
 </details>
 
@@ -42,11 +43,15 @@ filters, branches, AI steps, and even AI teammates called Agents.
 
 ## 🧲 Walkthrough 1: AI lead responder (15 min)
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-When someone fills in your website form, the robot writes them a warm, personal reply draft and logs them in a spreadsheet.
-You just review and send.
+This Zap drafts a personalized reply to each new form submission and logs the lead.
+
+1. **Trigger:** a new response in Typeform, Google Forms or Tally.
+2. **AI step:** draft a warm, personalized reply using the prompt below.
+3. **Gmail:** create a draft for you to review.
+4. **Google Sheets:** log the lead.
 
 </details>
 
@@ -65,11 +70,14 @@ You just review and send.
 
 ## 🔌 Walkthrough 2: Zapier MCP (one URL, thousands of apps)
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-You make a special web address that gives your AI chat a remote control for your apps. You pick which buttons are on the
-remote, like "send Slack message" or "create Trello card."
+Zapier MCP gives your AI assistant access to actions across thousands of apps through a single URL, limited to the actions you choose.
+
+1. Go to zapier.com/mcp and create a server.
+2. Add only the actions you want the AI to use.
+3. Copy the server URL into your AI app's connector settings and test it.
 
 </details>
 
@@ -84,11 +92,14 @@ fastest ways to give AI "hands" across thousands of apps ([MCP Explained](../par
 
 ## 🕵️ Walkthrough 3: a Zapier Agent
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-An Agent is an AI teammate that wakes up on a schedule, does research, uses your apps and emails you what it found, all by
-itself.
+A Zapier Agent is an AI teammate that runs on a schedule or trigger, researches, uses your connected apps and reports back.
+
+1. Open **Zapier Agents** and create a new agent.
+2. Write instructions describing the task and schedule, as in the example below.
+3. Connect the apps it needs, test it, then turn it on.
 
 </details>
 
@@ -100,11 +111,10 @@ itself.
 
 ## 💡 Zapier tips
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Put filters early so you don't pay for useless steps, use the free text-fixing steps instead of AI when you can, and ask
-for approval before anything important.
+Place filters early to stop irrelevant items before costly steps, use Formatter instead of AI for simple text cleanup, and add an approval step before anything important is sent.
 
 </details>
 
@@ -116,11 +126,10 @@ for approval before anything important.
 
 ## 🟦 Make concepts in 2 minutes
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-In Make, your robot recipe is a map of bubbles. Each bubble is a step. You can split the path with a router, loop over lists
-with an iterator, and glue results back together with an aggregator.
+In Make, a **scenario** is an automation made of **modules** on a visual canvas. **Routers** split the flow, **iterators** process lists item by item, and **aggregators** combine results. The table defines each term.
 
 </details>
 
@@ -136,11 +145,15 @@ with an iterator, and glue results back together with an aggregator.
 
 ## 📣 Walkthrough 4: social media repurposer (30 min)
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-When you publish a new blog post, the robot reads it, writes posts for X, LinkedIn and your newsletter, and sends each to the
-right place for you to review.
+This scenario turns each new blog post into social and newsletter drafts.
+
+1. Watch your blog's RSS feed for new posts.
+2. Fetch the full article and convert it to plain text.
+3. Ask Claude to write versions for each channel, returned as JSON.
+4. Route each version to its destination as a draft for review.
 
 </details>
 
@@ -167,11 +180,14 @@ flowchart LR
 
 ## 🧾 Walkthrough 5: invoice extractor
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-When an invoice email arrives, the robot reads the attached PDF, pulls out the important numbers, adds them to a
-spreadsheet and puts the due date in your calendar.
+This scenario turns invoice emails into spreadsheet rows and calendar reminders.
+
+1. Watch Gmail for emails with attachments and "invoice" in the subject.
+2. Send each attachment to Claude or Gemini to extract the vendor, amount and due date.
+3. Add a row to your spreadsheet and a reminder to your calendar.
 
 </details>
 
@@ -183,11 +199,10 @@ spreadsheet and puts the due date in your calendar.
 
 ## 🔧 Make tips
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Add safety nets to bubbles that might fail, remember what you already processed so nothing happens twice, and let your AI
-chat start scenarios for you.
+Add error handlers to modules that might fail, use data stores to track what you've already processed (so nothing runs twice), and use scenario inputs so your AI assistant can start scenarios on demand.
 
 </details>
 
@@ -198,10 +213,10 @@ chat start scenarios for you.
 
 ## ⚖️ Zapier vs. Make vs. n8n: when to use which
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Zapier = easiest. Make = best for complicated maps. n8n = free, private and super powerful. Lots of people use two of them.
+Choose Zapier for speed and the widest app support, Make for complex visual logic, and n8n for self-hosting, privacy and advanced AI agents. Many people use two of them. The table matches common situations to the best choice.
 
 </details>
 

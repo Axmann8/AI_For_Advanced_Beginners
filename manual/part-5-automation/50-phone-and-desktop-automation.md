@@ -6,12 +6,15 @@
 location or a keyboard shortcut, you can send AI your thoughts, photos, clipboard or screen and get something useful back
 instantly. This chapter covers Apple Shortcuts (with iOS 26's built-in AI models), Android, Mac, Windows and Linux.
 
-<details class="eli5" open>
-<summary>🧸 ELI5: This chapter in 30 seconds</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Your phone and computer can have **magic buttons**. Press one, or say a phrase, and a little robot recipe runs: it listens to
-your idea, asks an AI to tidy it up, and puts it in your notes. Or it reads a receipt photo and logs it. Or it turns whatever
-you copied into a summary. This chapter shows you how to make those buttons.
+Your phone and computer can run AI-powered automations from a button, a voice command or a keyboard shortcut, such as turning a dictated idea into an organized note or a receipt photo into a log entry.
+
+- **iPhone and Mac:** Apple Shortcuts with the **Use Model** action.
+- **Android:** Gemini, Tasker and webhook shortcuts.
+- **Windows:** Copilot, Power Automate and AutoHotkey.
+- **Everywhere:** terminal tools and AI-powered text expanders; choose on-device models for private data.
 
 </details>
 
@@ -19,11 +22,10 @@ you copied into a summary. This chapter shows you how to make those buttons.
 
 ## 📱 Why device automation is a superpower
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Your phone is always with you, has a camera and a microphone, and knows where you are. That makes it the perfect place for
-quick AI buttons.
+Your phone is always with you and has a microphone, camera and location awareness, which makes it ideal for quick AI-powered actions. The table shows what each capability enables.
 
 </details>
 
@@ -40,11 +42,10 @@ Combine these triggers with AI and you get the fastest capture-and-process loop 
 
 ## 🍎 Apple Shortcuts + AI
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-The Shortcuts app on iPhone and Mac lets you chain actions like LEGO. Since iOS 26, it has a "Use Model" block that can ask
-Apple's own AI (on your phone or in Apple's private cloud) or ChatGPT to do the thinking.
+Apple Shortcuts lets you chain actions together. The **Use Model** action (iOS, iPadOS and macOS 26) sends a prompt, along with dictated text, clipboard contents or a photo, to an on-device model, Apple's Private Cloud Compute or ChatGPT.
 
 </details>
 
@@ -68,11 +69,10 @@ Other ways to use AI from Shortcuts:
 
 ## 🧪 Five Shortcuts recipes to build today
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Here are five magic buttons you can build in about ten minutes each: a brain-dump sorter, a receipt logger, a clipboard
-summarizer, a morning pep talk and a meeting-notes helper.
+These five Shortcuts take about ten minutes each to build. Each recipe lists the actions to chain in order, starting with a brain-dump sorter that turns dictation into an organized note.
 
 </details>
 
@@ -104,11 +104,14 @@ questions"*) → **Create Reminder** for each action item.
 
 ## ⏰ Personal automations: triggers that fire on their own
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Some magic buttons press themselves: at a certain time, when you arrive somewhere, when you open an app, or when you tap
-your phone on a little sticker (an NFC tag).
+Personal automations run shortcuts automatically on triggers such as a time of day, arriving at a location, opening an app or tapping an NFC tag.
+
+1. Open the **Automation** tab in Shortcuts.
+2. Choose a trigger.
+3. Select the shortcut to run, and decide whether it should ask before running.
 
 </details>
 
@@ -126,11 +129,10 @@ Shortcuts → **Automation** tab lets shortcuts run on triggers:
 
 ## 🤖 Android: Gemini, Tasker & friends
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Android phones have Gemini built in, and apps like Tasker let you build very powerful magic buttons. You can also call your
-robot recipes on the internet with a single tap.
+Android offers Gemini as a built-in assistant, Google Home routines, and apps like Tasker and MacroDroid for advanced automations. You can also trigger your cloud automations with a single tap by calling a webhook.
 
 </details>
 
@@ -147,11 +149,10 @@ it → Notion. ([Importable workflow](../../examples/n8n-workflows/idea-inbox-to
 
 ## 💻 Mac: Shortcuts, Raycast & more
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-On a Mac, you can press a keyboard shortcut anywhere to ask AI about what's selected, rename files automatically, or run
-little AI helpers from a search bar.
+On a Mac, you can run AI on selected text from any app with a keyboard shortcut, rename files automatically, or use AI commands from a launcher like Raycast. The table lists the main tools.
 
 </details>
 
@@ -168,11 +169,10 @@ little AI helpers from a search bar.
 
 ## 🪟 Windows: Power Automate, AutoHotkey & Copilot
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Windows has its own robot kitchen (Power Automate), a classic keyboard-magic tool (AutoHotkey), and Copilot built right in.
-AI can even write the AutoHotkey scripts for you.
+Windows offers Copilot for screen and settings help, Power Automate Desktop for free desktop workflows, and AutoHotkey for keyboard automation. AI assistants can write AutoHotkey scripts from a plain-language description.
 
 </details>
 
@@ -186,11 +186,10 @@ AI can even write the AutoHotkey scripts for you.
 
 ## 🐧 Terminal lovers (Mac, Linux, Windows)
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-If you like typing commands, you can pipe any text into an AI from the terminal and get answers back, then schedule it to
-run automatically.
+From the terminal, tools like `llm` and `claude -p` let you send any text to an AI model and receive the answer, which you can combine with other commands and schedule to run automatically.
 
 </details>
 
@@ -202,11 +201,10 @@ run automatically.
 
 ## ⌨️ Text expanders + AI
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Text expanders turn tiny codes into big text. Type ";reply" and a whole polite email appears. Add AI and the snippet can
-write something fresh each time.
+Text expanders replace short codes with longer text. Static snippets insert fixed text such as your address or a template, while AI-powered snippets can rewrite, fix or generate text based on what you've selected.
 
 </details>
 
@@ -216,11 +214,10 @@ write something fresh each time.
 
 ## 🔐 Privacy notes
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Some magic buttons think on your phone (very private), and some send your stuff to the cloud. Choose on-device for secrets
-like health or money notes.
+On-device models keep your data on your phone or computer, which is best for journals, health notes and other personal information. Cloud models are more capable but send your data off the device.
 
 </details>
 

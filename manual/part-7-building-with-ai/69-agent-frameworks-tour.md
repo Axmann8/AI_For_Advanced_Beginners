@@ -7,13 +7,15 @@ magic and start being time-savers.** They give you memory, multi-agent handoffs,
 deployment patterns out of the box. This chapter tours the major frameworks, shows the same tiny agent in several of them,
 and helps you pick one without the analysis paralysis. 🧭
 
-<details class="eli5" open>
-<summary>🧸 ELI5: This chapter in 30 seconds</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-You *can* build a robot from loose parts, but LEGO sets come with the special pieces already made: wheels, arms, a remote
-control. **Agent frameworks** are LEGO sets for AI helpers. Each set has a different style. Some are simple, some build
-giant castles (big multi-robot teams), and some are made for websites. This chapter shows you the sets so you can pick one
-you like.
+Agent frameworks provide ready-made components for building AI agents: tool handling, memory, multi-agent coordination and tracing. Each has a different design philosophy. This chapter compares the main options so you can choose one.
+
+- **You may not need a framework:** a simple loop or an existing agent is often enough.
+- **The main frameworks** include the Claude Agent SDK, OpenAI Agents SDK, Google ADK, LangGraph, CrewAI and Vercel AI SDK.
+- **Three organizing models:** graphs, crews and handoffs.
+- **Use tracing and shared protocols** (MCP, A2A) whichever framework you choose.
 
 </details>
 
@@ -21,11 +23,10 @@ you like.
 
 ## 🧐 Do you even need a framework?
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-For small projects, no! A simple loop or an existing agent like Claude Code is often enough. Frameworks help when your
-project gets big or needs fancy features.
+For many projects, a simple loop or a configured agent like Claude Code is enough. Frameworks help with larger projects that need multi-agent coordination, persistence or production observability. The table matches goals to the best choice.
 
 </details>
 
@@ -47,10 +48,10 @@ project gets big or needs fancy features.
 
 ## 🗺️ The framework landscape
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Here's a big table of the popular LEGO sets, what language they use, and what they're especially good at.
+The table lists the major agent frameworks, their languages, their standout capabilities and their overall style.
 
 </details>
 
@@ -77,10 +78,10 @@ Here's a big table of the popular LEGO sets, what language they use, and what th
 
 ## 🧪 The same agent in four frameworks
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Here's the same tiny weather helper built with four different LEGO sets, so you can see how each one feels.
+These examples build the same simple weather agent in four frameworks, so you can compare how each one feels to use.
 
 </details>
 
@@ -170,10 +171,10 @@ Notice the pattern: **a model, instructions, tools, and a run call.** Every fram
 
 ## 🟨 TypeScript options
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-If you build websites with JavaScript or TypeScript, these sets fit right into your app.
+For JavaScript and TypeScript projects, the Vercel AI SDK integrates with web interfaces and streams responses into React apps, and Mastra provides a full agent framework.
 
 </details>
 
@@ -209,11 +210,10 @@ console.log(text);
 
 ## 🕸️ Graphs, crews & handoffs: three mental models
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Frameworks organize robots in different ways: like a board game with squares and arrows (graphs), like a team with job
-titles (crews), or like a relay race where one robot passes the baton to the next (handoffs).
+Frameworks organize multiple agents in three main ways: **graphs** (explicit steps and transitions), **crews** (agents with defined roles that collaborate) and **handoffs** (one agent passes control to another). The table explains when each fits.
 
 </details>
 
@@ -242,11 +242,10 @@ flowchart LR
 
 ## 🔭 Tracing & observability
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Tracing is a video recording of everything your agent did: every thought, every tool, every answer, and how long and how
-much each step cost. When something goes wrong, you rewind the tape.
+Tracing tools record every step an agent takes, including prompts, tool calls, outputs, timing and cost, so you can see exactly what happened when something goes wrong. The table compares the main options.
 
 </details>
 
@@ -267,11 +266,10 @@ Most speak **OpenTelemetry**, so you can switch tools later. Pair tracing with *
 
 ## 🔗 Protocols: MCP, A2A & friends
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Protocols are shared languages. MCP is how agents plug into tools. A2A is how agents from different companies talk to each
-other. Using shared languages means your LEGO pieces fit together.
+Shared protocols let components from different vendors work together: MCP connects agents to tools and data, and A2A lets agents from different systems communicate. The table explains each.
 
 </details>
 
@@ -287,10 +285,10 @@ future-proof decision you can make. 🔮
 
 ## 🧭 How to choose (a decision flow)
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Answer a few questions and the flowchart points you to a good starting set.
+Follow the flowchart to find a good starting framework based on what you're building.
 
 </details>
 
@@ -310,11 +308,10 @@ flowchart TD
 
 ## 🪤 Framework pitfalls
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Frameworks can hide what's happening, change quickly, and tempt you to build giant robot teams when one robot would do. Keep
-it simple and keep an eye on the costs.
+Common framework pitfalls include hidden behavior that's hard to debug, frequent breaking changes and over-engineered multi-agent designs. Turn on tracing from the start, pin versions and keep designs simple. The table lists fixes for each.
 
 </details>
 

@@ -7,12 +7,15 @@ Today it's often a single click, and most hobby projects host **for free**. This
 project (static sites, full-stack apps, bots, automations, MCP servers), how to handle secrets and domains, and how to let
 your AI helper do the fiddly bits.
 
-<details class="eli5" open>
-<summary>🧸 ELI5: This chapter in 30 seconds</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Your app lives on your computer, and only you can see it. **Deploying** means copying it to a computer that's always on and
-connected to the internet, so anyone with the link can use it. Some companies give you that computer for free for small
-projects. You connect your GitHub, click "deploy," and get a link to share. 🔗
+Deploying means moving your project to a server that's always online so anyone with the link can use it. For small projects, many hosting services are free: you connect your GitHub repository, click deploy and get a shareable URL.
+
+- **Match the host to the project:** static sites, full-stack apps and always-on bots have different needs.
+- **One-click hosts** like Vercel, Netlify and GitHub Pages cover most beginner projects.
+- **Add services as needed:** databases, logins, remote MCP servers and custom domains.
+- **Protect yourself:** keep secrets in environment variables and set spending limits.
 
 </details>
 
@@ -20,11 +23,10 @@ projects. You connect your GitHub, click "deploy," and get a link to share. 🔗
 
 ## 🗺️ What are you deploying?
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Different projects need different homes. A simple web page needs a simple home. An app with logins and a database, or a bot
-that's always awake, needs a bit more.
+Different projects need different hosting. Static sites need only file hosting, full-stack apps need serverless functions and a database, and bots or background workers need an always-on server. The table matches each to suitable hosts.
 
 </details>
 
@@ -52,11 +54,10 @@ flowchart TD
 
 ## 🔑 Hosting vocabulary in 60 seconds
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-A few words you'll hear a lot: "static" means plain files, "serverless" means code that wakes up only when needed, "domain"
-is your web address, and "environment variables" are secret settings.
+A few terms come up constantly: a **static site** is plain files, **serverless** code runs only when requested, a **domain** is your web address, and **environment variables** hold secret settings. The table defines the rest.
 
 </details>
 
@@ -75,10 +76,17 @@ is your web address, and "environment variables" are secret settings.
 
 ## ⚡ The one-click path: Vercel & Netlify
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Connect your GitHub, pick your project, click deploy. Every time you save new code to GitHub, the website updates by itself.
+Vercel and Netlify deploy directly from GitHub.
+
+1. Push your project to GitHub.
+2. Sign in to Vercel or Netlify with your GitHub account.
+3. Import the repository; the framework is usually detected automatically.
+4. Add any environment variables and click **Deploy**.
+
+After that, every push to GitHub updates the site automatically.
 
 </details>
 
@@ -103,10 +111,14 @@ npx vercel --prod   # deploy to production
 
 ## 📄 Free static hosting: GitHub Pages & friends
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-If your website is just pages (no logins, no database), GitHub will host it for free, forever. This very manual lives there!
+GitHub Pages hosts static websites for free directly from a repository; this manual's website is hosted there.
+
+1. Open the repository's **Settings → Pages**.
+2. Choose a branch or a GitHub Action as the source.
+3. Wait for the build, then visit the URL shown.
 
 </details>
 
@@ -126,11 +138,10 @@ If your website is just pages (no logins, no database), GitHub will host it for 
 
 ## 🗄️ Databases, logins & storage
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-If your app needs to remember things or know who's logged in, you add a database service. Supabase gives you a database,
-logins and file storage in one place, with a free tier.
+If your app needs to store data or handle logins, add a backend service. Supabase provides a Postgres database, authentication, file storage and more with a free tier. The table compares alternatives.
 
 </details>
 
@@ -147,11 +158,10 @@ can't afford to lose.
 
 ## 🐍 Always-on apps, bots & backends
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Bots and some apps need to be awake all the time, like a shopkeeper who never closes. For those, you rent a small always-on
-computer from services like Render or Railway.
+Bots, APIs and background workers need a server that runs continuously. Platforms like Render, Railway and Fly.io run these from your GitHub repository. The table compares them.
 
 </details>
 
@@ -174,11 +184,10 @@ to Render."* Once it runs in a container, it runs almost anywhere.
 
 ## 🔌 Hosting a remote MCP server
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-If you built a tool plug-in (an MCP server) and want to use it from your phone or share it with friends, you put it on the
-internet with a web address, and protect it with a login.
+A remote MCP server lives at an HTTPS URL, so it works from web and mobile AI apps and can be shared. Host it on a platform like Cloudflare Workers or Render, and always protect it with authentication.
 
 </details>
 
@@ -196,11 +205,10 @@ tool outputs ✅. The full walkthrough is [Build-Along: Publish an MCP Server](.
 
 ## 🔐 Secrets & environment variables
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Secret keys go into the hosting service's secret settings, not into your code. Your code asks for them by name when it
-runs.
+Store secrets such as API keys in your host's environment variables, never in code. Be aware that variables with public prefixes (like `NEXT_PUBLIC_` or `VITE_`) are visible to anyone who loads your site.
 
 </details>
 
@@ -221,11 +229,14 @@ flowchart LR
 
 ## 🌐 Custom domains
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Instead of `my-app.vercel.app`, you can buy a name like `mycoolapp.com` and point it at your app. It's like getting a
-nicer street address.
+A custom domain replaces the default address with your own name.
+
+1. Buy a domain from a registrar such as Cloudflare, Namecheap or Porkbun.
+2. Add the domain in your hosting dashboard.
+3. Update the DNS records as instructed, and wait for HTTPS to activate.
 
 </details>
 
@@ -239,11 +250,10 @@ It's excellent at this.
 
 ## 💸 Costs & free tiers
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Most small projects cost nothing to host. The things that can cost money are AI calls and very popular apps, so set limits
-and alerts.
+Hosting small projects is usually free. The main costs come from AI API calls and high traffic, so set spending limits and billing alerts. The table lists typical costs and how to protect yourself.
 
 </details>
 
@@ -263,11 +273,10 @@ and alerts.
 
 ## 🤖 Let your agent do the deploying
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Your AI helper can do most of the deploying for you: writing config files, running the deploy command, and reading the error
-messages when something goes wrong.
+Coding agents can handle most of the deployment work: preparing configuration, listing required environment variables, running deploy commands and diagnosing errors from logs. The table gives example requests.
 
 </details>
 
@@ -285,11 +294,10 @@ manage settings directly.
 
 ## 🩺 After launch: logs, monitoring & updates
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Once it's live, keep an eye on it: check the logs when something's weird, get an alert if it goes down, and keep the parts up
-to date.
+After launch, check logs when something goes wrong, add error tracking (such as Sentry) and uptime monitoring, and keep dependencies up to date.
 
 </details>
 

@@ -6,12 +6,15 @@
 your voice, turn newsletters into one digest, schedule meetings without the back-and-forth, prep you for every call, and
 write the follow-ups. This chapter builds you a calm, AI-assisted inbox and calendar, step by step.
 
-<details class="eli5" open>
-<summary>🧸 ELI5: This chapter in 30 seconds</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Imagine a friendly assistant who reads all your mail first, puts it into neat piles ("important," "can wait," "just
-newsletters"), writes draft replies for you to check, and keeps your calendar tidy so you have quiet time to think. That's
-what we're building, and you stay the boss who approves everything.
+AI can sort your email, draft replies for you to review, summarize long threads and keep your calendar under control, while you stay in charge of what's actually sent.
+
+1. **Set up triage** so every email gets a label like "needs me" or "FYI."
+2. **Create a style guide** so drafted replies sound like you.
+3. **Add a newsletter digest** and calendar protections.
+4. **Keep it safe:** draft-only permissions and awareness of email-based prompt injection.
 
 </details>
 
@@ -19,11 +22,10 @@ what we're building, and you stay the boss who approves everything.
 
 ## 📬 The inbox problem (and the AI fix)
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-The problem isn't reading emails. It's deciding what to do with each one. AI is great at the deciding and drafting, so you
-only spend brainpower where it matters.
+Most inbox time goes to deciding what to do with each message and drafting replies, not reading. AI handles both well, so you can focus your attention on the messages that genuinely need you.
 
 </details>
 
@@ -36,11 +38,10 @@ what AI is good at. The goal isn't "AI answers my email." It's:
 
 ## 🧰 Your email AI options
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-You can use the AI already inside Gmail or Outlook, switch to a special AI email app, let Claude or ChatGPT read your email,
-or build a robot that sorts mail automatically.
+Options range from AI built into Gmail and Outlook, to AI-first email apps, to connecting Claude or ChatGPT to your inbox, to custom automations. The table compares them.
 
 </details>
 
@@ -55,11 +56,15 @@ You can mix them: many people use built-in AI for quick drafts and an automation
 
 ## 🗂️ Build an AI triage system
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Pick a few simple piles, teach the AI what goes in each, and let it label every new email. Then you only open the "needs
-me" pile first.
+An AI triage system labels every incoming email so you can focus on what matters.
+
+1. Choose five to seven labels, such as "Needs me," "Quick reply" and "FYI."
+2. Write clear definitions for each one.
+3. Set up an automation or built-in rule that has AI apply a label to each new email.
+4. Start each session with the "Needs me" label.
 
 </details>
 
@@ -83,11 +88,14 @@ prompt for accuracy.
 
 ## ✍️ Drafting replies in your voice
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Show the AI a few emails you've written so it learns how you sound. Then it can write drafts that sound like you, and you
-just tweak and send.
+AI can draft replies in your own style.
+
+1. Paste five of your sent emails and ask the AI to describe your style.
+2. Save that description as a style guide in custom instructions or a Project.
+3. Ask for drafts, then edit and send them yourself.
 
 </details>
 
@@ -105,10 +113,10 @@ just tweak and send.
 
 ## 🔍 Find anything, summarize everything
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Instead of scrolling forever, just ask "what did the landlord say about the heater?" and the AI finds it and tells you.
+Instead of scrolling, ask in plain language to find a specific email, summarize a long thread into decisions and open questions, or catch up on everything from a particular person.
 
 </details>
 
@@ -119,10 +127,14 @@ Instead of scrolling forever, just ask "what did the landlord say about the heat
 
 ## 📰 Taming newsletters
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Instead of 20 newsletters cluttering your inbox, a robot reads them all and sends you one short "best bits" email per day.
+A newsletter digest replaces many separate emails with one daily summary.
+
+1. Automatically label incoming newsletters.
+2. Run a morning automation that summarizes the previous day's newsletters.
+3. Archive the originals once the digest is sent.
 
 </details>
 
@@ -133,10 +145,10 @@ Instead of 20 newsletters cluttering your inbox, a robot reads them all and send
 
 ## 📅 Calendar superpowers
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-AI can find meeting times that work for everyone, protect quiet time for deep work, and warn you when your week is too full.
+AI can find meeting times that work across time zones, protect blocks for focused work, and warn you when your week is overloaded. The table shows how to set up each one.
 
 </details>
 
@@ -150,11 +162,10 @@ AI can find meeting times that work for everyone, protect quiet time for deep wo
 
 ## 🎙️ Meetings: before, during, after
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Before a meeting, the AI tells you who you're meeting and what to say. During it, it takes notes. After it, it writes the
-to-do list and the thank-you email.
+AI helps at every stage of a meeting: a preparation brief beforehand, notes during the call, and action items and a follow-up email afterward. The table details each phase.
 
 </details>
 
@@ -168,10 +179,10 @@ to-do list and the thank-you email.
 
 ## 🤖 Email & calendar automations to build
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Here are ready-made robot recipes for email and calendar. Pick one and build it this week.
+The table lists ready-to-build automations for email and calendar, from VIP alerts to follow-up reminders.
 
 </details>
 
@@ -186,11 +197,10 @@ Here are ready-made robot recipes for email and calendar. Pick one and build it 
 
 ## 🔐 Safety & privacy
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-Email has lots of private stuff and sometimes tricky scam emails. Keep the AI on "draft only," watch for fake emails, and be
-careful what you let robots read.
+Email contains sensitive information and can carry prompt injection attacks. Keep AI in draft-only mode, never combine "reads all incoming email" with "can send email automatically," and be cautious about what automations can access.
 
 </details>
 
@@ -202,10 +212,10 @@ careful what you let robots read.
 
 ## 🗓️ Your 7-day inbox makeover
 
-<details class="eli5">
-<summary>🧸 ELI5</summary>
+<details class="keypoints" open>
+<summary>✅ Key Points & Steps</summary>
 
-A one-week plan: each day you add one small AI habit, and by the end your inbox feels calm.
+This seven-day plan adds one new AI habit to your email and calendar routine each day.
 
 </details>
 
