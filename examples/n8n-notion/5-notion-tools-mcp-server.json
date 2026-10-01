@@ -1,0 +1,168 @@
+{
+  "name": "🔌 Notion task tools as an MCP server",
+  "nodes": [
+    {
+      "parameters": {
+        "authentication": "bearerAuth",
+        "path": "notion-tools"
+      },
+      "id": "4d13dd35-365d-5947-90af-00c31148f173",
+      "name": "MCP Server Trigger",
+      "type": "@n8n/n8n-nodes-langchain.mcpTrigger",
+      "typeVersion": 2,
+      "position": [
+        0,
+        0
+      ],
+      "webhookId": "4b071f31-cfa7-5ab0-b446-34ff77991436"
+    },
+    {
+      "parameters": {
+        "descriptionType": "manual",
+        "toolDescription": "Find open tasks in the user's Notion Tasks database. Returns title, status, priority and due date for each task that is not Done. Use before creating tasks to avoid duplicates.",
+        "resource": "databasePage",
+        "operation": "getAll",
+        "databaseId": {
+          "__rl": true,
+          "mode": "url",
+          "value": "https://www.notion.so/PASTE-YOUR-TASKS-DATABASE-URL"
+        },
+        "returnAll": true,
+        "filterType": "manual",
+        "matchType": "allFilters",
+        "filters": {
+          "conditions": [
+            {
+              "key": "Status|status",
+              "condition": "does_not_equal",
+              "statusValue": "Done"
+            }
+          ]
+        },
+        "options": {}
+      },
+      "id": "0e57414a-e7ac-5e40-bf0f-6d2a4b45ae94",
+      "name": "find_tasks",
+      "type": "n8n-nodes-base.notionTool",
+      "typeVersion": 2.2,
+      "position": [
+        -200,
+        240
+      ]
+    },
+    {
+      "parameters": {
+        "descriptionType": "manual",
+        "toolDescription": "Create a task in the user's Notion Tasks database. Always provide a clear title. Priority must be High, Medium or Low. Due must be an ISO date (YYYY-MM-DD).",
+        "resource": "databasePage",
+        "databaseId": {
+          "__rl": true,
+          "mode": "url",
+          "value": "https://www.notion.so/PASTE-YOUR-TASKS-DATABASE-URL"
+        },
+        "title": "={{ $fromAI('title', 'Short, clear task title', 'string') }}",
+        "propertiesUi": {
+          "propertyValues": [
+            {
+              "key": "Priority|select",
+              "selectValue": "={{ $fromAI('priority', 'High, Medium or Low', 'string') }}"
+            },
+            {
+              "key": "Due|date",
+              "date": "={{ $fromAI('due', 'Due date as YYYY-MM-DD', 'string') }}"
+            },
+            {
+              "key": "Status|status",
+              "statusValue": "To do"
+            },
+            {
+              "key": "Source|select",
+              "selectValue": "AI"
+            }
+          ]
+        },
+        "options": {}
+      },
+      "id": "47e19bfc-4d70-5448-841f-96161c607c14",
+      "name": "create_task",
+      "type": "n8n-nodes-base.notionTool",
+      "typeVersion": 2.2,
+      "position": [
+        0,
+        240
+      ]
+    },
+    {
+      "parameters": {
+        "descriptionType": "manual",
+        "toolDescription": "Mark one Notion task as Done. Requires the task's page ID from find_tasks. Confirm with the user before calling this.",
+        "resource": "databasePage",
+        "operation": "update",
+        "pageId": {
+          "__rl": true,
+          "mode": "id",
+          "value": "={{ $fromAI('page_id', 'The Notion page ID of the task', 'string') }}"
+        },
+        "propertiesUi": {
+          "propertyValues": [
+            {
+              "key": "Status|status",
+              "statusValue": "Done"
+            }
+          ]
+        },
+        "options": {}
+      },
+      "id": "bd552de5-f1ef-56ec-b258-c0a254e7b5c3",
+      "name": "complete_task",
+      "type": "n8n-nodes-base.notionTool",
+      "typeVersion": 2.2,
+      "position": [
+        200,
+        240
+      ]
+    }
+  ],
+  "connections": {
+    "find_tasks": {
+      "ai_tool": [
+        [
+          {
+            "node": "MCP Server Trigger",
+            "type": "ai_tool",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "create_task": {
+      "ai_tool": [
+        [
+          {
+            "node": "MCP Server Trigger",
+            "type": "ai_tool",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "complete_task": {
+      "ai_tool": [
+        [
+          {
+            "node": "MCP Server Trigger",
+            "type": "ai_tool",
+            "index": 0
+          }
+        ]
+      ]
+    }
+  },
+  "settings": {
+    "executionOrder": "v1"
+  },
+  "pinData": {},
+  "meta": {
+    "templateNote": "Activate, copy the MCP URL, and add it to Claude or ChatGPT as a custom connector with your bearer token."
+  }
+}

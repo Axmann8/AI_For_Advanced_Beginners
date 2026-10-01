@@ -24,7 +24,7 @@ This manual covers AI from the very first conversation to building your own tool
 <details class="keypoints" open>
 <summary>✅ Key Points & Steps</summary>
 
-The manual is organized into thirteen parts. Parts I and II are written for beginners; the later parts build on them with deeper topics, hands-on projects (Part XIII) and a reference section (the appendices).
+The manual is organized into fourteen parts. Parts I and II are written for beginners; the later parts build on them with deeper topics, hands-on projects (Part XIII), an in-depth guide to the n8n + Notion stack (Part XIV) and a reference section (the appendices).
 
 </details>
 
@@ -43,6 +43,7 @@ The manual is organized into thirteen parts. Parts I and II are written for begi
 | 🌱 **XI · AI for Life & Work** | Research, writing, business, careers, money, health, family, travel, accessibility |
 | 🏆 **XII · Mastery** | Safety, privacy, evals, costs, ethics, teaching, earning, the future |
 | 🧱 **XIII · Build-Alongs** | Eight long, step-by-step projects you finish in a weekend |
+| 🔗 **XIV · n8n & Notion: The Power Stack** | A deep dive into the n8n + Notion combination and how it connects to everything else, with a recipe book and a build-along |
 | 📎 **Appendices** | Glossary, cheat sheet, FAQ, prompt library, comparisons, checklists and the **Key Points Edition** |
 
 ## 🎨 The boxes and what they mean

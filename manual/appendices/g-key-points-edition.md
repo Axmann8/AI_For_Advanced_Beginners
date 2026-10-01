@@ -1074,6 +1074,94 @@ In this project you'll build an AI phone receptionist for a business. It answers
 3. **Connect the tools** and test with many kinds of callers.
 4. **Add handoff and summaries,** then go live responsibly.
 
+## 🔗 Part XIV · n8n & Notion: The Power Stack
+
+### [120 · The Power Stack: Why n8n + Notion Can Run Everything 🔗](../part-14-n8n-and-notion/120-the-power-stack.md)
+
+Notion and n8n play complementary roles: Notion is the **interface and source of truth** that people read and edit, and n8n is the **engine** that collects data, calls AI and takes action in other apps. Connected, they form a system you can extend to almost any tool.
+
+- **Five connection methods:** the n8n Notion node, the Notion Trigger, Notion buttons and automations sending webhooks, Notion's integration webhooks, and MCP in both directions.
+- **One hub, many spokes:** email, chat, phone, AI assistants, files, code and business tools all connect through n8n.
+- **Choose the right layer:** use Notion's built-in automations for simple tasks inside Notion, and n8n when work crosses apps or needs custom logic.
+- **Start small:** your first connected workflow takes about 30 minutes.
+
+### [121 · Notion for Builders: Databases, Data Sources & the API 🧱](../part-14-n8n-and-notion/121-notion-for-builders.md)
+
+Notion organizes content as pages made of blocks; a database contains one or more data sources, and each row in a data source is a page with typed properties. Automations read and write those properties through the Notion API, using an integration that you explicitly share pages with.
+
+- **Learn the model:** workspace → pages → blocks, and database → data sources → pages (rows) → properties.
+- **Know the property types** and which ones automations can write.
+- **Set up access:** create an integration and share specific pages or databases with it.
+- **Design databases for automation:** status flows, external IDs and clear property names.
+- **Use Notion's own tools** (buttons, automations, forms and webhooks) before reaching for external ones.
+
+### [122 · Connecting n8n to Notion: The Complete Integration Guide 🔌](../part-14-n8n-and-notion/122-connecting-n8n-to-notion.md)
+
+n8n connects to Notion through a credential holding your integration secret. The Notion node then reads and writes pages, data sources and blocks, while triggers let changes in Notion start workflows.
+
+1. **Create the credential** and share the right databases with your integration.
+2. **Learn the node's operations,** from creating rows to reading page content as Markdown.
+3. **Pick a trigger strategy:** polling, button or automation webhooks, integration webhooks, or a schedule.
+4. **Map properties correctly,** filter queries, and use the HTTP Request node for anything else.
+5. **Apply reliability patterns:** upserts, deduplication and rate-limit-aware batching.
+
+### [123 · Notion as Your Command Center: Buttons, Pipelines & Two-Way Workflows 🎛️](../part-14-n8n-and-notion/123-notion-as-your-command-center.md)
+
+In a command-center setup, people work entirely in Notion while n8n does the work behind the scenes and reports back by updating properties. Six patterns cover most needs.
+
+- **Buttons** that run workflows and write the results back to the page.
+- **Status-driven pipelines** where moving a card to a column starts the next stage.
+- **Forms and intake** that n8n enriches automatically.
+- **Dashboards** fed with metrics from other apps.
+- **Two-way sync** with calendars, sheets or GitHub, without loops.
+- **Settings and error logs** in Notion, so people can configure and monitor automations without opening n8n.
+
+### [124 · AI Agents Across n8n + Notion 🤖](../part-14-n8n-and-notion/124-ai-agents-across-n8n-and-notion.md)
+
+AI agents can run in Notion (Notion Agent and Custom Agents), in n8n (the AI Agent node) or in external assistants (Claude, ChatGPT and others) connected through MCP. This chapter teaches you to build an n8n agent with Notion tools, expose your workflows to other assistants over MCP, search your Notion workspace with RAG, and divide work sensibly between Notion's agents and n8n.
+
+1. **Build an n8n agent** that can search, create and update Notion pages.
+2. **Connect assistants through MCP** in both directions.
+3. **Add RAG** so AI can answer questions from your whole Notion workspace.
+4. **Use AI enrichment pipelines** for reliable, structured processing.
+5. **Apply guardrails:** least privilege, approvals and protection against prompt injection.
+
+### [125 · Connecting Everything: n8n + Notion + Your Whole Stack 🌐](../part-14-n8n-and-notion/125-connecting-everything.md)
+
+n8n acts as the hub that connects Notion to every other tool. For each connection, decide which system is the source of truth, which direction data flows and how records are matched, then build small, focused workflows rather than one giant one.
+
+1. **Apply the design principles:** one source of truth per kind of data, clear direction, External IDs and small workflows.
+2. **Pick the connections that matter most to you** from the sections below.
+3. **Build one at a time,** test it, and add it to your Automation Log so failures are visible.
+
+### [126 · The n8n + Notion Recipe Book: 40 Workflows 🍳](../part-14-n8n-and-notion/126-n8n-notion-recipe-book.md)
+
+This chapter collects 40 workflows that combine n8n and Notion. Each lists its trigger, steps, Notion result and difficulty, and links to the chapter that explains the techniques it uses.
+
+1. **Find a recipe** in the section that matches your goal.
+2. **Prepare the Notion database** it writes to, with the properties listed.
+3. **Build it** using the method at the end of this chapter, testing with real data before activating.
+
+### [127 · Build-Along: Your AI Command Center in Notion + n8n 🏗️](../part-14-n8n-and-notion/127-build-along-ai-command-center.md)
+
+You'll build a five-workflow system from this manual's starter kit, testing each piece with a checkpoint before moving on.
+
+1. **Create four Notion databases** and connect n8n to them.
+2. **Set up error logging first,** so every later problem is visible.
+3. **Build capture:** a secure webhook that triages anything you send into the Inbox.
+4. **Add the Process with AI button** that turns an item into a plan and tasks.
+5. **Schedule the daily briefing,** then connect Claude through MCP.
+
+### [128 · Running n8n + Notion in Production 🏭](../part-14-n8n-and-notion/128-running-in-production.md)
+
+Production-grade automation means workflows that can safely run twice, report every failure, recover from outages, protect credentials, stay documented and adapt to changes in the tools they depend on.
+
+- **Reliability:** idempotency, retries, timeouts and queues for heavy workloads.
+- **Visibility:** error logging, monitoring and an inventory of every automation.
+- **Safety:** backups, security, least-privilege access and change management.
+- **Sustainability:** cost control and a plan for API and version upgrades.
+- **Use the checklist** at the end to audit your setup.
+
 ---
 
 **Next:** [Appendix H · Commands & Shortcuts →](h-commands-and-shortcuts.md)

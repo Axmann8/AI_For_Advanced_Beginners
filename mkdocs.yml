@@ -257,6 +257,17 @@ nav:
       - "117 · The Private Home Assistant": part-13-build-alongs/117-build-along-private-home-assistant.md
       - "118 · The Automated Newsletter": part-13-build-alongs/118-build-along-automated-newsletter.md
       - "119 · An AI Voice Receptionist": part-13-build-alongs/119-build-along-voice-receptionist.md
+  - "🔗 Part XIV · n8n & Notion: The Power Stack":
+      - part-14-n8n-and-notion/index.md
+      - "120 · The Power Stack": part-14-n8n-and-notion/120-the-power-stack.md
+      - "121 · Notion for Builders": part-14-n8n-and-notion/121-notion-for-builders.md
+      - "122 · Connecting n8n to Notion": part-14-n8n-and-notion/122-connecting-n8n-to-notion.md
+      - "123 · Notion as Your Command Center": part-14-n8n-and-notion/123-notion-as-your-command-center.md
+      - "124 · AI Agents Across n8n + Notion": part-14-n8n-and-notion/124-ai-agents-across-n8n-and-notion.md
+      - "125 · Connecting Everything": part-14-n8n-and-notion/125-connecting-everything.md
+      - "126 · The n8n + Notion Recipe Book": part-14-n8n-and-notion/126-n8n-notion-recipe-book.md
+      - "127 · Your AI Command Center in Notion + n8n": part-14-n8n-and-notion/127-build-along-ai-command-center.md
+      - "128 · Running n8n + Notion in Production": part-14-n8n-and-notion/128-running-in-production.md
   - "📎 Appendices":
       - appendices/index.md
       - "Appendix A · Glossary": appendices/a-glossary.md

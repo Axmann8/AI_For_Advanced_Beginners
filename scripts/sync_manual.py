@@ -43,6 +43,7 @@ PARTS: dict[str, tuple[str, str]] = {
     "part-11-ai-for-life-and-work": ("Part XI · AI for Life & Work", "🌱"),
     "part-12-mastery": ("Part XII · Mastery", "🏆"),
     "part-13-build-alongs": ("Part XIII · Build-Alongs", "🧱"),
+    "part-14-n8n-and-notion": ("Part XIV · n8n & Notion: The Power Stack", "🔗"),
     "appendices": ("Appendices", "📎"),
 }
 SECTION_EXEMPT = re.compile(r"(key takeaways|check yourself|quick quiz|try this|what's next|next steps)", re.I)

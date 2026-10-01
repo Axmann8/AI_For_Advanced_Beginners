@@ -32,6 +32,9 @@ jobs:
               yaml.safe_load(p.read_text()); print("ok", p)
           PY
 
+      - name: n8n workflows are well-formed
+        run: python scripts/check_n8n_workflows.py
+
       - name: Python MCP server smoke test
         working-directory: examples/my-first-mcp-server
         run: |

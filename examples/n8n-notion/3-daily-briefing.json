@@ -1,0 +1,232 @@
+{
+  "name": "☀️ Daily briefing: Notion tasks → AI → Notion + Telegram",
+  "nodes": [
+    {
+      "parameters": {
+        "rule": {
+          "interval": [
+            {
+              "triggerAtHour": 7
+            }
+          ]
+        }
+      },
+      "id": "c3e29026-c2d3-5b24-a72a-f0c078ced211",
+      "name": "Every morning at 7",
+      "type": "n8n-nodes-base.scheduleTrigger",
+      "typeVersion": 1.2,
+      "position": [
+        0,
+        0
+      ]
+    },
+    {
+      "parameters": {
+        "resource": "databasePage",
+        "operation": "getAll",
+        "databaseId": {
+          "__rl": true,
+          "mode": "url",
+          "value": "https://www.notion.so/PASTE-YOUR-TASKS-DATABASE-URL"
+        },
+        "returnAll": true,
+        "filterType": "manual",
+        "matchType": "allFilters",
+        "filters": {
+          "conditions": [
+            {
+              "key": "Status|status",
+              "condition": "does_not_equal",
+              "statusValue": "Done"
+            },
+            {
+              "key": "Due|date",
+              "condition": "on_or_before",
+              "date": "={{ $now.plus({days: 1}).toISODate() }}"
+            }
+          ]
+        },
+        "options": {}
+      },
+      "id": "1b85cd4f-85d5-593c-989a-687f85bedfce",
+      "name": "Open tasks due soon",
+      "type": "n8n-nodes-base.notion",
+      "typeVersion": 2.2,
+      "position": [
+        220,
+        0
+      ],
+      "alwaysOutputData": true
+    },
+    {
+      "parameters": {
+        "mode": "runOnceForAllItems",
+        "jsCode": "// Turn the tasks into one readable list for the AI.\nconst today = $now.toISODate();\nconst rows = $input.all().map(i => i.json).filter(t => t.id);\nconst lines = rows.map(t => {\n  const due = t.property_due?.start || t.property_due || '';\n  const flag = due && due < today ? ' (OVERDUE)' : '';\n  return `- ${t.name || t.property_name} | ${t.property_priority || 'Medium'} | due ${due}${flag}`;\n});\nreturn [{ json: { count: rows.length, tasks: lines.join('\\n') || 'No open tasks due. 🎉' } }];"
+      },
+      "id": "87f424b6-e64c-5367-9c83-ce070ca4d3a9",
+      "name": "Build task list",
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [
+        440,
+        0
+      ]
+    },
+    {
+      "parameters": {
+        "promptType": "define",
+        "text": "=Write a short, encouraging morning briefing for {{ $now.toFormat('cccc d LLLL') }}.\nGroup into: 🔥 Top 3 for today, ⏰ Overdue, 🗓️ Coming up tomorrow. Suggest an order to tackle them.\nUnder 150 words, plain text, no markdown tables.\n\nTasks ({{ $json.count }}):\n{{ $json.tasks }}"
+      },
+      "id": "f67236c7-c035-5d19-8596-83878f69cbbc",
+      "name": "Write the briefing",
+      "type": "@n8n/n8n-nodes-langchain.chainLlm",
+      "typeVersion": 1.5,
+      "position": [
+        660,
+        0
+      ]
+    },
+    {
+      "parameters": {
+        "model": {
+          "__rl": true,
+          "mode": "id",
+          "value": "claude-sonnet-5-5"
+        },
+        "options": {
+          "maxTokensToSample": 1000
+        }
+      },
+      "id": "00bb5b8a-40ce-583d-b7a1-f857bbbf5d68",
+      "name": "Claude",
+      "type": "@n8n/n8n-nodes-langchain.lmChatAnthropic",
+      "typeVersion": 1.3,
+      "position": [
+        660,
+        220
+      ]
+    },
+    {
+      "parameters": {
+        "resource": "databasePage",
+        "databaseId": {
+          "__rl": true,
+          "mode": "url",
+          "value": "https://www.notion.so/PASTE-YOUR-DAILY-BRIEFINGS-DATABASE-URL"
+        },
+        "title": "=Briefing · {{ $now.toFormat('ccc d LLL') }}",
+        "propertiesUi": {
+          "propertyValues": [
+            {
+              "key": "Date|date",
+              "date": "={{ $now.toISODate() }}"
+            }
+          ]
+        },
+        "blockUi": {
+          "blockValues": [
+            {
+              "type": "paragraph",
+              "textContent": "={{ $json.text.slice(0, 1900) }}"
+            }
+          ]
+        },
+        "options": {}
+      },
+      "id": "be49d51d-a7ad-5154-9ca1-a1b8e2842caf",
+      "name": "Save briefing page",
+      "type": "n8n-nodes-base.notion",
+      "typeVersion": 2.2,
+      "position": [
+        880,
+        -100
+      ]
+    },
+    {
+      "parameters": {
+        "chatId": "PASTE-YOUR-TELEGRAM-CHAT-ID",
+        "text": "=☀️ {{ $('Write the briefing').item.json.text }}",
+        "additionalFields": {
+          "appendAttribution": false
+        }
+      },
+      "id": "ec8006c8-555b-55d8-a3ce-b59a81feb9ca",
+      "name": "Send to Telegram",
+      "type": "n8n-nodes-base.telegram",
+      "typeVersion": 1.2,
+      "position": [
+        880,
+        100
+      ]
+    }
+  ],
+  "connections": {
+    "Every morning at 7": {
+      "main": [
+        [
+          {
+            "node": "Open tasks due soon",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Open tasks due soon": {
+      "main": [
+        [
+          {
+            "node": "Build task list",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Build task list": {
+      "main": [
+        [
+          {
+            "node": "Write the briefing",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Claude": {
+      "ai_languageModel": [
+        [
+          {
+            "node": "Write the briefing",
+            "type": "ai_languageModel",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Write the briefing": {
+      "main": [
+        [
+          {
+            "node": "Save briefing page",
+            "type": "main",
+            "index": 0
+          },
+          {
+            "node": "Send to Telegram",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    }
+  },
+  "settings": {
+    "executionOrder": "v1"
+  },
+  "pinData": {},
+  "meta": {
+    "templateNote": "Set the Tasks and Daily Briefings database URLs, your Telegram chat ID, and credentials."
+  }
+}

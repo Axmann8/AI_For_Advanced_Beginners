@@ -1,0 +1,79 @@
+{
+  "name": "🚨 Error logger → Notion Automation Log",
+  "nodes": [
+    {
+      "parameters": {},
+      "id": "8a20dfd2-da78-506e-a825-37a16f0dfe1d",
+      "name": "When any workflow fails",
+      "type": "n8n-nodes-base.errorTrigger",
+      "typeVersion": 1,
+      "position": [
+        0,
+        0
+      ]
+    },
+    {
+      "parameters": {
+        "resource": "databasePage",
+        "databaseId": {
+          "__rl": true,
+          "mode": "url",
+          "value": "https://www.notion.so/PASTE-YOUR-AUTOMATION-LOG-DATABASE-URL"
+        },
+        "title": "={{ $json.workflow.name }}",
+        "propertiesUi": {
+          "propertyValues": [
+            {
+              "key": "Status|select",
+              "selectValue": "Error"
+            },
+            {
+              "key": "Error|rich_text",
+              "textContent": "={{ ($json.execution.lastNodeExecuted ? '[' + $json.execution.lastNodeExecuted + '] ' : '') + ($json.execution.error?.message || 'Unknown error').slice(0, 1800) }}"
+            },
+            {
+              "key": "Execution link|url",
+              "urlValue": "={{ $json.execution.url }}"
+            },
+            {
+              "key": "Time|date",
+              "date": "={{ $now.toISO() }}"
+            }
+          ]
+        },
+        "options": {}
+      },
+      "id": "1bbb1775-4a5f-54eb-a132-95422bc5fec3",
+      "name": "Log to Notion",
+      "type": "n8n-nodes-base.notion",
+      "typeVersion": 2.2,
+      "position": [
+        240,
+        0
+      ],
+      "retryOnFail": true,
+      "maxTries": 3,
+      "waitBetweenTries": 5000
+    }
+  ],
+  "connections": {
+    "When any workflow fails": {
+      "main": [
+        [
+          {
+            "node": "Log to Notion",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    }
+  },
+  "settings": {
+    "executionOrder": "v1"
+  },
+  "pinData": {},
+  "meta": {
+    "templateNote": "Activate, then choose this workflow under Settings → Error workflow in every other workflow."
+  }
+}

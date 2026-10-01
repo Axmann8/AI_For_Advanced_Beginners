@@ -313,7 +313,7 @@ def build_docs(site: Path) -> list[Doc]:
             if lead:
                 hero.insert_before(lead)
             hero.decompose()
-            # "The thirteen parts" duplicates the contents pages
+            # "The fourteen parts" duplicates the contents pages
             for h in art.find_all("h2"):
                 if re.search(r"\bthe \w+ parts\b", h.get_text().lower()):
                     grid = h.find_next_sibling("div")
