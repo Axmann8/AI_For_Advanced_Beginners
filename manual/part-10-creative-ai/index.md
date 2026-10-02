@@ -34,7 +34,7 @@ AI tools can now generate images, video, music, voices, 3D models and interactiv
 
     ---
 
-    <span class="card-meta">⏱️ 7 min read · 🎯 Everyone</span>
+    <span class="card-meta">⏱️ 6 min read · 🎯 Everyone</span>
 
     Text is just the beginning. Today's AI can look at photos, read handwriting, watch videos, listen to audio, and make images, video, speech and music.
 
@@ -42,7 +42,7 @@ AI tools can now generate images, video, music, voices, 3D models and interactiv
 
     ---
 
-    <span class="card-meta">⏱️ 8 min read · 🎯 Everyone (beginner → pro techniques)</span>
+    <span class="card-meta">⏱️ 7 min read · 🎯 Everyone (beginner → pro techniques)</span>
 
     AI image tools went from "weird hands" to professional-grade in a few short years. This chapter goes way past "type a prompt, get a picture": how to pick the right tool for the job, write prompts like an art director, edit precisely, keep characters consistent across dozens of images, run open models locally, and automate image pipelines.
 
@@ -50,7 +50,7 @@ AI tools can now generate images, video, music, voices, 3D models and interactiv
 
     ---
 
-    <span class="card-meta">⏱️ 8 min read · 🎯 Beginner → intermediate creators</span>
+    <span class="card-meta">⏱️ 7 min read · 🎯 Beginner → intermediate creators</span>
 
     You can now produce a narrated short film, a podcast episode or a music video from your laptop in an afternoon.
 
@@ -58,7 +58,7 @@ AI tools can now generate images, video, music, voices, 3D models and interactiv
 
     ---
 
-    <span class="card-meta">⏱️ 8 min read · 🎯 Everyone (musicians and "I can't play anything" folks alike)</span>
+    <span class="card-meta">⏱️ 6 min read · 🎯 Everyone (musicians and "I can't play anything" folks alike)</span>
 
     AI can now write and sing a full song from a sentence, and that's only the beginning. It can also help you write lyrics, learn theory, separate a song into its instruments so you can practice along, master your tracks, and even control a real music production app through MCP.
 
@@ -66,7 +66,7 @@ AI tools can now generate images, video, music, voices, 3D models and interactiv
 
     ---
 
-    <span class="card-meta">⏱️ 8 min read · 🎯 Beginner → intermediate</span>
+    <span class="card-meta">⏱️ 7 min read · 🎯 Beginner → intermediate</span>
 
     Voice is the most natural interface there is. Today you can build an AI that answers your phone, books appointments, runs a language-practice session, or quizzes you while you drive, and it sounds natural.
 
@@ -74,7 +74,7 @@ AI tools can now generate images, video, music, voices, 3D models and interactiv
 
     ---
 
-    <span class="card-meta">⏱️ 8 min read · 🎯 Everyone who's ever wanted to make a game</span>
+    <span class="card-meta">⏱️ 7 min read · 🎯 Everyone who's ever wanted to make a game</span>
 
     Making a game used to take a team and a year. Now you can vibe-code a playable browser game in an evening.
 
@@ -82,7 +82,7 @@ AI tools can now generate images, video, music, voices, 3D models and interactiv
 
     ---
 
-    <span class="card-meta">⏱️ 7 min read · 🎯 Writers, game masters, parents, daydreamers</span>
+    <span class="card-meta">⏱️ 6 min read · 🎯 Writers, game masters, parents, daydreamers</span>
 
     AI is a wonderful creative partner: a brainstorming buddy at 2am, a tireless game master, a character you can interview, a kind editor, and a bedtime-story machine.
 
@@ -90,7 +90,7 @@ AI tools can now generate images, video, music, voices, 3D models and interactiv
 
     ---
 
-    <span class="card-meta">⏱️ 8 min read · 🎯 Everyone who makes slides, flyers, websites or apps</span>
+    <span class="card-meta">⏱️ 7 min read · 🎯 Everyone who makes slides, flyers, websites or apps</span>
 
     Good design used to require years of training. Now AI can give you a head start on everything: moodboards, color palettes, logos, layouts, full app screens, slide decks, and code that matches the design.
 

@@ -1,6 +1,6 @@
 # 108 · Teaching Others About AI: Pass the Magic On 🧑‍🏫✨
 
-> ⏱️ 8 min read · 🎯 Anyone who's become "the AI person" among friends, family or coworkers · 🧰 Needs: a laptop or phone, a projector for workshops (optional), and patience
+> ⏱️ 7 min read · 🎯 Anyone who's become "the AI person" among friends, family or coworkers · 🧰 Needs: a laptop or phone, a projector for workshops (optional), and patience
 
 **You've learned a lot. Now you're probably the person everyone asks "wait, how did you do that?"** Teaching others is one of the
 most rewarding things you can do with your new skills, and one of the best ways to deepen them. This chapter gives you a
@@ -23,13 +23,6 @@ Teaching others to use AI works best when you focus on their problems, explain c
 
 ## 🎯 The golden rule: start with *their* problem
 
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-The most effective demonstration solves a problem the other person actually has. Ask about a task they find tedious, and show AI helping with that.
-
-</details>
-
 The fastest way to lose someone is a demo about *your* interests. The fastest way to win them is solving **their** annoying
 problem in front of them.
 
@@ -44,18 +37,6 @@ problem in front of them.
 
 ## ⏱️ The 15-minute first demo
 
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-A first demonstration takes about fifteen minutes.
-
-1. Ask what tedious task they'd like to hand off.
-2. Show AI handling it, explaining what you're doing.
-3. Let them try it themselves on a variation.
-4. Give them one simple thing to try at home.
-
-</details>
-
 | Minute | Step | Tips |
 |---|---|---|
 | 0–2 | **Ask:** *"What's a boring task you'd love to hand off?"* | Listen. Pick something small and real |
@@ -69,13 +50,6 @@ A first demonstration takes about fifteen minutes.
 > People remember what they *do*, not what they watch. Even if it's slower, put their hands on the keyboard.
 
 ## 🧩 An analogy bank for explaining AI
-
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-Well-chosen comparisons make abstract concepts easier to understand. The table offers tested analogies for language models, tokens, context windows, hallucinations and more.
-
-</details>
 
 | Concept | Analogy |
 |---|---|
@@ -95,13 +69,6 @@ Well-chosen comparisons make abstract concepts easier to understand. The table o
 
 ## 🎭 Meeting people where they are
 
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-People approach AI differently: skeptics need proof on something real, worried people need safety and reassurance, and enthusiasts need direction. The table suggests an approach for each.
-
-</details>
-
 | Person | What they need | Approach |
 |---|---|---|
 | 😒 **The skeptic** ("it's just hype") | Proof on something real | Solve their actual task. Admit the limits honestly |
@@ -112,13 +79,6 @@ People approach AI differently: skeptics need proof on something real, worried p
 | 🧑‍💻 **The techie** | Depth | Point them to MCP, agents and building chapters |
 
 ## 💬 Honest answers to common fears
-
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-People commonly worry about jobs, privacy, cheating and environmental impact. Answer honestly, acknowledging real concerns while sharing practical ways to address them. The table offers answers to each.
-
-</details>
 
 | Worry | An honest, hopeful answer |
 |---|---|
@@ -131,13 +91,6 @@ People commonly worry about jobs, privacy, cheating and environmental impact. An
 | **"Is it conscious?"** | "Scientists and philosophers are still debating what's going on inside these systems. For practical use, treat it as a powerful tool that can be wrong." |
 
 ## 🏫 Workshop outlines
-
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-The tabs provide ready-to-use outlines for a 60-minute workplace lunch session, a family workshop and a community class.
-
-</details>
 
 === "🍱 Lunch-and-learn (60 min)"
 
@@ -173,13 +126,6 @@ life."* 🖨️
 
 ## 💼 Building an AI-friendly culture at work
 
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-To build an AI-friendly culture at work, appoint a few AI champions, keep a shared prompt library, celebrate small wins and publish a clear, simple usage policy. The table describes each practice.
-
-</details>
-
 | Practice | How |
 |---|---|
 | **AI champions** | A few enthusiasts per team who help others |
@@ -191,13 +137,6 @@ To build an AI-friendly culture at work, appoint a few AI champions, keep a shar
 | **Include everyone** | Accessible training, no shaming for questions |
 
 ## 📈 Measuring whether it worked
-
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-Your teaching has worked when people use AI again on their own within a week, can explain at least one limitation and start showing others.
-
-</details>
 
 - They **used it again** within a week (the real test!).
 - They can **explain one limitation** (hallucinations, privacy).

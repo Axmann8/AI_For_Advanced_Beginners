@@ -1,6 +1,6 @@
 # 102 · Data Analysis for Everyone: From CSV to Dashboard 📊🐍
 
-> ⏱️ 7 min read · 🎯 Everyone with a spreadsheet (no stats or Python needed) · 🧰 Needs: an assistant with code execution, optionally Claude Code, Jupyter/Colab or a database
+> ⏱️ 6 min read · 🎯 Everyone with a spreadsheet (no stats or Python needed) · 🧰 Needs: an assistant with code execution, optionally Claude Code, Jupyter/Colab or a database
 
 **You don't need to know statistics or Python to get real answers from data anymore.** AI can load your spreadsheet, clean it,
 analyze it, chart it and explain what it means, in plain English. This chapter climbs five levels, from "chat with a CSV" to
@@ -23,13 +23,6 @@ AI makes data analysis accessible to anyone. Upload a spreadsheet and ask questi
 
 ## 🪜 The five levels
 
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-Data analysis with AI spans five levels, from chatting about a spreadsheet to building live dashboards. The table shows the effort each requires.
-
-</details>
-
 | Level | What you do | Effort |
 |---|---|---|
 | 1️⃣ **Chat with a spreadsheet** | Upload a file, ask questions | 🟢 Minutes |
@@ -39,13 +32,6 @@ Data analysis with AI spans five levels, from chatting about a spreadsheet to bu
 | 5️⃣ **Dashboards & data apps** | Live, shareable dashboards | 🟡 An afternoon |
 
 ## 1️⃣ Chat with a spreadsheet
-
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-Upload a CSV or Excel file to Claude, ChatGPT or Gemini, which can execute code. Ask your question in plain language; the assistant writes and runs code to answer it and produces charts on request.
-
-</details>
 
 Upload a CSV or Excel file to an assistant with **code execution** (Claude, ChatGPT and Gemini all do this). Behind the scenes,
 it writes and runs Python for you.
@@ -64,13 +50,6 @@ it writes and runs Python for you.
 
 ## 2️⃣ AI inside your spreadsheet
 
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-Google Sheets with Gemini and Excel with Copilot can generate formulas, build tables and run per-row AI prompts, such as labeling sentiment in reviews. The table describes each.
-
-</details>
-
 | Tool | What you can do |
 |---|---|
 | **Google Sheets + Gemini** | Generate formulas and tables, and `=AI()` per-cell prompts for classifying and summarizing rows |
@@ -81,17 +60,6 @@ Google Sheets with Gemini and Excel with Copilot can generate formulas, build ta
 pivot by theme. Qualitative data becomes quantitative in minutes. 🪄 Full details in [Spreadsheet Superpowers](../part-6-ai-in-your-apps/58-spreadsheet-superpowers.md).
 
 ## 3️⃣ Analysis notebooks with AI
-
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-For larger or repeatable analysis, use a notebook that combines notes, code and charts.
-
-1. Open Claude Code or Cursor in a folder with your data, or use Jupyter or Google Colab.
-2. Ask AI to write the analysis as a notebook.
-3. Re-run it whenever new data arrives.
-
-</details>
 
 For repeatable, bigger analysis:
 
@@ -124,13 +92,6 @@ Ask your agent to write queries like this for you, then read them to learn SQL a
 
 ## 4️⃣ Talk to databases with MCP
 
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-Connect a database MCP server with a read-only account, and you can ask questions about your data in plain language while AI writes the SQL queries for you.
-
-</details>
-
 Connect a database MCP server ([MCP Server Catalog](../part-4-mcp-and-connectors/40-mcp-server-catalog.md)) with a **read-only**
 user:
 
@@ -145,13 +106,6 @@ The AI writes SQL, runs it, checks the results and explains. This is a game-chan
 
 ## 5️⃣ Dashboards & data apps
 
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-Dashboards display charts that update automatically. AI can build them quickly with Claude Artifacts, Streamlit, or business intelligence tools like Looker Studio and Power BI. The table compares the options.
-
-</details>
-
 | Option | Effort | Notes |
 |---|---|---|
 | **Claude Artifacts** | Minutes | Interactive charts and dashboards right in chat, shareable |
@@ -164,13 +118,6 @@ Dashboards display charts that update automatically. AI can build them quickly w
 ([n8n Masterclass](../part-5-automation/47-n8n-masterclass.md)).
 
 ## 🧠 Thinking clearly about data
-
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-Data can mislead. Correlation doesn't prove causation, small samples are unreliable, and averages can hide important differences. Ask AI to suggest alternative explanations and check the strength of your conclusions. The table lists common traps.
-
-</details>
 
 | Trap | Ask AI |
 |---|---|
@@ -186,13 +133,6 @@ you found a bug. 🐛
 
 ## 🎮 Fun datasets to practice with
 
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-Practicing with data about your own life, such as spending, music listening or fitness, makes learning more engaging. The table suggests datasets and questions to ask.
-
-</details>
-
 | Dataset | Questions to ask |
 |---|---|
 | Your **bank/credit card export** | Where does my money go? Trends? Forgotten subscriptions? ([Money](96-money-and-personal-finance.md)) |
@@ -203,13 +143,6 @@ Practicing with data about your own life, such as spending, music listening or f
 | **Public data** (Kaggle, data.gov, Our World in Data) | Anything you're curious about! |
 
 ## 🔒 Privacy with data
-
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-Before uploading data, remove names, emails and account numbers, aggregate where possible, and use business plans or local models for sensitive data, especially data about other people.
-
-</details>
 
 - **Strip identifiers** (names, emails, account numbers) before uploading sensitive data.
 - **Aggregate** when possible: monthly totals instead of individual transactions.

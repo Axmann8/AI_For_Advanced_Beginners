@@ -1,6 +1,6 @@
 # 71 · Computer Use & Browser Agents: AI That Clicks for You 🖱️🌐
 
-> ⏱️ 9 min read · 🎯 Beginner → intermediate · 🧰 Needs: an AI browser or extension (Claude in Chrome, ChatGPT agent, Comet…), or Playwright MCP for builders
+> ⏱️ 8 min read · 🎯 Beginner → intermediate · 🧰 Needs: an AI browser or extension (Claude in Chrome, ChatGPT agent, Comet…), or Playwright MCP for builders
 
 **Some tasks don't have an API. They have a website with a login, three dropdowns and a "Submit" button.** Computer-use and
 browser agents handle those: they look at the screen, move the mouse, type, click and scroll, just like you. This chapter
@@ -22,13 +22,6 @@ A computer-use agent operates a computer the way a person does: it views the scr
 
 ## 🧠 How computer-use agents work
 
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-A computer-use agent repeats a simple loop: take a screenshot, decide on one action (click, type or scroll), perform it, and take another screenshot to see the result. It's the standard agent loop with screen-based tools.
-
-</details>
-
 ```mermaid
 flowchart LR
     S[📸 Screenshot<br/>or page structure] --> T[🧠 Think:<br/>what next?]
@@ -49,13 +42,6 @@ Many tools mix both: read the page structure when possible, and fall back to scr
 
 ## 🌐 AI browsers & browser extensions (no code)
 
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-AI browsers and extensions add an assistant in a side panel that can read the current page and complete tasks by clicking and typing. The table lists the main options and good first uses.
-
-</details>
-
 | Tool | What it is | Try it for |
 |---|---|---|
 | **Claude in Chrome** | Claude as a Chrome extension that can read, click and fill in pages | "Compare these three product pages in a table" |
@@ -70,13 +56,6 @@ AI browsers and extensions add an assistant in a side panel that can read the cu
 > regions. Check each product's current page before you pick one.
 
 ## 🧰 Builder tools
-
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-If you're building your own automations, toolkits like Playwright MCP, Browser Use and Stagehand let an AI control a real browser. The table compares them.
-
-</details>
 
 | Tool | Type | Best for |
 |---|---|---|
@@ -97,13 +76,6 @@ claude mcp add playwright -- npx @playwright/mcp@latest
 Then: *"Open localhost:3000, sign up as a new user, and screenshot every step. Tell me anything confusing about the flow."* 🤯
 
 ## 🖥️ The Claude computer use API
-
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-The Claude API includes a computer use tool: Claude receives screenshots and returns actions such as clicks and keystrokes, which your code carries out in a virtual machine or sandboxed environment.
-
-</details>
 
 The Claude API includes a **computer use tool**: Claude receives screenshots and returns actions (move, click, type, key
 presses, scroll), and your code carries them out on a **virtual machine or container**. Anthropic publishes a reference
@@ -131,13 +103,6 @@ sequenceDiagram
 
 ## 🌟 What they're great at (and not)
 
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-Computer-use agents excel at repetitive form-filling, comparisons and data gathering. They struggle with CAPTCHAs, frequently changing sites and tasks where one wrong click is costly. The table lists more examples.
-
-</details>
-
 | 🌟 Great at | 😬 Still tricky |
 |---|---|
 | Filling in long, boring forms | Captchas and anti-bot walls (by design!) |
@@ -151,13 +116,6 @@ Computer-use agents excel at repetitive form-filling, comparisons and data gathe
 long tail of websites that don't have one.
 
 ## 🎮 Great first tasks
-
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-Start with safe, low-stakes tasks such as comparing products or gathering information, rather than purchasing, sending or deleting. The table offers example prompts.
-
-</details>
 
 | Task | Prompt |
 |---|---|
@@ -174,13 +132,6 @@ Start with safe, low-stakes tasks such as comparing products or gathering inform
 > Add this phrase to any task involving forms, purchases or messages. You review, then click the final button yourself.
 
 ## 🔐 Safety: prompt injection & the keys to your browser
-
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-Web pages can contain hidden instructions aimed at AI agents (prompt injection). Use browser agents in a separate browser profile without access to important accounts, review actions before they're completed, and never let them handle payments or passwords unsupervised.
-
-</details>
 
 Browser agents read web pages, and **web pages can contain instructions aimed at AI** (hidden text, sneaky comments). That's
 **prompt injection**, and it's the #1 risk for agents with access to your logged-in accounts ([MCP Security & Trust](../part-4-mcp-and-connectors/43-mcp-security-and-trust.md)).
@@ -202,17 +153,6 @@ Browser agents read web pages, and **web pages can contain instructions aimed at
 
 ## 🏗️ Build: a price-watcher with Playwright MCP
 
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-This build uses Claude Code and Playwright MCP to create a daily price checker.
-
-1. Have the agent open the product page and identify a reliable selector for the price.
-2. Ask it to write a script that reads the price and compares it with your target.
-3. Schedule the script to run daily and send you an alert when the price drops.
-
-</details>
-
 1. **Explore with an agent:** in Claude Code with Playwright MCP: *"Open [product page], find the price element, and tell me
    a reliable selector for it."*
 2. **Turn it into a script** (fast, free and repeatable): *"Write a Playwright script that reads the price from these 5 URLs
@@ -224,13 +164,6 @@ This build uses Claude Code and Playwright MCP to create a daily price checker.
 thinking, plain code for the repeating. That's cheaper, faster and more reliable than an agent clicking every day. 🧠➡️⚙️
 
 ## 🔭 Where this is heading
-
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-Computer-use agents are improving rapidly with each model generation, and websites are beginning to offer agent-friendly interfaces that make these tasks faster and more reliable.
-
-</details>
 
 - **Faster, more reliable agents:** computer-use benchmark scores have climbed quickly, and every model generation clicks
   better.

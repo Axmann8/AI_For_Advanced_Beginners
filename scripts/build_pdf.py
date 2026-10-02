@@ -29,7 +29,7 @@ import time
 import urllib.request
 from dataclasses import dataclass, field
 from pathlib import Path
-from urllib.parse import urljoin, urlsplit
+from urllib.parse import unquote, urljoin, urlsplit
 
 import pymupdf
 from bs4 import BeautifulSoup, Comment, Tag
@@ -348,6 +348,12 @@ def build_docs(site: Path) -> list[Doc]:
     heads |= {d.anchor for d in docs}
     rewrite = link_rewriter(docs)
     for doc, art in zip(docs, arts):
+        for img in art.find_all("img", src=True):  # screenshots etc.: point at the built site's files
+            src = img["src"]
+            if not src.startswith(("http://", "https://", "data:", "file:")):
+                path = (site / doc.key / unquote(urlsplit(src).path)).resolve()
+                if path.exists():
+                    img["src"] = path.as_uri()
         for lead in ("lead", "keypoints"):
             if doc.extras.get(lead):
                 frag = BeautifulSoup(f"<div>{doc.extras[lead]}</div>", "lxml").div

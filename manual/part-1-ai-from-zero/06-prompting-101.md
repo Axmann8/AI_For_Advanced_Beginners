@@ -1,6 +1,6 @@
 # 06 · Prompting 101: How to Ask So AI Gets It ✍️
 
-> ⏱️ 8 min read · 🎯 Complete beginners · 🧰 Needs: any AI assistant
+> ⏱️ 7 min read · 🎯 Complete beginners · 🧰 Needs: any AI assistant
 
 **A "prompt" is simply what you type (or say) to the AI, and the quality of your prompt shapes the quality of the
 answer more than anything else.** The good news: there's no secret code. Good prompts are just clear requests with a
@@ -22,13 +22,6 @@ A prompt is the request you give an AI. The more clearly you describe what you n
 
 ## ✍️ Why prompts matter so much
 
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-An AI doesn't know your situation, audience or preferences unless you tell it. A request with specific details produces a far more useful answer than a vague one, as the comparison below shows.
-
-</details>
-
 Picture the AI as a **brilliant new assistant on their first day**. They're smart and eager, but they know *nothing*
 about you, your situation or your taste. If you say "write an email to my boss," they'll write a perfectly generic
 email that fits nobody.
@@ -42,19 +35,6 @@ Compare:
 Same AI, same five seconds of your time, wildly different results. That's all prompting is. ✨
 
 ## 🧩 The five-ingredient recipe
-
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-Strong prompts usually combine five ingredients. You won't need all five every time, but checking for each one is a reliable way to improve a request.
-
-1. **Task:** what you want done.
-2. **Context:** who it's for and why.
-3. **Details:** what to include or avoid.
-4. **Format:** the shape of the answer (list, table, length).
-5. **Tone:** the style or mood.
-
-</details>
 
 | # | Ingredient | Ask yourself | Example |
 |---|---|---|---|
@@ -79,13 +59,6 @@ flowchart LR
 
 ## 🔄 Before & after: the recipe in action
 
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-The examples below show how adding a few specific details turns a vague request into one that produces a genuinely useful answer.
-
-</details>
-
 | Situation | 😐 Before | 🤩 After |
 |---|---|---|
 | Dinner | "Dinner ideas" | "Give me 5 dinner ideas for 2 adults and a picky 7-year-old. Under 30 minutes, one pan, no mushrooms. Simple ingredients from a normal supermarket." |
@@ -99,13 +72,6 @@ The examples below show how adding a few specific details turns a vague request 
 
 ## 🎭 Give it a role
 
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-Starting a prompt with "You are…" or "Act as…" sets the perspective, expertise and style the AI should use, such as a patient tutor or an experienced editor.
-
-</details>
-
 Starting with *"You are…"* or *"Act as…"* nudges the AI's style and focus:
 
 - *"Act as a **patient computer teacher** for someone who's never used a spreadsheet."*
@@ -118,13 +84,6 @@ gets tired or judges you. 💪
 
 ## 📋 Show an example
 
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-When you want a specific style, an example communicates it better than a description. Paste a sample you like and ask the AI to match it.
-
-</details>
-
 When you want a specific style, **showing beats describing**. Paste an example and say "like this":
 
 > *"Write 5 more product descriptions for my candle shop in the same style as this one:*
@@ -134,13 +93,6 @@ The AI will match the length, emoji use, rhythm and tone. This is called giving 
 "few-shot prompting," but you don't need to remember that).
 
 ## 📐 Ask for the shape you want
-
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-Specify the format you want, such as a bullet list, numbered steps, a table or a word limit, so the answer is ready to use without reworking.
-
-</details>
 
 AI can format answers in almost any way. Just ask:
 
@@ -158,17 +110,6 @@ AI can format answers in almost any way. Just ask:
 
 ## 🙋 Let the AI ask *you* questions
 
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-When you're unsure what details matter, ask the AI to interview you before it answers.
-
-1. Describe your goal in a sentence or two.
-2. Add: *"Before you answer, ask me any questions you need."*
-3. Answer its questions, and it will produce a tailored result.
-
-</details>
-
 This is the **best trick for beginners**: when you don't know what details to include, end your prompt with:
 
 > *"Before you answer, ask me any questions you need to give me a really good answer."*
@@ -182,13 +123,6 @@ having a coach who does a proper consultation. 🏃
 
 ## 🚫 Common beginner mistakes (and easy fixes)
 
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-Most weak results come from a handful of avoidable mistakes. The table pairs each common mistake with a simple fix.
-
-</details>
-
 | Mistake | Fix |
 |---|---|
 | **Too short:** "Write a speech" | Add who, why, how long, what tone |
@@ -200,13 +134,6 @@ Most weak results come from a handful of avoidable mistakes. The table pairs eac
 | **Pasting private info** | Remove names, account numbers and passwords first ([chapter 11](11-staying-safe-with-ai.md)) |
 
 ## 🃏 Your prompt card (print me!)
-
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-This card summarizes the prompting recipe on one page. Print it or save it somewhere handy for quick reference.
-
-</details>
 
 ```text
 ✍️  THE PROMPT RECIPE

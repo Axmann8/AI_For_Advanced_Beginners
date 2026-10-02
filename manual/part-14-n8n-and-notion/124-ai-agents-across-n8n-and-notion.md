@@ -1,6 +1,6 @@
 # 124 · AI Agents Across n8n + Notion 🤖
 
-> ⏱️ 10 min read · 🎯 Intermediate → advanced · 🧰 Needs: n8n, Notion, and an AI model (cloud API key or Ollama)
+> ⏱️ 8 min read · 🎯 Intermediate → advanced · 🧰 Needs: n8n, Notion, and an AI model (cloud API key or Ollama)
 
 **AI can live in three places in this stack: inside Notion, inside n8n, and in the assistants you chat with.** Each has
 strengths, and the best systems combine them: Notion's agents reason over your workspace, n8n agents act across your
@@ -24,13 +24,6 @@ AI agents can run in Notion (Notion Agent and Custom Agents), in n8n (the AI Age
 
 ## 🧠 Three homes for AI
 
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-Notion's own agents are best at reasoning over Notion content. n8n's AI Agent node is best at actions that span other apps and at high-volume processing. External assistants like Claude and ChatGPT are best for conversational, on-demand work. The table helps you decide where each job belongs.
-
-</details>
-
 | Where | What it is | Best for | Limits |
 |---|---|---|---|
 | **Notion AI** (Notion Agent, Custom Agents, AI properties) | AI built into your workspace | Writing, summarizing and organizing Notion content; scheduled reviews | Mostly works inside Notion (plus its MCP connections); uses Notion credits |
@@ -41,19 +34,6 @@ Notion's own agents are best at reasoning over Notion content. n8n's AI Agent no
 without you; your chat assistant as the friendly front door that can reach both.
 
 ## 🛠️ Build: an n8n agent with Notion tools
-
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-An n8n AI Agent node can use Notion nodes as tools, letting it look up and change your Notion data as part of answering a request. Combined with a chat trigger (Telegram, Slack or n8n's own chat), it becomes a personal assistant for your workspace.
-
-1. Add a trigger (Chat Trigger, Telegram Trigger or Slack Trigger) and an **AI Agent** node.
-2. Connect a chat model and a memory node keyed to the conversation.
-3. Attach Notion tool nodes: search tasks, create a task and update a task.
-4. Write a system message describing the databases, tools and rules.
-5. Test with real requests, then add an approval step for changes that matter.
-
-</details>
 
 ```mermaid
 flowchart LR
@@ -99,13 +79,6 @@ Telegram example.
 
 ## 🔌 MCP in both directions
 
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-MCP lets AI applications use tools from other systems. In this stack it works three ways: assistants use Notion directly through Notion's MCP server; assistants (and Notion's Custom Agents) run your n8n workflows through n8n's MCP Server Trigger or its instance-level MCP server; and n8n agents use any external MCP server through the MCP Client Tool.
-
-</details>
-
 | Direction | How | Example |
 |---|---|---|
 | **Claude / ChatGPT → Notion** | Connect Notion's official MCP server or built-in Notion connector | *"Which projects have no updates in two weeks?"* |
@@ -122,28 +95,27 @@ use them from any assistant.
 2. Attach tools to it: Notion tool nodes (*Find tasks*, *Create task*) or **Call n8n Workflow** tools for multi-step
    operations (*Onboard client*, *Weekly report*).
 3. Write a clear name and description for each tool. The assistant reads them to decide when to use it.
-4. Activate the workflow, copy the MCP URL, and add it to Claude, ChatGPT or Cursor as a custom connector (with your
+4. **Publish** the workflow, copy the MCP URL, and add it to Claude, ChatGPT or Cursor as a custom connector (with your
    authentication header or token).
 
 The kit includes a ready-made version:
 [`5-notion-tools-mcp-server.json`](../../examples/n8n-notion/5-notion-tools-mcp-server.json).
+
+![An n8n MCP Server Trigger with three Notion tool nodes underneath: find_tasks, create_task and complete_task](../assets/screenshots/n8n/kit-5-mcp.png "The kit's MCP server in n8n 2.41: one trigger, three Notion tools.")
+
+![The MCP Server Trigger settings with Test URL and Production URL, Bearer Auth, and the path notion-tools](../assets/screenshots/n8n/mcp-server-trigger.png "The trigger gives you the MCP address to paste into your assistant. Bearer Auth keeps strangers out.")
+
+For the **whole instance**, open **Settings → Instance-level MCP** in n8n and click **Enable MCP access**:
+
+![n8n's Instance level MCP settings page explaining that AI assistants and IDEs can connect over MCP, with an Enable MCP access button](../assets/screenshots/n8n/instance-level-mcp.png "Instance-level MCP: one switch, then choose which workflows assistants may see and run.")
+
+The [build-along](127-build-along-ai-command-center.md) walks through connecting it, step by step.
 
 **Why route through n8n instead of connecting Notion directly?** Because you decide exactly which operations exist. A
 *Create task* tool that always files into the right database with Source = `Claude` is safer and more predictable than
 giving an assistant open access to your whole workspace.
 
 ## 📚 RAG over your Notion workspace
-
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-Retrieval-augmented generation (RAG) lets AI answer questions using your Notion content, with citations. n8n can keep a vector store in sync with your pages and power a chat interface that searches them.
-
-1. **Ingest:** fetch pages as Markdown, split them into chunks, create embeddings and store them with the page URL.
-2. **Keep in sync:** re-index pages when they change, using the Notion Trigger or integration webhooks.
-3. **Query:** give an AI Agent a vector store tool, and instruct it to cite page URLs.
-
-</details>
 
 ```mermaid
 flowchart LR
@@ -176,13 +148,6 @@ Step-by-step RAG details are in [Build a RAG System](../part-8-knowledge-and-mem
 
 ## 🤝 Notion Custom Agents and n8n, working together
 
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-Notion Custom Agents and n8n complement each other. A Custom Agent can read and reason over your Notion content on a schedule or trigger, then call n8n through MCP for actions outside Notion. n8n, in turn, can prepare data for the agent by syncing information from other apps into Notion.
-
-</details>
-
 | Job | Notion Custom Agent | n8n |
 |---|---|---|
 | Weekly review of projects and notes | ✅ Reads and writes Notion natively | |
@@ -198,18 +163,6 @@ customer record.
 
 ## 🧪 AI enrichment pipelines
 
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-Not every AI task needs an agent. For predictable processing, such as classifying, summarizing or extracting fields from each new row, a fixed pipeline with structured output is cheaper, faster and more reliable.
-
-1. Query rows that need processing (for example, *AI processed is unchecked*).
-2. Send each to a **Basic LLM Chain** or **Information Extractor** with a structured output schema.
-3. Validate the values against your select options.
-4. Write the results to dedicated AI properties and check *AI processed*.
-
-</details>
-
 | Enrichment | Output fields | Good model choice |
 |---|---|---|
 | Classify an inbox item | Type, Priority, Project (from a fixed list) | Small, fast model |
@@ -223,18 +176,6 @@ Not every AI task needs an agent. For predictable processing, such as classifyin
 take, use an agent.
 
 ## 🛡️ Guardrails for AI in your workspace
-
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-AI with write access to your workspace needs limits. Give integrations only the access they need, require human approval for consequential actions, treat page content as untrusted, and log what agents do.
-
-1. Use a separate integration for each agent, shared only with the databases it needs.
-2. Remove delete and archive tools unless they're essential.
-3. Add approval steps before sending, publishing or bulk changes.
-4. Log every agent action to the Automation Log.
-
-</details>
 
 | Risk | Guardrail |
 |---|---|

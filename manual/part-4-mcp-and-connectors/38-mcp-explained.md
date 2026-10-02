@@ -1,6 +1,6 @@
 # 38 · MCP Explained: The USB-C Port for AI 🔌
 
-> ⏱️ 13 min read · 🎯 Beginner-friendly · 🧰 Needs: Claude Desktop, Claude Code, Cursor or VS Code (free tiers work)
+> ⏱️ 11 min read · 🎯 Beginner-friendly · 🧰 Needs: Claude Desktop, Claude Code, Cursor or VS Code (free tiers work)
 
 **Model Context Protocol (MCP)** is the open standard that lets *any* AI app plug into *any* tool or data source. It's
 the single most important idea in this whole manual, because once it clicks, you'll see how AI grows "hands" and "eyes",
@@ -21,13 +21,6 @@ The Model Context Protocol (MCP) is an open standard for connecting AI apps to o
 <!-- in-this-chapter -->
 
 ## 🧩 The problem MCP solves
-
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-Before MCP, every AI app needed a custom integration for every service. MCP replaces that with one standard: a service builds a single MCP server, and every compatible app can use it.
-
-</details>
 
 Before late 2024, connecting an AI app to a tool meant writing a **custom integration** for that exact pair. Claude
 needed its own GitHub integration, ChatGPT needed its own, Cursor needed its own… If there are **M** AI apps and **N**
@@ -68,13 +61,6 @@ and an [official server registry](https://registry.modelcontextprotocol.io).
 
 ## 🏠 The three roles: host, client, server
 
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-MCP has three roles. The **host** is the AI app you use. The **server** is a program that provides tools for one service. The **client** is the connection the host maintains to each server, one client per server.
-
-</details>
-
 ```mermaid
 flowchart LR
     subgraph Host["🏠 HOST (Claude Desktop, Cursor, ChatGPT…)"]
@@ -102,13 +88,6 @@ arguments,"* the host's client passes that to the GitHub server, the server call
 The server is the translator, and the host is the security guard that decides what's allowed.
 
 ## 🧰 What a server can offer
-
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-A server can offer three kinds of capabilities: **tools**, actions the model decides to use; **resources**, data the app can read; and **prompts**, reusable templates you choose from a menu. Tools are by far the most common.
-
-</details>
 
 | Primitive | Controlled by | What it is | Example |
 |---|---|---|---|
@@ -146,13 +125,6 @@ means remote servers get faster and more reliable. For builders, see [MCP Under 
 
 ## 🌍 Local vs. remote servers
 
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-A **local** server (stdio) runs on your computer and can access your files and apps. A **remote** server (Streamable HTTP) runs elsewhere and is reached by URL, usually with a login. Remote servers are easier to set up; local ones can work with things on your machine.
-
-</details>
-
 | | 🏠 **Local (stdio)** | ☁️ **Remote (Streamable HTTP)** |
 |---|---|---|
 | Runs | On your computer, launched by the app | On a server somewhere, reached by URL |
@@ -166,13 +138,6 @@ A **local** server (stdio) runs on your computer and can access your files and a
 remain king for anything on *your* machine (files, browsers, local databases, home automation).
 
 ## 🔗 How a tool call actually flows
-
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-When you ask a question, the model reviews the available tools and requests one. The host runs it on the server (asking your permission if configured to), then returns the result to the model, which uses it in its answer. The diagram shows each step.
-
-</details>
 
 ```mermaid
 sequenceDiagram
@@ -198,13 +163,6 @@ Notice step 6: **the approval gate lives in the host**, not the model. That's wh
 *always allow*, *ask every time*, or *never*.
 
 ## 📲 Installing servers, app by app
-
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-Every MCP-compatible app has a way to add servers: some through a directory where you click to connect, others through a configuration file listing each server. The sections below give the steps for each major app.
-
-</details>
 
 ### Claude (web, desktop, mobile)
 
@@ -270,18 +228,6 @@ Codex CLI, Windsurf, Zed, LM Studio, Goose, n8n, Raycast… all speak MCP with n
 
 ## ⚡ Your first 15 minutes with MCP
 
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-This exercise sets up three servers and uses them together.
-
-1. Install Claude Desktop (or another MCP host) and create a folder called `ai-playground`.
-2. Add the Filesystem, Fetch and Memory servers to your configuration.
-3. Fully restart the app and confirm the tools appear.
-4. Ask the AI to read a web page, save a summary in the folder and remember a fact about you.
-
-</details>
-
 1. **Install Claude Desktop** (or use Claude Code, Cursor or VS Code: same idea).
 2. Create an empty folder called `ai-playground` in your home directory.
 3. Add three servers to your config:
@@ -296,13 +242,6 @@ This exercise sets up three servers and uses them together.
    The memory server remembers.
 
 ## 🩺 Debugging MCP like a pro
-
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-Most MCP problems have one of four causes: the app wasn't fully restarted, the configuration file has a typo, the system can't find the server's command, or a required API key is missing. The table lists symptoms and fixes.
-
-</details>
 
 | Symptom | Likely cause | Fix |
 |---|---|---|
@@ -324,17 +263,6 @@ Most MCP problems have one of four causes: the app wasn't fully restarted, the c
 
 ## 🔐 Security hygiene: the quick version
 
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-Keep your MCP setup secure with three habits:
-
-1. Install servers only from trusted sources, such as official vendors and the MCP registry.
-2. Grant the minimum access each server needs.
-3. Require approval before any action that sends, deletes or spends.
-
-</details>
-
 1. **Install from trusted sources:** official vendor servers, the [official registry](https://registry.modelcontextprotocol.io),
    and well-maintained projects. A local server runs code on *your* machine.
 2. **Smallest scope wins:** one folder (not your whole drive), read-only tokens, specific repos.
@@ -346,13 +274,6 @@ Keep your MCP setup secure with three habits:
 The full story, including tool poisoning and how to audit a server in 5 minutes, is in [MCP Security & Trust](43-mcp-security-and-trust.md).
 
 ## 🦄 Myths & quick answers
-
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-This section corrects common misconceptions: MCP isn't only for developers, isn't exclusive to Claude, and doesn't give AI unrestricted access to your accounts.
-
-</details>
 
 <details class="quiz">
 <summary>❓ "MCP is only for developers."</summary>

@@ -12,7 +12,7 @@ art and music, and use it all in real life, with clear **✅ Key Points & Steps*
 [🐣 I'm brand new to AI](part-1-ai-from-zero/index.md "button-primary") [🤖 Master your assistant](part-2-ai-assistants-field-guide/index.md "button") [🚀 Start here](start-here/a-how-to-use-this-manual.md "button") [📄 Download the PDF book](download.md "button")
 
 <!-- stats:start -->
-<div class="hero-stats"><div class="stat"><strong>128</strong><span>chapters</span></div><div class="stat"><strong>1468</strong><span>Key Points & Steps boxes ✅</span></div><div class="stat"><strong>402</strong><span>quiz questions</span></div><div class="stat"><strong>133</strong><span>try-this challenges</span></div><div class="stat"><strong>13</strong><span>starter kits</span></div><div class="stat"><strong>277k</strong><span>words of fun</span></div></div>
+<div class="hero-stats"><div class="stat"><strong>128</strong><span>chapters</span></div><div class="stat"><strong>58</strong><span>real screenshots 📸</span></div><div class="stat"><strong>396</strong><span>quiz questions</span></div><div class="stat"><strong>132</strong><span>try-this challenges</span></div><div class="stat"><strong>13</strong><span>starter kits</span></div><div class="stat"><strong>233k</strong><span>words of fun</span></div></div>
 <!-- stats:end -->
 
 </div>
@@ -258,13 +258,13 @@ Each part has its own landing page with key points, a suggested path, and clicka
     ChatGPT, Gemini, Claude, Copilot, Grok, Perplexity, Meta AI, DeepSeek, Le Chat, Qwen, Siri, Alexa+ and more,
     each with a [complete guide](part-2-ai-assistants-field-guide/index.md).
 
--   **✅ Key Points & Steps everywhere**
+-   **📸 Click-by-click, with real screenshots**
 
     ---
 
-    Every chapter opens with a plain-language summary, and **every section** has its own, with numbered steps
-    whenever there's something to do. Skim them for the big picture, or read the whole
-    [Key Points Edition](appendices/g-key-points-edition.md) in one go.
+    The hands-on chapters tell you exactly what to click and show what your screen should look like, captured from
+    the real tools. Each chapter opens with a short summary; read them all in the
+    [Key Points Edition](appendices/g-key-points-edition.md).
 
 -   **🗺️ Clickable everything**
 

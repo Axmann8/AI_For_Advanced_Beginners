@@ -26,10 +26,11 @@ agents, run models on your own machine, make art, music and games, and use all o
 
 | | |
 |---|---|
+| 📸 **Real screenshots** | Click-by-click tutorials captured from the real tools, starting with [your first AI workflow in n8n](manual/part-5-automation/47-n8n-masterclass.md) and the [Notion + n8n build-along](manual/part-14-n8n-and-notion/127-build-along-ai-command-center.md). The [capture scripts](scripts/screenshots/) re-run whenever the tools change |
 | 🐣 **Starts from zero** | [Part I · AI from Zero](manual/part-1-ai-from-zero/index.md) takes complete beginners from their first chat to confident everyday use, with a 30-day plan |
 | 🌍 **Every assistant** | [Part II · The AI Assistants Field Guide](manual/part-2-ai-assistants-field-guide/index.md): complete guides to ChatGPT, Gemini, Claude, Copilot, Grok, Perplexity, Meta AI, DeepSeek, Le Chat, Qwen, Siri, Alexa+ and more |
 | 📄 **A real book, too** | The whole manual as a [beautifully formatted PDF](https://axmann8.github.io/The_Massive_AI_Manual/download/), rebuilt automatically |
-| ✅ **Key Points & Steps everywhere** | Every chapter *and every section* opens with a plain-language summary, with numbered steps whenever there's something to do. Skim them for the big picture, or read the [Key Points Edition](manual/appendices/g-key-points-edition.md) in one go |
+| ✅ **Key Points & Steps** | Every chapter opens with a short plain-language summary, then gets straight to the steps. Read all of them in one go in the [Key Points Edition](manual/appendices/g-key-points-edition.md) |
 | 🧭 **Clickable sections** | Every chapter starts with "In this chapter" cards that jump straight to each section |
 | 🧠 **Quizzes & takeaways** | Every chapter ends with key takeaways, a "Check yourself" quiz and a 🎮 Try this challenge |
 | ✅ **Progress tracking** | Mark chapters done on the website and watch your progress bar grow (with confetti 🎊) |

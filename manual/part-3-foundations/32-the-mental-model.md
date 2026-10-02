@@ -1,6 +1,6 @@
 # 32 · The Mental Model: From Chatbot to Teammate 🧠➡️🤖
 
-> ⏱️ 11 min read · 🎯 Beginner-friendly · 🧰 Needs: nothing but curiosity
+> ⏱️ 9 min read · 🎯 Beginner-friendly · 🧰 Needs: nothing but curiosity
 
 **You already know how to *talk* to an AI. This chapter is about the leap that makes everything else click: AI that can
 *act*, not just answer.** Once you see the four superpowers and the agent loop, every tool in this manual (MCP,
@@ -21,13 +21,6 @@ A basic chatbot can only respond with text. An **agent** is an AI that can also 
 <!-- in-this-chapter -->
 
 ## 🫙 From brain-in-a-jar to teammate
-
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-On its own, a chatbot only knows what you paste in and can only return text, leaving you to do the copying, clicking and following up. Connecting it to tools and data turns it into a teammate that can act for you.
-
-</details>
 
 A plain chatbot is a **brain in a jar**. It's astonishingly knowledgeable, but it can only work with what you paste in,
 and it can only hand text back to you. You're the one who has to copy, paste, click, file, send and remember.
@@ -51,19 +44,6 @@ the results, and repeats until it's done.
 > learning this at a genuinely historic moment. 🎉
 
 ## 🔁 The agent loop, demystified
-
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-Every agent, whether built in or one you create, follows the same loop:
-
-1. The model reads the goal and decides the next step.
-2. It calls a tool (search, read a file, create an event).
-3. It reads the result and decides whether it's done or needs another step.
-
-The key difference from a fixed script is that the model chooses each step based on what it finds.
-
-</details>
 
 Every agent you'll ever meet, whether it's Claude Code, ChatGPT agent, Zapier Agents, an n8n AI Agent node, or one you
 build yourself, runs roughly this loop:
@@ -101,13 +81,6 @@ feature, or a research agent writes a 10-page report.
 
 ## 🔧 What "tools" really are
 
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-A tool has three parts: a name, a plain-language description of what it does and when to use it, and a list of required inputs. The model reads these descriptions, chooses a tool, and asks the app to run it.
-
-</details>
-
 A tool is just three things:
 
 1. **A name:** `create_calendar_event`
@@ -128,13 +101,6 @@ well the AI uses the tool**. Vague descriptions make confused agents. You'll use
 tools in [Building MCP Servers](../part-4-mcp-and-connectors/42-building-mcp-servers.md).
 
 ## 🗺️ Where all the buzzwords fit
-
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-The diagram shows how the main terms fit together: **hosts** (the apps you talk to), **models** (the AI inside), **connectors and MCP servers** (links to your data and tools) and **automations** (workflows that run on their own).
-
-</details>
 
 ```mermaid
 flowchart TB
@@ -179,13 +145,6 @@ Trigger), and your workflows can run *full agents* inside them (n8n's AI Agent n
 
 ## 🚗 Autonomy levels: from autocomplete to autopilot
 
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-AI setups range from suggestions you approve one by one to agents that work independently on familiar tasks. Naming the level helps you decide how much oversight a setup needs; the table describes each level and your role in it.
-
-</details>
-
 Self-driving cars have "levels of autonomy." AI assistants have them too, and naming the level helps you decide how much to
 trust a setup:
 
@@ -201,13 +160,6 @@ trust a setup:
 actions that are **cheap to undo**. Sending an email to your boss? Level 2 forever is fine. Tagging receipts? Level 4 all day.
 
 ## ⚖️ What AI is great at (and where it still trips)
-
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-AI has a "jagged frontier": it's excellent at some difficult tasks, like summarizing and drafting, and surprisingly unreliable at some simple-looking ones, like precise counting or very long multi-step tasks. Assign work accordingly and verify what matters.
-
-</details>
 
 Researchers call AI's abilities a **"jagged frontier"**: brilliant at some surprisingly hard things, oddly weak at some
 easy-looking ones.
@@ -227,13 +179,6 @@ manual is mostly about tools!
 
 ## 🧪 A day in the life with an AI teammate
 
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-This example day shows how an AI teammate can handle many small tasks in the background: a morning briefing, email triage, research, scheduling and a weekly report.
-
-</details>
-
 Meet **Alex**, who read this manual. Here's their Tuesday:
 
 - **7:00** ☕ A **morning briefing** arrives (automation: calendar + news + weather → AI summary → phone).
@@ -249,17 +194,6 @@ Meet **Alex**, who read this manual. Here's their Tuesday:
 None of this is science fiction. Every single piece is covered in this manual with step-by-step instructions. 💪
 
 ## 🧭 Three principles that'll save you hours
-
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-Three principles prevent most frustration:
-
-1. **Context is king:** most poor answers happen because the AI couldn't see the information it needed.
-2. **Be explicit:** describe tasks and tools as clearly as you would to a new colleague.
-3. **Use the right tool for each step:** plain automation for predictable steps, AI for steps that need judgment.
-
-</details>
 
 1. **Context is king.** Most "the AI is dumb" moments are really "the AI couldn't see what I was looking at" moments.
    Connectors, MCP, attached files and memory all fix this. (Deep dive: [Context Engineering](36-context-engineering.md).)

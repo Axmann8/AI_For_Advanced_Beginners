@@ -1,6 +1,6 @@
 # 90 · Design & UI with AI: Make Things Look Wonderful 🎨📐
 
-> ⏱️ 8 min read · 🎯 Everyone who makes slides, flyers, websites or apps · 🧰 Needs: Canva or Figma (free tiers), and Claude or a UI builder like v0
+> ⏱️ 7 min read · 🎯 Everyone who makes slides, flyers, websites or apps · 🧰 Needs: Canva or Figma (free tiers), and Claude or a UI builder like v0
 
 **Good design used to require years of training. Now AI can give you a head start on everything: moodboards, color
 palettes, logos, layouts, full app screens, slide decks, and code that matches the design.** This chapter covers the tools,
@@ -28,13 +28,6 @@ AI can help with every stage of design: choosing color palettes and fonts, gener
 
 ## 🧰 The AI design toolbox
 
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-Different tools handle different design jobs: graphics and social posts (Canva, Adobe Express), app and web screens (Figma Make, v0), presentations (Gamma) and logos (Looka, Recraft). The table summarizes each.
-
-</details>
-
 | Job | Tools | Notes |
 |---|---|---|
 | 🖼️ **Graphics, social posts, flyers** | **Canva** (Magic Studio), Adobe Express | Templates + AI generation + brand kits |
@@ -47,13 +40,6 @@ Different tools handle different design jobs: graphics and social posts (Canva, 
 | 🔌 **Design ↔ code bridge** | **Figma MCP server**, Canva MCP | Coding agents read your real designs ([Cursor & AI IDEs](../part-7-building-with-ai/64-cursor-and-ai-ides.md)) |
 
 ## 🔁 A start-to-finish design workflow
-
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-A complete design workflow moves from brief to mood board, style choices, wireframe, polished mockup and finally code. The table shows what to ask AI at each step and what you get.
-
-</details>
 
 ```mermaid
 flowchart LR
@@ -73,13 +59,6 @@ flowchart LR
 
 ## 🎨 Color, type & layout with AI
 
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-AI can generate color palettes with accessible contrast, suggest font pairings that match a mood and recommend spacing and layout systems. The table includes prompts and explains why they work.
-
-</details>
-
 | Ask | Why it works |
 |---|---|
 | *"A palette for a calm meditation app: 1 primary, 1 accent, 3 neutrals, with hex codes and contrast ratios."* | Specific roles + accessibility built in |
@@ -92,13 +71,6 @@ AI can generate color palettes with accessible contrast, suggest font pairings t
 consistency, and "one primary action per screen." Ask: *"Explain these design principles using my screenshot as the example."*
 
 ## 🧐 Getting taste out of AI: critique
-
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-Screenshot your design and ask AI for critique through a specific lens, such as first impressions, visual hierarchy, readability or consistency. It's an effective way to find problems before users do.
-
-</details>
 
 AI critique is one of the most underrated design tools. Screenshot your work and ask:
 
@@ -120,17 +92,6 @@ AI critique is one of the most underrated design tools. Screenshot your work and
 
 ## 🔌 Design-to-code with Figma & MCP
 
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-The Figma MCP server lets coding agents read your designs directly, including exact colors, spacing and components.
-
-1. Design screens in Figma (or generate them with Figma Make).
-2. Connect the Figma MCP server to Claude Code, Cursor or VS Code.
-3. Ask the agent to build a selected frame as code that matches the design.
-
-</details>
-
 1. Design screens in **Figma** (or generate them with Figma Make).
 2. Connect the **Figma MCP server** to Claude Code, Cursor or VS Code.
 3. Select a frame and ask: *"Implement this frame as a responsive React component using our Tailwind config and existing
@@ -142,13 +103,6 @@ The Figma MCP server lets coding agents read your designs directly, including ex
 reuse them instead of inventing new ones.
 
 ## ♿ Accessibility: design for everyone
-
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-Accessible design works for everyone, including people with low vision, color blindness or motor impairments, and people using screen readers. AI can check contrast, write alt text, review touch-target sizes and audit structure. The table lists each check.
-
-</details>
 
 | Check | AI help |
 |---|---|
@@ -163,13 +117,6 @@ More in [Accessibility & AI](../part-11-ai-for-life-and-work/101-accessibility-a
 
 ## 📊 Presentations & everyday graphics
 
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-AI can turn an outline or document into a polished slide deck, and produce flyers, invitations and social graphics in minutes. The table suggests the fastest path for each need.
-
-</details>
-
 | Need | Fast path |
 |---|---|
 | **Slide deck from a doc** | Gamma, Canva or PowerPoint Copilot: paste your outline or doc |
@@ -183,13 +130,6 @@ AI can turn an outline or document into a polished slide deck, and produce flyer
 remember? If it's unclear, split or cut the slide."*
 
 ## 🎮 12 design projects
-
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-The table lists twelve design projects for practicing with AI.
-
-</details>
 
 | # | Project |
 |---|---|

@@ -1,6 +1,6 @@
 # 35 · The AI Landscape: Who's Who 🗺️🏢
 
-> ⏱️ 8 min read · 🎯 Beginner-friendly · 🧰 Needs: nothing
+> ⏱️ 7 min read · 🎯 Beginner-friendly · 🧰 Needs: nothing
 
 **Claude, GPT, Gemini, Llama, Qwen, Mistral, DeepSeek… Cursor, Perplexity, Midjourney, ElevenLabs…** The AI world has a
 *lot* of names. This chapter is your field guide: who makes what, how the pieces stack together, what "open-weight" means,
@@ -22,13 +22,6 @@ The AI industry has distinct layers: labs that build models, cloud platforms tha
 
 ## 🧱 The stack in one picture
 
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-The AI stack runs from chips at the bottom, through data centers and model-building labs, to the apps you use at the top. Most of what you interact with lives in the top layers, but the lower layers explain prices, speed and availability.
-
-</details>
-
 ```mermaid
 flowchart TB
     U[🧑 You]
@@ -45,13 +38,6 @@ Most of what you *use* lives in the top two layers, but knowing the lower layers
 model shows up in many apps.
 
 ## 🏛️ The frontier labs
-
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-Frontier labs build the largest, most capable models. Each has its own strengths and flagship products, summarized in the table.
-
-</details>
 
 | Lab | Main models | Flagship products | Known for |
 |---|---|---|---|
@@ -75,13 +61,6 @@ Every one of these has a friendly, complete user guide in [Part II · The AI Ass
 
 ## 🏢 The big platforms
 
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-Large technology companies build AI into products people already use every day, including operating systems, office software, search, email and shopping, and also host models for businesses.
-
-</details>
-
 | Company | AI in your life | Also… |
 |---|---|---|
 | **Microsoft** | Copilot in Windows, Edge and Microsoft 365; GitHub Copilot | Azure / Microsoft Foundry hosts many models, including OpenAI's and Anthropic's |
@@ -91,13 +70,6 @@ Large technology companies build AI into products people already use every day, 
 | **NVIDIA** | Powers most AI training and inference | Also releases open models and tools for running AI locally |
 
 ## 🔓 Open vs. closed models
-
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-A **closed** model is available only through its maker's app or API. An **open-weight** model can be downloaded, run on your own hardware and modified. The table compares the trade-offs in cost, privacy, capability and control.
-
-</details>
 
 | | 🔒 Closed (API-only) | 🔓 Open-weight |
 |---|---|---|
@@ -110,13 +82,6 @@ A **closed** model is available only through its maker's app or API. An **open-w
 data or full recipe. Licenses vary: some are very permissive, others restrict certain uses. Check before building a business on one.
 
 ## 📱 The app & tool layer
-
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-Many companies don't build models but create apps that use them for a specific purpose, such as coding, search, writing, design or voice. The table lists popular tools by category and the chapter that covers each.
-
-</details>
 
 | Category | Popular tools | Chapter |
 |---|---|---|
@@ -131,13 +96,6 @@ Many companies don't build models but create apps that use them for a specific p
 
 ## ☁️ Where models actually run
 
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-Models run on large cloud platforms (AWS, Google Cloud, Azure), on specialized inference providers optimized for speed and cost, and through routers like OpenRouter that offer many models through a single API.
-
-</details>
-
 - **Big clouds:** AWS (Bedrock), Google Cloud (Vertex AI), Microsoft (Azure / Foundry) host models from many labs. Great for
   companies that need their AI inside their existing cloud.
 - **Inference providers:** Together, Fireworks, Groq, Cerebras, DeepInfra and others run open models fast and cheap.
@@ -146,13 +104,6 @@ Models run on large cloud platforms (AWS, Google Cloud, Azure), on specialized i
 - **Your own machine:** Ollama and LM Studio run open models on your laptop ([Part IX](../part-9-local-ai/index.md)).
 
 ## 🏷️ How to decode model names
-
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-Model names follow consistent patterns: a family name, a version number and a tier or specialty label (such as Opus, Flash or Coder). The table explains what the common terms usually mean.
-
-</details>
 
 | You see… | It usually means… |
 |---|---|
@@ -170,13 +121,6 @@ Model names follow consistent patterns: a family name, a version number and a ti
 
 ## 📊 Keeping track without drowning
 
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-You don't need to follow every release. Check leaderboards like LMArena and Artificial Analysis occasionally, read the release notes for tools you actually use, and rely most on your own testing.
-
-</details>
-
 - **Leaderboards (hints, not gospel):** LMArena (human preference votes), Artificial Analysis (quality, speed and price),
   SWE-bench (coding).
 - **Release notes & changelogs** of the tools *you* use tell you about features you're already paying for.
@@ -184,13 +128,6 @@ You don't need to follow every release. Check leaderboards like LMArena and Arti
 - A light news diet: [Staying Current](../part-12-mastery/110-staying-current.md).
 
 ## 🔮 Trends worth watching
-
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-Key trends to watch include agents that work for hours, steadily falling costs, open-weight models closing the gap with closed ones, better multimodal abilities and growing integration through standards like MCP.
-
-</details>
 
 1. **Agents that work for hours**, with better planning, memory and self-checking.
 2. **Cheaper intelligence**: today's frontier becomes tomorrow's budget tier.

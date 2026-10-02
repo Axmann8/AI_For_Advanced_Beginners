@@ -1,6 +1,6 @@
 # 89 · Storytelling & Interactive Fiction: Co-Write with AI 📖🐉
 
-> ⏱️ 7 min read · 🎯 Writers, game masters, parents, daydreamers · 🧰 Needs: Claude (or any assistant), optionally Twine or Claude Code for interactive builds
+> ⏱️ 6 min read · 🎯 Writers, game masters, parents, daydreamers · 🧰 Needs: Claude (or any assistant), optionally Twine or Claude Code for interactive builds
 
 **AI is a wonderful creative partner: a brainstorming buddy at 2am, a tireless game master, a character you can interview,
 a kind editor, and a bedtime-story machine.** This chapter shows how to co-write *with* AI while keeping your own voice,
@@ -23,13 +23,6 @@ AI is a capable creative writing partner: it can brainstorm ideas, role-play you
 
 ## ✍️ Co-writer, not ghostwriter
 
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-AI excels at generating options, asking questions and giving feedback; you bring the vision, voice and emotional truth. Keeping that division produces stories that feel like yours. The table describes each side's role.
-
-</details>
-
 | AI is brilliant at… | You bring… |
 |---|---|
 | 💡 Brainstorming 50 "what ifs" in a minute | The idea that makes *you* excited |
@@ -45,13 +38,6 @@ AI excels at generating options, asking questions and giving feedback; you bring
 > **you** the author, and the best idea is often a mix of two.
 
 ## 📚 Build a story bible
-
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-A story bible records your characters, settings, rules and timeline. Store it in a Claude Project (or a `STORY.md` file for Claude Code) so every conversation stays consistent with your world.
-
-</details>
 
 A **story bible** keeps long projects consistent. Put it in a Claude Project (or a `STORY.md` file for Claude Code) so every
 conversation knows your world ([Context Engineering](../part-3-foundations/36-context-engineering.md)).
@@ -82,13 +68,6 @@ Old Grey's fear could raise the stakes in act two."*
 
 ## 🧰 Writing workflows
 
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-Different techniques help at each stage of writing, from "what if" brainstorms for ideas to targeted feedback during revision. The table pairs each stage with a technique and a prompt.
-
-</details>
-
 | Stage | Technique | Prompt |
 |---|---|---|
 | **Idea** | "What if" storms | *"20 what-ifs combining a cozy mystery with a space station."* |
@@ -101,13 +80,6 @@ Different techniques help at each stage of writing, from "what if" brainstorms f
 | **Titles & blurbs** | Marketing copy | *"15 title ideas and a 100-word back-cover blurb."* |
 
 ## 🎲 AI as game master
-
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-AI can run a text-based role-playing adventure: it describes the scene, you decide what your character does, and it narrates the consequences. A detailed setup prompt, like the example below, makes the experience much better.
-
-</details>
 
 Chat-based role-playing adventures are one of the most fun things you can do with AI. The secret is a great setup prompt:
 
@@ -138,13 +110,6 @@ Begin in the village square on market day.
 
 ## 🌳 Build a choose-your-own-adventure
 
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-Choose-your-own-adventure stories let readers decide what happens. Tools like Twine and Ink help you build branching stories, and AI can draft branches, check for dead ends and generate the final web page. The table compares the tools.
-
-</details>
-
 | Tool | Style |
 |---|---|
 | **Twine** | Free, visual branching-story editor that exports a web page |
@@ -171,13 +136,6 @@ for this story graph with page-turn animations and a map of choices made."*
 
 ## 🌙 Bedtime stories & kids' books
 
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-AI can help you create bedtime stories with your children: they choose the hero, setting and problem, and you shape the story together. Favorites can become illustrated picture books.
-
-</details>
-
 - **Co-create with your child:** they choose the hero, the setting and the problem. *"A story about Maya and her dog Biscuit
   who find a door in the moon."* 🌙🐶
 - **Keep kids in the driver's seat:** stop at a cliffhanger and ask *them* what happens next.
@@ -190,13 +148,6 @@ More for families in [Parents, Teachers & Students](../part-11-ai-for-life-and-w
 
 ## 🌍 Worldbuilding superpowers
 
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-AI is excellent for worldbuilding: designing geography, history, cultures, languages, economies and magic systems that fit together. The table offers prompts for each element.
-
-</details>
-
 | Build | Prompt |
 |---|---|
 | 🗺️ Geography | *"Design a continent shaped by one giant ancient river. List 6 regions, their climates and conflicts."* |
@@ -207,13 +158,6 @@ AI is excellent for worldbuilding: designing geography, history, cultures, langu
 | 🪙 Economy | *"What's money here, and what's the most valuable thing?"* |
 
 ## 📤 Publishing & ethics
-
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-When publishing work created with AI assistance, follow each platform's disclosure rules (Amazon KDP, for example, asks), avoid imitating other authors' characters or text, and understand the copyright limits on purely AI-generated content. The table gives practical guidance.
-
-</details>
 
 | Topic | Practical guidance |
 |---|---|

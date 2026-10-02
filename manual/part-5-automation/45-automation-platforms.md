@@ -1,6 +1,6 @@
 # 45 · Automation Platforms: AI That Works While You Sleep ⚙️🌙
 
-> ⏱️ 9 min read · 🎯 Beginner-friendly · 🧰 Needs: a free account on Zapier or Make, or `npx n8n` for a local n8n
+> ⏱️ 7 min read · 🎯 Beginner-friendly · 🧰 Needs: a free account on Zapier or Make, or `npx n8n` for a local n8n
 
 **Chat-based AI needs *you* to press enter. Automation platforms run on triggers**: a new email, a form submission, 7am
 every day, a webhook. Put an AI step in the middle and you've got a tireless little robot employee. This chapter maps the
@@ -21,19 +21,6 @@ An automation is a workflow that runs on its own: **when something happens, do s
 
 ## 🧬 The pattern behind every AI automation
 
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-Nearly every AI automation follows the same five-step pattern:
-
-1. **Trigger:** something happens (an email arrives, a time is reached).
-2. **Gather:** collect the data needed.
-3. **AI:** summarize, classify or draft.
-4. **Route:** choose a path based on the result.
-5. **Act:** send, save or update something.
-
-</details>
-
 ```mermaid
 flowchart LR
     T[⚡ Trigger<br/>new email · schedule · webhook] --> G[📥 Gather<br/>fetch data]
@@ -48,13 +35,6 @@ you can design automations in your head while waiting for coffee. ☕
 
 ## 🧱 The building blocks (vocabulary)
 
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-All automation platforms use the same kinds of building blocks (triggers, actions, conditions, loops and data storage), though each names them differently. The table maps the terms across Zapier, Make and n8n.
-
-</details>
-
 | Block | What it does | Zapier calls it | Make calls it | n8n calls it |
 |---|---|---|---|---|
 | **Trigger** | Starts the workflow | Trigger | Trigger module | Trigger node |
@@ -67,13 +47,6 @@ All automation platforms use the same kinds of building blocks (triggers, action
 | **Human approval** | Wait for a yes/no | Human in the Loop | Approval flows | Send-and-wait nodes |
 
 ## 🟣 n8n: the tinkerer's favorite
-
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-n8n is a visual workflow builder that you can self-host for free, with code nodes for custom logic and strong built-in AI agent features. It suits people who want flexibility and control over their data.
-
-</details>
 
 - **What:** a visual workflow builder with a code escape hatch (JavaScript or Python nodes). It's **fair-code** and
   **self-hostable**: run it free on your machine or server, or pay for n8n Cloud.
@@ -88,13 +61,6 @@ n8n is a visual workflow builder that you can self-host for free, with code node
 
 ## 🟠 Zapier: the biggest app catalog
 
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-Zapier is the easiest platform to start with, requires no setup and connects to more than 8,000 apps. It includes AI steps, Zapier Agents, and the ability to build workflows from a plain-language description.
-
-</details>
-
 - **What:** the OG no-code automation tool, with **8,000+ apps**.
 - **AI superpowers:** AI steps in Zaps, **Zapier Agents** (AI teammates that browse and use your apps on triggers),
   **Zapier MCP** (one URL gives Claude, ChatGPT or Cursor thousands of app actions), **Copilot** (describe a Zap and it
@@ -105,26 +71,12 @@ Zapier is the easiest platform to start with, requires no setup and connects to 
 
 ## 🟦 Make: the visual power tool
 
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-Make provides a visual canvas well suited to workflows with many branches, loops and detailed data mapping. It includes AI modules, AI agents and an MCP server.
-
-</details>
-
 - **What:** a visual canvas with branching, iterators and fine-grained data mapping.
 - **AI:** AI modules for many models, **Make AI Agents**, and an MCP server to expose scenarios as tools.
 - **Pricing shape:** operations/credits. Generally cheaper than Zapier at volume.
 - **Best for:** complex visual logic without code, heavy data shuffling.
 
 ## 🌈 The rest of the map
-
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-Other options include Pipedream (code-first), Activepieces (open source), Power Automate (Microsoft), Google Workspace Flows, and phone automation apps. The table describes each one's niche.
-
-</details>
 
 | Tool | Niche |
 |---|---|
@@ -138,13 +90,6 @@ Other options include Pipedream (code-first), Activepieces (open source), Power 
 | **Temporal, Inngest, Trigger.dev** | Code-level durable workflows for building real products |
 
 ## ⚖️ Side-by-side comparison
-
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-The table compares n8n, Zapier, Make, Pipedream and Activepieces on learning curve, self-hosting, pricing model, AI features and best use.
-
-</details>
 
 | | n8n | Zapier | Make | Pipedream | Activepieces |
 |---|---|---|---|---|---|
@@ -161,13 +106,6 @@ deep, because self-hosting means unlimited experimentation for free. Many pros u
 
 ## 🧭 When to automate (and when not to)
 
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-Automate tasks that happen often, follow the same steps each time, and are tedious or error-prone. Avoid automating rare tasks or ones that need your personal judgment every time. The table lists more criteria.
-
-</details>
-
 | ✅ Great candidates | ❌ Poor candidates |
 |---|---|
 | Happens weekly or more | Happens once a year |
@@ -179,18 +117,6 @@ Automate tasks that happen often, follow the same steps each time, and are tedio
 **Quick math:** a 10-minute weekly chore is **8+ hours a year**. Even a 2-hour build pays off fast.
 
 ## 🛠️ Your first automation in 15 minutes
-
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-This first automation sends you a daily message with an interesting fact and a small challenge.
-
-1. Choose Zapier (no installation) or n8n.
-2. Add a **Schedule** trigger set to every morning.
-3. Add an AI step with the prompt shown below.
-4. Add an action that sends the result to your email, Slack or phone.
-
-</details>
 
 **Option A · Zapier (no install):**
 
@@ -204,16 +130,9 @@ This first automation sends you a daily message with an interesting fact and a s
 
 1. `npx n8n` → open http://localhost:5678.
 2. Import the [Morning AI Digest](../../examples/n8n-workflows/morning-ai-digest.json) workflow.
-3. Add your Anthropic credential, choose Slack or swap in Gmail, click **Test workflow**, then **Activate**.
+3. Add your Anthropic credential, choose Slack or swap in Gmail, click **Execute workflow**, then **Publish**.
 
 ## 🍳 A taste of what's possible
-
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-These are some of the most popular AI automations. The [Automation Recipe Book](52-automation-recipe-book.md) has 50 more.
-
-</details>
 
 1. **Morning digest:** news and RSS → AI summary → Slack or email.
 2. **Idea inbox:** phone → webhook → AI categorizes → Notion ([importable](../../examples/n8n-workflows/idea-inbox-to-notion.json)).
@@ -227,13 +146,6 @@ These are some of the most popular AI automations. The [Automation Recipe Book](
 **50 more in [The Automation Recipe Book](52-automation-recipe-book.md).**
 
 ## 💡 Pro tips
-
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-A few habits make automations more reliable: test with sample data, request JSON when the next step needs structured data, add an approval step before important actions, and log what each run does.
-
-</details>
 
 - **Pin test data** (n8n and Make) so you don't re-trigger things while building.
 - **Ask the AI for JSON** when the next step needs structure, and parse it ([Webhooks, APIs & JSON](46-webhooks-apis-json.md)).

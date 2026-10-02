@@ -23,13 +23,6 @@ In this project you'll build a private AI assistant for your household that runs
 
 ## 🗺️ What you'll build
 
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-Family devices connect over a private Tailscale network to Open WebUI on your home computer, which uses a local model, searches your household documents, handles voice and can control smart devices. The diagram shows the setup.
-
-</details>
-
 ```mermaid
 flowchart LR
     P[📱 Family phones & laptops] -->|Tailscale private network| OW[💬 Open WebUI<br/>accounts · chat · voice]
@@ -51,13 +44,6 @@ flowchart LR
 
 ## ✅ Before you start
 
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-You'll need an always-on computer (a mini PC, an older desktop or a Mac mini, with 16 GB of RAM or more), Docker and an afternoon.
-
-</details>
-
 - [ ] An **always-on computer**: a mini PC, an old desktop, or a Mac mini (16 GB+ RAM, more is better) ([Hardware](../part-9-local-ai/79-hardware-for-local-ai.md))
 - [ ] **Docker** installed
 - [ ] A free **Tailscale** account
@@ -65,13 +51,6 @@ You'll need an always-on computer (a mini PC, an older desktop or a Mac mini, wi
 - [ ] A few household documents: appliance manuals, the family recipe collection, school calendars
 
 ## 1️⃣ Step 1: Start the lab (20 min)
-
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-Start the lab with Docker Compose and download a model. On a Mac, run Ollama natively for GPU acceleration and point Open WebUI at it, as described in the kit README.
-
-</details>
 
 ```bash
 cd examples/homelab
@@ -87,17 +66,6 @@ Open **http://localhost:3000**, create the **admin** account (you!), and chat.
 > ✅ **Checkpoint:** you can chat with `gemma4` in Open WebUI with Wi-Fi turned off. 📴
 
 ## 2️⃣ Step 2: Family accounts and a house personality (20 min)
-
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-Set up accounts and the assistant's personality.
-
-1. In **Admin Panel → Users**, add an account for each family member.
-2. In **Workspace → Models**, create a house assistant with a name and system prompt suited to your family.
-3. Set appropriate permissions, especially for children's accounts.
-
-</details>
 
 1. **Admin Panel → Users:** add an account per family member (or enable sign-ups with admin approval).
 2. **Workspace → Models → Create:** a custom model called e.g. **"Hearth"** based on `gemma4`, with a system prompt:
@@ -117,17 +85,6 @@ Set up accounts and the assistant's personality.
 
 ## 3️⃣ Step 3: The household knowledge base (30 min)
 
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-Build a knowledge base from your household documents.
-
-1. In **Workspace → Knowledge**, create a collection called "House."
-2. Upload appliance manuals, family recipes, emergency contacts and household routines.
-3. Attach the collection to your house assistant so it answers from those documents.
-
-</details>
-
 1. **Workspace → Knowledge → Create** a collection called **"House"**.
 2. Upload: appliance manuals (PDF), the Wi-Fi and alarm instructions (**no passwords!**), family recipes, school calendars,
    emergency contacts, "how we do things" notes.
@@ -140,17 +97,6 @@ concert?"* ([RAG, Memory & Knowledge](../part-8-knowledge-and-memory/72-rag-memo
 > ✅ **Checkpoint:** Hearth answers from your documents and names the source file.
 
 ## 4️⃣ Step 4: Talk to it (30 min)
-
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-Enable voice input and output.
-
-1. In **Settings → Audio**, choose local Whisper for speech-to-text.
-2. Choose a text-to-speech engine for replies.
-3. Test a spoken conversation; the audio is processed on your home computer.
-
-</details>
 
 Open WebUI supports voice in and out:
 
@@ -165,17 +111,6 @@ Perfect for the kitchen: *"Hearth, how long do I boil an egg for a runny yolk?"*
 
 ## 5️⃣ Step 5: Reach it from every phone, privately (20 min)
 
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-Make the assistant reachable from family phones without exposing it to the internet.
-
-1. Install Tailscale on the home computer and each family phone.
-2. Sign in with the same account or a shared network.
-3. Open the home computer's Tailscale address in each phone's browser, and add it to the home screen.
-
-</details>
-
 1. Install **Tailscale** on the home computer and on each family phone (same Tailscale account or shared tailnet).
 2. On phones, open `http://<home-computer-name>:3000` (Tailscale's MagicDNS name) in the browser.
 3. **Add to Home Screen** so it feels like an app. 📱
@@ -188,13 +123,6 @@ Make the assistant reachable from family phones without exposing it to the inter
 > ✅ **Checkpoint:** you can chat with Hearth from your phone while on mobile data (Wi-Fi off).
 
 ## 🏡 Step 6 (optional): Smart home with Home Assistant
-
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-If you use smart home devices, Home Assistant (a free, private smart home hub) can connect to the assistant, letting it control lights and devices or report status, such as whether a door is open.
-
-</details>
 
 **Home Assistant** is a free, private smart-home hub that works with thousands of devices. Two ways to add local AI:
 
@@ -211,13 +139,6 @@ on?"*
 
 ## 🧰 Keeping it healthy
 
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-Keep the system healthy with monthly updates, regular backups of your data volumes and periodic checks that the models and knowledge base are still working well. The table lists each task.
-
-</details>
-
 | Task | How often | How |
 |---|---|---|
 | Update images | Monthly | `docker compose pull && docker compose up -d` |
@@ -227,13 +148,6 @@ Keep the system healthy with monthly updates, regular backups of your data volum
 | Review accounts | Occasionally | Remove unused accounts, check kids' settings |
 
 ## 🩺 Troubleshooting
-
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-The table lists common problems, such as slow answers or poor document recall, with a fix for each.
-
-</details>
 
 | Problem | Fix |
 |---|---|

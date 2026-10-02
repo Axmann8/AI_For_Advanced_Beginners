@@ -35,7 +35,7 @@ You can now describe an app in plain language and have AI write, run, test and f
 
     ---
 
-    <span class="card-meta">⏱️ 8 min read · 🎯 Everyone (yes, even if you've never coded)</span>
+    <span class="card-meta">⏱️ 6 min read · 🎯 Everyone (yes, even if you've never coded)</span>
 
     Here's the secret: you don't need to be a programmer to build software anymore. Coding agents write, run, test and fix code for you.
 
@@ -43,7 +43,7 @@ You can now describe an app in plain language and have AI write, run, test and f
 
     ---
 
-    <span class="card-meta">⏱️ 11 min read · 🎯 Everyone who builds with AI (no coding background needed)</span>
+    <span class="card-meta">⏱️ 9 min read · 🎯 Everyone who builds with AI (no coding background needed)</span>
 
     Git is the undo button that makes AI building fearless. When a coding agent rewrites twenty files and something breaks, Git lets you rewind in one command.
 
@@ -51,7 +51,7 @@ You can now describe an app in plain language and have AI write, run, test and f
 
     ---
 
-    <span class="card-meta">⏱️ 11 min read · 🎯 Beginner → intermediate (no coding required to start)</span>
+    <span class="card-meta">⏱️ 10 min read · 🎯 Beginner → intermediate (no coding required to start)</span>
 
     Claude Code is an agentic coding tool. It reads your project, runs commands, edits files, tests its own work and ships features.
 
@@ -59,7 +59,7 @@ You can now describe an app in plain language and have AI write, run, test and f
 
     ---
 
-    <span class="card-meta">⏱️ 11 min read · 🎯 Intermediate</span>
+    <span class="card-meta">⏱️ 9 min read · 🎯 Intermediate</span>
 
     Out of the box, Claude Code is brilliant. Customized, it's a whole team.
 
@@ -67,7 +67,7 @@ You can now describe an app in plain language and have AI write, run, test and f
 
     ---
 
-    <span class="card-meta">⏱️ 9 min read · 🎯 Beginner → intermediate</span>
+    <span class="card-meta">⏱️ 8 min read · 🎯 Beginner → intermediate</span>
 
     An AI IDE is a code editor with an AI co-pilot built in. You see every file, every change and every suggestion as it happens, which makes AI IDEs wonderful for learning and for precise work.
 
@@ -75,7 +75,7 @@ You can now describe an app in plain language and have AI write, run, test and f
 
     ---
 
-    <span class="card-meta">⏱️ 10 min read · 🎯 Everyone (zero coding experience welcome)</span>
+    <span class="card-meta">⏱️ 8 min read · 🎯 Everyone (zero coding experience welcome)</span>
 
     Vibe coding means building software by describing what you want and letting AI write the code.
 
@@ -83,7 +83,7 @@ You can now describe an app in plain language and have AI write, run, test and f
 
     ---
 
-    <span class="card-meta">⏱️ 11 min read · 🎯 Beginner → intermediate</span>
+    <span class="card-meta">⏱️ 8 min read · 🎯 Beginner → intermediate</span>
 
     An app on your laptop is a hobby. An app with a link is a gift to the world.
 
@@ -91,7 +91,7 @@ You can now describe an app in plain language and have AI write, run, test and f
 
     ---
 
-    <span class="card-meta">⏱️ 9 min read · 🎯 Intermediate (copy-paste friendly, no prior coding needed)</span>
+    <span class="card-meta">⏱️ 7 min read · 🎯 Intermediate (copy-paste friendly, no prior coding needed)</span>
 
     Chat apps are wonderful, but the API is where AI becomes a programmable ingredient. It's how you put AI in scripts, spreadsheets, bots, apps and automations.
 
@@ -99,7 +99,7 @@ You can now describe an app in plain language and have AI write, run, test and f
 
     ---
 
-    <span class="card-meta">⏱️ 9 min read · 🎯 Intermediate</span>
+    <span class="card-meta">⏱️ 7 min read · 🎯 Intermediate</span>
 
     You've used agents. Now you'll build one and understand exactly what's happening inside.
 
@@ -107,7 +107,7 @@ You can now describe an app in plain language and have AI write, run, test and f
 
     ---
 
-    <span class="card-meta">⏱️ 7 min read · 🎯 Intermediate</span>
+    <span class="card-meta">⏱️ 6 min read · 🎯 Intermediate</span>
 
     Once you've written an agent loop by hand (Build Your Own Agent), frameworks stop being magic and start being time-savers.
 
@@ -115,7 +115,7 @@ You can now describe an app in plain language and have AI write, run, test and f
 
     ---
 
-    <span class="card-meta">⏱️ 8 min read · 🎯 Intermediate → advanced</span>
+    <span class="card-meta">⏱️ 6 min read · 🎯 Intermediate → advanced</span>
 
     One agent is useful. Several agents that divide the work can take on much bigger jobs: deep research across dozens of sources, big codebases, content pipelines, and "build it and then check it" loops.
 
@@ -123,7 +123,7 @@ You can now describe an app in plain language and have AI write, run, test and f
 
     ---
 
-    <span class="card-meta">⏱️ 9 min read · 🎯 Beginner → intermediate</span>
+    <span class="card-meta">⏱️ 8 min read · 🎯 Beginner → intermediate</span>
 
     Some tasks don't have an API. They have a website with a login, three dropdowns and a "Submit" button.
 

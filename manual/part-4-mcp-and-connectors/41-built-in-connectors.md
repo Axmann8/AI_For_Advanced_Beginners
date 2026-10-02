@@ -1,6 +1,6 @@
 # 41 · Built-in Connectors & Plugins 🧩✨
 
-> ⏱️ 9 min read · 🎯 Beginner-friendly · 🧰 Needs: an account with Claude, ChatGPT, Gemini or Copilot
+> ⏱️ 7 min read · 🎯 Beginner-friendly · 🧰 Needs: an account with Claude, ChatGPT, Gemini or Copilot
 
 **MCP is the engine. Connectors are the polished, click-to-install version inside the big AI apps.** If you want results
 *today* with zero config files, start here. You'll learn what each major assistant offers, how connectors differ from
@@ -21,13 +21,6 @@ Built-in connectors are the simplest way to link an AI assistant to your other a
 
 ## 🧩 Connectors vs. MCP vs. skills vs. plugins
 
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-A **connector** is a ready-made link to one service. A **raw MCP server** is any server you configure yourself. A **skill** is a packaged set of instructions the AI loads when relevant. A **plugin** bundles several of these together. The table compares them.
-
-</details>
-
 | | 🔌 Built-in connector | 🛠️ Raw MCP server | 🎓 Skill | 🎁 Plugin / bundle |
 |---|---|---|---|---|
 | What it is | A ready-made link to one service | Any MCP server you configure | Packaged instructions (+ optional scripts) for a task | A bundle of connectors, skills, commands |
@@ -39,13 +32,6 @@ A **connector** is a ready-made link to one service. A **raw MCP server** is any
 custom. Add skills when you keep explaining the same process.
 
 ## 🟠 Claude
-
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-Claude offers a connectors directory in **Settings → Connectors**, plus skills, plugins, Projects for standing instructions and Artifacts for building interactive content. The table describes each feature.
-
-</details>
 
 | Feature | What it does |
 |---|---|
@@ -61,13 +47,6 @@ Claude offers a connectors directory in **Settings → Connectors**, plus skills
 
 ## 🟢 ChatGPT
 
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-ChatGPT offers plugins (third-party integrations that can show interactive elements in the chat), connectors to your files and accounts, agent mode for web tasks, and a developer mode for adding any MCP server.
-
-</details>
-
 | Feature | What it does |
 |---|---|
 | **Plugins** (renamed from "apps" in mid-2026) | Third-party integrations that can show **interactive UI** in the chat, built on MCP |
@@ -80,13 +59,6 @@ ChatGPT offers plugins (third-party integrations that can show interactive eleme
 
 ## 🔵 Google Gemini
 
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-Gemini integrates deeply with Google's services: Personal Intelligence draws on Gmail, Calendar, Drive, Photos, YouTube and Maps, and Gemini Notebook (formerly NotebookLM) answers questions from sources you provide.
-
-</details>
-
 - **Personal Intelligence** (opt-in): Gemini uses your Gmail, Calendar, Drive, Photos, YouTube and Maps to answer
   questions about *your* life ([Gemini guide](../part-2-ai-assistants-field-guide/19-gemini.md)).
 - **Deep integration** with Gmail, Docs, Drive, Calendar, Maps and YouTube.
@@ -98,13 +70,6 @@ Gemini integrates deeply with Google's services: Personal Intelligence draws on 
 
 ## 🟣 Microsoft Copilot
 
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-Copilot connects to your Microsoft 365 email and files and works inside Outlook, Teams, Word and Excel. Organizations can build custom Copilot agents that connect to their own tools, including MCP servers.
-
-</details>
-
 - **The Microsoft Copilot app** (consumer and work apps merged in 2026) connects to your Microsoft 365 files and email.
 - **Microsoft 365 Copilot** works across Outlook, Teams, Word, Excel, PowerPoint and SharePoint using your work data.
 - **Copilot Studio** lets organizations build agents with connectors, actions and **MCP tools**.
@@ -112,13 +77,6 @@ Copilot connects to your Microsoft 365 email and files and works inside Outlook,
 - **GitHub Copilot** brings agents and MCP to coding ([Cursor & AI IDEs](../part-7-building-with-ai/64-cursor-and-ai-ides.md)).
 
 ## ⚫ Others worth knowing
-
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-Many other AI tools, including Perplexity, Le Chat, Notion, Slack, Raycast and phone assistants, have their own connector options. The table summarizes each.
-
-</details>
 
 | App | Connector story |
 |---|---|
@@ -133,13 +91,6 @@ Many other AI tools, including Perplexity, Le Chat, Notion, Slack, Raycast and p
 | **Apple Intelligence** | The rebuilt Siri with personal context and app actions, ChatGPT integration, Shortcuts that call AI models ([Built-In Assistants](../part-2-ai-assistants-field-guide/28-built-in-assistants.md), [Phone & Desktop Automation](../part-5-automation/50-phone-and-desktop-automation.md)) |
 
 ## ✨ Ten connector combos that feel like magic
-
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-Connecting two or three apps lets AI move information between them, such as reading email, checking your calendar and drafting replies in one request. The table lists ten combinations with ready-to-use prompts.
-
-</details>
 
 | # | Combo | Prompt |
 |---|---|---|
@@ -158,17 +109,6 @@ More in [The MCP Recipe Book](44-mcp-recipe-book.md).
 
 ## 🔐 Permissions & approvals
 
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-Most apps let you set each connector tool to **always allow**, **ask first** or **never**.
-
-1. Allow read-only tools (search, list, read) freely.
-2. Set anything that sends, deletes, buys, shares or posts to **ask first**.
-3. Review your settings periodically and remove connectors you no longer use.
-
-</details>
-
 - **Per-tool settings:** most apps let you set each tool to **always allow**, **ask first** or **never**.
 - **Ask first** for anything that **sends, deletes, buys, shares or posts publicly**.
 - **Least privilege:** when a connector asks for scopes, prefer read-only if that's all you need.
@@ -178,26 +118,12 @@ Most apps let you set each connector tool to **always allow**, **ask first** or 
 
 ## 🏢 Connectors at work
 
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-On Team and Enterprise plans, administrators usually decide which connectors are available. If one you need is missing, ask your IT team; they're balancing usefulness with data protection.
-
-</details>
-
 - On **Team/Enterprise** plans, admins often choose which connectors are available and who can use them.
 - Company data policies may restrict connecting personal accounts to work assistants (and vice versa).
 - If a connector you need isn't available, ask IT, and explain the task and the data involved. That makes a "yes" more likely.
 - Many enterprises route MCP through **gateways** that log and control access ([MCP Security & Trust](43-mcp-security-and-trust.md)).
 
 ## 🧭 Connector, MCP server, or automation?
-
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-Use a **connector** when you want to ask your AI about an app on demand. Use an **automation** when something should happen automatically. Build or install an **MCP server** when no connector exists for what you need.
-
-</details>
 
 | You want… | Use |
 |---|---|

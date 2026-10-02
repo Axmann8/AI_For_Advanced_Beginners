@@ -1,6 +1,6 @@
 # 97 · Health, Fitness & Wellbeing with AI 🏃‍♀️💚
 
-> ⏱️ 8 min read · 🎯 Everyone looking after their body and mind · 🧰 Needs: an assistant, optionally a fitness tracker or health app export
+> ⏱️ 6 min read · 🎯 Everyone looking after their body and mind · 🧰 Needs: an assistant, optionally a fitness tracker or health app export
 
 **AI can be a wonderful health *companion*: a coach who builds workouts around your life, a patient explainer of confusing
 medical words, an appointment-prep buddy, a meal planner and a gentle journaling partner.** It is **not** a doctor, a therapist
@@ -29,13 +29,6 @@ AI can help you understand health information, prepare for appointments, plan ex
 
 ## 🗺️ AI's role in your health
 
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-AI is useful for explaining, planning and preparing. Diagnosis, treatment and medication decisions belong to qualified professionals. The table lists what fits on each side.
-
-</details>
-
 | 🌟 Great for | 🩺 Leave to professionals |
 |---|---|
 | Explaining medical terms and test names in plain language | Diagnosing what's wrong |
@@ -46,17 +39,6 @@ AI is useful for explaining, planning and preparing. Diagnosis, treatment and me
 | Organizing records, medications and appointments | Anything urgent |
 
 ## 📋 Understanding health information & appointments
-
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-AI can help before and after medical appointments.
-
-1. **Before:** organize your symptoms (when they started, what helps, what makes them worse) and list your questions.
-2. **During:** take notes or, with permission, record the key points.
-3. **After:** ask AI to explain unfamiliar terms in plain language, and confirm anything important with your doctor.
-
-</details>
 
 **Before the appointment:**
 
@@ -81,13 +63,6 @@ settings carefully ([Privacy & Your Data](../part-12-mastery/104-privacy-and-you
 
 ## 🏋️ Fitness plans that fit your life
 
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-AI fitness plans work best when personalized to your schedule, available equipment, experience, preferences and any limitations. Describe these in detail, as in the example below, and ask it to adjust the plan as you progress.
-
-</details>
-
 The magic is **personalization**: your schedule, equipment, preferences and limits.
 
 ```text
@@ -109,13 +84,6 @@ Keep it encouraging!
 
 ## 🥗 Nutrition & meal planning
 
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-AI can create weekly meal plans that fit your dietary needs, time and budget, generate shopping lists organized by store section, and suggest recipes for what's already in your fridge.
-
-</details>
-
 - **Meal plans:** *"5 dinners, under 30 minutes, high in protein, vegetarian, kid-friendly, with a grocery list by aisle."*
 - **Use what you have:** photo of your fridge → *"What can I make tonight?"* ([Home, Cooking & DIY](100-home-cooking-and-diy.md))
 - **Learn the basics:** *"Explain protein, fiber and whole grains in simple terms, with easy swaps."*
@@ -123,13 +91,6 @@ AI can create weekly meal plans that fit your dietary needs, time and budget, ge
 - **Specific medical diets** (diabetes, kidney disease, eating disorders, pregnancy): work with a doctor or registered dietitian.
 
 ## 😴 Sleep, habits & wearables
-
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-AI can help you build habits around sleep, hydration and activity by suggesting small, realistic steps, and it can analyze data from fitness trackers to spot patterns. The table offers prompts for each area.
-
-</details>
 
 | Area | AI help |
 |---|---|
@@ -140,13 +101,6 @@ AI can help you build habits around sleep, hydration and activity by suggesting 
 | **Motivation** | *"Remind me why I started, using what I told you last month."* (with memory on) |
 
 ## 🧠 Mental wellbeing: supportive, not a substitute
-
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-Many people find AI helpful for journaling, reflecting and rehearsing difficult conversations. It isn't a therapist, though. If you're feeling persistently low, anxious or unsafe, contact a doctor, counselor or crisis line, and keep investing in your relationships.
-
-</details>
 
 Many people find AI helpful for **reflecting**, **journaling** and **practicing** hard conversations. Used well, it can be a
 kind, always-available sounding board.
@@ -171,13 +125,6 @@ take breaks.
 
 ## 👵 Caring for others
 
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-If you care for someone else, AI can turn a medication list into a printable daily schedule, track appointments and explain conditions and instructions. Always confirm medication details with a pharmacist or doctor.
-
-</details>
-
 - **Medication list:** *"Turn this list of medications into a clear daily schedule table I can print."* (Always confirm with the
   pharmacist.)
 - **Appointment tracker:** a shared calendar + a weekly AI summary for family members.
@@ -185,13 +132,6 @@ If you care for someone else, AI can turn a medication list into a printable dai
 - **Caregiver wellbeing:** *"I'm caring for my dad and feel exhausted. Suggest small ways to get support and rest."*
 
 ## 🔒 Health data privacy
-
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-Health information is highly sensitive. Share only what's necessary, remove names and ID numbers from documents, review the app's privacy settings, and use on-device tools for the most private information. The table explains each guideline.
-
-</details>
 
 | Guideline | Why |
 |---|---|

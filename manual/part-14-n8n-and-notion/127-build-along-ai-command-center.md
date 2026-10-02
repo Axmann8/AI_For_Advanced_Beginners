@@ -2,21 +2,22 @@
 
 > ⏱️ ~3 hours to build · 🎯 Intermediate (no coding required) · 🧰 Needs: n8n reachable over HTTPS, a Notion workspace (paid plan for the button step, or use the free alternative), an Anthropic API key, Telegram (optional)
 
-**In this build-along you'll create a complete, working AI command center.** Anything you capture (by voice, from your
-phone, from any app) lands in a Notion Inbox, already titled, typed and prioritized by AI. One click on a Notion button
-turns an item into a plan with subtasks. Every morning, a briefing of what's due arrives in Notion and on your phone.
-Failures are logged where you'll see them. And Claude or ChatGPT can manage your tasks in plain language through MCP.
+**You'll build a working AI command center, one click at a time.** Anything you capture (spoken on your phone, sent
+from any app) lands in a Notion Inbox, already titled, typed and prioritized by AI. A Notion button turns an item into a
+plan with subtasks. A briefing of what's due arrives every morning. Failures are logged where you'll see them. And Claude
+can manage your tasks in plain language.
 
 <details class="keypoints" open>
 <summary>✅ Key Points & Steps</summary>
 
-You'll build a five-workflow system from this manual's starter kit, testing each piece with a checkpoint before moving on.
+You'll import five ready-made workflows from this manual's starter kit and connect them to four Notion databases,
+testing each one before moving on.
 
-1. **Create four Notion databases** and connect n8n to them.
-2. **Set up error logging first,** so every later problem is visible.
+1. **Create four Notion databases** and a Notion integration for n8n.
+2. **Import the error logger first** and publish it, so every later problem is visible.
 3. **Build capture:** a secure webhook that triages anything you send into the Inbox.
-4. **Add the Process with AI button** that turns an item into a plan and tasks.
-5. **Schedule the daily briefing,** then connect Claude through MCP.
+4. **Add the Process with AI button** and the **daily briefing.**
+5. **Serve your task tools over MCP** so Claude can read and update your tasks.
 
 </details>
 
@@ -24,12 +25,7 @@ You'll build a five-workflow system from this manual's starter kit, testing each
 
 ## 🗺️ What you'll build
 
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-The system has four Notion databases and five n8n workflows. Captures flow into the Inbox, a button turns Inbox items into Tasks, a schedule produces daily briefings, an error logger watches everything, and an MCP server lets AI assistants manage your tasks.
-
-</details>
+Four Notion databases and five n8n workflows:
 
 ```mermaid
 flowchart TB
@@ -42,298 +38,348 @@ flowchart TB
     TK --> W3[⚙️ 3 · Daily briefing]
     W3 --> DB[(☀️ Daily Briefings)]
     W3 --> TG[💬 Telegram]
-    CL[🤖 Claude / ChatGPT] <-->|MCP| W5[⚙️ 5 · Task tools]
+    CL[🤖 Claude] <-->|MCP| W5[⚙️ 5 · Task tools]
     W5 <--> TK
     W4[🚨 4 · Error logger] --> LOG[(Automation Log)]
 ```
 
-| Piece | File in the kit |
-|---|---|
-| Setup guide and database layouts | [`examples/n8n-notion/README.md`](../../examples/n8n-notion/README.md) |
-| Workflow 1 · Capture | [`1-capture-to-inbox.json`](../../examples/n8n-notion/1-capture-to-inbox.json) |
-| Workflow 2 · Process with AI | [`2-process-with-ai-button.json`](../../examples/n8n-notion/2-process-with-ai-button.json) |
-| Workflow 3 · Daily briefing | [`3-daily-briefing.json`](../../examples/n8n-notion/3-daily-briefing.json) |
-| Workflow 4 · Error logger | [`4-error-logger.json`](../../examples/n8n-notion/4-error-logger.json) |
-| Workflow 5 · MCP task tools | [`5-notion-tools-mcp-server.json`](../../examples/n8n-notion/5-notion-tools-mcp-server.json) |
+Each workflow is a file in the starter kit, [`examples/n8n-notion`](../../examples/n8n-notion/README.md). Here's the
+capture workflow after import, so you know what you're aiming for:
+
+![The capture workflow in n8n: Capture webhook, Triage with AI with a Claude model underneath, Parse and validate, Create Inbox row and Reply](../assets/screenshots/n8n/kit-1-capture.png "Workflow 1, imported and connected. Data flows left to right: webhook in, AI triage, clean-up, Notion row, reply.")
+
+> [!NOTE]
+> **📸 About the screenshots**
+> The n8n screenshots were captured by importing this kit into n8n 2.41.6 (October 2026). Notion's screens aren't shown,
+> so its steps spell out exactly what to click. New to n8n? Do
+> [The n8n Masterclass](../part-5-automation/47-n8n-masterclass.md) first; it takes 30 minutes and covers the basics
+> used here.
 
 ## ✅ Before you start
 
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-Check that you have everything ready: n8n reachable over HTTPS, a Notion workspace, an Anthropic API key with a spending limit and, optionally, a Telegram bot for the briefing.
-
-</details>
-
-- [ ] **n8n** on n8n Cloud, or self-hosted with a public HTTPS URL (needed for Notion buttons and phone shortcuts)
-  ([n8n Masterclass](../part-5-automation/47-n8n-masterclass.md))
+- [ ] **n8n** on n8n Cloud, or self-hosted with a public HTTPS address (needed for Notion buttons and your phone)
 - [ ] A **Notion** workspace. The *Process with AI* button needs a paid plan; a free alternative is included.
-- [ ] An **Anthropic API key** with a **spend limit** set, or another model provider n8n supports
+- [ ] An **Anthropic API key** with a monthly **spend limit** set (console.anthropic.com)
 - [ ] Optional: a **Telegram bot** token and your chat ID
-  ([Pocket AI Assistant](../part-13-build-alongs/112-build-along-pocket-ai-assistant.md) shows how to create one)
-- [ ] About three hours, with breaks at each checkpoint
+  ([Pocket AI Assistant](../part-13-build-alongs/112-build-along-pocket-ai-assistant.md) shows how to get both)
 
-## 1️⃣ Step 1: Create the Notion databases (25 min)
+## 1️⃣ Step 1: Create the four Notion databases (20 min)
 
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
+**Fast way (2 minutes).** If you have Notion AI, or Claude connected to Notion, open a new page and paste this prompt:
 
-Create the Inbox, Tasks, Daily Briefings and Automation Log databases with the exact property names and options from the kit README, because the workflows depend on them.
+```text
+Create a page called "🎛️ Command Center" with four full-page databases inside it, using exactly these
+property names, types and options:
 
-1. Create a page called **Command Center**.
-2. Inside it, create the four databases from the kit README.
-3. Double-check property names, types and select options.
+📥 Inbox: Name (title); Status (status: New, Processing, Processed, Error); Type (select: Task, Idea, Note, Link);
+Priority (select: High, Medium, Low); Source (select: Phone, Email, Web, Telegram, Slack, Other);
+Summary (text); Next step (text); AI processed (checkbox)
 
-</details>
+✅ Tasks: Name (title); Status (status: To do, In progress, Done); Priority (select: High, Medium, Low);
+Due (date); Source (select: Me, AI, Email, Phone)
 
-1. Create a page called **🎛️ Command Center**.
-2. Inside it, create four full-page databases: **📥 Inbox**, **✅ Tasks**, **☀️ Daily Briefings** and **🚨 Automation Log**.
-3. Add the properties exactly as listed in the [kit README](../../examples/n8n-notion/README.md#1--create-the-notion-databases).
-   The fastest way: paste the tables into Notion AI or Claude (with the Notion connector) and ask it to create the
-   databases for you.
-4. On the Command Center page, add linked views: *Inbox (New)*, *Tasks due this week* and *Latest briefing*.
+☀️ Daily Briefings: Name (title); Date (date)
 
-> ✅ **Checkpoint:** four databases exist, and every select and status option matches the README exactly (including
-> capitalization).
-
-## 2️⃣ Step 2: Connect n8n to Notion (10 min)
-
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-Create a Notion integration, share the Command Center page with it, and add the secret to n8n as a credential.
-
-1. Create an integration at notion.so/profile/integrations and copy the secret.
-2. Share the **Command Center** page with the integration (its databases inherit access).
-3. Add a **Notion API** credential in n8n.
-
-</details>
-
-Sharing the parent Command Center page shares all four databases at once. Full details are in
-[Connecting n8n to Notion](122-connecting-n8n-to-notion.md#-step-1-set-up-the-credential).
-
-> ✅ **Checkpoint:** in a test Notion node, the database dropdown lists all four databases.
-
-## 3️⃣ Step 3: Error logging first (10 min)
-
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-Set up the error logger before anything else, so every problem in later steps appears in your Automation Log instead of failing silently.
-
-1. Import `4-error-logger.json`.
-2. Select your Notion credential and the Automation Log database.
-3. Activate it.
-
-</details>
-
-The workflow uses an **Error Trigger**, which runs whenever another workflow that names it as its *error workflow*
-fails. You'll point each workflow at it as you import them.
-
-To test it: create a tiny workflow with a **Code** node containing `throw new Error('Test error')`, set its error workflow
-(**⋯ → Settings → Error workflow**) to the logger, activate it with any trigger, and make it run.
-
-> ✅ **Checkpoint:** a row appears in the Automation Log with your workflow's name, the message *Test error* and a working
-> execution link.
-
-## 4️⃣ Step 4: Capture with AI triage (30 min)
-
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-The capture workflow receives text at a secure webhook, asks a fast model for a title, type, priority, summary and next step, validates the values, and creates an Inbox row.
-
-1. Import `1-capture-to-inbox.json` and select credentials (Header Auth, Anthropic, Notion).
-2. Choose the Inbox database in the *Create Inbox row* node.
-3. Set the error workflow, activate, and send a test request.
-4. Create a phone shortcut that POSTs to the same URL.
-
-</details>
-
-**The security header.** Create a **Header Auth** credential with the name `X-Webhook-Secret` and a long random value
-(a password manager can generate one). Every request must include this header, so strangers who find your URL can't add
-items.
-
-**Why the *Parse and validate* node matters:** it forces the model's answers into your exact select options (*Task*,
-*Idea*, *Note*, *Link*; *High*, *Medium*, *Low*), so a creative model response can never break the Notion write.
-
-Test from your terminal (use the **Production URL** once active):
-
-```bash
-curl -X POST "https://YOUR-N8N/webhook/capture" \
-  -H "Content-Type: application/json" \
-  -H "X-Webhook-Secret: YOUR-SECRET" \
-  -d '{"text": "remember to renew the car insurance before the 20th, check if bundling with home is cheaper", "source": "Phone"}'
+🚨 Automation Log: Name (title); Status (select: Error, Info); Error (text); Execution link (URL); Time (date)
 ```
 
-**Add one-tap capture on your phone.** On iPhone, create a Shortcut: **Dictate Text** → **Get Contents of URL** (method
-POST, header `X-Webhook-Secret`, JSON body with `text` = Dictated Text and `source` = `Phone`) → **Show Result**. Add it
-to your home screen or Action button. Android users can do the same with Tasker or HTTP Shortcuts
+**By hand (20 minutes):**
+
+1. In Notion's sidebar, click **+ New page** and name it **🎛️ Command Center**.
+2. In the page, type `/database` and pick the **full-page** database option. Name it **📥 Inbox**.
+3. To add a property, click **+** at the right end of the column headers, pick the type, and type the name. To set a
+   select's options, click a cell in that column and type each option, pressing Enter after each one.
+4. For the **Status** property, click its header → **Edit property**, then rename or add options until they match the
+   table below exactly (spelling and capitals matter: the workflows write these exact words).
+5. Go back to **🎛️ Command Center** and repeat for the other three databases.
+
+| Database | Property → type (options) |
+|---|---|
+| 📥 **Inbox** | Name → Title · Status → Status (`New`, `Processing`, `Processed`, `Error`) · Type → Select (`Task`, `Idea`, `Note`, `Link`) · Priority → Select (`High`, `Medium`, `Low`) · Source → Select (`Phone`, `Email`, `Web`, `Telegram`, `Slack`, `Other`) · Summary → Text · Next step → Text · AI processed → Checkbox |
+| ✅ **Tasks** | Name → Title · Status → Status (`To do`, `In progress`, `Done`) · Priority → Select (`High`, `Medium`, `Low`) · Due → Date · Source → Select (`Me`, `AI`, `Email`, `Phone`) |
+| ☀️ **Daily Briefings** | Name → Title · Date → Date |
+| 🚨 **Automation Log** | Name → Title · Status → Select (`Error`, `Info`) · Error → Text · Execution link → URL · Time → Date |
+
+> ✅ **Checkpoint:** the Command Center page holds four databases, and every option matches the table, capitals included.
+
+## 2️⃣ Step 2: Create a Notion integration for n8n (5 min)
+
+An **integration** is a key that lets n8n into the pages you choose, and nothing else.
+
+1. Go to **notion.so/profile/integrations** and click **New integration**.
+2. Name it *n8n automations*, choose your workspace, keep the type **Internal**, and click **Save**.
+3. On the integration's page, find **Internal Integration Secret**, click **Show**, then **Copy**. Keep it handy for
+   Step 3.
+4. **Give it access to your databases.** Open the **🎛️ Command Center** page, click **•••** (top right) →
+   **Connections**, search for *n8n automations* and confirm. The four databases inside inherit the access.
+
+> ✅ **Checkpoint:** on the Command Center page, **••• → Connections** lists *n8n automations*.
+
+## 3️⃣ Step 3: Import the error logger first (10 min)
+
+You set this up first so that any problem in a later step leaves a clear note in Notion instead of failing silently.
+
+1. In n8n, click **+** (top left) to create a workflow, then **⋯ → Import → From URL**, and paste:
+
+    ```text
+    https://raw.githubusercontent.com/Axmann8/The_Massive_AI_Manual/main/examples/n8n-notion/4-error-logger.json
+    ```
+
+    (Or download the file from the kit and use **Import → From file**.)
+
+    ![The workflow menu with Import expanded, showing From URL and From file](../assets/screenshots/n8n/import-menu.png "Import → From URL pulls a workflow straight from GitHub.")
+
+2. Press **Ctrl+S** (**⌘S** on a Mac) to save. You'll see two nodes:
+
+    ![The error logger workflow: When any workflow fails connected to Log to Notion](../assets/screenshots/n8n/kit-4-error-logger.png "Workflow 4: an Error Trigger that runs whenever a workflow fails, and a Notion node that writes the details down.")
+
+3. Double-click **Log to Notion**. It isn't connected yet. Notice the **Connect to Notion** button, the placeholder
+   database link, and properties that say *Set up credential to see options*:
+
+    ![The Log to Notion node before setup: Connect to Notion button, Database By URL with a PASTE-YOUR placeholder, and properties showing Set up credential to see options](../assets/screenshots/n8n/notion-node-before-setup.png "Every imported Notion node looks like this until you connect your account and paste your database link.")
+
+4. Click **Connect to Notion**, paste the **Internal Integration Secret** from Step 2, and click **Save**.
+
+    ![The Notion account credential window with an Internal Integration Secret field](../assets/screenshots/n8n/notion-credential.png "Paste the secret from Step 2 here. You only do this once; every other Notion node reuses it.")
+
+5. **Paste your database link.** In Notion, open **🚨 Automation Log**, click **•••** (top right) → **Copy link**. In
+   n8n, select the placeholder in the **Database** box (it's set to **By URL**) and paste your link over it. The
+   property dropdowns below now load your real columns.
+6. Close the panel and click **Publish** (top right), then **Publish** again in the dialog.
+
+![The error logger workflow showing a green Published badge in the top right](../assets/screenshots/n8n/error-logger-published.png "Published. The error logger now runs whenever a workflow that names it fails.")
+
+> ✅ **Checkpoint:** the error logger shows **Published**.
+
+## 4️⃣ Step 4: Capture anything, with AI triage (30 min)
+
+This workflow receives text from anywhere, asks Claude to give it a title, type, priority and next step, and saves it to
+your Inbox.
+
+**Import and connect it:**
+
+1. Create a new workflow and **⋯ → Import → From URL**:
+
+    ```text
+    https://raw.githubusercontent.com/Axmann8/The_Massive_AI_Manual/main/examples/n8n-notion/1-capture-to-inbox.json
+    ```
+
+2. **Protect the webhook.** Double-click **Capture webhook**. Under **Credential for Header Auth**, click **Connect to
+   Header Auth** (or **Create new credential**). Set **Name** to `X-Webhook-Secret` and **Value** to a long random
+   password (let a password manager generate it). Save it, and keep the value handy.
+
+    ![The Header Auth credential window with Name X-Webhook-Secret and a hidden Value](../assets/screenshots/n8n/header-auth-credential.png "Only requests that send this exact header get in. Strangers who find your URL are turned away.")
+
+    ![The Capture webhook node with Test URL and Production URL tabs, POST method, path capture, Header Auth and Respond using a Respond to Webhook node](../assets/screenshots/n8n/capture-webhook.png "The webhook, ready. The Test URL (shown) works while you build; the Production URL works once published.")
+
+3. **Connect Claude.** Double-click **Claude (fast)** and pick your **Anthropic account** credential (or click
+   **Connect to Anthropic** and paste your API key). It's set to the fast, low-cost Haiku model.
+
+    ![The Claude (fast) node with the Anthropic account credential and the model claude-haiku-4-5](../assets/screenshots/n8n/claude-node-connected.png "A fast, cheap model is plenty for sorting notes.")
+
+4. **Connect Notion.** Double-click **Create Inbox row**. Pick **Notion account** as the credential, then paste your
+   **📥 Inbox** link into **Database** (in Notion: open Inbox → **••• → Copy link**).
+
+    ![The Create Inbox row node with the Notion account credential, a pasted database link, and property mappings such as $json.title and $json.type](../assets/screenshots/n8n/notion-database-link.png "Your database link goes in the Database box. The properties below are already mapped to the AI's answers.")
+
+5. **Turn on error logging.** Click **⋯ → Settings** (top bar). In **Error Workflow**, choose **🚨 Error logger → Notion
+   Automation Log** and click **Save**.
+
+![The Workflow settings window with Error Workflow set to Error logger → Notion Automation Log](../assets/screenshots/n8n/error-workflow-set.png "If this workflow ever fails, the error logger writes a row in your Automation Log.")
+
+> [!TIP]
+> **💡 A ⚠️ next to the error logger?**
+> Hover over it and n8n explains: *"Not published. Can be used for manual testing, but must be published…"*. Go back to
+> Step 3, make sure its credential and database link are set, and **Publish** it.
+>
+> ![The Error Workflow dropdown with a warning icon next to the error logger and a tooltip saying Not published. Can be used for manual testing, but must be published](../assets/screenshots/n8n/error-workflow-not-ready.png "The warning means the error logger isn't published yet.")
+
+**Test it:**
+
+6. Click **Execute workflow**. The webhook node shows *Waiting for you to call the Test URL*.
+
+    ![The capture workflow with a tooltip on the webhook saying Waiting for you to call the Test URL](../assets/screenshots/n8n/waiting-for-test-call.png "n8n is listening. Send a request within the next couple of minutes.")
+
+7. In a terminal, send a test note. Use your **Test URL** (double-click the webhook to copy it) and your secret:
+
+    ```bash
+    curl -X POST "https://YOUR-N8N/webhook-test/capture" \
+      -H "Content-Type: application/json" \
+      -H "X-Webhook-Secret: YOUR-SECRET" \
+      -d '{"text": "remember to renew the car insurance before the 20th, check if bundling with home is cheaper", "source": "Phone"}'
+    ```
+
+8. Double-click **Parse and validate** to see what the AI produced. The **OUTPUT** shows clean columns ready for Notion:
+
+    ![The Parse and validate node: the AI's raw JSON in INPUT, the code in the middle, and an OUTPUT table with title, type, priority, source and summary](../assets/screenshots/n8n/parse-and-validate-output.png "The code forces every value into your exact Notion options, so a creative AI answer can never break the Notion step.")
+
+9. Open your **📥 Inbox** in Notion: the new row is there, with Title, Type, Priority, Summary and Next step filled in.
+10. **Publish** the workflow. From now on, use the **Production URL** (it says `/webhook/` instead of `/webhook-test/`).
+
+**Add one-tap capture on your phone (iPhone):**
+
+1. Open **Shortcuts** → **+** → **Add Action** → **Dictate Text**.
+2. Add **Get Contents of URL**. Paste your Production URL, then tap **›** to show more: set **Method** to **POST**, add a
+   **Header** `X-Webhook-Secret` with your secret, set **Request Body** to **JSON**, and add two fields: `text` =
+   *Dictated Text* and `source` = `Phone`.
+3. Add **Show Notification** so you see it worked. Name the shortcut *Capture* and add it to your home screen or Action
+   button.
+
+On Android, the free **HTTP Shortcuts** app does the same job
 ([Phone & Desktop Automation](../part-5-automation/50-phone-and-desktop-automation.md)).
 
-> ✅ **Checkpoint:** a spoken idea appears in your Inbox within seconds, with a sensible title, Type, Priority, Summary
-> and Next step, and the original text in the page body.
+> ✅ **Checkpoint:** you speak an idea into your phone and, within seconds, it appears in your Inbox with a sensible
+> title, type, priority, summary and next step.
 
-## 5️⃣ Step 5: The Process with AI button (40 min)
+## 5️⃣ Step 5: The Process with AI button (30 min)
 
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
+One click on an Inbox item makes Claude write a summary, a next step and up to five subtasks into **Tasks**.
 
-The button sends an Inbox row to n8n, which marks it Processing, asks the model for a summary, next step and up to five subtasks, writes the results back and creates the subtasks in Tasks.
+1. Import from:
 
-1. Import `2-process-with-ai-button.json`, select credentials and choose the Inbox and Tasks databases.
-2. Activate it and copy the Production URL.
-3. In Notion, add a **Button** property to the Inbox with a **Send webhook** action, your URL and the secret header.
-4. Click the button on a test item.
+    ```text
+    https://raw.githubusercontent.com/Axmann8/The_Massive_AI_Manual/main/examples/n8n-notion/2-process-with-ai-button.json
+    ```
 
-</details>
+    ![The Process with AI workflow: Notion button webhook, Get page ID, Mark Processing, Read the page, Plan with AI with Claude, Parse plan, then Write results back and One item per subtask leading to Create task](../assets/screenshots/n8n/kit-2-button.png "Workflow 2. The top branch updates the Inbox item; the bottom branch creates one task per subtask.")
 
-1. Import the workflow and configure the Notion nodes: *Mark Processing*, *Read the page* and *Write results back* use
-   the Inbox; *Create task* uses Tasks.
-2. Set its error workflow to the logger and **activate** it.
-3. In the Inbox database, add a property: **Process with AI** (type **Button**) → **Add action → Send webhook** → paste
-   the Production URL → **Add custom header** `X-Webhook-Secret` with your secret.
-4. Click **Process with AI** on the insurance item from Step 4.
+2. Connect the credentials, the same way as Step 4:
+    - **Notion button webhook** → your **Header Auth account**
+    - **Claude** → your **Anthropic account**
+    - **Mark Processing**, **Read the page**, **Write results back** and **Create task** → **Notion account**
+3. In **Create task**, paste your **✅ Tasks** database link. (The other three Notion nodes work on the clicked page, so
+   they don't need a database link.)
+4. **⋯ → Settings → Error Workflow** → the error logger → **Save**. Then **Publish**.
+5. Double-click **Notion button webhook**, click **Production URL** and copy it.
 
-Watch the row: Status changes to *Processing*, then *Processed*; Summary and Next step update; and new rows appear in
-Tasks with priorities and due dates.
+    ![The Notion button webhook node showing the path process-with-ai, Header Auth, and the Respond option](../assets/screenshots/n8n/button-webhook.png "Copy the Production URL from here for the Notion button.")
+
+6. **Add the button in Notion.** Open **📥 Inbox**, click **+** at the end of the column headers, choose **Button** and
+   name it **Process with AI**. In the button's setup panel, click **+ Add action → Send webhook**, paste the Production
+   URL, then **Add custom header**: `X-Webhook-Secret` with your secret. Click **Save**.
+7. Click **Process with AI** on the insurance item from Step 4.
+
+Watch the row: **Status** changes to *Processing*, then *Processed*; Summary and Next step update; and new rows appear in
+**✅ Tasks** with priorities and due dates.
 
 > [!TIP]
 > **💡 Free Notion plan?**
-> Add a **Run AI** checkbox to the Inbox instead of the button. Replace the workflow's Webhook node with a **Notion
-> Trigger** (*Page Updated in Database*, polling every minute) followed by an **IF** node: *Run AI is true AND AI processed
-> is false*. Clicking the checkbox now does the same job within a minute.
+> Buttons that send webhooks need a paid plan. Instead, add a checkbox called **Run AI** to the Inbox. In n8n, replace
+> the webhook node with a **Notion Trigger** (*Page Updated in Database*, checking every minute) followed by an
+> **If** node: *Run AI is true AND AI processed is false*. Ticking the box now does the same job within a minute.
 
-> ✅ **Checkpoint:** one click turns an Inbox item into a processed item plus up to five well-formed tasks, and a
-> deliberately broken run (for example, temporarily removing the Tasks database share) shows up in the Automation Log.
+> ✅ **Checkpoint:** one click turns an Inbox item into a processed item plus a handful of well-formed tasks.
 
-## 6️⃣ Step 6: The daily briefing (25 min)
+## 6️⃣ Step 6: The daily briefing (20 min)
 
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
+Every morning at 7, n8n gathers what's due, asks Claude for a short, encouraging briefing, and saves it to Notion and
+Telegram.
 
-Every morning, the briefing workflow finds tasks that aren't done and are due by tomorrow, asks the model for a short prioritized briefing, saves it as a Notion page and sends it to Telegram.
+1. Import from:
 
-1. Import `3-daily-briefing.json` and select credentials.
-2. Choose the Tasks and Daily Briefings databases.
-3. Add your Telegram chat ID, or swap the Telegram node for Gmail or Slack.
-4. Run it once manually, then activate it.
+    ```text
+    https://raw.githubusercontent.com/Axmann8/The_Massive_AI_Manual/main/examples/n8n-notion/3-daily-briefing.json
+    ```
 
-</details>
+    ![The daily briefing workflow: Every morning at 7, Open tasks due soon, Build task list, Write the briefing with Claude, then Save briefing page and Send to Telegram](../assets/screenshots/n8n/kit-3-briefing.png "Workflow 3. The red warning on Send to Telegram means it still needs your Telegram credential.")
 
-Notice the **Always Output Data** setting on *Open tasks due soon*: on a day with no due tasks, the workflow still runs
-and sends a cheerful "nothing due" briefing instead of silently stopping.
+2. **Set the time.** Double-click **Every morning at 7** and change the hour if you like. It uses the time zone in
+   **⋯ → Settings → Timezone**.
 
-Adjust the time in the **Schedule Trigger** (it runs at 7:00 in your n8n instance's time zone; set the time zone in the
-workflow's settings if needed).
+    ![The Schedule Trigger set to run every day at 7am](../assets/screenshots/n8n/schedule-trigger.png "The schedule trigger. Change the hour to suit your mornings.")
 
-> ✅ **Checkpoint:** clicking **Test workflow** creates today's briefing page in Notion and sends the same text to your
-> phone.
+3. **Connect Notion and paste links.** In **Open tasks due soon**, pick **Notion account** and paste your **✅ Tasks**
+   link. It already filters for tasks that aren't Done and are due by tomorrow, and **Always Output Data** is on, so
+   quiet days still get a cheerful "nothing due" briefing.
 
-## 7️⃣ Step 7: Let Claude manage your tasks (30 min)
+    ![The Open tasks due soon node: Database Page, Get Many, Return All on, and a filter on Status that does not equal Done](../assets/screenshots/n8n/notion-get-many-filter.png "Get Many with filters: only open tasks that are due soon reach the AI.")
 
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
+4. In **Save briefing page**, pick **Notion account** and paste your **☀️ Daily Briefings** link. Connect **Claude**.
+5. **Telegram:** connect your bot credential and replace `PASTE-YOUR-TELEGRAM-CHAT-ID` with your chat ID, or delete
+   the node if you only want the Notion page.
+6. Click **Execute workflow** to get today's briefing right now. Then set the error workflow and **Publish**.
 
-The MCP workflow exposes three carefully scoped tools (find, create and complete tasks) so Claude, ChatGPT or Cursor can manage your Notion tasks in conversation.
+> ✅ **Checkpoint:** today's briefing page appears in Notion (and on your phone, if you kept Telegram).
 
-1. Import `5-notion-tools-mcp-server.json`, create a **Bearer Auth** credential and choose the Tasks database in all three tools.
-2. Activate it and copy the MCP Server Trigger's Production URL.
-3. In Claude, add a custom connector with that URL and your bearer token.
-4. Ask Claude about your tasks, and ask it to add one.
+## 7️⃣ Step 7: Let Claude manage your tasks over MCP (30 min)
 
-</details>
+This workflow turns three Notion actions into tools that AI assistants can call: `find_tasks`, `create_task` and
+`complete_task`.
 
-Each tool has a precise description and fixed defaults: tasks created by AI always get Source = `AI` and Status = `To do`,
-and only `complete_task` can change status, after confirming with you. That's the advantage of exposing your own tools
-rather than giving an assistant open access to your workspace
-([AI Agents Across n8n + Notion](124-ai-agents-across-n8n-and-notion.md#-mcp-in-both-directions)).
+1. Import from:
 
-Try these prompts in Claude:
+    ```text
+    https://raw.githubusercontent.com/Axmann8/The_Massive_AI_Manual/main/examples/n8n-notion/5-notion-tools-mcp-server.json
+    ```
 
-- *"What's on my Notion task list this week? Group it by priority."*
-- *"Add a task to book the car service, high priority, due Friday."*
-- *"I've finished calling the insurance company. Mark that task done."*
+    ![The MCP server workflow: MCP Server Trigger with three Notion tool nodes underneath: find_tasks, create_task and complete_task](../assets/screenshots/n8n/kit-5-mcp.png "Workflow 5. Each Notion node underneath becomes one tool the AI can use.")
 
-> ✅ **Checkpoint:** Claude lists your real tasks, creates a new one that appears in Notion with Source = AI, and asks
-> before completing a task.
+2. Double-click each tool node, pick **Notion account**, and paste your **✅ Tasks** link. Read each **Description**:
+   that's what the AI reads to decide when to use the tool, so keep it precise.
 
-## 🚀 Level-ups
+    ![The find_tasks tool node with a Tool Description explaining what it returns, the Notion credential and a database link](../assets/screenshots/n8n/mcp-tool-find-tasks.png "The description tells the AI what this tool does and when to use it.")
 
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
+3. Double-click **MCP Server Trigger**. Click **Connect to Bearer Auth**, enter a long random token, and save. Then
+   **Publish** the workflow and copy the **Production URL**.
 
-Once the core system works, extend it with more capture sources, smarter processing and richer outputs. Each idea below builds on the same databases and patterns.
+    ![The MCP Server Trigger node with Test URL and Production URL tabs, Bearer Auth authentication, and the path notion-tools](../assets/screenshots/n8n/mcp-server-trigger.png "Your MCP server's address. Clients must send the bearer token to use it.")
 
-</details>
+4. **Connect Claude Code** (one command, in a terminal):
 
-| Level-up | How |
-|---|---|
-| 📧 **Email capture** | Gmail Trigger on a *To Notion* label → same triage → Inbox (copy workflow 1's middle nodes) |
-| 📅 **Calendar time blocks** | Tasks with a *Scheduled for* time → Google Calendar events, saving the event ID ([Connecting Everything](125-connecting-everything.md#-email-and-calendar)) |
-| 🗂️ **Projects** | Add a Projects database and a relation from Tasks; have the AI suggest the project in workflow 2 |
-| 🔁 **Weekly review** | Friday workflow: completed tasks + Inbox stats → AI review page ([Recipe Book](126-n8n-notion-recipe-book.md), recipe 17) |
-| 🔒 **Fully local AI** | Swap the Claude nodes for Ollama Chat Model nodes pointing at your home lab |
-| 📊 **Dashboard** | Add chart views to the Command Center: tasks by priority, captures per day by source |
-| 🧠 **RAG over your notes** | Index the Inbox and Resources pages and add a chat assistant ([chapter 124](124-ai-agents-across-n8n-and-notion.md#-rag-over-your-notion-workspace)) |
+    ```bash
+    claude mcp add --transport http notion-tasks https://YOUR-N8N/mcp/notion-tools \
+      --header "Authorization: Bearer YOUR-TOKEN"
+    ```
+
+    For **Claude Desktop** and other clients, see
+    [Connecting Everything](125-connecting-everything.md) and [AI Agents Across n8n + Notion](124-ai-agents-across-n8n-and-notion.md#-mcp-in-both-directions).
+
+5. Try these prompts:
+    - *"What's on my Notion task list this week? Group it by priority."*
+    - *"Add a task to book the car service, high priority, due Friday."*
+    - *"I've finished calling the insurance company. Mark that task done."*
+
+> [!TIP]
+> **💡 Or expose your whole n8n**
+> n8n can also act as one big MCP server: **Settings → Instance-level MCP → Enable MCP access** lets clients like Claude
+> and Cursor see and run the workflows you allow.
+>
+> ![n8n's Instance level MCP settings page with an Enable MCP access button](../assets/screenshots/n8n/instance-level-mcp.png "Instance-level MCP, under Settings.")
+
+> ✅ **Checkpoint:** Claude lists your real tasks, creates one that appears in Notion with Source = AI, and asks before
+> completing a task.
 
 ## 🩺 Troubleshooting
 
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
+| What you see | Why | Fix |
+|---|---|---|
+| **Couldn't connect with these settings** when saving the Notion credential | The secret is wrong or was regenerated | Copy the **Internal Integration Secret** again (Step 2) and paste it |
+| **Authorization failed – please check your credentials** on a Notion node | Same as above, or the integration was removed | Re-paste the secret; check **••• → Connections** on the Command Center page |
+| **The 'Create Inbox row' node has issues: Not a valid Notion Database URL** | The placeholder link is still there | Paste your database link (Notion: **••• → Copy link**) |
+| Property dropdowns say **Error fetching options from Notion** | n8n can't see that database | Connect the integration to the page (Step 2, point 4) |
+| *Validation error* when creating a row | A property name or option doesn't match | Compare with the table in Step 1, capitals included |
+| A ⚠️ next to the error logger in Settings | It isn't published yet | Finish Step 3 and **Publish** it |
+| Phone shortcut gets `401` or `403` | The `X-Webhook-Secret` header is missing or different | Copy the exact secret into the shortcut's header |
+| The button does nothing | Workflow 2 isn't published, the button uses the Test URL, or the header is missing | Publish, use the Production URL, add the header |
+| Briefing is empty every day | Tasks have no Due dates, or Status names don't match | Add due dates; make sure `Done` is spelled exactly |
 
-Most problems in this build come from sharing, option names, webhook URLs or credentials. Check the Automation Log first, then use the table.
+Here's what an authorization failure looks like, so you recognise it. The AI steps before it worked (green); only the
+Notion step failed (red):
 
-</details>
+![The capture workflow after a test run: webhook, AI triage and Parse and validate are green, Create Inbox row is red](../assets/screenshots/n8n/capture-test-run.png "A red node marks exactly where a run stopped. Double-click it to read the error.")
 
-| Problem | Fix |
+![The Create Inbox row node showing the error Authorization failed - please check your credentials, API token is invalid](../assets/screenshots/n8n/notion-auth-error.png "The error panel names the problem. Here, the Notion secret was wrong.")
+
+## 🚀 Level-ups
+
+| Level-up | How |
 |---|---|
-| Notion node can't find a database | Share the Command Center page with the integration; reselect the database |
-| "Validation error" when creating a row | A property name or option doesn't match the README exactly |
-| Phone shortcut gets `401` or `403` | The `X-Webhook-Secret` header is missing or doesn't match the credential |
-| Button click does nothing | Workflow 2 isn't active, the button uses the test URL, or the header is missing |
-| *Get page ID* error | The button isn't sending the page; check the webhook action targets the clicked row |
-| Briefing is empty every day | Tasks lack Due dates, or Status names don't match (`Done` must match exactly) |
-| Claude doesn't see the tools | Workflow 5 isn't active, or the connector URL or bearer token is wrong |
-| Errors don't reach the Automation Log | The failing workflow's **Settings → Error workflow** isn't set to the logger |
-
-## 🎯 Key takeaways
-
-- A complete command center needs just **four databases and five workflows**.
-- Set up **error logging first**, and validate AI output against your **exact options**.
-- **Header secrets** protect your capture and button webhooks.
-- A **checkbox plus the Notion Trigger** replaces paid button webhooks when needed.
-- Exposing **scoped MCP tools** lets any assistant manage your tasks safely.
-
-## 🧠 Check yourself
-
-<details class="quiz">
-<summary>❓ 1. Why does the capture workflow include a "Parse and validate" step after the AI?</summary>
-
-To **force the model's answers into the exact select options** Notion expects, so an unexpected value can't break the
-write, and to fall back gracefully if the model's JSON is malformed.
-
-</details>
-
-<details class="quiz">
-<summary>❓ 2. Why build the error logger before the other workflows?</summary>
-
-So that **every problem in the later steps is visible** in the Automation Log immediately, instead of failing silently.
-
-</details>
-
-<details class="quiz">
-<summary>❓ 3. Claude can create tasks through workflow 5. What stops it from editing anything else in your workspace?</summary>
-
-It only has the **three tools you defined**, each with a fixed database and fixed defaults. It has no general access to
-your Notion workspace through this connection.
-
-</details>
-
-> [!TIP]
-> **🎮 Try this**
-> Use your command center for one full week: capture everything by voice, process items with the button each evening, and
-> read the briefing each morning. On Friday, check the Automation Log and pick one level-up to add.
+| 📧 **Email capture** | A **Gmail Trigger** on a *To Notion* label → the same triage → Inbox (copy workflow 1's middle nodes) |
+| 📅 **Calendar time blocks** | Tasks with a time → Google Calendar events ([Connecting Everything](125-connecting-everything.md#-email-and-calendar)) |
+| 🗂️ **Projects** | Add a Projects database and a relation from Tasks; let the AI suggest the project in workflow 2 |
+| 🔁 **Weekly review** | A Friday workflow: completed tasks + Inbox stats → AI review page ([Recipe Book](126-n8n-notion-recipe-book.md)) |
+| 🔒 **Fully local AI** | Swap the Claude nodes for **Ollama Chat Model** nodes pointing at your home lab |
+| 🧠 **Chat with your notes** | Index your Inbox and pages and add a chat assistant ([chapter 124](124-ai-agents-across-n8n-and-notion.md#-rag-over-your-notion-workspace)) |
 
 ---
 

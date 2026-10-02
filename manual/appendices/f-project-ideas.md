@@ -24,13 +24,6 @@ This appendix lists 80 AI projects organized by difficulty, each with the tools 
 
 ## 🟢 Starter: an afternoon, no code (1–15)
 
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-These projects can be completed in an afternoon without writing code.
-
-</details>
-
 | # | Project | Stack | You'll learn |
 |---|---|---|---|
 | 1 | **Chat with your Drive**: ask questions across your docs | Claude + Google Drive connector | Connectors, grounded answers |
@@ -50,13 +43,6 @@ These projects can be completed in an afternoon without writing code.
 | 15 | **Model tasting night** | 3 assistants, 10 prompts ([Evaluating AI](../part-12-mastery/105-evaluating-ai.md)) | Evals |
 
 ## 🟡 Intermediate: a weekend, light config (16–35)
-
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-These weekend projects involve light configuration: automations, bots and local AI.
-
-</details>
 
 | # | Project | Stack | You'll learn |
 |---|---|---|---|
@@ -83,13 +69,6 @@ These weekend projects involve light configuration: automations, bots and local 
 
 ## 🟠 Advanced: a few weekends, code with AI help (36–55)
 
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-These projects take a few weekends and involve writing code with an AI coding assistant.
-
-</details>
-
 | # | Project | Stack | You'll learn |
 |---|---|---|---|
 | 36 | **Your own MCP server** for a hobby API | Python/TS SDK ([starter](../../examples/my-first-mcp-server/)) | Tool design |
@@ -115,13 +94,6 @@ These projects take a few weekends and involve writing code with an AI coding as
 
 ## 🔴 Ambitious: stretch goals (56–65)
 
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-These ambitious projects combine several skills and are well suited to experienced builders.
-
-</details>
-
 | # | Project | Stack | You'll learn |
 |---|---|---|---|
 | 56 | **Phone-call receptionist** that books appointments | Vapi/Retell + n8n + Calendar ([Build-Along](../part-13-build-alongs/119-build-along-voice-receptionist.md)) | Real-time voice agents |
@@ -136,13 +108,6 @@ These ambitious projects combine several skills and are well suited to experienc
 | 65 | **Teach a workshop** from this manual | Your own slides + hands-on ([Teaching Others](../part-12-mastery/108-teaching-others.md)) | Mastery through teaching 🧑‍🏫 |
 
 ## 💛 Ideas by passion (66–80)
-
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-These project ideas are grouped by personal interest, such as pets, sports, music and cooking.
-
-</details>
 
 | # | If you love… | Build |
 |---|---|---|
@@ -163,13 +128,6 @@ These project ideas are grouped by personal interest, such as pets, sports, musi
 | 80 | 🏘️ **Community** | A local events digest for your neighborhood, emailed weekly |
 
 ## 🗓️ A 30-day "go deeper" plan
-
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-This 30-day plan focuses on one theme per week, with projects from this list that build on one another.
-
-</details>
 
 | Week | Focus | Projects |
 |---|---|---|

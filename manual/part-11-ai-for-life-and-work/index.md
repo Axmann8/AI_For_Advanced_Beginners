@@ -37,7 +37,7 @@ This part applies AI to everyday goals: studying, writing, running a business, j
 
     ---
 
-    <span class="card-meta">⏱️ 8 min read · 🎯 Everyone who's curious (students, professionals, lifelong learners)</span>
+    <span class="card-meta">⏱️ 6 min read · 🎯 Everyone who's curious (students, professionals, lifelong learners)</span>
 
     AI is the best tutor and research assistant most of us have ever had access to. It's patient, available 24/7, and it can explain anything at any level.
 
@@ -45,7 +45,7 @@ This part applies AI to everyday goals: studying, writing, running a business, j
 
     ---
 
-    <span class="card-meta">⏱️ 7 min read · 🎯 Writers, bloggers, newsletter folks, creators, anyone who writes at work</span>
+    <span class="card-meta">⏱️ 6 min read · 🎯 Writers, bloggers, newsletter folks, creators, anyone who writes at work</span>
 
     AI can make you a faster, braver, more consistent writer and creator, without making you sound like a robot.
 
@@ -53,7 +53,7 @@ This part applies AI to everyday goals: studying, writing, running a business, j
 
     ---
 
-    <span class="card-meta">⏱️ 8 min read · 🎯 Small business owners, freelancers, side-hustlers and dreamers</span>
+    <span class="card-meta">⏱️ 6 min read · 🎯 Small business owners, freelancers, side-hustlers and dreamers</span>
 
     For a small business, AI is like hiring a marketing assistant, a bookkeeper's helper, a receptionist and an analyst for less than the cost of lunch each month.
 
@@ -61,7 +61,7 @@ This part applies AI to everyday goals: studying, writing, running a business, j
 
     ---
 
-    <span class="card-meta">⏱️ 8 min read · 🎯 Job seekers, career changers, students, anyone ready for a next step</span>
+    <span class="card-meta">⏱️ 6 min read · 🎯 Job seekers, career changers, students, anyone ready for a next step</span>
 
     Job hunting is stressful, repetitive and full of guesswork, which makes it perfect territory for an AI sidekick.
 
@@ -69,7 +69,7 @@ This part applies AI to everyday goals: studying, writing, running a business, j
 
     ---
 
-    <span class="card-meta">⏱️ 8 min read · 🎯 Everyone with a to-do list (so, everyone)</span>
+    <span class="card-meta">⏱️ 6 min read · 🎯 Everyone with a to-do list (so, everyone)</span>
 
     Forms, bills, appointments, school emails, renewals, "did I ever reply to that?": life admin eats hours every week.
 
@@ -77,7 +77,7 @@ This part applies AI to everyday goals: studying, writing, running a business, j
 
     ---
 
-    <span class="card-meta">⏱️ 8 min read · 🎯 Everyone who earns, spends or saves</span>
+    <span class="card-meta">⏱️ 7 min read · 🎯 Everyone who earns, spends or saves</span>
 
     Money stress is real, and a lot of it comes from not quite understanding where it goes or what the options mean.
 
@@ -85,7 +85,7 @@ This part applies AI to everyday goals: studying, writing, running a business, j
 
     ---
 
-    <span class="card-meta">⏱️ 8 min read · 🎯 Everyone looking after their body and mind</span>
+    <span class="card-meta">⏱️ 6 min read · 🎯 Everyone looking after their body and mind</span>
 
     AI can be a wonderful health companion: a coach who builds workouts around your life, a patient explainer of confusing medical words, an appointment-prep buddy, a meal planner and a gentle journaling partner.
 
@@ -93,7 +93,7 @@ This part applies AI to everyday goals: studying, writing, running a business, j
 
     ---
 
-    <span class="card-meta">⏱️ 8 min read · 🎯 Parents, teachers, tutors and students of all ages</span>
+    <span class="card-meta">⏱️ 7 min read · 🎯 Parents, teachers, tutors and students of all ages</span>
 
     AI is changing how kids learn, how teachers teach and how families help with homework, and it can be wonderful if we use it thoughtfully.
 
@@ -101,7 +101,7 @@ This part applies AI to everyday goals: studying, writing, running a business, j
 
     ---
 
-    <span class="card-meta">⏱️ 6 min read · 🎯 Travelers, weekend explorers, road-trippers, dreamers</span>
+    <span class="card-meta">⏱️ 5 min read · 🎯 Travelers, weekend explorers, road-trippers, dreamers</span>
 
     AI is the travel buddy who never gets tired of planning. It can turn "I have a week and a vague wish for mountains" into a realistic itinerary, compare routes and budgets, build packing lists for the actual weather, teach you survival phrases, read menus and signs through your camera, and rescue you when trains get cancelled.
 
@@ -109,7 +109,7 @@ This part applies AI to everyday goals: studying, writing, running a business, j
 
     ---
 
-    <span class="card-meta">⏱️ 7 min read · 🎯 Home cooks, fixers, gardeners, decorators, renters and homeowners</span>
+    <span class="card-meta">⏱️ 6 min read · 🎯 Home cooks, fixers, gardeners, decorators, renters and homeowners</span>
 
     Your phone's camera + an AI assistant = a chef, a handyperson, a gardener and an interior designer in your pocket.
 
@@ -117,7 +117,7 @@ This part applies AI to everyday goals: studying, writing, running a business, j
 
     ---
 
-    <span class="card-meta">⏱️ 8 min read · 🎯 Everyone: disabled people, families, caregivers, teachers and builders</span>
+    <span class="card-meta">⏱️ 6 min read · 🎯 Everyone: disabled people, families, caregivers, teachers and builders</span>
 
     For many disabled people, AI isn't a novelty; it's independence. An app that describes the world through a phone's camera, live captions for every conversation, a synthetic voice built from your own recordings, a helper that breaks a daunting task into tiny steps: these are life-changing.
 
@@ -125,7 +125,7 @@ This part applies AI to everyday goals: studying, writing, running a business, j
 
     ---
 
-    <span class="card-meta">⏱️ 7 min read · 🎯 Everyone with a spreadsheet (no stats or Python needed)</span>
+    <span class="card-meta">⏱️ 6 min read · 🎯 Everyone with a spreadsheet (no stats or Python needed)</span>
 
     You don't need to know statistics or Python to get real answers from data anymore. AI can load your spreadsheet, clean it, analyze it, chart it and explain what it means, in plain English.
 

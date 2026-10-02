@@ -1,6 +1,6 @@
 # 21 · Microsoft Copilot: The Complete Guide 🪟
 
-> ⏱️ 8 min read · 🎯 Windows, Office and Outlook users · 🧰 Needs: a Microsoft account (Outlook, Xbox or Office login)
+> ⏱️ 6 min read · 🎯 Windows, Office and Outlook users · 🧰 Needs: a Microsoft account (Outlook, Xbox or Office login)
 
 **Copilot is Microsoft's AI assistant, and it lives where millions of people already work: Windows, the Edge browser,
 Word, Excel, PowerPoint, Outlook and Teams.** In 2026 Microsoft merged its consumer Copilot app and its Microsoft 365
@@ -22,13 +22,6 @@ Copilot is Microsoft's AI assistant, built into Windows, the Edge browser and Mi
 
 ## 🪟 Quick facts
 
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-Copilot is made by Microsoft and uses models from OpenAI and Microsoft. It's available as an app on Windows, Mac and phones, on the web, in Edge, and inside Microsoft 365 apps.
-
-</details>
-
 | | |
 |---|---|
 | **Made by** | Microsoft (Microsoft AI), using OpenAI's and Microsoft's own models |
@@ -47,17 +40,6 @@ Copilot is made by Microsoft and uses models from OpenAI and Microsoft. It's ava
 
 ## 🚪 Getting started
 
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-Getting started with Copilot is quick.
-
-1. Press the Copilot key or taskbar icon on Windows, or open the Copilot app or website.
-2. Sign in with your Microsoft account (or your work account).
-3. Type or speak your first question.
-
-</details>
-
 1. **Open Copilot:** press the **Copilot key** (or the taskbar icon) on Windows, open the **Microsoft Copilot** app on
    your phone or Mac, or go to the Copilot website.
 2. **Sign in** with your **Microsoft account** (personal) or your **work/school account**. Signing in saves your
@@ -66,13 +48,6 @@ Getting started with Copilot is quick.
 4. **Voice:** optionally turn on **"Hey Copilot"** on Windows for hands-free use.
 
 ## 💳 Plans in plain English
-
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-Copilot chat is free with a Microsoft account. Using Copilot inside Word, Excel, PowerPoint and Outlook at home requires a Microsoft 365 subscription; business plans add work-data features. The table compares them.
-
-</details>
 
 | Plan | What you get |
 |---|---|
@@ -83,13 +58,6 @@ Copilot chat is free with a Microsoft account. Using Copilot inside Word, Excel,
 
 ## 💬 Everyday chat, voice and vision
 
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-Copilot supports typed and spoken conversation, file and photo uploads, and **Copilot Vision**, which can look at your screen or camera and guide you through what you're seeing.
-
-</details>
-
 - **Chat:** ask anything, and upload files and photos.
 - **Voice:** tap the microphone for a spoken conversation.
 - **Copilot Vision:** share your **screen** on Windows (or your **camera** on mobile) and ask *"How do I turn off these
@@ -99,13 +67,6 @@ Copilot supports typed and spoken conversation, file and photo uploads, and **Co
 - **Learn Live:** a tutoring mode that teaches step by step with questions and visuals.
 
 ## 📝 Copilot in Word, Excel, PowerPoint and Outlook
-
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-With a Microsoft 365 plan, a Copilot button appears in each Office app. Use it to draft and rewrite in Word, write formulas and analyze data in Excel, build slides in PowerPoint and summarize or draft email in Outlook. The table has example prompts.
-
-</details>
 
 With a Microsoft 365 plan, look for the **Copilot** button in each app:
 
@@ -123,13 +84,6 @@ The merged Copilot app also lets you jump from a chat into these apps and your f
 
 ## 🌐 Copilot in Edge and Windows
 
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-In Edge, Copilot can summarize pages, compare products across tabs and draft text; Copilot Mode can also carry out tasks on websites. In Windows, Copilot can help find settings and files.
-
-</details>
-
 - **Edge:** open Copilot in the sidebar to summarize pages, compare products across tabs, or draft text. Edge's
   **Copilot Mode** turns the browser into an AI-first experience that can help with multi-step browsing tasks (with your
   permission).
@@ -139,13 +93,6 @@ In Edge, Copilot can summarize pages, compare products across tabs and draft tex
 
 ## 🔬 Researcher and Analyst (Premium and business)
 
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-Premium and business plans include two specialist agents. **Researcher** conducts multi-step research and writes a cited report; **Analyst** works through data and spreadsheets to find insights.
-
-</details>
-
 - **Researcher:** multi-step research across the web (and your work files, on business plans) that produces a detailed,
   cited report.
 - **Analyst:** a data-focused agent that works through spreadsheets and data files, running analysis and explaining
@@ -154,13 +101,6 @@ Premium and business plans include two specialist agents. **Researcher** conduct
 These are included with **Microsoft 365 Premium** and business Copilot licenses.
 
 ## 🍳 Step-by-step recipes
-
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-These four recipes walk through real tasks in Copilot step by step, from fixing a Windows setting with Vision to drafting in Office.
-
-</details>
 
 **Recipe 1: Fix a Windows annoyance with Vision**
 
@@ -184,13 +124,6 @@ These four recipes walk through real tasks in Copilot step by step, from fixing 
 
 ## 🔐 Privacy and settings
 
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-The table lists Copilot's key privacy settings, including memory, model training and history deletion, and where to find each one.
-
-</details>
-
 | Setting | Where | What it does |
 |---|---|---|
 | **Memory / personalization** | Copilot → Settings | What Copilot remembers about you |
@@ -199,13 +132,6 @@ The table lists Copilot's key privacy settings, including memory, model training
 | **Work accounts** | Managed by your organization | Enterprise data protection: your prompts and data aren't used to train the models |
 
 ## 💡 Pro tips and limitations
-
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-These tips help you get more out of Copilot, followed by its current limitations so you know what to watch for.
-
-</details>
 
 **Pro tips**
 

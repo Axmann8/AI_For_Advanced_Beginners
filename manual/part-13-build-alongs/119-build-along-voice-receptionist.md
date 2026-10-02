@@ -29,13 +29,6 @@ In this project you'll build an AI phone receptionist for a business. It answers
 
 ## 🗺️ What you'll build
 
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-A caller speaks with the voice agent, which calls n8n webhooks to check availability and book appointments in Google Calendar. After the call, n8n sends you a summary. The diagram shows the sequence.
-
-</details>
-
 ```mermaid
 sequenceDiagram
     participant C as ☎️ Caller
@@ -59,13 +52,6 @@ sequenceDiagram
 
 ## ✅ Before you start
 
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-You'll need an account on a voice agent platform (Vapi, Retell or ElevenLabs Agents), n8n reachable over HTTPS and a Google Calendar.
-
-</details>
-
 - [ ] A **voice-agent platform** account: Vapi, Retell or ElevenLabs Agents (free trials usually cover testing) ([Voice Agents](../part-10-creative-ai/87-voice-agents.md))
 - [ ] **n8n** reachable over **HTTPS** (n8n Cloud, or self-hosted with a tunnel) ([n8n Masterclass](../part-5-automation/47-n8n-masterclass.md))
 - [ ] A **Google Calendar** for bookings (a dedicated "Appointments" calendar is tidy)
@@ -73,17 +59,6 @@ You'll need an account on a voice agent platform (Vapi, Retell or ElevenLabs Age
 - [ ] **Spend limits** on the platform and your LLM account
 
 ## 1️⃣ Step 1: Import and test the tools (30 min)
-
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-Import and test the calendar tools first.
-
-1. Import `voice-receptionist-tools.json` into n8n.
-2. Connect your Google Calendar credential.
-3. Test both webhooks (check availability and book appointment) with sample requests before connecting the voice agent.
-
-</details>
 
 1. In n8n, **import** [`voice-receptionist-tools.json`](../../examples/n8n-workflows/voice-receptionist-tools.json).
 2. Connect your **Google Calendar** credential in both calendar nodes, and pick your appointments calendar.
@@ -93,7 +68,7 @@ Import and test the calendar tools first.
     const OPEN = 9, CLOSE = 17, SLOT_MINUTES = 30, TZ_OFFSET = '+00:00';
     ```
 
-4. Click **Test workflow**, then from a terminal:
+4. Click **Execute workflow**, then from a terminal:
 
     ```bash
     curl -X POST "https://YOUR-N8N/webhook-test/receptionist/check-availability" \
@@ -104,23 +79,12 @@ Import and test the calendar tools first.
       -d '{"name": "Test Caller", "phone": "+1 555 0100", "start": "2026-10-01T11:00:00Z", "notes": "Fiddle-leaf fig emergency"}'
     ```
 
-5. **Activate** the workflow and note the production URLs (`/webhook/...` instead of `/webhook-test/...`).
+5. **Publish** the workflow and note the production URLs (`/webhook/...` instead of `/webhook-test/...`).
 
 > ✅ **Checkpoint:** check-availability returns a spoken-style `message` with free times, and book-appointment creates a real
 > event in your calendar.
 
 ## 2️⃣ Step 2: Create the voice agent (30 min)
-
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-Create the voice agent.
-
-1. Create a new agent on your platform.
-2. Choose fast speech-to-text, a language model and a natural voice.
-3. Paste the system prompt from the kit, written for spoken conversation, and customize the business details.
-
-</details>
 
 1. Create a new **assistant/agent** on your platform.
 2. Pick models: a fast **speech-to-text**, your **LLM** (Claude works well), and a warm **voice**.
@@ -154,13 +118,6 @@ More on writing for the ear in [Voice Agents](../part-10-creative-ai/87-voice-ag
 
 ## 3️⃣ Step 3: Connect the tools (30 min)
 
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-Add the two n8n webhooks as custom tools on the voice platform, with clear descriptions of when to use each and the parameters they expect. The table lists the details.
-
-</details>
-
 Add two **custom tools** (called functions, webhooks or server tools depending on the platform):
 
 | Tool | URL | Parameters (JSON schema) |
@@ -183,13 +140,6 @@ agent decides when to call it ([Build Your Own Agent](../part-7-building-with-ai
 
 ## 4️⃣ Step 4: Test like a mischievous caller (45 min)
 
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-Test thoroughly, first with web test calls and then from a real phone. Try each scenario in the table, including confused, talkative and difficult callers, and fix what goes wrong.
-
-</details>
-
 Use the web test call first, then a real phone. Try each scenario and note what breaks:
 
 | Scenario | What good looks like |
@@ -210,26 +160,12 @@ After each round, update the system prompt or tool descriptions, and **re-test t
 
 ## 5️⃣ Step 5: Human handoff & messages (30 min)
 
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-Set up a way to reach a person: a call transfer tool for urgent or complex requests, and a message-taking flow for when no one is available.
-
-</details>
-
 - **Transfer:** most platforms have a **transfer call** tool. Add your phone number and describe when to use it (*"when the
   caller asks for a person or is upset"*).
 - **Take a message:** add a third n8n webhook tool, `take_message {name, phone, message}`, that emails or texts you.
 - **Out of hours:** in the prompt: *"Outside business hours, offer to book or take a message; don't transfer."*
 
 ## 6️⃣ Step 6: Post-call summaries (30 min)
-
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-Configure the platform to send an end-of-call report (transcript, summary and recording link) to an n8n webhook, which forwards a short summary to your phone or email.
-
-</details>
 
 Most platforms can send an **end-of-call report** (transcript, summary, recording link) to a webhook. In n8n:
 
@@ -240,13 +176,6 @@ Also log every call to a Google Sheet: date, caller, outcome, duration. After a 
 callers ask most? What should I add to the FAQ?"* 📊
 
 ## 7️⃣ Step 7: Go live responsibly (30 min)
-
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-Before going live, connect a phone number, run a final round of tests, confirm the agent discloses that it's an AI, follow recording and calling regulations, and set spending limits.
-
-</details>
 
 1. **Buy or connect a phone number** in the platform (or forward your existing number after hours).
 2. Run the launch checklist:
@@ -265,13 +194,6 @@ More in [Safety, Costs & Gotchas](../part-12-mastery/103-safety-costs-and-gotcha
 
 ## 🚀 Level-ups
 
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-Once it's working, you can add appointment reminders, cancellations and rescheduling, multiple languages and integration with your CRM. The table describes each idea.
-
-</details>
-
 | Level-up | Idea |
 |---|---|
 | 🔔 **Reminders** | A daily n8n job texts tomorrow's appointments a reminder with a reschedule link |
@@ -282,13 +204,6 @@ Once it's working, you can add appointment reminders, cancellations and reschedu
 | 🧑‍💼 **Offer it as a service** | Local businesses love this ([Turning AI Skills into Income](../part-12-mastery/109-turning-ai-skills-into-income.md#-path-3-productized-services)) |
 
 ## 🩺 Troubleshooting
-
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-The table lists common problems, such as tools never being called or the agent talking over callers, with a fix for each.
-
-</details>
 
 | Problem | Fix |
 |---|---|

@@ -1,6 +1,6 @@
 # 98 · Parents, Teachers & Students: AI for Learning Together 👨‍👩‍👧🍎
 
-> ⏱️ 8 min read · 🎯 Parents, teachers, tutors and students of all ages · 🧰 Needs: an assistant with a learning or study mode, and your school's AI policy
+> ⏱️ 7 min read · 🎯 Parents, teachers, tutors and students of all ages · 🧰 Needs: an assistant with a learning or study mode, and your school's AI policy
 
 **AI is changing how kids learn, how teachers teach and how families help with homework, and it can be wonderful if we use it
 thoughtfully.** This chapter gives parents a guide to AI safety and healthy habits, students a guide to learning (not cheating)
@@ -22,13 +22,6 @@ AI can be an excellent learning aid when it supports thinking rather than replac
 <!-- in-this-chapter -->
 
 ## 👨‍👩‍👧 For parents: a healthy AI household
-
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-Set clear household guidelines for AI, as you would for screen time: which apps are allowed, age requirements, what's appropriate to share, and how AI fits with schoolwork. The table covers each topic.
-
-</details>
 
 | Topic | Practical guidance |
 |---|---|
@@ -52,13 +45,6 @@ Set clear household guidelines for AI, as you would for screen time: which apps 
 - *"Is it OK to use AI for this homework? What does your teacher say?"*
 
 ## 🎒 For students: learn *with* AI, not *around* it
-
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-Students learn most when AI explains concepts, asks questions and gives feedback, and least when it simply produces finished work. The table contrasts learning uses with shortcuts.
-
-</details>
 
 | ✅ Learning uses | ❌ Shortcut uses |
 |---|---|
@@ -89,13 +75,6 @@ a Gemini Notebook for each subject ([Research & Learning](91-research-and-learni
 
 ## 🏠 Homework help for parents
 
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-When homework covers something you've forgotten, ask AI to explain it the way it's taught today. Then you can guide your child with questions instead of giving away the answer. The table offers prompts for common situations.
-
-</details>
-
 | Situation | Prompt for the parent |
 |---|---|
 | "I forgot how long division works" | *"Explain long division the way it's taught to 9-year-olds now, so I can help without confusing my kid."* |
@@ -106,13 +85,6 @@ When homework covers something you've forgotten, ask AI to explain it the way it
 | "Reading support" | *"Suggest 10 books for a 10-year-old who loves dragons and hates long chapters."* |
 
 ## 🍎 For teachers: your AI teaching assistant
-
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-AI can help teachers prepare lesson plans, quizzes, rubrics, differentiated materials and parent communications much faster, leaving more time for students. The table offers a prompt for each task.
-
-</details>
 
 | Task | Prompt |
 |---|---|
@@ -131,13 +103,6 @@ education-focused tools with student-safety controls. Check your district's appr
 
 ## 🏫 AI in the classroom
 
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-Classroom activities can teach AI literacy directly, such as having students find errors in AI-written text, compare answers from different assistants and discuss when AI use is appropriate. The table describes each activity and what students learn.
-
-</details>
-
 **AI literacy lessons students love:**
 
 | Activity | How | What students learn |
@@ -155,13 +120,6 @@ to accuse students; talk with them about their process instead.
 
 ## 🎓 For older students & university
 
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-University students can use AI to understand difficult papers, find sources and plan study schedules. Always follow your institution's AI policy, verify sources yourself and cite honestly.
-
-</details>
-
 - **Reading papers:** *"Explain this paper's method and limitations to a first-year student."*
 - **Research:** use AI to find sources, then **read and cite the real sources** ([Research & Learning](91-research-and-learning.md)).
 - **Writing:** outline and draft yourself; use AI for feedback within your course's rules.
@@ -170,13 +128,6 @@ University students can use AI to understand difficult papers, find sources and 
 - **Academic integrity:** know your institution's policy; when AI use is allowed, disclose it as required.
 
 ## 🎨 Family fun with AI
-
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-AI can also be a source of family fun: creating bedtime stories, games, songs and artwork together. The table suggests activities.
-
-</details>
 
 | Activity | How |
 |---|---|

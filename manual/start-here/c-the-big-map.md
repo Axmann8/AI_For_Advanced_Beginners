@@ -20,13 +20,6 @@ The AI world can look chaotic, but it fits into five layers that work together. 
 
 ## 🏙️ The whole landscape in one picture
 
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-You interact with an app, which sends your request to a model. Through connectors, the app can reach your files and services. Automations can use the same models on their own, on a schedule or when something happens.
-
-</details>
-
 ```mermaid
 flowchart TB
     YOU((🧑 You))
@@ -62,13 +55,6 @@ flowchart TB
 
 ## 🧱 The five layers
 
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-The five layers stack on top of each other, and each one has a dedicated part of this manual. The table maps every layer to examples and to the chapters where you'll learn it.
-
-</details>
-
 | Layer | What it is | Examples | Learn it in |
 |---|---|---|---|
 | 🧠 **Models** | The "brains" that read and write | GPT, Gemini, Claude, Grok, Llama, DeepSeek, Mistral, Qwen | [Part III](../part-3-foundations/index.md), [Part IX](../part-9-local-ai/index.md) |
@@ -82,13 +68,6 @@ real-life uses ([Part XI](../part-11-ai-for-life-and-work/index.md)), doing it w
 and full projects ([Part XIII](../part-13-build-alongs/index.md)).
 
 ## 🪜 The skills ladder
-
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-Most people's AI skills grow in a predictable order: chatting, connecting apps, automating, building, running models locally, and finally teaching others. Each level has a natural next step, but you can jump ahead whenever a topic interests you.
-
-</details>
 
 ```mermaid
 flowchart LR
@@ -105,13 +84,6 @@ flowchart LR
 | 🏆 **6 · Mentor** | Evaluate, secure, and teach others | [Teaching Others](../part-12-mastery/108-teaching-others.md) |
 
 ## ❓ Which chapter answers my question?
-
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-If you have a specific question, find it in the table below and follow the link to the chapter that answers it.
-
-</details>
 
 | Your question | Go to |
 |---|---|
@@ -131,13 +103,6 @@ If you have a specific question, find it in the table below and follow the link 
 | "Just give me a project to build!" | [The Build-Alongs](../part-13-build-alongs/index.md) |
 
 ## 🔤 Your vocabulary starter pack
-
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-These ten terms come up constantly. Learning them now makes the rest of the manual much easier to follow; the [Glossary](../appendices/a-glossary.md) defines more than 200 others.
-
-</details>
 
 | Word | What it means |
 |---|---|

@@ -31,13 +31,6 @@ In this project you'll run and extend a Python research agent. Given a question,
 
 ## 🗺️ What you'll build
 
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-Your question goes to Claude, which uses built-in web search and fetch tools on its own, then calls your local tool to save the finished report. The diagram shows the sequence.
-
-</details>
-
 ```mermaid
 sequenceDiagram
     participant You as 🧑 You
@@ -64,25 +57,11 @@ sequenceDiagram
 
 ## ✅ Before you start
 
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-Before starting, install Python 3.10 or later and the kit's requirements, and set a spending limit on your Anthropic API key.
-
-</details>
-
 - [ ] Python 3.10+ and the kit: `cd examples/research-agent && pip install -r requirements.txt`
 - [ ] An **Anthropic API key** with a **spend limit** (research agents make many calls)
 - [ ] 3 questions you genuinely want answered 🤔
 
 ## 1️⃣ Step 1: Run the offline tests (5 min)
-
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-Run the tests first. They use a fake client that replays scripted responses, so you can confirm the agent loop works without any cost or internet connection.
-
-</details>
 
 ```bash
 python test_research_agent.py
@@ -94,17 +73,6 @@ search cap and the report saving without spending a cent.
 > ✅ **Checkpoint:** `🎉 All research-agent tests passed.`
 
 ## 2️⃣ Step 2: Your first real report (15 min)
-
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-Generate your first real report.
-
-1. Run the agent with a research question.
-2. Watch the log as it searches, reads and saves.
-3. Open the report in `reports/` and read it critically, checking a few citations.
-
-</details>
 
 ```bash
 export ANTHROPIC_API_KEY=sk-ant-...
@@ -122,13 +90,6 @@ Watch the log: 💭 thoughts, 🔎 searches and fetches, then 💾 the saved rep
 > ✅ **Checkpoint:** a cited report in `reports/`, and you've spot-checked two sources.
 
 ## 3️⃣ Step 3: Understand the loop (20 min)
-
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-Open `research_agent.py` and find three key ideas: the difference between server tools (web search and fetch, run by Anthropic) and client tools (saving reports, run by your code); the agent loop; and how paused turns are resumed.
-
-</details>
 
 Open `research_agent.py` and find these three ideas:
 
@@ -153,13 +114,6 @@ write outside `reports/`.
 
 ## 4️⃣ Step 4: Tune the research process (30 min)
 
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-The system prompt defines the research method. Change one thing at a time, such as source quality requirements, report format or reading level, re-run the same question and compare the results.
-
-</details>
-
 The `SYSTEM` prompt *is* the research method. Try one change at a time, re-run the same question, and compare
 ([Evaluating AI](../part-12-mastery/105-evaluating-ai.md)):
 
@@ -175,13 +129,6 @@ You can also restrict where it searches with `allowed_domains` on the web search
 
 ## 5️⃣ Step 5: Add a feature (45 min)
 
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-Add a feature with Claude Code's help, such as emailing the report, checking your own notes first or exporting to PDF. Ask it to extend the tests as well. The table provides a prompt for each idea.
-
-</details>
-
 Pick one and pair with Claude Code (remind it to extend the tests!):
 
 | Feature | Prompt for Claude Code |
@@ -195,13 +142,6 @@ Pick one and pair with Claude Code (remind it to extend the tests!):
 > ✅ **Checkpoint:** your feature works on a real question, and `python test_research_agent.py` still passes.
 
 ## 6️⃣ Step 6: Schedule a weekly report (20 min)
-
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-Schedule the agent to run weekly with cron on your computer or server, or with a GitHub Actions schedule, so a fresh report on your topic arrives automatically.
-
-</details>
 
 A weekly *"what's new in my field?"* report is a superpower. Two ways:
 
@@ -222,13 +162,6 @@ Pair it with the email feature and you have a personal research newsletter
 
 ## 💸 Costs & responsibility
 
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-Research agents read a lot of content, which consumes tokens. Start with quick mode, set a spending limit and verify important facts yourself before relying on them.
-
-</details>
-
 | Habit | Why |
 |---|---|
 | Start with `--depth quick` | Fewer searches and tokens |
@@ -238,13 +171,6 @@ Research agents read a lot of content, which consumes tokens. Start with quick m
 | Respect sites | Server tools fetch pages politely; don't repurpose them for heavy scraping |
 
 ## 🩺 Troubleshooting
-
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-The table lists common problems, such as a rejected tool type or a stalled loop, with a fix for each.
-
-</details>
 
 | Problem | Fix |
 |---|---|

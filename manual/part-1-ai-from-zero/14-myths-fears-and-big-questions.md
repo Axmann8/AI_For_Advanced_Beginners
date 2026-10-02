@@ -1,6 +1,6 @@
 # 14 · Myths, Fears & Big Questions 🤔
 
-> ⏱️ 9 min read · 🎯 Everyone, including skeptics and worriers · 🧰 Needs: an open mind
+> ⏱️ 8 min read · 🎯 Everyone, including skeptics and worriers · 🧰 Needs: an open mind
 
 **It's completely normal to feel excited *and* uneasy about AI, and every big question deserves an honest answer.** Is it alive? Will it take my job? Is using it
 cheating? What about the planet, artists and privacy? Could it get out of control? This chapter takes each big question
@@ -22,13 +22,6 @@ Many common concerns about AI are reasonable, while others are based on misconce
 
 ## 🤖 "Is AI alive? Does it have feelings?"
 
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-Chatbots produce remarkably human-sounding language, but the mainstream scientific view is that current AI is not conscious and does not have feelings. It's sophisticated software that predicts text.
-
-</details>
-
 Today's chatbots are **extraordinarily good at producing human-like language**, which makes it natural to feel there's
 "someone" there. The mainstream scientific view is that current AI **isn't conscious and doesn't have feelings** the
 way people and animals do. It's pattern-learning software that predicts text ([chapter 2](02-how-ai-chatbots-work.md)).
@@ -38,13 +31,6 @@ AI "welfare" seriously as a precaution. A healthy stance: **be polite if you lik
 confuse fluent words with a friend who knows and loves you.** 💛
 
 ## 💼 "Will AI take my job?"
-
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-AI is changing many jobs by automating routine tasks, and some roles will shrink while new ones appear. People who learn to use AI effectively in their field are generally better positioned than those who avoid it.
-
-</details>
 
 The honest answer: **AI is changing many jobs, and some roles will shrink or change a lot**, especially ones built
 around routine writing, data entry, basic customer service and simple analysis. New roles are appearing too, and most
@@ -65,13 +51,6 @@ What you can do: **learn to use AI in your field**, lean into the human parts of
 
 ## 🧠 "Will using AI make me lazy or less smart?"
 
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-The effect depends on how you use it. Relying on AI for every answer can weaken your skills, while using it to explain concepts, quiz you and critique your work can strengthen them.
-
-</details>
-
 It depends entirely on **how** you use it:
 
 | 🧠 Makes you sharper | 😴 Makes you rusty |
@@ -86,13 +65,6 @@ don't.** Calculators didn't stop people learning math, but they did change *whic
 
 ## 🎓 "Isn't using AI cheating?"
 
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-Whether AI use counts as cheating depends on the rules of the setting. Using it to learn and practice is usually encouraged; submitting AI-generated work as your own where that isn't allowed is not.
-
-</details>
-
 It depends on the **context and the rules**:
 
 - **School and university:** follow your teacher's or institution's policy. Using AI to *understand* and *practice* is
@@ -104,13 +76,6 @@ It depends on the **context and the rules**:
   when AI did? Your call, but honesty usually lands better. 😉
 
 ## 🌍 "What about the environment?"
-
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-AI data centers use significant amounts of electricity and water, and demand is growing quickly. A single chat uses relatively little energy, but the total adds up, so use AI for tasks that genuinely help you.
-
-</details>
 
 AI runs in giant data centers that use a lot of **electricity** and often **water** for cooling, and demand is growing
 fast. That's a real concern being debated worldwide.
@@ -128,13 +93,6 @@ dozens of throwaway images or videos, and support transparency about AI's energy
 
 ## 🎨 "Is AI stealing from artists and writers?"
 
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-AI models were trained on large amounts of human-created work, often without permission or payment. This is the subject of ongoing lawsuits and policy debates, and the legal rules are still being settled.
-
-</details>
-
 AI models were trained on huge amounts of human-made work, often **without the creators' permission or payment**.
 That's one of the most heated debates in AI:
 
@@ -149,13 +107,6 @@ support human creators you love, and prefer tools with fair licensing when you c
 
 ## ⚖️ "Is AI biased?"
 
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-Because AI learns from human data, it can reflect human biases. Companies work to reduce this, but no system is perfect. For important or debated topics, ask for multiple perspectives.
-
-</details>
-
 Yes, it can be. AI learns from human data, which contains human biases about gender, race, age, disability, culture and
 more. Companies work to reduce this, but no system is perfect, and there's disagreement about what "unbiased" even
 means on contested topics.
@@ -165,13 +116,6 @@ and be especially careful when AI is used for decisions about people, like hirin
 [AI Ethics for Builders](../part-12-mastery/107-ai-ethics-for-builders.md).
 
 ## 🔭 "Could AI get out of control?"
-
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-Experts disagree about whether future, more capable AI systems could become difficult to control. Many researchers and organizations work on AI safety, and governments are developing rules for advanced systems.
-
-</details>
 
 This is a serious question that serious people disagree about. Some leading researchers think future, much more capable
 AI systems could pose major risks if they're not built and governed carefully; others think those risks are overstated
@@ -189,13 +133,6 @@ You don't need to resolve this debate to use AI well. But it's worth staying inf
 
 ## 👂 "Is AI listening to me all the time?"
 
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-Voice assistants listen locally for their wake word and only send audio after detecting it, though accidental activations happen. You can review and delete recordings in your assistant's privacy settings.
-
-</details>
-
 Smart speakers and phones listen **locally** for their wake word ("Alexa," "Hey Google," "Hey Siri") and start sending
 audio only after hearing it (or thinking they did; accidental activations happen). Chatbot apps only hear you when you
 use voice mode.
@@ -204,13 +141,6 @@ You're in control: **review and delete voice history** in your Amazon, Google or
 you want privacy, and check app microphone permissions on your phone.
 
 ## ⚡ Quick myth-busters
-
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-The table below pairs common myths about AI with the reality behind each one.
-
-</details>
 
 | 🧚 Myth | ✅ Reality |
 |---|---|

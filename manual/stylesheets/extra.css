@@ -502,6 +502,30 @@
   transition: width 0.8s ease;
 }
 
+/* ---------------------------------------------------------------- screenshots --- */
+figure.shot {
+  margin: 1.1em 0 1.5em;
+}
+figure.shot a {
+  display: block;
+  line-height: 0;
+}
+figure.shot img {
+  border: 1px solid var(--md-default-fg-color--lightest);
+  border-radius: 10px;
+  box-shadow: 0 6px 22px rgba(30, 20, 60, 0.12);
+  cursor: zoom-in;
+}
+figure.shot figcaption {
+  max-width: 100%;
+  margin-top: 0.55em;
+  font-size: 0.78rem;
+  color: var(--md-default-fg-color--light);
+}
+figure.shot figcaption::before {
+  content: "📸 ";
+}
+
 @media print {
   .chapter-done {
     display: none;

@@ -1,6 +1,6 @@
 # 79 · Hardware for Local AI: What to Buy (and What Not To) 🖥️⚡
 
-> ⏱️ 9 min read · 🎯 Anyone thinking about running AI at home · 🧰 Needs: nothing (this is a buying and understanding guide)
+> ⏱️ 7 min read · 🎯 Anyone thinking about running AI at home · 🧰 Needs: nothing (this is a buying and understanding guide)
 
 **The single most important number for local AI isn't your processor speed. It's memory.** How *much* memory decides which
 models fit, and how *fast* that memory is decides how quickly they talk. Once you understand those two ideas, the whole
@@ -22,13 +22,6 @@ For local AI, two hardware specs matter far more than anything else: **memory ca
 
 ## 🧠 The two numbers that matter
 
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-**Memory capacity** (VRAM on a GPU or unified memory on a Mac) determines which models fit; a model needs roughly its file size plus some room for the conversation. **Memory bandwidth** determines how quickly it generates text. The table gives rules of thumb.
-
-</details>
-
 | Number | Decides | Rule of thumb |
 |---|---|---|
 | 📦 **Memory capacity** (VRAM on a GPU, unified memory on a Mac) | **Which models fit** | ~0.6 GB per billion parameters at 4-bit, plus a few GB for context |
@@ -46,13 +39,6 @@ usable, but you'll wait.
 
 ## 🗺️ The hardware landscape
 
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-Four kinds of hardware run local AI well: Apple Silicon Macs, PCs with NVIDIA graphics cards, mini PCs with large unified memory, and small boards like the Raspberry Pi for lightweight projects. The table compares strengths and trade-offs.
-
-</details>
-
 | Kind | Examples | Strengths | Trade-offs |
 |---|---|---|---|
 | 🍎 **Apple Silicon Macs** | MacBook Pro, Mac mini, Mac Studio (M-series) | **Unified memory** (the GPU can use most of the RAM), quiet, efficient, huge memory options | Slower than top GPUs per GB, memory can't be upgraded later |
@@ -62,13 +48,6 @@ Four kinds of hardware run local AI well: Apple Silicon Macs, PCs with NVIDIA gr
 | 💻 **Copilot+ / NPU laptops** | Laptops with neural processing units | Great battery life for built-in AI features | NPUs are rarely used by local LLM tools (yet) |
 
 ## 🍎 Macs: the surprise champions
-
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-Apple Silicon Macs use unified memory shared by the CPU and GPU, so a Mac with 64 GB can load models that would require multiple expensive graphics cards on a PC. They're also quiet and energy-efficient.
-
-</details>
 
 Apple Silicon Macs use **unified memory**: the CPU and GPU share one big, fast pool. That means a Mac with 64 GB can load models
 that would need a very expensive GPU on a PC.
@@ -86,13 +65,6 @@ models (LM Studio and Ollama support them) for extra speed. Buy more memory than
 later.
 
 ## 🎮 NVIDIA GPUs: the speed kings
-
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-NVIDIA graphics cards generate text very quickly and have the best software support, but their memory is limited. Choose the card with the most VRAM you can afford. The table shows what fits at each memory size.
-
-</details>
 
 | VRAM | Typical cards | What fits |
 |---|---|---|
@@ -113,13 +85,6 @@ NVIDIA graphics cards generate text very quickly and have the best software supp
 
 ## 🧊 Unified-memory mini PCs
 
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-Mini PCs built on chips like AMD's Ryzen AI Max series and NVIDIA's DGX Spark offer up to about 128 GB of GPU-accessible memory in a compact case, making large models practical outside a Mac.
-
-</details>
-
 Mini PCs built on chips like **AMD's Ryzen AI Max** series and **NVIDIA's DGX Spark** offer up to ~128 GB of memory the GPU can
 use, in a compact box.
 
@@ -128,13 +93,6 @@ use, in a compact box.
 - **Check:** software support for your favorite tools (it's improving quickly).
 
 ## 💰 Budget tiers
-
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-You can start at no cost with the computer you already own and small models or free cloud tiers. The table outlines what each budget tier provides, from free to high-end workstations.
-
-</details>
 
 | Tier | Setup | You get |
 |---|---|---|
@@ -151,13 +109,6 @@ You can start at no cost with the computer you already own and small models or f
 
 ## ✅ The buying checklist
 
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-Before buying, work through this checklist: what you'll run, what model size you need, how fast it must be, whether it will run continuously and how much you can spend.
-
-</details>
-
 - [ ] **What will you run?** Chat, coding, images, video, or an always-on server?
 - [ ] **Which model size do you want?** Use the ~0.6 GB per billion parameters rule, then add 20–30% headroom.
 - [ ] **Memory first:** the most VRAM or unified memory you can afford.
@@ -173,13 +124,6 @@ and what am I missing?"*
 
 ## 🗄️ Storage, power & the boring-but-important bits
 
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-Models range from 2 GB to more than 80 GB each, so plan for a fast SSD of at least 1–2 TB. Systems that run continuously use electricity, so efficient hardware saves money over time. The table covers storage, RAM, power and noise.
-
-</details>
-
 | Thing | Guidance |
 |---|---|
 | **Storage** | Models are 2–80+ GB each. A fast 1–2 TB SSD fills up faster than you'd think |
@@ -189,13 +133,6 @@ Models range from 2 GB to more than 80 GB each, so plan for a fast SSD of at lea
 | **Networking** | Wired Ethernet for a home server, and Tailscale for remote access ([Home Lab](80-home-lab.md)) |
 
 ## 🔭 Where hardware is heading
-
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-Hardware is improving quickly, and models are becoming more capable at smaller sizes, so the same computer can do more each year.
-
-</details>
 
 - **Smarter small models:** each generation packs more capability into fewer parameters, so your existing machine gets
   "upgraded" for free every few months. 🎁

@@ -1,6 +1,6 @@
 # 80 · The AI Home Lab: Your Private AI Playground 🏠🔬
 
-> ⏱️ 7 min read · 🎯 Beginner → intermediate (copy-paste friendly) · 🧰 Needs: Docker, 16 GB RAM recommended, the [homelab kit](../../examples/homelab/)
+> ⏱️ 6 min read · 🎯 Beginner → intermediate (copy-paste friendly) · 🧰 Needs: Docker, 16 GB RAM recommended, the [homelab kit](../../examples/homelab/)
 
 **A home lab is your personal AI playground: models, chat UIs, automations and databases running on hardware you control.**
 It's private, it's free to run all day, and it's one of the best ways to understand how all the pieces in this manual fit
@@ -23,13 +23,6 @@ A home lab runs a complete private AI setup on your own computer: **Ollama** run
 
 ## 🧩 What's in the lab
 
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-The lab has three services: Ollama runs open models and provides an API, Open WebUI gives you a private chat interface with document support, and n8n automates tasks using your local models.
-
-</details>
-
 ```mermaid
 flowchart LR
     You((🧑 You)) --> OW[💬 Open WebUI<br/>:3000]
@@ -47,17 +40,6 @@ flowchart LR
 | ⚙️ **n8n** | Automations and AI agents ([n8n Masterclass](../part-5-automation/47-n8n-masterclass.md)) | The robot arms |
 
 ## 🚀 The one-command lab
-
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-Starting the lab takes a few minutes.
-
-1. Install Docker Desktop (Mac or Windows) or Docker Engine (Linux).
-2. Run the compose command below from the homelab folder.
-3. Open http://localhost:3000, create your admin account and download a model.
-
-</details>
 
 1. Install **Docker Desktop** (Mac/Windows) or Docker Engine (Linux).
 2. Start the lab:
@@ -82,13 +64,6 @@ read the error messages for you.
 
 ## 🔌 Wire everything together
 
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-Connect the services: in n8n, add an Ollama credential pointing to `http://ollama:11434`, and optionally add a cloud API key to Open WebUI for questions that need a more capable model. The table lists each connection.
-
-</details>
-
 | Connection | How |
 |---|---|
 | **n8n → Ollama** | Add an **Ollama** credential with base URL `http://ollama:11434` (containers reach each other by service name) |
@@ -98,13 +73,6 @@ Connect the services: in n8n, add an Ollama credential pointing to `http://ollam
 | **Claude Code → lab** | Point MCP servers or scripts at `localhost` services |
 
 ## 📈 Level-ups for your lab
-
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-Once the base lab works, you can add Tailscale for secure access from your phone, a database, speech-to-text, private web search and more. The table explains each upgrade and how to install it.
-
-</details>
 
 | Add | Why | How |
 |---|---|---|
@@ -125,13 +93,6 @@ Once the base lab works, you can add Tailscale for secure access from your phone
 > file, wire n8n to Postgres, and update the README."*
 
 ## 🎮 Eight home lab projects
-
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-These eight projects make use of the lab, from chatting privately with your documents to a voice journal that never leaves your home.
-
-</details>
 
 ### 1 · Private document chat 📄
 
@@ -172,13 +133,6 @@ SearXNG + Open WebUI web search = a research assistant that doesn't log your que
 
 ## 🔐 Security basics
 
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-Keep the lab secure: run services only on localhost or Tailscale, never expose them directly to the internet, use strong passwords and keep everything updated. The table explains each rule.
-
-</details>
-
 | Rule | Why |
 |---|---|
 | Keep services on **localhost or Tailscale** | Never expose them raw to the internet |
@@ -195,13 +149,6 @@ Keep the lab secure: run services only on localhost or Tailscale, never expose t
 
 ## 🧰 Maintenance cheat sheet
 
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-These commands cover routine maintenance: checking what's running, viewing logs, updating containers, listing models, freeing disk space and making backups.
-
-</details>
-
 ```bash
 docker compose ps                                   # what's running
 docker compose logs -f open-webui                   # watch logs
@@ -215,13 +162,6 @@ docker system df                                    # what's using disk
 credentials. Ask your agent: *"Write a nightly backup script for these Docker volumes to my external drive."*
 
 ## 🗺️ A lab growth plan
-
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-This plan grows the lab over four weeks, adding one capability each week.
-
-</details>
 
 | Week | Add | You can now… |
 |---|---|---|

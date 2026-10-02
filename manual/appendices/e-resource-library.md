@@ -20,13 +20,6 @@ This appendix collects links to the tools, documentation and websites referenced
 
 ## 🔌 MCP
 
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-These resources cover MCP: the official specification and documentation, SDKs, server directories and the registry.
-
-</details>
-
 | Resource | Link |
 |---|---|
 | MCP official site & docs | [modelcontextprotocol.io](https://modelcontextprotocol.io) |
@@ -43,13 +36,6 @@ These resources cover MCP: the official specification and documentation, SDKs, s
 | Directories | [Glama](https://glama.ai/mcp/servers) · [Smithery](https://smithery.ai) · [PulseMCP](https://www.pulsemcp.com) · [mcp.so](https://mcp.so) |
 
 ## 🧠 AI assistants & developer platforms
-
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-These are the main AI assistants and the developer platforms for building with their models.
-
-</details>
 
 | Resource | Link |
 |---|---|
@@ -74,13 +60,6 @@ These are the main AI assistants and the developer platforms for building with t
 
 ## ⚙️ Automation
 
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-These are the automation platforms covered in Part V, with their documentation.
-
-</details>
-
 | Resource | Link |
 |---|---|
 | n8n + docs | [n8n.io](https://n8n.io) · [docs.n8n.io](https://docs.n8n.io) |
@@ -91,13 +70,6 @@ These are the automation platforms covered in Part V, with their documentation.
 | Power Automate | [powerautomate.microsoft.com](https://powerautomate.microsoft.com) |
 
 ## 🛠️ Building apps & agents
-
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-These tools help you build apps and agents and deploy them online.
-
-</details>
 
 | Resource | Link |
 |---|---|
@@ -115,13 +87,6 @@ These tools help you build apps and agents and deploy them online.
 
 ## 🖱️ Browser & computer-use agents
 
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-These tools let AI operate a web browser or computer.
-
-</details>
-
 | Resource | Link |
 |---|---|
 | Playwright MCP | [github.com/microsoft/playwright-mcp](https://github.com/microsoft/playwright-mcp) |
@@ -130,13 +95,6 @@ These tools let AI operate a web browser or computer.
 | Browserbase | [browserbase.com](https://www.browserbase.com) |
 
 ## 🏠 Local AI
-
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-These tools run AI models on your own computer.
-
-</details>
 
 | Resource | Link |
 |---|---|
@@ -153,13 +111,6 @@ These tools run AI models on your own computer.
 
 ## 📚 Knowledge & notes
 
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-These are note-taking apps and vector databases for organizing and searching your knowledge.
-
-</details>
-
 | Resource | Link |
 |---|---|
 | Notion | [notion.com](https://www.notion.com) |
@@ -170,13 +121,6 @@ These are note-taking apps and vector databases for organizing and searching you
 | MTEB embedding leaderboard | [huggingface.co/spaces/mteb/leaderboard](https://huggingface.co/spaces/mteb/leaderboard) |
 
 ## 🎨 Creative
-
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-These tools generate and edit images, video, music, voices, designs, 3D models and games.
-
-</details>
 
 | Resource | Link |
 |---|---|
@@ -195,13 +139,6 @@ These tools generate and edit images, video, music, voices, designs, 3D models a
 
 ## 🗣️ Voice agents
 
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-These platforms build voice agents that can handle phone calls.
-
-</details>
-
 | Resource | Link |
 |---|---|
 | Vapi | [vapi.ai](https://vapi.ai) |
@@ -212,13 +149,6 @@ These platforms build voice agents that can handle phone calls.
 
 ## ♿ Accessibility
 
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-These tools support blind and low-vision users, deaf and hard-of-hearing users, and people with cognitive and mobility needs.
-
-</details>
-
 | Resource | Link |
 |---|---|
 | Be My Eyes (Be My AI) | [bemyeyes.com](https://www.bemyeyes.com) |
@@ -228,13 +158,6 @@ These tools support blind and low-vision users, deaf and hard-of-hearing users, 
 
 ## 🌐 Free data & APIs used in this manual
 
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-These are the free data sources and APIs used by the manual's example projects.
-
-</details>
-
 | Resource | Link |
 |---|---|
 | Open-Meteo (free weather API, no key) | [open-meteo.com](https://open-meteo.com) |
@@ -243,13 +166,6 @@ These are the free data sources and APIs used by the manual's example projects.
 | hnrss (filtered Hacker News feeds) | [hnrss.github.io](https://hnrss.github.io) |
 
 ## 📊 Evaluation & staying current
-
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-These resources help you compare AI models and keep up with new developments.
-
-</details>
 
 | Resource | Link |
 |---|---|

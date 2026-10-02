@@ -21,13 +21,6 @@ This hour-long session takes you through six short missions that show what moder
 
 ## 🗺️ The plan
 
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-Each mission takes about ten minutes and builds on the one before, so it works best in order. The table shows the timing and the capability each mission adds.
-
-</details>
-
 | Time | Mission | Superpower |
 |---|---|---|
 | 0–10 min | 1. Connect your own data | 👀 Eyes |
@@ -38,17 +31,6 @@ Each mission takes about ten minutes and builds on the one before, so it works b
 | 50–60 min | 6. Your first automation | 🤖 Autopilot |
 
 ## 1️⃣ Connect your own data (0–10 min)
-
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-Connecting an app lets the AI answer questions using your real email, files or calendar instead of only its general knowledge. You choose exactly what it can access, and you can disconnect at any time.
-
-1. Pick **one** app you use daily (Gmail, Drive, Calendar, Outlook, Notion or GitHub).
-2. Open your assistant's connector settings (steps for each assistant are below) and sign in.
-3. Ask a question only your data can answer, such as *"What's on my calendar this week?"*
-
-</details>
 
 Connect **one** thing you actually use (Gmail, Google Drive, Google Calendar, Outlook, Notion or GitHub):
 
@@ -84,17 +66,6 @@ Then start a new chat and ask:
 > [Built-in Connectors](../part-4-mcp-and-connectors/41-built-in-connectors.md).
 
 ## 2️⃣ Install your first MCP servers (10–20 min)
-
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-MCP servers are small programs that give your AI new abilities. Here you'll add two: one that reads web pages and one that can create files, limited to a single folder you choose.
-
-1. Install **Claude Desktop** and create a folder for the AI to work in.
-2. Paste the configuration below into the settings file and restart the app.
-3. Test it by asking the AI to read a web page and save a summary into that folder.
-
-</details>
 
 > [!NOTE]
 > **📌 Why Claude Desktop for this mission?**
@@ -132,17 +103,6 @@ MCP servers are small programs that give your AI new abilities. Here you'll add 
 
 ## 3️⃣ Give your AI a memory (20–30 min)
 
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-By default, an assistant starts every chat from scratch. A memory feature (or the Memory MCP server you just installed) lets it store facts about you and use them in later conversations.
-
-1. Tell the assistant a few facts and preferences, and ask it to remember them.
-2. Open a brand-new chat and ask what it knows about you.
-3. Review what's stored from time to time, and delete anything you don't want kept.
-
-</details>
-
 The config above already added the **Memory** server. Now try:
 
 1. > *"Please remember: my name is ___, I'm learning about AI agents, I love ___, and I prefer short, cheerful answers."*
@@ -155,17 +115,6 @@ The config above already added the **Memory** server. Now try:
 **The wow:** a new conversation that already knows you. 🧠
 
 ## 4️⃣ Build a mini app in chat (30–40 min)
-
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-Features like Claude Artifacts, ChatGPT Canvas and Gemini Canvas can build small interactive apps from a plain-language description and run them right in the chat.
-
-1. Describe the app you want, including what it should do and how it should look.
-2. Try the result immediately.
-3. Ask for one change at a time until it works the way you want.
-
-</details>
 
 In **Claude** (Artifacts), **ChatGPT** (Canvas) or **Gemini** (Canvas, from the Tools menu), ask:
 
@@ -183,17 +132,6 @@ Then iterate, one change at a time:
 
 ## 5️⃣ Create a reusable assistant (40–50 min)
 
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-A Project (Claude or ChatGPT) or a Gem (Gemini) stores instructions for a recurring task, so you don't have to repeat them every time.
-
-1. Choose a task you do often, such as meal planning or writing emails.
-2. Create a Project or Gem and paste in instructions like the example below.
-3. Start each new conversation inside it with a short request, like *"plan my week."*
-
-</details>
-
 Pick one recurring job, like writing emails, meal planning, or studying. Create a **Project** (Claude or ChatGPT) or a
 **Gem** (Gemini) with instructions like:
 
@@ -206,17 +144,6 @@ Keep it upbeat and practical.
 Now just say *"plan my week"* whenever you want. ✨
 
 ## 6️⃣ Your first automation (50–60 min)
-
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-An automation runs a task for you whenever something happens, such as a set time each day or a new email arriving. You'll set up a simple daily briefing.
-
-1. Choose the easiest option below (your assistant's scheduled tasks, Zapier, or a phone shortcut).
-2. Set the schedule and write the instruction the AI should follow.
-3. Run it once manually to check the result, then let it run on its own.
-
-</details>
 
 Pick the easiest option for you:
 
@@ -234,13 +161,6 @@ Pick the easiest option for you:
 **The wow:** tomorrow morning, something useful arrives that *you built*, and it runs while you sleep. 😴🤖
 
 ## 🏁 You did it! What's next?
-
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-In one hour you've connected data, added tools, set up memory, built an app, created a custom assistant and automated a task. Choose the mission you enjoyed most and use the table below to find the chapters that go deeper.
-
-</details>
 
 | Loved… | Go deeper |
 |---|---|

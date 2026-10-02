@@ -411,13 +411,15 @@ Three concepts underpin almost every automation and integration, and you don't n
 - **An API** is how one program requests data or actions from another, usually exchanging JSON.
 - **A webhook** is a URL that receives a message the moment something happens in another app, so your automation can respond immediately.
 
-### [47 · The n8n Masterclass 🟣⚙️](../part-5-automation/47-n8n-masterclass.md)
+### [47 · The n8n Masterclass: Your First AI Workflow, Click by Click 🟣⚙️](../part-5-automation/47-n8n-masterclass.md)
 
-n8n is a visual workflow tool where each node performs one step, such as reading an email, calling an AI model or posting a message. Nodes connect from left to right, and data flows through them. You can self-host it for free.
+n8n is a visual workflow tool. Each box (a **node**) does one job, and data flows between them from left to right.
 
-1. **Install n8n** with Docker, npx or the cloud service.
-2. **Learn the core concepts:** nodes, items and expressions.
-3. **Build your first AI workflow,** then add credentials, error handling and backups.
+1. **Install n8n** (Cloud, `npx n8n` or Docker) and create your owner account.
+2. **Add a form trigger,** test it, and look at the data it produces.
+3. **Add an AI step,** drag the form's answer into the prompt, and connect Claude.
+4. **Show the AI's answer** on the form's thank-you screen and run the whole thing.
+5. **Publish it,** then use the reference sections when you build your next workflow.
 
 ### [48 · n8n AI Agents Deep Dive 🤖🟣](../part-5-automation/48-n8n-ai-agents.md)
 
@@ -1140,17 +1142,18 @@ This chapter collects 40 workflows that combine n8n and Notion. Each lists its t
 
 1. **Find a recipe** in the section that matches your goal.
 2. **Prepare the Notion database** it writes to, with the properties listed.
-3. **Build it** using the method at the end of this chapter, testing with real data before activating.
+3. **Build it** using the method at the end of this chapter, testing with real data before publishing.
 
 ### [127 · Build-Along: Your AI Command Center in Notion + n8n 🏗️](../part-14-n8n-and-notion/127-build-along-ai-command-center.md)
 
-You'll build a five-workflow system from this manual's starter kit, testing each piece with a checkpoint before moving on.
+You'll import five ready-made workflows from this manual's starter kit and connect them to four Notion databases,
+testing each one before moving on.
 
-1. **Create four Notion databases** and connect n8n to them.
-2. **Set up error logging first,** so every later problem is visible.
+1. **Create four Notion databases** and a Notion integration for n8n.
+2. **Import the error logger first** and publish it, so every later problem is visible.
 3. **Build capture:** a secure webhook that triages anything you send into the Inbox.
-4. **Add the Process with AI button** that turns an item into a plan and tasks.
-5. **Schedule the daily briefing,** then connect Claude through MCP.
+4. **Add the Process with AI button** and the **daily briefing.**
+5. **Serve your task tools over MCP** so Claude can read and update your tasks.
 
 ### [128 · Running n8n + Notion in Production 🏭](../part-14-n8n-and-notion/128-running-in-production.md)
 

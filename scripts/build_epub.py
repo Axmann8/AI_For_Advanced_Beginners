@@ -91,6 +91,9 @@ code { font-family: monospace; font-size: 0.9em; }
 blockquote { margin: 0.8em 1em; font-style: italic; color: #333; }
 figure.diagram { margin: 1em 0; text-align: center; page-break-inside: avoid; }
 figure.diagram img { max-width: 100%; }
+figure.shot { margin: 1em 0; page-break-inside: avoid; }
+figure.shot img { max-width: 100%; border: 1px solid #ccc; border-radius: 6px; }
+figure.shot figcaption { font-size: 0.85em; color: #555; margin-top: 0.3em; }
 .chapter-toc { border: 1px solid #ddd6fe; padding: 0.4em 0.8em; margin: 1em 0; }
 .chapter-toc__title { font-family: sans-serif; font-weight: bold; margin: 0.2em 0 0.4em; }
 .chapter-toc ol { margin: 0; padding-left: 1.4em; }
@@ -277,6 +280,8 @@ def build(site: Path, out: Path, cover_pdf: Path | None) -> None:
         soup = BeautifulSoup("", "lxml")
 
         # links: in-book jumps → file#id
+        for a in root.select("figure.shot > a"):  # screenshots link to themselves on the site
+            a.unwrap()
         for a in root.find_all("a", href=True):
             href = a["href"]
             if href.startswith("#"):

@@ -29,13 +29,6 @@ In this project you'll build "Pip," a personal AI assistant you message on Teleg
 
 ## 🗺️ What you'll build
 
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-Your message goes from Telegram to n8n, which confirms it's from you, passes it to an AI Agent with memory and calendar tools, and sends the reply back to your phone. The table explains each component.
-
-</details>
-
 ```mermaid
 flowchart LR
     You[📱 You on Telegram] --> T[⚡ Telegram Trigger]
@@ -62,13 +55,6 @@ The ready-made workflow is [`telegram-pocket-assistant.json`](../../examples/n8n
 
 ## ✅ Before you start
 
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-Before starting, make sure you have n8n running with a public HTTPS URL, Telegram on your phone, an Anthropic API key and a Google account with a calendar.
-
-</details>
-
 - [ ] **n8n** running: n8n Cloud, or self-hosted with a public HTTPS URL ([n8n Masterclass](../part-5-automation/47-n8n-masterclass.md)).
       Telegram needs to reach n8n over HTTPS, so a laptop-only `localhost` setup won't receive messages (use n8n Cloud or a
       tunnel like Cloudflare Tunnel).
@@ -77,17 +63,6 @@ Before starting, make sure you have n8n running with a public HTTPS URL, Telegra
 - [ ] A **Google account** with a calendar.
 
 ## 1️⃣ Step 1: Create your Telegram bot (5 min)
-
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-Create the bot through Telegram's official BotFather account.
-
-1. Search for @BotFather (with the blue verification check) and start a chat.
-2. Send `/newbot` and choose a name and a username ending in "bot."
-3. Copy the token BotFather gives you and keep it private.
-
-</details>
 
 1. In Telegram, search for **@BotFather** (the official one has a blue check ✅) and start a chat.
 2. Send `/newbot`.
@@ -99,17 +74,6 @@ Create the bot through Telegram's official BotFather account.
 
 ## 2️⃣ Step 2: Import the workflow (5 min)
 
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-Import the ready-made workflow instead of building it from scratch.
-
-1. Download `telegram-pocket-assistant.json`.
-2. In n8n, choose **Import from File** and select it.
-3. Review the nodes to see how the workflow is structured.
-
-</details>
-
 1. Download [`telegram-pocket-assistant.json`](../../examples/n8n-workflows/telegram-pocket-assistant.json).
 2. In n8n, create a new workflow → **⋯ menu → Import from File**.
 3. You'll see the blocks from the map above. Nodes with ⚠️ need credentials (next steps).
@@ -118,17 +82,6 @@ Import the ready-made workflow instead of building it from scratch.
 > three tools, and the reply node.
 
 ## 3️⃣ Step 3: Connect Telegram and lock it to you (10 min)
-
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-Connect Telegram and restrict the bot to you.
-
-1. Add your bot token as a credential on the **Telegram Trigger** and **Reply** nodes.
-2. Find your Telegram user ID (for example, via @userinfobot).
-3. Enter it in the **Only me** check so the bot ignores everyone else.
-
-</details>
 
 1. Open **Telegram Trigger** → **Credential** → *Create new* → paste your bot token → save.
 2. Open **Reply on Telegram** and select the same credential.
@@ -143,30 +96,12 @@ Connect Telegram and restrict the bot to you.
 
 ## 4️⃣ Step 4: Connect Claude (5 min)
 
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-Add your Anthropic API key as a credential on the **Claude** node. The model is preset, and you can change it later.
-
-</details>
-
 1. Open the **Claude** node → **Credential** → *Create new* → paste your Anthropic API key.
 2. The model is set to `claude-opus-5`. For a cheaper, faster assistant, pick a smaller model here ([Cost Optimization](../part-12-mastery/106-cost-optimization.md)).
 
 > ✅ **Checkpoint:** the Claude node has no ⚠️ warning.
 
 ## 5️⃣ Step 5: Connect Google Calendar (10 min)
-
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-Connect Google Calendar.
-
-1. On the **Upcoming events** node, create a credential using **Sign in with Google**, and allow calendar access.
-2. Select the same credential on the **Create event** node.
-3. Choose which calendar to use.
-
-</details>
 
 1. Open **Upcoming events** → **Credential** → *Create new* → **Sign in with Google** and allow calendar access.
 2. Open **Create event** and select the same credential.
@@ -179,18 +114,7 @@ The tool parameters use `$fromAI(...)`, which lets the AI fill in values like th
 
 ## 6️⃣ Step 6: First conversation! (10 min)
 
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-Activate the workflow and test it.
-
-1. Click **Save**, then switch the workflow to **Active**.
-2. Message your bot to say hello, then ask about your schedule.
-3. Ask it to add an event and confirm when it asks.
-
-</details>
-
-1. Click **Save**, then toggle the workflow **Active** (top right).
+1. Click **Save**, then click **Publish** (top right) and confirm.
 2. On your phone, open your bot and send: *"Hi Pip! What can you do?"*
 3. Then try:
     - *"What's on my calendar tomorrow?"*
@@ -202,13 +126,6 @@ Activate the workflow and test it.
 > Check **Executions** in n8n to watch each run step by step.
 
 ## 🎨 Step 7: Give Pip a personality
-
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-Edit the system message in the **Pip (AI Agent)** node to change its personality, tone and response style. Keep the existing date, tool rules and safety instructions in place.
-
-</details>
 
 Open the **Pip (AI Agent)** node → **Options → System Message**. It already includes today's date, tool rules and safety
 rules. Change the first line to give Pip a new personality:
@@ -224,13 +141,6 @@ Keep the tool rules (confirm before creating events, never invent events). They'
 
 ## 🚀 Level-ups
 
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-Once the basics work, you can add voice message transcription, a scheduled morning briefing, more tools and longer-term memory. The table explains how to add each.
-
-</details>
-
 | Level-up | How |
 |---|---|
 | 🎙️ **Voice messages** | Add a Switch on message type: voice → Telegram "Get File" → transcribe (OpenAI Whisper node or a local Whisper server) → the agent |
@@ -242,13 +152,6 @@ Once the basics work, you can add voice message transcription, a scheduled morni
 | 👨‍👩‍👧 **Family mode** | Allow a list of IDs in the lock, and give each person their own memory (the key is the chat ID) |
 
 ## 🩺 Troubleshooting
-
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-If Pip doesn't respond or behaves unexpectedly, the table lists common problems, such as an inactive workflow or a missing HTTPS URL, and how to fix each.
-
-</details>
 
 | Problem | Fix |
 |---|---|

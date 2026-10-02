@@ -1,6 +1,6 @@
 # 101 · Accessibility & AI: Technology That Includes Everyone ♿💜
 
-> ⏱️ 8 min read · 🎯 Everyone: disabled people, families, caregivers, teachers and builders · 🧰 Needs: a phone (many tools are free), an assistant with vision and voice
+> ⏱️ 6 min read · 🎯 Everyone: disabled people, families, caregivers, teachers and builders · 🧰 Needs: a phone (many tools are free), an assistant with vision and voice
 
 **For many disabled people, AI isn't a novelty; it's independence.** An app that describes the world through a phone's camera,
 live captions for every conversation, a synthetic voice built from your own recordings, a helper that breaks a daunting task
@@ -23,13 +23,6 @@ AI has become one of the most significant accessibility technologies available. 
 
 ## 🗺️ The accessibility map
 
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-The table maps each area of need (vision, hearing, speech, mobility and cognition) to what AI can help with and example tools.
-
-</details>
-
 | Need | AI can help with | Example tools |
 |---|---|---|
 | 👁️ **Blind & low vision** | Describing scenes, reading text, identifying objects | Be My Eyes (Be My AI), Seeing AI, Google Lookout, Envision, assistant apps with vision |
@@ -45,13 +38,6 @@ The table maps each area of need (vision, hearing, speech, mobility and cognitio
 > Check **Settings → Accessibility** first: many tools are free and already there.
 
 ## 👁️ Blind & low-vision
-
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-Apps like Be My AI and Seeing AI, along with general assistants, can describe scenes, read printed text and labels, identify colors and objects, and navigate documents. The table describes how to do each task.
-
-</details>
 
 | Task | How |
 |---|---|
@@ -69,13 +55,6 @@ Apps like Be My AI and Seeing AI, along with general assistants, can describe sc
 
 ## 👂 Deaf & hard of hearing
 
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-Phones and computers can caption conversations, calls, videos and meetings in real time, and sound recognition features can alert you to doorbells, alarms and other important sounds.
-
-</details>
-
 - **Live captions everywhere:** phones and computers can caption conversations, calls, videos and meetings in real time.
 - **Meeting transcripts:** AI notes in Meet, Teams, Zoom and others, with searchable text afterwards.
 - **Sound recognition:** alerts for doorbells, alarms, crying babies, running water.
@@ -83,13 +62,6 @@ Phones and computers can caption conversations, calls, videos and meetings in re
 - **Speech-to-text for replies:** type your reply and have it spoken aloud.
 
 ## 🗣️ Speech & voice
-
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-Apps like Project Relate learn an individual's speech patterns for more accurate recognition, and voice banking lets people preserve their own voice for future use if illness affects their speech. The table describes each option.
-
-</details>
 
 | Need | AI help |
 |---|---|
@@ -104,13 +76,6 @@ themselves. 💜
 
 ## ✋ Mobility & dexterity
 
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-Built-in voice control (Voice Control on Apple, Voice Access on Android and Windows) operates the entire device by voice, and AI agents can complete multi-step tasks that would otherwise require many clicks.
-
-</details>
-
 - **Voice control:** built-in Voice Control (Apple) and Voice Access (Android and Windows) operate the whole device by voice.
 - **Dictation everywhere:** tools like Wispr Flow turn speech into polished text.
 - **Fewer clicks:** automations and agents handle repetitive multi-step tasks ([Automation Recipe Book](../part-5-automation/52-automation-recipe-book.md), [Computer Use](../part-7-building-with-ai/71-computer-use-and-browser-agents.md)).
@@ -118,13 +83,6 @@ Built-in voice control (Voice Control on Apple, Voice Access on Android and Wind
 - **Coding by voice:** describe changes to a coding agent instead of typing lots of code.
 
 ## 🧠 Cognitive & neurodivergent support
-
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-AI can help with executive function and processing challenges: breaking tasks into small steps, simplifying long text, setting gentle reminders and supporting focus. The table pairs common challenges with prompts.
-
-</details>
 
 | Challenge | AI support | Prompt |
 |---|---|---|
@@ -147,13 +105,6 @@ a tone judge, a formalizer and more.
 
 ## 👵 Older adults & tech confidence
 
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-AI is a patient tech helper for older adults: it can explain any step as many times as needed, at whatever pace is comfortable, without judgment.
-
-</details>
-
 - **Patient tech help:** *"Explain how to video-call my grandkids on this phone, one step at a time. I'll tell you when I'm ready
   for the next step."*
 - **Screenshots help:** share a screenshot of what's on the screen for exact guidance.
@@ -162,13 +113,6 @@ AI is a patient tech helper for older adults: it can explain any step as many ti
 - **Family setup:** set up custom instructions for them (patient, step-by-step, no jargon).
 
 ## 🛠️ Building accessible things
-
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-When creating content, AI can write meaningful alt text for images, generate and correct captions, simplify language and check color contrast. The table lists each task.
-
-</details>
 
 | Make it accessible | AI help |
 |---|---|
@@ -183,13 +127,6 @@ When creating content, AI can write meaningful alt text for images, generate and
 disabled people for their expertise.
 
 ## 💜 Principles: respect, choice & privacy
-
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-Good accessibility practice involves disabled people in designing tools and content, respects their choices about how to use technology, and protects the sensitive information assistive tools often handle. The table explains each principle.
-
-</details>
 
 | Principle | In practice |
 |---|---|

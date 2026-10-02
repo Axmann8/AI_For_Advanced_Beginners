@@ -1,6 +1,6 @@
 # 34 · A Short, Fun History of Modern AI 📜✨
 
-> ⏱️ 8 min read · 🎯 Everyone · 🧰 Needs: a cozy chair
+> ⏱️ 6 min read · 🎯 Everyone · 🧰 Needs: a cozy chair
 
 **AI didn't appear out of nowhere in 2022.** It's a 75-year story of big dreams, "AI winters," surprise breakthroughs, and
 one very important research paper. Knowing the story makes today's tools less magical and more understandable, and it
@@ -21,13 +21,6 @@ AI research began in the 1950s and went through cycles of excitement and disappo
 <!-- in-this-chapter -->
 
 ## 🕰️ The whole story on one timeline
-
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-The timeline below summarizes 75 years of AI history, from Turing's question about thinking machines to today's agents.
-
-</details>
 
 ```mermaid
 timeline
@@ -58,13 +51,6 @@ timeline
 
 ## 🌱 The dreamers (1950s–1960s)
 
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-In 1950, Alan Turing proposed the imitation game (later called the Turing test), and the term "artificial intelligence" was coined at a 1956 workshop at Dartmouth. Early researchers were optimistic that human-level AI was close.
-
-</details>
-
 - **1950:** Alan Turing publishes *"Computing Machinery and Intelligence,"* proposing the **imitation game**, later called
   the Turing test: if you can't tell a machine from a human in conversation, does it matter whether it "thinks"?
 - **1956:** The **Dartmouth workshop** coins the term *artificial intelligence*. The proposal optimistically suggested that
@@ -81,13 +67,6 @@ In 1950, Alan Turing proposed the imitation game (later called the Turing test),
 
 ## ❄️ Winters and expert systems (1970s–1990s)
 
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-When early AI failed to meet expectations, funding collapsed in "AI winters" in the 1970s and late 1980s. Expert systems, which encoded human knowledge as thousands of hand-written rules, had some success but proved brittle and expensive to maintain.
-
-</details>
-
 - **AI winters:** overpromising led to funding cuts in the 1970s and again in the late 1980s.
 - **Expert systems** tried to capture human expertise as thousands of hand-written *if-then* rules. They worked in narrow
   areas (like configuring computers or diagnosing infections), but were brittle and expensive to maintain.
@@ -99,13 +78,6 @@ When early AI failed to meet expectations, funding collapsed in "AI winters" in 
 **The lesson:** hand-writing intelligence doesn't scale. *Learning* it from data does.
 
 ## 🔥 The deep learning boom (2010s)
-
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-In the 2010s, large datasets, GPUs originally built for video games, and better neural network techniques combined to produce dramatic gains in image and speech recognition, starting with AlexNet in 2012.
-
-</details>
 
 The recipe that changed everything: **big data** (the internet) + **big compute** (GPUs built for video games) + **better
 neural networks**.
@@ -120,13 +92,6 @@ neural networks**.
 
 ## ⚡ The Transformer changes everything (2017)
 
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-The Transformer, introduced in the 2017 paper "Attention Is All You Need," uses a mechanism called attention to relate every word in a passage to every other word at once. It trains efficiently on enormous amounts of text and became the foundation of nearly all modern AI models.
-
-</details>
-
 In June 2017, a Google research paper with the delightfully confident title **"Attention Is All You Need"** introduced the
 **Transformer**.
 
@@ -139,13 +104,6 @@ Why it mattered:
 Nearly every model in this manual, including Claude, GPT, Gemini, Llama and Qwen, is a descendant of that paper.
 
 ## 📈 Scale is (almost) all you need (2018–2022)
-
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-Researchers found that making Transformers larger and training them on more data steadily improved their abilities, sometimes producing skills no one trained directly. This led from GPT-1 and BERT in 2018 to ChatGPT in late 2022.
-
-</details>
 
 - **2018:** OpenAI's **GPT-1** and Google's **BERT** show that pre-training on lots of text, then adapting, works wonders.
 - **2019:** **GPT-2** writes surprisingly coherent paragraphs, and its full release was initially staged over misuse concerns.
@@ -162,13 +120,6 @@ Researchers found that making Transformers larger and training them on more data
 
 ## 🌍 The Cambrian explosion (2023–2024)
 
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-After ChatGPT's release, many companies launched competing models, open-weight models made capable AI freely available, and models gained the ability to process images and audio and to reason step by step.
-
-</details>
-
 - **2023:** **GPT-4** (March) raises the bar. Anthropic launches **Claude**. Meta's **Llama** models kick off an
   **open-weight** boom, and soon anyone can run capable models locally ([Local & Open Models](../part-9-local-ai/78-local-and-open-models.md)).
   Tool use and "plugins" appear. Context windows grow from a few thousand tokens to hundreds of thousands.
@@ -177,13 +128,6 @@ After ChatGPT's release, many companies launched competing models, open-weight m
   And in **November 2024**, Anthropic open-sources the **Model Context Protocol**: the USB-C port for AI.
 
 ## 🤖 The age of agents (2025–2026)
-
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-Since 2025, AI has moved from conversation to action: coding agents that work for hours, browser agents, computer use, video with sound, and thousands of integrations through MCP.
-
-</details>
 
 - **Open reasoning models** (DeepSeek-R1 in January 2025) show frontier-level reasoning can be open-weight and efficient.
 - **Coding agents go mainstream:** Claude Code (early 2025), then agents in Cursor, VS Code, Codex and more. Developers
@@ -197,13 +141,6 @@ Since 2025, AI has moved from conversation to action: coding agents that work fo
   official registry and, in **July 2026**, a stateless spec built for web scale.
 
 ## 🧭 What history teaches us
-
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-History offers three lessons: short-term hype usually overpromises, long-term change is usually underestimated, and progress comes from data, computing power and better methods rather than sudden breakthroughs from nowhere.
-
-</details>
 
 1. **Hype cycles are real.** Every era overpromised in the short term. Be excited, and be skeptical of "next month
    everything changes" claims.

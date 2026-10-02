@@ -1,6 +1,6 @@
 # 57 · Email & Calendar Superpowers 📬📅
 
-> ⏱️ 8 min read · 🎯 Everyone · 🧰 Needs: Gmail or Outlook (+ optionally Claude/ChatGPT connectors or an automation tool)
+> ⏱️ 6 min read · 🎯 Everyone · 🧰 Needs: Gmail or Outlook (+ optionally Claude/ChatGPT connectors or an automation tool)
 
 **Email and meetings quietly eat a huge share of most people's working week.** AI can triage your inbox, draft replies in
 your voice, turn newsletters into one digest, schedule meetings without the back-and-forth, prep you for every call, and
@@ -22,13 +22,6 @@ AI can sort your email, draft replies for you to review, summarize long threads 
 
 ## 📬 The inbox problem (and the AI fix)
 
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-Most inbox time goes to deciding what to do with each message and drafting replies, not reading. AI handles both well, so you can focus your attention on the messages that genuinely need you.
-
-</details>
-
 Most inbox time isn't reading. It's **deciding** (is this important? what do I do?) and **drafting**. That's exactly
 what AI is good at. The goal isn't "AI answers my email." It's:
 
@@ -37,13 +30,6 @@ what AI is good at. The goal isn't "AI answers my email." It's:
 3. **You** spend your attention only on what truly needs you.
 
 ## 🧰 Your email AI options
-
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-Options range from AI built into Gmail and Outlook, to AI-first email apps, to connecting Claude or ChatGPT to your inbox, to custom automations. The table compares them.
-
-</details>
 
 | Option | Examples | Best for |
 |---|---|---|
@@ -55,18 +41,6 @@ Options range from AI built into Gmail and Outlook, to AI-first email apps, to c
 You can mix them: many people use built-in AI for quick drafts and an automation for 24/7 sorting.
 
 ## 🗂️ Build an AI triage system
-
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-An AI triage system labels every incoming email so you can focus on what matters.
-
-1. Choose five to seven labels, such as "Needs me," "Quick reply" and "FYI."
-2. Write clear definitions for each one.
-3. Set up an automation or built-in rule that has AI apply a label to each new email.
-4. Start each session with the "Needs me" label.
-
-</details>
 
 **Step 1 · Choose 5–7 piles (labels):**
 
@@ -88,17 +62,6 @@ prompt for accuracy.
 
 ## ✍️ Drafting replies in your voice
 
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-AI can draft replies in your own style.
-
-1. Paste five of your sent emails and ask the AI to describe your style.
-2. Save that description as a style guide in custom instructions or a Project.
-3. Ask for drafts, then edit and send them yourself.
-
-</details>
-
 1. **Make a mini style guide:** paste 5 of your real sent emails → *"Describe my email style: greeting, length, tone, sign-off,
    quirks."* Save the result ([Context Engineering](../part-3-foundations/36-context-engineering.md)).
 2. **Draft with it:** *"Using my style guide, draft a reply that says yes to the meeting but proposes Thursday instead."*
@@ -113,13 +76,6 @@ AI can draft replies in your own style.
 
 ## 🔍 Find anything, summarize everything
 
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-Instead of scrolling, ask in plain language to find a specific email, summarize a long thread into decisions and open questions, or catch up on everything from a particular person.
-
-</details>
-
 - **Natural-language search:** *"Find the email where Sam sent the venue options in March."*
 - **Thread summaries:** *"Summarize this 40-message thread: decisions, open questions, who owes what."*
 - **Catch-up after time off:** *"I was away for a week. What needs my attention, grouped by urgency?"*
@@ -127,30 +83,12 @@ Instead of scrolling, ask in plain language to find a specific email, summarize 
 
 ## 📰 Taming newsletters
 
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-A newsletter digest replaces many separate emails with one daily summary.
-
-1. Automatically label incoming newsletters.
-2. Run a morning automation that summarizes the previous day's newsletters.
-3. Archive the originals once the digest is sent.
-
-</details>
-
 1. Auto-label newsletters (most have an unsubscribe link, a giveaway for classifiers).
 2. **Daily digest:** a morning automation reads yesterday's newsletters → AI picks the 5 best items with links → one email
    ([recipe #11](../part-5-automation/52-automation-recipe-book.md#-email--communication)).
 3. **Unsubscribe audit:** *"Which newsletters have I not opened in 60 days?"*, then unsubscribe with joy. 🧹
 
 ## 📅 Calendar superpowers
-
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-AI can find meeting times that work across time zones, protect blocks for focused work, and warn you when your week is overloaded. The table shows how to set up each one.
-
-</details>
 
 | Superpower | How |
 |---|---|
@@ -162,13 +100,6 @@ AI can find meeting times that work across time zones, protect blocks for focuse
 
 ## 🎙️ Meetings: before, during, after
 
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-AI helps at every stage of a meeting: a preparation brief beforehand, notes during the call, and action items and a follow-up email afterward. The table details each phase.
-
-</details>
-
 | Phase | AI helps with |
 |---|---|
 | **Before** | Prep brief: attendees, past emails, company news, 3 talking points ([recipe #5](../part-5-automation/52-automation-recipe-book.md#-personal-productivity)) |
@@ -178,13 +109,6 @@ AI helps at every stage of a meeting: a preparation brief beforehand, notes duri
 **Etiquette:** tell people when AI is taking notes, and share the summary with them. It builds trust and saves everyone time.
 
 ## 🤖 Email & calendar automations to build
-
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-The table lists ready-to-build automations for email and calendar, from VIP alerts to follow-up reminders.
-
-</details>
 
 | Automation | Trigger → result |
 |---|---|
@@ -197,13 +121,6 @@ The table lists ready-to-build automations for email and calendar, from VIP aler
 
 ## 🔐 Safety & privacy
 
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-Email contains sensitive information and can carry prompt injection attacks. Keep AI in draft-only mode, never combine "reads all incoming email" with "can send email automatically," and be cautious about what automations can access.
-
-</details>
-
 - **Prompt injection is real in email:** a malicious email can contain instructions for your AI. Don't combine
   "reads all inbound email" with "can send email or share files" without approvals ([MCP Security & Trust](../part-4-mcp-and-connectors/43-mcp-security-and-trust.md)).
 - **Phishing help:** *"Is this email suspicious? Check the sender, links and urgency tricks."* AI is a great second opinion.
@@ -211,13 +128,6 @@ Email contains sensitive information and can carry prompt injection attacks. Kee
 - **Work email:** follow your organization's AI policies ([Privacy & Your Data](../part-12-mastery/104-privacy-and-your-data.md)).
 
 ## 🗓️ Your 7-day inbox makeover
-
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-This seven-day plan adds one new AI habit to your email and calendar routine each day.
-
-</details>
 
 | Day | Mission |
 |---|---|

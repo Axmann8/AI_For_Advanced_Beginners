@@ -1,6 +1,6 @@
 # 42 · Building MCP Servers: The Deep Dive 🏗️🔌
 
-> ⏱️ 10 min read · 🎯 Intermediate (AI can write the code with you) · 🧰 Needs: Python 3.10+ or Node.js 20+
+> ⏱️ 8 min read · 🎯 Intermediate (AI can write the code with you) · 🧰 Needs: Python 3.10+ or Node.js 20+
 
 **Using MCP servers is fun. Building them is a superpower.** Any API, script, database or gadget you can talk to with
 code can become a tool that *every* AI app can use. This chapter takes you from "hello world" to a remote, authenticated
@@ -28,17 +28,6 @@ Building an MCP server means writing a few functions, describing each one clearl
 
 ## 🎯 Step 0: Decide what your server should do
 
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-A good server is small, focused and well described.
-
-1. Name the **noun**: the service or data it covers (recipes, weather, your wiki).
-2. List the **verbs**: the actions it needs (search, add, update).
-3. Keep the list short; a few clear tools work better than many vague ones.
-
-</details>
-
 A great server is **small, focused and well-described**. Answer three questions:
 
 1. **What's the noun?** Spotify, my recipes, Home Assistant, our company wiki.
@@ -52,18 +41,6 @@ A great server is **small, focused and well-described**. Answer three questions:
 > bloated servers make agents slower and dumber.
 
 ## 🚀 Step 1: Your first server in 5 minutes
-
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-This manual includes two tested starter kits, one in Python and one in TypeScript.
-
-1. Copy the kit for your preferred language.
-2. Run its smoke test to confirm everything works.
-3. Add the server to your AI app's configuration and try it.
-4. Start modifying the tools for your own purpose.
-
-</details>
 
 Two complete, tested kits ship with this manual, and CI runs their smoke tests on every change:
 
@@ -131,13 +108,6 @@ model sees ([MCP Under the Hood](39-mcp-under-the-hood.md#-tools-up-close)).
 
 ## ✍️ Step 2: Write tools the AI will use well
 
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-Well-designed tools have specific names, simple inputs, a description that explains when to use them and what they return, concise outputs, and clear error messages. The table contrasts good and poor patterns.
-
-</details>
-
 | Do ✅ | Don't ❌ |
 |---|---|
 | `search_recipes(ingredient, max_results=5)` | `api_call(endpoint, params_json)` |
@@ -154,13 +124,6 @@ the user for confirmation, so set them honestly.
 
 ## 📦 Step 3: Structured output & errors
 
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-Tools can return structured JSON alongside text, which is useful when results feed into other tools or automations. When something fails, return a clear error message the model can act on instead of letting the server crash.
-
-</details>
-
 - **Structured content:** tools can return typed JSON (matching an output schema) alongside text, which is great when results
   feed other tools or automations. In Python, a typed return value (a Pydantic model or TypedDict) generates this for you.
 - **Errors as results:** return a tool result flagged as an error with a clear message ("File not found: try `list_notes`
@@ -169,29 +132,11 @@ Tools can return structured JSON alongside text, which is useful when results fe
 
 ## 📄 Step 4: Resources and prompts
 
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-Beyond tools, a server can offer **resources** (readable data at URIs, which users can attach as context) and **prompts** (reusable templates that often appear as slash commands).
-
-</details>
-
 - **Resources** expose readable data at URIs: `notes://all`, `recipes://{id}` (templates). Apps let users attach them as context.
 - **Prompts** are reusable templates with arguments, often surfaced as **slash commands**: `/weekly_meal_plan diet=vegan`.
 - Rule of thumb: **tools** for actions the model chooses, **resources** for data the user attaches, **prompts** for workflows the user triggers.
 
 ## 🧪 Step 5: Test like a pro
-
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-Test every tool before relying on it.
-
-1. Use the MCP Inspector to list and call each tool manually.
-2. Write a smoke test that calls your tools automatically.
-3. Run the tests after every change, ideally in CI.
-
-</details>
 
 1. **MCP Inspector:** `npx @modelcontextprotocol/inspector python server.py` lets you list and call every tool by hand.
 2. **Smoke tests:** a tiny client script that calls your tools ([Python example](../../examples/my-first-mcp-server/smoke_test.py)).
@@ -205,13 +150,6 @@ Test every tool before relying on it.
 > disconnects mysteriously. Log to **stderr** instead.
 
 ## ☁️ Step 6: Go remote with Streamable HTTP
-
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-A local server only works on your computer. Running it with the Streamable HTTP transport and hosting it online makes it available at a URL to your phone, your team or the public. Stateless mode is the modern default and scales easily.
-
-</details>
 
 ```python
 # Python (SDK v2): serves at http://127.0.0.1:8000/mcp
@@ -230,13 +168,6 @@ import { StreamableHTTPServerTransport } from "@modelcontextprotocol/sdk/server/
 
 ## 🔐 Step 7: Authentication
 
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-Any server that touches private data needs authentication. Options range from keeping it on a private network, to a shared secret header for personal use, to full OAuth for public servers. The table compares them.
-
-</details>
-
 **Never expose a server that touches private data without auth.** Options, from simple to proper:
 
 | Option | Good for | Notes |
@@ -251,13 +182,6 @@ recommended approach, and issuer validation got stricter. The SDKs' auth helpers
 rolling your own.
 
 ## 🌍 Step 8: Publish it
-
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-To share your server, publish it to npm or PyPI so others can run it with one command, then register it in the official MCP Registry so people can find it.
-
-</details>
 
 ### To npm or PyPI
 Package it so people can run it with one command: `npx your-server` or `uvx your-server`.
@@ -286,13 +210,6 @@ Bundle your server with skills and slash commands as a Claude Code plugin, so a 
 
 ## 🚀 Step 9: Level up
 
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-Once the basics work, you can add resource templates, prompts that appear as slash commands, progress notifications for long tasks, elicitation to ask users for input, and interactive MCP Apps.
-
-</details>
-
 - **Resource templates:** `recipes://{id}` gives browsable, attachable data.
 - **Prompts** show up as slash commands in many clients, so they're great for "packaged workflows."
 - **Progress notifications** for long-running tools, and **Tasks** for really long jobs.
@@ -301,13 +218,6 @@ Once the basics work, you can add resource templates, prompts that appear as sla
 - **Caching hints:** list results can tell clients how long they're valid.
 
 ## 🚧 Common mistakes (and fixes)
-
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-The table lists the mistakes most first-time server builders make, such as printing to standard output in a stdio server, along with the symptom and fix for each.
-
-</details>
 
 | Mistake | Symptom | Fix |
 |---|---|---|
@@ -320,13 +230,6 @@ The table lists the mistakes most first-time server builders make, such as print
 | Relative paths in configs | Works in terminal, fails in app | Absolute paths everywhere |
 
 ## 💡 20 MCP server ideas to build
-
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-The table offers twenty server ideas, sorted by difficulty from easy to advanced.
-
-</details>
 
 | Easy 🟢 | Medium 🟡 | Spicy 🔴 |
 |---|---|---|

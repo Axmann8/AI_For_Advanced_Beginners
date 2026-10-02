@@ -1,6 +1,6 @@
 # 25 · DeepSeek: The Complete Guide 🐋
 
-> ⏱️ 6 min read · 🎯 Curious beginners and budget-minded users · 🧰 Needs: a free DeepSeek account (chat.deepseek.com) or a local AI setup
+> ⏱️ 5 min read · 🎯 Curious beginners and budget-minded users · 🧰 Needs: a free DeepSeek account (chat.deepseek.com) or a local AI setup
 
 **DeepSeek shook the AI world in January 2025, when a small Chinese lab released a free reasoning model that rivaled the
 best in the West, and published it openly for anyone to download.** Today DeepSeek offers a capable, completely free
@@ -23,13 +23,6 @@ DeepSeek is a free AI assistant from a Chinese lab, known for strong reasoning a
 
 ## 🐋 Quick facts
 
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-DeepSeek is made by an AI lab in Hangzhou, China. It's available at chat.deepseek.com and in phone apps, and its open models can be downloaded and run elsewhere.
-
-</details>
-
 | | |
 |---|---|
 | **Made by** | DeepSeek, an AI lab in Hangzhou, China |
@@ -41,17 +34,6 @@ DeepSeek is made by an AI lab in Hangzhou, China. It's available at chat.deepsee
 
 ## 🚪 Getting started
 
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-Getting started with DeepSeek is quick.
-
-1. Go to chat.deepseek.com or install the app (confirm the developer is DeepSeek).
-2. Sign up with email or a supported sign-in option.
-3. Turn on **DeepThink** for difficult questions and **Search** for recent information.
-
-</details>
-
 1. Go to **chat.deepseek.com** or install **DeepSeek** (check the developer is DeepSeek).
 2. Sign up with email (or a supported sign-in option).
 3. Use the toggles under the message box:
@@ -60,13 +42,6 @@ Getting started with DeepSeek is quick.
 4. Upload files (PDFs, documents, images with text) with the 📎 button.
 
 ## 🧠 DeepThink: watch it reason
-
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-In DeepThink mode, DeepSeek shows its chain of thought, so you can expand and read how it worked through the problem. This is especially useful for learning math and logic.
-
-</details>
 
 DeepSeek's reasoning mode shows its **chain of thought**: you can expand the "thinking" and read how it approached the
 problem. That's genuinely educational:
@@ -79,13 +54,6 @@ Reading the reasoning helps you **spot where it went wrong** if the answer seems
 
 ## 🔓 Open weights: DeepSeek beyond the app
 
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-DeepSeek publishes its models under a permissive license. Other companies can host them (often with different privacy terms), and you can run smaller versions on your own computer so your data never leaves it.
-
-</details>
-
 DeepSeek publishes its models openly (under a permissive license). That has big benefits:
 
 - **Other providers host them:** you can use DeepSeek models through services in your own country (and hub apps like
@@ -95,13 +63,6 @@ DeepSeek publishes its models openly (under a permissive license). That has big 
 - **Developers:** DeepSeek's own API is very cheap, and the models are popular for building apps and agents.
 
 ## 🔐 Privacy: the important bit
-
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-The DeepSeek app and website store data on servers in China, where companies can be required to share data with authorities, and several governments have restricted its use. Avoid entering personal, financial or work information.
-
-</details>
 
 DeepSeek's app and website store data on servers in the **People's Republic of China**, where companies can be required
 to share data with authorities. Several governments have restricted DeepSeek on official devices, and some regulators
@@ -117,26 +78,12 @@ have investigated its data practices.
 
 ## 🧭 Content limits to know about
 
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-Because DeepSeek operates under Chinese regulations, the app avoids or deflects questions about topics that are sensitive to the Chinese government. Use another assistant for those topics.
-
-</details>
-
 Because it operates under Chinese regulations, DeepSeek's app **avoids or deflects questions on topics sensitive to the
 Chinese government** (certain historical events, political figures, territorial questions). For history, politics or
 current affairs involving China, use another assistant and multiple sources. (Open models run elsewhere can behave
 somewhat differently, but still reflect their training.)
 
 ## 🍳 Step-by-step recipes
-
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-These three recipes show tasks where DeepSeek works well, such as learning math with visible reasoning.
-
-</details>
 
 **Recipe 1: Learn math the transparent way**
 
@@ -154,13 +101,6 @@ These three recipes show tasks where DeepSeek works well, such as learning math 
    app. (Guide: [Local & Open Models](../part-9-local-ai/78-local-and-open-models.md).)
 
 ## 💡 Pro tips and limitations
-
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-These tips help you get more out of DeepSeek, followed by its current limitations.
-
-</details>
 
 **Pro tips**
 

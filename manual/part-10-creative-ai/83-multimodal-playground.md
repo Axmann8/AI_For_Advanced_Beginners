@@ -1,6 +1,6 @@
 # 83 · The Multimodal Playground: See, Hear, Make 🎨🎬🎵
 
-> ⏱️ 7 min read · 🎯 Everyone · 🧰 Needs: a browser and a free tier or two (Claude, ChatGPT, Gemini, and a creative tool you like)
+> ⏱️ 6 min read · 🎯 Everyone · 🧰 Needs: a browser and a free tier or two (Claude, ChatGPT, Gemini, and a creative tool you like)
 
 **Text is just the beginning.** Today's AI can look at photos, read handwriting, watch videos, listen to audio, and make
 images, video, speech and music. This chapter is the grand tour: what each kind of "multimodal" AI can do, which tools lead
@@ -29,13 +29,6 @@ whole multimedia storybook. 🖼️🎧📖
 
 ## 🗺️ The multimodal map
 
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-The table maps each medium (images, video, audio and documents) to what AI can understand as input and what it can generate as output.
-
-</details>
-
 | Mode | AI can **understand** it (input) | AI can **make** it (output) |
 |---|---|---|
 | 🖼️ **Images** | Photos, screenshots, charts, handwriting, diagrams | Illustrations, photos, logos, edits |
@@ -47,13 +40,6 @@ The table maps each medium (images, video, audio and documents) to what AI can u
 | 🖱️ **Screens** | Screenshots of apps and websites | Clicks and typing ([Computer Use](../part-7-building-with-ai/71-computer-use-and-browser-agents.md)) |
 
 ## 🧪 Multimodal *inputs*: the underrated superpower
-
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-Showing AI an image, document or recording is often more useful than generating new media. Every major assistant accepts images and documents, and many handle audio and video, for tasks like diagnosing a problem from a photo or summarizing a recording.
-
-</details>
 
 Most people only type. Power users **show**. Every major assistant (Claude, ChatGPT, Gemini) accepts images and documents,
 and many handle audio and video too.
@@ -78,13 +64,6 @@ and many handle audio and video too.
 
 ## 🖼️ Images
 
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-Image models generate pictures from descriptions and edit existing images on request, such as changing a background or adjusting colors. The table compares the leading tools and their strengths.
-
-</details>
-
 | Tool | Superpower |
 |---|---|
 | **ChatGPT (GPT Image models)** | Follows complex instructions, great text in images, edits by conversation. Top of the leaderboards at the time of writing |
@@ -101,13 +80,6 @@ Deep dive: [Image Generation](84-image-generation-deep-dive.md).
 
 ## 🎬 Video
 
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-Video models create short clips from text descriptions, sometimes with synchronized sound and dialogue, and can animate still images. The table compares the leading tools.
-
-</details>
-
 | Tool | Superpower |
 |---|---|
 | **Google Veo** (in Gemini and Flow) | Cinematic clips with native audio and dialogue, strong prompt-following |
@@ -122,13 +94,6 @@ Deep dive: [Video & Audio Production](85-video-and-audio-production.md).
 
 ## 🗣️ Voice & audio
 
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-Audio tools produce realistic synthetic voices, transcribe speech accurately and power real-time voice conversations. The table compares the main options.
-
-</details>
-
 | Tool | Superpower |
 |---|---|
 | **ElevenLabs** | Ultra-realistic voices, voice design, dubbing, sound effects, voice agents (and an MCP server!) |
@@ -140,13 +105,6 @@ Audio tools produce realistic synthetic voices, transcribe speech accurately and
 
 ## 🎵 Music
 
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-Music generators like Suno and Udio create complete songs, including vocals, from a short description of the genre, mood and topic.
-
-</details>
-
 - **Suno:** full songs with vocals from a prompt. Its v6 models (September 2026) are trained on licensed music from label
   partners.
 - **Udio:** now focused on licensed remixing and fan creation inside its platform.
@@ -156,13 +114,6 @@ Music generators like Suno and Udio create complete songs, including vocals, fro
 Deep dive: [Music Making with AI](86-music-making-with-ai.md).
 
 ## 🔗 Chaining modes: where the magic happens
-
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-The most impressive projects chain several tools: an AI writes a script, another generates images, another narrates and another composes music. You can ask Claude or another assistant to act as creative director and write the prompts for each step.
-
-</details>
 
 ```mermaid
 flowchart LR
@@ -182,13 +133,6 @@ flowchart LR
 
 ## 🔐 Creative responsibility
 
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-Use AI creative tools responsibly: label AI-generated content when it could be mistaken for real, get consent before using a real person's likeness or voice, and respect artists' work. The table lists specific do's and don'ts.
-
-</details>
-
 | Do ✅ | Don't ❌ |
 |---|---|
 | Label AI-generated content when it matters | Pass off AI images as real photos of events |
@@ -200,13 +144,6 @@ Use AI creative tools responsibly: label AI-generated content when it could be m
 More in [AI Ethics for Builders](../part-12-mastery/107-ai-ethics-for-builders.md).
 
 ## 🎮 20 creative experiments
-
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-The table lists twenty creative experiments across images, video, audio and music.
-
-</details>
 
 | 🖼️ Images | 🎬 Video & 🎙️ audio | 🎵 Music & 🧩 mashups |
 |---|---|---|

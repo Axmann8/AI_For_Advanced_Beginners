@@ -1,6 +1,6 @@
 # 126 · The n8n + Notion Recipe Book: 40 Workflows 🍳
 
-> ⏱️ 6 min read · 🎯 Anyone with n8n and Notion connected · 🧰 Needs: n8n, Notion, and the apps each recipe names
+> ⏱️ 5 min read · 🎯 Anyone with n8n and Notion connected · 🧰 Needs: n8n, Notion, and the apps each recipe names
 
 **Forty proven workflows that combine n8n and Notion, organized by area of life and work.** Each recipe lists the
 trigger, the steps and what you end up with in Notion, plus a difficulty rating. Find the one that would save you the most
@@ -13,7 +13,7 @@ This chapter collects 40 workflows that combine n8n and Notion. Each lists its t
 
 1. **Find a recipe** in the section that matches your goal.
 2. **Prepare the Notion database** it writes to, with the properties listed.
-3. **Build it** using the method at the end of this chapter, testing with real data before activating.
+3. **Build it** using the method at the end of this chapter, testing with real data before publishing.
 
 </details>
 
@@ -27,13 +27,6 @@ This chapter collects 40 workflows that combine n8n and Notion. Each lists its t
 
 ## 📥 Capture
 
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-These recipes bring information into Notion from wherever you are, with AI cleaning it up and filing it.
-
-</details>
-
 | # | Recipe | Trigger → steps → Notion result | Level |
 |---|---|---|---|
 | 1 | **Voice capture** | Phone shortcut webhook → AI title, type and priority → Inbox row | 🟢 |
@@ -45,13 +38,6 @@ These recipes bring information into Notion from wherever you are, with AI clean
 | 7 | **Book highlights** | Readwise export or Kindle file → one Notion page per book with highlights and AI key ideas | 🟡 |
 
 ## 🗂️ Organize and enrich
-
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-These recipes keep your workspace tidy and add useful AI-generated information to rows automatically.
-
-</details>
 
 | # | Recipe | Trigger → steps → Notion result | Level |
 |---|---|---|---|
@@ -65,13 +51,6 @@ These recipes keep your workspace tidy and add useful AI-generated information t
 
 ## 📅 Plan and review
 
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-These recipes turn your Notion data into plans, briefings and reviews delivered where you'll see them.
-
-</details>
-
 | # | Recipe | Trigger → steps → Notion result | Level |
 |---|---|---|---|
 | 15 | **Daily briefing** | 7:00 schedule → tasks due, calendar, weather → AI briefing → Daily page and Telegram message | 🟡 |
@@ -82,13 +61,6 @@ These recipes turn your Notion data into plans, briefings and reviews delivered 
 | 20 | **Habit tracker summary** | Sunday schedule → Habits database → streaks and trends → dashboard page | 🟢 |
 
 ## 💼 Work and business
-
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-These recipes turn Notion into a lightweight CRM and operations hub for freelancers and small teams.
-
-</details>
 
 | # | Recipe | Trigger → steps → Notion result | Level |
 |---|---|---|---|
@@ -103,13 +75,6 @@ These recipes turn Notion into a lightweight CRM and operations hub for freelanc
 
 ## 🎨 Content and learning
 
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-These recipes support creators and learners: idea pipelines, publishing, research digests and study aids.
-
-</details>
-
 | # | Recipe | Trigger → steps → Notion result | Level |
 |---|---|---|---|
 | 29 | **Content pipeline** | Status *Drafting* 💳 → research and outline → page body; *Scheduled* → social posts | 🔴 |
@@ -121,13 +86,6 @@ These recipes support creators and learners: idea pipelines, publishing, researc
 
 ## 🛠️ Builders and system maintenance
 
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-These recipes serve developers and keep your automation system itself healthy.
-
-</details>
-
 | # | Recipe | Trigger → steps → Notion result | Level |
 |---|---|---|---|
 | 35 | **GitHub issues sync** | GitHub Trigger → upsert by issue number → Roadmap rows | 🟡 |
@@ -138,20 +96,6 @@ These recipes serve developers and keep your automation system itself healthy.
 | 40 | **RAG sync** | Notion Trigger (page updated) → Markdown → chunks and embeddings → vector store | 🔴 |
 
 ## 🧑‍🍳 How to build any recipe
-
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-Every recipe follows the same build method. Prepare the Notion side first, build and test each step with real data, and add error handling before activating.
-
-1. **Prepare Notion:** create the database and properties the recipe writes to, and share it with your integration.
-2. **Build the trigger** and capture a real sample (pin it in n8n).
-3. **Add each step,** checking its output on the sample before moving on.
-4. **Validate AI output** against your select options.
-5. **Write results back,** including Status and an Automation note.
-6. **Set the error workflow,** activate, and review the first few runs.
-
-</details>
 
 ```text
 Recipe card

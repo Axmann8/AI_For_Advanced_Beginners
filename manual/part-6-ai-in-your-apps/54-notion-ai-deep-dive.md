@@ -1,6 +1,6 @@
 # 54 · Notion AI Deep Dive: Build an AI-Powered Second Brain 📒✨
 
-> ⏱️ 9 min read · 🎯 Beginner → intermediate · 🧰 Needs: a Notion account (AI features vary by plan)
+> ⏱️ 7 min read · 🎯 Beginner → intermediate · 🧰 Needs: a Notion account (AI features vary by plan)
 
 **Notion has become one of the most AI-native workspaces around**: a place where your notes, tasks, docs and databases live
 *and* where AI agents read, write and organize them for you. This chapter covers the whole toolbox, then walks you through
@@ -22,13 +22,6 @@ Notion combines notes, task lists and databases in one workspace, and its built-
 
 ## 🧰 The Notion AI toolbox
 
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-Notion's AI includes several tools: the on-demand Notion Agent, scheduled Custom Agents, AI Meeting Notes, AI database properties (autofill), and MCP support in both directions. The table explains what each does and when to use it.
-
-</details>
-
 | Feature | What it does | Use it for |
 |---|---|---|
 | **Notion Agent** | Your on-demand AI: creates and edits pages and databases, does multi-step work | "Turn these notes into a project plan with a task database" |
@@ -46,13 +39,6 @@ Notion's AI includes several tools: the on-demand Notion Agent, scheduled Custom
 
 ## 🤖 Notion Agent vs. Custom Agents
 
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-The **Notion Agent** works on demand when you ask it. **Custom Agents** run on their own, on a schedule or when a trigger fires, and can serve a whole team. The table compares them.
-
-</details>
-
 | | 🙋 Notion Agent | 🤖 Custom Agents |
 |---|---|---|
 | Starts when | You ask | A **schedule** or **trigger** fires |
@@ -64,18 +50,6 @@ The **Notion Agent** works on demand when you ask it. **Custom Agents** run on t
 say what data to read, what to produce, where to put it, and **what it must never do** ("never delete pages").
 
 ## 🧠 Build: the AI Second Brain
-
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-This build uses a simplified PARA system (Projects, Areas, Resources, Archive) plus an Inbox.
-
-1. Create the Inbox, Projects, Areas and Resources databases with the properties shown.
-2. Add AI properties that summarize and categorize new entries automatically.
-3. Set up a Custom Agent that sorts the Inbox each morning.
-4. Add capture shortcuts so ideas reach the Inbox from anywhere.
-
-</details>
 
 We'll use a simplified **PARA** method (Projects, Areas, Resources, Archive) plus an Inbox, and add AI at every step.
 
@@ -134,13 +108,6 @@ Connect **Notion MCP** to Claude, ChatGPT or Claude Code:
 
 ## 🗃️ Databases that AI loves
 
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-AI agents work much more reliably with well-structured databases: clear property names, select fields instead of free text for categories, date fields for dates and relations between databases. The table explains why each matters.
-
-</details>
-
 | Do ✅ | Why |
 |---|---|
 | Clear property names ("Due date," not "DD") | The AI reads names to understand meaning |
@@ -152,17 +119,6 @@ AI agents work much more reliably with well-structured databases: clear property
 
 ## 🎙️ AI Meeting Notes workflow
 
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-AI Meeting Notes transcribes your meetings and turns them into actions.
-
-1. Start AI Meeting Notes on a meeting page, and tell participants you're transcribing.
-2. After the call, review the summary of decisions, action items and open questions.
-3. Ask the agent to create tasks from the action items, with owners and due dates.
-
-</details>
-
 1. Start **AI Meeting Notes** in a meeting page (and tell participants you're transcribing).
 2. After the call, review the summary: decisions, action items, open questions.
 3. Ask Notion Agent: *"Turn the action items into tasks in my Tasks database with owners and due dates, and link them to
@@ -170,13 +126,6 @@ AI Meeting Notes transcribes your meetings and turns them into actions.
 4. Optional: a Custom Agent that compiles each week's meeting decisions into a "Decision Log" page.
 
 ## 🔌 Notion + MCP: both directions
-
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-MCP works in both directions with Notion. Other AI apps (Claude, ChatGPT, Cursor) can read and edit your Notion pages through its official MCP server, and Notion's agents can use other services such as Linear and Figma through MCP connections.
-
-</details>
 
 **Outside-in (other AIs use Notion):** add the official Notion connector or MCP server to Claude, ChatGPT, Cursor or Claude
 Code. Coding agents can read specs from Notion and update tasks when work is done. Research agents can save cited briefs
@@ -187,13 +136,6 @@ Figma, HubSpot and more) and custom MCP servers for your own tools, so a Custom 
 Notion status page.
 
 ## ⚡ 12 Notion + AI power moves
-
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-These twelve techniques show what Notion AI can do, from turning meeting notes into tasks to building databases from messy lists and translating content automatically.
-
-</details>
 
 1. **Meeting → tasks in one step:** AI Meeting Notes → *"turn action items into tasks with owners."*
 2. **Database from chaos:** paste a messy list → *"turn this into a database with sensible properties."*
@@ -209,13 +151,6 @@ These twelve techniques show what Notion AI can do, from turning meeting notes i
 12. **Personal dashboard:** *"Build me a home page with today's tasks, active projects and this week's meetings."*
 
 ## 🔐 Permissions, credits & gotchas
-
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-Agents can only access pages they have permission to see, and scheduled agents use credits each time they run. Give agents explicit rules, such as "archive instead of delete," and keep your databases consistently structured.
-
-</details>
 
 - **Structure helps AI:** consistent properties make agents far more reliable than free-form pages.
 - **Give agents rules** ("never delete, archive instead; comment your reasoning") and start them with narrow permissions.

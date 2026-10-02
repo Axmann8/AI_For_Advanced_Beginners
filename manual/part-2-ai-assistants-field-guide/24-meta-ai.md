@@ -1,6 +1,6 @@
 # 24 · Meta AI: The Complete Guide 👓
 
-> ⏱️ 7 min read · 🎯 WhatsApp, Instagram and Facebook users · 🧰 Needs: WhatsApp, Instagram, Messenger or Facebook (or the Meta AI app)
+> ⏱️ 6 min read · 🎯 WhatsApp, Instagram and Facebook users · 🧰 Needs: WhatsApp, Instagram, Messenger or Facebook (or the Meta AI app)
 
 **Meta AI is the assistant you probably already have: it's built into WhatsApp, Instagram, Messenger and Facebook,
 used by billions of people.** No new app, no new account: just open a chat and ask. It also powers Ray-Ban Meta and
@@ -22,13 +22,6 @@ Meta AI is built into WhatsApp, Instagram, Messenger and Facebook, and works han
 
 ## 👓 Quick facts
 
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-Meta AI is made by Meta and is available in WhatsApp, Instagram, Messenger, Facebook, the Meta AI app, meta.ai and Meta's smart glasses.
-
-</details>
-
 | | |
 |---|---|
 | **Made by** | Meta (Facebook, Instagram, WhatsApp) |
@@ -40,17 +33,6 @@ Meta AI is made by Meta and is available in WhatsApp, Instagram, Messenger, Face
 
 ## 🚪 Getting started
 
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-You can start using Meta AI in apps you probably already have.
-
-1. In WhatsApp or Instagram, tap the colorful Meta AI ring icon, or search for Meta AI.
-2. Type your question in the chat.
-3. In a group chat, type **@Meta AI** followed by your question.
-
-</details>
-
 - **WhatsApp:** tap the colorful **Meta AI** ring (on the Chats screen or in the search bar) and start chatting. In a
   group, type **@Meta AI** followed by your question.
 - **Instagram / Messenger / Facebook:** search "Meta AI" or tap the Meta AI icon in messages or the search bar.
@@ -59,13 +41,6 @@ You can start using Meta AI in apps you probably already have.
 - **Glasses:** pair Ray-Ban Meta or Oakley Meta glasses through the **Meta AI** app and say *"Hey Meta…"*
 
 ## 💬 Meta AI in your chats
-
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-You can chat with Meta AI one-on-one or tag it in group chats, where everyone sees its answer. The table shows examples for each setting.
-
-</details>
 
 | Where | Try this |
 |---|---|
@@ -83,13 +58,6 @@ You can chat with Meta AI one-on-one or tag it in group chats, where everyone se
 
 ## 🎨 Imagine: images and video
 
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-Meta AI's Imagine feature creates images from a description, edits photos you upload and can animate images into short videos.
-
-</details>
-
 - **Images:** type *"Imagine a cat astronaut floating past Saturn, cartoon style"* in any Meta AI chat.
 - **Edit photos:** upload a picture and ask for changes (backgrounds, styles, adding things).
 - **Animate:** turn an image into a short video clip.
@@ -97,13 +65,6 @@ Meta AI's Imagine feature creates images from a description, edits photos you up
 - **Stickers and effects:** AI stickers and restyle effects appear throughout Meta's apps.
 
 ## 🕶️ Smart glasses: AI you wear
-
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-Meta's smart glasses include a camera, speakers and Meta AI. You can ask what you're looking at, translate signs and conversations, and capture photos, all without taking out your phone.
-
-</details>
 
 This is where Meta AI shines. With **Ray-Ban Meta**, **Oakley Meta** or the display-equipped models:
 
@@ -119,13 +80,6 @@ Some premium glasses features and higher usage limits come with the **Meta One**
 
 ## 🧠 Memory, voice and the Meta AI app
 
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-The Meta AI app offers natural voice conversation and can remember details you share, such as dietary preferences. You can review and delete stored memories in settings.
-
-</details>
-
 - **Voice:** natural, interruptible voice conversations in the app (and on glasses).
 - **Memory:** Meta AI can remember details you share (*"I'm vegetarian," "I'm training for a marathon"*) and may use
   information from your Meta profiles. View and delete memories in the app's settings.
@@ -135,13 +89,6 @@ The Meta AI app offers natural voice conversation and can remember details you s
   starting in some countries and plans.
 
 ## 🔐 Privacy and settings
-
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-Meta uses your interactions with Meta AI to personalize content and ads across its apps, and some features can make prompts visible to others. Keep personal information out, and review what you share publicly.
-
-</details>
 
 The key things to know:
 
@@ -155,13 +102,6 @@ The key things to know:
   law allows.
 
 ## 🍳 Step-by-step recipes
-
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-These three recipes walk through real tasks with Meta AI step by step, including planning a trip in a group chat.
-
-</details>
 
 **Recipe 1: Group trip planner**
 
@@ -179,13 +119,6 @@ These three recipes walk through real tasks with Meta AI step by step, including
 2. *"Hey Meta, translate this sign."*
 
 ## 💡 Pro tips and limitations
-
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-These tips help you get more out of Meta AI, followed by its current limitations so you know what to watch for.
-
-</details>
 
 **Pro tips**
 

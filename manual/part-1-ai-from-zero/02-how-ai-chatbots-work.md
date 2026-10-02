@@ -1,6 +1,6 @@
 # 02 · How AI Chatbots Work (No Math, Promise) 🧠
 
-> ⏱️ 9 min read · 🎯 Complete beginners · 🧰 Needs: nothing
+> ⏱️ 7 min read · 🎯 Complete beginners · 🧰 Needs: nothing
 
 **You don't need to understand engines to drive a car, but knowing a little about how chatbots work makes you
 dramatically better at using them.** In a few friendly pages you'll learn where the AI's knowledge comes from, why it
@@ -22,13 +22,6 @@ A chatbot is built on a model that was trained on a huge amount of text and then
 
 ## 📚 Step 1: It read (a lot)
 
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-Before release, a model is trained on a vast collection of books, websites and other text. It doesn't store that text word for word; it learns patterns in how language and ideas fit together.
-
-</details>
-
 Before a chatbot talks to anyone, its "brain" (the **model**) goes through **training**. Huge computers feed it a vast
 amount of text: books, websites, encyclopedias, forums, code, and more. Modern models also learn from pictures, audio
 and video.
@@ -44,13 +37,6 @@ English.
 > your head and most of AI's quirks will make sense.
 
 ## 🔮 Step 2: It predicts the next word
-
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-At its core, a chatbot generates its answer one small piece (a token) at a time, each time predicting the most fitting next piece given your question and the conversation so far. It's a far more powerful version of your phone's word suggestions.
-
-</details>
 
 Here's the secret at the heart of every chatbot: **it writes its answer one small piece at a time, each time predicting
 what should come next.**
@@ -73,13 +59,6 @@ quotes, rare facts). You'll learn to lean into the first and double-check the se
 
 ## 🎓 Step 3: It was coached to be a helpful assistant
 
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-After the initial training, companies train the model further on examples of good assistant behavior: following instructions, being helpful, admitting uncertainty and refusing harmful requests. This stage also shapes each assistant's personality.
-
-</details>
-
 A model that has only "read the internet" would just continue your text in random directions. So companies do a second
 stage of training where people (and other carefully designed AI) show it thousands of examples of **good assistant
 behavior**: answering helpfully, admitting uncertainty, refusing dangerous requests, following instructions.
@@ -97,13 +76,6 @@ favorite.
 
 ## 📅 What it knows, and what it doesn't
 
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-Every model has a knowledge cutoff, the date its training data ends. For anything more recent, the assistant needs to search the web; look for source links in the answer to confirm it did.
-
-</details>
-
 Training happens at a certain point in time, so every model has a **knowledge cutoff**: a date after which it knows
 nothing on its own. Ask about last night's game and a model without web access will either say it doesn't know or,
 worse, guess.
@@ -119,13 +91,6 @@ web…" message and little **source links** in the answer. Those links are gold:
 | Very niche fact ("my town's recycling rules") | Search helps, but always double-check with the official source |
 
 ## 💭 Memory: what it remembers (and forgets)
-
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-There are two kinds of memory. Within a single chat, the AI can see the whole conversation (up to a size limit). Across separate chats, it only remembers you if a long-term memory feature is enabled, and you can view or delete what it stores.
-
-</details>
 
 Chatbots have two kinds of memory, and mixing them up confuses lots of beginners:
 
@@ -143,13 +108,6 @@ Chatbots have two kinds of memory, and mixing them up confuses lots of beginners
 
 ## 🎲 Why the same question gets different answers
 
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-Chatbots add some randomness when choosing words, which keeps responses natural. That's why the same question can produce different answers. Use the regenerate button for a fresh version, or ask for several options at once.
-
-</details>
-
 Chatbots add a sprinkle of **randomness** when choosing words, which keeps them creative and natural-sounding. Ask
 "give me a name for my cat" twice and you'll get different names. That's a feature!
 
@@ -161,13 +119,6 @@ Every assistant has a **regenerate** (🔄 "try again") button. Use it freely:
   [Prompting 101](06-prompting-101.md).
 
 ## 🤔 "Thinking…": fast models vs. reasoning models
-
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-Many assistants offer a fast mode for everyday questions and a "thinking" or reasoning mode that works through a problem before answering. Reasoning takes longer but is noticeably better for math, logic, planning and complex comparisons.
-
-</details>
 
 Most assistants now offer two styles of brain:
 
@@ -182,13 +133,6 @@ toggle and try again. And if you see a little expandable "thought process," you 
 fascinating. 🧩
 
 ## 🤷 Why it sometimes makes things up
-
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-A hallucination is when the AI states something false as if it were true. It happens because the model predicts plausible-sounding text rather than looking up verified facts. Reduce the risk by asking for sources, using web search, and checking important details yourself.
-
-</details>
 
 Put everything together and you can see why AI **hallucinates** (confidently invents things):
 

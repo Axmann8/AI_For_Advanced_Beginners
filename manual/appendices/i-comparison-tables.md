@@ -26,13 +26,6 @@ This appendix places similar tools side by side, so you can compare their streng
 
 ## 🧠 AI assistants
 
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-This table compares the major AI assistants on their particular strengths, integrations, free tiers and privacy defaults.
-
-</details>
-
 | | Claude | ChatGPT | Gemini | Microsoft Copilot | Perplexity |
 |---|---|---|---|---|---|
 | **Especially good at** | Writing, reasoning, coding, long documents | All-rounder, huge ecosystem, voice | Google apps, long video and documents | Microsoft 365 work | Fast answers with sources |
@@ -60,13 +53,6 @@ More: [Meet the Assistants: The Big Comparison](../part-2-ai-assistants-field-gu
 
 ## ⚙️ Automation platforms
 
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-This table compares automation platforms on ease of use, power, self-hosting, AI features and pricing model.
-
-</details>
-
 | | Zapier | Make | n8n | Power Automate |
 |---|---|---|---|---|
 | **Ease for beginners** | ⭐⭐⭐ | ⭐⭐ | ⭐⭐ | ⭐⭐ |
@@ -80,13 +66,6 @@ This table compares automation platforms on ease of use, power, self-hosting, AI
 More: [Automation Platforms](../part-5-automation/45-automation-platforms.md).
 
 ## 🛠️ AI coding tools
-
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-This table compares AI coding tools, from chat-to-app builders to terminal agents, by type, best use and how much coding knowledge each requires.
-
-</details>
 
 | Tool | Type | Best for | Coding needed |
 |---|---|---|---|
@@ -102,13 +81,6 @@ More: [Agents & AI Coding Tools](../part-7-building-with-ai/60-agents-and-coding
 
 ## 🧱 Agent frameworks
 
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-This table compares agent frameworks by language, standout capability and when to choose each.
-
-</details>
-
 | Framework | Language | Superpower | Pick it when |
 |---|---|---|---|
 | **Claude Agent SDK** | Python, TS | Claude Code's harness (files, bash, subagents, MCP) | You want a Claude Code-grade agent in your app |
@@ -122,13 +94,6 @@ This table compares agent frameworks by language, standout capability and when t
 More: [Agent Frameworks Tour](../part-7-building-with-ai/69-agent-frameworks-tour.md).
 
 ## 🏠 Local AI runners
-
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-This table compares tools for running models locally, from simple desktop apps to developer-oriented runners.
-
-</details>
 
 | Tool | Interface | Best for |
 |---|---|---|
@@ -144,13 +109,6 @@ More: [Local & Open Models](../part-9-local-ai/78-local-and-open-models.md).
 
 ## 💻 Hardware for local AI
 
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-This table compares hardware options for local AI on memory, speed, cost, power use and noise.
-
-</details>
-
 | | Apple Silicon Mac | PC + NVIDIA GPU | Unified-memory mini PC | Raspberry Pi |
 |---|---|---|---|---|
 | **Biggest models that fit** | ⭐⭐⭐ (lots of unified memory) | ⭐⭐ (VRAM-limited) | ⭐⭐⭐ (up to ~128 GB) | ⭐ |
@@ -162,13 +120,6 @@ This table compares hardware options for local AI on memory, speed, cost, power 
 More: [Hardware for Local AI](../part-9-local-ai/79-hardware-for-local-ai.md).
 
 ## 🗄️ Vector databases
-
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-This table compares vector databases, from embedded options for learning to managed services for production apps.
-
-</details>
 
 | Tool | Style | Best for |
 |---|---|---|
@@ -183,13 +134,6 @@ More: [Embeddings & Vector Databases](../part-8-knowledge-and-memory/73-embeddin
 
 ## 📚 Note apps for a second brain
 
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-This table compares note-taking apps for a second brain on file ownership, AI features, collaboration and privacy.
-
-</details>
-
 | | Obsidian | Notion | Google Docs | Apple Notes |
 |---|---|---|---|---|
 | **You own the files** | ✅ (Markdown) | Export | Export | Export |
@@ -202,13 +146,6 @@ This table compares note-taking apps for a second brain on file ownership, AI fe
 More: [Personal Knowledge Management](../part-8-knowledge-and-memory/77-personal-knowledge-management.md).
 
 ## 🎨 Creative tools
-
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-This table recommends the strongest tools for each creative need: images, video, voice and music.
-
-</details>
 
 | Need | Great picks |
 |---|---|
@@ -227,13 +164,6 @@ More: [The Multimodal Playground](../part-10-creative-ai/83-multimodal-playgroun
 
 ## 🗣️ Voice-agent platforms
 
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-This table compares voice agent platforms on setup, flexibility, voice quality and pricing.
-
-</details>
-
 | | Vapi | Retell | ElevenLabs Agents | LiveKit / Pipecat |
 |---|---|---|---|---|
 | **Setup** | No-code + API | No-code + API | No-code + API | Code (open source) |
@@ -245,13 +175,6 @@ This table compares voice agent platforms on setup, flexibility, voice quality a
 More: [Voice Agents](../part-10-creative-ai/87-voice-agents.md).
 
 ## 🌍 Hosting
-
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-This table compares hosting providers by the kinds of projects they support and their free tiers.
-
-</details>
 
 | Host | Static sites | Web apps | Always-on bots | Free tier |
 |---|---|---|---|---|
@@ -265,13 +188,6 @@ More: [Deploying & Hosting](../part-7-building-with-ai/66-deploying-and-hosting.
 
 ## 💳 Subscription vs. API vs. local
 
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-This table compares the three ways to pay for AI: subscriptions, pay-per-token APIs and local models.
-
-</details>
-
 | | Subscription (Pro, Plus…) | API (pay per token) | Local model |
 |---|---|---|---|
 | **Cost style** | Fixed monthly, with usage limits | Pay per use | Hardware + electricity |
@@ -283,13 +199,6 @@ This table compares the three ways to pay for AI: subscriptions, pay-per-token A
 More: [Cost Optimization](../part-12-mastery/106-cost-optimization.md).
 
 ## 🔌 MCP: local vs. remote servers
-
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-This table compares local (stdio) and remote (Streamable HTTP) MCP servers on how they run, setup, access and security.
-
-</details>
 
 | | Local (stdio) | Remote (Streamable HTTP) |
 |---|---|---|

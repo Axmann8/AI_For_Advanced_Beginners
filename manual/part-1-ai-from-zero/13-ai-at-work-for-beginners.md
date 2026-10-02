@@ -1,6 +1,6 @@
 # 13 · AI at Work for Beginners 💼
 
-> ⏱️ 8 min read · 🎯 Anyone with a job (or looking for one) · 🧰 Needs: your workplace's approved AI tool, or any assistant for practice
+> ⏱️ 6 min read · 🎯 Anyone with a job (or looking for one) · 🧰 Needs: your workplace's approved AI tool, or any assistant for practice
 
 **AI can take the grind out of work: the email you've been dreading, the meeting notes nobody wrote up, the spreadsheet
 formula you can never remember, the report that needs to be half as long by 5pm.** This chapter shows beginners how to
@@ -22,17 +22,6 @@ AI can take on much of the routine work in a typical job: drafting emails, summa
 
 ## 📜 Step zero: check the rules
 
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-Before using AI for work, find out what's allowed.
-
-1. Ask which AI tools are approved (often a business version with stronger privacy protections).
-2. Ask what types of information you may and may not enter.
-3. Ask whether you need to disclose AI use.
-
-</details>
-
 Before pasting anything work-related into an AI, find out:
 
 1. **Which tools are approved?** Many employers provide a business version of Copilot, Gemini, ChatGPT or Claude with
@@ -47,13 +36,6 @@ Before pasting anything work-related into an AI, find out:
 > protection rules). When in doubt, **remove names and specifics**, or use the approved business tool.
 
 ## 📧 Email superpowers
-
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-AI can draft emails from bullet points, soften a tense reply, adjust the tone of your message and summarize long threads. The table includes prompts for each task.
-
-</details>
 
 | Task | Prompt |
 |---|---|
@@ -70,13 +52,6 @@ Superpowers](../part-6-ai-in-your-apps/57-email-and-calendar.md).
 
 ## 🗓️ Meetings: before, during, after
 
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-AI helps at every stage of a meeting: preparing an agenda and questions beforehand, taking notes during the call (with built-in tools in Zoom, Teams and Meet), and summarizing decisions and action items afterward.
-
-</details>
-
 - **Before:** *"I have a meeting with [a new supplier] about [delivery delays]. Suggest an agenda, 5 questions to ask,
   and how to open the conversation."*
 - **During:** Zoom, Microsoft Teams and Google Meet all offer **AI note-takers** that write summaries and action items
@@ -86,13 +61,6 @@ AI helps at every stage of a meeting: preparing an agenda and questions beforeha
 
 ## 📝 Documents, reports and presentations
 
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-For documents and presentations, AI can suggest a structure, produce a first draft, condense long material, rewrite content for a specific audience and turn notes into slides.
-
-</details>
-
 - **Outline first:** *"I need a 2-page report on [why customer complaints rose in Q2]. Suggest a structure."*
 - **Summarize:** *"Summarize this 20-page policy into one page for frontline staff."*
 - **Rewrite for an audience:** *"Rewrite this technical update for non-technical managers."*
@@ -101,13 +69,6 @@ For documents and presentations, AI can suggest a structure, produce a first dra
 - **Proofread:** *"Fix grammar and clarity but keep my style. List what you changed."*
 
 ## 📊 Spreadsheets without the fear
-
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-AI can write spreadsheet formulas from a plain-language description, explain what an existing formula does and summarize what your data shows.
-
-</details>
 
 You don't need to be an Excel wizard anymore:
 
@@ -121,13 +82,6 @@ Copilot in Excel and Gemini in Google Sheets can do much of this inside the spre
 
 ## 🧠 A thinking partner for tricky moments
 
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-AI is useful for thinking through difficult situations at work: rehearsing a tough conversation through role-play, preparing constructive feedback, or weighing the pros and cons of a decision.
-
-</details>
-
 - **Practice a hard conversation:** *"Role-play my manager. I'm asking for a raise. Push back realistically, then give
   me feedback."*
 - **Prepare feedback:** *"Help me give constructive feedback to a team member who keeps missing deadlines. Kind but
@@ -137,13 +91,6 @@ AI is useful for thinking through difficult situations at work: rehearsing a tou
 - **Plan your week:** *"Here's everything on my plate: [list]. Help me prioritize and plan the week."*
 
 ## 🛠️ Ideas for every kind of job
-
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-AI is useful in almost every line of work, not only office jobs. The table lists practical ideas for retail, healthcare, education, trades and more.
-
-</details>
 
 | Job | Ways AI helps |
 |---|---|
@@ -159,19 +106,6 @@ AI is useful in almost every line of work, not only office jobs. The table lists
 
 ## ⚠️ Five rules for using AI at work
 
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-Follow these five rules whenever you use AI at work:
-
-1. Use only approved tools for work data.
-2. Review every output; you're responsible for what you send.
-3. Edit drafts so they sound like you.
-4. Verify facts, figures and names.
-5. Be open about AI use where your workplace expects it.
-
-</details>
-
 1. **Use approved tools** for work data. Keep secrets out of personal accounts.
 2. **You're responsible for what you send.** Read every word; check facts, figures and names.
 3. **Make it sound like you.** Edit AI drafts so they're in your voice. Colleagues notice the robotic "I hope this email
@@ -180,13 +114,6 @@ Follow these five rules whenever you use AI at work:
 5. **Keep learning the job, not just the tool.** Use AI to go faster, not to skip understanding your work.
 
 ## 📈 AI skills are career skills
-
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-Using AI well is becoming an expected workplace skill, much like using email. Start with one small task each week and build from there.
-
-</details>
 
 Being good with AI is quickly becoming as expected as being good with email. The people who thrive are the ones who
 **use AI to do better work**, not the ones who avoid it or hand it everything. Start small: one email, one meeting

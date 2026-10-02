@@ -1,6 +1,6 @@
 # 36 · Context Engineering: Prompting's Big Sibling 🧩📐
 
-> ⏱️ 9 min read · 🎯 Intermediate · 🧰 Needs: any AI assistant
+> ⏱️ 7 min read · 🎯 Intermediate · 🧰 Needs: any AI assistant
 
 **You already know the basics of good prompts. Context engineering is the next level: designing *everything* the model
 sees** (standing instructions, examples, documents, tool descriptions, memory and conversation history) so it succeeds
@@ -23,13 +23,6 @@ Context engineering means deliberately shaping everything an AI receives, not ju
 
 ## 🔭 From prompting to context engineering
 
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-A prompt is the message you type; context is the entire package the model receives. In modern setups, system instructions, files, tool definitions and history often outweigh the prompt itself, so getting all of it right matters most.
-
-</details>
-
 A **prompt** is the message you type. **Context** is the entire package the model receives. In modern AI setups, your
 typed message is often the *smallest* part:
 
@@ -47,17 +40,6 @@ typed message is often the *smallest* part:
 for agents especially, the prompt is only a sliver of what determines success.
 
 ## 📜 Standing instructions that actually work
-
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-Standing instructions are read with every request, so writing them well saves you from repeating yourself. Keep them in a Project, Gem, custom instructions or an agent memory file like CLAUDE.md or AGENTS.md.
-
-1. State who you are and what the assistant is for.
-2. Describe the style, format and rules it should follow.
-3. Add the key facts it should always know, and update the instructions as you learn what works.
-
-</details>
 
 Standing instructions live in **Projects** (Claude, ChatGPT), **Gems** (Gemini), **custom instructions**, or agent memory
 files like **`CLAUDE.md` / `AGENTS.md`**. A great one covers:
@@ -81,13 +63,6 @@ files like **`CLAUDE.md` / `AGENTS.md`**. A great one covers:
 
 ## 🧪 Examples beat adjectives
 
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-One good example communicates a style more precisely than a list of adjectives. Use two or three varied examples if you want range, so the AI doesn't copy one too closely.
-
-</details>
-
 "Make it punchy" means different things to different people. **One good example communicates more than ten adjectives.**
 
 ```text
@@ -110,13 +85,6 @@ Now write one for: Cast-iron skillet
 
 ## 📎 Feeding documents the right way
 
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-When working with long documents, place them first and your question last, label each document clearly, and ask the AI to quote relevant passages before answering. The table explains why each technique works.
-
-</details>
-
 | Technique | Why it works |
 |---|---|
 | **Long documents first, question last** | Models answer best when the question comes after the material |
@@ -130,13 +98,6 @@ For big, changing collections, you'll want **RAG** (fetching only the relevant c
 [RAG, Memory & Knowledge](../part-8-knowledge-and-memory/72-rag-memory-and-knowledge.md).
 
 ## 🔧 Tool descriptions are prompts too
-
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-For agents, tool names and descriptions are critical context. A specific name and a description that explains when to use the tool and what each input means prevent most tool misuse.
-
-</details>
 
 For agents, **tool names and descriptions are some of the most important context there is.** Compare:
 
@@ -153,13 +114,6 @@ the task doesn't need.
 
 ## 📦 Structured outputs: context for machines
 
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-When another program will read the AI's output, ask for structured output, such as JSON with defined fields. Many APIs can enforce a schema so the output is always valid.
-
-</details>
-
 When AI output feeds another step (an automation, a spreadsheet, a database), ask for **structured output**:
 
 ```text
@@ -171,17 +125,6 @@ Many APIs and tools can **enforce** a schema so the output is always valid JSON 
 [Calling AI APIs Directly](../part-7-building-with-ai/67-calling-ai-apis.md) and [Webhooks, APIs & JSON](../part-5-automation/46-webhooks-apis-json.md).
 
 ## 🗜️ Managing long sessions (context rot)
-
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-Long conversations accumulate outdated ideas, failed attempts and contradictions, which gradually degrade quality (context rot).
-
-1. Watch for signs like repeated mistakes or forgotten instructions.
-2. Ask the AI to summarize the decisions and key facts so far.
-3. Start a fresh session with that summary.
-
-</details>
 
 Long conversations accumulate **stale ideas, abandoned attempts and contradictions**. Researchers and practitioners call
 this **context rot**: quality slowly drops even when there's room left.
@@ -197,13 +140,6 @@ this **context rot**: quality slowly drops even when there's room left.
 
 ## 🧠 What to remember, and where
 
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-Different kinds of information belong in different places: stable personal facts in custom instructions or memory, project knowledge in project files, and changing information fetched live through tools. The table gives examples.
-
-</details>
-
 | Kind of info | Where it belongs | Example |
 |---|---|---|
 | Stable facts about you | Custom instructions or memory | "I'm vegetarian, based in Lisbon, prefer short answers" |
@@ -215,17 +151,6 @@ Different kinds of information belong in different places: stable personal facts
 Deep dive: [Memory for Agents](../part-8-knowledge-and-memory/75-memory-for-agents.md).
 
 ## 🧰 Build a reusable context kit
-
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-A reusable context kit is a folder of your best context files (about you, your writing style, your project rules) that you attach or reference whenever you start important work.
-
-1. Create a folder or a Notion page.
-2. Add the files shown below and fill them in.
-3. Turn them into Projects, Gems or agent memory files.
-
-</details>
 
 Create a folder (or a Notion page) with these files, then attach or reference them whenever you start important work:
 
@@ -243,13 +168,6 @@ relevant, see [Claude Code Power-Ups](../part-7-building-with-ai/63-claude-code-
 repo or Obsidian vault.
 
 ## ✅ The context engineering checklist
-
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-Before a significant AI task, run through this checklist to confirm the AI has the goal, the right documents, an example, the necessary tools and a clear output format.
-
-</details>
 
 - [ ] Does the AI know the **goal**, the **audience**, and **why**?
 - [ ] Did I include the **relevant documents** (and only those), with labels?

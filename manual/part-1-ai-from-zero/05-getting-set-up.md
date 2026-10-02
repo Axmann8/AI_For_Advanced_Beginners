@@ -1,6 +1,6 @@
 # 05 · Getting Set Up: Accounts, Apps & Plans 📲
 
-> ⏱️ 9 min read · 🎯 Complete beginners · 🧰 Needs: your chosen assistant, 10 minutes in its settings
+> ⏱️ 8 min read · 🎯 Complete beginners · 🧰 Needs: your chosen assistant, 10 minutes in its settings
 
 **A few minutes of setup makes every future conversation better.** This chapter covers where to use your assistant
 (phone, computer or browser), how to keep your account secure, the five settings worth checking on day one, how to tell
@@ -23,13 +23,6 @@ A few minutes of setup makes your assistant more secure, more personal and more 
 
 ## 📱 Phone, computer or browser?
 
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-Your account works on the phone app, the desktop app and the website, and your chats sync between them. Most people use the phone for voice and photos, and a computer for longer work.
-
-</details>
-
 Your account works everywhere, and your chats sync between devices. Most people use two of these:
 
 | Where | Best for | How to get it |
@@ -47,17 +40,6 @@ Your account works everywhere, and your chats sync between devices. Most people 
 
 ## 🔑 Lock the door: account security
 
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-Your chat history can contain a lot of personal information, so protect the account like you would your email.
-
-1. Sign in with Google, Apple or Microsoft, or use a strong, unique password (or a passkey if offered).
-2. Turn on two-step verification in the account's security settings.
-3. Sign out on any shared or public device when you're done.
-
-</details>
-
 Your chat history can contain a surprising amount about your life, so protect the account:
 
 1. **Use "Sign in with Google/Apple/Microsoft"** *or* a **strong, unique password** (a password manager makes this easy).
@@ -71,17 +53,6 @@ Your chat history can contain a surprising amount about your life, so protect th
    rather than clicking links in emails or ads.
 
 ## ⚙️ Five settings to check on day one
-
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-Five settings shape how your assistant behaves and what it keeps. Review each one before you start using it heavily.
-
-1. Open **Settings** (usually through your profile picture or name).
-2. Go through the five settings in the table below.
-3. Make a choice for each one; you can change any of them later.
-
-</details>
 
 Open **Settings** (usually by tapping your profile picture or name). Look for these five things:
 
@@ -130,17 +101,6 @@ Where to find them in the popular apps (menus shift occasionally, so look for th
 
 ## 👤 Tell it about you (it makes a huge difference)
 
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-Custom instructions (sometimes called "about you" or personalization) are included automatically in every conversation, so the assistant can tailor its answers to you.
-
-1. Open the personalization or custom instructions setting.
-2. Copy the template below and fill in details you're comfortable sharing.
-3. Leave out sensitive information such as exact addresses or ID numbers.
-
-</details>
-
 The **"about you" / custom instructions** box is the single biggest upgrade for beginners. Whatever you write there is
 quietly included in every conversation. Here's a template to copy and adapt:
 
@@ -169,13 +129,6 @@ change it any time, and a good test is to ask afterwards: *"What do you know abo
 
 ## 💳 Free vs. paid plans, in plain English
 
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-Every assistant offers a free tier and one or more paid tiers. Paid plans add higher limits, the strongest models and premium features. Start with the free version and upgrade only if you consistently hit its limits.
-
-</details>
-
 Every big assistant has tiers. The names change often, but the pattern is the same:
 
 | Tier | What you get | Who it's for |
@@ -203,17 +156,6 @@ For exact current prices, check the company's pricing page. They change, and the
 
 ## 🧾 Paying smart: subscriptions without surprises
 
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-If you subscribe, a few habits prevent unexpected charges.
-
-1. Note where you subscribed (app store or website); that's where you'll cancel.
-2. Set a calendar reminder two days before any free trial ends.
-3. Check your bank statement after the first billing cycle.
-
-</details>
-
 - **Where you subscribe is where you cancel.** Subscribed in the iPhone app? Cancel in your **Apple ID subscriptions**.
   Android? **Google Play → Subscriptions**. On the website? The assistant's **Settings → Subscription / Billing**.
 - **Set a calendar reminder** two days before any free trial ends.
@@ -224,13 +166,6 @@ If you subscribe, a few habits prevent unexpected charges.
 
 ## 👨‍👩‍👧 Families, kids and shared devices
 
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-Each person should have their own account so memory and chat history stay separate. Most assistants have minimum age requirements, and several offer teen accounts and parental controls; children should use AI with adult guidance.
-
-</details>
-
 - **Separate accounts for each person.** Memory and history are personal; sharing an account mixes everything up.
 - **Age rules:** most assistants require users to be 13+ (with parental permission until 18) or 18+. Several offer
   teen accounts and parental controls, and Google offers Gemini for supervised kids' accounts through Family Link.
@@ -240,13 +175,6 @@ Each person should have their own account so memory and chat history stay separa
 The full guide for parents is in [Parents, Teachers & Students](../part-11-ai-for-life-and-work/98-parents-teachers-and-students.md).
 
 ## ✅ Your setup checklist
-
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-Use this checklist to confirm your setup is complete: app installed, account secured, personalization added, and memory, training and subscription choices made deliberately.
-
-</details>
 
 - [ ] Official app installed on my phone (and/or desktop), launched from the home screen
 - [ ] Strong password or "Sign in with…", plus two-step verification

@@ -1,293 +1,298 @@
-# 47 · The n8n Masterclass 🟣⚙️
+# 47 · The n8n Masterclass: Your First AI Workflow, Click by Click 🟣⚙️
 
-> ⏱️ 8 min read · 🎯 Beginner → intermediate · 🧰 Needs: Node.js (for `npx n8n`) or Docker
+> ⏱️ 14 min read · 🎯 Beginner → intermediate · 🧰 Needs: n8n (Cloud, or Node.js 24+ / Docker), an Anthropic API key
 
-**n8n is the playground where automation meets AI, and because you can self-host it for free, you can experiment without
-watching a meter.** This chapter takes you from install to confident builder: the mental model, expressions, the nodes you'll
-use daily, code nodes, credentials, error handling and running n8n reliably. The next chapter
-([n8n AI Agents Deep Dive](48-n8n-ai-agents.md)) goes all-in on agents.
+**In the next 30 minutes you'll build a real AI app in n8n: a web form where you type any note, and Claude replies with
+a one-line summary and tells you whether it's urgent.** Every step below shows what to click and what your screen should
+look like. The screenshots come from a fresh install of n8n 2.41, so they match what you'll see.
 
 <details class="keypoints" open>
 <summary>✅ Key Points & Steps</summary>
 
-n8n is a visual workflow tool where each node performs one step, such as reading an email, calling an AI model or posting a message. Nodes connect from left to right, and data flows through them. You can self-host it for free.
+n8n is a visual workflow tool. Each box (a **node**) does one job, and data flows between them from left to right.
 
-1. **Install n8n** with Docker, npx or the cloud service.
-2. **Learn the core concepts:** nodes, items and expressions.
-3. **Build your first AI workflow,** then add credentials, error handling and backups.
+1. **Install n8n** (Cloud, `npx n8n` or Docker) and create your owner account.
+2. **Add a form trigger,** test it, and look at the data it produces.
+3. **Add an AI step,** drag the form's answer into the prompt, and connect Claude.
+4. **Show the AI's answer** on the form's thank-you screen and run the whole thing.
+5. **Publish it,** then use the reference sections when you build your next workflow.
 
 </details>
 
 <!-- in-this-chapter -->
 
-## 🚀 Get n8n running (pick one)
+## 🎯 What you're building
 
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
+Here's the finished result. Someone fills in the form, n8n sends the note to Claude, and the answer appears on screen a
+second later:
 
-n8n can run in several ways: a quick trial with npx, Docker for an always-on setup (recommended), n8n Cloud for no maintenance, or a small virtual server. The table compares the options.
+![A web form called Quick note with a text box and a Submit button](../assets/screenshots/n8n/live-form.png "The form your workflow creates. It has its own web address that anyone you share it with can open.")
 
-</details>
+![The form's thank-you screen showing Claude's one-sentence summary and Urgent: No](../assets/screenshots/n8n/live-result.png "A second later: Claude's summary appears on the thank-you screen.")
 
-| Option | Command / how | Best for |
+The workflow behind it has just four nodes:
+
+![The finished workflow on the n8n canvas: On form submission, Basic LLM Chain with an Anthropic Chat Model underneath, and a Form Ending node](../assets/screenshots/n8n/canvas-success.png "The finished workflow after a successful run. Green borders and ticks mean every step worked.")
+
+> [!NOTE]
+> **📸 About these screenshots**
+> They were captured on n8n 2.41.6 (October 2026). The AI replies shown are sample answers. Your own run will show
+> whatever Claude writes for your note. If a button has moved in a newer version, look for the same label nearby.
+
+## 1️⃣ Step 1: Get n8n running (5 minutes)
+
+Pick **one** of these:
+
+| Option | What to do | Best for |
 |---|---|---|
-| **Quick try** | `npx n8n` | Kicking the tires in 1 minute (needs Node.js) |
-| **Docker** (recommended) | See below | Running it reliably on your machine or a server |
-| **Home lab bundle** | [`examples/homelab`](../../examples/homelab/) | n8n + Ollama + Open WebUI together ([The AI Home Lab](../part-9-local-ai/80-home-lab.md)) |
-| **n8n Cloud** | Sign up at n8n.io | No maintenance, always-on webhooks |
-| **VPS** | Docker on a small cloud server | Always on and cheap, and it can receive webhooks from the internet |
+| **n8n Cloud** | Sign up at **n8n.io** and open your workspace | No installing, always online |
+| **Quick try on your computer** | Install **Node.js 24 or newer**, then run `npx n8n` in a terminal | Trying it out in a minute |
+| **Docker** (recommended for keeps) | Run the two commands below | An always-on setup at home or on a server |
 
 ```bash
 docker volume create n8n_data
-docker run -it --rm --name n8n -p 5678:5678 \
-  -v n8n_data:/home/node/.n8n \
-  docker.n8n.io/n8nio/n8n
+docker run -it --rm --name n8n -p 5678:5678 -v n8n_data:/home/node/.n8n docker.n8n.io/n8nio/n8n
 ```
 
-Open **http://localhost:5678** and create your owner account. 🎉
+> [!WARNING]
+> **⚠️ "Your Node.js version is currently not supported"**
+> n8n 2.x needs **Node.js 24 or newer**. If `npx n8n` prints this, install the current Node.js from nodejs.org (or use
+> Docker, which includes the right version).
+
+**Then:**
+
+1. Open **http://localhost:5678** in your browser (or your Cloud address).
+2. Fill in **Set up owner account**: your email, name and a password with 8+ characters, one number and one capital letter.
+   Click **Next**.
+
+    ![The n8n Set up owner account form with Email, First Name, Last Name and Password fields and a Next button](../assets/screenshots/n8n/setup-owner-account.png "First launch: create the owner account. It only exists on your own n8n.")
+
+3. n8n may offer its built-in **n8n Assistant**. Click **Set up later in Settings** for now (or explore it later).
+4. You land on **Overview**. Click **Build a workflow**.
+
+![The n8n Overview page saying Let's build your first automation, with Build an agent and Build a workflow cards](../assets/screenshots/n8n/overview-first-run.png "The Overview page on a brand-new install. Click Build a workflow.")
+
+## 2️⃣ Step 2: Add a form trigger (5 minutes)
+
+Every workflow starts with a **trigger**: the event that kicks it off. You'll use n8n's built-in web form.
+
+1. **Name your workflow.** Click **My workflow** at the top and type *Quick note → AI summary*.
+2. Click the big **+** labelled **Add first step**.
+
+    ![An empty n8n canvas with a dashed plus box labelled Add first step](../assets/screenshots/n8n/empty-canvas.png "A new, empty workflow. The Publish button (top right) is how you'll switch it on later.")
+
+3. The panel **What triggers this workflow?** opens. Click **On form submission**.
+
+    ![The trigger panel listing Trigger manually, On app event, On a schedule, On webhook call, On form submission, When executed by another workflow and On chat message](../assets/screenshots/n8n/trigger-panel.png "The trigger panel. On form submission gives you a hosted web form with no extra setup.")
+
+4. The node's settings open. Fill them in:
+    - **Form Title:** `Quick note`
+    - **Form Description:** `Jot down anything. AI will sort it for you.`
+    - Click **Add Form Element**. Set **Label** to `Your note` and **Element Type** to **Textarea**.
+
+![The On form submission settings with Form Title Quick note, a description, and one Textarea element labelled Your note](../assets/screenshots/n8n/form-trigger-settings.png "Your form's settings. Each Form Element becomes a field on the form.")
+
+## 3️⃣ Step 3: Test the form and look at the data (3 minutes)
+
+1. Click the orange **Execute step** button (top of the settings panel). A new browser tab opens with your test form.
+2. Type a note, for example *The landlord needs to know by tonight if Thursday 10am works for the boiler repair*, and
+   click **Submit**.
+
+    ![The test version of the Quick note form, with a yellow banner saying This is a test version of your form](../assets/screenshots/n8n/test-form.png "The test form. The yellow banner reminds you it's the test version.")
+
+3. Switch back to the n8n tab. The **OUTPUT** panel on the right now shows what the form sent: your note, the time it
+   was submitted and the form mode.
+
+![The node panel showing OUTPUT with one item: Your note, submittedAt and formMode columns](../assets/screenshots/n8n/form-trigger-output.png "Real data! Each column is a field you can use in later steps. n8n calls one row of data an item.")
+
+This is the most important habit in n8n: **run a step, then look at its output.** Every later step can use these fields.
+Close the panel with the **×** in the top-right corner.
+
+## 4️⃣ Step 4: Add the AI step (5 minutes)
+
+1. Hover over the form node on the canvas and click the small **+** on its right side.
+2. In the search box, type `Basic LLM` and click **Basic LLM Chain**. (It sends one prompt to an AI model and returns
+   the answer.)
+
+    ![The What happens next? panel listing categories such as AI, Action in an app, Data transformation, Flow and Core](../assets/screenshots/n8n/next-step-panel.png "The + button opens this panel. Search for any node by name.")
+
+3. In the chain's settings, change **Source for Prompt (User Message)** to **Define below**.
+4. Click inside the **Prompt (User Message)** box and type:
+
+    ```text
+    Summarize this note in one short sentence, then say if it is urgent (Yes or No).
+
+    Note:
+    ```
+
+5. Now the magic move: in the **INPUT** panel on the left, find **Your note**, then **drag it** into the prompt box,
+   just after `Note:`.
+
+![Dragging the Your note field from the INPUT panel into the prompt box](../assets/screenshots/n8n/drag-a-field.png "Drag a field from the INPUT panel into any box. This is called mapping.")
+
+n8n writes the **expression** `{{ $json['Your note'] }}` for you and shows a live **Result** preview underneath, with
+your real note filled in:
+
+![The prompt box in Expression mode with the mapped field highlighted in green, and a Result preview showing the full prompt with the note filled in](../assets/screenshots/n8n/prompt-mapped.png "After the drop, the green part is the expression. The Result box shows exactly what Claude will receive.")
 
 > [!TIP]
-> **💡 Your data lives in the volume**
-> Everything (workflows, credentials, execution history) is stored in `n8n_data`. Back it up and you can move your whole
-> setup anywhere.
+> **💡 Expressions in one sentence**
+> Anything inside `{{ }}` is filled in fresh for each run. `$json` means "the data coming into this node". You rarely
+> need to type expressions yourself; drag and drop writes them for you.
 
-## 🧠 The n8n mental model
+## 5️⃣ Step 5: Connect Claude (5 minutes)
 
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
+Close the chain's panel. On the canvas, the chain shows a red warning and a **Model\*** connector underneath: it needs an AI
+model before it can run.
 
-Data moves through an n8n workflow as a list of **items**, and most nodes run once for each item. Understanding this explains most of n8n's behavior, including loops, merges and why a node runs multiple times.
+![The canvas with the Basic LLM Chain node showing a red warning triangle and a plus under its Model connector](../assets/screenshots/n8n/chain-needs-model.png "The red warning means something is missing. Here it's the AI model. Click the + under Model.")
 
-</details>
+1. Click the **+** under **Model**, type `Anthropic` and choose **Anthropic Chat Model**.
 
-```mermaid
-flowchart LR
-    T((⚡ Trigger)) --> N1[Node] --> N2[Node] --> IF{If} --> N3[Node]
-    IF --> N4[Node]
-```
+    ![The Language Models panel filtered to Anthropic, showing Anthropic Chat Model](../assets/screenshots/n8n/model-picker.png "Pick any provider here. This chapter uses Anthropic's Claude; OpenAI, Gemini, Ollama and others work the same way.")
 
-- **Workflow** = a canvas of **nodes** connected left to right.
-- **Trigger nodes** start it: Schedule, Webhook, Gmail "on new email," Chat Trigger, Form, and hundreds of app triggers.
-- **Items:** data flows as a list of JSON **items**. Most nodes run **once per item**, which is the key concept!
-- **Credentials** are stored once, encrypted, and reused across workflows.
-- **Executions:** every run is logged. Click in to see exactly what each node received and output. This is your debugger. 🔍
+2. Click **Connect to Anthropic**. A credential window opens.
+3. Paste your **API key** (create one at **console.anthropic.com → API Keys**, and set a monthly spend limit there while
+   you're at it). Leave **Base URL** as it is. Click **Save**.
 
-## 🧮 Expressions: pulling data from anywhere
+    ![The Anthropic account credential window with an API Key field filled in and Base URL set to https://api.anthropic.com](../assets/screenshots/n8n/anthropic-credential.png "Credentials are stored encrypted inside n8n, so you enter each key once and reuse it in every workflow.")
 
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
+4. Close the credential window. Your model node now shows **Anthropic account** as its credential. Leave the **Model**
+   on the default (a current Claude Sonnet) or pick another from the list.
 
-Expressions, written in double curly braces, pull values from earlier nodes into any field, such as an email subject or today's date. The table shows the most useful expressions.
+![The Anthropic Chat Model settings with Credential set to Anthropic account and Model set to Claude Sonnet 5](../assets/screenshots/n8n/anthropic-model-ready.png "Connected. The INPUT panel on the left shows the data this model will work with.")
 
-</details>
+## 6️⃣ Step 6: Show the answer on screen (3 minutes)
+
+Right now the answer would only appear inside n8n. Let's show it to whoever filled in the form.
+
+1. Close the panel. Click the **+** on the right of **Basic LLM Chain**.
+2. Search `n8n Form`, click **n8n Form**, then choose **Form Ending**.
+3. Set **Completion Title** to `Got it! Here is your AI summary`.
+4. For **Completion Message**, hover over the box, click **Expression**, and type `{{ $json.text }}` (the chain puts the
+   AI's answer in a field called `text`).
+
+    ![The Form Ending node settings with Page Type On n8n Form Submission, a Completion Title, and the Completion Message set to the expression $json.text](../assets/screenshots/n8n/form-ending.png "The Form Ending node controls the thank-you screen. The expression drops in Claude's answer.")
+
+5. Close the panel and click **Zoom to fit** (bottom-left) to see the whole workflow:
+
+![The complete workflow: On form submission, Basic LLM Chain with Anthropic Chat Model, and Form with Form Ending underneath](../assets/screenshots/n8n/canvas-complete.png "All four nodes connected and ready to test.")
+
+## 7️⃣ Step 7: Run it end to end (2 minutes)
+
+1. Click **Execute workflow** at the bottom of the canvas. The test form opens in a new tab again.
+2. Type a note and click **Submit**. After a second or two you see Claude's answer:
+
+    ![The test form's thank-you screen showing Claude's summary of the landlord note and Urgent: Yes](../assets/screenshots/n8n/form-result-test.png "Your first AI app, working.")
+
+3. Back in n8n, every node has a green border and tick, and the lines show **1 item** flowing through:
+
+    ![The workflow canvas after a successful run, with green borders on every node and 1 item labels on each connection](../assets/screenshots/n8n/canvas-success.png "Green everywhere means success. A red node means that step failed; double-click it to see why.")
+
+4. Double-click **Basic LLM Chain** to see exactly what went in and what came out:
+
+![The Basic LLM Chain panel with the note in INPUT and Claude's answer in the OUTPUT panel's text column](../assets/screenshots/n8n/chain-output.png "INPUT on the left, settings in the middle, OUTPUT on the right. This view is your debugger.")
+
+## 8️⃣ Step 8: Publish it (3 minutes)
+
+So far it only runs when you click **Execute workflow**. **Publishing** switches it on for real.
+
+1. Click **Publish** (top right). Give this version a name, such as *First version*, and click **Publish**.
+
+    ![The Publish workflow dialog with a Version name field and Publish button](../assets/screenshots/n8n/publish-dialog.png "Each publish is saved as a named version, so you can always roll back.")
+
+2. n8n shows a **Production Checklist**. It's worth doing all three soon: an error workflow (so you hear about failures),
+   time-saved tracking, and MCP access (so AI assistants can use your workflows).
+
+    ![The Production Checklist popover listing Set up error notifications, Track time saved and Enable MCP access](../assets/screenshots/n8n/production-checklist.png "The checklist n8n shows after your first publish.")
+
+3. Double-click **On form submission** and click **Production URL**. That's your form's permanent address. Share it,
+   bookmark it, or add it to your phone's home screen.
+
+    ![The form trigger settings with Production URL selected, showing a localhost /form/ address](../assets/screenshots/n8n/production-url.png "Test URL is for building; Production URL is the real one. On your own computer it starts with localhost, which only you can open. See Running n8n for real below to share it.")
+
+4. Submissions through the production URL run in the background. To see them, open the **Executions** tab at the top
+   of the canvas:
+
+![The Executions tab listing three successful runs with times and durations, and the selected run drawn on a canvas](../assets/screenshots/n8n/executions-list.png "Every run is logged. Flask icons mark test runs; the others came through the production URL.")
+
+🎉 **You've built and published an AI app.** Everything else in n8n is the same loop: add a node, run it, look at the
+output, connect the next one.
+
+## 🩺 If something goes wrong
+
+| What you see | What it means | Fix |
+|---|---|---|
+| `Your Node.js version … is currently not supported` | n8n 2.x needs Node.js 24+ | Update Node.js, or use Docker or Cloud |
+| A node has a **red warning triangle** | A required setting or credential is missing | Double-click it; the missing field is marked in red |
+| **Couldn't connect with these settings** when saving a credential | The key is wrong, expired or has no credit | Create a new key, check billing, paste it again |
+| The test form says it's **not listening** | The test URL only works right after you click **Execute step** or **Execute workflow** | Click it again, then submit |
+| The thank-you screen shows `{{ $json.text }}` literally | The message box is in **Fixed** mode | Switch it to **Expression** |
+| The production URL gives **404** | The workflow isn't published | Click **Publish** |
+
+## 🧮 Reference: expressions you'll use most
 
 | Expression | Returns |
 |---|---|
-| `{{ $json.subject }}` | A field from the current item |
-| `{{ $json.body.text }}` | A nested field |
-| `{{ $('Gmail Trigger').item.json.from }}` | A field from a specific earlier node |
-| `{{ $now.toFormat('yyyy-LL-dd') }}` | Today's date, formatted |
-| `{{ $json.items.length }}` | Count of a list |
-| `{{ $json.name.toUpperCase() }}` | Tiny JavaScript transformations inline |
+| `{{ $json.subject }}` | A field from the incoming item |
+| `{{ $json['Your note'] }}` | A field whose name has spaces |
+| `{{ $('On form submission').item.json['Your note'] }}` | A field from a specific earlier node |
+| `{{ $now.toFormat('yyyy-LL-dd') }}` | Today's date |
+| `{{ $json.items.length }}` | How many entries a list has |
 
-**Pro tip:** drag a field from the input panel onto a parameter and n8n writes the expression for you.
-
-## 🧰 The nodes you'll use every day
-
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-About fifteen nodes handle most workflows, including Schedule, Webhook, HTTP Request, Edit Fields, IF, Switch, Code and the AI nodes. The table lists each with its purpose.
-
-</details>
+## 🧰 Reference: the nodes you'll use every day
 
 | Node | Use it to… |
 |---|---|
-| **Schedule Trigger** | Run every morning, hour or Friday |
-| **Webhook** | Receive data from anywhere ([Webhooks, APIs & JSON](46-webhooks-apis-json.md)) |
-| **Chat Trigger** | Get a hosted chat page for your AI workflow |
-| **Form Trigger** | Build a quick web form that starts a workflow |
-| **HTTP Request** | Call any API |
+| **Schedule Trigger** | Run every morning, every hour or every Friday |
+| **Webhook** | Receive data from any app or script ([Webhooks, APIs & JSON](46-webhooks-apis-json.md)) |
+| **On form submission / On chat message** | Get a hosted form or chat page, like in this chapter |
+| **HTTP Request** | Call any web API |
 | **Edit Fields (Set)** | Create, rename or reshape fields |
-| **If / Switch / Filter** | Route and filter items |
-| **Merge** | Combine data from two branches |
-| **Loop Over Items** | Process in batches (great with rate limits) |
-| **Aggregate / Split Out** | Combine many items into one, or split one into many |
-| **Code** | JavaScript or Python when nothing else fits |
-| **Wait** | Pause (for rate limits, or until a time) |
-| **Basic LLM Chain / AI Agent** | Add AI thinking ([n8n AI Agents](48-n8n-ai-agents.md)) |
-| **Gmail / Slack / Notion / Sheets / Telegram…** | Talk to apps |
-| **Execute Workflow** | Call a sub-workflow (reusable building blocks) |
+| **If / Switch / Filter** | Send items down different paths |
+| **Merge / Aggregate / Split Out** | Combine or split items |
+| **Loop Over Items + Wait** | Work in batches and respect rate limits |
+| **Code** | JavaScript or Python when nothing else fits (ask an AI to write it) |
+| **Basic LLM Chain / AI Agent** | Add AI ([n8n AI Agents](48-n8n-ai-agents.md)) |
+| **Gmail, Slack, Notion, Sheets, Telegram…** | Talk to hundreds of apps |
 
-## 🤖 Your first AI workflow (15 minutes)
+**Items, in one paragraph.** Data moves between nodes as a list of **items** (rows), and most nodes run once per item.
+If a Slack node sends ten messages instead of one, it received ten items. Put an **Aggregate** node before it to combine
+them.
 
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
+## 🏗️ Reference: running n8n for real
 
-This workflow summarizes new emails and alerts you to urgent ones.
+- **Error workflow:** build a workflow that starts with **Error Trigger** and alerts you, then pick it under
+  **⋯ → Settings → Error Workflow** in every important workflow.
+  ([Part XIV's build-along](../part-14-n8n-and-notion/127-build-along-ai-command-center.md) shows this step by step.)
+- **Retries:** in a node's **Settings** tab, turn on **Retry On Fail** for flaky APIs.
+- **Pin data:** pin a node's output (the pin icon in the OUTPUT panel) to rebuild later steps without re-triggering.
+- **Sharing a form or webhook with the world:** a `localhost` address only works on your computer. Use n8n Cloud, or put
+  self-hosted n8n behind HTTPS (a tunnel such as Cloudflare Tunnel, or a reverse proxy like Caddy) and set the
+  `WEBHOOK_URL` environment variable to that address.
+- **Backups:** back up the `n8n_data` volume **and** the encryption key. Export important workflows as JSON
+  (**⋯ → Export JSON**) into Git.
+- **Updates:** read the release notes, back up, then update. Pin versions for instances you rely on.
 
-1. Add a **Gmail Trigger** for new messages.
-2. Add an AI node that returns a summary and an urgency rating as JSON.
-3. Add an **IF** node that checks the urgency.
-4. Send urgent messages to your phone or Slack.
-
-</details>
-
-**Goal:** when a new email arrives, Claude summarizes it and flags urgency, and urgent ones ping you.
-
-1. **Trigger:** add **Gmail Trigger** → "Message Received." Connect your Google account.
-2. **AI step:** add **Basic LLM Chain** and attach an **Anthropic Chat Model** sub-node (add your API key). Prompt:
-   ```text
-   Summarize this email in 2 sentences, then on a new line write URGENT or NORMAL.
-   From: {{ $json.from }}
-   Subject: {{ $json.subject }}
-   Body: {{ $json.snippet }}
-   ```
-3. **Route:** add an **If** node: `{{ $json.text }}` *contains* `URGENT`.
-4. **Act:** on the true branch, add **Slack** or **Telegram** → send message with the summary.
-5. Click **Test workflow**, send yourself an email, and watch it flow. Then toggle **Active**. ✅
-
-Want it pre-built? Import the [example workflows](../../examples/n8n-workflows/).
-
-## 🧑‍💻 Code nodes for superpowers
-
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-Code nodes run JavaScript or Python for anything the built-in nodes can't do. If you're not comfortable writing code, ask an AI assistant to write the node for you, describing the input and the output you need.
-
-</details>
-
-Code nodes run **JavaScript or Python** (isolated in task runners in n8n 2.x). Handy snippets:
-
-```js
-// Run Once for All Items: merge everything into one summary input
-const text = $input.all().map(i => `- ${i.json.title}`).join('\n');
-return [{ json: { text } }];
-```
-
-```js
-// Run Once for Each Item: clean up and add a field
-return { json: { ...$json, email: $json.email.toLowerCase().trim(), processedAt: new Date().toISOString() } };
-```
-
-Can't write the code? Ask Claude: *"Write an n8n Code node (run once for all items) that groups items by `category` and
-counts them."* It's great at this.
-
-## 🔐 Credentials & secrets
-
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-Store API keys and passwords in n8n's **Credentials**, never typed directly into nodes. Use a separate key for each project so you can track and cap spending.
-
-</details>
-
-- Store keys in **Credentials**, never hard-coded in Code nodes or HTTP headers typed by hand.
-- Use **separate API keys** per project so you can see (and cap) spending.
-- In n8n 2.x, **environment variable access from workflows is restricted by default**, which is a good safety default.
-- Back up the **encryption key** (in the n8n data folder), because credentials can't be decrypted without it.
-
-## 🛡️ Error handling & reliability
-
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-Plan for failures: set retries on nodes that call external services, create an error workflow that alerts you when something fails, and add fallbacks for important steps. The table explains each technique.
-
-</details>
-
-| Technique | How |
-|---|---|
-| **Error workflow** | Create a workflow starting with **Error Trigger** → Slack or email alert, then set it as the error workflow in each workflow's settings |
-| **Retries** | Node settings → *Retry On Fail* (with waits) for flaky APIs |
-| **Continue on fail** | Let one bad item fail without stopping the whole batch, then route errors separately |
-| **Pin data** | Pin a node's output to reuse sample data while building, with no re-triggering |
-| **Sub-workflows** | Split big flows with **Execute Workflow** to keep them readable and reusable |
-| **Rate limits** | **Loop Over Items** (batches) + **Wait** nodes |
-| **Idempotency** | Store processed IDs (Data Table, Sheet or DB) so reruns don't duplicate work |
-
-## 🏗️ Running n8n like a pro
-
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-When you start relying on n8n, run it like a production service: schedule backups (including the encryption key), update carefully after reading release notes, use HTTPS, and keep copies of your workflows in Git.
-
-</details>
-
-- **Backups:** the data volume (or database) plus the encryption key, on a schedule.
-- **Updates:** read release notes, back up first, then update the image. Pin versions for important instances.
-- **Public webhooks:** put n8n behind HTTPS (a reverse proxy like Caddy, or a tunnel such as Cloudflare Tunnel) and set
-  `WEBHOOK_URL` so webhook URLs are correct.
-- **Scale:** for heavy loads, n8n supports **queue mode** (Redis + worker processes) and Postgres instead of SQLite.
-- **Version control:** export workflows as JSON into Git (like this repo's [examples](../../examples/n8n-workflows/)).
-- **Templates:** n8n's template library has thousands of workflows to import and remix.
-
-## 🧱 10 n8n builds to try
-
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-The table lists ten practice workflows, from beginner to advanced, several of which can be imported directly.
-
-</details>
+## 🧱 10 n8n builds to try next
 
 | # | Build | Level |
 |---|---|---|
 | 1 | 📰 Morning digest ([importable](../../examples/n8n-workflows/morning-ai-digest.json)) | 🟢 |
 | 2 | 💡 Idea inbox → Notion ([importable](../../examples/n8n-workflows/idea-inbox-to-notion.json)) | 🟢 |
-| 3 | 🧾 Receipt photos (Telegram) → vision model extracts → Google Sheets | 🟡 |
-| 4 | 📧 Email triage with approval before replies | 🟡 |
-| 5 | 🎙️ Voice memo → Whisper transcription → tasks + journal entry | 🟡 |
-| 6 | 🔍 Lead enrichment: form → web research agent → CRM | 🟡 |
-| 7 | 📚 Drive RAG bot in Slack ([n8n AI Agents](48-n8n-ai-agents.md)) | 🔴 |
+| 3 | 📧 Email summarizer: Gmail Trigger → Basic LLM Chain → Telegram | 🟢 |
+| 4 | 🧾 Receipt photos (Telegram) → vision model extracts → Google Sheets | 🟡 |
+| 5 | 📧 Email triage with your approval before replies | 🟡 |
+| 6 | 🎙️ Voice memo → transcription → tasks and journal entry | 🟡 |
+| 7 | 🔍 Lead enrichment: form → web research agent → CRM | 🟡 |
 | 8 | 🎥 YouTube channel monitor → transcript summary → Notion | 🟡 |
-| 9 | 🏷️ Support ticket classifier + suggested answers | 🟡 |
-| 10 | 🗓️ Friday weekly review from calendar, tasks and GitHub | 🟡 |
+| 9 | 🗓️ Friday weekly review from calendar, tasks and GitHub | 🟡 |
+| 10 | 🏗️ A full AI command center in Notion ([build-along](../part-14-n8n-and-notion/127-build-along-ai-command-center.md)) | 🔴 |
 
 > [!TIP]
-> **🔗 Going deeper: n8n + Notion**
-> n8n pairs especially well with Notion as its control panel and source of truth. [Part XIV · n8n & Notion: The Power
-> Stack](../part-14-n8n-and-notion/index.md) covers the complete integration, Notion buttons that run workflows, AI agents
-> across both tools, 40 ready-made recipes and a full build-along.
-
-## 🎯 Key takeaways
-
-- n8n = **nodes** passing **items**, where most nodes run **once per item**.
-- **Expressions** (`{{ $json.field }}`) pull data from anywhere, so drag and drop to write them.
-- ~15 core nodes cover most workflows, and the **Code** node covers the rest (let AI write it).
-- Make it reliable with **error workflows, retries, pinned data, idempotency** and **backups**.
-- Self-hosting = unlimited, private experimentation. 🎉
-
-## 🧠 Check yourself
-
-<details class="quiz">
-<summary>❓ 1. Your Slack node sent 10 messages instead of 1. Why?</summary>
-
-It received **10 items**, and most nodes run **once per item**. Use **Aggregate** (or a Code node that runs once for all
-items) to combine them first.
-
-</details>
-
-<details class="quiz">
-<summary>❓ 2. Where should API keys live in n8n?</summary>
-
-In **Credentials** (encrypted), not typed into Code nodes or headers.
-
-</details>
-
-<details class="quiz">
-<summary>❓ 3. How do you avoid re-triggering real emails while building?</summary>
-
-**Pin data** on the trigger node and build against the pinned sample.
-
-</details>
-
-> [!TIP]
-> **🎮 Try this**
-> Build the **email summarizer** above, then connect it to **Telegram** (Telegram Trigger + Telegram send node) so urgent
-> summaries arrive on your phone. You'll have built a real personal assistant feature on your own machine. 🤯
+> **🎮 Try this next**
+> Duplicate your workflow (**⋯ → Duplicate**), swap the form trigger for a **Gmail Trigger**, and send the summary to
+> yourself on **Telegram**. You'll have an email summarizer in under 15 minutes.
 
 ---
 

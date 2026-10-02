@@ -32,17 +32,6 @@ This chapter is a one-week challenge: seven practical projects, one per day, eac
 
 ## 🍽️ Day 1: A week of meals and a shopping list
 
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-**Skill: giving context and constraints.**
-
-1. Describe your household, preferences, dietary needs and budget.
-2. Ask for five dinners and a combined shopping list.
-3. Refine with follow-ups, such as swapping a meal or sorting the list by store section.
-
-</details>
-
 **Time:** 20 minutes · **Skill:** giving context and constraints
 
 1. Tell the AI about your household:
@@ -59,17 +48,6 @@ This chapter is a one-week challenge: seven practical projects, one per day, eac
 
 ## 📬 Day 2: Tame a tricky message
 
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-**Skill: steering tone with follow-ups.**
-
-1. Choose a message you've been putting off, such as a complaint or a polite refusal.
-2. Explain the situation and the outcome you want.
-3. Adjust the tone and length until it sounds right, then edit it into your own words.
-
-</details>
-
 **Time:** 20 minutes · **Skill:** steering tone with follow-ups
 
 Think of a message you've been putting off: a complaint, a request, saying no, an apology, chasing money someone owes.
@@ -84,17 +62,6 @@ Think of a message you've been putting off: a complaint, a request, saying no, a
 **What you learned:** the first draft is a starting point; steering gets you exactly the right words.
 
 ## 🧾 Day 3: Decode a confusing document
-
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-**Skill: uploading files and asking precise questions.**
-
-1. Choose a confusing document, such as a bill or insurance letter, and remove private numbers.
-2. Upload it or paste the text.
-3. Ask for a plain-language summary and any actions or deadlines you need to know about.
-
-</details>
 
 **Time:** 20 minutes · **Skill:** uploading files and asking precise questions
 
@@ -113,17 +80,6 @@ accuracy.
 
 ## 🎓 Day 4: Learn something in 20 minutes
 
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-**Skill: using AI as a tutor.**
-
-1. Choose a topic you've always wanted to understand.
-2. Ask the AI to teach the basics step by step, checking your understanding as it goes.
-3. Finish by asking it to quiz you.
-
-</details>
-
 **Time:** 20 minutes · **Skill:** using AI as a tutor
 
 Pick something you've always wondered about: how the stock market works, why we have time zones, how to read music, the
@@ -139,17 +95,6 @@ basics of a language.
 
 ## 🗺️ Day 5: Plan an outing
 
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-**Skill: planning with web search and fact-checking.**
-
-1. Ask for a day-trip plan with your location, interests and constraints.
-2. Make sure web search is on so it uses current information.
-3. Verify opening times, prices and travel details on official websites.
-
-</details>
-
 **Time:** 30 minutes · **Skill:** planning with web search and fact-checking
 
 1. > *"Plan a [Saturday day trip] from [Manchester] for [2 adults and a dog]. We like [countryside walks and a good
@@ -163,13 +108,6 @@ basics of a language.
 ([When AI Gets It Wrong](10-when-ai-gets-it-wrong.md)).
 
 ## 🎨 Day 6: Make something creative
-
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-**Skill: voice and image creation.** Create something personal, such as a birthday card with a custom poem and image, or a bedtime story co-written through voice mode.
-
-</details>
 
 **Time:** 30 minutes · **Skill:** voice and image creation
 
@@ -186,17 +124,6 @@ Choose one:
 ([chapter 9](09-voice-photos-and-files.md)).
 
 ## 🤖 Day 7: Build your own helper
-
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-**Skill: custom instructions and reusable assistants.**
-
-1. Choose a task you do often.
-2. Create a reusable helper (a Project, Gem or similar; see the table).
-3. Write clear instructions once, then use it whenever the task comes up.
-
-</details>
 
 **Time:** 30 minutes · **Skill:** custom instructions and reusable assistants
 
@@ -228,13 +155,6 @@ Other ideas: a **homework helper** that never gives answers, only hints; a **wor
 beginner territory! 🎉
 
 ## 🥳 You did it!
-
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-After seven missions you've practiced every core beginner skill: context, follow-ups, documents, tutoring, research, creative tools and reusable assistants. Using them regularly will turn them into habits.
-
-</details>
 
 Seven days, seven real wins, and every core beginner skill:
 

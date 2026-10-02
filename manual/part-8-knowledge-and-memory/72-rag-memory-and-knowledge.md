@@ -1,6 +1,6 @@
 # 72 · RAG, Memory & Knowledge: Make AI Know *Your* Stuff 🧠📚
 
-> ⏱️ 8 min read · 🎯 Everyone · 🧰 Needs: nothing to start (a Claude/ChatGPT Project or Gemini Notebook (NotebookLM) for the hands-on bits)
+> ⏱️ 7 min read · 🎯 Everyone · 🧰 Needs: nothing to start (a Claude/ChatGPT Project or Gemini Notebook (NotebookLM) for the hands-on bits)
 
 **AI knows the internet, but it doesn't know your notes, your company docs, or what you told it last Tuesday.** This chapter
 is the map of every way to fix that, from "drag a file into the chat" to "build your own retrieval system." You'll learn
@@ -23,13 +23,6 @@ AI models know a great deal about the world but nothing about your own documents
 
 ## 🪜 The knowledge ladder
 
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-There are six ways to give AI your knowledge, from pasting files into a chat to building a custom RAG system. Most people only need the simpler options. The table compares effort and best uses.
-
-</details>
-
 | Rung | How | Effort | Best for |
 |---|---|---|---|
 | 1️⃣ **Paste it in** | Drop files into the chat | 🟢 None | One-off questions. Modern context windows are huge! |
@@ -46,13 +39,6 @@ There are six ways to give AI your knowledge, from pasting files into a chat to 
 
 ## 📏 Context windows: the "just paste it" superpower
 
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-Modern context windows can hold entire books, so for a handful of documents you can often paste or upload everything directly, with no special setup.
-
-</details>
-
 The **context window** is how much text the model can consider at once ([How Models Really Work](../part-3-foundations/33-how-models-really-work.md)).
 Today's frontier models handle hundreds of thousands of tokens, sometimes a million or more: several novels' worth.
 
@@ -67,13 +53,6 @@ Today's frontier models handle hundreds of thousands of tokens, sometimes a mill
 huge context. When a context is stuffed with irrelevant material, answers get worse ([Context Engineering](../part-3-foundations/36-context-engineering.md)).
 
 ## 🔍 How RAG actually works (in 60 seconds)
-
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-RAG has two phases. **Indexing:** documents are split into chunks, converted into embeddings and stored in a vector database. **Retrieval:** when a question arrives, the system finds the most relevant chunks and gives them to the model, which answers based on them.
-
-</details>
 
 **RAG = Retrieval-Augmented Generation.** Instead of stuffing *everything* into the prompt, you fetch only the relevant bits.
 
@@ -102,13 +81,6 @@ close. 🚗
 
 ## 🧬 RAG flavors: from simple to agentic
 
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-RAG comes in several forms, from basic similarity search to hybrid search (keywords plus meaning), reranking for better precision, and agentic RAG, where the model searches repeatedly until it has enough information. The table explains when to use each.
-
-</details>
-
 | Flavor | What's different | Use when |
 |---|---|---|
 | **Naive RAG** | Embed → top-k → answer | Getting started, small collections |
@@ -124,13 +96,6 @@ Coding agents like Claude Code are a great example of **agentic retrieval**: the
 
 ## 🧠 Memory: making AI remember *you*
 
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-Memory stores facts about you, such as preferences and current projects, for use in later conversations. Claude, ChatGPT and Gemini all offer built-in memory you can view, edit and delete. The table compares memory types and controls.
-
-</details>
-
 | Memory type | Examples | You control it by… |
 |---|---|---|
 | **Built-in chat memory** | Claude, ChatGPT and Gemini remember preferences and past chats | Settings → Memory: view, edit, delete, or turn off. Use incognito/temporary chats |
@@ -144,13 +109,6 @@ Memory stores facts about you, such as preferences and current projects, for use
 > "second brain" that **both you and your AI** can use ([Personal Knowledge Management](77-personal-knowledge-management.md)).
 
 ## 🧭 Which approach should you use?
-
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-Use the flowchart and table to choose the right approach for your situation, from studying a few PDFs to searching a large company knowledge base.
-
-</details>
 
 ```mermaid
 flowchart TD
@@ -172,13 +130,6 @@ flowchart TD
 
 ## 🔐 Privacy & knowledge
 
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-Uploaded documents are subject to your plan's data policy. Check where your files go, use work plans with stronger protections for business data, and keep highly sensitive documents on local models.
-
-</details>
-
 - **Check where documents go:** uploaded files follow your plan's data policy. Work plans usually have stricter protections
   ([Privacy & Your Data](../part-12-mastery/104-privacy-and-your-data.md)).
 - **Permissions carry over:** connectors should respect who can see what. Test with a teammate's account before rolling out
@@ -189,13 +140,6 @@ Uploaded documents are subject to your plan's data policy. Check where your file
   unless a human approves actions.
 
 ## 🎮 Fun projects
-
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-The table lists eight projects for giving AI your knowledge, each labeled with the ladder rung it uses.
-
-</details>
 
 | # | Project | Rung |
 |---|---|---|

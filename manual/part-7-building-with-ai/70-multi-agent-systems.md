@@ -1,6 +1,6 @@
 # 70 · Multi-Agent Systems: Teams of AIs 👥🤖
 
-> ⏱️ 8 min read · 🎯 Intermediate → advanced · 🧰 Needs: Claude Code (easiest), or n8n, or a framework from the [Agent Frameworks Tour](69-agent-frameworks-tour.md)
+> ⏱️ 6 min read · 🎯 Intermediate → advanced · 🧰 Needs: Claude Code (easiest), or n8n, or a framework from the [Agent Frameworks Tour](69-agent-frameworks-tour.md)
 
 **One agent is useful. Several agents that divide the work can take on much bigger jobs:** deep research across dozens of
 sources, big codebases, content pipelines, and "build it and then check it" loops. This chapter explains when multi-agent
@@ -21,13 +21,6 @@ A multi-agent system divides a large task among several AI agents, each with a f
 
 ## 🤔 Why multiple agents?
 
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-Multiple agents help in three main ways: each keeps a focused context, several can work in parallel, and one can review another's output. The table explains each benefit.
-
-</details>
-
 | Benefit | Explanation |
 |---|---|
 | 🧠 **Clean context** | Each agent keeps only what it needs, and subagents return summaries instead of raw dumps |
@@ -42,13 +35,6 @@ Multiple agents help in three main ways: each keeps a focused context, several c
 > is genuinely struggling** with context size, breadth or quality.
 
 ## 🎯 Pattern 1: Orchestrator → workers
-
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-In the orchestrator-workers pattern, a lead agent breaks the task into parts, assigns them to worker agents (often in parallel) and combines their summaries. This is how most deep research features work.
-
-</details>
 
 ```mermaid
 flowchart TB
@@ -68,13 +54,6 @@ The lead agent breaks the task down, spawns workers (often **in parallel**), and
 
 ## 🏭 Pattern 2: Pipeline (assembly line)
 
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-In a pipeline, each agent performs one stage and passes its output to the next. Pipelines are predictable and easy to debug, and many are better built as ordinary workflows in n8n or Make with AI at specific steps.
-
-</details>
-
 ```mermaid
 flowchart LR
     R[🔎 Researcher] --> W[✍️ Writer] --> E[🧐 Editor] --> D[🎨 Designer]
@@ -84,13 +63,6 @@ Each agent transforms the previous one's output. Predictable and easy to debug. 
 (n8n or Make) with AI steps, and that's a good thing!
 
 ## 🔁 Pattern 3: Builder ↔ critic loop
-
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-In the builder-critic pattern, one agent produces work and another evaluates it against explicit criteria. They repeat until the work passes, with a maximum number of rounds to prevent endless loops.
-
-</details>
 
 ```mermaid
 flowchart LR
@@ -104,49 +76,21 @@ limit!). Great for writing quality, code review, and "keep going until the tests
 
 ## ⚖️ Pattern 4: Debate & ensemble
 
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-In the debate or ensemble pattern, several agents or models answer independently and a judge selects or combines the best answer. It's useful for high-stakes decisions and for catching hallucinations.
-
-</details>
-
 Several agents (or different models) answer independently, then a judge picks or merges. Useful for **high-stakes decisions**
 and for catching hallucinations: if three independent answers disagree, that's a signal to dig deeper.
 
 ## 📞 Pattern 5: Handoffs (routing)
-
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-In the handoff pattern, a front-desk agent routes each request to the right specialist, such as billing, technical support or sales. It's common in customer service and built into several frameworks.
-
-</details>
 
 A front-desk agent routes each conversation to specialists (billing, tech support, sales). Common in customer-service bots,
 and a built-in feature of the OpenAI Agents SDK and similar frameworks.
 
 ## 🧑‍🤝‍🧑 Pattern 6: Parallel variants ("best of N")
 
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-In the best-of-N pattern, the same task runs several times in parallel with different prompts, models or approaches, and you keep the best result. Coding tools make this easy with parallel sessions.
-
-</details>
-
 Run the same task several times in parallel (different prompts, models or approaches), then pick the winner. Coding tools
 make this easy: launch three cloud agents on the same issue and merge the best PR, or ask for three landing-page designs at
 once. Costs more, but for creative and hard problems it can be dramatically better.
 
 ## 🧪 Try it today (easiest → hardest)
-
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-You can try multi-agent systems without code through deep research features and Claude Code subagents, then progress to building your own with n8n or an agent framework. The table orders the options from easiest to most advanced.
-
-</details>
 
 | Level | How |
 |---|---|
@@ -159,13 +103,6 @@ You can try multi-agent systems without code through deep research features and 
 | 🔴 **Managed multi-agent platforms** | Hosted orchestration with delegation to worker agents |
 
 ## 🎬 Example: a content studio crew
-
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-This example uses four agents to produce a blog post: a researcher gathers sources, a writer drafts, a fact-checker verifies claims and a social media agent writes promotional posts. The table shows each agent's tools and instructions.
-
-</details>
 
 **Goal:** turn a topic into a researched, edited blog post with social snippets.
 
@@ -186,13 +123,6 @@ Social.
 
 ## 💻 Example: a coding team in Claude Code
 
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-In Claude Code, you can define subagents for exploring, planning, testing and reviewing, and the main session delegates to them as needed.
-
-</details>
-
 ```mermaid
 flowchart LR
     M[🧑‍✈️ Main session] -->|"explore"| E[🔍 Explorer subagent]
@@ -208,18 +138,6 @@ tests and the code-reviewer review the diff. Fix anything it flags."*
 
 ## 🧩 Design tips
 
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-Follow these design principles:
-
-1. Start with one agent, and split only where you see a specific failure.
-2. Give each agent a clear role and a defined output format.
-3. Keep reports between agents short.
-4. Set limits on rounds, steps and cost.
-
-</details>
-
 1. **Start with one agent.** Split only where you see a specific failure (context overflow, lack of focus, no self-checking).
 2. **Clear contracts between agents:** define exactly what each returns (ideally structured JSON).
 3. **Summaries, not transcripts:** workers return compact findings, not everything they read.
@@ -231,13 +149,6 @@ Follow these design principles:
 
 ## 🐛 Failure modes & fixes
 
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-Multi-agent systems have characteristic failure modes, such as duplicated work, endless back-and-forth and lost information between agents. The table describes how each looks and how to fix it.
-
-</details>
-
 | Failure | Looks like | Fix |
 |---|---|---|
 | **Duplicate work** | Two workers research the same thing | The orchestrator assigns clear, non-overlapping scopes |
@@ -248,13 +159,6 @@ Multi-agent systems have characteristic failure modes, such as duplicated work, 
 | **Conflicting edits** | Parallel coders overwrite each other | Separate worktrees/branches, or split by folder |
 
 ## 💬 The honest truth
-
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-Many effective "multi-agent systems" are actually well-designed workflows: fixed steps with AI handling the parts that need judgment. That approach is often cheaper and more reliable.
-
-</details>
 
 Many impressive "multi-agent systems" are really **well-designed workflows**. That's great! Deterministic structure plus AI
 at the fuzzy steps is often more reliable than agents chatting freely. Use autonomy where it adds value, and structure

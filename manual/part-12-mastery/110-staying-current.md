@@ -1,6 +1,6 @@
 # 110 · Staying Current Without Drowning 🌊📰
 
-> ⏱️ 6 min read · 🎯 Everyone who wants to keep up without burning out · 🧰 Needs: a newsletter or two, a calendar, optionally the Morning AI Digest workflow
+> ⏱️ 5 min read · 🎯 Everyone who wants to keep up without burning out · 🧰 Needs: a newsletter or two, a calendar, optionally the Morning AI Digest workflow
 
 **AI moves at a ridiculous pace. New models, tools and features launch every week, and some tools vanish just as fast.** You
 don't need to follow everything (nobody can!). You need a **light, reliable system** that surfaces what matters and keeps you
@@ -23,13 +23,6 @@ AI moves quickly, and trying to follow everything leads to overwhelm. A sustaina
 
 ## 🥗 The sustainable AI diet
 
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-A sustainable routine has three rhythms: five minutes of news daily, one hands-on experiment weekly and a longer learning session monthly. The table describes each.
-
-</details>
-
 | Frequency | Time | What |
 |---|---|---|
 | **Daily** | 5 min | Skim one AI newsletter or your automated digest |
@@ -43,13 +36,6 @@ A sustainable routine has three rhythms: five minutes of news daily, one hands-o
 
 ## 📬 Newsletters & blogs
 
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-A few reliable newsletters and blogs explain AI developments clearly. Choose one or two rather than subscribing to all of them; the table describes each source.
-
-</details>
-
 | Source | Why |
 |---|---|
 | **Simon Willison's Weblog** | Thoughtful, hands-on, honest. A treasure for builders |
@@ -61,13 +47,6 @@ A few reliable newsletters and blogs explain AI developments clearly. Choose one
 | **Changelogs** of the tools you use | Features you're already paying for! |
 
 ## 🎧 Podcasts & YouTube
-
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-Podcasts and YouTube channels are convenient for learning while walking, commuting or relaxing. The table describes the style of each.
-
-</details>
 
 | Show / channel | Vibe |
 |---|---|
@@ -85,13 +64,6 @@ Podcasts and YouTube channels are convenient for learning while walking, commuti
 
 ## 🎓 Courses & learning paths
 
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-Free courses and documentation from Anthropic, OpenAI, Google, DeepLearning.AI, Hugging Face and others teach AI skills step by step. The table shows what each is best for.
-
-</details>
-
 | Resource | Good for |
 |---|---|
 | **Anthropic's courses & docs** (prompting, tool use, MCP, Claude Code) | Building with Claude |
@@ -104,13 +76,6 @@ Free courses and documentation from Anthropic, OpenAI, Google, DeepLearning.AI, 
 
 ## 👥 Communities
 
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-Online and local communities, such as subreddits, Discord servers and meetups, are good places to ask questions, share projects and learn from others. The table lists options by topic.
-
-</details>
-
 | Community | Topic |
 |---|---|
 | **r/LocalLLaMA** | Local and open models (hugely knowledgeable) |
@@ -122,13 +87,6 @@ Online and local communities, such as subreddits, Discord servers and meetups, a
 
 ## 🤖 Automate your own AI news feed
 
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-Import the Morning AI Digest workflow into n8n and point it at your preferred sources to receive a short daily summary of the most relevant AI news.
-
-</details>
-
 You've already got the tools! Import the [Morning AI Digest](../../examples/n8n-workflows/morning-ai-digest.json) and point it at:
 
 - The blogs above (most have RSS feeds)
@@ -139,13 +97,6 @@ Have Claude pick the top 5 **for your interests**, with a "try this today" sugge
 build: [Build-Along: Automated Newsletter](../part-13-build-alongs/118-build-along-automated-newsletter.md).)
 
 ## 🧭 Filtering the hype
-
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-Before getting excited about an announcement, ask whether you can try it today, whether it solves a problem you actually have, whether it's better than what you use now and what it costs.
-
-</details>
 
 Ask of any announcement:
 
@@ -160,13 +111,6 @@ Ask of any announcement:
 > Anything truly important will still be important next month, with better docs and fewer bugs. 😌
 
 ## 🌱 Keep a learning log
-
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-Record what you try each week, what you learned and whether you'll keep using it. After a few months, the log shows how much your skills have grown.
-
-</details>
 
 A simple note or spreadsheet:
 

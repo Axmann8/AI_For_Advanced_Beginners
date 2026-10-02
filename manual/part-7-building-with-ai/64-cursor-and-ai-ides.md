@@ -1,6 +1,6 @@
 # 64 · Cursor & AI IDEs: Coding Side by Side with AI 🖱️✨
 
-> ⏱️ 9 min read · 🎯 Beginner → intermediate · 🧰 Needs: a computer, and one of Cursor, VS Code + Copilot, Windsurf, Zed or JetBrains
+> ⏱️ 8 min read · 🎯 Beginner → intermediate · 🧰 Needs: a computer, and one of Cursor, VS Code + Copilot, Windsurf, Zed or JetBrains
 
 **An AI IDE is a code editor with an AI co-pilot built in.** You see every file, every change and every suggestion as it
 happens, which makes AI IDEs wonderful for learning *and* for precise work. This chapter tours the big editors, teaches the
@@ -23,13 +23,6 @@ An IDE (integrated development environment) is the application where code is wri
 
 ## 🧭 The AI IDE landscape
 
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-Most AI code editors are based on VS Code, so skills transfer between them. The table compares Cursor, VS Code with Copilot, Windsurf, Zed, JetBrains and others.
-
-</details>
-
 | Editor | What makes it special | Price vibe |
 |---|---|---|
 | **Cursor** | The most popular AI-first editor (a VS Code fork): excellent Tab predictions, agent mode, its own fast Composer models, cloud background agents, Bugbot PR reviews | Free tier + paid plans |
@@ -47,13 +40,6 @@ Most AI code editors are based on VS Code, so skills transfer between them. The 
 
 ## 🎚️ The four ways to work with AI in an editor
 
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-AI editors offer four levels of help: **autocomplete** finishes code as you type, **inline edit** changes a highlighted section, **chat** answers questions about your code, and **agent mode** completes multi-file tasks on its own. The table shows when to use each.
-
-</details>
-
 ```mermaid
 flowchart LR
     T[⌨️ Tab<br/>autocomplete] --> I[✏️ Inline edit<br/>fix this bit] --> C[💬 Chat / Ask<br/>questions] --> A[🤖 Agent<br/>whole tasks]
@@ -69,13 +55,6 @@ flowchart LR
 **Beginner path:** start in **Ask** mode to understand your project, use **Agent** to build, and use **inline edit** to polish.
 
 ## 🖱️ Cursor tour
-
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-Cursor is a VS Code-based editor with AI throughout: Tab predicts your next edit, inline edit changes selected code, the agent panel handles multi-file tasks, and background agents work in the cloud. The table explains each feature.
-
-</details>
 
 | Feature | How to use it |
 |---|---|
@@ -107,13 +86,6 @@ Rules with `globs` load automatically when you work on matching files. `alwaysAp
 
 ## 🟦 VS Code + GitHub Copilot tour
 
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-VS Code is a free, widely used editor, and GitHub Copilot adds AI completions, chat, an agent mode and a cloud coding agent that can turn a GitHub issue into a pull request.
-
-</details>
-
 | Feature | How to use it |
 |---|---|
 | **Completions + next edit suggestions** | Suggestions as you type, and predictions of your next change |
@@ -138,13 +110,6 @@ VS Code is a free, widely used editor, and GitHub Copilot adds AI completions, c
 
 ## 🌊 Windsurf, Zed, JetBrains & friends
 
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-Other editors offer their own strengths: Windsurf has project memories, Zed is exceptionally fast, and JetBrains IDEs serve professional Java, Python and other language developers. Try a couple and keep the one you prefer.
-
-</details>
-
 | Editor | Highlights | Try this first |
 |---|---|---|
 | **Windsurf** | Cascade agent, **memories** that learn your project, rules files, previews | *"Build a landing page and show me a live preview."* |
@@ -154,13 +119,6 @@ Other editors offer their own strengths: Windsurf has project memories, Zed is e
 | **Codespaces / cloud IDEs** | A full editor in your browser | Code from a Chromebook or tablet |
 
 ## 📜 Rules & memory files everywhere
-
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-Every AI editor supports an instructions file for project rules. The file name differs by tool (`CLAUDE.md`, `AGENTS.md`, `.cursor/rules`, and others), but the purpose is the same. The table lists each.
-
-</details>
 
 | Tool | Instructions file |
 |---|---|
@@ -186,13 +144,6 @@ Every AI editor supports an instructions file for project rules. The file name d
 
 ## 🔌 MCP inside your editor
 
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-MCP servers work in every major editor, giving the AI extra tools such as browser automation for testing, database access and documentation lookup. The table lists the most useful servers for coding.
-
-</details>
-
 The same MCP servers work in every major editor ([MCP Explained](../part-4-mcp-and-connectors/38-mcp-explained.md)). Top picks
 for coding:
 
@@ -206,13 +157,6 @@ for coding:
 | **Figma** | Turn designs into code with real measurements |
 
 ## 🤖 Background & cloud agents
-
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-Background agents work in a cloud sandbox on their own branch while you continue working, then deliver a pull request or set of changes for you to review. The table compares the options in different tools.
-
-</details>
 
 **Background agents** run in a cloud sandbox on their own Git branch while you keep working (or sleep). You get a pull
 request or a diff to review.
@@ -230,13 +174,6 @@ request or a diff to review.
 
 ## ⚖️ IDE vs. terminal agent: which when?
 
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-Use an IDE when you want to see and edit the code directly; use a terminal agent like Claude Code to hand off a complete task. Many developers use both. The table matches common situations to the better choice.
-
-</details>
-
 | Situation | Reach for |
 |---|---|
 | Learning to read code | 🖱️ IDE (Ask mode + seeing files) |
@@ -248,13 +185,6 @@ Use an IDE when you want to see and edit the code directly; use a terminal agent
 | "Best of both" | Claude Code **inside** your IDE's terminal or extension, with diffs in the editor |
 
 ## 💎 Pro tips for AI IDEs
-
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-These habits make AI editors more effective: reference exact files with `@`, start a new chat for each task, review every change, and keep rules files up to date.
-
-</details>
 
 1. **Add exact context with `@`:** the right files beat a long explanation.
 2. **Start new chats for new tasks.** Long chats get confused (same as any AI).

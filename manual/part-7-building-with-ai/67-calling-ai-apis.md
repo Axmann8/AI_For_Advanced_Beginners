@@ -1,6 +1,6 @@
 # 67 · Calling AI APIs Directly 🔑🐍
 
-> ⏱️ 9 min read · 🎯 Intermediate (copy-paste friendly, no prior coding needed) · 🧰 Needs: an API key (Anthropic, OpenAI or Google AI Studio), Python 3.10+ (or Node.js)
+> ⏱️ 7 min read · 🎯 Intermediate (copy-paste friendly, no prior coding needed) · 🧰 Needs: an API key (Anthropic, OpenAI or Google AI Studio), Python 3.10+ (or Node.js)
 
 **Chat apps are wonderful, but the API is where AI becomes a programmable ingredient.** It's how you put AI in scripts,
 spreadsheets, bots, apps and automations. This chapter gets you making real API calls in minutes, then covers the patterns
@@ -24,17 +24,6 @@ An AI API lets your own programs send requests to a model and receive responses 
 <!-- in-this-chapter -->
 
 ## 🛠️ Setup (5 minutes)
-
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-Setup takes about five minutes.
-
-1. Create an account at console.anthropic.com (or another provider), add credit and set a monthly spending limit.
-2. Create an API key, store it in an environment variable, and never put it in your code.
-3. Install the SDK for your language.
-
-</details>
 
 1. Create an account at **console.anthropic.com**, add a little credit, and **set a monthly spend limit**. 💸🛡️
 2. Create an **API key**. Treat it like a password.
@@ -60,13 +49,6 @@ Setup takes about five minutes.
 > or a `.env` file listed in `.gitignore` ([Git & GitHub](61-git-and-github.md#-secrets--safety-the-stuff-that-bites-beginners)).
 
 ## 👋 Your first call
-
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-A basic API call sends a list of messages and receives the model's reply, along with a usage record showing how many input and output tokens were used.
-
-</details>
 
 === "🐍 Python"
 
@@ -115,13 +97,6 @@ A basic API call sends a list of messages and receives the model's reply, along 
 `usage` (tokens in and out).
 
 ## 🔀 The same first call with OpenAI, Gemini & friends
-
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-Every provider's API works the same way: send messages, receive a reply. The tabs show the same first request using the OpenAI, Gemini and other SDKs.
-
-</details>
 
 Using a different provider? Here's the same octopus request in each major SDK. Get keys from **platform.openai.com**,
 **aistudio.google.com** (Gemini), **console.x.ai** or **platform.deepseek.com**, and always set a spend limit.
@@ -203,13 +178,6 @@ caching, batching) exists in all the major SDKs. Check each provider's docs for 
 
 ## 💬 Conversations & system prompts
 
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-APIs are stateless: they don't remember previous requests. To hold a conversation, your program sends the full message history each time. The **system prompt** sets standing instructions, such as the assistant's role and style.
-
-</details>
-
 **APIs are stateless:** you send the *whole* conversation each time. That's how "memory" works in every chat app.
 
 ```python
@@ -232,13 +200,6 @@ long-running bots ([Context Engineering](../part-3-foundations/36-context-engine
 
 ## 🌊 Streaming
 
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-Streaming returns the response piece by piece as it's generated, so text appears immediately instead of after the whole answer is complete. Use it for any long response shown to a user.
-
-</details>
-
 ```python
 with client.messages.stream(
     model="claude-opus-5",
@@ -253,13 +214,6 @@ with client.messages.stream(
 Use streaming for anything long: text appears immediately, users stay happy, and you avoid timeouts on big outputs.
 
 ## 📦 Structured output: data instead of prose
-
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-Structured output returns data in a defined format instead of prose. Define the fields you need (for example with a Pydantic model), and the SDK returns a validated object your program can use directly.
-
-</details>
 
 Perfect for automations. Define the shape you want, and get back a validated Python object:
 
@@ -287,13 +241,6 @@ print(event.title, event.date, event.attendees)
 ([Webhooks, APIs & JSON](../part-5-automation/46-webhooks-apis-json.md)).
 
 ## 🔧 Tool use: letting the model call your functions
-
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-Tool use lets the model call functions you define. You describe each tool; when the model needs one, it returns a tool request, your code runs the function, and you send back the result. The SDK's tool runner can handle this loop for you.
-
-</details>
 
 The SDK's **tool runner** turns plain Python functions into tools and handles the whole loop for you:
 
@@ -335,13 +282,6 @@ Want to see the loop *without* the helper? That's exactly what [Build Your Own A
 
 ## 👁️ Vision & documents
 
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-You can send images and PDFs along with text, so the model can read receipts, describe photos, extract figures from charts or analyze documents.
-
-</details>
-
 ```python
 import base64, pathlib
 
@@ -361,13 +301,6 @@ print(response.content[0].text)
 page images (charts, tables, handwriting). Combine with structured output for a receipt-to-spreadsheet pipeline. 🧾➡️📊
 
 ## 🌐 Server-side tools: search, fetch & code execution
-
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-Server-side tools, such as web search, web fetch and code execution, run on Anthropic's infrastructure. You enable them in your request without writing any tool code yourself.
-
-</details>
 
 Some tools run on Anthropic's side, so you write **zero tool code**: **web search**, **web fetch** and **code execution** (a
 sandbox where Claude runs Python to analyze data and make charts). You just declare them:
@@ -389,13 +322,6 @@ response = client.messages.create(
 **Great for:** research bots with citations, "analyze this CSV and chart it" features, and fact-checking pipelines.
 
 ## ⚡ Make it cheap & fast
-
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-Several techniques reduce cost and latency: choose the smallest model that does the job well, use prompt caching for repeated long instructions, and use the Batch API for large, non-urgent workloads. The table explains each.
-
-</details>
 
 | Lever | What it does |
 |---|---|
@@ -437,13 +363,6 @@ More in [Cost Optimization](../part-12-mastery/106-cost-optimization.md).
 
 ## 🧯 Handling errors gracefully
 
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-API calls occasionally fail because of network problems, rate limits or server load. Catch errors, retry with increasing delays for temporary failures, and show a clear message when something can't be recovered.
-
-</details>
-
 ```python
 try:
     response = client.messages.create(
@@ -469,13 +388,6 @@ Also check `response.stop_reason`:
 
 ## 🌍 Other providers & gateways
 
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-Other providers offer very similar APIs, so what you learn transfers directly. Gateways like OpenRouter let you access many models with a single key. The table compares the options.
-
-</details>
-
 | Option | Why use it |
 |---|---|
 | **OpenAI, Google Gemini, Mistral, xAI…** | Similar SDKs: messages in, text or tool calls out |
@@ -485,13 +397,6 @@ Other providers offer very similar APIs, so what you learn transfers directly. G
 | **Vercel AI SDK, LiteLLM** | One interface for many providers in your app |
 
 ## 🧱 Where API calls live in real apps
-
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-In a real application, AI API calls must run on the server, never in the user's browser, so your API key can't be exposed. Web apps use API routes or serverless functions; automations use HTTP request steps.
-
-</details>
 
 ```mermaid
 flowchart LR
@@ -506,13 +411,6 @@ flowchart LR
 - **Spreadsheets:** Apps Script or Python ([Spreadsheet Superpowers](../part-6-ai-in-your-apps/58-spreadsheet-superpowers.md)).
 
 ## 🎮 10 weekend API projects
-
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-The table lists ten small projects, each teaching one API skill, from a receipt scanner (vision and structured output) to an email responder.
-
-</details>
 
 | # | Project | Skill it teaches |
 |---|---|---|

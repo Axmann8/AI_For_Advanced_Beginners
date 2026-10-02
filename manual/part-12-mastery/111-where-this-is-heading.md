@@ -1,6 +1,6 @@
 # 111 · Where This Is All Heading 🔭✨
 
-> ⏱️ 8 min read · 🎯 Everyone who's made it this far (you legend!) · 🧰 Needs: a cup of something warm and a bit of daydreaming time
+> ⏱️ 7 min read · 🎯 Everyone who's made it this far (you legend!) · 🧰 Needs: a cup of something warm and a bit of daydreaming time
 
 **You've come a long way: foundations, MCP, automation, building, knowledge, local AI, creativity, life, and mastery. 🎉** Let's
 zoom out. Where is all this going, and what does it mean for someone like you, who's now well ahead of most people in
@@ -27,13 +27,6 @@ AI is advancing quickly. It's taking on longer tasks independently, connecting t
 
 ## 🤝 Trend 1: From chatting to delegating
 
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-AI is moving from answering questions to completing tasks: you describe an outcome, it works independently over minutes or hours, and it reports back for review.
-
-</details>
-
 The arc of this manual, **chat → connect → automate → build agents**, is also the arc of the industry. AI is moving from "answer my
 question" to "handle this for me": longer tasks, more autonomy, background work, and reporting back.
 
@@ -41,13 +34,6 @@ question" to "handle this for me": longer tasks, more autonomy, background work,
 reviewing work. (Sound familiar? It's managing, and you've been practicing it all manual long.)
 
 ## 🔌 Trend 2: Everything becomes connectable
-
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-Standards like MCP mean nearly every app can become a tool for AI, letting assistants work across all your services together.
-
-</details>
 
 MCP and similar standards mean every app is becoming a potential tool for AI, and the protocol keeps maturing (remote servers,
 better auth, richer apps inside chats). Apps with good AI connections will win; apps without them will feel like islands.
@@ -57,25 +43,11 @@ better auth, richer apps inside chats). Apps with good AI connections will win; 
 
 ## 👀 Trend 3: AI that sees, hears and acts
 
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-AI is gaining natural voice conversation, video understanding, the ability to operate any computer application and, increasingly, a role in physical robotics.
-
-</details>
-
 Voice agents that sound natural, computer-use agents that operate any app, models that understand video, interactive world
 models, and robotics research accelerating. The interface is becoming **conversation plus delegation** instead of clicking
 through menus ([Voice Agents](../part-10-creative-ai/87-voice-agents.md), [Computer Use](../part-7-building-with-ai/71-computer-use-and-browser-agents.md)).
 
 ## 🧠 Trend 4: Personal AI that knows you
-
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-Memory, connectors and personal knowledge bases are converging into assistants with rich, long-term context about your work and life. Staying in control of what they remember will be essential.
-
-</details>
 
 Memory, connectors and personal knowledge bases are converging into assistants with rich, long-term context about your projects,
 preferences and history, ideally with **you** in control of that data.
@@ -86,13 +58,6 @@ become a **compounding asset**. The better your context, the better your AI. And
 
 ## 🛠️ Trend 5: Everyone can build software
 
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-Coding agents and vibe coding are making software creation accessible to anyone, leading toward a world of personal software built for very specific needs.
-
-</details>
-
 Vibe coding and coding agents are collapsing the gap between "idea" and "working tool." We're heading toward a world of
 **personal software**: small, custom apps built for one person or one family, which were never worth building before.
 
@@ -101,13 +66,6 @@ Vibe coding and coding agents are collapsing the gap between "idea" and "working
 
 ## 💸 Trend 6: Cheaper, faster, more local
 
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-AI capability keeps getting cheaper: today's most advanced models become tomorrow's budget options and eventually run on your own devices.
-
-</details>
-
 Capability keeps getting cheaper. Today's frontier becomes tomorrow's budget tier, and eventually runs on your laptop or phone
 ([Local & Open Models](../part-9-local-ai/78-local-and-open-models.md)).
 
@@ -115,13 +73,6 @@ Capability keeps getting cheaper. Today's frontier becomes tomorrow's budget tie
 affordable. **Design for the abundance that's coming.**
 
 ## 🌍 Trend 7: AI in science, health and learning
-
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-Some of the most promising developments are in science and public good: AI accelerating protein and materials research, supporting medical diagnosis and providing personalized tutoring.
-
-</details>
 
 Some of the most hopeful developments are happening in science and public good: AI helping with protein and materials research,
 medical imaging and drug discovery, climate and weather modeling, and personalized tutoring that can reach learners anywhere.
@@ -132,13 +83,6 @@ field *and* the tools will lead.
 
 ## ⚖️ Trend 8: Trust, safety and judgment become the premium skills
 
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-As AI-generated content multiplies, judgment becomes more valuable: knowing what's true, what's good, what's safe and what's worth doing.
-
-</details>
-
 As AI output floods the world, **judgment** grows more valuable: knowing what's true, what's good, what's safe and what matters.
 So do verifying, curating, and taking responsibility. Societies are also working out the rules: transparency, safety testing,
 and protections for people ([AI Ethics for Builders](107-ai-ethics-for-builders.md)).
@@ -146,13 +90,6 @@ and protections for people ([AI Ethics for Builders](107-ai-ethics-for-builders.
 **What it means for you:** your taste, ethics and critical thinking aren't obsolete. **They're the whole game.**
 
 ## 🧰 The skills that will matter most
-
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-The table lists the skills likely to matter most, including clear communication, verification, systems thinking and ethical judgment, along with the chapters where you practiced each.
-
-</details>
 
 | Skill | Where you practiced it |
 |---|---|
@@ -166,13 +103,6 @@ The table lists the skills likely to matter most, including clear communication,
 
 ## 🗺️ Your personal roadmap from here
 
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-Choose the area of AI you enjoyed most, and use the table to find a concrete 90-day plan for going deeper.
-
-</details>
-
 | If you… | Next 90 days |
 |---|---|
 | Loved **MCP & connectors** | Build and publish your own MCP server ([Build-Along](../part-13-build-alongs/113-build-along-publish-an-mcp-server.md)). Become the "AI integrations" person in your circle |
@@ -184,13 +114,6 @@ Choose the area of AI you enjoyed most, and use the table to find a concrete 90-
 | Loved **all of it** 😄 | Teach someone else ([Teaching Others](108-teaching-others.md)). Teaching is the best way to master this |
 
 ## 💛 A few parting thoughts
-
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-You now know more about using AI effectively than most people. Stay curious, use AI responsibly, and use the time it saves you for the people and work that matter most.
-
-</details>
 
 - **You're early.** Most people still use AI as a slightly better search box. You now know how to connect it, automate with it,
   build with it and evaluate it. That's a real advantage.

@@ -21,13 +21,6 @@ Short daily practice builds skill faster than occasional long sessions. This 30-
 
 ## 🗓️ How the plan works
 
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-Each day's task takes about ten minutes. Keep a one-line log of what you tried, and don't worry about missed days.
-
-</details>
-
 - ⏱️ **About 10 minutes a day.** Some days take 5, a few take 20.
 - 🔁 **Missed a day?** No guilt. Just pick up where you left off.
 - 📝 **Keep a tiny log:** one line a day in your notes (*"Day 6: AI fixed my Wi-Fi!"*). It's motivating to look back
@@ -37,13 +30,6 @@ Each day's task takes about ten minutes. Keep a one-line log of what you tried, 
   chapter](../part-2-ai-assistants-field-guide/index.md) shows where to find it.
 
 ## 🌱 Week 1: The basics
-
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-Week 1 focuses on the basics: setting up your assistant, asking good questions and applying the prompting recipe.
-
-</details>
 
 | Day | Do this | ✅ |
 |---|---|---|
@@ -57,13 +43,6 @@ Week 1 focuses on the basics: setting up your assistant, asking good questions a
 
 ## 🌿 Week 2: Everyday habits
 
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-Week 2 builds everyday habits: meal planning, messages, photos, documents and learning.
-
-</details>
-
 | Day | Do this | ✅ |
 |---|---|---|
 | 8 | Plan the week's **meals and shopping list** | ☐ |
@@ -76,13 +55,6 @@ Week 2 builds everyday habits: meal planning, messages, photos, documents and le
 
 ## 🌳 Week 3: Level up
 
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-Week 3 expands your skills: trying a second assistant, creating images, researching with sources and using AI inside apps you already have.
-
-</details>
-
 | Day | Do this | ✅ |
 |---|---|---|
 | 15 | **Try a second assistant** with the same three prompts (the [taste test](04-choosing-your-first-assistant.md)) | ☐ |
@@ -94,13 +66,6 @@ Week 3 expands your skills: trying a second assistant, creating images, research
 | 21 | **Explore your assistant's Field Guide** chapter and try two features you didn't know about | ☐ |
 
 ## 🌲 Week 4: Advanced beginner
-
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-Week 4 moves you toward advanced use: building reusable helpers, connecting AI to your apps and choosing what to learn next.
-
-</details>
 
 | Day | Do this | ✅ |
 |---|---|---|
@@ -115,13 +80,6 @@ Week 4 moves you toward advanced use: building reusable helpers, connecting AI t
 | 30 | 🎉 **Celebrate!** Look back at your log and write down your top three wins | ☐ |
 
 ## 🧭 Where to go next
-
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-You've finished the beginner section. Use the table below to pick your next part of the manual based on your interests.
-
-</details>
 
 You've finished the beginner part of the manual. Where you go next depends on what excites you:
 
@@ -148,13 +106,6 @@ flowchart TD
 | Take on a big, fun project | [Part XIII · Build-Alongs](../part-13-build-alongs/index.md) |
 
 ## 📈 Signs you're ready for more
-
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-You're ready for the rest of the manual when you use AI most days, naturally add context and follow up, fact-check important answers, and find yourself wondering what else it can do.
-
-</details>
 
 You're an **advanced beginner** (the audience for the rest of this manual) when:
 

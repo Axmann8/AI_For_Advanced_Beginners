@@ -1,6 +1,6 @@
 # 74 · Build a RAG System, Step by Step 🏗️📚
 
-> ⏱️ 8 min read · 🎯 Intermediate (copy-paste friendly) · 🧰 Needs: Python 3.10+, the [rag-from-scratch kit](../../examples/rag-from-scratch/), optionally an Anthropic API key and n8n
+> ⏱️ 6 min read · 🎯 Intermediate (copy-paste friendly) · 🧰 Needs: Python 3.10+, the [rag-from-scratch kit](../../examples/rag-from-scratch/), optionally an Anthropic API key and n8n
 
 **In [RAG, Memory & Knowledge](72-rag-memory-and-knowledge.md) you learned *what* RAG is. Now you'll build one, four
 times, each better than the last.** First from scratch (to understand every piece), then with real embeddings and a vector
@@ -23,13 +23,6 @@ A RAG system answers questions using your own documents. It splits documents int
 
 ## 🗺️ The four stages
 
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-The chapter builds the same system four ways, each improving search quality: from scratch, with embeddings, with professional retrieval techniques, and with no code. The table compares effort and quality.
-
-</details>
-
 | Stage | What you build | Search quality | Effort |
 |---|---|---|---|
 | 1️⃣ **From scratch** | TF-IDF search + Claude answers, ~120 lines of plain Python | Matches **words** | 🟢 10 min |
@@ -38,17 +31,6 @@ The chapter builds the same system four ways, each improving search quality: fro
 | 4️⃣ **No-code** | n8n ingest + chat workflows | Meaning, with a chat URL to share | 🟡 An hour |
 
 ## 1️⃣ Stage 1: RAG from scratch
-
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-The [rag-from-scratch kit](../../examples/rag-from-scratch/) is a complete RAG system in about 120 lines of Python.
-
-1. Install the requirements and add a few Markdown notes to the notes folder.
-2. Run the search script (no API key needed) to see which chunks match a question.
-3. Add your API key and run the answer script to get a cited answer from Claude.
-
-</details>
 
 The [rag-from-scratch kit](../../examples/rag-from-scratch/) is a working RAG system in ~120 lines of plain Python. The
 search half needs **no API key and no downloads**.
@@ -88,13 +70,6 @@ Answer using ONLY the provided sources. Cite them like [1]. If the sources don't
 
 ## 2️⃣ Stage 2: Real embeddings with Chroma
 
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-Stage 2 replaces keyword matching with embeddings using Chroma, a vector database that runs inside your Python program. Searches now match meaning, so a question about an "espresso machine error" finds notes about a "coffee maker E4 code."
-
-</details>
-
 TF-IDF matches **words**. Embeddings match **meaning**. Chroma is a vector database that runs inside your Python process and
 comes with a default local embedding model:
 
@@ -125,17 +100,6 @@ Then pass `results["documents"]` into the same answering prompt as Stage 1. That
 > test that 'espresso machine error' finds the Error codes chunk."*
 
 ## 3️⃣ Stage 3: Pro retrieval
-
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-Three techniques significantly improve retrieval:
-
-1. **Hybrid search:** combine keyword (BM25) and vector search, then merge the results.
-2. **Reranking:** use a reranking model to reorder the top results by relevance.
-3. **Contextual chunks:** add a short summary of the surrounding document to each chunk before embedding it.
-
-</details>
 
 ### 🔀 Hybrid search
 
@@ -177,16 +141,6 @@ flowchart LR
 
 ## 4️⃣ Stage 4: No-code RAG in n8n
 
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-The no-code version uses two n8n workflows.
-
-1. **Ingest:** watch a Drive folder, load and split each document, create embeddings and store them in a vector database.
-2. **Query:** a chat trigger connects to an AI Agent with a vector store tool that retrieves relevant chunks.
-
-</details>
-
 ```mermaid
 flowchart LR
     subgraph Ingest
@@ -207,13 +161,6 @@ More n8n detail in [n8n AI Agents](../part-5-automation/48-n8n-ai-agents.md#-rag
 
 ## ✨ The tuning checklist
 
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-When answers are poor, the table identifies the likely cause and fix, such as retrieving more chunks, adjusting chunk size or improving the prompt.
-
-</details>
-
 | Problem | Fix |
 |---|---|
 | Answers miss obvious info | Retrieve more chunks (k), or use smaller chunks with some **overlap** |
@@ -233,17 +180,6 @@ When answers are poor, the table identifies the likely cause and fix, such as re
 
 ## 🧪 Evaluate it (seriously, 10 minutes)
 
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-Evaluate your system so you can tell whether changes help.
-
-1. Write 15–20 questions with known answers from your documents, including a few whose answers aren't in them.
-2. For each, check whether the right chunk was retrieved, whether the answer was correct, and whether it admitted when it didn't know.
-3. Re-run the set after every change.
-
-</details>
-
 Write **15–20 real questions** with known answers from your docs (include 3 whose answers **aren't** in the docs). Score:
 
 - ✅ **Retrieval hit:** was the right chunk in the top k? (The kit's `test_rag.py` does exactly this!)
@@ -255,13 +191,6 @@ Change **one thing at a time** (chunk size, k, embedding model, reranker) and re
 
 ## 🚀 Going to production
 
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-Before real users rely on the system, use this checklist: automatic re-indexing of changed documents, metadata with permissions, visible citations, monitoring and cost controls.
-
-</details>
-
 - [ ] **Ingestion pipeline** that re-embeds changed documents automatically
 - [ ] **Metadata**: source URL, title, date, permissions, embedding model name
 - [ ] **Permission filtering** at query time (never rely on the prompt to hide things)
@@ -272,13 +201,6 @@ Before real users rely on the system, use this checklist: automatic re-indexing 
 - [ ] **Injection defenses**: treat document text as data, keep the bot read-only
 
 ## 🎮 Project ideas
-
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-The table suggests six RAG projects, each labeled with the stage it requires.
-
-</details>
 
 | # | Project | Stage |
 |---|---|---|

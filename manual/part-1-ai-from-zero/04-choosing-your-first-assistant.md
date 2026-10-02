@@ -1,6 +1,6 @@
 # 04 · Choosing Your First AI Assistant 🧭
 
-> ⏱️ 8 min read · 🎯 Complete beginners · 🧰 Needs: nothing (optional: 15 minutes to "taste test" two assistants)
+> ⏱️ 7 min read · 🎯 Complete beginners · 🧰 Needs: nothing (optional: 15 minutes to "taste test" two assistants)
 
 **Choosing between ChatGPT, Gemini, Claude, Copilot, Grok and Perplexity feels huge, but here's a secret: there's no
 wrong answer.** All the big assistants are genuinely good, the free versions are plenty to start, and switching later is
@@ -22,13 +22,6 @@ All the major assistants handle everyday tasks well, but each has particular str
 
 ## ⚡ The 30-second answer
 
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-If you want a quick recommendation, start with the assistant that's built into the phone and apps you already use. The table matches common situations to a good first choice.
-
-</details>
-
 | If you… | Start with | Why |
 |---|---|---|
 | Just want the most popular, do-everything assistant | 💬 **ChatGPT** | Huge feature set, great voice mode, most tutorials online use it |
@@ -43,13 +36,6 @@ If you want a quick recommendation, start with the assistant that's built into t
 **Still unsure?** Pick ChatGPT or Gemini, the two most common, and move on. You can change your mind any time. 😊
 
 ## 🗺️ Meet the lineup
-
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-The table compares the main assistants on their free versions, standout features and limitations, so you can see the trade-offs at a glance.
-
-</details>
 
 | Assistant | Free version? | Special powers | Keep in mind |
 |---|---|---|---|
@@ -68,13 +54,6 @@ Guide](../part-2-ai-assistants-field-guide/index.md), with sign-up steps, every 
 
 ## 🧩 Find your match in four questions
 
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-Answer the four questions in the flowchart below to get a personalized starting recommendation. It's a starting point; many people end up using more than one assistant.
-
-</details>
-
 ```mermaid
 flowchart TD
     A{What phone do<br/>you use?} -->|Android| G["✨ Gemini<br/>already on your phone"]
@@ -90,13 +69,6 @@ This is a starting point, not a life sentence. Plenty of people end up using two
 jobs (see [Using Several Assistants Together](../part-2-ai-assistants-field-guide/31-using-several-assistants.md)).
 
 ## 🆓 Free is plenty to start
-
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-Free tiers are more than enough to learn and handle everyday tasks. Paid plans mainly add higher usage limits, the most capable models and advanced features, so it makes sense to upgrade only once you hit a limit that matters to you.
-
-</details>
 
 Every major assistant has a **free tier** that's more than enough for learning and everyday use. Paying typically gets
 you:
@@ -117,17 +89,6 @@ two weeks. If you keep hitting limits or wishing for a specific feature, *then* 
 > with an AI subscription bundled in. It's worth a quick search before you pay.
 
 ## 🧪 The 15-minute taste test
-
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-Running the same prompts through two or three assistants is the most reliable way to choose.
-
-1. Open two or three assistants side by side.
-2. Send each one the same three prompts below.
-3. Compare the answers for usefulness, clarity and tone, and keep the one you like best.
-
-</details>
 
 The best way to choose is to **try the same three prompts** in two or three assistants, side by side:
 
@@ -154,13 +115,6 @@ Showdowns](../part-2-ai-assistants-field-guide/30-head-to-head-showdowns.md).)
 
 ## 🔐 Trust and privacy differences
 
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-Assistants differ in how they handle your data: whether chats are used for training, how long they're stored, and where the company is based. Check the privacy settings of any assistant you plan to use regularly.
-
-</details>
-
 All the big assistants are reasonably safe for everyday use, but they differ in the details:
 
 - **Training on your chats:** many companies may use your conversations to improve their AI unless you opt out. Each
@@ -177,13 +131,6 @@ The universal rule, whichever you choose: **don't type anything you wouldn't be 
 (passwords, full card numbers, other people's private info). [Staying Safe](11-staying-safe-with-ai.md) covers the rest.
 
 ## 🤝 One favorite plus a sidekick
-
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-Most experienced users settle on one main assistant for everyday tasks and a second "specialist" for a particular strength, such as sourced research or spreadsheet work.
-
-</details>
 
 After a few weeks, most happy AI users settle into a simple setup:
 

@@ -41,7 +41,7 @@ This part takes you from never having used an AI chatbot to using one confidentl
 
     ---
 
-    <span class="card-meta">⏱️ 8 min read · 🎯 Complete beginners</span>
+    <span class="card-meta">⏱️ 7 min read · 🎯 Complete beginners</span>
 
     Artificial intelligence sounds like science fiction, but the AI you'll actually use is friendlier and more down to earth than the movies suggest.
 
@@ -49,7 +49,7 @@ This part takes you from never having used an AI chatbot to using one confidentl
 
     ---
 
-    <span class="card-meta">⏱️ 9 min read · 🎯 Complete beginners</span>
+    <span class="card-meta">⏱️ 7 min read · 🎯 Complete beginners</span>
 
     You don't need to understand engines to drive a car, but knowing a little about how chatbots work makes you dramatically better at using them.
 
@@ -65,7 +65,7 @@ This part takes you from never having used an AI chatbot to using one confidentl
 
     ---
 
-    <span class="card-meta">⏱️ 8 min read · 🎯 Complete beginners</span>
+    <span class="card-meta">⏱️ 7 min read · 🎯 Complete beginners</span>
 
     Choosing between ChatGPT, Gemini, Claude, Copilot, Grok and Perplexity feels huge, but here's a secret: there's no wrong answer.
 
@@ -73,7 +73,7 @@ This part takes you from never having used an AI chatbot to using one confidentl
 
     ---
 
-    <span class="card-meta">⏱️ 9 min read · 🎯 Complete beginners</span>
+    <span class="card-meta">⏱️ 8 min read · 🎯 Complete beginners</span>
 
     A few minutes of setup makes every future conversation better. This chapter covers where to use your assistant (phone, computer or browser), how to keep your account secure, the five settings worth checking on day one, how to tell the AI about yourself so answers fit your life, and a plain-English guide to free vs.
 
@@ -81,7 +81,7 @@ This part takes you from never having used an AI chatbot to using one confidentl
 
     ---
 
-    <span class="card-meta">⏱️ 8 min read · 🎯 Complete beginners</span>
+    <span class="card-meta">⏱️ 7 min read · 🎯 Complete beginners</span>
 
     A "prompt" is simply what you type (or say) to the AI, and the quality of your prompt shapes the quality of the answer more than anything else.
 
@@ -89,7 +89,7 @@ This part takes you from never having used an AI chatbot to using one confidentl
 
     ---
 
-    <span class="card-meta">⏱️ 8 min read · 🎯 Beginners who've had a few chats</span>
+    <span class="card-meta">⏱️ 7 min read · 🎯 Beginners who've had a few chats</span>
 
     The best AI users don't write perfect prompts. They have great conversations.
 
@@ -105,7 +105,7 @@ This part takes you from never having used an AI chatbot to using one confidentl
 
     ---
 
-    <span class="card-meta">⏱️ 8 min read + play time · 🎯 Complete beginners</span>
+    <span class="card-meta">⏱️ 7 min read + play time · 🎯 Complete beginners</span>
 
     Typing is only the beginning. Today's assistants can talk with you out loud, see through your camera, read your documents and create pictures from a sentence.
 
@@ -113,7 +113,7 @@ This part takes you from never having used an AI chatbot to using one confidentl
 
     ---
 
-    <span class="card-meta">⏱️ 7 min read · 🎯 Everyone (seriously, everyone)</span>
+    <span class="card-meta">⏱️ 6 min read · 🎯 Everyone (seriously, everyone)</span>
 
     AI is amazingly helpful, and sometimes it's confidently, fluently wrong. It can invent a book that doesn't exist, mix up dates, cite a law that isn't real, or agree with you just to be nice.
 
@@ -121,7 +121,7 @@ This part takes you from never having used an AI chatbot to using one confidentl
 
     ---
 
-    <span class="card-meta">⏱️ 9 min read · 🎯 Everyone, and especially anyone helping older relatives</span>
+    <span class="card-meta">⏱️ 7 min read · 🎯 Everyone, and especially anyone helping older relatives</span>
 
     AI is safe to use when you follow a few simple rules, and knowing about AI makes you much harder to fool.
 
@@ -129,7 +129,7 @@ This part takes you from never having used an AI chatbot to using one confidentl
 
     ---
 
-    <span class="card-meta">⏱️ 8 min read · 🎯 Complete beginners</span>
+    <span class="card-meta">⏱️ 7 min read · 🎯 Complete beginners</span>
 
     You don't always need to open a chatbot app: AI is now built into the phone in your pocket, the speaker in your kitchen, your web browser, your car and even glasses.
 
@@ -137,7 +137,7 @@ This part takes you from never having used an AI chatbot to using one confidentl
 
     ---
 
-    <span class="card-meta">⏱️ 8 min read · 🎯 Anyone with a job (or looking for one)</span>
+    <span class="card-meta">⏱️ 6 min read · 🎯 Anyone with a job (or looking for one)</span>
 
     AI can take the grind out of work: the email you've been dreading, the meeting notes nobody wrote up, the spreadsheet formula you can never remember, the report that needs to be half as long by 5pm.
 
@@ -145,7 +145,7 @@ This part takes you from never having used an AI chatbot to using one confidentl
 
     ---
 
-    <span class="card-meta">⏱️ 9 min read · 🎯 Everyone, including skeptics and worriers</span>
+    <span class="card-meta">⏱️ 8 min read · 🎯 Everyone, including skeptics and worriers</span>
 
     It's completely normal to feel excited and uneasy about AI, and every big question deserves an honest answer.
 

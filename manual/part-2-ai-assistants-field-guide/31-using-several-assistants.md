@@ -1,6 +1,6 @@
 # 31 · Using Several Assistants Together 🔀
 
-> ⏱️ 6 min read · 🎯 Anyone with more than one favorite · 🧰 Needs: two or more assistants (free tiers are fine)
+> ⏱️ 5 min read · 🎯 Anyone with more than one favorite · 🧰 Needs: two or more assistants (free tiers are fine)
 
 **You don't have to pick just one.** Plenty of savvy users keep a main assistant plus one or two specialists, pass work
 between them, and use them to double-check each other. This chapter shows you how to build your personal "AI squad,"
@@ -23,13 +23,6 @@ Many experienced users combine a main assistant with one or two specialists. Eac
 
 ## 🤝 Why use more than one?
 
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-Assistants have different strengths, such as sourced research, Google or Microsoft integration, writing or image generation. Asking two of them about something important also helps you spot mistakes.
-
-</details>
-
 - 🎯 **Strengths differ:** sources (Perplexity), Google life (Gemini), Microsoft work (Copilot), writing and documents
   (Claude), images and all-round features (ChatGPT), chats you're already in (Meta AI).
 - 🔍 **Second opinions catch errors:** when two independent assistants agree, you can be more confident; when they
@@ -38,13 +31,6 @@ Assistants have different strengths, such as sourced research, Google or Microso
 - 🧪 **Staying current:** new models land every month; trying them keeps your skills fresh.
 
 ## 🧑‍🤝‍🧑 Build your AI squad
-
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-Most people need one main assistant and one or two specialists. The table suggests combinations for students, professionals, creators and other common profiles.
-
-</details>
 
 Most people need **one main assistant + one or two specialists**. Some sample squads:
 
@@ -59,17 +45,6 @@ Most people need **one main assistant + one or two specialists**. Some sample sq
 | 🧑‍💻 **Budding builder** | Claude (Artifacts, Claude Code) or ChatGPT (Codex) | Gemini (AI Studio) and Perplexity |
 
 ## 🔀 Hand-off workflows
-
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-A hand-off workflow passes work from one assistant to the next, so each does what it's best at.
-
-1. Use a research-focused assistant to gather sourced facts.
-2. Paste the results into a writing-focused assistant to draft.
-3. Use an image tool for visuals, if needed.
-
-</details>
 
 The magic of a squad is **relay work**, where each assistant does what it's best at:
 
@@ -95,13 +70,6 @@ Check it for gaps, then write a 600-word article from it."*
 
 ## ⚖️ The "second opinion" and "judge" patterns
 
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-For a **second opinion**, ask two assistants the same question independently: agreement builds confidence, and disagreement shows you what to verify. For the **judge** pattern, ask one assistant to critique another's answer for errors and gaps.
-
-</details>
-
 - **Second opinion:** ask two assistants the same important question independently. Compare. Agreement builds
   confidence; disagreement tells you where to check.
 - **Judge:** paste one assistant's answer into another: *"Here's an answer from another AI. What's wrong, missing or
@@ -113,13 +81,6 @@ For a **second opinion**, ask two assistants the same question independently: ag
 sources.)
 
 ## 🧳 Take your "about me" everywhere
-
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-A portable profile is a short note describing you and your preferences that you can paste into any assistant's custom instructions, so every assistant starts with the same context.
-
-</details>
 
 Keep a **portable profile**, a note you can paste into any assistant's custom instructions:
 
@@ -147,13 +108,6 @@ Keep your **favorite prompts** in the same note so your "prompt library" goes wh
 
 ## 📦 Exporting your chats and data
 
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-Most assistants let you download your chats and data, usually from **Settings → Data controls**, **Privacy** or **Account**. The table lists where to find the export option in each.
-
-</details>
-
 Most assistants let you **download your data** (usually from Settings → Data controls / Privacy / Account):
 
 | Assistant | Where to export |
@@ -168,13 +122,6 @@ Useful when switching, and a good habit for important projects.
 
 ## 💸 Smart subscription strategy
 
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-Pay for one assistant (two at most) where higher limits genuinely help you, and use free tiers for specialists and second opinions. Review your subscriptions every few months.
-
-</details>
-
 - **Pay for one, at most two.** Your main assistant is where extra limits pay off.
 - **Use free tiers** for specialists and second opinions.
 - **Rotate:** some people switch their one paid plan every few months to try the newest features.
@@ -183,13 +130,6 @@ Pay for one assistant (two at most) where higher limits genuinely help you, and 
 - **Hubs** like Poe or Perplexity Pro give access to several models for one price ([chapter 29](29-hubs-and-specialty-chatbots.md)).
 
 ## ⚠️ Pitfalls to avoid
-
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-Using several assistants spreads your data across more companies and can become confusing. Keep sensitive topics with one trusted assistant, delete what you don't need, and keep your setup simple.
-
-</details>
 
 - 🗂️ **Data sprawl:** every assistant you use holds some of your data. Keep sensitive topics to one trusted assistant
   (or local AI), and delete what you don't need.

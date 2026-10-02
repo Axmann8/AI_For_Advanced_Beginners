@@ -1,6 +1,6 @@
 # 56 · Obsidian + AI: Your Local-First Thinking Machine 🟪🧠
 
-> ⏱️ 6 min read · 🎯 Beginner → intermediate · 🧰 Needs: Obsidian (free), optionally Claude Code or a local model
+> ⏱️ 5 min read · 🎯 Beginner → intermediate · 🧰 Needs: Obsidian (free), optionally Claude Code or a local model
 
 **Obsidian stores your notes as plain Markdown files in a folder on your computer.** That simple fact makes it *perfect* for
 AI: every tool, script, agent and model can read and write your notes, and you stay in full control. This chapter shows how
@@ -22,13 +22,6 @@ Obsidian stores notes as plain Markdown files in a folder on your computer. Beca
 
 ## 💜 Why Obsidian + AI is special
 
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-With Obsidian, you own your files, any AI tool can use them, links between notes form a knowledge graph AI can follow, and version control lets you undo any change.
-
-</details>
-
 - **You own the files.** No lock-in, and no export needed.
 - **Any AI can use them:** Claude Code, Cursor, MCP servers, local models, scripts.
 - **Links = a knowledge graph.** `[[wikilinks]]` create connections that AI can follow and extend.
@@ -36,13 +29,6 @@ With Obsidian, you own your files, any AI tool can use them, links between notes
 - **Private by default:** nothing leaves your machine unless you choose.
 
 ## 🔌 Three ways to add AI
-
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-There are three ways to add AI to Obsidian: **community plugins** that work inside the app, **MCP servers** that let chat assistants read your vault, and **coding agents** like Claude Code that work directly in the vault folder.
-
-</details>
 
 ```mermaid
 flowchart LR
@@ -84,13 +70,6 @@ full file-system skills (grep, bulk edits, scripts) ([Claude Code Masterclass](.
 
 ## 🗂️ Set up your vault for AI
 
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-An AI-friendly vault has a clear folder structure and a CLAUDE.md (or AGENTS.md) file at the top level explaining your system, conventions and rules for AI visitors.
-
-</details>
-
 A simple, AI-friendly structure:
 
 ```text
@@ -119,13 +98,6 @@ Add a `CLAUDE.md` (or `AGENTS.md`) at the root:
 
 ## 🎮 15 things to ask an AI with vault access
 
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-These fifteen prompts show what an AI with access to your vault can do, from writing monthly reflections to suggesting links between related notes.
-
-</details>
-
 1. *"Read my daily notes from last month and write a monthly reflection: themes, wins, recurring worries."*
 2. *"Find notes that should be linked but aren't, and suggest 20 new [[links]]. Show them before applying."*
 3. *"Create a Map of Content (MOC) note for everything about 'productivity'."*
@@ -144,13 +116,6 @@ These fifteen prompts show what an AI with access to your vault can do, from wri
 
 ## 🔁 Workflows that stick
 
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-Three habits make an AI-assisted vault work well over time: an AI-generated daily note each morning, quick capture into an Inbox folder, and a weekly review where AI helps file and link new notes.
-
-</details>
-
 ### The AI-assisted daily note
 - **Morning:** *"Create today's daily note with my calendar (via connector), my top 3 priorities from yesterday's unfinished
   tasks, and a thought prompt."*
@@ -167,25 +132,11 @@ Use a **skill** or a saved prompt: wins, open loops, lessons, next week's top 3
 
 ## 🔒 Private mode: fully local AI
 
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-For sensitive notes such as journals or health information, use a local model through Ollama or LM Studio with an Obsidian plugin, so nothing leaves your computer.
-
-</details>
-
 Use **Ollama** or **LM Studio** with the Copilot plugin (or Smart Connections with local embeddings) to keep journals, health
 notes and private thoughts 100% on-device. Small local models are great at summarizing, tagging and linking. Details in
 [Local & Open Models](../part-9-local-ai/78-local-and-open-models.md).
 
 ## 🔄 Syncing across devices
-
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-To use your vault on several devices you need a sync method: Obsidian Sync (paid, encrypted), iCloud Drive, Syncthing (free) or Git. The table compares them.
-
-</details>
 
 | Option | Notes |
 |---|---|
@@ -195,17 +146,6 @@ To use your vault on several devices you need a sync method: Obsidian Sync (paid
 | **Git** (Obsidian Git plugin) | Version history + sync, perfect with AI edits |
 
 ## ✅ Your safety net
-
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-Before letting AI make large changes, set up a safety net.
-
-1. Put the vault under Git version control (the Obsidian Git plugin makes this easy).
-2. Ask agents to propose changes before making bulk edits.
-3. Review the changes and undo anything you don't want.
-
-</details>
 
 - Put the vault in **Git** (Obsidian Git plugin), so every AI change is reviewable and reversible.
 - Tell agents to **propose before bulk edits**, and review the diff.

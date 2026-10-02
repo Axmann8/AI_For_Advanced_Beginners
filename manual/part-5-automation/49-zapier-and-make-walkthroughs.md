@@ -1,6 +1,6 @@
 # 49 · Zapier & Make Walkthroughs 🟠🟦
 
-> ⏱️ 7 min read · 🎯 Beginner-friendly, no code · 🧰 Needs: free Zapier and/or Make accounts
+> ⏱️ 5 min read · 🎯 Beginner-friendly, no code · 🧰 Needs: free Zapier and/or Make accounts
 
 **n8n is the tinkerer's tool. Zapier and Make are the fastest paths from idea to working automation**: no servers, no code,
 giant app catalogs. This chapter walks through real builds in both, including Zapier Agents, Zapier MCP and Make's visual
@@ -21,13 +21,6 @@ Zapier and Make are browser-based automation platforms. **Zapier** builds workfl
 
 ## 🟠 Zapier concepts in 2 minutes
 
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-In Zapier, a **Zap** is one automation: a trigger plus one or more actions. Each successful action counts as a **task**, which is how Zapier bills. Zaps can include filters, paths (branches), AI steps and Agents. The table defines each term.
-
-</details>
-
 | Term | Meaning |
 |---|---|
 | **Zap** | An automation: one trigger + one or more actions |
@@ -42,18 +35,6 @@ In Zapier, a **Zap** is one automation: a trigger plus one or more actions. Each
 | **Human in the Loop** | Pause for approval before continuing |
 
 ## 🧲 Walkthrough 1: AI lead responder (15 min)
-
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-This Zap drafts a personalized reply to each new form submission and logs the lead.
-
-1. **Trigger:** a new response in Typeform, Google Forms or Tally.
-2. **AI step:** draft a warm, personalized reply using the prompt below.
-3. **Gmail:** create a draft for you to review.
-4. **Google Sheets:** log the lead.
-
-</details>
 
 1. **Trigger:** Typeform, Google Forms or Tally → *New Response*.
 2. **Action:** *AI by Zapier* (or the *Anthropic (Claude)* app) → prompt:
@@ -70,17 +51,6 @@ This Zap drafts a personalized reply to each new form submission and logs the le
 
 ## 🔌 Walkthrough 2: Zapier MCP (one URL, thousands of apps)
 
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-Zapier MCP gives your AI assistant access to actions across thousands of apps through a single URL, limited to the actions you choose.
-
-1. Go to zapier.com/mcp and create a server.
-2. Add only the actions you want the AI to use.
-3. Copy the server URL into your AI app's connector settings and test it.
-
-</details>
-
 1. Go to **Zapier MCP** (zapier.com/mcp) and create a server.
 2. **Add actions** you want the AI to be able to do, e.g. *Gmail: Send Email*, *Google Calendar: Create Event*,
    *Slack: Send Channel Message*, *Trello: Create Card*.
@@ -92,17 +62,6 @@ fastest ways to give AI "hands" across thousands of apps ([MCP Explained](../par
 
 ## 🕵️ Walkthrough 3: a Zapier Agent
 
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-A Zapier Agent is an AI teammate that runs on a schedule or trigger, researches, uses your connected apps and reports back.
-
-1. Open **Zapier Agents** and create a new agent.
-2. Write instructions describing the task and schedule, as in the example below.
-3. Connect the apps it needs, test it, then turn it on.
-
-</details>
-
 1. Open **Zapier Agents** → New agent.
 2. Instructions: *"Every weekday at 8am, check my Google Calendar for today's external meetings. For each one, research the
    company website and recent news, and email me a 5-bullet prep brief."*
@@ -111,13 +70,6 @@ A Zapier Agent is an AI teammate that runs on a schedule or trigger, researches,
 
 ## 💡 Zapier tips
 
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-Place filters early to stop irrelevant items before costly steps, use Formatter instead of AI for simple text cleanup, and add an approval step before anything important is sent.
-
-</details>
-
 - **Filters early** save tasks (and money): stop irrelevant items before AI steps.
 - Use **Formatter** for simple text cleanup instead of paying for AI.
 - Turn on **auto-replay** for failed runs, and get error notifications by email.
@@ -125,13 +77,6 @@ Place filters early to stop irrelevant items before costly steps, use Formatter 
 - Name your steps clearly ("Draft reply," not "Action 3"), because future you will thank you.
 
 ## 🟦 Make concepts in 2 minutes
-
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-In Make, a **scenario** is an automation made of **modules** on a visual canvas. **Routers** split the flow, **iterators** process lists item by item, and **aggregators** combine results. The table defines each term.
-
-</details>
 
 | Term | Meaning |
 |---|---|
@@ -144,18 +89,6 @@ In Make, a **scenario** is an automation made of **modules** on a visual canvas.
 | **Make AI Agents** | Goal-driven agents that use your scenarios as tools |
 
 ## 📣 Walkthrough 4: social media repurposer (30 min)
-
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-This scenario turns each new blog post into social and newsletter drafts.
-
-1. Watch your blog's RSS feed for new posts.
-2. Fetch the full article and convert it to plain text.
-3. Ask Claude to write versions for each channel, returned as JSON.
-4. Route each version to its destination as a draft for review.
-
-</details>
 
 ```mermaid
 flowchart LR
@@ -180,17 +113,6 @@ flowchart LR
 
 ## 🧾 Walkthrough 5: invoice extractor
 
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-This scenario turns invoice emails into spreadsheet rows and calendar reminders.
-
-1. Watch Gmail for emails with attachments and "invoice" in the subject.
-2. Send each attachment to Claude or Gemini to extract the vendor, amount and due date.
-3. Add a row to your spreadsheet and a reminder to your calendar.
-
-</details>
-
 1. **Gmail → Watch emails** (filter: has attachment, subject contains "invoice").
 2. **Iterator** over attachments → **Claude or Gemini with PDF/image input**: extract vendor, amount, due date and invoice
    number as JSON.
@@ -199,26 +121,12 @@ This scenario turns invoice emails into spreadsheet rows and calendar reminders.
 
 ## 🔧 Make tips
 
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-Add error handlers to modules that might fail, use data stores to track what you've already processed (so nothing runs twice), and use scenario inputs so your AI assistant can start scenarios on demand.
-
-</details>
-
 - Right-click any module → **Add error handler** (Resume, Ignore, Break, Rollback).
 - Use **Data stores** to remember what you've processed (dedupe!).
 - **Scenario inputs** + **Make's MCP server** let AI assistants trigger scenarios on demand.
 - **Aggregate before AI:** send one combined request instead of 50 small ones to save operations and tokens.
 
 ## ⚖️ Zapier vs. Make vs. n8n: when to use which
-
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-Choose Zapier for speed and the widest app support, Make for complex visual logic, and n8n for self-hosting, privacy and advanced AI agents. Many people use two of them. The table matches common situations to the best choice.
-
-</details>
 
 | Situation | Winner |
 |---|---|

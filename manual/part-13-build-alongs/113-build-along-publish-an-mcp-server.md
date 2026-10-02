@@ -29,13 +29,6 @@ In this project you'll take a working weather MCP server, test it, add a tool of
 
 ## 🗺️ What you'll build
 
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-You'll test the server locally, connect it to Claude, publish it to npm and the MCP Registry, and optionally deploy it as a remote server. The diagram shows the path.
-
-</details>
-
 ```mermaid
 flowchart LR
     K[📁 weather-mcp-server kit] --> T[🧪 Test<br/>npm test + Inspector]
@@ -52,13 +45,6 @@ Streamable HTTP mode with optional bearer-token auth, an offline smoke test, a `
 
 ## ✅ Before you start
 
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-Before starting, make sure you have Node.js 18 or later, a GitHub account (which provides your registry namespace) and a free npm account.
-
-</details>
-
 - [ ] **Node.js 18+** (`node --version`)
 - [ ] A **GitHub** account (your registry namespace will be `io.github.your-username`)
 - [ ] An **npm** account (`npm adduser` to log in)
@@ -66,13 +52,6 @@ Before starting, make sure you have Node.js 18 or later, a GitHub account (which
 - [ ] Optional: **Docker** and a host (Render, Railway, Fly.io, Cloud Run) for remote hosting
 
 ## 1️⃣ Step 1: Run and test the kit (15 min)
-
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-Install the kit's dependencies and run its smoke test. The test starts a mock weather service and calls each tool, so it works without an internet connection or API key.
-
-</details>
 
 ```bash
 cd examples/weather-mcp-server
@@ -95,17 +74,6 @@ checks that the HTTP mode rejects requests without the right token. Tests that n
 
 ## 2️⃣ Step 2: Explore it in the MCP Inspector (15 min)
 
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-Explore the server in the MCP Inspector.
-
-1. Run the Inspector command and click **Connect**.
-2. Open **Tools**, select `get_forecast` and enter a city.
-3. Run it and review the exact response the AI would receive.
-
-</details>
-
 ```bash
 npm run inspect
 ```
@@ -121,17 +89,6 @@ Look at how each tool has a **title**, **description**, **input schema** and **a
 > ✅ **Checkpoint:** all three tools return real weather in the Inspector.
 
 ## 3️⃣ Step 3: Make it yours (45 min)
-
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-Add a fourth tool of your own, such as a picnic score or a "what to wear" suggestion.
-
-1. Choose an idea from the table or invent one.
-2. Ask a coding agent to implement it following the existing tools' pattern.
-3. Add a test for it and run the smoke test again.
-
-</details>
 
 Pick one idea (or invent your own) and add a fourth tool:
 
@@ -153,13 +110,6 @@ Then **update the version** in `package.json` and `server.json` (e.g. `1.1.0`: n
 > ✅ **Checkpoint:** your new tool works in the Inspector, and `npm test` still passes.
 
 ## 4️⃣ Step 4: Connect it to Claude (10 min)
-
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-Add the server to Claude Code or Claude Desktop using the configuration below, restart if needed, and ask a weather question to confirm Claude uses your tools.
-
-</details>
 
 === "💻 Claude Code"
 
@@ -187,17 +137,6 @@ call your tools. 🤩
 
 ## 5️⃣ Step 5: Prepare for publishing (20 min)
 
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-Prepare the package for publishing.
-
-1. Create a GitHub repository and copy in the kit's files.
-2. Update `package.json` with your package name, description and repository URL.
-3. Write a clear README with installation and usage instructions.
-
-</details>
-
 1. **Create a GitHub repo** for your server (e.g. `weather-buddy-mcp`) and copy the kit's files into it (`server.mjs`,
    `package.json`, `server.json`, `README.md`, `Dockerfile`, `smoke-test.mjs`).
 2. **Replace `your-github-username`** everywhere in `package.json` and `server.json`. Three fields must line up:
@@ -217,13 +156,6 @@ Prepare the package for publishing.
 > Ask Claude: *"Review my README like a first-time user. What's confusing or missing?"*
 
 ## 6️⃣ Step 6: Publish to npm (10 min)
-
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-Publish to npm with `npm login` and `npm publish`. Anyone can then run your server with `npx`, without downloading or installing anything first.
-
-</details>
 
 ```bash
 npm login
@@ -245,17 +177,6 @@ Now anyone can run your server with **no download or install step**:
 
 ## 7️⃣ Step 7: List it in the MCP Registry (15 min)
 
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-List your server in the official MCP Registry so clients and catalogs can find it.
-
-1. Install the `mcp-publisher` tool.
-2. Create a `server.json` that points to your npm package.
-3. Authenticate with GitHub and publish.
-
-</details>
-
 The **official MCP Registry** is where clients and catalogs discover servers. It points to your npm package, and verifies you
 own it via the `mcpName` field.
 
@@ -275,13 +196,6 @@ mcp-publisher publish          # reads server.json and publishes the listing
 > ✅ **Checkpoint:** searching the registry for your server's name shows your listing. 🎉 You're a published MCP author!
 
 ## 🌍 Step 8 (optional): Host it as a remote server
-
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-Optionally, deploy the server with the Streamable HTTP transport to a host like Cloudflare or Render. Remote servers work from web and mobile AI apps without any installation; add authentication if they access private data.
-
-</details>
 
 Remote servers work from Claude on the web and mobile, and from other people's apps, with nothing to install
 ([Deploying & Hosting](../part-7-building-with-ai/66-deploying-and-hosting.md#-hosting-a-remote-mcp-server)).
@@ -305,13 +219,6 @@ Remote servers work from Claude on the web and mobile, and from other people's a
 
 ## 🔁 Maintaining your server
 
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-Maintain your server with semantic versioning (patch, minor and major releases), a changelog, automated tests and prompt responses to issues. The table explains each habit.
-
-</details>
-
 | Habit | How |
 |---|---|
 | **Semantic versioning** | Fixes → `1.0.1`, new features → `1.1.0`, breaking changes → `2.0.0` |
@@ -321,13 +228,6 @@ Maintain your server with semantic versioning (patch, minor and major releases),
 | **Listen to users** | GitHub issues are gold: they tell you what to build next |
 
 ## 🩺 Troubleshooting
-
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-The table lists common problems, such as Claude not detecting the tools or publishing errors, with a fix for each.
-
-</details>
 
 | Problem | Fix |
 |---|---|

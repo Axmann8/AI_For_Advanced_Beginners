@@ -1,6 +1,6 @@
 # 100 · Home, Cooking & DIY with AI 🏠🍳🔧
 
-> ⏱️ 7 min read · 🎯 Home cooks, fixers, gardeners, decorators, renters and homeowners · 🧰 Needs: an assistant with vision (photos!), optionally a smart home setup
+> ⏱️ 6 min read · 🎯 Home cooks, fixers, gardeners, decorators, renters and homeowners · 🧰 Needs: an assistant with vision (photos!), optionally a smart home setup
 
 **Your phone's camera + an AI assistant = a chef, a handyperson, a gardener and an interior designer in your pocket.** Snap your
 fridge and get dinner ideas. Snap a leaky pipe and learn what that part is called. Snap a sad plant and find out why it's sad.
@@ -22,13 +22,6 @@ Photograph almost anything around the house and AI can help: suggest meals from 
 <!-- in-this-chapter -->
 
 ## 🍳 Cooking: your pocket chef
-
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-AI can suggest meals from a photo of your fridge, scale and adapt recipes, find substitutions for missing ingredients and teach cooking techniques. The table offers a prompt for each situation.
-
-</details>
 
 | Situation | Prompt |
 |---|---|
@@ -52,13 +45,6 @@ fill in missing steps (mark them as guesses)."* Then make a family cookbook ([Im
 
 ## 🔧 DIY & repairs
 
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-For a repair, photograph the problem and ask AI to identify the part, the likely issue, the tools you need and the steps to fix it, including any safety concerns. For electrical, gas and structural work, call a qualified professional.
-
-</details>
-
 **The DIY diagnosis prompt:**
 
 > *[photo]* *"What is this part, what's likely wrong, and how would I fix it step by step? List tools and parts needed, how
@@ -80,13 +66,6 @@ For a repair, photograph the problem and ask AI to identify the part, the likely
 
 ## 🗓️ Home maintenance on autopilot
 
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-Ask AI for a seasonal maintenance schedule based on your home's age, climate and systems, then add the tasks to your calendar or an automation that reminds you when each is due.
-
-</details>
-
 > *"Create a seasonal home maintenance schedule for a 1990s house in a cold, snowy climate with a gas furnace, a lawn and gutters.
 > Group by month, with how long each task takes."*
 
@@ -101,13 +80,6 @@ Put it in your household command center with automatic reminders ([Life Admin](9
 
 ## 🌱 Gardening & plants
 
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-AI can identify plants from photos, diagnose problems like yellowing leaves, check whether plants are safe for pets and create a planting calendar for your area. The table offers prompts.
-
-</details>
-
 | Need | Prompt |
 |---|---|
 | 🔎 **Identify** | *[photo]* *"What plant is this, and is it safe for cats?"* 🐱 |
@@ -121,13 +93,6 @@ AI can identify plants from photos, diagnose problems like yellowing leaves, che
 
 ## 🛋️ Decorating & organizing
 
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-Upload a photo of a room and AI can show how it might look with a different paint color or furniture. It can also create step-by-step plans for decluttering and organizing.
-
-</details>
-
 - **Visualize changes:** photo of your room → *"Show this room with sage-green walls and warmer lighting."* ([Image Generation](../part-10-creative-ai/84-image-generation-deep-dive.md#-editing-the-real-superpower))
 - **Style finder:** *"Here are 5 rooms I love. What's my style called, and what are its key ingredients?"*
 - **Small spaces:** *"Layout ideas for a 3 × 4 m bedroom that needs a desk."*
@@ -138,13 +103,6 @@ Upload a photo of a room and AI can show how it might look with a different pain
 
 ## 📦 Moving house
 
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-Ask AI for a detailed moving checklist covering the weeks before the move: packing, utilities, address changes and moving-day logistics.
-
-</details>
-
 > *"Create an 8-week moving checklist: from [city] to [city], 2 adults, a cat, a car. Include address-change list, utilities,
 > packing order and a first-night box."*
 
@@ -153,13 +111,6 @@ doctor, subscriptions, voter registration, deliveries).
 
 ## 🐾 Pets
 
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-AI can help with pet training plans, care routines and understanding behavior. For anything health-related, contact your veterinarian.
-
-</details>
-
 - **Training:** *"A gentle, positive-reinforcement plan to stop my puppy jumping on guests."*
 - **Care routines:** feeding, grooming and exercise schedules for a new pet.
 - **Behavior:** *"My cat started scratching the sofa. Likely reasons and humane fixes."*
@@ -167,13 +118,6 @@ AI can help with pet training plans, care routines and understanding behavior. F
 - **Vet prep:** a symptom summary and questions for the vet. **For health concerns, always contact your vet.** 🐶
 
 ## 🏡 The AI-powered smart home
-
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-AI makes smart homes more capable, from natural-language voice control to automations that respond to who's home. The table describes each level, from voice assistants to Home Assistant with MCP.
-
-</details>
 
 | Level | What it looks like |
 |---|---|

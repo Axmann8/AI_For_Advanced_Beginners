@@ -31,10 +31,10 @@ Notion is where people see and edit information; n8n is the engine that moves th
 | Want AI agents that work across both | [AI Agents Across n8n + Notion](124-ai-agents-across-n8n-and-notion.md) |
 | Want to connect Gmail, Slack, Claude, your phone and more | [Connecting Everything](125-connecting-everything.md) |
 | Just want ready-made workflows | [The n8n + Notion Recipe Book](126-n8n-notion-recipe-book.md) |
-| Learn best by building | [Build-Along: Your AI Command Center](127-build-along-ai-command-center.md) |
+| Learn best by building (with screenshots of every n8n screen) | [Build-Along: Your AI Command Center](127-build-along-ai-command-center.md) |
 | Rely on this for real work | [Running n8n + Notion in Production](128-running-in-production.md) |
 
-New to either tool? Start with the [n8n Masterclass](../part-5-automation/47-n8n-masterclass.md) and the
+New to either tool? Start with the [n8n Masterclass](../part-5-automation/47-n8n-masterclass.md) (your first AI workflow, click by click) and the
 [Notion AI Deep Dive](../part-6-ai-in-your-apps/54-notion-ai-deep-dive.md), then come back here.
 
 ## 📚 Chapters in this part
@@ -46,7 +46,7 @@ New to either tool? Start with the [n8n Masterclass](../part-5-automation/47-n8n
 
     ---
 
-    <span class="card-meta">⏱️ 9 min read · 🎯 Anyone automating their work or life</span>
+    <span class="card-meta">⏱️ 8 min read · 🎯 Anyone automating their work or life</span>
 
     Most people's digital life is scattered across a dozen apps that don't talk to each other.
 
@@ -54,7 +54,7 @@ New to either tool? Start with the [n8n Masterclass](../part-5-automation/47-n8n
 
     ---
 
-    <span class="card-meta">⏱️ 11 min read · 🎯 Notion users ready to automate</span>
+    <span class="card-meta">⏱️ 9 min read · 🎯 Notion users ready to automate</span>
 
     To automate Notion well, you need to see it the way software does. On screen, Notion is pages, tables and boards.
 
@@ -62,7 +62,7 @@ New to either tool? Start with the [n8n Masterclass](../part-5-automation/47-n8n
 
     ---
 
-    <span class="card-meta">⏱️ 11 min read · 🎯 Intermediate</span>
+    <span class="card-meta">⏱️ 10 min read · 🎯 Intermediate</span>
 
     This is the reference chapter you'll keep open while building. It covers connecting n8n to Notion securely, every operation the Notion node offers, the four ways to trigger workflows from Notion, mapping each property type correctly, filtering, falling back to raw API calls, and the patterns (upserts, batching, deduplication) that separate fragile workflows from dependable ones.
 
@@ -70,7 +70,7 @@ New to either tool? Start with the [n8n Masterclass](../part-5-automation/47-n8n
 
     ---
 
-    <span class="card-meta">⏱️ 9 min read · 🎯 Intermediate</span>
+    <span class="card-meta">⏱️ 5 min read · 🎯 Intermediate</span>
 
     The most powerful way to combine these tools is to make Notion the control panel for everything n8n does.
 
@@ -78,7 +78,7 @@ New to either tool? Start with the [n8n Masterclass](../part-5-automation/47-n8n
 
     ---
 
-    <span class="card-meta">⏱️ 10 min read · 🎯 Intermediate → advanced</span>
+    <span class="card-meta">⏱️ 8 min read · 🎯 Intermediate → advanced</span>
 
     AI can live in three places in this stack: inside Notion, inside n8n, and in the assistants you chat with.
 
@@ -86,7 +86,7 @@ New to either tool? Start with the [n8n Masterclass](../part-5-automation/47-n8n
 
     ---
 
-    <span class="card-meta">⏱️ 11 min read · 🎯 Intermediate</span>
+    <span class="card-meta">⏱️ 9 min read · 🎯 Intermediate</span>
 
     This chapter is the map of how your n8n + Notion system connects to the rest of your digital life.
 
@@ -94,7 +94,7 @@ New to either tool? Start with the [n8n Masterclass](../part-5-automation/47-n8n
 
     ---
 
-    <span class="card-meta">⏱️ 6 min read · 🎯 Anyone with n8n and Notion connected</span>
+    <span class="card-meta">⏱️ 5 min read · 🎯 Anyone with n8n and Notion connected</span>
 
     Forty proven workflows that combine n8n and Notion, organized by area of life and work. Each recipe lists the trigger, the steps and what you end up with in Notion, plus a difficulty rating.
 
@@ -104,13 +104,13 @@ New to either tool? Start with the [n8n Masterclass](../part-5-automation/47-n8n
 
     <span class="card-meta">⏱️ ~3 hours to build · 🎯 Intermediate (no coding required)</span>
 
-    In this build-along you'll create a complete, working AI command center. Anything you capture (by voice, from your phone, from any app) lands in a Notion Inbox, already titled, typed and prioritized by AI.
+    You'll build a working AI command center, one click at a time. Anything you capture (spoken on your phone, sent from any app) lands in a Notion Inbox, already titled, typed and prioritized by AI.
 
 -   **[128 · Running n8n + Notion in Production 🏭](128-running-in-production.md)**
 
     ---
 
-    <span class="card-meta">⏱️ 9 min read · 🎯 Anyone relying on their automations for real work</span>
+    <span class="card-meta">⏱️ 7 min read · 🎯 Anyone relying on their automations for real work</span>
 
     Building a workflow is the fun part; keeping dozens of them running reliably for months is the real skill.
 

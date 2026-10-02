@@ -29,13 +29,6 @@ In this project you'll build an AI-assisted second brain in Obsidian. Notes go i
 
 ## 🗺️ What you'll build
 
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-Notes arrive from many sources into one inbox; AI triages them into PARA folders, links related notes, produces weekly reviews and answers questions. The diagram shows the flow.
-
-</details>
-
 ```mermaid
 flowchart LR
     V[🎙️ Voice / 📱 phone / 🌐 web] --> I[📥 00-Inbox]
@@ -53,30 +46,12 @@ house rules, two Claude Code skills (`inbox-triage`, `weekly-review`) and a `/ca
 
 ## ✅ Before you start
 
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-You need Obsidian (free) and Claude Code (recommended) or Claude Desktop. A phone automation app is optional, for voice capture.
-
-</details>
-
 - [ ] **Obsidian** installed (obsidian.md, free)
 - [ ] **Claude Code** (recommended) or **Claude Desktop**
 - [ ] Optional: **Git** for version history, and **n8n** or a phone shortcut for voice capture
 - [ ] 10 real notes, ideas or links you've been meaning to save 😄
 
 ## 1️⃣ Step 1: Set up the vault (10 min)
-
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-Copy the starter vault to your computer and open it in Obsidian.
-
-1. Copy the kit folder to a location like `~/Documents/SecondBrain`.
-2. In Obsidian, choose **Open folder as vault** and select it.
-3. Enable the core Templates plugin and point it at the templates folder.
-
-</details>
 
 ```bash
 cp -r examples/second-brain-vault ~/Documents/SecondBrain
@@ -92,13 +67,6 @@ cp -r examples/second-brain-vault ~/Documents/SecondBrain
 
 ## 2️⃣ Step 2: Meet your vault's AI rules (5 min)
 
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-The vault's `CLAUDE.md` sets rules for any AI working in it: the PARA structure, never deleting notes, proposing plans before moving files and preserving your original wording.
-
-</details>
-
 Open `CLAUDE.md`. It tells any AI working in the vault:
 
 - The **PARA structure** and what goes where.
@@ -111,13 +79,6 @@ to match how *you* like to work.
 
 ## 3️⃣ Step 3: Capture 10 real things (15 min)
 
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-Add ten real items to the `00-Inbox` folder, such as ideas, links, tasks and notes, using Obsidian or Claude Code. Don't sort them yet.
-
-</details>
-
 Put **ten real things** into `00-Inbox/`, using any mix of:
 
 - In Obsidian: a new note in `00-Inbox`.
@@ -129,17 +90,6 @@ Put **ten real things** into `00-Inbox/`, using any mix of:
 > ✅ **Checkpoint:** `00-Inbox/` has at least 10 new notes.
 
 ## 4️⃣ Step 4: AI triage (20 min)
-
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-Ask Claude Code, running in the vault folder, to "triage my inbox."
-
-1. Review the proposed plan showing where each note will go.
-2. Approve it or request changes.
-3. Check that notes were moved, tagged and linked correctly.
-
-</details>
 
 ```bash
 cd ~/Documents/SecondBrain
@@ -162,13 +112,6 @@ Review it, adjust anything (*"put the recipe under a new Cooking area instead"*)
 
 ## 5️⃣ Step 5: Ask your notes questions (15 min)
 
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-Ask questions across your notes, such as what to focus on this weekend or what you've learned about a topic. The AI reads relevant notes and answers with links to them.
-
-</details>
-
 Still in Claude Code (or Claude Desktop with the filesystem MCP server, from the [kit README](../../examples/second-brain-vault/README.md)):
 
 - *"What are my active projects, and what's the next action for each?"*
@@ -182,13 +125,6 @@ Still in Claude Code (or Claude Desktop with the filesystem MCP server, from the
 > Connections plugin, or a local RAG index ([Build a RAG System](../part-8-knowledge-and-memory/74-build-a-rag-system.md)).
 
 ## 6️⃣ Step 6: One-tap voice capture (30 min)
-
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-Set up one-tap voice capture using the route that matches your setup: an iPhone shortcut, an Android automation or an n8n webhook. Dictated ideas then arrive in your inbox as clean notes.
-
-</details>
 
 Pick the route that fits your setup ([Phone & Desktop Automation](../part-5-automation/50-phone-and-desktop-automation.md)):
 
@@ -212,13 +148,6 @@ Pick the route that fits your setup ([Phone & Desktop Automation](../part-5-auto
 
 ## 7️⃣ Step 7: The self-writing weekly review (10 min)
 
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-Ask Claude Code to "do my weekly review." It reads your journal and recent notes, then writes a summary of wins, lessons, stalled projects and your top three priorities for next week.
-
-</details>
-
 In Claude Code: **"Do my weekly review."** The `weekly-review` skill reads your journal and recent notes, checks for stalled
 projects, and saves `Reviews/YYYY-MM-DD-weekly-review.md` with wins, lessons, stuck items and your top 3 for next week.
 
@@ -226,13 +155,6 @@ projects, and saves `Reviews/YYYY-MM-DD-weekly-review.md` with wins, lessons, st
 `claude -p "Do my weekly review"` from cron, see [Claude Code Power-Ups](../part-7-building-with-ai/63-claude-code-power-ups.md#-headless-mode--scripting).)
 
 ## 🔒 Step 8 (optional): Make it private and permanent
-
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-To protect the vault, track changes with Git in a private repository and commit weekly. For sensitive notes, use a local model so nothing leaves your computer. The table explains each upgrade.
-
-</details>
 
 | Upgrade | How |
 |---|---|
@@ -242,13 +164,6 @@ To protect the vault, track changes with Git in a private repository and commit 
 | **Private tag** | Tag sensitive notes `#private`; the vault rules already tell AI not to quote them elsewhere |
 
 ## 🩺 Troubleshooting
-
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-If skills don't trigger or AI changes aren't what you expect, the table lists common problems and their fixes.
-
-</details>
 
 | Problem | Fix |
 |---|---|

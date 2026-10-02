@@ -1,6 +1,6 @@
 # 105 · Evaluating & Comparing AI: Evals for Normal People 🧪⚖️
 
-> ⏱️ 7 min read · 🎯 Everyone choosing models, prompts or tools (and every builder) · 🧰 Needs: a spreadsheet and 10–20 real tasks
+> ⏱️ 5 min read · 🎯 Everyone choosing models, prompts or tools (and every builder) · 🧰 Needs: a spreadsheet and 10–20 real tasks
 
 **"Which model is best?" The honest answer is "best at *what*, for *you*?"** Leaderboards are a starting point, but the only
 benchmark that truly matters is **your tasks**. This chapter teaches the skill that separates AI power users from everyone
@@ -24,13 +24,6 @@ An evaluation ("eval") is a structured test: give several AI models or tools the
 
 ## 🤔 Why evaluate?
 
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-Evals help you choose the right model or tool, confirm that changes actually help and catch regressions after updates. The table gives an example of each.
-
-</details>
-
 | Reason | Example |
 |---|---|
 | 🎯 **Pick the right model or tool** | A small, cheap model might do your job just as well |
@@ -40,18 +33,6 @@ Evals help you choose the right model or tool, confirm that changes actually hel
 | 💸 **Save money** | Stop over-buying capability you don't need |
 
 ## 🏃 The 15-minute personal eval
-
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-A personal eval takes about fifteen minutes.
-
-1. Collect 10–20 real tasks you actually do.
-2. Write down what a good result looks like for each.
-3. Run every task on two or three models.
-4. Score the results, ideally without knowing which model produced which.
-
-</details>
 
 1. **Collect 10–20 real tasks** you actually do: emails to draft, questions about your docs, data to extract, code to fix.
 2. **Write down what "good" looks like** for each (a correct answer, or 3–5 criteria).
@@ -69,13 +50,6 @@ A personal eval takes about fifteen minutes.
 Put it in a spreadsheet. Congratulations, you've built an **eval set**. 🎉
 
 ## 📏 Scoring methods
-
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-Choose a scoring method that fits the task: exact checks for extraction, classification and code; rubrics with specific criteria for writing; and side-by-side comparison when quality is subjective. The table explains each.
-
-</details>
 
 | Method | Use for | Notes |
 |---|---|---|
@@ -95,13 +69,6 @@ Choose a scoring method that fits the task: exact checks for extraction, classif
 | "Concise" | "Under 120 words" |
 
 ## 🤖 LLM-as-judge (and how not to fool yourself)
-
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-A capable model can grade outputs against your rubric, which saves time on large test sets. Use specific yes-or-no criteria, ask for reasons, and spot-check the grades yourself, because AI judges have biases too.
-
-</details>
 
 ```text
 You are grading a customer-support reply. Score each criterion 0 or 1, with a one-line reason:
@@ -123,13 +90,6 @@ Return JSON: {"scores": [..], "reasons": [..], "total": n}.
 
 ## 🏟️ Arenas & leaderboards
 
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-Public leaderboards such as LMArena, Artificial Analysis and SWE-bench indicate which models are strongest in general. They're useful starting points, but your own eval shows what's best for your tasks.
-
-</details>
-
 | Resource | What it measures |
 |---|---|
 | **LMArena** | Human preference votes in blind head-to-heads (text, vision, coding, images and more) |
@@ -142,13 +102,6 @@ Leaderboards tell you **who's in the top tier**. Your own eval tells you **who's
 "saturated" (everyone scores near 100%) or leaked into training data, so treat them as hints.
 
 ## 🛠️ Evaluating your own AI systems
-
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-For RAG systems, agents and automations, keep a test set of inputs with expected outputs and run it after every change to confirm quality improves rather than declines.
-
-</details>
 
 Building RAG bots, agents or automations? Treat quality like code:
 
@@ -170,13 +123,6 @@ flowchart LR
 
 ## 🧰 Comparing tools (not just models)
 
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-When comparing tools rather than models, run each on the same three real scenarios and score them on quality, ease of use, price, privacy and integration.
-
-</details>
-
 When choosing between, say, three meeting-note apps or two automation platforms:
 
 1. Run each on the **same 3 real scenarios**.
@@ -193,13 +139,6 @@ When choosing between, say, three meeting-note apps or two automation platforms:
 | Joy factor 😄 | | | |
 
 ## 🧠 Mindset tips
-
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-A single impressive or poor answer isn't conclusive. Test at least ten examples, run important tests more than once to account for variation, and consider whether a cheaper option performs just as well.
-
-</details>
 
 - **Beware the first impression.** One amazing (or awful) answer isn't a trend. Test 10+.
 - **Variance is real.** Run important tests 2–3 times.

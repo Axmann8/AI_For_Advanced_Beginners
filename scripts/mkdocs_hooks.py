@@ -186,7 +186,22 @@ def on_page_markdown(markdown, page, config, files):
     return text
 
 
+SHOT = re.compile(r'<p>\s*(<img [^>]*src="([^"]*assets/screenshots/[^"]+)"[^>]*>)\s*</p>')
+
+
+def _shot(match: re.Match) -> str:
+    """A screenshot on its own line becomes a framed figure: click to open full size, title becomes the caption."""
+    img, src = match.group(1), match.group(2)
+    title = re.search(r'title="([^"]*)"', img)
+    caption = f"<figcaption>{title.group(1)}</figcaption>" if title else ""
+    img = re.sub(r'\s*title="[^"]*"', "", img)
+    return (f'<figure class="shot"><a href="{src}" target="_blank" rel="noopener" title="Open full size">'
+            f"{img}</a>{caption}</figure>")
+
+
 def on_page_content(html_out, page, config, files):
+    if "assets/screenshots/" in html_out:
+        html_out = SHOT.sub(_shot, html_out)
     if "<!-- in-this-chapter -->" in html_out:
         items = []
         for top in page.toc:

@@ -1,6 +1,6 @@
 # 26 · Mistral Le Chat: The Complete Guide 🌬️
 
-> ⏱️ 5 min read · 🎯 Beginners, Europeans and privacy-minded users · 🧰 Needs: a free Le Chat account (chat.mistral.ai)
+> ⏱️ 4 min read · 🎯 Beginners, Europeans and privacy-minded users · 🧰 Needs: a free Le Chat account (chat.mistral.ai)
 
 **Le Chat is the assistant from Mistral AI, France's AI champion and Europe's leading AI lab.** It's fast (very fast),
 capable, generous on its free tier, and comes with memories, connectors, deep research, image creation and a
@@ -22,13 +22,6 @@ Le Chat is the AI assistant from Mistral AI, a French company. It's fast, inexpe
 
 ## 🌬️ Quick facts
 
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-Le Chat is made by Mistral AI in Paris. It's available at chat.mistral.ai and in phone apps, with a generous free tier and a lower-priced Pro plan.
-
-</details>
-
 | | |
 |---|---|
 | **Made by** | Mistral AI (Paris, France) |
@@ -40,30 +33,12 @@ Le Chat is made by Mistral AI in Paris. It's available at chat.mistral.ai and in
 
 ## 🚪 Getting started
 
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-Getting started with Le Chat is straightforward.
-
-1. Go to chat.mistral.ai or install **Le Chat by Mistral AI**.
-2. Sign up with email, Google, Apple or Microsoft.
-3. Turn on **Memories** if you want personalized answers, then start chatting.
-
-</details>
-
 1. Go to **chat.mistral.ai** or install **Le Chat by Mistral AI**.
 2. Sign up with email, Google, Apple or Microsoft.
 3. Turn on **Memories** if you want personalized answers (you can even **import your ChatGPT memories** in one click).
 4. Browse **Connectors** to link the apps you use.
 
 ## 💳 Plans in plain English
-
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-The free plan includes most features with daily limits. Pro, priced below most competitors, raises the limits substantially. The table compares the plans.
-
-</details>
 
 | Plan | What you get (roughly) |
 |---|---|
@@ -73,13 +48,6 @@ The free plan includes most features with daily limits. Pro, priced below most c
 | **Enterprise** | Private deployments (even on a company's own servers), custom models, strong data controls |
 
 ## ⚡ Features tour
-
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-The table summarizes Le Chat's features, including fast answers, Think mode, web search, deep research, document and image understanding, and image generation.
-
-</details>
 
 | Feature | What it does |
 |---|---|
@@ -98,13 +66,6 @@ The table summarizes Le Chat's features, including fast answers, Think mode, web
 
 ## 🧠 Memories and connectors
 
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-**Memories** let Le Chat save facts and preferences to personalize answers; you can view, edit and delete each one. **Connectors** link it to other apps, and you decide what it can access.
-
-</details>
-
 - **Memories:** Le Chat saves useful facts and preferences (you'll see when it does) and uses them to personalize
   answers. You can view, edit and delete every memory, and **import your ChatGPT memories** if you're switching.
 - **Connectors:** built on **MCP**, the open standard ([MCP Explained](../part-4-mcp-and-connectors/38-mcp-explained.md)).
@@ -113,13 +74,6 @@ The table summarizes Le Chat's features, including fast answers, Think mode, web
 
 ## 🔐 Privacy and settings
 
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-As a European company, Mistral is subject to the GDPR and the EU AI Act. You can opt out of training in settings, and delete memories and chat history at any time.
-
-</details>
-
 - **European company, EU rules:** Mistral is subject to the GDPR and the EU AI Act.
 - **Training opt-out:** turn off use of your conversations for training in settings (business plans don't train on your
   data by default).
@@ -127,13 +81,6 @@ As a European company, Mistral is subject to the GDPR and the EU AI Act. You can
 - **Enterprise self-hosting:** organizations can run Le Chat on their own infrastructure.
 
 ## 🍳 Step-by-step recipes
-
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-These three recipes walk through real tasks in Le Chat step by step, such as transcribing and cleaning up a scanned document.
-
-</details>
 
 **Recipe 1: Read a messy scanned document**
 
@@ -151,13 +98,6 @@ These three recipes walk through real tasks in Le Chat step by step, such as tra
    the English translation."*
 
 ## 💡 Pro tips and limitations
-
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-These tips help you get more out of Le Chat, followed by its current limitations.
-
-</details>
 
 **Pro tips**
 

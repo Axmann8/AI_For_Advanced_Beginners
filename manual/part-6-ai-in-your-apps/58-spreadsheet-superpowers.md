@@ -1,6 +1,6 @@
 # 58 · Spreadsheet Superpowers 📊✨
 
-> ⏱️ 6 min read · 🎯 Everyone who's ever fought a VLOOKUP · 🧰 Needs: Google Sheets, Excel or Airtable
+> ⏱️ 4 min read · 🎯 Everyone who's ever fought a VLOOKUP · 🧰 Needs: Google Sheets, Excel or Airtable
 
 **Spreadsheets are where AI quietly delivers some of its biggest everyday wins.** It writes and explains formulas, cleans
 messy data, classifies hundreds of rows with a single function, builds charts, and finds the story in your numbers. This
@@ -22,25 +22,11 @@ AI turns spreadsheets into powerful tools for working with text and data. It can
 
 ## 💞 Why spreadsheets + AI is a perfect match
 
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-Spreadsheets are structured, repetitive and often full of unstructured text such as comments and descriptions. AI handles exactly that kind of work well: the same small task applied consistently across many rows.
-
-</details>
-
 Spreadsheets are **structured** (rows and columns), **repetitive** (the same job for every row), and **full of fuzzy text**
 (comments, descriptions, addresses). That's the exact shape of work AI excels at, and the grid shows every result, so it's
 easy to spot-check.
 
 ## 🧮 Formula help: write, explain, fix
-
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-Describe the calculation you need in plain language, and AI will write the formula and explain how it works. It can also explain an existing formula or fix one that returns an error. The table shows examples.
-
-</details>
 
 | You say… | AI gives you… |
 |---|---|
@@ -53,13 +39,6 @@ Describe the calculation you need in plain language, and AI will write the formu
 **Where to ask:** Gemini in Sheets, Copilot in Excel, or any assistant (paste a few sample rows and your column letters).
 
 ## 🤖 AI functions in cells
-
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-Google Sheets, Excel and other tools offer functions that send a prompt to AI for each row, such as classifying sentiment or extracting a value. The table lists each tool's function with an example.
-
-</details>
 
 | Tool | Function | Example |
 |---|---|---|
@@ -77,13 +56,6 @@ theme. Qualitative mush becomes a clear chart in 10 minutes. 🪄
 
 ## 🧹 Cleaning messy data
 
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-AI can clean inconsistent data: standardizing company names, reformatting dates, splitting combined fields and removing duplicates. Ask it to show a mapping or preview first so you can check the changes before applying them.
-
-</details>
-
 | Mess | Prompt |
 |---|---|
 | Inconsistent names ("Acme Inc", "ACME", "acme corp.") | *"Standardize company names in column A, and show me a mapping table first."* |
@@ -97,13 +69,6 @@ your friend.
 
 ## 📈 Analysis & charts
 
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-Ask questions about your data in plain language. Gemini in Sheets and Copilot in Excel can answer, build pivot tables and suggest charts, or you can upload the file to an assistant with code execution for deeper analysis.
-
-</details>
-
 - **In-app:** Gemini in Sheets and Copilot in Excel answer questions, build pivots and suggest charts.
 - **Upload to an assistant with code execution** (Claude, ChatGPT, Gemini): *"Clean this, find the top 3 insights, and make a
   chart for each."* Behind the scenes, it writes and runs Python ([Data Analysis for Everyone](../part-11-ai-for-life-and-work/102-data-analysis.md)).
@@ -111,26 +76,12 @@ Ask questions about your data in plain language. Gemini in Sheets and Copilot in
 
 ## 🐍 Python in Excel & friendly scripts
 
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-For large or complex jobs, Python in Excel and Google Apps Script let you run full programs on your data. AI assistants can write the code from a description of what you need.
-
-</details>
-
 - **Python in Excel:** run pandas and charts inside cells, and Copilot can write the Python for you.
 - **Google Apps Script:** automate Sheets (and call AI APIs) on schedules ([Google & Microsoft AI](55-google-and-microsoft-ai.md#-apps-script--gemini-a-tiny-robot-optional)).
 - **Office Scripts / VBA:** AI is excellent at writing and explaining macros: *"Write an Office Script that formats this table
   and highlights overdue rows."*
 
 ## 🔌 Spreadsheets as AI databases
-
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-Spreadsheets work well as simple databases for automations: a log of every run, a settings sheet that non-technical teammates can edit, and lists that workflows read and update.
-
-</details>
 
 - **Logs:** every automation run appends a row, making debugging and stats easy.
 - **Config:** a "settings" sheet (keywords, targets, recipients) that non-technical teammates can edit.
@@ -140,13 +91,6 @@ Spreadsheets work well as simple databases for automations: a log of every run, 
 Google Sheets, Excel Online and Airtable all have great nodes in n8n, Zapier and Make ([Part V](../part-5-automation/index.md)).
 
 ## 🧪 10 spreadsheet projects to try
-
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-The table lists ten spreadsheet projects where AI saves significant time, from survey analysis to expense categorization.
-
-</details>
 
 | # | Project | AI does |
 |---|---|---|
@@ -162,13 +106,6 @@ The table lists ten spreadsheet projects where AI saves significant time, from s
 | 10 | 🏠 Home maintenance tracker | Due dates and plain-English instructions per task |
 
 ## ⚠️ Pitfalls to avoid
-
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-AI in spreadsheets can make errors, and AI functions may recalculate with different results. Verify a sample by hand, use real formulas for arithmetic, convert final AI outputs to fixed values, and keep sensitive data out. The table lists each pitfall with its fix.
-
-</details>
 
 | Pitfall | Fix |
 |---|---|

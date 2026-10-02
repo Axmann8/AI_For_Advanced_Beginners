@@ -1,6 +1,6 @@
 # 33 · How Models Really Work (for Power Users) ⚙️🧠
 
-> ⏱️ 11 min read · 🎯 Beginner-friendly, no math · 🧰 Needs: nothing
+> ⏱️ 8 min read · 🎯 Beginner-friendly, no math · 🧰 Needs: nothing
 
 **You don't need a PhD to use AI brilliantly, but a dozen under-the-hood ideas explain almost every weird thing AI does:**
 why it forgets, why it's confidently wrong, why one model costs 20× another, why "thinking" models are slower, and why the
@@ -22,13 +22,6 @@ This chapter explains the concepts behind how AI models behave, without math. Un
 
 ## 🏫 How a model is made (three schools)
 
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-Models are built in three main stages. **Pre-training** on huge amounts of text builds knowledge and language skills. **Instruction tuning** teaches the model to act as a helpful assistant. **Reinforcement learning** rewards good answers and good reasoning. The table explains what each stage contributes.
-
-</details>
-
 | Stage | What happens | What it gives the model |
 |---|---|---|
 | 📚 **Pre-training** | Reads a massive amount of text (and images, code…) and learns to predict what comes next | Knowledge, language, reasoning patterns, world facts (up to a cutoff) |
@@ -39,13 +32,6 @@ The last stage is where a lot of 2024–2026 progress came from. Models practice
 code pass the tests? is the math right?) and learned to reason step by step and use tools reliably.
 
 ## 🔤 Tokens: the atoms of AI
-
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-Models read and write in tokens, chunks of text averaging about three-quarters of an English word. Tokens determine how much fits in the context window and how API usage is billed.
-
-</details>
 
 Models read and write **tokens**, chunks averaging about ¾ of an English word.
 
@@ -65,13 +51,6 @@ Models read and write **tokens**, chunks averaging about ¾ of an English word.
   `str` + `aw` + `berry`, not letters. (The fix is to let it use a code tool.)
 
 ## 🪟 The context window: the model's working memory
-
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-The context window is everything the model can consider at once: instructions, tool descriptions, the conversation, attached files, tool results and its own reply. When a conversation exceeds it, earlier content is dropped or summarized, which is why long chats can lose details.
-
-</details>
 
 The **context window** is everything the model can "see" at once: system instructions + tool descriptions + your
 conversation + attached files + tool results + its own reply. Modern frontier models handle **hundreds of thousands to
@@ -96,13 +75,6 @@ flowchart LR
 
 ## 🎲 Next-token prediction (and why hallucinations happen)
 
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-A model generates text by repeatedly predicting the most plausible next token. Usually plausible matches correct, but when the model lacks the information it still produces plausible-sounding text, which is a hallucination. Supplying sources and tools reduces this.
-
-</details>
-
 At its core, a model repeatedly predicts **the most plausible next token**. Training on huge amounts of text makes
 "plausible" line up with "correct" most of the time, but not always.
 
@@ -122,13 +94,6 @@ up* instead of guessing, and asking for citations lets *you* check. That's why P
 
 ## 📅 Training cutoff vs. live knowledge
 
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-Every model has a knowledge cutoff. For anything more recent, it needs a web search tool, information you paste or attach, or a connector to a live data source.
-
-</details>
-
 Every model has a **knowledge cutoff**. After that date it simply doesn't know things, unless:
 
 - It has a **web search** tool (most chat apps do),
@@ -138,13 +103,6 @@ Every model has a **knowledge cutoff**. After that date it simply doesn't know t
 > 💡 If a model insists a product doesn't exist or uses an outdated API, it's probably running into its cutoff. Hand it the docs.
 
 ## 🤔 Reasoning ("thinking") models
-
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-Reasoning models work through a problem before answering, exploring approaches and checking their work. This takes longer but substantially improves results on math, logic, planning and coding. The table compares quick and thinking modes.
-
-</details>
 
 Most frontier models can now **think before answering**. They produce hidden or summarized reasoning, explore approaches,
 check their work, and *then* respond.
@@ -160,13 +118,6 @@ max). Crank it up for hard, high-stakes problems, and turn it down for high-volu
 
 ## 🌡️ Randomness & variation
 
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-Models sample from likely next tokens, so the same prompt can produce different outputs. Some APIs offer a temperature setting to control variation. If several answers to the same question disagree significantly, treat that as a sign the model is uncertain.
-
-</details>
-
 Models *sample* from probable next tokens, so outputs vary. Some APIs expose a **temperature** control (low = focused and
 repeatable, high = creative and varied). Many newer reasoning models manage this internally and don't let you set it.
 
@@ -174,13 +125,6 @@ repeatable, high = creative and varied). Many newer reasoning models manage this
 uncertainty signal. For automations that need consistency, ask for **structured output** (JSON with fixed fields).
 
 ## 🎭 System prompts, roles & the "harness"
-
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-Apps add instructions you don't see: a system prompt (personality, rules, formatting), tool definitions and other context. This surrounding "harness" is why the same model can behave quite differently in different apps.
-
-</details>
 
 What you type isn't the whole input. Apps wrap your message with:
 
@@ -195,13 +139,6 @@ write project instructions or a `CLAUDE.md`, you're adding to it.
 
 ## 🔧 Tool calling: how AI "does" things
 
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-A model can't take actions directly. When it wants to use a tool, it outputs a structured request with the tool name and inputs; the app runs the tool and returns the result to the model, which then continues.
-
-</details>
-
 Tool use is just a special output format. The model is shown a list of tools (name + description + parameters as JSON
 Schema), and when it wants to act, it outputs something like:
 
@@ -214,13 +151,6 @@ That makes the app responsible for permissions and safety, which is why "ask bef
 
 ## 👁️ Multimodality: seeing and hearing
 
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-Modern models accept images, PDFs, screenshots, audio and sometimes video as input, while separate models generate images, audio and video. This is especially useful for debugging from screenshots and reading charts or documents.
-
-</details>
-
 Modern models natively take **images, PDFs, screenshots, audio, and sometimes video** as input, and separate models
 *generate* images, audio and video. That's a superpower for:
 
@@ -230,13 +160,6 @@ Modern models natively take **images, PDFs, screenshots, audio, and sometimes vi
 - **Accessibility:** describing images, reading documents aloud ([Accessibility & AI](../part-11-ai-for-life-and-work/101-accessibility-and-ai.md)).
 
 ## 🏷️ Model families & tiers: which brain for which job
-
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-Each AI company offers a family of models in tiers: large flagship models for the hardest tasks, mid-size models for everyday work, and small, fast models for simple tasks at high volume. The table shows examples and when to use each tier.
-
-</details>
 
 Every big lab ships a **family** with tiers. Names change often, but the *shape* doesn't:
 
@@ -255,13 +178,6 @@ Every big lab ships a **family** with tiers. Names change often, but the *shape*
 4. Use **leaderboards** as a hint, but your own test on *your* task is the real benchmark ([Evaluating & Comparing AI](../part-12-mastery/105-evaluating-ai.md)).
 
 ## 🧯 Debugging AI with these ideas
-
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-When a model behaves unexpectedly, the cause is usually one of a few things: overflowing context, missing sources, randomness or conflicting instructions. The table pairs each symptom with its likely cause and a fix.
-
-</details>
 
 | Symptom | Likely cause | Fix |
 |---|---|---|
