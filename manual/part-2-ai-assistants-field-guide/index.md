@@ -42,7 +42,7 @@ Many companies make AI assistants, and each one has different strengths, feature
 
     ---
 
-    <span class="card-meta">⏱️ 7 min read · 🎯 Everyone choosing, switching or just curious</span>
+    <span class="card-meta">⏱️ 6 min read · 🎯 Everyone choosing, switching or just curious</span>
 
     Every major AI assistant on one page. Who makes it, where it lives, what the free version gets you, what each is brilliant at, how they feel to talk to, and how they treat your data.
 
@@ -50,7 +50,7 @@ Many companies make AI assistants, and each one has different strengths, feature
 
     ---
 
-    <span class="card-meta">⏱️ 13 min read · 🎯 Beginners to advanced beginners</span>
+    <span class="card-meta">⏱️ 11 min read · 🎯 Beginners to advanced beginners</span>
 
     ChatGPT is the assistant that started the AI boom in late 2022, and it's still the most-used AI app in the world.
 
@@ -58,7 +58,7 @@ Many companies make AI assistants, and each one has different strengths, feature
 
     ---
 
-    <span class="card-meta">⏱️ 12 min read · 🎯 Beginners to advanced beginners</span>
+    <span class="card-meta">⏱️ 9 min read · 🎯 Beginners to advanced beginners</span>
 
     Gemini is Google's AI assistant, and its superpower is Google itself. It's built into Android phones, Chrome, Gmail, Docs, Google Home and more, and (if you let it) it can use your own Gmail, Calendar, Photos and Drive to give answers that are truly personal.
 
@@ -66,7 +66,7 @@ Many companies make AI assistants, and each one has different strengths, feature
 
     ---
 
-    <span class="card-meta">⏱️ 11 min read · 🎯 Beginners to advanced beginners</span>
+    <span class="card-meta">⏱️ 8 min read · 🎯 Beginners to advanced beginners</span>
 
     Claude is Anthropic's assistant, loved for writing that sounds human, careful thinking, and working brilliantly with long documents.
 
@@ -74,7 +74,7 @@ Many companies make AI assistants, and each one has different strengths, feature
 
     ---
 
-    <span class="card-meta">⏱️ 8 min read · 🎯 Windows, Office and Outlook users</span>
+    <span class="card-meta">⏱️ 6 min read · 🎯 Windows, Office and Outlook users</span>
 
     Copilot is Microsoft's AI assistant, and it lives where millions of people already work: Windows, the Edge browser, Word, Excel, PowerPoint, Outlook and Teams.
 
@@ -82,7 +82,7 @@ Many companies make AI assistants, and each one has different strengths, feature
 
     ---
 
-    <span class="card-meta">⏱️ 8 min read · 🎯 Beginners to advanced beginners</span>
+    <span class="card-meta">⏱️ 6 min read · 🎯 Beginners to advanced beginners</span>
 
     Grok is the AI assistant from xAI, Elon Musk's AI company (now part of SpaceX), and it's built right into X (formerly Twitter).
 
@@ -90,7 +90,7 @@ Many companies make AI assistants, and each one has different strengths, feature
 
     ---
 
-    <span class="card-meta">⏱️ 8 min read · 🎯 Beginners to advanced beginners</span>
+    <span class="card-meta">⏱️ 6 min read · 🎯 Beginners to advanced beginners</span>
 
     Perplexity calls itself an "answer engine": ask a question and you get a clear, written answer with numbered sources you can click, like a search engine and a research assistant rolled into one.
 
@@ -98,7 +98,7 @@ Many companies make AI assistants, and each one has different strengths, feature
 
     ---
 
-    <span class="card-meta">⏱️ 7 min read · 🎯 WhatsApp, Instagram and Facebook users</span>
+    <span class="card-meta">⏱️ 6 min read · 🎯 WhatsApp, Instagram and Facebook users</span>
 
     Meta AI is the assistant you probably already have: it's built into WhatsApp, Instagram, Messenger and Facebook, used by billions of people.
 
@@ -106,7 +106,7 @@ Many companies make AI assistants, and each one has different strengths, feature
 
     ---
 
-    <span class="card-meta">⏱️ 6 min read · 🎯 Curious beginners and budget-minded users</span>
+    <span class="card-meta">⏱️ 5 min read · 🎯 Curious beginners and budget-minded users</span>
 
     DeepSeek shook the AI world in January 2025, when a small Chinese lab released a free reasoning model that rivaled the best in the West, and published it openly for anyone to download.
 
@@ -114,7 +114,7 @@ Many companies make AI assistants, and each one has different strengths, feature
 
     ---
 
-    <span class="card-meta">⏱️ 5 min read · 🎯 Beginners, Europeans and privacy-minded users</span>
+    <span class="card-meta">⏱️ 4 min read · 🎯 Beginners, Europeans and privacy-minded users</span>
 
     Le Chat is the assistant from Mistral AI, France's AI champion and Europe's leading AI lab.
 
@@ -122,7 +122,7 @@ Many companies make AI assistants, and each one has different strengths, feature
 
     ---
 
-    <span class="card-meta">⏱️ 6 min read · 🎯 Curious explorers, multilingual users and travelers</span>
+    <span class="card-meta">⏱️ 5 min read · 🎯 Curious explorers, multilingual users and travelers</span>
 
     The AI world isn't just Silicon Valley. Some of the most impressive (and most openly shared) AI models now come from China, and there are excellent assistants built for Europe, India, Korea, the Middle East and beyond.
 
@@ -130,7 +130,7 @@ Many companies make AI assistants, and each one has different strengths, feature
 
     ---
 
-    <span class="card-meta">⏱️ 7 min read · 🎯 iPhone, Echo, Galaxy and Pixel owners</span>
+    <span class="card-meta">⏱️ 6 min read · 🎯 iPhone, Echo, Galaxy and Pixel owners</span>
 
     The assistants built into your devices have had a glow-up. Siri was rebuilt with Apple Intelligence and Google's Gemini models, Alexa+ turned Amazon's speakers into real conversationalists, Gemini replaced Google Assistant on Android and Nest, and Samsung's Galaxy AI translates phone calls live.
 
@@ -138,7 +138,7 @@ Many companies make AI assistants, and each one has different strengths, feature
 
     ---
 
-    <span class="card-meta">⏱️ 7 min read · 🎯 Explorers, privacy fans, learners and the curious</span>
+    <span class="card-meta">⏱️ 6 min read · 🎯 Explorers, privacy fans, learners and the curious</span>
 
     Beyond the big-name assistants there's a whole ecosystem of clever AI apps: hubs that give you many models in one place, privacy-first chatbots that don't keep your data, character and companion apps, AI tutors, and specialist tools for writing, meetings and more.
 
@@ -146,7 +146,7 @@ Many companies make AI assistants, and each one has different strengths, feature
 
     ---
 
-    <span class="card-meta">⏱️ 7 min read (plus an evening of fun testing) · 🎯 Anyone choosing or combining assistants</span>
+    <span class="card-meta">⏱️ 6 min read (plus an evening of fun testing) · 🎯 Anyone choosing or combining assistants</span>
 
     Which AI is best? The honest answer is "best at what, for whom?" This chapter runs ten everyday challenges across the major assistants and explains which ones tend to shine at each task and why (usually because of a specific feature).
 
@@ -154,7 +154,7 @@ Many companies make AI assistants, and each one has different strengths, feature
 
     ---
 
-    <span class="card-meta">⏱️ 6 min read · 🎯 Anyone with more than one favorite</span>
+    <span class="card-meta">⏱️ 5 min read · 🎯 Anyone with more than one favorite</span>
 
     You don't have to pick just one. Plenty of savvy users keep a main assistant plus one or two specialists, pass work between them, and use them to double-check each other.
 

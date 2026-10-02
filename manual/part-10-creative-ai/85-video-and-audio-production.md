@@ -1,6 +1,6 @@
 # 85 · Video & Audio Production with AI 🎬🎧
 
-> ⏱️ 8 min read · 🎯 Beginner → intermediate creators · 🧰 Needs: a video tool (Veo in Gemini, Kling, Runway…), ElevenLabs or similar, and an editor like CapCut or Descript
+> ⏱️ 7 min read · 🎯 Beginner → intermediate creators · 🧰 Needs: a video tool (Veo in Gemini, Kling, Runway…), ElevenLabs or similar, and an editor like CapCut or Descript
 
 **You can now produce a narrated short film, a podcast episode or a music video from your laptop in an afternoon.** This
 chapter covers the toolbox (generation, editing, voice, music), how to prompt video models like a cinematographer, and four
@@ -22,13 +22,6 @@ AI tools now handle most stages of video and audio production: generating clips 
 <!-- in-this-chapter -->
 
 ## 🧰 The toolbox
-
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-Video and audio production uses four kinds of tools: video generators (Veo, Sora, Runway, Kling), editors (CapCut, Descript), voice tools (ElevenLabs) and music generators (Suno, Udio). The tables compare them.
-
-</details>
 
 ### 🎥 Video generation
 
@@ -68,13 +61,6 @@ Video and audio production uses four kinds of tools: video generators (Veo, Sora
 
 ## 🎥 Prompting video models like a cinematographer
 
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-Describe a video shot the way a cinematographer would: subject, action, setting, camera movement, lighting, style, sound and duration, as in the example below.
-
-</details>
-
 Include: **subject + action + setting + camera + lighting + style + sound + duration**.
 
 > *Close-up of an old lighthouse keeper's weathered hands lighting an oil lamp, warm flicker on his face, storm raging through
@@ -100,18 +86,6 @@ Include: **subject + action + setting + camera + lighting + style + sound + dura
 
 ## 🎞️ Pipeline 1: The 60-second AI short film
 
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-This pipeline produces a 60-second short film.
-
-1. Write a script with six shots using Claude.
-2. Generate a still image for each shot to lock in the look.
-3. Animate each image into a video clip.
-4. Add narration and music, then edit the clips together.
-
-</details>
-
 ```mermaid
 flowchart LR
     S[✍️ Script<br/>Claude] --> SB[🖼️ Storyboard<br/>image model] --> V[🎥 Shots<br/>Veo / Kling / Runway] --> VO[🗣️ Voiceover<br/>ElevenLabs] --> M[🎵 Music<br/>Suno] --> E[✂️ Edit<br/>CapCut / Descript]
@@ -130,17 +104,6 @@ from reusing reference images.
 
 ## 🎙️ Pipeline 2: The effortless podcast
 
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-This pipeline produces a polished podcast episode.
-
-1. Record on any device, then use Adobe Podcast Enhance for studio-quality sound.
-2. Transcribe and edit in Descript by deleting words from the transcript.
-3. Have AI write show notes, titles and social clips.
-
-</details>
-
 1. **Record** on anything (even your phone), then run **Adobe Podcast Enhance** for studio sound.
 2. **Transcribe + edit** in Descript: delete words in the transcript to cut the audio, and remove "ums" in one click.
 3. **Show notes:** Claude turns the transcript into a summary, timestamps, key quotes and links.
@@ -152,17 +115,6 @@ Or go meta: **Gemini Notebook Audio Overviews** turn your documents into a two-h
 
 ## 📺 Pipeline 3: The faceless YouTube explainer
 
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-This pipeline produces an explainer video without appearing on camera.
-
-1. Research and write the script with Claude and web search.
-2. Generate a voiceover in ElevenLabs, or record your own.
-3. Add visuals (stock footage, generated images or screen recordings) and captions.
-
-</details>
-
 1. **Research + script** with Claude (+ web search): hook, 3 key points, examples, call to action.
 2. **Voiceover** in ElevenLabs, or record yourself (your real voice builds more trust).
 3. **Visuals:** a mix of AI images and clips, screen recordings and stock footage. Descript or CapCut can auto-match b-roll to
@@ -171,17 +123,6 @@ This pipeline produces an explainer video without appearing on camera.
 5. **Automate distribution:** publish → auto-generate a description, tags and social posts ([Zapier & Make](../part-5-automation/49-zapier-and-make-walkthroughs.md)).
 
 ## 👵 Pipeline 4: The family memory video
-
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-This pipeline turns old family photos into a narrated video.
-
-1. Scan the photos with a phone scanning app.
-2. Restore and colorize them gently, keeping faces unchanged.
-3. Animate a few with subtle motion, then add narration and soft music.
-
-</details>
 
 1. **Scan** old photos (a phone scanning app works great).
 2. **Restore and colorize** gently: *"Repair scratches and colorize naturally. Keep faces exactly as they are."*
@@ -197,13 +138,6 @@ This pipeline turns old family photos into a narrated video.
 
 ## 🌍 Dubbing, translation & accessibility
 
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-AI can add accurate captions, translate videos into other languages, and dub them with a voice that matches the original speaker. Captions also make your content accessible and are important because most social video is watched without sound.
-
-</details>
-
 | Task | Tools | Why |
 |---|---|---|
 | **Captions** | CapCut, Descript, YouTube auto-captions + a quick fix | Most social video is watched on mute, and captions help deaf and hard-of-hearing viewers |
@@ -212,13 +146,6 @@ AI can add accurate captions, translate videos into other languages, and dub the
 | **Transcripts** | Whisper, Descript | Searchable, quotable, better SEO |
 
 ## ✅ Production checklist
-
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-Before publishing, check this list: a tight script, consistent visuals, clean audio, captions, disclosure where appropriate and the right format for each platform.
-
-</details>
 
 - [ ] Script tight? (Read it out loud; cut 20%.)
 - [ ] Consistent characters and style across shots?
@@ -230,13 +157,6 @@ Before publishing, check this list: a tight script, consistent visuals, clean au
 - [ ] Your own backup copies saved?
 
 ## ⚖️ Ethics & consent
-
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-Clone voices only with explicit consent, never create deceptive deepfakes of real people, label AI-generated content where viewers could be misled, and follow each platform's disclosure rules.
-
-</details>
 
 - **Only clone voices with explicit consent** (your own, or with written permission).
 - **Never** create deceptive deepfakes of real people. Label AI-generated media where people could be misled.

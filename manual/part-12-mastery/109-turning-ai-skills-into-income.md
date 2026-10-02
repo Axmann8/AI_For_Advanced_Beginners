@@ -1,6 +1,6 @@
 # 109 · Turning AI Skills into Income 💼💰
 
-> ⏱️ 9 min read · 🎯 Anyone who wants their new AI skills to pay off: a raise, a side hustle or a business · 🧰 Needs: 2–3 projects from this manual that you've actually built
+> ⏱️ 7 min read · 🎯 Anyone who wants their new AI skills to pay off: a raise, a side hustle or a business · 🧰 Needs: 2–3 projects from this manual that you've actually built
 
 **Everything in this manual is a valuable skill: automations, agents, RAG bots, MCP servers, content pipelines, prompt systems.**
 Plenty of businesses and teams want these things and don't have time to learn them. This chapter maps the honest, sustainable
@@ -24,13 +24,6 @@ The skills in this manual are valuable to employers and clients. Many businesses
 
 ## 🗺️ Four paths to income
 
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-There are four main ways to earn from AI skills, each with a different speed to first income and long-term potential. The table compares them.
-
-</details>
-
 | Path | What it looks like | Speed to first $ | Upside |
 |---|---|---|---|
 | 📈 **Level up at work** | Automate your team's pain, become the go-to AI person | ⚡ Fast | Raises, promotions, new roles |
@@ -45,18 +38,6 @@ There are four main ways to earn from AI skills, each with a different speed to 
 
 ## 📈 Path 1: Level up in your current job
 
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-To advance in your current job:
-
-1. Identify the most repetitive or frustrating task on your team.
-2. Build a small solution using approved tools.
-3. Measure the time saved and share the result.
-4. Offer to help colleagues with similar problems.
-
-</details>
-
 1. **Find the pain:** *"What's the most repetitive, annoying task on our team?"*
 2. **Build a small fix** with approved tools: a report automation, a triage bot, a template system ([Automation Recipe Book](../part-5-automation/52-automation-recipe-book.md)).
 3. **Measure it:** hours saved per week, errors reduced, faster responses.
@@ -64,13 +45,6 @@ To advance in your current job:
 5. **Put it on your résumé:** *"Built an automation that saves the team 6 hours a week."* ([Careers & Job Hunting](../part-11-ai-for-life-and-work/94-careers-and-job-hunting.md#-your-ai-skills-are-a-career-asset))
 
 ## 🧑‍💼 Path 2: Freelance services people pay for
-
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-Businesses commonly pay for workflow automation, AI chatbots, document processing, content systems and AI training. The table shows who needs each service and which chapters teach the skills.
-
-</details>
 
 | Service | Who needs it | Built from |
 |---|---|---|
@@ -88,13 +62,6 @@ platforms, and n8n or Make community showcases. **A warm introduction beats a hu
 
 ## 📦 Path 3: Productized services
 
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-A productized service is one clearly defined offer with a fixed price and a predictable result, such as "AI receptionist setup in one week." It's easier to sell and deliver than custom work. The table gives examples.
-
-</details>
-
 A productized service is **one clear offer, one clear price, one clear result**:
 
 | Offer | Includes |
@@ -109,13 +76,6 @@ toward **monthly retainers** for maintenance and improvements.
 
 ## 🛍️ Path 4: Digital products
 
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-Digital products such as templates, courses, small apps and prompt packs are created once and sold many times. They take longer to earn from but can provide ongoing income. The table lists examples.
-
-</details>
-
 | Product | Examples |
 |---|---|
 | 🧩 **Templates** | n8n workflows, Notion systems, prompt packs, Claude skills and plugins |
@@ -127,13 +87,6 @@ Digital products such as templates, courses, small apps and prompt packs are cre
 **Niche down:** "AI tips for everyone" is crowded. "AI workflows for independent physiotherapists" has almost no competition. 🎯
 
 ## 💲 Pricing without panic
-
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-Price based on the value you deliver, not only the hours you spend, especially since AI makes you faster. Hourly pricing suits early or undefined projects; fixed and value-based pricing suit clear deliverables. The table compares models.
-
-</details>
 
 | Model | When | Tip |
 |---|---|---|
@@ -151,13 +104,6 @@ Price based on the value you deliver, not only the hours you spend, especially s
 > pays those directly. That keeps things transparent and avoids surprise bills ([Cost Optimization](106-cost-optimization.md)).
 
 ## 📄 Portfolio, proposals & case studies
-
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-A portfolio of two or three projects is enough: for each, show a short demo, the problem, what you built and the measurable result. Proposals should state the problem, solution, timeline and price clearly.
-
-</details>
 
 **Your portfolio (2–3 projects is enough):** a short video demo, the problem, what you built, and the result in numbers.
 
@@ -187,13 +133,6 @@ client's permission before sharing.
 
 ## 🚀 Delivering like a pro
 
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-Deliver professionally: understand the workflow before automating it, start with one working piece, test thoroughly, document and train the client, and follow up after launch.
-
-</details>
-
 - **Discovery first:** understand the workflow before automating it.
 - **Start small:** one workflow live and working beats five half-built.
 - **Test with real data** (with permission), including edge cases ([Evaluating AI](105-evaluating-ai.md)).
@@ -202,13 +141,6 @@ Deliver professionally: understand the workflow before automating it, start with
 - **Check in** at 2 and 6 weeks. That's where retainers and referrals come from.
 
 ## 🚩 Spotting "get rich with AI" scams
-
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-Be wary of offers promising fast, passive AI income in exchange for buying a course. Sustainable income takes time and comes from solving real problems for real customers. The table lists common red flags.
-
-</details>
 
 | 🚩 Red flag | Reality |
 |---|---|
@@ -221,13 +153,6 @@ Be wary of offers promising fast, passive AI income in exchange for buying a cou
 **Your edge is real skill + real problems solved + honesty.** That compounds. Hype doesn't. 💪
 
 ## 🗓️ Your 90-day plan
-
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-This 90-day plan moves from building portfolio projects, to serving your first clients, to packaging a repeatable offer.
-
-</details>
 
 | Days | Mission |
 |---|---|

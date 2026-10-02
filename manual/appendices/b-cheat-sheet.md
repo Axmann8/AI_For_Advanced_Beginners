@@ -19,13 +19,6 @@ This cheat sheet condenses the manual's most important ideas, commands and check
 
 ## 🧠 The core ideas
 
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-These six principles summarize the manual's most important lessons.
-
-</details>
-
 - **Agent = model + tools + loop + stopping rule.** ([Build Your Own Agent](../part-7-building-with-ai/68-build-your-own-agent.md))
 - **Context is king.** Most AI failures are "it couldn't see what I see." Fix with connectors, MCP, documents and memory.
 - **Deterministic where you can, AI where you must.** Plain automation moves data, and AI does the fuzzy steps.
@@ -34,13 +27,6 @@ These six principles summarize the manual's most important lessons.
 - **Try > read.** Ten minutes hands-on beats an hour of hot takes.
 
 ## 🤖 Assistant quick reference
-
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-This table shows where to find the most useful features in ChatGPT, Gemini, Claude, Copilot and Perplexity.
-
-</details>
 
 | Want… | 💬 ChatGPT | ✨ Gemini | 🧡 Claude | 🪟 Copilot | 🔎 Perplexity |
 |---|---|---|---|---|---|
@@ -56,13 +42,6 @@ Full guides: [Part II · The AI Assistants Field Guide](../part-2-ai-assistants-
 
 ## 🪜 The knowledge ladder
 
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-The knowledge ladder lists the ways to give AI your information, from simplest to most involved.
-
-</details>
-
 **Paste it → Projects → Gemini Notebook → Connectors/MCP → Memory → Build your own RAG**
 ([RAG, Memory & Knowledge](../part-8-knowledge-and-memory/72-rag-memory-and-knowledge.md))
 
@@ -70,13 +49,6 @@ A few documents? **Paste them.** A study pile? **Gemini Notebook.** Live work da
 in your own app? **RAG.**
 
 ## 🔌 MCP quick reference
-
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-These commands and configuration snippets add MCP servers to the most common AI apps.
-
-</details>
 
 ```bash
 # Claude Code
@@ -102,13 +74,6 @@ npx @modelcontextprotocol/inspector <command> <args>
 
 ## ⚙️ The automation pattern
 
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-Every automation follows the same pattern: trigger, gather, AI, route, act. The table recommends a platform for each need.
-
-</details>
-
 ```
 ⚡ Trigger → 📥 Gather → 🤖 AI step → 🔀 Route → 📤 Act   (+ 🧑 human approval for anything outbound)
 ```
@@ -121,13 +86,6 @@ Every automation follows the same pattern: trigger, gather, AI, route, act. The 
 | Phone and desktop | Shortcuts, Tasker, Power Automate |
 
 ## 🧑‍💻 Claude Code essentials
-
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-These are the most useful Claude Code keys and commands.
-
-</details>
 
 | Key / command | Does |
 |---|---|
@@ -145,13 +103,6 @@ These are the most useful Claude Code keys and commands.
 
 ## 🌳 Git in 8 commands
 
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-These eight Git commands cover nearly all everyday version control.
-
-</details>
-
 ```bash
 git status          # what changed?
 git diff            # show me exactly
@@ -166,13 +117,6 @@ git log --oneline   # history
 ([Git & GitHub](../part-7-building-with-ai/61-git-and-github.md))
 
 ## 🐍 API quick reference
-
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-This is a minimal Claude API program, followed by the key options for streaming, structured output, tools and more.
-
-</details>
 
 ```python
 import anthropic
@@ -195,26 +139,12 @@ print(r.content[0].text, r.usage)
 
 ## 🏷️ Picking a model
 
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-Start with a mid-tier "workhorse" model, move up a tier for difficult tasks, move down for simple high-volume tasks, and use local models for sensitive data.
-
-</details>
-
 1. Start with the **workhorse tier** (fast + smart).
 2. Struggling? **Move up** a tier or raise the effort.
 3. Running it thousands of times? **Move down** and test with your eval.
 4. Private or offline? **Local model** (Ollama / LM Studio).
 
 ## 🏠 Local AI in 5 commands
-
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-These commands install and run local models, along with a rule of thumb for how much memory each model needs.
-
-</details>
 
 ```bash
 ollama run gemma4          # chat with a local model
@@ -228,48 +158,20 @@ ollama launch claude       # Claude Code on local models
 
 ## 📚 RAG in 4 moves
 
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-A RAG system works in four steps: chunk, embed, search and answer from the retrieved sources with citations.
-
-</details>
-
 **Chunk → Embed → Search → Answer ("use ONLY these sources, cite them, say if you don't know")**
 
 Not enough? Hybrid search · reranking · contextual chunks · agentic retrieval · or just put the whole doc in context.
 
 ## 🌐 HTTP status codes
 
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-HTTP status codes in the 200s mean success, the 400s mean a problem with your request, and the 500s mean a problem on the server.
-
-</details>
-
 `200` ✅ · `201` created · `400` bad request · `401/403` auth problem · `404` not found · `429` slow down · `5xx` their problem
 
 ## 💸 Cost savers (in order)
-
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-These cost-saving techniques are listed in order, starting with those that don't affect quality.
-
-</details>
 
 Caching → trim input → filter before AI → dedupe → batch → lower effort → smaller model (routing) → local model.
 **Always set spend limits.** ([Cost Optimization](../part-12-mastery/106-cost-optimization.md))
 
 ## 🛡️ Safety pre-flight
-
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-Confirm each item on this checklist before letting an automation or agent run unattended.
-
-</details>
 
 - [ ] Spend limit set
 - [ ] Tested on a small batch
@@ -280,13 +182,6 @@ Confirm each item on this checklist before letting an automation or agent run un
 
 ## 🚦 Privacy traffic lights
 
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-Share green-category information freely, yellow with care, and red never, or only with local models.
-
-</details>
-
 | 🟢 Share freely | 🟡 Share with care | 🔴 Never (or go local) |
 |---|---|---|
 | General questions, public info, your creative writing | Work docs (approved tools), redacted finances, health questions without IDs | Passwords, card and ID numbers, others' private info, confidential client data |
@@ -295,36 +190,15 @@ Share green-category information freely, yellow with care, and red never, or onl
 
 ## 🧪 The 15-minute eval
 
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-A fair evaluation uses the same tasks for every option, clear scoring criteria and blind comparison.
-
-</details>
-
 10–20 real tasks → write what "good" means → run each option → **score blind** → tally quality, cost and speed.
 ([Evaluating AI](../part-12-mastery/105-evaluating-ai.md))
 
 ## 🎓 Learning with AI
 
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-Use AI to strengthen your learning: attempt problems first, ask for hints rather than answers, explain concepts back and quiz yourself regularly.
-
-</details>
-
 Try first → ask for hints, not answers → explain it back (Feynman) → quiz yourself (active recall) → flashcards (spaced
 repetition) → verify important facts. ([Research & Learning](../part-11-ai-for-life-and-work/91-research-and-learning.md))
 
 ## 🎮 Ten prompts to try right now
-
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-These ten prompts demonstrate a wide range of what AI can do. Copy them and adapt the details.
-
-</details>
 
 1. *"What are the 3 things I've worked on most this month, based on my recent files?"* (Drive/Notion connector)
 2. *"Summarize my unread email: action needed, FYI, junk."*

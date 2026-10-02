@@ -27,13 +27,6 @@ This chapter is a library of 101 ready-to-use prompts, organized by area of life
 
 ## 🏠 Home & family
 
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-These prompts help with running a household: chore charts, family schedules, organizing projects and small repairs.
-
-</details>
-
 | # | Prompt |
 |---|---|
 | 1 | *"Create a fair weekly chore chart for [2 adults and kids aged 8 and 12]. Make it a table, with age-appropriate jobs and one day off each."* |
@@ -51,13 +44,6 @@ These prompts help with running a household: chore charts, family schedules, org
 
 ## 🍳 Food & cooking
 
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-These prompts cover meal ideas, weekly plans, shopping lists, recipe adjustments and using up leftovers.
-
-</details>
-
 | # | Prompt |
 |---|---|
 | 13 | *"I have [chicken thighs, rice, frozen peas, garlic and lemons]. What can I make tonight in [30 minutes]? Give me 3 options."* |
@@ -72,13 +58,6 @@ These prompts cover meal ideas, weekly plans, shopping lists, recipe adjustments
 | 22 | *"What wine or drink would go well with [mushroom risotto]? Include a non-alcoholic option."* |
 
 ## 💰 Money & paperwork
-
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-These prompts help you understand bills, build a budget and handle paperwork. Always remove account numbers, card numbers and passwords before pasting a document.
-
-</details>
 
 > [!WARNING]
 > **⚠️ Remove private numbers first**
@@ -100,13 +79,6 @@ These prompts help you understand bills, build a budget and handle paperwork. Al
 
 ## 💼 Work & career
 
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-These prompts help with professional emails, CVs, interview practice, meetings and salary conversations. Check your employer's AI policy before pasting work documents.
-
-</details>
-
 | # | Prompt |
 |---|---|
 | 33 | *"Rewrite this email to sound more professional but still friendly: [paste email]."* |
@@ -121,13 +93,6 @@ These prompts help with professional emails, CVs, interview practice, meetings a
 | 42 | *"I'm thinking of changing careers from [teaching] to [something else]. Ask me questions about my skills and interests, then suggest 5 options."* |
 
 ## 📚 Learning & curiosity
-
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-These prompts help you learn anything: clear explanations, practice quizzes, study plans and answers to "why" questions.
-
-</details>
 
 | # | Prompt |
 |---|---|
@@ -144,13 +109,6 @@ These prompts help you learn anything: clear explanations, practice quizzes, stu
 
 ## ✍️ Writing & messages
 
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-These prompts help you write cards, invitations, social posts, speeches and difficult messages.
-
-</details>
-
 | # | Prompt |
 |---|---|
 | 53 | *"Write [3] versions of a birthday message for [my sister, who loves cats and terrible puns]."* |
@@ -165,13 +123,6 @@ These prompts help you write cards, invitations, social posts, speeches and diff
 | 62 | *"Write a thank-you message to [my child's teacher] at the end of the school year."* |
 
 ## ❤️ Health & wellbeing (information, not diagnosis)
-
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-These prompts help you understand health information and prepare questions for appointments. AI is not a substitute for a medical professional; for anything urgent or worrying, contact a doctor or emergency services.
-
-</details>
 
 > [!CAUTION]
 > **🛑 AI is not your doctor**
@@ -191,13 +142,6 @@ These prompts help you understand health information and prepare questions for a
 
 ## ✈️ Travel & outings
 
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-These prompts help plan trips and outings, from itineraries and packing lists to local customs and getting around.
-
-</details>
-
 | # | Prompt |
 |---|---|
 | 71 | *"Plan a relaxed [3-day] trip to [Edinburgh] for [two adults who love food and history], with not too much walking."* |
@@ -210,13 +154,6 @@ These prompts help plan trips and outings, from itineraries and packing lists to
 | 78 | *"Write a polite message to our [Airbnb host] asking about [early check-in and parking]."* |
 
 ## 🎉 Fun & creativity
-
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-These prompts are for entertainment and creativity: games, stories, quizzes, poems and creative projects.
-
-</details>
 
 | # | Prompt |
 |---|---|
@@ -233,13 +170,6 @@ These prompts are for entertainment and creativity: games, stories, quizzes, poe
 
 ## 📱 Tech help
 
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-These prompts get step-by-step help with phone and computer problems, explained in plain language.
-
-</details>
-
 | # | Prompt |
 |---|---|
 | 89 | *"I'm not good with technology. Explain step by step how to [back up the photos on my iPhone]."* |
@@ -252,13 +182,6 @@ These prompts get step-by-step help with phone and computer problems, explained 
 | 96 | *"Write a simple Excel formula to [add up column B only when column A says 'Paid']. Explain how to use it."* |
 
 ## 🤝 Relationships & tricky conversations
-
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-These prompts help you prepare for difficult conversations: deciding what to say, wording it kindly, and practicing through role-play.
-
-</details>
 
 | # | Prompt |
 |---|---|

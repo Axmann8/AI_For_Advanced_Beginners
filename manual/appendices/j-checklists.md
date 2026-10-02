@@ -20,13 +20,6 @@ These checklists cover the moments where a quick review prevents problems: getti
 
 ## 🐣 Absolute beginner's starter checklist
 
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-Use this checklist if you've never used an AI assistant: choose one, secure your account, adjust key settings and have your first conversations.
-
-</details>
-
 - [ ] Choose **one** assistant ([Choosing Your First AI Assistant](../part-1-ai-from-zero/04-choosing-your-first-assistant.md))
 - [ ] Install the **official app** (check the developer name) and sign in
 - [ ] Turn on **two-step verification**
@@ -39,13 +32,6 @@ Use this checklist if you've never used an AI assistant: choose one, secure your
 
 ## 🛡️ Scam-proof your family
 
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-These steps protect your family from AI-powered scams such as cloned voices and deepfakes.
-
-</details>
-
 - [ ] Agree a **family safe word** for emergency calls
 - [ ] Tell older relatives and teens about **voice-cloning** scams
 - [ ] Rule: **hang up and call back** on a known number before sending money
@@ -57,13 +43,6 @@ These steps protect your family from AI-powered scams such as cloned voices and 
 
 ## 🚀 Your first week with AI
 
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-These seven steps, one per day, establish your first AI habits.
-
-</details>
-
 - [ ] Pick **one main assistant** and set custom instructions about you ([Your First Hour](../start-here/b-your-first-hour.md))
 - [ ] Try **voice mode** on a walk
 - [ ] Show it a **photo** and ask about it
@@ -73,13 +52,6 @@ These seven steps, one per day, establish your first AI habits.
 - [ ] Teach **one person** something you learned 💛
 
 ## 🛡️ Safety pre-flight (before anything runs unattended)
-
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-Confirm each item before letting any automation or agent run unattended.
-
-</details>
 
 - [ ] **Spend limit** and alerts set in every API console
 - [ ] **Tested on a small batch** first
@@ -91,13 +63,6 @@ Confirm each item before letting any automation or agent run unattended.
 ([Safety, Costs & Gotchas](../part-12-mastery/103-safety-costs-and-gotchas.md))
 
 ## 🔒 Privacy settings tune-up
-
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-Review these settings in every AI app you use so your information is handled the way you choose.
-
-</details>
 
 - [ ] Model training / "help improve" setting chosen deliberately
 - [ ] Chat history and retention understood
@@ -111,13 +76,6 @@ Review these settings in every AI app you use so your information is handled the
 
 ## 🔌 Installing an MCP server safely
 
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-Before installing an MCP server, confirm it comes from a trusted source and requests only the access it needs.
-
-</details>
-
 - [ ] From an **official** vendor, the MCP Registry, or a source I trust
 - [ ] I've read what tools it has and what they can **do**
 - [ ] **Version pinned** for anything important
@@ -129,13 +87,6 @@ Before installing an MCP server, confirm it comes from a trusted source and requ
 
 ## 🧑‍💻 Before asking a coding agent for a big change
 
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-Complete these steps before asking a coding agent to make a large change, so you can always roll back.
-
-</details>
-
 - [ ] Working state **committed** (save point!)
 - [ ] **Plan mode** first, and I've read the plan
 - [ ] "**Done** means…" written down (tests pass, page loads, works on mobile)
@@ -146,13 +97,6 @@ Complete these steps before asking a coding agent to make a large change, so you
 ([Claude Code Masterclass](../part-7-building-with-ai/62-claude-code-masterclass.md))
 
 ## 🌍 Launching a web app
-
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-Confirm each item before inviting users to a web app you've built.
-
-</details>
 
 - [ ] **Row-level security** on every table, tested with a second account
 - [ ] **No secret keys** in browser code or `NEXT_PUBLIC_`/`VITE_` variables
@@ -167,13 +111,6 @@ Confirm each item before inviting users to a web app you've built.
 
 ## 📦 Publishing an MCP server
 
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-Complete these steps before publishing an MCP server for others to use.
-
-</details>
-
 - [ ] `npm test` passes
 - [ ] Tool names, descriptions and annotations are clear
 - [ ] README with install config and example prompts
@@ -186,13 +123,6 @@ Complete these steps before publishing an MCP server for others to use.
 
 ## 🗣️ Voice agent go-live
 
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-Confirm each item before a voice agent handles real phone calls.
-
-</details>
-
 - [ ] Says it's an **AI assistant** at the start
 - [ ] **Recording consent** handled per local law
 - [ ] **Inbound only** (outbound AI calls have strict rules)
@@ -204,13 +134,6 @@ Confirm each item before a voice agent handles real phone calls.
 ([Build-Along: An AI Voice Receptionist](../part-13-build-alongs/119-build-along-voice-receptionist.md))
 
 ## ⚖️ The builder's ethics check
-
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-Review these questions before releasing anything you've built, to confirm it's honest, consensual, fair and safe.
-
-</details>
 
 - [ ] **Honest:** people know when it's AI, and what it can't do
 - [ ] **Consent:** for every face, voice, dataset and creative work
@@ -225,13 +148,6 @@ Review these questions before releasing anything you've built, to confirm it's h
 
 ## 🔁 Weekly AI habits
 
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-These short weekly habits keep your notes organized and your skills growing.
-
-</details>
-
 - [ ] Triage my notes inbox ([Second Brain](../part-13-build-alongs/114-build-along-second-brain.md))
 - [ ] Friday weekly review
 - [ ] Try **one** new AI thing (30 minutes)
@@ -241,13 +157,6 @@ These short weekly habits keep your notes organized and your skills growing.
 - [ ] Glance at API usage dashboards 💸
 
 ## 🗓️ Monthly & quarterly maintenance
-
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-These periodic reviews keep your subscriptions, data, security and tools in good shape.
-
-</details>
 
 **Monthly**
 

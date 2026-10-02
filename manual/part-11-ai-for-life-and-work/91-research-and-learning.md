@@ -1,6 +1,6 @@
 # 91 · AI for Research & Learning: Learn Anything Faster 🔬🎓
 
-> ⏱️ 8 min read · 🎯 Everyone who's curious (students, professionals, lifelong learners) · 🧰 Needs: an assistant with web search or deep research, optionally Gemini Notebook and Anki
+> ⏱️ 6 min read · 🎯 Everyone who's curious (students, professionals, lifelong learners) · 🧰 Needs: an assistant with web search or deep research, optionally Gemini Notebook and Anki
 
 **AI is the best tutor and research assistant most of us have ever had access to.** It's patient, available 24/7, and it can
 explain anything at any level. Used well, it makes you **learn faster and think better**. Used lazily, it just makes you
@@ -23,13 +23,6 @@ AI can serve as a patient, always-available tutor and a fast research assistant 
 
 ## 🔎 The research tool lineup
 
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-Different tools suit different research tasks: deep research modes for multi-source reports, Perplexity for quick sourced answers, Gemini Notebook for your own documents, and Elicit or Consensus for academic papers. The table compares them.
-
-</details>
-
 | Tool | Best for |
 |---|---|
 | **Deep research modes** (Claude Research, ChatGPT and Gemini Deep Research, Perplexity) | Multi-source reports with citations in minutes |
@@ -44,19 +37,6 @@ you already have → Gemini Notebook. Scientific evidence → academic tools.
 
 ## 🧭 The 5-step research workflow
 
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-A reliable research workflow has five steps:
-
-1. **Frame:** turn your curiosity into specific questions.
-2. **Gather:** run deep research and collect sources.
-3. **Verify:** check the key claims against the sources.
-4. **Synthesize:** combine findings and note disagreements.
-5. **Decide:** determine what the evidence means for you.
-
-</details>
-
 ```mermaid
 flowchart LR
     F[🎯 Frame<br/>sharp questions] --> G[📥 Gather<br/>deep research] --> V[🔍 Verify<br/>open key sources] --> S[🧩 Synthesize<br/>agree · disagree · unknown] --> A[🚀 Apply<br/>what do I do?]
@@ -69,13 +49,6 @@ flowchart LR
 5. **Apply:** *"Given all this, what should someone in my situation actually do?"*
 
 ## 🕵️ Checking sources like a pro
-
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-AI can misread or misstate sources, so verify anything important: confirm the source exists, check that it actually says what the AI claims, and consider its date and reputation. The table explains each check.
-
-</details>
 
 | Check | How |
 |---|---|
@@ -93,13 +66,6 @@ AI can misread or misstate sources, so verify anything important: confirm the so
 
 ## 💬 Research prompts that punch above their weight
 
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-Well-designed prompts produce much better research: ask for the strongest arguments on each side, common misconceptions, expert disagreements and what evidence would change the conclusion. The table offers a prompt for each goal.
-
-</details>
-
 | Goal | Prompt |
 |---|---|
 | **Both sides** | *"Steelman both sides of [debate], then tell me which evidence is strongest and why."* |
@@ -111,17 +77,6 @@ Well-designed prompts produce much better research: ask for the strongest argume
 | **Plain language** | *"Explain the findings to a smart 14-year-old, then to an expert."* |
 
 ## 🧑‍🏫 The AI tutor setup
-
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-Set up a tutor persona in a Project, Gem or custom instructions.
-
-1. Instruct the AI to ask questions and give hints rather than answers.
-2. Have it check your understanding before moving on.
-3. Tell it your level and goals so it pitches explanations correctly.
-
-</details>
 
 Give your AI a **tutor persona** (a Project, Gem or custom instructions):
 
@@ -136,13 +91,6 @@ when you actually want to *learn*.
 
 ## 🚀 Learning techniques, AI-supercharged
 
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-Research-backed learning techniques become much easier with AI: active recall through quizzes, spaced repetition with flashcards, explaining concepts back in your own words, and practice problems at the right difficulty. The table shows the AI version of each.
-
-</details>
-
 | Technique | AI version |
 |---|---|
 | **Active recall** | *"Quiz me on this chapter, one question at a time, and track my score."* |
@@ -156,13 +104,6 @@ Research-backed learning techniques become much easier with AI: active recall th
 
 ## 📚 Read, watch & listen smarter
 
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-AI helps you get more from books, videos, papers and podcasts by summarizing arguments, explaining difficult sections and turning material into notes and quizzes. The table outlines a workflow for each medium.
-
-</details>
-
 | Medium | Workflow |
 |---|---|
 | **Books** | *"The core argument of [book], the 5 key ideas, and the strongest criticism."* Then decide if it's worth reading in full (often yes!) |
@@ -173,13 +114,6 @@ AI helps you get more from books, videos, papers and podcasts by summarizing arg
 
 ## 🗺️ Learning plans for real skills
 
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-AI can create structured learning plans for practical skills, with daily goals and milestones. The table gives a strong first prompt for learning an instrument, a language, coding and more.
-
-</details>
-
 | Skill | A great first prompt |
 |---|---|
 | 🎸 **An instrument** | *"A 60-day guitar plan for 20 minutes a day. I want to play campfire songs. Include finger exercises and 5 songs in order of difficulty."* |
@@ -189,13 +123,6 @@ AI can create structured learning plans for practical skills, with daily goals a
 | 🧶 **A hobby** | *"Crochet from zero: first 10 projects, the stitches each teaches, and common mistakes."* |
 
 ## 🧠 Don't let AI make you dumber
-
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-Relying on AI for all your thinking reduces how much you learn. Try problems yourself first, ask for hints instead of answers, explain concepts back in your own words, and test yourself without AI.
-
-</details>
 
 The research is clear: **offloading thinking entirely reduces learning.** Guardrails for your brain:
 

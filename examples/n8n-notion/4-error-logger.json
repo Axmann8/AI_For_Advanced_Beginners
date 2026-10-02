@@ -48,7 +48,7 @@
       "type": "n8n-nodes-base.notion",
       "typeVersion": 2.2,
       "position": [
-        240,
+        252,
         0
       ],
       "retryOnFail": true,

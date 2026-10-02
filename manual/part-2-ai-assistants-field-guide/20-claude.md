@@ -1,6 +1,6 @@
 # 20 · Claude: The Complete Guide 🧡
 
-> ⏱️ 11 min read · 🎯 Beginners to advanced beginners · 🧰 Needs: a free Claude account (claude.ai)
+> ⏱️ 8 min read · 🎯 Beginners to advanced beginners · 🧰 Needs: a free Claude account (claude.ai)
 
 **Claude is Anthropic's assistant, loved for writing that sounds human, careful thinking, and working brilliantly with
 long documents.** It's also become a serious "get work done" tool: it creates real files (documents, spreadsheets,
@@ -23,13 +23,6 @@ Claude, made by Anthropic, is known for natural writing, careful reasoning and h
 
 ## 🧡 Quick facts
 
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-Claude is made by Anthropic, a company focused on AI safety. It's available on the web, phone apps, desktop apps for Mac and Windows, and inside Chrome, Excel and Slack.
-
-</details>
-
 | | |
 |---|---|
 | **Made by** | Anthropic (San Francisco), an AI safety-focused company |
@@ -41,17 +34,6 @@ Claude is made by Anthropic, a company focused on AI safety. It's available on t
 
 ## 🚪 Getting started
 
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-Setting up Claude takes a few minutes.
-
-1. Sign up at claude.ai or in the app, using an email link or Google.
-2. Add details about yourself and your preferences under **Settings → Profile**.
-3. Review the privacy settings, then start your first chat.
-
-</details>
-
 1. **Sign up** at **claude.ai** or in the Claude app (maker: **Anthropic**). Email login sends a magic link (no
    password needed), or use "Continue with Google."
 2. **Profile:** Settings → **Profile** → "What should Claude know about you?" and how you'd like responses.
@@ -61,13 +43,6 @@ Setting up Claude takes a few minutes.
 5. **Privacy:** Settings → **Privacy** → choose whether your chats can help improve Claude.
 
 ## 💳 Plans in plain English
-
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-The free plan is good for trying Claude. Paid plans (Pro, Max, Team and Enterprise) add much higher usage, the most capable models and tools such as Cowork and Claude Code. The table compares them.
-
-</details>
 
 | Plan | Who it's for | What you get (roughly) |
 |---|---|---|
@@ -79,17 +54,6 @@ The free plan is good for trying Claude. Paid plans (Pro, Max, Team and Enterpri
 Current prices: claude.com/pricing.
 
 ## 📁 Projects: context that sticks
-
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-Projects store instructions and reference files for a topic, so every chat inside the project starts with the right context.
-
-1. In the sidebar, open **Projects** and choose **Create project**.
-2. Add instructions describing the project and how Claude should help.
-3. Upload reference files, then start chats inside the project.
-
-</details>
 
 **Projects** hold instructions and a knowledge base (files, documents, notes) for a topic:
 
@@ -104,13 +68,6 @@ Share projects with teammates on Team plans. Ideas: a book you're writing, a cou
 
 ## 🧩 Artifacts and file creation
 
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-When you ask for something substantial, Claude builds it as an **Artifact** in a panel beside the chat: a document, chart, diagram or interactive mini-app you can use and refine. Claude can also create real Word, Excel, PowerPoint and PDF files.
-
-</details>
-
 - **Artifacts:** when you ask for something substantial (a document, a diagram, a chart, a web page or an interactive
   mini-app), Claude builds it in a panel beside the chat. You can edit, iterate, download or share it. Try: *"Make an
   interactive tool where I enter my monthly expenses and see a pie chart."* Artifacts can even use AI themselves, so you
@@ -123,13 +80,6 @@ When you ask for something substantial, Claude builds it as an **Artifact** in a
 
 ## 🧠 Memory and search
 
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-Claude can remember context across chats, such as your role and ongoing projects, and search your past conversations. You can view and edit stored memories in **Settings**.
-
-</details>
-
 - **Memory:** Claude can remember context from past chats (your role, ongoing projects, preferences), across both chats
   and Cowork. View and edit what it remembers in Settings, and ask it to remember or forget things.
 - **Chat search:** *"What did we decide about the garden layout last month?"* Claude can search your past
@@ -138,25 +88,11 @@ Claude can remember context across chats, such as your role and ongoing projects
 
 ## 🌐 Web search and Research
 
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-With web search on, Claude looks things up and cites sources. **Research** mode runs many searches, and can include your connected apps, to produce a thorough, cited report.
-
-</details>
-
 - **Web search:** turn it on in the tools menu; Claude searches when needed and cites sources.
 - **Research:** for big questions, Research mode runs many searches (and can include your connected Gmail, Calendar and
   Drive), reasoning through them for several minutes to produce a thorough, cited report.
 
 ## 🔌 Connectors: Claude and your apps
-
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-Connectors let Claude read from and act in apps like Gmail, Google Drive, Notion, Slack and Canva. Browse and enable them in **Settings → Connectors**; they're built on MCP, the open standard Anthropic created.
-
-</details>
 
 Claude has a big **connector directory** (Settings → **Connectors**): Gmail, Google Calendar and Drive, Notion, Slack,
 Canva, Figma, Asana, Linear, GitHub, Stripe and many more. Anthropic created **MCP** (Model Context Protocol), the open
@@ -167,17 +103,6 @@ launch plan,"* *"Make a Canva poster from this text."* Deep dive: [MCP Explained
 and [Built-in Connectors](../part-4-mcp-and-connectors/41-built-in-connectors.md).
 
 ## 🤝 Cowork: Claude works on your computer
-
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-Cowork (paid plans) lets Claude work through longer tasks using the folders and apps you grant it access to, such as organizing files or assembling a report, and hand you the finished result.
-
-1. Open Cowork in the Claude desktop app.
-2. Describe the task and grant access only to the folders or apps it needs.
-3. Review the result, and approve any important actions it proposes.
-
-</details>
 
 **Cowork** (paid plans) is Claude's "coworker" mode in the desktop app, and increasingly on web and mobile. You give it a
 task and access to specific folders or apps, and it works through the job, multi-step and in the background, then
@@ -192,13 +117,6 @@ Code](../part-7-building-with-ai/62-claude-code-masterclass.md) for non-coding k
 
 ## 🌍 Claude in Chrome, Excel and Slack
 
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-Claude is available inside other tools: **Claude in Chrome** can read and act on web pages, **Claude in Excel** works directly with spreadsheets, and **Claude in Slack** helps your team in channels and threads.
-
-</details>
-
 - **Claude in Chrome** (extension, paid plans): Claude in a side panel that sees the page and can navigate, click and
   fill forms with you (*"compare prices for this blender across these tabs"*). Supervise it and keep it away from
   sensitive accounts.
@@ -208,13 +126,6 @@ Claude is available inside other tools: **Claude in Chrome** can read and act on
 
 ## 🎙️ Voice and vision
 
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-Voice mode offers spoken conversation in the mobile app. Claude can also read photos, screenshots, charts, handwriting and long PDFs.
-
-</details>
-
 - **Voice mode** (free on mobile): tap the voice icon for a spoken conversation. It's great for thinking out loud.
 - **Photos, screenshots and PDFs:** Claude reads charts, handwriting, forms and long PDFs (including their images and
   tables) very well.
@@ -223,26 +134,12 @@ Voice mode offers spoken conversation in the mobile app. Claude can also read ph
 
 ## 💻 Claude Code
 
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-Claude Code is Anthropic's coding agent, available in the terminal, desktop app, web and code editors. It reads your project, makes changes and runs tests, and many non-programmers use it to build their own tools.
-
-</details>
-
 **Claude Code** is Anthropic's coding agent, in the terminal, desktop app, web and code editors. It reads your project,
 makes changes, runs tests and can work on tasks in the background. It's a favorite among developers and increasingly
 among "vibe coders" building their first apps. Full guides: [The Claude Code
 Masterclass](../part-7-building-with-ai/62-claude-code-masterclass.md) and [Power-Ups](../part-7-building-with-ai/63-claude-code-power-ups.md).
 
 ## 🍳 Step-by-step recipes
-
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-These four recipes walk through real tasks in Claude step by step, from understanding a long contract to building a working tool.
-
-</details>
 
 **Recipe 1: Understand a long contract**
 
@@ -269,13 +166,6 @@ These four recipes walk through real tasks in Claude step by step, from understa
 
 ## 🔐 Privacy and settings
 
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-The table lists Claude's key privacy settings, including training, memory and incognito chats, and where to find each one.
-
-</details>
-
 | Setting | Where | What it does |
 |---|---|---|
 | **Help improve Claude** | Settings → Privacy | Choose whether your chats can be used for training |
@@ -285,13 +175,6 @@ The table lists Claude's key privacy settings, including training, memory and in
 | **Export / delete** | Settings → Privacy | Download your data or delete your account |
 
 ## 💡 Pro tips and limitations
-
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-These tips help you get more out of Claude, followed by its current limitations so you know when to double-check or use another tool.
-
-</details>
 
 **Pro tips**
 

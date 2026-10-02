@@ -21,18 +21,6 @@ This FAQ collects solutions to the most common problems, grouped by area: everyd
 
 ## 🧭 The universal debugging recipe
 
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-This general method solves most problems:
-
-1. Reproduce the problem reliably.
-2. Read the full error message carefully.
-3. Change one thing at a time and test again.
-4. Check logs, and search for the exact error text.
-
-</details>
-
 1. **Reproduce it:** can you make it happen again?
 2. **Read the error** (really read it). The answer is often right there.
 3. **Isolate:** test one piece at a time (the tool alone, the workflow step alone).
@@ -40,13 +28,6 @@ This general method solves most problems:
 5. **Change one thing**, test again. Commit or save when it works.
 
 ## 🐣 Beginner questions & everyday assistant hiccups
-
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-These are the most common issues in everyday assistants such as ChatGPT, Gemini and Claude, including usage limits, sign-in problems and answers that stop partway, with the fix for each.
-
-</details>
 
 ### "You've reached your limit" / "Try again later."
 
@@ -92,13 +73,6 @@ or do the 15-minute taste test.
 
 ## 🔌 MCP & connectors
 
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-These fixes cover MCP servers and connectors that don't appear, fail to start or aren't used by the AI.
-
-</details>
-
 ### My MCP server doesn't show up in Claude Desktop or Cursor.
 
 1. **Fully quit** the app (not just close the window) and reopen it.
@@ -130,13 +104,6 @@ integration. In Claude Code, use `/mcp` to re-authenticate.
 
 ## ⚙️ Automations
 
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-These fixes cover automations in n8n, Zapier and Make, such as workflows that work in testing but not when active, or AI steps that return inconsistent output.
-
-</details>
-
 ### My workflow works in testing but not when active.
 
 - **Webhook URLs differ:** n8n's `/webhook-test/` only works while testing; production uses `/webhook/`.
@@ -165,13 +132,6 @@ Is the workflow **Active**, and is n8n reachable over **HTTPS**? Does the "Only 
 
 ## 🤖 AI behavior
 
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-These fixes cover AI behavior problems: confident errors, forgotten instructions and generic-sounding output.
-
-</details>
-
 ### It confidently makes things up.
 
 Give it **ground truth**: web search, documents or connectors. Ask for **citations**, and explicitly allow *"say you don't know."*
@@ -194,13 +154,6 @@ misunderstanding, rephrasing usually works.
 
 ## 🧑‍💻 Coding agents & Git
 
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-These fixes cover coding agent problems, such as fixes that break other code or repeated loops, and common Git confusion.
-
-</details>
-
 ### It keeps "fixing" code and breaking other things.
 
 Commit working states, ask it to **write tests first**, make one change at a time, and when looping, ask it to *step back and
@@ -222,13 +175,6 @@ rules that must *always* happen, use a **hook** ([Claude Code Power-Ups](../part
 
 ## 🔑 API & costs
 
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-These fixes cover API errors and cost issues, including authentication failures, unexpected bills and truncated responses.
-
-</details>
-
 ### 401 / authentication error.
 
 Check the key is set in the environment the code actually runs in (`echo $ANTHROPIC_API_KEY`), has no extra spaces, and hasn't
@@ -249,13 +195,6 @@ Server tool type names are **versioned** (e.g. `web_search_20260318`). Check the
 
 ## 🌍 Deploying & hosting
 
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-These fixes cover deployment problems, such as apps that work locally but fail when hosted, or login redirects to the wrong address.
-
-</details>
-
 ### It works locally but not on Vercel or Netlify.
 
 Missing **environment variables** on the host is the #1 cause. Add them in the dashboard, then **redeploy**. Then read the build
@@ -272,13 +211,6 @@ Enable **row-level security** on every table and write per-user policies. Test w
 
 ## 🗣️ Voice agents
 
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-These fixes cover voice agent problems: long pauses, overly long responses and misheard names.
-
-</details>
-
 | Problem | Fix |
 |---|---|
 | Long awkward pauses | Faster models, shorter tool responses, a filler phrase ("One moment…") |
@@ -289,13 +221,6 @@ These fixes cover voice agent problems: long pauses, overly long responses and m
 More: [Voice Receptionist troubleshooting](../part-13-build-alongs/119-build-along-voice-receptionist.md#-troubleshooting).
 
 ## 🏠 Local models & home lab
-
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-These fixes cover local models and home lab issues, such as slow performance, missing models and port conflicts.
-
-</details>
 
 ### Local models are painfully slow.
 
@@ -318,13 +243,6 @@ Pick a model with **tool calling**, give it a longer context (32k–64k+), and g
 
 ## 🧰 This repo's starter kits
 
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-This table lists what to check if one of this repository's starter kits fails to run.
-
-</details>
-
 | Kit | If it fails… |
 |---|---|
 | `my-first-mcp-server` | `pip install -r requirements.txt` (MCP SDK v2), then `python smoke_test.py` |
@@ -335,13 +253,6 @@ This table lists what to check if one of this repository's starter kits fails to
 | n8n workflows | Re-select credentials after import, and re-add a node if its version looks off |
 
 ## 🌐 This manual's website
-
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-These answers explain how to preview and publish this manual's website.
-
-</details>
 
 ### How do I publish the website version of this manual?
 

@@ -1,6 +1,6 @@
 # 87 · Voice Agents: AI You Can Talk To (and That Can Call You) 📞🗣️
 
-> ⏱️ 8 min read · 🎯 Beginner → intermediate · 🧰 Needs: a voice assistant app to start, and a voice-agent platform (Vapi, Retell, ElevenLabs Agents) + n8n for the build
+> ⏱️ 7 min read · 🎯 Beginner → intermediate · 🧰 Needs: a voice assistant app to start, and a voice-agent platform (Vapi, Retell, ElevenLabs Agents) + n8n for the build
 
 **Voice is the most natural interface there is.** Today you can build an AI that answers your phone, books appointments, runs
 a language-practice session, or quizzes you while you drive, and it sounds natural. This chapter covers using voice AI
@@ -22,13 +22,6 @@ A voice agent is an AI you talk to aloud, often over the phone. It converts your
 <!-- in-this-chapter -->
 
 ## 🎧 Using voice AI today (no building required)
-
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-Voice modes in ChatGPT, Gemini and Claude, along with dictation apps, already let you brainstorm, learn and type hands-free. The table lists the best uses for each.
-
-</details>
 
 | Tool | Great for |
 |---|---|
@@ -52,13 +45,6 @@ Voice modes in ChatGPT, Gemini and Claude, along with dictation apps, already le
 10. 🧘 A guided breathing or wind-down session.
 
 ## 🔧 How voice agents work
-
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-A **pipeline** voice agent uses three models in sequence: speech-to-text, a language model and text-to-speech. A **speech-to-speech** agent uses a single realtime model that hears and speaks directly, with lower latency. The table compares the two.
-
-</details>
 
 ```mermaid
 flowchart LR
@@ -86,13 +72,6 @@ flowchart LR
 
 ## 🧱 Voice agent platforms
 
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-Voice agent platforms handle the difficult parts: speech recognition, voices, phone numbers, interruptions and tool connections. You write the instructions and connect your tools. The table compares the main platforms.
-
-</details>
-
 | Platform | Vibe |
 |---|---|
 | **Vapi** | Developer-friendly voice agents with phone numbers, tools and any LLM |
@@ -108,18 +87,6 @@ Voice agent platforms handle the difficult parts: speech recognition, voices, ph
 LiveKit or Pipecat. Want the most natural voices → ElevenLabs.
 
 ## 📅 Build: an appointment-booking phone agent (1–2 hours)
-
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-This build creates a phone agent that books appointments on your calendar.
-
-1. Create an agent on a voice platform and choose a voice.
-2. Write instructions for greeting callers and collecting the details needed to book.
-3. Connect tools to check availability and create calendar events.
-4. Have the agent read the details back for confirmation, then assign it a phone number and test.
-
-</details>
 
 **Goal:** a phone number people call to book a slot on your calendar.
 
@@ -162,13 +129,6 @@ The full, polished version is [Build-Along: Voice Receptionist](../part-13-build
 
 ## 🎙️ Writing prompts for the ear
 
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-Speech needs a different style than writing: short replies, numbers spoken naturally, confirmation of important details and graceful handling of misheard words. The table gives tips and examples.
-
-</details>
-
 | Tip | Why | Example |
 |---|---|---|
 | **Short replies** | Nobody wants to listen to a paragraph | "I have 10 or 2:30. Which works?" |
@@ -181,13 +141,6 @@ Speech needs a different style than writing: short replies, numbers spoken natur
 | **Personality in the voice** | Warmth builds trust | Choose the voice to match the brand |
 
 ## 🧪 Testing & improving
-
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-Test your agent with many simulated calls, including normal requests, confused callers, interruptions and edge cases, and review the recordings and transcripts to find what to improve. The table lists test scenarios.
-
-</details>
 
 | Test | How |
 |---|---|
@@ -204,13 +157,6 @@ platforms also run **simulated test calls** automatically.
 
 ## 🎮 More voice projects
 
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-Other voice projects include a coach that calls you each morning, a language tutor, a hands-free kitchen assistant and a game narrator. The table suggests a stack for each.
-
-</details>
-
 | Project | Stack idea |
 |---|---|
 | 🧠 **Daily check-in coach** that calls *you* each morning | Scheduled outbound call + LLM + your task list |
@@ -223,13 +169,6 @@ Other voice projects include a coach that calls you each morning, a language tut
 | 👵 **Grandparent tech-help line** | Patient, slow-speaking agent with simple step-by-step guides |
 
 ## ⚖️ Responsible voice AI
-
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-Build voice agents responsibly: disclose at the start of every call that it's an AI, get consent before recording, never clone a voice without permission, and follow the laws governing automated calls. The table explains each rule.
-
-</details>
 
 | Rule | Why |
 |---|---|

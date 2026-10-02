@@ -35,7 +35,7 @@ An automation is a rule that runs on its own: **when something happens, do somet
 
     ---
 
-    <span class="card-meta">⏱️ 9 min read · 🎯 Beginner-friendly</span>
+    <span class="card-meta">⏱️ 7 min read · 🎯 Beginner-friendly</span>
 
     Chat-based AI needs you to press enter. Automation platforms run on triggers: a new email, a form submission, 7am every day, a webhook.
 
@@ -43,23 +43,23 @@ An automation is a rule that runs on its own: **when something happens, do somet
 
     ---
 
-    <span class="card-meta">⏱️ 9 min read · 🎯 Beginner-friendly, no coding required</span>
+    <span class="card-meta">⏱️ 6 min read · 🎯 Beginner-friendly, no coding required</span>
 
     Three concepts unlock everything in automation and AI integrations: JSON (how data looks), APIs (how apps talk), and webhooks (how apps poke each other).
 
--   **[47 · The n8n Masterclass 🟣⚙️](47-n8n-masterclass.md)**
+-   **[47 · The n8n Masterclass: Your First AI Workflow, Click by Click 🟣⚙️](47-n8n-masterclass.md)**
 
     ---
 
-    <span class="card-meta">⏱️ 8 min read · 🎯 Beginner → intermediate</span>
+    <span class="card-meta">⏱️ 14 min read · 🎯 Beginner → intermediate</span>
 
-    n8n is the playground where automation meets AI, and because you can self-host it for free, you can experiment without watching a meter.
+    In the next 30 minutes you'll build a real AI app in n8n: a web form where you type any note, and Claude replies with a one-line summary and tells you whether it's urgent.
 
 -   **[48 · n8n AI Agents Deep Dive 🤖🟣](48-n8n-ai-agents.md)**
 
     ---
 
-    <span class="card-meta">⏱️ 10 min read · 🎯 Intermediate</span>
+    <span class="card-meta">⏱️ 8 min read · 🎯 Intermediate</span>
 
     The AI Agent node puts a full tool-using agent inside a workflow, with any model, memory, tools, MCP, RAG, structured output and human approvals.
 
@@ -67,7 +67,7 @@ An automation is a rule that runs on its own: **when something happens, do somet
 
     ---
 
-    <span class="card-meta">⏱️ 7 min read · 🎯 Beginner-friendly, no code</span>
+    <span class="card-meta">⏱️ 5 min read · 🎯 Beginner-friendly, no code</span>
 
     n8n is the tinkerer's tool. Zapier and Make are the fastest paths from idea to working automation: no servers, no code, giant app catalogs.
 
@@ -75,7 +75,7 @@ An automation is a rule that runs on its own: **when something happens, do somet
 
     ---
 
-    <span class="card-meta">⏱️ 8 min read · 🎯 Beginner-friendly</span>
+    <span class="card-meta">⏱️ 6 min read · 🎯 Beginner-friendly</span>
 
     The most personal automations live on the devices in your pocket and on your desk. With one tap, a voice command, a location or a keyboard shortcut, you can send AI your thoughts, photos, clipboard or screen and get something useful back instantly.
 
@@ -83,7 +83,7 @@ An automation is a rule that runs on its own: **when something happens, do somet
 
     ---
 
-    <span class="card-meta">⏱️ 8 min read · 🎯 Beginner → intermediate</span>
+    <span class="card-meta">⏱️ 5 min read · 🎯 Beginner → intermediate</span>
 
     A huge amount of useful information lives on web pages with no API: prices, job posts, event listings, government notices, product restocks, competitor updates.
 
@@ -91,7 +91,7 @@ An automation is a rule that runs on its own: **when something happens, do somet
 
     ---
 
-    <span class="card-meta">⏱️ 8 min read (or grab one recipe!) · 🎯 Everyone</span>
+    <span class="card-meta">⏱️ 6 min read (or grab one recipe!) · 🎯 Everyone</span>
 
     Fifty ready-to-build AI automations, each written as trigger → steps → result, grouped by life area, and rated by difficulty.
 

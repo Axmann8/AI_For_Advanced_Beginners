@@ -1,6 +1,6 @@
 # 82 · Fine-Tuning for Normal People: Teach a Model Your Style 🎓🎛️
 
-> ⏱️ 8 min read · 🎯 Intermediate (curious beginners welcome) · 🧰 Needs: a good dataset idea, a free Colab GPU or a Mac with 16 GB+, and patience
+> ⏱️ 7 min read · 🎯 Intermediate (curious beginners welcome) · 🧰 Needs: a good dataset idea, a free Colab GPU or a Mac with 16 GB+, and patience
 
 **Fine-tuning means taking an existing model and training it a little more on your own examples, so it picks up your
 style, format or specialty.** It sounds like a PhD-only activity, but tools like Unsloth, MLX and LoRA have made it a weekend
@@ -23,13 +23,6 @@ Fine-tuning trains an existing model further on your own examples so it consiste
 
 ## 🤔 Do you actually need fine-tuning?
 
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-Most goals don't require fine-tuning. Prompting with examples handles instructions and formats, and RAG handles knowledge. Fine-tuning helps when you need a consistent style, behavior or efficiency at scale. The table matches goals to the best tool.
-
-</details>
-
 | You want the model to… | Best tool | Why |
 |---|---|---|
 | Follow instructions or a format | **Prompting** + examples | Instant, free, easy to change ([Context Engineering](../part-3-foundations/36-context-engineering.md)) |
@@ -47,13 +40,6 @@ Most goals don't require fine-tuning. Prompting with examples handles instructio
 
 ## 🧩 How fine-tuning works (LoRA in plain English)
 
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-Full fine-tuning updates every parameter and requires substantial hardware. **LoRA** trains a small adapter layer that adjusts the model's behavior instead; it's fast, inexpensive, and can be swapped or removed. QLoRA does the same with a compressed model to save memory.
-
-</details>
-
 | Method | What changes | Needs |
 |---|---|---|
 | **Full fine-tuning** | Every parameter in the model | Lots of GPU memory, expertise |
@@ -70,13 +56,6 @@ The adapter is often only tens of megabytes. You can keep one base model and swa
 "pirate-mode." 🏴‍☠️
 
 ## 📚 Step 1: Prepare your data (the part that matters most)
-
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-Training data is usually a JSONL file of example conversations, one per line. Aim for hundreds of high-quality, consistent examples, remove personal data, and set aside some examples for testing.
-
-</details>
 
 Fine-tuning data is usually **example conversations** in JSONL (one JSON object per line):
 
@@ -102,13 +81,6 @@ Fine-tuning data is usually **example conversations** in JSONL (one JSON object 
 
 ## 🛠️ Step 2: Pick your tool
 
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-Tools like Unsloth (free on Google Colab), MLX (on Apple Silicon Macs) and hosted services from OpenAI and others handle most of the complexity. The table compares them.
-
-</details>
-
 | Tool | Where | Why pick it |
 |---|---|---|
 | **Unsloth** | Free Google Colab or Kaggle notebooks, or your NVIDIA GPU | Fast, memory-efficient, beginner-friendly notebooks for popular models |
@@ -119,17 +91,6 @@ Tools like Unsloth (free on Google Colab), MLX (on Apple Silicon Macs) and hoste
 | **Rented GPUs** | RunPod, Lambda, Modal, Vast.ai and others | Bigger models for a few dollars an hour |
 
 ## 🚀 Step 3: Train (a walkthrough)
-
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-The tabs walk through training on free Colab with Unsloth and on a Mac with MLX.
-
-1. Load a base model.
-2. Train on your examples for a few passes (epochs).
-3. Save the LoRA adapter, or merge it and export the model.
-
-</details>
 
 === "☁️ Unsloth on free Colab"
 
@@ -162,17 +123,6 @@ The tabs walk through training on free Colab with Unsloth and on a Mac with MLX.
 
 ## 🧪 Step 4: Evaluate honestly
 
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-Evaluate the result fairly.
-
-1. Run your held-out test examples through both the fine-tuned model and the base model with your best prompt.
-2. Compare the outputs side by side, ideally without knowing which is which.
-3. Keep the fine-tuned model only if it's clearly better.
-
-</details>
-
 1. Run your **held-out test examples** through the fine-tuned model **and** the base model with your best prompt.
 2. Compare side by side, ideally **blind** (you don't know which is which). 🙈
 3. Check for **overfitting**: does it only work on inputs just like the training data? Does it repeat training examples word for word?
@@ -182,13 +132,6 @@ If the base model with a good prompt is just as good, **keep the prompt**. Cheap
 [Evaluating AI](../part-12-mastery/105-evaluating-ai.md).
 
 ## 🦙 Step 5: Run it in Ollama
-
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-To run your fine-tuned model locally, export it to GGUF format, write a short Ollama Modelfile, and create the model in Ollama. It then works with n8n, Open WebUI and your scripts like any other model.
-
-</details>
 
 ```text
 # Modelfile
@@ -206,13 +149,6 @@ Now n8n, Open WebUI and your scripts can all use `cozy-candles` like any other m
 
 ## 🎨 Fine-tuning beyond text
 
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-Fine-tuning isn't limited to text. Image LoRAs can teach an image model a specific style, character, product or pet, and voice models can be trained on recordings. The table gives examples.
-
-</details>
-
 | Kind | What you train | Example |
 |---|---|---|
 | 🖼️ **Image LoRAs** | A style, character, product or pet | 20 photos of your dog → "Biscuit as an astronaut" 🐶🚀 ([Image Generation](../part-10-creative-ai/84-image-generation-deep-dive.md)) |
@@ -225,13 +161,6 @@ Fine-tuning isn't limited to text. Image LoRAs can teach an image model a specif
 > respect artists' and authors' wishes ([AI Ethics for Builders](../part-12-mastery/107-ai-ethics-for-builders.md)).
 
 ## 🎮 Fun fine-tuning projects
-
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-The table lists eight fine-tuning projects and how many examples each one needs.
-
-</details>
 
 | # | Project | Examples needed |
 |---|---|---|

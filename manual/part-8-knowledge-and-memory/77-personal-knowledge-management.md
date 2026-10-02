@@ -1,6 +1,6 @@
 # 77 · Personal Knowledge Management with AI: A Second Brain That Talks Back 🧠🗃️
 
-> ⏱️ 9 min read · 🎯 Everyone · 🧰 Needs: a notes app (Obsidian, Notion, Google Docs…), optionally an automation tool for capture
+> ⏱️ 7 min read · 🎯 Everyone · 🧰 Needs: a notes app (Obsidian, Notion, Google Docs…), optionally an automation tool for capture
 
 **You consume a firehose of information: articles, podcasts, meetings, books, ideas in the shower. Most of it evaporates.**
 Personal Knowledge Management (PKM) is the practice of capturing, organizing and *using* what you learn. AI makes every step
@@ -22,13 +22,6 @@ Personal knowledge management (PKM) means capturing, organizing and using what y
 <!-- in-this-chapter -->
 
 ## 🔁 The AI-powered knowledge loop
-
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-A second brain runs on a four-step loop: capture information, organize it, distill the key points and use it to create something. AI speeds up each step, as the table shows.
-
-</details>
 
 ```mermaid
 flowchart LR
@@ -54,13 +47,6 @@ flowchart LR
 
 ## 🏡 Choose your home base
 
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-Choose one main app for your notes. Obsidian offers ownership and privacy, Notion offers databases and collaboration, and Google Docs and Apple Notes offer simplicity. The best choice is the one you'll use consistently.
-
-</details>
-
 | Home base | Best for | AI access |
 |---|---|---|
 | **Obsidian** ([Obsidian & AI](../part-6-ai-in-your-apps/56-obsidian-and-ai.md)) | Ownership, privacy, tinkerers | Plugins, MCP filesystem, Claude Code, local models |
@@ -75,13 +61,6 @@ Choose one main app for your notes. Obsidian offers ownership and privacy, Notio
 make that easy).
 
 ## 📥 Capture pipelines that run themselves
-
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-Capture should take only seconds. Set up pipelines for voice ideas, web articles, emails and meetings that send everything to a single inbox automatically. The table describes each pipeline.
-
-</details>
 
 | Source | Pipeline |
 |---|---|
@@ -102,13 +81,6 @@ Capture should take only seconds. Set up pipelines for voice ideas, web articles
 
 ## 🗂️ Organizing (without the busywork)
 
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-Keep your structure simple: one inbox and a few broad categories. PARA (Projects, Areas, Resources, Archive) and similar frameworks work well, with AI suggesting tags, links and where each note belongs.
-
-</details>
-
 A simple structure beats a clever one. Two popular frameworks:
 
 | Framework | Folders | AI's job |
@@ -128,13 +100,6 @@ Embeddings can do this at scale: they find related notes even when they use diff
 
 ## 💎 Distilling with AI: prompts that work
 
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-AI is excellent at condensing long material into its key points. The most valuable prompts go further, connecting new ideas to what you already know and identifying what's genuinely new. The table lists prompts for each goal.
-
-</details>
-
 | Goal | Prompt |
 |---|---|
 | **The one idea** | *"Summarize this in 3 bullets, then give me the ONE idea most worth remembering."* |
@@ -151,13 +116,6 @@ AI is excellent at condensing long material into its key points. The most valuab
 
 ## 🗣️ Asking your notes questions
 
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-Once AI can access your notes through MCP, Gemini Notebook, Notion AI or a RAG system, you can ask questions across everything you've saved, such as what you've learned about a topic over the years.
-
-</details>
-
 Once AI can read your knowledge base (MCP, Gemini Notebook, Notion AI, [RAG](74-build-a-rag-system.md)):
 
 - *"What have I learned about negotiation across all my notes? Cite them."*
@@ -169,13 +127,6 @@ Once AI can read your knowledge base (MCP, Gemini Notebook, Notion AI, [RAG](74-
 
 ## 🔁 Review rituals (with AI doing the heavy lifting)
 
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-Regular reviews turn saved information into usable knowledge: five minutes daily, twenty minutes weekly and longer monthly and yearly reflections, with AI summarizing and surfacing patterns. The table outlines each ritual.
-
-</details>
-
 | Ritual | Time | AI assist |
 |---|---|---|
 | **Daily** | 5 min | *"Summarize today's captures and pull out tasks."* |
@@ -184,13 +135,6 @@ Regular reviews turn saved information into usable knowledge: five minutes daily
 | **Yearly** | 1 hour | *"Write my year in review from my notes: highlights, lessons, and people who mattered."* ✨ |
 
 ## 🛠️ Three second-brain setups
-
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-The tabs describe three complete setups: a simple one using Notion or Google Docs, a powerful one using Obsidian with automations, and a fully private one using local AI.
-
-</details>
 
 === "🌱 Simple (1 hour)"
 
@@ -218,13 +162,6 @@ The full build is in [Build-Along: Your Second Brain](../part-13-build-alongs/11
 
 ## 🗓️ A 30-day second-brain plan
 
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-This four-week plan builds your second brain gradually, one stage per week, so it becomes a habit.
-
-</details>
-
 | Week | Mission |
 |---|---|
 | **1 · Capture** | Pick your home base. Set up one-tap voice capture and a web clipper. Capture everything |
@@ -233,13 +170,6 @@ This four-week plan builds your second brain gradually, one stage per week, so i
 | **4 · Express** | Connect AI to your notes. Ask 10 questions. Write one thing (a post, a plan, a letter) from your notes 🎉 |
 
 ## 🌳 Principles for a PKM that lasts
-
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-Lasting systems follow a few principles: make capture effortless, use one inbox, write some notes in your own words, link related ideas, use your notes regularly and keep them in formats you own.
-
-</details>
 
 1. **Capture friction → zero.** If saving takes more than 5 seconds, you won't do it.
 2. **One inbox.** Everything lands in one place first, and AI helps sort it later.

@@ -19,13 +19,6 @@ A terminal lets you control your computer by typing commands. This appendix coll
 
 ## 🐚 Terminal basics (start here!)
 
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-These basic commands let you see where you are, list files, move between folders and create folders.
-
-</details>
-
 | Command | Does | Example |
 |---|---|---|
 | `pwd` | Where am I? (print working directory) | `pwd` |
@@ -49,13 +42,6 @@ These basic commands let you see where you are, list files, move between folders
 > try it."* You'll be comfortable in an afternoon. 🐚
 
 ## 🧑‍💻 Claude Code
-
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-These keys and commands control Claude Code.
-
-</details>
 
 **Keys**
 
@@ -102,13 +88,6 @@ claude -p "fix lint" --allowedTools "Edit,Bash(npm run lint)"
 
 ## 🔌 MCP
 
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-These commands add, list and test MCP servers.
-
-</details>
-
 ```bash
 claude mcp add <name> -- <command> <args...>                 # local (stdio) server
 claude mcp add --transport http <name> <url>                  # remote server
@@ -124,13 +103,6 @@ mcp-publisher publish
 ```
 
 ## 🌳 Git & GitHub
-
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-These commands cover everyday Git version control and the GitHub CLI.
-
-</details>
 
 | Command | Does |
 |---|---|
@@ -153,13 +125,6 @@ These commands cover everyday Git version control and the GitHub CLI.
 
 ## 🦙 Ollama & local AI
 
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-These commands download, run and manage local models with Ollama.
-
-</details>
-
 ```bash
 ollama run gemma4                    # chat
 ollama pull qwen3.6:27b              # download
@@ -173,13 +138,6 @@ curl http://localhost:11434/api/embed -d '{"model":"nomic-embed-text","input":"h
 OpenAI-compatible endpoint: `http://localhost:11434/v1`. ([Local & Open Models](../part-9-local-ai/78-local-and-open-models.md))
 
 ## 🐳 Docker & the home lab
-
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-These commands start, stop, update and inspect the home lab containers.
-
-</details>
 
 ```bash
 docker compose up -d                          # start everything
@@ -195,13 +153,6 @@ docker system df                              # disk usage
 
 ## 🐍 Python & 🟩 Node basics
 
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-These commands create environments, install dependencies and run Python and Node.js projects, including the examples in this repository.
-
-</details>
-
 | Python | Node.js |
 |---|---|
 | `python -m venv .venv` → a private package folder | `npm install` → install dependencies |
@@ -211,13 +162,6 @@ These commands create environments, install dependencies and run Python and Node
 | `python -m pytest` (if installed) | `npm publish --access public` |
 
 ## ⚙️ n8n
-
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-These commands and techniques help you run and work efficiently in n8n.
-
-</details>
 
 ```bash
 npx n8n                           # quick local start → http://localhost:5678
@@ -233,13 +177,6 @@ docker run -it --rm -p 5678:5678 -v n8n_data:/home/node/.n8n docker.n8n.io/n8nio
 
 ## ✍️ AI editors (Cursor & VS Code)
 
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-These keyboard shortcuts control the AI features in Cursor and VS Code with Copilot.
-
-</details>
-
 | Action | Cursor | VS Code + Copilot |
 |---|---|---|
 | Accept a suggestion | `Tab` | `Tab` |
@@ -252,13 +189,6 @@ Shortcuts change between versions. Check each editor's keyboard shortcuts screen
 ([Cursor & AI IDEs](../part-7-building-with-ai/64-cursor-and-ai-ides.md)).
 
 ## 🏗️ This repo's kits
-
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-These are the exact commands to set up and test each example project in this repository.
-
-</details>
 
 ```bash
 # Python MCP server

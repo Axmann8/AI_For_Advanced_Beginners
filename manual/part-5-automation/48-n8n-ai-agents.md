@@ -1,6 +1,6 @@
 # 48 · n8n AI Agents Deep Dive 🤖🟣
 
-> ⏱️ 10 min read · 🎯 Intermediate · 🧰 Needs: n8n (local or Cloud) + an AI API key (or Ollama for free local models)
+> ⏱️ 8 min read · 🎯 Intermediate · 🧰 Needs: n8n (local or Cloud) + an AI API key (or Ollama for free local models)
 
 **The AI Agent node puts a full tool-using agent inside a workflow**, with any model, memory, tools, MCP, RAG, structured
 output and human approvals. This chapter is your deep dive: how each piece works, how to design reliable agents, and how to
@@ -22,13 +22,6 @@ A standard n8n workflow follows fixed steps. The **AI Agent node** adds a model 
 
 ## 🧩 Anatomy of the AI Agent node
 
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-The AI Agent node has slots for a chat model, a memory, any number of tools and an optional output parser. It runs the standard agent loop, deciding which tool to call at each step.
-
-</details>
-
 ```mermaid
 flowchart TB
     CT((💬 Chat / Telegram / Webhook trigger)) --> AG[🤖 AI Agent]
@@ -49,13 +42,6 @@ agent think. 🔍
 
 ## 🧠 Choosing the chat model
 
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-Use a capable model, such as Claude, for agents that make decisions and call tools, and cheaper, faster models for simple classification. Local models through Ollama also work for private or zero-cost setups. The table compares the options.
-
-</details>
-
 | Model slot option | When to use |
 |---|---|
 | **Anthropic (Claude)** | Excellent tool use and instruction following, a great default for agents |
@@ -68,13 +54,6 @@ classify, summarize and extract. Test the same workflow with two models, because
 
 ## 🗂️ Memory: remembering the conversation
 
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-Memory lets the agent remember earlier messages in a conversation. Use a session key, such as the chat ID, so each user's conversation stays separate. Simple Memory works for testing; use Postgres or Redis for anything persistent.
-
-</details>
-
 | Memory type | Stored where | Good for |
 |---|---|---|
 | **Simple Memory** | Inside n8n (in-process) | Testing and small personal bots |
@@ -86,13 +65,6 @@ Memory lets the agent remember earlier messages in a conversation. Use a session
 are sent each time: more means better recall but more tokens.
 
 ## 🔧 Tools: what the agent can do
-
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-Tools are the actions an agent can take. Almost any n8n app node can be used as a tool, along with the HTTP Request tool for any API, Code tools for custom logic, and whole sub-workflows. The table lists each type.
-
-</details>
 
 | Tool type | What it gives the agent |
 |---|---|
@@ -113,18 +85,6 @@ expressions and "let the model define this parameter" options), with a descripti
 > the complex logic stays deterministic, testable and cheap. This is the single best pattern for reliable n8n agents.
 
 ## 📝 Writing the system message
-
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-The system message is the agent's job description. A strong one covers:
-
-1. **Role:** who the agent is and who it serves.
-2. **Tools:** which tool to use for which kind of request.
-3. **Rules:** what requires confirmation and what it must never do.
-4. **Style:** tone and response length.
-
-</details>
 
 A strong agent system message covers **role, user, tools, rules and style**:
 
@@ -149,13 +109,6 @@ Note the **date injection**: agents don't know today's date unless you tell them
 
 ## 🧾 Structured output & AI helper nodes
 
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-Attach a **Structured Output Parser** when the next node needs data in a fixed JSON format. n8n also offers specialized AI nodes for common tasks, such as extracting information, classifying text and analyzing sentiment.
-
-</details>
-
 - **Structured Output Parser:** define a JSON schema (or example) and the agent/chain must return matching JSON.
 - **Information Extractor:** pull fields (name, amount, date…) out of messy text.
 - **Text Classifier:** route items into categories (e.g. billing / bug / feature / other), each category its own output branch.
@@ -165,16 +118,6 @@ Attach a **Structured Output Parser** when the next node needs data in a fixed J
 These specialized nodes are often **more reliable and cheaper** than a general agent for single-purpose steps.
 
 ## 📚 RAG inside n8n
-
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-RAG lets your agent search your own documents before answering. In n8n it takes two workflows:
-
-1. **Ingest:** load documents, split them into chunks, create embeddings and store them in a vector database.
-2. **Query:** give the agent a vector store tool so it can retrieve relevant chunks when answering.
-
-</details>
 
 ```mermaid
 flowchart LR
@@ -196,13 +139,6 @@ Concepts explained in [RAG, Memory & Knowledge](../part-8-knowledge-and-memory/7
 
 ## 🔌 n8n ❤️ MCP (both directions)
 
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-n8n works with MCP in both directions. The **MCP Client Tool** lets your n8n agents use any MCP server, and the **MCP Server Trigger** exposes your n8n workflows as tools that Claude and other AI apps can call.
-
-</details>
-
 | Feature | What it does | Use it for |
 |---|---|---|
 | **MCP Client Tool** | Your n8n agent calls tools from any MCP server | Give n8n agents GitHub, Notion, Brave Search… |
@@ -214,26 +150,12 @@ phone: *"Log $14 lunch with Sam, category Meals."* 📱➡️📊
 
 ## 🧑‍⚖️ Humans in the loop
 
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-For important actions, add a human approval step. Send-and-wait nodes for Slack, Gmail, Telegram and other apps pause the workflow until you approve, reject or reply. A common pattern is: agent drafts, you approve, workflow acts.
-
-</details>
-
 - **Send-and-wait nodes** (Slack, Gmail, Telegram, Discord and others) pause the workflow until you approve, reject, or reply
   with text.
 - Pattern: *agent drafts* → **send-and-wait** approval → *if approved* → action node.
 - Put approvals on anything that **sends, spends, deletes or posts publicly** ([MCP Security & Trust](../part-4-mcp-and-connectors/43-mcp-security-and-trust.md)).
 
 ## 🛡️ Guardrails & evaluations
-
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-Validate AI outputs before acting on them, using IF or Code nodes, and use guardrail nodes to screen inputs and outputs. n8n's evaluation features let you test an agent against sample cases, so you can tell whether a change improved or worsened it.
-
-</details>
 
 - **Validate outputs** with If or Code nodes before acting (e.g. is the amount a number? is the email address real?).
 - **Guardrail nodes** (in recent n8n versions) help check for things like personal data, jailbreak attempts or off-topic
@@ -244,18 +166,6 @@ Validate AI outputs before acting on them, using IF or Code nodes, and use guard
 
 ## 🏗️ Build: a personal assistant on Telegram (30 min)
 
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-This build creates a personal assistant you can message from your phone.
-
-1. Create a Telegram bot with @BotFather and copy its token.
-2. Add a **Telegram Trigger** and an **AI Agent** node with a model and memory.
-3. Connect calendar, task and search tools, and write the system message.
-4. Send the agent's reply back through Telegram, and test it from your phone.
-
-</details>
-
 1. **Create a Telegram bot:** message **@BotFather** on Telegram → `/newbot` → copy the token.
 2. **Trigger:** Telegram Trigger (message received) with your bot credential.
 3. **Filter:** an **If** node that only continues if `{{ $json.message.from.id }}` equals *your* Telegram user ID (so
@@ -265,19 +175,12 @@ This build creates a personal assistant you can message from your phone.
 5. **Tools:** Google Calendar (get events, create event), Todoist (create task), and an HTTP Request tool for weather
    (Open-Meteo, no key).
 6. **Reply:** Telegram node → send message → chat ID from the trigger, text = `{{ $json.output }}`.
-7. **Activate**, then text your bot: *"What's on tomorrow? Add 'buy a birthday card' before my 3pm."* 🎉
+7. **Publish** the workflow, then text your bot: *"What's on tomorrow? Add 'buy a birthday card' before my 3pm."* 🎉
 
 The full, polished version (voice notes, daily briefings, long-term memory) is
 [Build-Along: Your Pocket AI Assistant](../part-13-build-alongs/112-build-along-pocket-ai-assistant.md).
 
 ## 👥 Multi-agent patterns in n8n
-
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-For complex systems, use an orchestrator agent whose tools are sub-workflows, each containing a specialist agent for research, writing or scheduling. Each specialist stays focused and can be tested on its own.
-
-</details>
 
 - **Orchestrator + specialists:** a main agent with tools that are *sub-workflows containing their own agents* (a research
   agent, a writing agent, a calendar agent). Each specialist has a focused system message and toolset.
@@ -286,13 +189,6 @@ For complex systems, use an orchestrator agent whose tools are sub-workflows, ea
 - More patterns in [Multi-Agent Systems](../part-7-building-with-ai/70-multi-agent-systems.md).
 
 ## 💸 Cost & performance tips
-
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-Agents can become expensive because each step calls the model. Filter out irrelevant items before the AI step, keep memory windows short, use cheaper models for simple tasks, and give each agent only the tools it needs.
-
-</details>
 
 - **Filter before AI:** skip newsletters and spam with plain If nodes.
 - **Short memory windows** (e.g. the last 10 messages) unless you need more.

@@ -1,6 +1,6 @@
 # 30 · Same Task, Every Assistant: Head-to-Head Showdowns 🥊
 
-> ⏱️ 7 min read (plus an evening of fun testing) · 🎯 Anyone choosing or combining assistants · 🧰 Needs: free accounts on 2–4 assistants
+> ⏱️ 6 min read (plus an evening of fun testing) · 🎯 Anyone choosing or combining assistants · 🧰 Needs: free accounts on 2–4 assistants
 
 **Which AI is best? The honest answer is "best at *what*, for *whom*?"** This chapter runs ten everyday challenges
 across the major assistants and explains which ones tend to shine at each task and *why* (usually because of a specific
@@ -28,13 +28,6 @@ This chapter runs ten everyday tasks through the major assistants to show which 
 
 ## ✉️ Showdown 1: The tricky email
 
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-All the top assistants write competent emails. The differences lie in how natural the tone sounds and whether the assistant is built into your email app.
-
-</details>
-
 > *"Write a short email to my landlord. The heating has been broken for 5 days, I've reported it twice with no
 > response, and I have a baby at home. Firm but polite, and mention what I'll do if it isn't fixed by Friday."*
 
@@ -46,13 +39,6 @@ you send.
 
 ## 🛒 Showdown 2: Research a purchase
 
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-For purchase research, prioritize assistants that cite recent sources, so you can check the underlying reviews yourself.
-
-</details>
-
 > *"Compare the 4 best air purifiers under $250 for a bedroom with a dog. Table: room size, filter cost per year, noise,
 > and what reviewers complain about. Cite recent reviews."*
 
@@ -62,13 +48,6 @@ For purchase research, prioritize assistants that cite recent sources, so you ca
 Gemini and Claude for more thorough reports. Always click two sources before buying.
 
 ## 📰 Showdown 3: What's happening right now
-
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-For current news, the assistant must search the web and show its sources. Check that the stories are from today and from reputable outlets.
-
-</details>
 
 > *"What are the three biggest news stories in [your country] today? For each: what happened, why it matters, and
 > links to two reputable sources."*
@@ -80,13 +59,6 @@ people on X are saying (just remember that chatter isn't confirmation).
 
 ## 📄 Showdown 4: Understand a long document
 
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-Upload the same long document to each assistant and compare how accurately it summarizes, whether it catches important details, and whether it quotes the right sections.
-
-</details>
-
 > Upload a 30+ page PDF (a lease, a policy, a report): *"Summarize the key points, list anything that could cost me
 > money or catch me out, and quote the relevant sections with page numbers."*
 
@@ -96,13 +68,6 @@ Upload the same long document to each assistant and compare how accurately it su
 long inputs; **Gemini Notebook** is superb when you want answers grounded strictly in your sources.
 
 ## 🖼️ Showdown 5: Make an image
-
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-Give each assistant the same image request and compare the results, paying particular attention to whether any text in the image is spelled correctly.
-
-</details>
 
 > *"A poster for a neighborhood book swap: 'BOOK SWAP · Saturday 10am · Oak Street Library'. Cozy illustration of
 > stacked books and a cat, warm autumn colors."*
@@ -115,13 +80,6 @@ doesn't make photos.)
 
 ## 🎬 Showdown 6: Make a short video
 
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-Only some assistants can generate video. Compare realistic motion, matching sound and freedom from visual glitches.
-
-</details>
-
 > *"A 6-second video of a hot air balloon rising over misty hills at sunrise, gentle wind sounds."*
 
 **Look for:** realistic motion, matching sound, no weird glitches.
@@ -130,13 +88,6 @@ Only some assistants can generate video. Compare realistic motion, matching soun
 tools like Runway and Kling go further ([Video & Audio Production](../part-10-creative-ai/85-video-and-audio-production.md)).
 
 ## 🗓️ Showdown 7: Plan from *your* data
-
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-For questions about your own schedule and email, the best assistant is the one connected to those accounts. Compare accuracy about your real commitments.
-
-</details>
 
 > *"Look at my calendar and email for next week. What's coming up, what do I need to prepare, and is anything
 > clashing?"*
@@ -149,13 +100,6 @@ connects to where your life actually lives.
 
 ## 🧮 Showdown 8: A genuinely tricky problem
 
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-For multi-step math and logic problems, turn on each assistant's reasoning mode and check whether the final answer is correct.
-
-</details>
-
 > *"We're 5 adults splitting a 4-night holiday cottage costing £1,340. Two people stay only 3 nights, and one person
 > paid the £200 deposit. Work out exactly what each person owes whom, showing your working."*
 
@@ -166,13 +110,6 @@ modes (and **Deep Think**), Claude **extended thinking**, Grok **Expert**, DeepS
 in reasoning mode; fast modes are where slips happen. Check the numbers yourself.
 
 ## 🎙️ Showdown 9: A voice conversation
-
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-Hold the same voice conversation with each assistant and compare how natural it sounds, how well it handles interruptions and how engaging it is.
-
-</details>
 
 > In voice mode: *"I'm going for a walk. Teach me something fascinating about the ocean, and let me interrupt with
 > questions."*
@@ -185,13 +122,6 @@ loud.
 
 ## 🛠️ Showdown 10: Build a mini-app
 
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-Ask each assistant to build the same small interactive tool, and compare whether it works correctly and how polished it looks.
-
-</details>
-
 > *"Build a simple interactive tool where I enter my household chores and family members, and it creates a fair weekly
 > rota I can print. Cheerful design."*
 
@@ -202,18 +132,6 @@ site-building tools), **Gemini Canvas** and Google **AI Studio**. For bigger app
 Coding](../part-7-building-with-ai/65-vibe-coding-your-first-app.md).
 
 ## 📋 Run your own showdown
-
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-The most useful comparison is one based on your own tasks.
-
-1. Choose five tasks you actually do.
-2. Use the exact same prompt in two to four assistants, each in a fresh chat.
-3. Score each result from 1 to 5 on the criteria below.
-4. Use the assistant that wins on the tasks that matter most to you.
-
-</details>
 
 1. Pick **five tasks you actually do** (not generic ones).
 2. Use the **exact same prompt** in 2–4 assistants, in fresh chats.

@@ -1,6 +1,6 @@
 # 07 · Prompting 102: Conversations, Follow-Ups & Fixing Bad Answers 🔁
 
-> ⏱️ 8 min read · 🎯 Beginners who've had a few chats · 🧰 Needs: any AI assistant
+> ⏱️ 7 min read · 🎯 Beginners who've had a few chats · 🧰 Needs: any AI assistant
 
 **The best AI users don't write perfect prompts. They have great conversations.** The first answer is a draft; the
 magic happens when you react, steer and refine. This chapter gives you a steering wheel of follow-up phrases, a
@@ -23,17 +23,6 @@ The first answer an AI gives is best treated as a draft. This chapter shows how 
 
 ## 🔁 Think in conversations, not single questions
 
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-Treat each answer as a draft and refine it in a short loop. Two or three rounds usually produce an excellent result.
-
-1. Read the answer.
-2. Say what works and what to change.
-3. Repeat until it's right.
-
-</details>
-
 Beginners often ask once, get a so-so answer, and conclude "AI isn't that good." Experienced users treat the first
 answer as a **rough draft** and go round a simple loop:
 
@@ -50,13 +39,6 @@ Two or three rounds of steering usually gets you something excellent. And becaus
 each follow-up can be tiny: *"shorter,"* *"warmer,"* *"remove the second paragraph."*
 
 ## 🎛️ Your steering wheel: 30 follow-up phrases
-
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-These follow-up phrases cover the most common adjustments: length, depth, simplicity, tone, format and more. Keep the table handy until they become second nature.
-
-</details>
 
 | When you want… | Say… |
 |---|---|
@@ -79,18 +61,6 @@ These follow-up phrases cover the most common adjustments: length, depth, simpli
 
 ## 🧱 Big tasks: go step by step
 
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-For large tasks like a speech or a business plan, work in stages rather than asking for everything at once.
-
-1. **Brainstorm:** have the AI ask you questions or generate ideas.
-2. **Outline:** agree on the structure.
-3. **Draft:** write one section at a time.
-4. **Polish:** review the whole thing for tone, flow and length.
-
-</details>
-
 For anything big (a speech, a business plan, a long letter, a study plan), **don't ask for the whole thing at once.**
 Build it in stages:
 
@@ -107,13 +77,6 @@ Each step, **you** stay in charge of the direction, and the result sounds much m
 
 ## 🪞 Make the AI check its own work
 
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-AI can find weaknesses in its own drafts when asked. Request a review, a critique from an expert's perspective, or a score with a rewrite.
-
-</details>
-
 AI is surprisingly good at spotting problems in its own drafts, *if you ask*. Try:
 
 - *"Review your answer. What might be wrong, missing or unclear?"*
@@ -126,13 +89,6 @@ This one habit catches a lot of errors and noticeably improves quality. For impo
 yourself ([When AI Gets It Wrong](10-when-ai-gets-it-wrong.md)).
 
 ## 📎 Give it something to work with
-
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-The AI produces better results when it works from the actual material. Paste the text, upload the document or share the photo instead of describing it, and remove sensitive details like account numbers first.
-
-</details>
 
 The AI does its best work on **real material**. Instead of describing a document, *give it the document*:
 
@@ -148,13 +104,6 @@ A powerful phrase for accuracy: *"Answer **using only** the document I shared. I
 dramatically reduces made-up answers. Uploading files and photos is covered in [chapter 9](09-voice-photos-and-files.md).
 
 ## 🧭 When it just isn't getting it
-
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-If the AI keeps missing the mark after a few attempts, something is usually missing from the request. Use the table to diagnose the cause, or start a new chat with a clearer prompt that includes everything you've learned.
-
-</details>
 
 If you've steered three times and it's still wrong, diagnose:
 
@@ -173,13 +122,6 @@ If you've steered three times and it's still wrong, diagnose:
 > chat and paste it. Clean slate, all the good stuff kept.
 
 ## 👀 A real conversation, start to finish
-
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-This example conversation shows how a vague request becomes a specific, useful plan in just a few follow-ups.
-
-</details>
 
 Here's how a two-minute chat turns a vague idea into something genuinely useful:
 
@@ -207,17 +149,6 @@ Five short messages, and the result is a personal plan that fits one specific pe
 That's the skill. 🏆
 
 ## 💾 Save your best prompts
-
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-Keep prompts that work well so you can reuse them.
-
-1. Save them in a note on your phone or computer.
-2. Move preferences you repeat into your custom instructions.
-3. Later, turn your favorites into reusable Projects or Gems.
-
-</details>
 
 When a prompt works brilliantly, **save it**:
 

@@ -1,6 +1,6 @@
 # 22 · Grok: The Complete Guide ⚡
 
-> ⏱️ 8 min read · 🎯 Beginners to advanced beginners · 🧰 Needs: a free Grok account (grok.com) or an X account
+> ⏱️ 6 min read · 🎯 Beginners to advanced beginners · 🧰 Needs: a free Grok account (grok.com) or an X account
 
 **Grok is the AI assistant from xAI, Elon Musk's AI company (now part of SpaceX), and it's built right into X (formerly
 Twitter).** It stands out for real-time knowledge of what's happening on X, a casual and witty personality, strong
@@ -22,13 +22,6 @@ Grok is the AI assistant from xAI (now part of SpaceX), available in its own app
 
 ## ⚡ Quick facts
 
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-Grok is made by xAI, now SpaceX's AI division. It's available at grok.com, in the Grok app, inside X and in Tesla vehicles.
-
-</details>
-
 | | |
 |---|---|
 | **Made by** | xAI, acquired by SpaceX in 2026 (now SpaceX's AI division) |
@@ -40,17 +33,6 @@ Grok is made by xAI, now SpaceX's AI division. It's available at grok.com, in th
 
 ## 🚪 Getting started
 
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-Getting started with Grok is simple.
-
-1. Sign up at grok.com or in the Grok app using X, Google, Apple or email (or tap the Grok icon in X).
-2. Choose a mode (Auto is fine to start).
-3. Ask your first question.
-
-</details>
-
 1. **Sign up** at **grok.com** or in the **Grok** app (maker: **xAI**). You can sign in with X, Google, Apple or email.
 2. **Or use it inside X:** tap the **Grok** icon, or tap Grok on any post to ask about it (*"Explain this post,"* *"Is
    this true?"*).
@@ -58,13 +40,6 @@ Getting started with Grok is simple.
 4. **Pick a mode** (see below) and start chatting.
 
 ## 💳 Plans in plain English
-
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-Grok's free tier includes a weekly usage allowance. SuperGrok plans add higher limits, Expert and Heavy modes, and more image and video generation. The table summarizes them.
-
-</details>
 
 | Plan | What you get (roughly) |
 |---|---|
@@ -77,13 +52,6 @@ Usage is pooled weekly across chat, Imagine, voice and building. Check **grok.co
 
 ## 🧠 Modes: Fast, Expert and Heavy
 
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-Grok offers several modes: **Auto/Fast** for everyday questions, **Expert** for harder reasoning, and **Heavy**, where multiple AI agents collaborate on the most difficult problems. The table explains when to use each.
-
-</details>
-
 | Mode | Use it for |
 |---|---|
 | ⚡ **Auto / Fast** | Everyday questions and quick chats |
@@ -91,13 +59,6 @@ Grok offers several modes: **Auto/Fast** for everyday questions, **Expert** for 
 | 🏋️ **Heavy** | The toughest problems; several agents tackle the question in parallel and compare answers (top tier) |
 
 ## 📰 Real-time X and web search
-
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-Grok can search posts on X in real time as well as the web, which makes it useful for understanding trending topics and public reaction. Because posts can be inaccurate, check the sources it cites before relying on a claim.
-
-</details>
 
 Grok's signature skill is **live awareness of X**, plus web search:
 
@@ -112,13 +73,6 @@ Grok's signature skill is **live awareness of X**, plus web search:
 > cited sources** and reputable outlets ([When AI Gets It Wrong](../part-1-ai-from-zero/10-when-ai-gets-it-wrong.md)).
 
 ## 🎨 Grok Imagine: images and video
-
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-Grok Imagine creates images and short videos with sound from text descriptions. Use it for creative projects, and never to create deceptive images of real people.
-
-</details>
 
 **Grok Imagine** (in the Grok app and on X) creates:
 
@@ -136,13 +90,6 @@ Grok Imagine creates images and short videos with sound from text descriptions. 
 
 ## 🎙️ Voice and companions
 
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-Voice mode supports spoken conversation with a choice of voices and personality styles. Grok also offers animated "companion" characters; review their settings carefully, especially for younger users.
-
-</details>
-
 - **Voice mode:** tap the voice icon for a spoken conversation. Choose among voices and personality styles (from
   helpful assistant to storyteller or comedian).
 - **Companions:** animated characters you can talk to. Fun for some adults, but think carefully about kids and teens
@@ -152,13 +99,6 @@ Voice mode supports spoken conversation with a choice of voices and personality 
 
 ## 🗂️ Projects, memory and more
 
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-Grok supports Projects for organizing chats and files by topic, memory across conversations, and file uploads. xAI also runs Grokipedia, an AI-generated encyclopedia.
-
-</details>
-
 - **Projects:** group chats with files and instructions for a topic.
 - **Memory:** Grok can remember preferences across chats; manage it in settings.
 - **Files and images:** upload documents and photos for analysis.
@@ -167,13 +107,6 @@ Grok supports Projects for organizing chats and files by topic, memory across co
 - **For developers:** the xAI API offers Grok models, image and video generation, and voice APIs.
 
 ## 🍳 Step-by-step recipes
-
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-These three recipes walk through real tasks in Grok step by step, including understanding a trending topic.
-
-</details>
 
 **Recipe 1: Understand a trending topic**
 
@@ -192,13 +125,6 @@ These three recipes walk through real tasks in Grok step by step, including unde
 
 ## 🔐 Privacy and settings
 
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-The table lists Grok's privacy settings, including whether your conversations and X posts are used for training, memory and private chats.
-
-</details>
-
 | Setting | Where | What it does |
 |---|---|---|
 | **Data controls / training** | Grok → Settings → Data controls | Choose whether your conversations help improve the models |
@@ -208,13 +134,6 @@ The table lists Grok's privacy settings, including whether your conversations an
 | **Delete conversations** | Grok → Settings | Remove your history |
 
 ## 💡 Pro tips and limitations
-
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-These tips help you get more out of Grok, followed by its current limitations so you know when to double-check.
-
-</details>
 
 **Pro tips**
 

@@ -1,6 +1,6 @@
 # 62 · The Claude Code Masterclass 🧑‍💻🤖
 
-> ⏱️ 11 min read · 🎯 Beginner → intermediate (no coding required to start) · 🧰 Needs: a Claude Pro/Max plan or API key, a terminal (or the desktop/web app)
+> ⏱️ 10 min read · 🎯 Beginner → intermediate (no coding required to start) · 🧰 Needs: a Claude Pro/Max plan or API key, a terminal (or the desktop/web app)
 
 **Claude Code is an agentic coding tool.** It reads your project, runs commands, edits files, tests its own work and ships
 features. It lives in your terminal, in VS Code and JetBrains, in a desktop app, on the web and on your phone. And it isn't
@@ -43,17 +43,6 @@ Claude Code is an AI coding agent that works directly in your project folder. Yo
 
 ## 🚀 Install & first launch
 
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-Installation takes a few minutes.
-
-1. Install Claude Code with the command below (or use the desktop app, web or IDE extension).
-2. Open a terminal in your project folder and type `claude`.
-3. Sign in with a Claude subscription or an API key, and start with a simple request.
-
-</details>
-
 ```bash
 # macOS / Linux / WSL: the native installer (check docs.claude.com for the current command)
 curl -fsSL https://claude.ai/install.sh | bash
@@ -82,13 +71,6 @@ Log in with your **Claude subscription** (Pro and Max include Claude Code) or an
 3. *"Do the first one. Make sure it still works afterwards."*
 
 ## 🎛️ Essential controls
-
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-A few controls let you steer Claude Code: `Shift+Tab` cycles through modes (including plan mode), `Esc` stops the current action, double `Esc` rewinds the conversation, and `@` references a specific file. The table lists the rest.
-
-</details>
 
 | Action | How |
 |---|---|
@@ -121,19 +103,6 @@ A few controls let you steer Claude Code: `Shift+Tab` cycles through modes (incl
 
 ## 🔁 The workflow that works: Explore → Plan → Code → Verify → Commit
 
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-The most reliable workflow has five steps:
-
-1. **Explore:** have Claude read the relevant code and explain it, without making changes.
-2. **Plan:** switch to plan mode and review the proposed approach.
-3. **Code:** let Claude implement the plan.
-4. **Verify:** have it run tests or check the result.
-5. **Commit:** save the working change with Git.
-
-</details>
-
 ```mermaid
 flowchart LR
     E[🔍 Explore<br/>read, ask questions] --> P[📋 Plan<br/>plan mode] --> C[⌨️ Code<br/>small steps] --> V[✅ Verify<br/>tests, run, screenshot] --> K[💾 Commit]
@@ -154,13 +123,6 @@ flowchart LR
 > noticeably better when you give them room ([How Models Really Work](../part-3-foundations/33-how-models-really-work.md)).
 
 ## 🧠 CLAUDE.md: your project's memory
-
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-Claude Code loads `CLAUDE.md` files automatically at the start of every session. Use them to record project facts, commands and rules so you never have to repeat them. Run `/init` to generate a first version.
-
-</details>
 
 Claude Code automatically loads `CLAUDE.md` files at startup:
 
@@ -200,13 +162,6 @@ Claude Code automatically loads `CLAUDE.md` files at startup:
 
 ## 🔐 Permissions & safety
 
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-By default, Claude Code asks before editing files or running commands. Configure `/permissions` to always allow safe commands like tests, and to deny access to sensitive files like `.env`. The table explains each permission mode.
-
-</details>
-
 By default, Claude Code **asks before** editing files or running commands. You tune that in `/permissions` or
 `.claude/settings.json`:
 
@@ -233,13 +188,6 @@ By default, Claude Code **asks before** editing files or running commands. You t
 
 ## 🧹 Context management: the hidden skill
 
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-Everything Claude reads and runs fills its context window, and a cluttered context reduces quality. Use `/clear` between unrelated tasks, `/compact` to summarize a long session, and subagents for research-heavy work.
-
-</details>
-
 Everything in the conversation (files it read, command output, your messages) fills the **context window**. A cluttered
 context makes any model worse ([Context Engineering](../part-3-foundations/36-context-engineering.md)).
 
@@ -253,13 +201,6 @@ context makes any model worse ([Context Engineering](../part-3-foundations/36-co
 | Write a plan to a file for big projects | `PLAN.md` survives `/clear` and new sessions |
 
 ## 🗣️ Prompt patterns that work brilliantly
-
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-Effective prompts define what "done" looks like, include screenshots or examples, reference specific files, and ask Claude to explain its choices. The table gives an example of each pattern.
-
-</details>
 
 | Pattern | Example |
 |---|---|
@@ -275,13 +216,6 @@ Effective prompts define what "done" looks like, include screenshots or examples
 
 ## 🧪 Non-coding superpowers
 
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-Claude Code is useful beyond programming. It can organize and rename files, process spreadsheets, convert documents and automate repetitive computer tasks in any folder you point it at.
-
-</details>
-
 Claude Code is a general-purpose **computer assistant with hands**. Point it at any folder:
 
 - 📸 *"Rename every photo in this folder to `YYYY-MM-DD_place.jpg` using the EXIF data."*
@@ -293,13 +227,6 @@ Claude Code is a general-purpose **computer assistant with hands**. Point it at 
 - 🌐 *"Check every link in my website's pages and fix the broken ones."*
 
 ## 💎 20 pro tips
-
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-These twenty tips come from experienced users, including using plan mode for larger tasks, always providing a way to verify results, and committing after each working step.
-
-</details>
 
 1. **Plan mode for anything over ~20 minutes of work.**
 2. **Always give it a way to verify** (tests, a URL to load, a command to run).
@@ -323,13 +250,6 @@ These twenty tips come from experienced users, including using plan mode for lar
 20. **Celebrate small wins.** Ship tiny things often. 🎉
 
 ## 🗺️ 25 Claude Code projects for non-programmers
-
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-The table lists twenty-five projects that people without programming experience can build with Claude Code.
-
-</details>
 
 | # | Project | # | Project |
 |---|---|---|---|

@@ -1,6 +1,6 @@
 # 88 · 3D, Games & Interactive Worlds 🎮🧊
 
-> ⏱️ 8 min read · 🎯 Everyone who's ever wanted to make a game · 🧰 Needs: Claude Code or a chat-to-app builder, optionally Blender, Godot or a 3D printer
+> ⏱️ 7 min read · 🎯 Everyone who's ever wanted to make a game · 🧰 Needs: Claude Code or a chat-to-app builder, optionally Blender, Godot or a 3D printer
 
 **Making a game used to take a team and a year. Now you can vibe-code a playable browser game in an evening.** AI can write
 the game code, generate 3D models from a sentence or a photo, drive Blender through MCP, create sprites, music and sound
@@ -29,13 +29,6 @@ AI can help create every part of a game, from code to art, 3D models, music and 
 
 ## 🗺️ The AI game-making map
 
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-AI tools can assist with each part of game development: code, art, 3D models, audio, character dialogue and level design. The table lists tools for each.
-
-</details>
-
 | Part of the game | AI helps with | Tools |
 |---|---|---|
 | 💻 **Code** | Writing game logic, physics, menus, bug fixes | Claude Code, Cursor, chat-to-app builders ([Agents & Coding Tools](../part-7-building-with-ai/60-agents-and-coding-tools.md)) |
@@ -47,17 +40,6 @@ AI tools can assist with each part of game development: code, art, 3D models, au
 | 🌍 **Worlds** | Whole explorable scenes | World models, 3D scene generation |
 
 ## 🕹️ Vibe-code your first game (tonight!)
-
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-Start with a game that has one core mechanic, such as jumping or dodging, and fits on a single web page.
-
-1. Describe the game to Claude, ChatGPT or Gemini, as in the example below.
-2. Play the result immediately.
-3. Ask for one change at a time until it's fun.
-
-</details>
 
 **Start tiny.** A great first game has **one mechanic** (jump, dodge, match, shoot) and fits in a single web page.
 
@@ -82,13 +64,6 @@ in the browser), **Pygame** (Python), and **Godot** (a free, full game engine wi
 
 ## 🔁 The game-dev loop with AI
 
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-Games become fun through many small adjustments: play, identify what doesn't feel right, request one specific change and play again. The table translates common feel problems into precise requests.
-
-</details>
-
 ```mermaid
 flowchart LR
     P[🎮 Play it] --> N[📝 Notice one thing<br/>too hard? boring? buggy?] --> A[💬 Ask for one change] --> C[💾 Commit] --> P
@@ -109,13 +84,6 @@ flowchart LR
 
 ## 🧊 Text-to-3D and image-to-3D
 
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-Text-to-3D and image-to-3D tools such as Meshy, Tripo and Rodin generate textured 3D models from a description or picture, ready for game engines, animation or 3D printing.
-
-</details>
-
 | Tool | What it does |
 |---|---|
 | **Meshy, Tripo, Rodin (Hyper3D)** | Text or image → textured 3D models, with game-ready exports |
@@ -129,13 +97,6 @@ export (`.glb` for the web, `.fbx` for engines, `.stl` for printing).
 
 ## 🔌 Blender, Godot & Unity via MCP
 
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-Community MCP servers connect Claude to Blender, Godot and Unity, so you can create scenes, adjust lighting and change game behavior by describing what you want. The table gives example requests for each app.
-
-</details>
-
 Community **MCP servers** connect Claude to creative apps:
 
 | App | What you can ask |
@@ -148,13 +109,6 @@ Claude reads the scene, runs Python or engine commands, and iterates on screensh
 call. Start with backups, and review scripts before running them ([MCP Security & Trust](../part-4-mcp-and-connectors/43-mcp-security-and-trust.md)).
 
 ## 🗣️ AI characters that talk back
-
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-Language models can power non-player characters with distinct personalities, memories and goals, so players can hold open-ended conversations instead of choosing from fixed lines.
-
-</details>
 
 - **LLM-powered NPCs:** give each character a personality, secrets and goals in a system prompt, and let players chat freely.
 - **Guardrails:** keep characters in-world (*"You only know things a medieval baker would know"*), and set content limits.
@@ -171,29 +125,11 @@ If the player is kind, hint that the old oak hides a door.
 
 ## 🌍 World models: generated, explorable worlds
 
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-World models, such as Google DeepMind's Genie research, generate interactive environments frame by frame as you move through them, starting from a description or image.
-
-</details>
-
 **World models** (like Google DeepMind's Genie research) generate interactive environments frame by frame as you move through
 them. Other tools turn images or text into explorable 3D scenes. It's early, often short-lived and low-res, but it points
 toward games and simulations that are *generated* rather than built. Worth trying when you get access. 🤯
 
 ## 🖨️ From AI to real objects: 3D printing
-
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-To turn an AI-generated model into a physical object:
-
-1. Generate a model with a text-to-3D tool, or have Claude write OpenSCAD code for precise functional parts.
-2. Check and repair the mesh in a slicer.
-3. Print it on a 3D printer or order it from a printing service.
-
-</details>
 
 1. **Generate** a model (text or image to 3D), or ask Claude to write **OpenSCAD** code for precise functional parts
    (*"a hook for my bike helmet, 5 cm deep, with two screw holes"*).
@@ -205,13 +141,6 @@ To turn an AI-generated model into a physical object:
 knob. 🧩
 
 ## 🎮 20 game & 3D projects
-
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-The table lists twenty game and 3D projects to try.
-
-</details>
 
 | 🕹️ Games | 🧊 3D & worlds |
 |---|---|

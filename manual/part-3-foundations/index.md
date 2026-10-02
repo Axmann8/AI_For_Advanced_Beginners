@@ -33,7 +33,7 @@ This part explains how AI models actually work, so you can predict what they'll 
 
     ---
 
-    <span class="card-meta">⏱️ 11 min read · 🎯 Beginner-friendly</span>
+    <span class="card-meta">⏱️ 9 min read · 🎯 Beginner-friendly</span>
 
     You already know how to talk to an AI. This chapter is about the leap that makes everything else click: AI that can act, not just answer.
 
@@ -41,7 +41,7 @@ This part explains how AI models actually work, so you can predict what they'll 
 
     ---
 
-    <span class="card-meta">⏱️ 11 min read · 🎯 Beginner-friendly, no math</span>
+    <span class="card-meta">⏱️ 8 min read · 🎯 Beginner-friendly, no math</span>
 
     You don't need a PhD to use AI brilliantly, but a dozen under-the-hood ideas explain almost every weird thing AI does: why it forgets, why it's confidently wrong, why one model costs 20× another, why "thinking" models are slower, and why the same model feels different in different apps.
 
@@ -49,7 +49,7 @@ This part explains how AI models actually work, so you can predict what they'll 
 
     ---
 
-    <span class="card-meta">⏱️ 8 min read · 🎯 Everyone</span>
+    <span class="card-meta">⏱️ 6 min read · 🎯 Everyone</span>
 
     AI didn't appear out of nowhere in 2022. It's a 75-year story of big dreams, "AI winters," surprise breakthroughs, and one very important research paper.
 
@@ -57,7 +57,7 @@ This part explains how AI models actually work, so you can predict what they'll 
 
     ---
 
-    <span class="card-meta">⏱️ 8 min read · 🎯 Beginner-friendly</span>
+    <span class="card-meta">⏱️ 7 min read · 🎯 Beginner-friendly</span>
 
     Claude, GPT, Gemini, Llama, Qwen, Mistral, DeepSeek… Cursor, Perplexity, Midjourney, ElevenLabs… The AI world has a lot of names.
 
@@ -65,7 +65,7 @@ This part explains how AI models actually work, so you can predict what they'll 
 
     ---
 
-    <span class="card-meta">⏱️ 9 min read · 🎯 Intermediate</span>
+    <span class="card-meta">⏱️ 7 min read · 🎯 Intermediate</span>
 
     You already know the basics of good prompts. Context engineering is the next level: designing everything the model sees (standing instructions, examples, documents, tool descriptions, memory and conversation history) so it succeeds reliably, not just once.
 
@@ -73,7 +73,7 @@ This part explains how AI models actually work, so you can predict what they'll 
 
     ---
 
-    <span class="card-meta">⏱️ 7 min read · 🎯 Everyone</span>
+    <span class="card-meta">⏱️ 6 min read · 🎯 Everyone</span>
 
     There are thousands of AI tools, and you need maybe five. This chapter helps you build a small, powerful personal AI stack that fits your goals, habits and budget, without drowning in subscriptions.
 

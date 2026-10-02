@@ -1,6 +1,6 @@
 # 106 · Cost Optimization Deep Dive: Same Magic, Smaller Bill 💸📉
 
-> ⏱️ 6 min read · 🎯 Anyone paying for AI subscriptions, APIs or automation platforms · 🧰 Needs: access to your usage dashboards, and ideally an eval set ([Evaluating AI](105-evaluating-ai.md))
+> ⏱️ 5 min read · 🎯 Anyone paying for AI subscriptions, APIs or automation platforms · 🧰 Needs: access to your usage dashboards, and ideally an eval set ([Evaluating AI](105-evaluating-ai.md))
 
 **AI can be almost free or surprisingly expensive, depending on how you use it.** The good news: a few simple habits usually cut
 costs dramatically with no loss in quality. This chapter is your money-saving playbook for subscriptions, API bills and
@@ -23,13 +23,6 @@ AI costs add up through subscriptions and per-token API usage. This chapter show
 
 ## 📦 Subscriptions: stop overpaying
 
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-Many people pay for several AI subscriptions they rarely use. Keep one main paid assistant, use free tiers for others, take advantage of annual or bundled pricing, and review subscriptions every few months.
-
-</details>
-
 | Tip | Why |
 |---|---|
 | **One main paid assistant**, free tiers for the rest | Most people don't need three paid plans |
@@ -40,13 +33,6 @@ Many people pay for several AI subscriptions they rarely use. Keep one main paid
 | **Hitting limits often?** | Compare the higher tier's cost to your API usage. Sometimes upgrading is cheaper than pay-per-token (and vice versa) |
 
 ## 🧾 API costs: understanding the bill
-
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-API pricing charges separately for input and output tokens, and output typically costs several times more. Long conversations, large documents and agent loops consume the most tokens. The table explains what drives costs.
-
-</details>
 
 ```text
 cost ≈ (input tokens × input price) + (output tokens × output price)
@@ -65,13 +51,6 @@ cost ≈ (input tokens × input price) + (output tokens × output price)
 ([Calling AI APIs](../part-7-building-with-ai/67-calling-ai-apis.md#-make-it-cheap--fast)).
 
 ## 🎚️ The levers, in order
-
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-Apply cost levers in order. Start with techniques that don't affect quality, such as prompt caching, batch processing and trimming unnecessary context. Then test options that might, such as smaller models and shorter outputs. The tables quantify typical savings.
-
-</details>
 
 ### 🆓 1. Free wins (no quality trade-off)
 
@@ -101,13 +80,6 @@ Apply cost levers in order. Start with techniques that don't affect quality, suc
 
 ## 🔀 Model routing: the biggest structural win
 
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-Model routing sends simple tasks to a small, inexpensive model and only escalates difficult ones to a larger model. It's usually the single biggest structural saving for high-volume systems.
-
-</details>
-
 ```mermaid
 flowchart LR
     I[📥 Incoming task] --> R{🧭 Router<br/>small, fast model}
@@ -124,13 +96,6 @@ model **plans** while small models **execute** the steps ([Multi-Agent Systems](
 
 ## ⚙️ Automation-platform costs
 
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-Automation platforms bill differently: Zapier per task, Make per operation and n8n per execution or not at all when self-hosted. Understanding the unit helps you design cheaper workflows. The table lists optimizations for each.
-
-</details>
-
 | Platform | Billing unit | Optimization |
 |---|---|---|
 | **Zapier** | Tasks (each action step) | Filters early, Formatter instead of AI for simple text, fewer steps |
@@ -140,13 +105,6 @@ Automation platforms bill differently: Zapier per task, Make per operation and n
 
 ## 🛡️ Guardrails against surprise bills
 
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-Protect yourself from unexpected bills with spending caps and alerts in every API console, separate keys per project, step limits on agents and small test batches before full runs.
-
-</details>
-
 - [ ] **Spend limits** in every API console (hard caps + alerts at 50% and 80%)
 - [ ] **Separate API keys per project** so you can see what's spending
 - [ ] **Turn limits** on agents and **max items** on loops
@@ -155,13 +113,6 @@ Protect yourself from unexpected bills with spending caps and alerts in every AP
 - [ ] A **monthly review** of usage dashboards
 
 ## 🧮 Worked example: the email summarizer
-
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-This worked example compares several versions of a daily email summarizer, from a naive setup to an optimized one, showing how routing, filtering and caching reduce cost without lowering quality where it matters.
-
-</details>
 
 **The job:** summarize ~100 emails a day for a morning digest.
 

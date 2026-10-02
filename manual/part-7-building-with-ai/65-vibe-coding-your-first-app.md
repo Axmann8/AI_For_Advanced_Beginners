@@ -1,6 +1,6 @@
 # 65 · Vibe Coding Your First Real App 🎸💻
 
-> ⏱️ 10 min read · 🎯 Everyone (zero coding experience welcome) · 🧰 Needs: a browser builder (Lovable, Bolt, v0, Replit) or Claude Code / Cursor, plus a free Supabase account
+> ⏱️ 8 min read · 🎯 Everyone (zero coding experience welcome) · 🧰 Needs: a browser builder (Lovable, Bolt, v0, Replit) or Claude Code / Cursor, plus a free Supabase account
 
 **Vibe coding means building software by describing what you want and letting AI write the code.** It's real, it works,
 and people with zero programming background are shipping useful apps with it every day. This chapter takes you from a
@@ -30,13 +30,6 @@ most first-timers. Let's make something! 🛠️
 
 ## 🧰 The vibe coding stack
 
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-A typical app has a few layers: the builder where you work with AI, the frontend people see, a database, authentication (logins) and hosting. The table lists beginner-friendly tools for each layer, most with free tiers.
-
-</details>
-
 | Layer | What it does | Beginner-friendly picks |
 |---|---|---|
 | 🏗️ **Builder** | Where you talk to the AI | Lovable, Bolt, v0, Replit Agent (browser) · Claude Code, Cursor (local) |
@@ -56,13 +49,6 @@ flowchart LR
 ```
 
 ## 💡 Step 1: Pick a small, real idea
-
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-The best first app solves one specific problem for you or someone you know, and you should be able to describe it in three sentences. The table lists good first-app ideas and why each works.
-
-</details>
 
 The best first app **solves one problem for you or a friend**. Rule of thumb: **you should be able to describe v1 in three
 sentences.**
@@ -84,18 +70,6 @@ sentences.**
 > buildable in a weekend."*
 
 ## 📝 Step 2: Write a mini spec (5 minutes)
-
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-A short written spec dramatically improves what the AI builds.
-
-1. Describe who will use the app and what problem it solves.
-2. List the screens and main actions.
-3. Describe the look and feel.
-4. List what's *not* in version 1.
-
-</details>
 
 AI builds much better from a clear spec. Use this template:
 
@@ -123,13 +97,6 @@ Payments, notifications, multiple groups.
 **Shortcut:** *"Interview me with 8 questions to turn my app idea into a spec like this one."* Then paste the result.
 
 ## 🏗️ Step 3: Build v1 (two paths)
-
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-You can build in two ways. **Browser builders** (Lovable, Bolt, v0, Replit) are fastest and need no setup. **Local tools** (Claude Code, Cursor) give you more control and teach you more. The tabs below walk through each path.
-
-</details>
 
 === "🌐 Path A: Browser builders (fastest)"
 
@@ -164,13 +131,6 @@ You can build in two ways. **Browser builders** (Lovable, Bolt, v0, Replit) are 
 
 ## 🔁 Step 4: The iteration loop
 
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-Improve the app in a simple loop: use it, identify one thing to change, ask for that single change, and test again. Make one change at a time, and describe what you see rather than how to fix it.
-
-</details>
-
 ```mermaid
 flowchart LR
     T[🖱️ Try it] --> N[📝 Notice ONE thing] --> A[💬 Ask for ONE change] --> C[💾 Save point] --> T
@@ -188,17 +148,6 @@ flowchart LR
 
 ## 🐛 Debugging without panic
 
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-When something breaks, give the AI precise information.
-
-1. Copy the exact error message (from the browser console or terminal).
-2. Describe what you did just before it happened.
-3. Ask the AI to explain the cause before it changes anything.
-
-</details>
-
 | Symptom | What to give the AI |
 |---|---|
 | Blank page | The browser console errors (right-click → Inspect → Console) |
@@ -214,13 +163,6 @@ When something breaks, give the AI precise information.
 
 ## 🎨 Making it beautiful
 
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-To improve the design, share screenshots of apps you admire, describe the feel you want in a few words, choose a color palette and font, and ask the AI to apply them consistently.
-
-</details>
-
 - **Show references:** screenshots of apps you love. *"Make it feel like this."*
 - **Pick a vibe in words:** *"cozy, rounded, warm oranges, playful"* or *"minimal, lots of whitespace, one accent color."*
 - **Use a component library:** *"Use shadcn/ui components"* gives instantly polished buttons, forms and dialogs.
@@ -232,13 +174,6 @@ More in [Design & UI with AI](../part-10-creative-ai/90-design-and-ui.md).
 
 ## 🚀 Step 5: Ship it
 
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-Deploying makes your app available to anyone with the link. Browser builders deploy with one click; local projects deploy by pushing to GitHub and connecting Vercel or Netlify. Then share it with a real user and ask for feedback.
-
-</details>
-
 | From | Deploy |
 |---|---|
 | Lovable / Bolt / Replit / v0 | Click **Publish** or **Deploy** |
@@ -248,17 +183,6 @@ Then: add a custom domain (optional), send it to a friend, and **collect feedbac
 [Deploying & Hosting](66-deploying-and-hosting.md). 🎉
 
 ## 🔐 Step 6: Don't skip the safety basics
-
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-AI-generated apps can contain security gaps. Before real users arrive:
-
-1. Ask the AI for a full security review (see the prompt below).
-2. Turn on database row-level security so users see only their own data.
-3. Confirm that no API keys are exposed in the frontend code.
-
-</details>
 
 AI-built apps can have security holes. Before real users arrive:
 
@@ -279,13 +203,6 @@ AI-built apps can have security holes. Before real users arrive:
 
 ## ✨ Adding AI features to your app
 
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-Once the core app works, you can add AI features such as smart suggestions, natural-language search, automatic categorization and photo understanding. The table gives examples.
-
-</details>
-
 | Feature | Example |
 |---|---|
 | 💡 **Smart suggestions** | "Suggest gifts based on this person's list" |
@@ -300,13 +217,6 @@ code. The pattern is in [Calling AI APIs Directly](67-calling-ai-apis.md).
 
 ## 🧗 Growing past v1
 
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-As your app grows, keep it maintainable: add tests for features that work, schedule regular cleanup (refactoring) sessions, and keep documentation of how it works.
-
-</details>
-
 - **Add tests for things that work:** *"Write tests for the claim feature so future changes can't break it."*
 - **Refactor sessions:** *"Clean up the code structure without changing behavior, then run the tests."*
 - **Keep a `README.md` and `CLAUDE.md`** so any AI (or human) can pick up the project.
@@ -314,13 +224,6 @@ As your app grows, keep it maintainable: add tests for features that work, sched
 - **Watch real usage:** simple analytics (Plausible, PostHog) show what people actually use.
 
 ## 🪤 Common beginner traps (and the fix)
-
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-The table lists the most common beginner traps, such as an app growing into a tangled mess or fixes that create new bugs, with a fix for each.
-
-</details>
 
 | Trap | Fix |
 |---|---|
@@ -333,13 +236,6 @@ The table lists the most common beginner traps, such as an app growing into a ta
 | Losing motivation | Ship an ugly v1 to one real person. Feedback is fuel |
 
 ## 🗓️ A weekend plan
-
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-This plan takes you from idea to a working app in a single weekend.
-
-</details>
 
 | When | Mission |
 |---|---|

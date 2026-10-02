@@ -1,6 +1,6 @@
 # 76 · Gemini Notebook (formerly NotebookLM) Masterclass 🎧📓
 
-> ⏱️ 9 min read · 🎯 Everyone (students, researchers, curious people) · 🧰 Needs: a Google account (some features depend on your plan)
+> ⏱️ 7 min read · 🎯 Everyone (students, researchers, curious people) · 🧰 Needs: a Google account (some features depend on your plan)
 
 **Google's research notebook is one of the most delightful AI tools ever made.** Upload a pile of sources, and it becomes an
 expert on *exactly* that material: every answer cites your sources, and one click turns them into a podcast, a video, a mind
@@ -30,13 +30,6 @@ Gemini Notebook (formerly NotebookLM) is a research and study tool that answers 
 
 ## ✨ Why it's special
 
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-Unlike general chatbots, Gemini Notebook answers only from your uploaded sources and cites where each statement comes from, which makes hallucinations much rarer and every claim easy to verify. The table lists its other key features.
-
-</details>
-
 | Feature | Why it matters |
 |---|---|
 | 📚 **Grounded in your sources** | Answers come from what *you* uploaded, which means far fewer hallucinations |
@@ -49,13 +42,6 @@ Unlike general chatbots, Gemini Notebook answers only from your uploaded sources
 | 🔄 **Gemini app integration** | Attach a notebook to a Gemini chat as grounded knowledge |
 
 ## 📥 Adding sources
-
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-You can add PDFs, Google Docs and Slides, websites, YouTube videos, audio files and pasted text. A focused set of relevant sources produces better answers than a large, mixed one.
-
-</details>
 
 | Source type | Examples |
 |---|---|
@@ -76,13 +62,6 @@ You can add PDFs, Google Docs and Slides, websites, YouTube videos, audio files 
 
 ## 💬 Chatting with your sources
 
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-Ask questions that draw across your sources, such as identifying key themes, comparing viewpoints or finding where sources disagree. Every answer links to the exact passages it used. The table shows examples of effective questions.
-
-</details>
-
 | Great questions | Why they work |
 |---|---|
 | *"What are the 5 most important ideas across all sources?"* | Synthesis across documents |
@@ -97,13 +76,6 @@ You can also set a **custom chat style** (for example: "Act as a Socratic tutor.
 answers.") for learning mode. 🧑‍🏫
 
 ## 🎧 Audio Overviews: the podcast machine
-
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-Audio Overviews turn your sources into a conversation between two AI hosts. You can customize the focus and length, choose formats such as a brief or a debate, and use interactive mode to ask the hosts questions. The table lists the options.
-
-</details>
 
 Audio Overviews turn your sources into a conversation between two AI hosts. It's the fastest "wow" in this whole manual. 🤯
 
@@ -124,13 +96,6 @@ Audio Overviews turn your sources into a conversation between two AI hosts. It's
 
 ## 🧰 The Studio: turn sources into anything
 
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-The Studio panel converts your sources into different formats: Video Overviews, mind maps, flashcards, quizzes, reports and slides. The table shows what each format is best for.
-
-</details>
-
 | Output | Best for |
 |---|---|
 | 🎬 **Video Overview** | Visual learners, sharing with others |
@@ -146,18 +111,6 @@ after they're generated.
 
 ## 🎓 Workflow: studying anything
 
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-To study a course with Gemini Notebook:
-
-1. Create a notebook for the course and add slides, readings, notes and recordings.
-2. Listen to an Audio Overview for an introduction.
-3. Test yourself with flashcards and quizzes.
-4. Ask about anything you find confusing, and follow the citations back to the source.
-
-</details>
-
 1. **Create a notebook per course** and add lecture slides, readings, your notes and recorded lectures.
 2. **Listen** to an Audio Overview on your commute. 🚌
 3. **Map it:** generate a Mind Map to see the big picture.
@@ -169,17 +122,6 @@ More in [Research & Learning](../part-11-ai-for-life-and-work/91-research-and-le
 
 ## 🔬 Workflow: research & writing
 
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-For research and writing:
-
-1. Collect strong sources, using the discovery feature and your own finds.
-2. Ask the notebook to map themes, agreements and disagreements.
-3. Draft your piece in your own words, citing the sources the notebook points to.
-
-</details>
-
 1. **Discover sources:** describe your topic and import the best suggestions, plus your own finds.
 2. **Map the territory:** *"Group these sources by viewpoint. Where do they disagree?"*
 3. **Find gaps:** *"What important questions do these sources not answer?"* Then add sources that do.
@@ -187,13 +129,6 @@ For research and writing:
 5. **Write** (yourself, or in Claude with the notebook's report as context), then **fact-check** claims against the notebook.
 
 ## 💼 Workflow: work & life
-
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-Notebooks work well for professional projects and personal decisions too, such as buying a home, onboarding at a new job or researching a medical question to discuss with a doctor. The table gives examples.
-
-</details>
 
 | Notebook | Sources | Ask |
 |---|---|---|
@@ -207,13 +142,6 @@ Notebooks work well for professional projects and personal decisions too, such a
 
 ## 🔌 Gemini Notebook in your wider toolkit
 
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-You can attach notebooks to Gemini chats so answers draw on your sources, add Google Docs and Slides directly, and export notes and reports to your other tools.
-
-</details>
-
 - **Gemini app:** attach a notebook to a Gemini chat to ground the answers in your sources.
 - **Google Drive & Workspace:** add Docs and Slides as sources, and use Workspace automations to refresh sources on a schedule.
 - **Export:** copy reports into Docs, Notion or Obsidian ([Personal Knowledge Management](77-personal-knowledge-management.md)).
@@ -221,13 +149,6 @@ You can attach notebooks to Gemini chats so answers draw on your sources, add Go
 - **Share** notebooks with classmates or teammates (view or edit), or publish them publicly.
 
 ## 🪤 Limits & tips
-
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-Gemini Notebook is only as good as the sources you add, its summaries can oversimplify or occasionally misstate details, and sensitive documents should be handled according to your privacy needs. The table pairs each limitation with a tip.
-
-</details>
 
 | Watch out for | Tip |
 |---|---|

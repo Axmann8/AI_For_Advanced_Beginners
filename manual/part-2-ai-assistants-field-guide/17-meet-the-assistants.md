@@ -1,6 +1,6 @@
 # 17 · Meet the Assistants: The Big Comparison 🗺️
 
-> ⏱️ 7 min read · 🎯 Everyone choosing, switching or just curious · 🧰 Needs: nothing
+> ⏱️ 6 min read · 🎯 Everyone choosing, switching or just curious · 🧰 Needs: nothing
 
 **Every major AI assistant on one page.** Who makes it, where it lives, what the free version gets you, what each is
 brilliant at, how they feel to talk to, and how they treat your data. Use this chapter to get your bearings, then dive
@@ -21,13 +21,6 @@ All the major AI assistants can chat, explain and write, but each has distinct s
 
 ## 🦁 The lineup at a glance
 
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-This table lists each major assistant, its maker, where you can use it and what it does best, with a link to its full chapter.
-
-</details>
-
 | Assistant | Made by | Lives in | Best for | Full guide |
 |---|---|---|---|---|
 | 💬 **ChatGPT** | OpenAI (USA) | App, web, desktop app (Chat · Work · Codex) | The all-rounder: voice, images, agents, huge feature set | [Chapter 18](18-chatgpt.md) |
@@ -44,13 +37,6 @@ This table lists each major assistant, its maker, where you can use it and what 
 | 🧩 **Hubs & specialists** | Poe, Duck.ai, Proton Lumo, Character.AI… | Apps, web | Many models in one place, privacy, characters | [Chapter 29](29-hubs-and-specialty-chatbots.md) |
 
 ## 🧰 Who can do what
-
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-This feature matrix shows which assistants support voice, camera input, image and video creation, web search, memory, agents and more. Use the legend above the table to read partial support.
-
-</details>
 
 ✅ = yes · 🟡 = partly, limited, or only on some plans or countries · ➖ = not really
 
@@ -73,13 +59,6 @@ Features roll out unevenly by country, plan and device, and change often. Each a
 
 ## 🎭 Personalities: how they feel to talk to
 
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-Each assistant has a recognizable conversational style, from detailed and enthusiastic to concise and measured. Most let you adjust their tone in settings, so try a few and see which suits you.
-
-</details>
-
 This part is subjective (and each assistant lets you adjust its style), but most people notice:
 
 | Assistant | Typical vibe |
@@ -95,13 +74,6 @@ This part is subjective (and each assistant lets you adjust its style), but most
 | 🌬️ Le Chat | Quick and crisp |
 
 ## 💳 Plans at a glance
-
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-Every assistant offers a free tier, and paid plans add higher limits, stronger models and premium features. The table lists the current plan names for each.
-
-</details>
 
 | Assistant | Free | Paid tiers (names as of September 2026) |
 |---|---|---|
@@ -121,13 +93,6 @@ Advice on whether to pay at all: [Getting Set Up](../part-1-ai-from-zero/05-gett
 
 ## 🔐 Privacy at a glance
 
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-Assistants differ in whether they use your chats for training by default, how long they keep data and where the company is based. The table summarizes each one's defaults and the setting to change.
-
-</details>
-
 | Assistant | Training on your chats (consumer plans) | Worth knowing |
 |---|---|---|
 | 💬 ChatGPT | On by default; opt out in Data controls | Temporary chats aren't used for training; Health data is kept separate |
@@ -145,13 +110,6 @@ picture, see [Privacy & Your Data](../part-12-mastery/104-privacy-and-your-data.
 
 ## 🌍 Where you can use them
 
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-Most assistants are available in most countries and many languages, but new features often launch in certain regions first, and a few assistants aren't officially available everywhere.
-
-</details>
-
 - **Countries:** ChatGPT, Gemini, Claude, Copilot, Perplexity and Le Chat are available in most countries. Some are
   restricted in certain regions (for example, several Western assistants aren't officially available in China, and
   some features launch in the US first or arrive later in the EU).
@@ -161,13 +119,6 @@ Most assistants are available in most countries and many languages, but new feat
   Students](../part-11-ai-for-life-and-work/98-parents-teachers-and-students.md).
 
 ## 📖 How each Field Guide chapter works
-
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-Every assistant chapter follows the same structure, from quick facts and setup through features, step-by-step recipes, privacy settings and pro tips, so you can find the same information in each one.
-
-</details>
 
 Every assistant chapter follows the same friendly layout:
 

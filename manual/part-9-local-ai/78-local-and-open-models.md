@@ -1,6 +1,6 @@
 # 78 · Local & Open Models: AI on Your Own Machine 🏠💻
 
-> ⏱️ 9 min read · 🎯 Everyone (one command to start) · 🧰 Needs: a laptop or desktop with 8 GB+ RAM, and Ollama or LM Studio
+> ⏱️ 7 min read · 🎯 Everyone (one command to start) · 🧰 Needs: a laptop or desktop with 8 GB+ RAM, and Ollama or LM Studio
 
 **Yes, you can run surprisingly capable AI entirely on your laptop: offline, private, and free per use.** Open-weight models
 have improved at a startling pace, and a mid-range computer now runs assistants that would have seemed like frontier
@@ -23,13 +23,6 @@ Most AI runs on remote servers, but smaller open models can now run directly on 
 
 ## 🤔 Why go local?
 
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-Local AI is ideal for private data, offline use and high-volume repetitive tasks at no cost. Cloud models remain stronger for the most difficult reasoning and large coding tasks. The table compares strengths and weaknesses.
-
-</details>
-
 | 👍 Great for | 👎 Not great for |
 |---|---|
 | 🔐 **Privacy** (journals, medical, client data) | The hardest reasoning and big coding tasks |
@@ -45,17 +38,6 @@ Local AI is ideal for private data, offline use and high-volume repetitive tasks
 > work. Many tools (Open WebUI, n8n, Cline) let you mix both in one place.
 
 ## 🚀 Your first local model in 5 minutes
-
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-You can run your first local model in about five minutes.
-
-1. Install Ollama (terminal) or LM Studio (desktop app).
-2. Download a model that fits your computer's memory.
-3. Start chatting, entirely offline.
-
-</details>
 
 === "🦙 Ollama (terminal)"
 
@@ -84,13 +66,6 @@ Ask it something, then **turn off your Wi-Fi and ask again**. It still works. �
 
 ## 🧰 The toolkit
 
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-Several free tools run local models: Ollama for the command line, LM Studio and Jan for desktop apps, and Open WebUI for a ChatGPT-style web interface. The table compares them.
-
-</details>
-
 | Tool | What it is | Vibe |
 |---|---|---|
 | **[Ollama](https://ollama.com)** | Command-line model runner with an OpenAI-compatible API | `ollama run gemma4` and you're chatting. The standard |
@@ -103,13 +78,6 @@ Several free tools run local models: Ollama for the command line, LM Studio and 
 | **AnythingLLM, Msty, GPT4All** | Friendly desktop apps (AnythingLLM does great document chat) | Try a few! |
 
 ## 🌍 Open model families to know
-
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-Several companies publish open models you can download, including Google (Gemma), Alibaba (Qwen), Meta (Llama), Mistral, DeepSeek and OpenAI (gpt-oss). Each family has different strengths, and new versions are released frequently.
-
-</details>
 
 | Family | From | Known for |
 |---|---|---|
@@ -131,13 +99,6 @@ Several companies publish open models you can download, including Google (Gemma)
 
 ## 💻 What can my computer run?
 
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-A model needs roughly its file size in memory (RAM on a Mac, VRAM on a graphics card), plus some extra for the conversation. Most laptops run small models well; computers with large memory or powerful GPUs can run larger, more capable ones. The table gives guidance by hardware.
-
-</details>
-
 **The rule of thumb:** a model needs roughly **its size in GB of memory** (RAM on a Mac, VRAM on a GPU), plus a bit extra for
 the conversation. Quantized to 4 bits, that's about **0.6 GB per billion parameters**.
 
@@ -152,13 +113,6 @@ Buying guide in [Hardware for Local AI](79-hardware-for-local-ai.md).
 
 ## 📖 Local AI jargon, decoded
 
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-Local AI comes with its own terms: **parameters** (model size, such as 7B), **quantization** (compressing a model to use less memory), **GGUF** (a common file format) and **MoE** (mixture of experts, where only part of the model is active at once). The table defines more.
-
-</details>
-
 | Term | Plain English |
 |---|---|
 | **Parameters (7B, 70B)** | The number of "knobs" in the model. Bigger is usually smarter and hungrier |
@@ -172,13 +126,6 @@ Local AI comes with its own terms: **parameters** (model size, such as 7B), **qu
 | **License** | What you're allowed to do (Apache 2.0 and MIT are permissive, others have conditions). Check before commercial use |
 
 ## 🔌 Using local models from other apps
-
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-Ollama and LM Studio provide an OpenAI-compatible API on your computer, so most tools that work with OpenAI, including note apps, automations and code editors, can use your local model instead.
-
-</details>
 
 Ollama and LM Studio expose an **OpenAI-compatible API** on your machine, so most tools that speak "OpenAI" can use them:
 
@@ -205,13 +152,6 @@ print(reply.choices[0].message.content)
 
 ## 🔀 Open models in the cloud
 
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-If your computer can't run the model you want, cloud providers like OpenRouter, Groq and Together host open models with fast, inexpensive access.
-
-</details>
-
 - **[OpenRouter](https://openrouter.ai):** one API key, hundreds of models (open and closed), great for comparing.
 - **Groq, Cerebras, Together, Fireworks:** very fast hosted open models.
 - **Hugging Face Inference Providers:** run models from the Hub without managing servers.
@@ -220,13 +160,6 @@ If your computer can't run the model you want, cloud providers like OpenRouter, 
 Handy for trying a big model before buying hardware for it. (Remember: cloud means your data leaves your machine.)
 
 ## 🎮 Fun local projects
-
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-The table lists ten projects where running AI locally offers a clear advantage, such as analyzing a private journal.
-
-</details>
 
 | # | Project | Why local shines |
 |---|---|---|

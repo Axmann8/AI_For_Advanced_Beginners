@@ -1,6 +1,6 @@
 # 11 · Staying Safe: Privacy, Scams & Deepfakes 🛡️
 
-> ⏱️ 9 min read · 🎯 Everyone, and especially anyone helping older relatives · 🧰 Needs: 10 minutes in your settings
+> ⏱️ 7 min read · 🎯 Everyone, and especially anyone helping older relatives · 🧰 Needs: 10 minutes in your settings
 
 **AI is safe to use when you follow a few simple rules, and knowing about AI makes you *much* harder to fool.** This
 chapter covers what never to share with a chatbot, the privacy switches worth flipping, the new wave of AI-powered scams
@@ -23,13 +23,6 @@ Using AI safely comes down to protecting your information and recognizing AI-pow
 
 ## 🤐 What never to share with a chatbot
 
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-Treat every AI conversation as something that could be read by someone else. The table lists what never to share and safer alternatives.
-
-</details>
-
 Treat an AI chat like a conversation that **could one day be read by someone else**: a company reviewer, a hacker who
 steals your password, or anyone you accidentally share a link with.
 
@@ -50,18 +43,6 @@ steals your password, or anyone you accidentally share a link with.
 
 ## ⚙️ Your privacy switches
 
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-Every major assistant has privacy controls. Spend ten minutes reviewing them.
-
-1. Turn off training on your chats if you prefer.
-2. Review and manage stored memories.
-3. Use temporary or incognito chats for sensitive topics.
-4. Delete old conversations you no longer need.
-
-</details>
-
 Take ten minutes to review these in your main assistant (exact locations are in each [Field Guide
 chapter](../part-2-ai-assistants-field-guide/index.md) and in [Getting Set Up](05-getting-set-up.md)):
 
@@ -76,17 +57,6 @@ For the full deep dive (including work and family situations), see [Privacy & Yo
 Data](../part-12-mastery/104-privacy-and-your-data.md).
 
 ## 🎭 The new AI scams (and how to beat them)
-
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-Criminals use AI to clone voices, fake videos and write convincing messages. The common thread is urgency and a request for money or information.
-
-1. Pause whenever a message or call creates pressure to act immediately.
-2. Hang up and contact the person or organization through a number you already know.
-3. Use a family safe word to confirm identity.
-
-</details>
 
 Criminals use AI too. These are the scams growing fastest, and the one move that beats each:
 
@@ -116,13 +86,6 @@ flowchart TD
 
 ## 📱 Fake AI apps and extensions
 
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-Fake AI apps and browser extensions imitate well-known assistants to steal money or data. Download apps only from the official developer, and be wary of unfamiliar apps with weekly subscriptions.
-
-</details>
-
 - **Check the developer name** in the app store: OpenAI, Google, Anthropic, Microsoft, Meta, xAI, Perplexity AI, and so
   on. Lookalikes often have names like "Chat AI Assistant GPT Pro."
 - **Be wary of weekly subscriptions** in apps you don't recognize.
@@ -131,13 +94,6 @@ Fake AI apps and browser extensions imitate well-known assistants to steal money
 - **"Free premium access" offers** on social media are almost always scams.
 
 ## 🕵️ Spotting AI-made images, video and text
-
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-AI-generated images and video are increasingly realistic, so rely on habits rather than visual clues. Pause when content provokes a strong emotion, check who posted it, and look for coverage from reliable sources.
-
-</details>
 
 AI images and videos are getting harder to spot, so rely on **habits** more than on "tells":
 
@@ -154,13 +110,6 @@ AI images and videos are getting harder to spot, so rely on **habits** more than
 
 ## 🧒 Kids, teens and AI
 
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-AI can be a valuable learning tool for young people, but it needs adult guidance. Check age requirements, use teen accounts and parental controls where available, and talk openly about appropriate use.
-
-</details>
-
 - **Check age rules:** most assistants are 13+ with parental permission, or 18+. Use teen accounts and parental controls
   where offered.
 - **Talk about it openly:** what's okay (explanations, practice, ideas) and what's not (copying homework, sharing
@@ -174,13 +123,6 @@ Full guide: [Parents, Teachers & Students](../part-11-ai-for-life-and-work/98-pa
 
 ## 💛 Looking after yourself
 
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-AI can be a helpful source of support, but it isn't a therapist, doctor or substitute for human relationships. For ongoing distress, contact a professional or a support line, and keep investing in real-world connections.
-
-</details>
-
 AI can be comforting: it's patient, available at 3am, and never judges. That's genuinely valuable. But:
 
 - It's **not a therapist or doctor.** For ongoing sadness, anxiety or crisis, reach out to a professional or a support
@@ -190,17 +132,6 @@ AI can be comforting: it's patient, available at 3am, and never judges. That's g
 - **Your decisions are yours.** Use AI to think things through, not to be told what to do with your life.
 
 ## 🆘 If something goes wrong
-
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-If you think you've been scammed or shared something you shouldn't have, act quickly:
-
-1. Call your bank using the number on your card if money or card details are involved.
-2. Change passwords for any affected accounts and enable two-step verification.
-3. Report the scam, and tell people you trust. Scams happen to smart, careful people.
-
-</details>
 
 If you've shared something you shouldn't have, or think you've been scammed:
 

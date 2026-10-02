@@ -11,7 +11,7 @@ a theme park map: pick the rides that excite you, and come back for more wheneve
 
 This manual covers AI from the very first conversation to building your own tools. You don't need to read it in order: start with whatever matches your goal.
 
-- **✅ Key Points & Steps boxes** open every chapter and section with the essentials, so you can skim or dive in.
+- **✅ A Key Points & Steps box** opens every chapter with the essentials, then the sections get straight to the steps.
 - **Section cards** at the top of each chapter let you jump straight to the part you need.
 - **Quizzes, hands-on challenges and a ✅ done button** help you check your understanding and track your progress.
 
@@ -20,13 +20,6 @@ This manual covers AI from the very first conversation to building your own tool
 <!-- in-this-chapter -->
 
 ## 🎁 What's inside
-
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-The manual is organized into fourteen parts. Parts I and II are written for beginners; the later parts build on them with deeper topics, hands-on projects (Part XIII), an in-depth guide to the n8n + Notion stack (Part XIV) and a reference section (the appendices).
-
-</details>
 
 | Part | What it's about |
 |---|---|
@@ -48,16 +41,9 @@ The manual is organized into fourteen parts. Parts I and II are written for begi
 
 ## 🎨 The boxes and what they mean
 
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-Each colored box has one job, so you can tell at a glance whether to read it, try it or skip it. The essentials always appear in the amber **✅ Key Points & Steps** boxes; the optional extras (like 🤿 deep dives) are collapsed so they stay out of your way.
-
-</details>
-
 | Box | Looks like | What it's for |
 |---|---|---|
-| ✅ **Key Points & Steps** | Amber, always open | The essentials in plain language, with numbered steps when there's something to do. Every chapter opens with one, and every section has one |
+| ✅ **Key Points & Steps** | Amber, always open | The essentials in plain language, with numbered steps when there's something to do. Every chapter opens with one |
 | 🎮 **Try this** | Green | A hands-on challenge. Doing beats reading! |
 | ❓ **Quiz** | Violet, collapsible | Tap to reveal the answer. Great for checking you've got it |
 | 🤿 **Deep dive** | Blue, collapsible | Extra detail for the curious. Totally skippable |
@@ -71,18 +57,6 @@ Each colored box has one job, so you can tell at a glance whether to read it, tr
 
 ## 🗺️ Getting around
 
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-There are several ways to move around. Use whichever feels most natural:
-
-1. **Tap a section card** at the top of a chapter to jump to that section.
-2. **Use the sidebar** (or the ☰ menu on a phone) to browse every part and chapter.
-3. **Search** by pressing / or s and typing any word.
-4. **Press "Next up"** at the bottom of a chapter to continue in order.
-
-</details>
-
 - **Section cards:** each chapter starts with an *"In this chapter"* map. Tap any card to jump straight to that section.
 - **Sidebar:** the left menu shows every part, and the current chapter's sections appear underneath it, all clickable.
 - **Part landing pages:** click a part's name to see its key points, a suggested reading path, and chapter cards.
@@ -92,17 +66,6 @@ There are several ways to move around. Use whichever feels most natural:
 
 ## ✅ Tracking your progress
 
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-You can track which chapters you've finished, with no account required:
-
-1. Read to the end of a chapter.
-2. Press **✅ Mark this chapter as done**.
-3. Check the sidebar (a ✅ appears next to the chapter) and the home page progress bar, which also links back to where you left off.
-
-</details>
-
 - Press **✅ Mark this chapter as done** at the end of a chapter (🎉 confetti!).
 - Finished chapters get a ✅ in the sidebar.
 - The home page shows your progress bar and a **"Continue where you left off"** link.
@@ -110,13 +73,6 @@ You can track which chapters you've finished, with no account required:
   your progress resets (the knowledge stays in your head 😉).
 
 ## 🧭 Choose your own adventure
-
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-The table below suggests a first five chapters for different starting points. Pick the row that sounds most like you; you can switch paths any time.
-
-</details>
 
 | You are… | Your first five stops |
 |---|---|
@@ -130,13 +86,6 @@ The table below suggests a first five chapters for different starting points. Pi
 | 🎨 **Creator** | [Multimodal Playground](../part-10-creative-ai/83-multimodal-playground.md) → [Image Generation](../part-10-creative-ai/84-image-generation-deep-dive.md) → [Video & Audio](../part-10-creative-ai/85-video-and-audio-production.md) → [Music](../part-10-creative-ai/86-music-making-with-ai.md) → [Storytelling](../part-10-creative-ai/89-storytelling-and-interactive-fiction.md) |
 
 ## 💬 A few friendly promises
-
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-The manual is built on a few simple commitments: plain explanations without jargon or condescension, something practical to do in every chapter, and honesty about what AI does well and where it falls short.
-
-</details>
 
 1. **No gatekeeping.** If something is confusing, that's on the manual, not on you. The Key Points boxes are there for everyone,
    including experts who just want the gist.

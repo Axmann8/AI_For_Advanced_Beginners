@@ -1,6 +1,6 @@
 # 44 · The MCP Recipe Book: 44 Multi-Tool Combos 🍳🔌
 
-> ⏱️ 10 min read (or pick one recipe!) · 🎯 Everyone · 🧰 Needs: a few connectors or MCP servers
+> ⏱️ 9 min read (or pick one recipe!) · 🎯 Everyone · 🧰 Needs: a few connectors or MCP servers
 
 **Single MCP servers are useful. Combinations are where the magic happens.** Each recipe lists the **ingredients**
 (servers or connectors), the **prompt** to run, and **why it works**. Copy, paste, adapt, enjoy. Most recipes work with
@@ -20,13 +20,6 @@ This chapter is a collection of 44 tested combinations of MCP servers and connec
 <!-- in-this-chapter -->
 
 ## 🧑‍💻 For builders
-
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-These recipes help software builders triage errors, test websites, keep documentation current and turn designs into code.
-
-</details>
 
 ### 1. The Bug Detective 🕵️
 **Ingredients:** Sentry + GitHub + your coding agent
@@ -74,13 +67,6 @@ These recipes help software builders triage errors, test websites, keep document
 
 ## 📋 For productivity
 
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-These recipes handle everyday work: morning briefings, meeting follow-ups, inbox triage and calendar planning.
-
-</details>
-
 ### 9. Monday Morning Briefing ☕
 **Ingredients:** Gmail + Google Calendar + Slack + Linear or Asana
 > *"Give me a Monday briefing: this week's meetings (with prep notes for each), unanswered emails older than 2 days, Slack
@@ -122,13 +108,6 @@ These recipes handle everyday work: morning briefings, meeting follow-ups, inbox
 
 ## 🔎 For research & learning
 
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-These recipes support research and learning: sourced research briefs, paper summaries and study notes from videos.
-
-</details>
-
 ### 17. Deep-Dive Research Brief 🔬
 **Ingredients:** Brave, Exa or Tavily + Fetch or Firecrawl + Notion
 > *"Research [topic] using at least 10 sources across news, blogs and papers. Resolve contradictions, rate source quality,
@@ -159,13 +138,6 @@ These recipes support research and learning: sourced research briefs, paper summ
 > sessions on my calendar."*
 
 ## 🏠 For life
-
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-These recipes help at home: trip planning, smart home routines, budget check-ins, gift ideas, groceries and family organization.
-
-</details>
 
 ### 23. The Trip Planner ✈️
 **Ingredients:** web search + weather/maps + Calendar + Notion
@@ -203,13 +175,6 @@ These recipes help at home: trip planning, smart home routines, budget check-ins
 
 ## 🎨 For creators
 
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-These recipes help creators repurpose content, produce podcasts, build 3D scenes and design graphics.
-
-</details>
-
 ### 30. Content Multiplier 📣
 **Ingredients:** Fetch + Canva + Notion or Buffer
 > *"Turn my latest blog post into a 7-post thread, a LinkedIn post, a newsletter intro and 3 Canva quote graphics in my brand
@@ -238,13 +203,6 @@ These recipes help creators repurpose content, produce podcasts, build 3D scenes
 
 ## 💼 For business
 
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-These recipes support small businesses: sales call preparation, customer insights, bookkeeping and customer support.
-
-</details>
-
 ### 36. Sales Call Prep 🤝
 **Ingredients:** HubSpot or Salesforce + web search + Calendar
 > *"For each sales call this week, pull the CRM history, research the company's recent news, and give me 3 tailored talking
@@ -269,13 +227,6 @@ These recipes support small businesses: sales call preparation, customer insight
 
 ## 🔀 Meta-recipes (automation ↔ agent)
 
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-These recipes combine chat with automation: your AI can trigger automated workflows, and automations can include AI steps.
-
-</details>
-
 ### 41. Chat-Triggered Automations ⚡
 **Ingredients:** Zapier MCP or n8n (MCP Server Trigger)
 > *"Run my 'new client onboarding' workflow for Acme Corp with contact jane@acme.com."*
@@ -297,13 +248,6 @@ These recipes combine chat with automation: your AI can trigger automated workfl
 > ([Example skill](../../examples/prompts-for-agents/skills/weekly-review/SKILL.md))
 
 ## 🧂 Seasoning tips (make any recipe better)
-
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-A few habits improve any recipe: name the specific tools to use, ask the AI to plan before acting on large tasks, and require your approval before anything is sent or changed.
-
-</details>
 
 - **Name the tools** when there's ambiguity: "use Brave Search, not fetch."
 - **Plan first** on big multi-tool tasks: *"Plan the steps, wait for my OK, then execute."*

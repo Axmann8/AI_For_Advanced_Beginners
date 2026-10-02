@@ -1,6 +1,6 @@
 # 09 · Talk, Show & Snap: Voice, Photos, Files & Pictures 🎙️
 
-> ⏱️ 8 min read + play time · 🎯 Complete beginners · 🧰 Needs: an assistant app on your phone (for voice and camera)
+> ⏱️ 7 min read + play time · 🎯 Complete beginners · 🧰 Needs: an assistant app on your phone (for voice and camera)
 
 **Typing is only the beginning.** Today's assistants can **talk** with you out loud, **see** through your camera,
 **read** your documents and **create** pictures from a sentence. For many people, this is where AI goes from "neat" to
@@ -22,17 +22,6 @@ Modern assistants work with much more than typed text. This chapter shows you ho
 <!-- in-this-chapter -->
 
 ## 🎙️ Talk to it: voice mode
-
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-Voice mode lets you talk with the assistant out loud, much like a phone call. You can interrupt and change direction at any time.
-
-1. Tap the voice or waveform icon in the app.
-2. Allow microphone access when asked.
-3. Speak naturally, and tap the icon again to end the conversation.
-
-</details>
 
 **Voice mode** turns your assistant into someone you can chat with out loud: on a walk, while cooking, in the car
 (hands-free!), or when typing is a pain. Modern voice modes are genuinely conversational: you can interrupt, change your
@@ -79,17 +68,6 @@ mind mid-sentence, and it responds in a natural voice with feeling.
 
 ## 📸 Show it things: photos and the live camera
 
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-You can share a photo, or point your live camera at something, and ask questions about it, such as identifying a plant, translating a menu or diagnosing a problem.
-
-1. Tap the camera or ➕ button.
-2. Take or choose a photo.
-3. Ask a specific question about it.
-
-</details>
-
 Tap the **📷 camera** or **➕** button, take or choose a photo, and ask a question about it. This is one of the most
 useful things AI does:
 
@@ -110,17 +88,6 @@ camera and talk about what it sees *in real time*: *"I'm looking at the back of 
 like video-calling a patient expert. 📹
 
 ## 📄 Give it documents to read
-
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-Assistants can read PDFs, documents and spreadsheets and answer questions about them, which saves you from reading every page.
-
-1. Tap 📎 or ➕ and choose **Upload file** (or drag the file into the chat).
-2. Ask for a summary, specific information or an explanation.
-3. Ask follow-up questions about any part you need.
-
-</details>
 
 Tap **📎 / ➕ → Upload file** (or drag a file into the chat on a computer). Assistants can read:
 
@@ -145,13 +112,6 @@ Tap **📎 / ➕ → Upload file** (or drag a file into the chat on a computer).
 > [Staying Safe](11-staying-safe-with-ai.md).
 
 ## 🖼️ Make pictures from words
-
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-Many assistants can create images from a description and edit existing pictures. The table shows how each one does it; describe the subject, style and mood for the best results.
-
-</details>
 
 Many assistants can **create images** from a description. Just ask *"Create an image of…"* or *"Draw…"*:
 
@@ -184,13 +144,6 @@ Many assistants can **create images** from a description. Just ask *"Create an i
 
 ## 🎬 Bonus: video, music and more
 
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-Some tools go further and create short videos, songs and other media from a description. These are good to explore once you're comfortable with the basics.
-
-</details>
-
 Once you're comfortable, there's a whole creative playground:
 
 - 🎬 **Short videos from a description:** Gemini (Google's Veo models), Grok Imagine, Meta AI and others
@@ -203,13 +156,6 @@ When you're ready: [The Multimodal Playground](../part-10-creative-ai/83-multimo
 [Part X · Creative AI](../part-10-creative-ai/index.md).
 
 ## 🔒 Voice and photo privacy in a nutshell
-
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-Photos and voice recordings can reveal more than you intend, such as an address in the background. Review what's in a photo before sharing it, and check your assistant's settings for how recordings are stored.
-
-</details>
 
 - **Check the background** of photos: addresses on envelopes, family photos, screens, documents on the desk.
 - **Voice recordings** may be stored with your chats. Check your assistant's settings to review or delete them.

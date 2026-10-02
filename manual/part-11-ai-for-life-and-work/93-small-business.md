@@ -1,6 +1,6 @@
 # 93 · AI for Small Business & Side Hustles 🏪🚀
 
-> ⏱️ 8 min read · 🎯 Small business owners, freelancers, side-hustlers and dreamers · 🧰 Needs: an assistant, Canva, and optionally Zapier, Make or n8n
+> ⏱️ 6 min read · 🎯 Small business owners, freelancers, side-hustlers and dreamers · 🧰 Needs: an assistant, Canva, and optionally Zapier, Make or n8n
 
 **For a small business, AI is like hiring a marketing assistant, a bookkeeper's helper, a receptionist and an analyst for
 less than the cost of lunch each month.** This chapter maps AI to every part of running a business, with five concrete setups
@@ -23,13 +23,6 @@ Small business owners handle many roles at once. AI can take on much of the rout
 
 ## 💰 Where AI pays off fastest
 
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-AI delivers the quickest returns in marketing, customer service, administration and business analysis. The table lists high-impact uses in each area and where to start.
-
-</details>
-
 | Area | High-impact uses | Start with |
 |---|---|---|
 | 📣 **Marketing** | Content, social posts, ad variants, email campaigns, SEO | Claude/ChatGPT + Canva AI + a scheduler |
@@ -42,17 +35,6 @@ AI delivers the quickest returns in marketing, customer service, administration 
 
 ## 📣 Setup 1: The marketing engine (an afternoon)
 
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-A marketing engine takes about an afternoon to set up.
-
-1. Have AI interview you and write a brand voice guide, customer personas and content themes.
-2. Save these in a Project so every request uses them.
-3. Generate a month-long content calendar, then the posts, images and emails.
-
-</details>
-
 1. **Brand brief:** *"Interview me about my business, then write a brand voice guide, 3 customer personas and 10 content
    pillars."* Save it in a **Project** so every future chat knows your business.
 2. **Monthly content calendar:** *"Create a 4-week social calendar using my pillars: 3 posts per week, with captions, hashtags
@@ -62,17 +44,6 @@ A marketing engine takes about an afternoon to set up.
 5. **Automate:** new blog post or product → AI drafts → posts queue for your approval ([Zapier & Make](../part-5-automation/49-zapier-and-make-walkthroughs.md)).
 
 ## 💬 Setup 2: The customer-service copilot
-
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-A customer-service assistant answers common questions consistently.
-
-1. Write a knowledge base with your hours, pricing, policies and FAQs (AI can draft it from past emails).
-2. Use it to power a website chatbot or to draft email replies.
-3. Review answers regularly and add any questions it couldn't handle.
-
-</details>
 
 1. **Write your knowledge base:** hours, pricing, policies, FAQs and troubleshooting in one doc. (Have AI draft it from your
    old emails!)
@@ -90,26 +61,12 @@ A customer-service assistant answers common questions consistently.
 
 ## 📞 Setup 3: The never-miss-a-call front desk
 
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-A voice agent can answer calls when you're busy or closed, respond to common questions, book appointments and take messages, so you don't lose customers to missed calls.
-
-</details>
-
 - **After-hours line:** a voice agent answers FAQs and takes messages ([Voice Agents](../part-10-creative-ai/87-voice-agents.md)).
 - **Booking:** it checks your calendar and books appointments via n8n or Make.
 - **Missed-call text-back:** a missed call triggers a friendly SMS: *"Sorry we missed you! Book here: [link]."*
 - **Full build:** [Build-Along: Voice Receptionist](../part-13-build-alongs/119-build-along-voice-receptionist.md).
 
 ## 🧾 Setup 4: Admin autopilot
-
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-Administrative automations extract data from invoices and receipts, record it in your accounting system or spreadsheet, and send polite payment reminders. The table lists the tools for each flow.
-
-</details>
 
 | Flow | Tools |
 |---|---|
@@ -122,13 +79,6 @@ Administrative automations extract data from invoices and receipts, record it in
 
 ## 📊 Setup 5: Business insights
 
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-Export your sales, customer or review data as a CSV and upload it to an assistant with code execution. Ask which products are growing, which customers haven't returned and what reviews praise or criticize.
-
-</details>
-
 Export your sales, customers or reviews as CSV → upload to an assistant with code execution:
 
 - *"Which products are growing fastest? Which customers haven't ordered in 90 days?"*
@@ -138,13 +88,6 @@ Export your sales, customers or reviews as CSV → upload to an assistant with c
 
 ## 🗓️ A 30-day AI rollout plan
 
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-This 30-day plan introduces one AI system per week, so you can confirm each one helps before adding the next.
-
-</details>
-
 | Week | Focus | Win |
 |---|---|---|
 | 1 | Brand brief + content calendar | A month of posts planned in an afternoon |
@@ -153,13 +96,6 @@ This 30-day plan introduces one AI system per week, so you can confirm each one 
 | 4 | An insights session with your data | One smart decision you wouldn't have made |
 
 ## 💡 Side-hustle ideas powered by AI
-
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-AI lowers the barrier to starting a side business. The table lists ideas where AI handles much of the work, such as a niche newsletter or AI setup services for local businesses.
-
-</details>
 
 | Idea | AI's role |
 |---|---|
@@ -175,13 +111,6 @@ AI lowers the barrier to starting a side business. The table lists ideas where A
 Much more in [Turning AI Skills into Income](../part-12-mastery/109-turning-ai-skills-into-income.md).
 
 ## ⚖️ Guardrails for businesses
-
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-Protect your customers: use business plans with appropriate data policies, make sure chatbots give accurate information, tell people when they're talking to AI, and always offer a way to reach a person. The table explains why each matters.
-
-</details>
 
 | Guardrail | Why |
 |---|---|

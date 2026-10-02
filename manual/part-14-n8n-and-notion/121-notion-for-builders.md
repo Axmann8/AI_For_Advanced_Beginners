@@ -1,6 +1,6 @@
 # 121 · Notion for Builders: Databases, Data Sources & the API 🧱
 
-> ⏱️ 11 min read · 🎯 Notion users ready to automate · 🧰 Needs: a Notion account
+> ⏱️ 9 min read · 🎯 Notion users ready to automate · 🧰 Needs: a Notion account
 
 **To automate Notion well, you need to see it the way software does.** On screen, Notion is pages, tables and boards. To
 an automation, it's a tree of objects with IDs, typed properties and strict rules about what can be written where. This
@@ -23,13 +23,6 @@ Notion organizes content as pages made of blocks; a database contains one or mor
 <!-- in-this-chapter -->
 
 ## 🧠 The Notion data model
-
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-Everything in Notion is either a page, a block or a database. Pages contain blocks (paragraphs, headings, lists, images). A database is a container for one or more data sources, and each data source is a table whose rows are pages with typed properties. Every object has a unique ID that automations use to find it.
-
-</details>
 
 ```mermaid
 flowchart TB
@@ -68,13 +61,6 @@ Every page, database and data source has a 32-character ID (sometimes shown with
 
 ## 🏷️ Property types, and how automations see them
 
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-Each property has a type that determines what values it accepts. Automations can write most types directly; some, like formulas, rollups and created time, are computed by Notion and are read-only. Choosing the right type makes automations far more reliable.
-
-</details>
-
 | Property | Holds | Writable by automations? | Automation tips |
 |---|---|---|---|
 | **Title** | The row's name (exactly one per data source) | ✅ | Required when creating a row |
@@ -95,17 +81,6 @@ Each property has a type that determines what values it accepts. Automations can
 | **Unique ID** | An auto-increment ID like `TASK-42` | ❌ read-only | A stable human-friendly reference |
 
 ## 🔑 Integrations and access
-
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-An integration is how external software (including n8n) gets permission to use your workspace. It can only see pages and databases that you explicitly share with it, which keeps access tightly scoped.
-
-1. Create an integration at notion.so/profile/integrations and choose its capabilities.
-2. Copy the integration secret and store it as an n8n credential.
-3. Share each page or database with the integration through **⋯ → Connections**.
-
-</details>
 
 There are two kinds of integration:
 
@@ -128,13 +103,6 @@ databases a workflow needs.
 > with the integration. Open it → **⋯ → Connections** and add the integration.
 
 ## 🧾 API essentials
-
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-The Notion API is a REST API at `https://api.notion.com/v1`. Every request needs your integration secret and a `Notion-Version` header. You'll mostly query data sources, create and update pages, and append blocks, while respecting rate limits, pagination and size limits.
-
-</details>
 
 You'll rarely call the API by hand, because n8n's Notion node does it for you. Knowing the shape of the calls, though,
 makes debugging easy and lets you use the **HTTP Request** node for anything the Notion node doesn't cover.
@@ -179,18 +147,6 @@ curl -X POST "https://api.notion.com/v1/data_sources/$DATA_SOURCE_ID/query" \
 
 ## 🧱 Designing databases for automation
 
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-A few design choices make databases dramatically easier and safer to automate: a Status property that drives the workflow, an External ID for matching records from other systems, a Source property, checkbox flags for processing state, and a clearly described schema.
-
-1. Add a **Status** property with clear stages.
-2. Add **External ID** and **Source** properties to anything synced from another app.
-3. Add flags like **AI processed** and a **Last synced** date.
-4. Describe the database's purpose and rules at the top of the page.
-
-</details>
-
 | Pattern | Property | Why it matters |
 |---|---|---|
 | **Status-driven workflow** | Status: `Inbox → Ready → Processing → Done / Error` | Automations react to stage changes and record their progress |
@@ -209,13 +165,6 @@ A few design choices make databases dramatically easier and safer to automate: a
 
 ## 🖱️ Notion's own automation tools
 
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-Notion includes several automation features that run without external tools: buttons, database automations, forms and recurring templates. On paid plans, buttons and automations can also send webhooks, which is the simplest way to trigger an n8n workflow from inside Notion.
-
-</details>
-
 | Feature | What it does | Example |
 |---|---|---|
 | **Buttons** | Run a set of actions when clicked: add pages, edit properties, open pages, send webhooks | A "Start my day" button that creates today's journal page |
@@ -231,18 +180,6 @@ content, n8n fetches it with the page ID. You can add a custom header (for examp
 the request came from you.
 
 ## ⚡ Notion's integration webhooks
-
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-Integration webhooks send events from Notion to your server when things change anywhere the integration has access, such as pages created, properties updated or comments added. They require a one-time verification step and signed deliveries, and their payloads identify what changed rather than including the full content.
-
-1. In your integration's settings, add a webhook subscription with your n8n Webhook URL.
-2. Capture the `verification_token` Notion sends first and paste it back into the integration settings.
-3. Verify the `X-Notion-Signature` header on later deliveries.
-4. Fetch the changed page with the Notion node to get its current data.
-
-</details>
 
 | Event | Fires when |
 |---|---|

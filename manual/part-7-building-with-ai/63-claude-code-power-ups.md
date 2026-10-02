@@ -1,6 +1,6 @@
 # 63 · Claude Code Power-Ups: Skills, Subagents, Hooks, Plugins & More ⚡🧙
 
-> ⏱️ 11 min read · 🎯 Intermediate · 🧰 Needs: Claude Code installed ([Masterclass](62-claude-code-masterclass.md) first)
+> ⏱️ 9 min read · 🎯 Intermediate · 🧰 Needs: Claude Code installed ([Masterclass](62-claude-code-masterclass.md) first)
 
 **Out of the box, Claude Code is brilliant. Customized, it's a whole team.** This chapter covers the power-user layer:
 custom slash commands, skills, subagents, hooks, MCP servers, plugins, output styles, headless mode, GitHub Actions and the
@@ -28,13 +28,6 @@ Claude Code can be extended in several ways, each suited to a different need. Yo
 > maps the basics.
 
 ## 🗺️ The power-up map
-
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-The table summarizes every extension type: where it's stored, when it loads and what it's best for.
-
-</details>
 
 | Power-up | Lives in | Loaded when | Best for |
 |---|---|---|---|
@@ -67,13 +60,6 @@ flowchart TB
 
 ## ⌨️ Custom slash commands
 
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-A custom slash command is a saved prompt stored as a Markdown file in `.claude/commands/`. Typing the command (for example `/fix-issue 42`) sends the full prompt, with arguments filled in.
-
-</details>
-
 Create `.claude/commands/fix-issue.md`:
 
 ```markdown
@@ -101,13 +87,6 @@ Now `/fix-issue 42` does the whole dance. Other favorites:
 | `/tests` | *"Write thorough tests for @$ARGUMENTS, including edge cases."* |
 
 ## 🎓 Skills: packaged expertise
-
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-A skill is a folder containing a `SKILL.md` file (name, description and instructions) plus optional scripts and reference files. Claude sees only the description until a task calls for the skill, so you can install many without filling its context.
-
-</details>
 
 A **skill** is a folder with a `SKILL.md` (a name, a description and instructions) plus optional scripts, templates and
 reference files. Claude sees only each skill's **name and description** until a task matches, then loads the rest
@@ -146,13 +125,6 @@ playbook · "set up a new Python project our way" · grocery-list-from-recipes �
 
 ## 👥 Subagents: your specialist team
 
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-Subagents have their own context window, instructions and tool permissions. The main agent delegates focused tasks, such as research or code review, and receives only a summary, which keeps the main conversation clean.
-
-</details>
-
 **Subagents** have **their own context window, instructions and tool permissions**. The main agent delegates to them, and
 they return just a summary. That keeps your main context clean and lets you specialize.
 
@@ -182,13 +154,6 @@ Never edit files yourself.
 built."* Subagents can also run **in parallel** for big jobs ([Multi-Agent Systems](70-multi-agent-systems.md)).
 
 ## 🪝 Hooks: automatic guardrails
-
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-Hooks run your own commands automatically at specific moments, such as after every file edit or before a tool runs. Because they're deterministic, they enforce rules reliably, for example formatting code or blocking access to sensitive files.
-
-</details>
 
 **Hooks** run your shell commands at lifecycle events. They're **deterministic**: they don't rely on the model remembering.
 Configure them with `/hooks` or in `.claude/settings.json`.
@@ -242,13 +207,6 @@ Register it under `PreToolUse` with the matcher `Edit|Write` and the command `py
 
 ## 🔌 MCP in Claude Code
 
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-You can add MCP servers to Claude Code with the `claude mcp add` command, scoped to yourself, the current project or your whole team. The table explains each scope.
-
-</details>
-
 ```bash
 # a remote server (sign in with /mcp afterwards)
 claude mcp add --transport http notion https://mcp.notion.com/mcp
@@ -278,13 +236,6 @@ docs), a database server, Sentry, and your notes app. Full catalog in [MCP Serve
 
 ## 🎁 Plugins & marketplaces
 
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-Plugins bundle slash commands, skills, subagents, hooks and MCP servers into one installable package. You can install plugins from marketplaces or publish your own to share your setup.
-
-</details>
-
 **Plugins** bundle slash commands, skills, subagents, hooks, MCP servers and LSP (code intelligence) servers into one
 installable package. Browse and install with `/plugin`:
 
@@ -303,13 +254,6 @@ installable package. Browse and install with `/plugin`:
 
 ## 🎨 Output styles, status line & other comforts
 
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-Output styles change how Claude communicates, for example a learning mode that explains as it works. The status line shows custom information at the bottom of the screen.
-
-</details>
-
 | Feature | What it does | Try |
 |---|---|---|
 | **Output styles** | Changes Claude's personality and teaching mode | An "explanatory" or "learning" style that teaches as it codes |
@@ -319,13 +263,6 @@ Output styles change how Claude communicates, for example a learning mode that e
 | **Checkpoints** | Automatic save points you can rewind to | `Esc` `Esc` or `/rewind` |
 
 ## 🤖 Headless mode & scripting
-
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-Headless mode (`claude -p`) runs Claude Code from scripts without interactive chat, so you can use it in cron jobs, automations and pipelines.
-
-</details>
 
 ```bash
 claude -p "Summarize the last 10 commits for a changelog"                      # print mode
@@ -342,17 +279,6 @@ claude -p "Fix lint errors" --allowedTools "Edit,Bash(npm run lint)"            
 - 🧩 **n8n / Zapier:** call `claude -p` from an Execute Command node on your server ([n8n Masterclass](../part-5-automation/47-n8n-masterclass.md)).
 
 ## 🐙 Claude Code in GitHub Actions
-
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-With the Claude GitHub app, you can mention @claude on an issue or pull request and Claude will implement changes and open a pull request for your review.
-
-1. Run `/install-github-app` in Claude Code, or add the workflow below.
-2. Add your API key as a repository secret.
-3. Mention @claude in an issue or pull request comment.
-
-</details>
 
 Run `/install-github-app` inside Claude Code to set it up, or add the official action yourself:
 
@@ -377,13 +303,6 @@ Now comment **`@claude add input validation to the signup form`** on an issue, a
 schedule or on every PR for automatic reviews.
 
 ## 🧰 The Claude Agent SDK
-
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-The Claude Agent SDK, available for Python and TypeScript, provides the same capabilities that power Claude Code as a library, so you can build agents into your own applications.
-
-</details>
 
 The **Claude Agent SDK** (Python and TypeScript) is the same harness that powers Claude Code, as a library: tools, file
 editing, MCP, subagents, hooks and context management, all built in.
@@ -410,13 +329,6 @@ an ops agent for your server. To understand what's happening under the hood firs
 
 ## ☁️ Parallel & cloud sessions
 
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-You can run several Claude Code sessions at once: in separate Git worktrees locally, or in the cloud while your computer is off. The table compares the options.
-
-</details>
-
 | Way | How | Great for |
 |---|---|---|
 | **Git worktrees** | One Claude Code session per worktree folder | Two or three features at once, locally |
@@ -426,13 +338,6 @@ You can run several Claude Code sessions at once: in separate Git worktrees loca
 | **GitHub Action** | `@claude` on issues | Team-wide delegation |
 
 ## 🧪 Starter kit: a power-user setup in 15 minutes
-
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-This checklist sets up a customized, safer Claude Code configuration in about fifteen minutes.
-
-</details>
 
 - [ ] Run `/init` and trim `CLAUDE.md` to one page.
 - [ ] Allowlist your test and lint commands in `/permissions`, and deny `.env` reads.

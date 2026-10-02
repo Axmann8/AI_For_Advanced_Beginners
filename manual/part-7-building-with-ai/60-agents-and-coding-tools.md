@@ -1,6 +1,6 @@
 # 60 · Agents & AI Coding Tools: Become a Builder 🛠️🤖
 
-> ⏱️ 8 min read · 🎯 Everyone (yes, even if you've never coded) · 🧰 Needs: curiosity, and optionally a Claude or Cursor plan
+> ⏱️ 6 min read · 🎯 Everyone (yes, even if you've never coded) · 🧰 Needs: curiosity, and optionally a Claude or Cursor plan
 
 **Here's the secret: you don't need to be a programmer to build software anymore.** Coding agents write, run, test and fix
 code for you. Even if you never plan to "code," these tools are the fastest way to build your own automations, MCP servers,
@@ -22,13 +22,6 @@ AI coding tools let you describe what you want to build while the AI writes, run
 
 ## 🌈 The spectrum of AI building tools
 
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-AI building tools fall along a spectrum, from chat-to-app builders that need no code, to AI editors, autonomous coding agents and frameworks for building your own agents. The table shows what each level needs.
-
-</details>
-
 ```mermaid
 flowchart LR
     A[🪄 Chat-to-app builders<br/>describe it, get an app] --> B[✍️ AI code editors<br/>you + AI in the code] --> C[🤖 Autonomous agents<br/>AI does whole tasks] --> D[🏗️ Agent frameworks<br/>build your own agents]
@@ -42,13 +35,6 @@ flowchart LR
 | 🏗️ **Frameworks** | Claude Agent SDK, OpenAI Agents SDK, LangGraph, CrewAI | Some coding (AI can help!) |
 
 ## 🪄 Chat-to-app builders (no code needed)
-
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-Chat-to-app builders create working apps from a description. You can use the app immediately, refine it by chatting and share it with a link. The table compares Claude Artifacts, Lovable, Bolt, v0 and Replit.
-
-</details>
 
 | Tool | Sweet spot |
 |---|---|
@@ -64,13 +50,6 @@ Full guide: [Vibe Coding Your First Real App](65-vibe-coding-your-first-app.md).
 
 ## ✍️ AI code editors
 
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-AI code editors combine a standard code editor with an AI assistant that suggests code, answers questions about your project and makes multi-file changes on request. The table compares Cursor, VS Code with Copilot, Windsurf and others.
-
-</details>
-
 | Tool | Notes |
 |---|---|
 | **Cursor** | The most popular AI-first editor (a VS Code fork): agent mode, its own fast Composer models, cloud background agents, rules, MCP, and the Bugbot PR reviewer |
@@ -82,13 +61,6 @@ AI code editors combine a standard code editor with an AI assistant that suggest
 Deep dive: [Cursor & AI IDEs](64-cursor-and-ai-ides.md).
 
 ## 🤖 Autonomous coding agents
-
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-Autonomous coding agents take on a complete task: they read the project, write code, run tests, fix errors and report back. Your role is to review their work. The table compares Claude Code, Codex, Gemini CLI and others.
-
-</details>
 
 | Tool | Notes |
 |---|---|
@@ -105,13 +77,6 @@ Deep dives: [Claude Code Masterclass](62-claude-code-masterclass.md) → [Claude
 
 ## 🧩 Customizing agents: the power-user layer
 
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-You can customize coding agents with memory files (project rules), skills (packaged instructions), subagents (specialized helpers), hooks (automatic checks) and plugins (bundles of all of these). The table gives an example of each.
-
-</details>
-
 | Feature | What it does | Example |
 |---|---|---|
 | **Memory files** (`CLAUDE.md`, `AGENTS.md`, Cursor rules) | Always-on project instructions | "Run tests with `pytest`. Never touch `/legacy`." ([example](../../examples/prompts-for-agents/CLAUDE.md)) |
@@ -125,13 +90,6 @@ You can customize coding agents with memory files (project rules), skills (packa
 All of this is covered hands-on in [Claude Code Power-Ups](63-claude-code-power-ups.md).
 
 ## 🏗️ Agent frameworks (build your own)
-
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-Agent frameworks let you build agents into your own apps and scripts. Options include the Claude Agent SDK, the OpenAI Agents SDK, Google's ADK, LangGraph and others; see [Agent Frameworks Tour](69-agent-frameworks-tour.md) for details.
-
-</details>
 
 When you want an agent inside *your* app or script:
 
@@ -149,13 +107,6 @@ Learn the core loop first in [Build Your Own Agent](68-build-your-own-agent.md),
 
 ## 🧭 Which tool should *you* start with?
 
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-Choose a starting tool based on your experience: a chat-to-app builder if you've never coded, Claude Code if you want to learn by building, or Cursor if you prefer seeing the code. The table offers more profiles.
-
-</details>
-
 | You are… | Start with | Then try |
 |---|---|---|
 | 🌱 Never coded, want a quick app | Claude Artifacts or Lovable | Claude Code when you hit limits |
@@ -166,19 +117,6 @@ Choose a starting tool based on your experience: a chat-to-app builder if you've
 
 ## 🎯 Working with coding agents like a pro
 
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-Work with coding agents the way an effective manager works with a team:
-
-1. Explain the goal and constraints clearly.
-2. Ask for a plan, review it, then let the agent build.
-3. Give it a way to check its work, such as tests or screenshots.
-4. Save progress often with Git commits.
-5. Ask it to explain what it changed.
-
-</details>
-
 1. **Plan first.** Ask for a plan (Claude Code has a plan mode), review it, *then* let it build.
 2. **Give it a way to check its work:** tests, a linter, a screenshot via Playwright. Agents that can verify their output are
    dramatically better.
@@ -188,13 +126,6 @@ Work with coding agents the way an effective manager works with a team:
 6. **Run things in parallel.** Cloud agents can work on three tasks while you have lunch. 🥪
 
 ## ⚖️ What coding agents are great at (and not)
-
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-Coding agents excel at common, well-defined tasks with clear ways to verify the result. They need more guidance with vague goals, unusual legacy code and anything they can't test. The table lists examples of each.
-
-</details>
 
 | 🌟 Great at | 😬 Needs more guidance |
 |---|---|

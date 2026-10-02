@@ -1,6 +1,6 @@
 # 95 · Life Admin & Personal Productivity 🏡✅
 
-> ⏱️ 8 min read · 🎯 Everyone with a to-do list (so, everyone) · 🧰 Needs: an assistant with calendar/email connectors (optional), a notes app or spreadsheet
+> ⏱️ 6 min read · 🎯 Everyone with a to-do list (so, everyone) · 🧰 Needs: an assistant with calendar/email connectors (optional), a notes app or spreadsheet
 
 **Forms, bills, appointments, school emails, renewals, "did I ever reply to that?": life admin eats hours every week.** AI
 won't do your laundry (yet 🧺), but it can take a huge bite out of the thinking, planning and paperwork. This chapter gives you
@@ -23,13 +23,6 @@ Everyday adult life involves a steady stream of small administrative tasks: bill
 
 ## 🧰 The life-admin AI toolkit
 
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-The table pairs common life-admin tasks, from email and appointments to forms and travel, with how AI helps and a prompt to try.
-
-</details>
-
 | Task | How AI helps | 🎮 Prompt |
 |---|---|---|
 | 📬 **Email & inbox** | Triage, summaries, reply drafts | *"Summarize these 20 emails: action needed, FYI, junk."* ([Email & Calendar](../part-6-ai-in-your-apps/57-email-and-calendar.md)) |
@@ -45,17 +38,6 @@ The table pairs common life-admin tasks, from email and appointments to forms an
 
 ## 🔁 System 1: The Sunday planning session (20 minutes)
 
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-A weekly planning session takes about twenty minutes.
-
-1. Connect or paste your calendar and task list.
-2. Ask AI to build a realistic plan for the week, including breaks and buffer time.
-3. Adjust the plan, and schedule your most important tasks first.
-
-</details>
-
 With your calendar connected (or pasted in):
 
 > *"Look at my calendar for next week. Here's my task list: [paste]. Build a realistic plan with focus blocks, buffer time and
@@ -65,13 +47,6 @@ With your calendar connected (or pasted in):
 ([Claude Code Power-Ups](../part-7-building-with-ai/63-claude-code-power-ups.md#-skills-packaged-expertise)).
 
 ## 🏠 System 2: The household command center
-
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-A household command center keeps important information in one place: bill dates, maintenance schedules, warranties and contacts. AI can build the Notion page or spreadsheet for you, and automations can send reminders before things are due.
-
-</details>
 
 Create a Notion page or Google Sheet (AI can build it for you: *"Create a household command center with these tabs…"*):
 
@@ -84,19 +59,6 @@ Create a Notion page or Google Sheet (AI can build it for you: *"Create a househ
 | 🔑 **Contacts** | Plumber, vet, school, landlord | Quick lookup |
 
 ## 📨 System 3: The paperwork processor
-
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-For any confusing letter or form:
-
-1. Take a photo of it.
-2. Ask AI to explain what it means, what you need to do and the deadline.
-3. Add the action and deadline to your task list or calendar.
-
-You can automate this with a phone shortcut that sends photos to a workflow.
-
-</details>
 
 ```mermaid
 flowchart LR
@@ -115,13 +77,6 @@ Do it by hand in a chat, or automate it: phone shortcut → n8n → vision model
 
 ## 💳 System 4: The subscription audit
 
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-Export three months of bank transactions and ask AI to list every recurring charge, when each renews, and which ones you might not use. Many people find forgotten subscriptions this way.
-
-</details>
-
 Export 3 months of transactions → *"List every recurring charge, when it renews, and which ones I might not use."* Many
 people find money here on the very first try. 💰 Then: *"Draft cancellation messages for these three."*
 
@@ -129,26 +84,12 @@ people find money here on the very first try. 💰 Then: *"Draft cancellation me
 
 ## ❤️ System 5: A personal CRM for the people you love
 
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-A personal CRM is a simple database of the people you care about: birthdays, family members, recent life events and gift ideas. An automated reminder before each birthday, with gift suggestions, helps you stay in touch.
-
-</details>
-
 A simple database: names, birthdays, partners' and kids' names, recent life events, gift ideas, "last caught up." An AI
 reminder a week before each birthday with a draft message and three gift suggestions. 🎁
 
 **Bonus:** *"Who haven't I talked to in 3 months? Suggest a thoughtful way to reconnect with each."*
 
 ## ⚡ Productivity methods, AI-enhanced
-
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-Popular productivity methods work even better with AI: it can process your inbox into next actions (Getting Things Done), help you prioritize (Eisenhower matrix) and break large tasks into small first steps. The table explains each.
-
-</details>
 
 | Method | AI twist |
 |---|---|
@@ -161,13 +102,6 @@ Popular productivity methods work even better with AI: it can process your inbox
 | **Two-minute rule** | *"From this list, which tasks take under 2 minutes? Let's blitz them."* |
 
 ## 💛 The overwhelm reset
-
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-When you feel overwhelmed, write down everything on your mind and ask AI to sort it into "now," "later" and "never," then suggest one small next step. Reducing the list to a single action makes it much easier to start.
-
-</details>
 
 > *"I'm overwhelmed. Here's everything on my mind: [brain dump]. Sort it into now, later and never. Give me ONE next step I can
 > do in 10 minutes. Be gentle."*
@@ -185,13 +119,6 @@ This is a real gift for busy, anxious or neurodivergent brains. Other supportive
 More in [Accessibility & AI](101-accessibility-and-ai.md).
 
 ## 🔒 Privacy & safety for personal life
-
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-Redact account numbers, ID numbers and passwords before uploading documents, use temporary chats for sensitive topics, and consult a qualified professional for major legal or financial decisions. The table lists more guidelines.
-
-</details>
 
 | Guideline | How |
 |---|---|

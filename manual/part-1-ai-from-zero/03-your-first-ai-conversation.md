@@ -23,17 +23,6 @@ Using an AI chatbot works much like texting. This chapter walks through every st
 
 ## 🚪 Step 1: Get in the door
 
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-Choose one assistant to start with. ChatGPT, Gemini and Claude are all good first choices, and you can try the others later.
-
-1. Go to the assistant's website or install its app.
-2. Sign up or sign in, typically with a Google, Apple, Microsoft or email account.
-3. Confirm you see a message box ready for your first question.
-
-</details>
-
 Pick **one** assistant for today. Can't decide? Choose **ChatGPT** or **Gemini** (the most common) or **Claude**
 (famously friendly and clear). You can try the others later, and [Choosing Your First AI
 Assistant](04-choosing-your-first-assistant.md) helps you choose for the long run.
@@ -81,13 +70,6 @@ Assistant](04-choosing-your-first-assistant.md) helps you choose for the long ru
 
 ## 🖥️ Step 2: A quick tour of the screen
 
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-Nearly every AI app shares the same layout: a message box at the bottom, the conversation in the middle, buttons for attachments and voice, and a sidebar listing past chats. The table below explains each area.
-
-</details>
-
 Every chatbot has the same basic layout, whatever the brand:
 
 | Where | What it is | What you do with it |
@@ -105,13 +87,6 @@ Every chatbot has the same basic layout, whatever the brand:
 > same *idea* nearby, or simply ask the AI: *"Where do I find the settings for memory in this app?"* It usually knows. 😄
 
 ## 💬 Step 3: Say hello (your first 10 messages)
-
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-The ten starter prompts below show the range of what an assistant can do, from explaining a concept to planning a meal. Send them one at a time and adjust the details to fit your own life.
-
-</details>
 
 Type these one at a time (or change the details to fit your life). Read each answer and notice how it responds:
 
@@ -141,13 +116,6 @@ secret, and [Prompting 101](06-prompting-101.md) shows how to make your requests
 
 ## 🔘 Step 4: The buttons that matter
 
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-Each answer has small buttons for common actions. The most useful are copy, regenerate (for a different version) and edit (to change your own message and get a new answer from that point).
-
-</details>
-
 Hover over (or long-press) an answer and you'll see small icons. Here's what they do:
 
 | Icon | Name | When to use it |
@@ -167,17 +135,6 @@ Hover over (or long-press) an answer and you'll see small icons. Here's what the
 
 ## 🔁 Step 5: Keep the conversation going
 
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-The most effective way to use AI is as a conversation, not a single search. If an answer is close but not quite right, tell the assistant exactly what to change rather than starting over.
-
-1. Read the answer and decide what's missing or off.
-2. Reply with a specific adjustment, such as *"shorter"* or *"more examples."*
-3. Repeat until the result is what you need.
-
-</details>
-
 The biggest beginner mistake is treating AI like a search engine: one question, one answer, done. The real power is the
 **conversation**. When an answer is *almost* right, don't start over; just steer:
 
@@ -195,13 +152,6 @@ You'll master this in [Prompting 102](07-prompting-102.md).
 
 ## 🗂️ Step 6: Find, rename and delete your chats
 
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-Your conversations are saved in the sidebar so you can return to them later. You can search, rename or delete them, and use temporary chats for anything you don't want stored.
-
-</details>
-
 - **Find old chats:** the sidebar or ☰ menu lists them, newest first. Most apps have a 🔍 **search** too.
 - **Rename:** hover over a chat (or long-press on phones) → **Rename**. "Italy trip ideas 🇮🇹" beats "New chat (3)."
 - **Delete:** same menu → **Delete**. Good for anything personal you don't want kept around.
@@ -209,13 +159,6 @@ Your conversations are saved in the sidebar so you can return to them later. You
   used for memory. Look for a 👻 ghost or "temporary chat" icon near the top. Handy for sensitive questions.
 
 ## 🩹 Step 7: When something looks odd
-
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-Occasional glitches are normal and rarely mean anything is wrong. The table below lists common issues, such as an answer stopping partway or a usage-limit message, and how to fix each one.
-
-</details>
 
 | What you see | What to do |
 |---|---|

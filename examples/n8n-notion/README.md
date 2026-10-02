@@ -3,7 +3,7 @@
 Five importable [n8n](https://n8n.io) workflows that turn [Notion](https://www.notion.com) into an AI-powered command
 center. They're used in the manual's build-along,
 [Your AI Command Center](../../manual/part-14-n8n-and-notion/127-build-along-ai-command-center.md), which walks through
-every step with checkpoints.
+every step with screenshots and checkpoints.
 
 | File | What it does |
 |---|---|
@@ -65,25 +65,39 @@ matter: the workflows write these values.
 
 ## 2 · Connect n8n to Notion
 
-1. Create an internal integration at **notion.so/profile/integrations** and copy its secret.
-2. Share all four databases with it: open each → **⋯ → Connections** → add your integration.
-3. In n8n: **Credentials → Add credential → Notion API** → paste the secret.
+1. Create an internal integration at **notion.so/profile/integrations** → **New integration** (type *Internal*) and copy
+   its **Internal Integration Secret**.
+2. Give it access: open the page that holds your four databases → **••• → Connections** → add your integration.
+3. The first time you open a Notion node in n8n, click **Connect to Notion** and paste the secret. Every other Notion
+   node can reuse that credential.
 
 ## 3 · Import and configure each workflow
 
-1. In n8n, create a workflow → **⋯ → Import from File** → choose a JSON file.
-2. Open every node marked ⚠️ and select its credential (Notion API, Anthropic, Telegram, Header Auth, Bearer Auth).
-3. In each Notion node, replace `PASTE-YOUR-…-DATABASE-URL` by picking the right database from the list.
+Tested by importing into **n8n 2.41**. Start with workflow 4 (the error logger), so later problems get logged.
+
+1. In n8n, create a workflow → **⋯ → Import → From URL** and paste the file's raw link, for example
+   `https://raw.githubusercontent.com/Axmann8/The_Massive_AI_Manual/main/examples/n8n-notion/4-error-logger.json`
+   (or download the file and use **Import → From file**).
+2. Open every node with a ⚠️ and pick its credential (Notion API, Anthropic, Telegram, Header Auth, Bearer Auth).
+3. In each Notion node with a **Database** box, replace the `PASTE-YOUR-…-DATABASE-URL` placeholder with your database's
+   link (in Notion: open the database → **••• → Copy link**). n8n refuses to run while a placeholder is still there
+   (*"Not a valid Notion Database URL"*).
 4. **Webhook security:** workflows 1 and 2 use **Header Auth**. Create a *Header Auth* credential with name
    `X-Webhook-Secret` and a long random value, and send the same header from your phone shortcut or Notion button.
-5. Workflow 3: replace `PASTE-YOUR-TELEGRAM-CHAT-ID` with your chat ID (or swap the Telegram node for Gmail or Slack).
-6. Workflow 5: create a *Bearer Auth* credential with a long random token.
-7. **Activate** workflow 4 first, then set it as the **Error workflow** in every other workflow's **Settings**.
+5. Workflow 3: replace `PASTE-YOUR-TELEGRAM-CHAT-ID` with your chat ID (or delete the Telegram node, or swap in Gmail or
+   Slack).
+6. Workflow 5: on the MCP Server Trigger, click **Connect to Bearer Auth** and enter a long random token.
+7. **Publish** workflow 4 first. Then, in every other workflow, open **⋯ → Settings → Error Workflow**, choose the error
+   logger, save, and **Publish**. (Until the error logger is published, n8n shows a ⚠️ next to it: *Not published*.)
+
+The manual's [build-along](../../manual/part-14-n8n-and-notion/127-build-along-ai-command-center.md) shows each of these
+screens.
 
 ## 4 · Test
 
 ```bash
-# Workflow 1: capture (use the Production URL once the workflow is active)
+# Workflow 1: capture. Use the Test URL (/webhook-test/...) right after clicking Execute workflow,
+# or the Production URL (/webhook/...) once the workflow is published.
 curl -X POST "https://YOUR-N8N/webhook/capture" \
   -H "Content-Type: application/json" \
   -H "X-Webhook-Secret: YOUR-SECRET" \
@@ -94,9 +108,10 @@ Expected: a JSON reply with the new page's URL, and an Inbox row titled somethin
 
 - **Workflow 2:** click **Process with AI** on that row. Within seconds, Status becomes *Processed*, Summary and Next step
   fill in, and new tasks appear in Tasks.
-- **Workflow 3:** click **Test workflow** to get today's briefing immediately.
-- **Workflow 5:** add the MCP URL to Claude (Settings → Connectors → Add custom connector) with your bearer token, and ask
-  *"What's on my Notion task list this week?"*
+- **Workflow 3:** click **Execute workflow** to get today's briefing immediately.
+- **Workflow 5:** connect an MCP client to the trigger's Production URL with your bearer token, for example
+  `claude mcp add --transport http notion-tasks https://YOUR-N8N/mcp/notion-tools --header "Authorization: Bearer YOUR-TOKEN"`,
+  then ask *"What's on my Notion task list this week?"*
 
 ## Notes
 
@@ -107,3 +122,5 @@ Expected: a JSON reply with the new page's URL, and an Inbox row titled somethin
 - **Webhook payloads:** workflow 2 looks for the page ID at `body.data.id` (Notion's Send webhook format). If Notion
   changes the shape, update the *Get page ID* node.
 - **Rate limits:** Notion allows about three requests per second per integration. The Notion nodes retry automatically.
+- **Node versions:** the Notion nodes use version 2.2, which imports and runs on n8n 2.x. New Notion nodes you add
+  yourself will be version 3, which adds data-source and Markdown operations; both work side by side.

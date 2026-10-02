@@ -1,6 +1,6 @@
 # 40 · The Big MCP Server Catalog 📚🔌
 
-> ⏱️ 16 min read (or 2 min skim) · 🎯 Everyone · 🧰 Needs: an MCP-capable app (Claude, ChatGPT, Cursor, VS Code…)
+> ⏱️ 14 min read (or 2 min skim) · 🎯 Everyone · 🧰 Needs: an MCP-capable app (Claude, ChatGPT, Cursor, VS Code…)
 
 **There are thousands of MCP servers. This is a curated tour of more than 100 of the best-known, most useful and most
 *fun* ones, grouped by what you'd use them for.** Every entry has a "try this" prompt so you can go straight from reading
@@ -30,13 +30,6 @@ This catalog lists the most useful MCP servers by category, each with a suggeste
 
 ## 🧱 The starter pack (official reference servers)
 
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-These reference servers from the official MCP project are free, require no accounts and are ideal for learning how MCP works.
-
-</details>
-
 From the [modelcontextprotocol/servers](https://github.com/modelcontextprotocol/servers) repo:
 
 | Server | Type | What it does | 🎮 Try this |
@@ -55,13 +48,6 @@ From the [modelcontextprotocol/servers](https://github.com/modelcontextprotocol/
 > better community versions took over. It's a sign of a healthy ecosystem!
 
 ## 💻 Developer & DevOps
-
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-These servers connect AI to software development tools: code repositories, issue trackers, browser automation for testing, cloud infrastructure and monitoring.
-
-</details>
 
 | Server | Type | What it does | 🎮 Try this |
 |---|---|---|---|
@@ -87,13 +73,6 @@ These servers connect AI to software development tools: code repositories, issue
 
 ## 📋 Productivity, docs & project management
 
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-These servers connect AI to notes, tasks, documents, chat and file storage, so it can search, organize and create content where your work lives.
-
-</details>
-
 | Server | Type | What it does | 🎮 Try this |
 |---|---|---|---|
 | [**Notion**](https://developers.notion.com/docs/mcp) | ✅☁️ | Search, read, create and update pages and databases | "Turn this meeting transcript into a Notion page with action items in my Tasks DB." |
@@ -115,13 +94,6 @@ These servers connect AI to notes, tasks, documents, chat and file storage, so i
 
 ## 💼 Business, sales, support & payments
 
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-These servers connect AI to CRM, sales, support and payment systems. Configure them so the AI prepares actions for you to approve rather than acting on its own.
-
-</details>
-
 | Server | Type | What it does | 🎮 Try this |
 |---|---|---|---|
 | [**HubSpot**](https://developers.hubspot.com/mcp) | ✅☁️ | CRM contacts, deals, companies | "Which deals haven't been touched in 2 weeks?" |
@@ -139,13 +111,6 @@ These servers connect AI to CRM, sales, support and payment systems. Configure t
 > experimenting. See [autonomy levels](../part-3-foundations/32-the-mental-model.md#-autonomy-levels-from-autocomplete-to-autopilot).
 
 ## 🔎 Web search, research & scraping
-
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-These servers give AI access to web search, page reading and scraping, so it can research with real sources instead of relying on its training data.
-
-</details>
 
 | Server | Type | What it does | 🎮 Try this |
 |---|---|---|---|
@@ -165,13 +130,6 @@ These servers give AI access to web search, page reading and scraping, so it can
 More in [Web Scraping & Monitoring with AI](../part-5-automation/51-web-scraping-and-monitoring.md).
 
 ## 🗄️ Data & databases
-
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-These servers connect AI to databases so it can answer questions with real data and help design schemas. Always start with read-only credentials.
-
-</details>
 
 | Server | Type | What it does | 🎮 Try this |
 |---|---|---|---|
@@ -196,13 +154,6 @@ These servers connect AI to databases so it can answer questions with real data 
 
 ## 🎨 Creative, design & media
 
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-These servers connect AI to design tools, 3D software, music production and voice generation.
-
-</details>
-
 | Server | Type | What it does | 🎮 Try this |
 |---|---|---|---|
 | **Figma** (Dev Mode MCP) | ✅🏠☁️ | Gives coding agents your designs: layout, tokens, components | "Build this Figma frame as a React component matching our tokens." |
@@ -218,13 +169,6 @@ These servers connect AI to design tools, 3D software, music production and voic
 More creative fun in [Part X](../part-10-creative-ai/index.md).
 
 ## 🏠 Life, home, health & fun
-
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-These servers connect AI to your smart home, music, maps, fitness data and reference databases. Many are community projects, so check them before installing.
-
-</details>
 
 | Server | Type | What it does | 🎮 Try this |
 |---|---|---|---|
@@ -246,13 +190,6 @@ These servers connect AI to your smart home, music, maps, fitness data and refer
 
 ## 🔀 Meta-servers: one connection, thousands of apps
 
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-Meta-servers like Zapier MCP and Pipedream provide access to thousands of apps through a single connection. You choose exactly which actions the AI is allowed to use.
-
-</details>
-
 | Server | What it is |
 |---|---|
 | [**Zapier MCP**](https://zapier.com/mcp) | Exposes actions from Zapier's 8,000+ app catalog as tools. You pick exactly which actions the AI may use |
@@ -264,13 +201,6 @@ Meta-servers like Zapier MCP and Pipedream provide access to thousands of apps t
 
 ## 🗺️ Where to find more servers
 
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-These directories list thousands of MCP servers with search and install instructions. The official MCP Registry is the canonical source that many others draw from.
-
-</details>
-
 | Directory | Why it's good |
 |---|---|
 | [**Official MCP Registry**](https://registry.modelcontextprotocol.io) | The canonical, community-owned registry that other directories pull from |
@@ -281,17 +211,6 @@ These directories list thousands of MCP servers with search and install instruct
 | [**Glama**](https://glama.ai/mcp/servers), [**Smithery**](https://smithery.ai), [**PulseMCP**](https://www.pulsemcp.com), [**mcp.so**](https://mcp.so) | Searchable directories with usage stats and hosted options |
 
 ## 🔍 Judging a random server in 30 seconds
-
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-Before installing an unfamiliar server, check three things:
-
-1. **Who made it:** an official vendor is safer than an anonymous account.
-2. **Is it maintained:** look for recent updates and answered issues.
-3. **What does it ask for:** its permissions should match its purpose.
-
-</details>
 
 1. **Who made it?** Vendor-official beats a random account.
 2. **Is it alive?** Recent commits, answered issues, a reasonable number of users.

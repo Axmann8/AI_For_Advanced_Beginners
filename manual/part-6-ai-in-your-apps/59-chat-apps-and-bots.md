@@ -1,6 +1,6 @@
 # 59 · Chat Apps & Bots: Slack, Discord, Telegram & WhatsApp 💬🤖
 
-> ⏱️ 7 min read · 🎯 Beginner → intermediate · 🧰 Needs: a Slack workspace, Discord server or Telegram account (+ n8n or a little Python)
+> ⏱️ 6 min read · 🎯 Beginner → intermediate · 🧰 Needs: a Slack workspace, Discord server or Telegram account (+ n8n or a little Python)
 
 **Chat apps are where people already hang out, which makes them the perfect home for AI.** Build a bot that answers team
 questions from your docs, a Discord game master for your friends, a Telegram assistant in your pocket, or a Slack helper
@@ -23,13 +23,6 @@ A chat bot is an AI assistant that lives in Slack, Discord, Telegram or WhatsApp
 
 ## 🧭 Built-in AI in chat apps
 
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-Several chat apps already include AI that summarizes channels and threads, searches conversations and answers questions. Try these before building your own bot. The table compares them.
-
-</details>
-
 | App | Built-in AI | Also… |
 |---|---|---|
 | **Slack** | Channel recaps, thread summaries, AI search across conversations and connected apps, agents | Official MCP server for other AIs to use Slack ([Built-in Connectors](../part-4-mcp-and-connectors/41-built-in-connectors.md)) |
@@ -40,13 +33,6 @@ Several chat apps already include AI that summarizes channels and threads, searc
 
 ## 🏗️ Three ways to build your own bot
 
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-You can build a bot with a no-code platform like n8n, by writing a small program, or by having a coding agent write it for you. The table compares the approaches and what each suits best.
-
-</details>
-
 | Way | Tools | Best for |
 |---|---|---|
 | 🟢 **No-code** | n8n (Telegram/Slack/Discord triggers + AI Agent node), Zapier, Make | Personal assistants, team helpers, quick prototypes |
@@ -54,18 +40,6 @@ You can build a bot with a no-code platform like n8n, by writing a small program
 | 🔵 **AI-built** | Claude Code or Cursor writes the bot for you | Anything, fast, and you learn by reading the code |
 
 ## 🟢 Build: a Telegram assistant with n8n (no code)
-
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-This no-code build creates a private Telegram assistant.
-
-1. Message @BotFather on Telegram, send `/newbot`, and copy the token.
-2. In n8n, add a **Telegram Trigger** using that token.
-3. Add an **AI Agent** node with a model and memory keyed to the chat ID.
-4. Restrict replies to your own user ID, then send the response back through Telegram.
-
-</details>
 
 1. On Telegram, message **@BotFather** → `/newbot` → pick a name → copy the **token**.
 2. In n8n: **Telegram Trigger** (on message) with the token as a credential.
@@ -78,17 +52,6 @@ Add tools (calendar, tasks, weather) exactly as in [n8n AI Agents Deep Dive](../
 and see the full build in [Build-Along: Your Pocket AI Assistant](../part-13-build-alongs/112-build-along-pocket-ai-assistant.md).
 
 ## 💼 Build: a Slack "ask our docs" helper
-
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-This Slack bot answers teammates' questions from your team's documents and links to the source.
-
-1. Load your documents into a vector store.
-2. Trigger a workflow when someone mentions the bot.
-3. Retrieve relevant passages, have AI answer from them, and reply in the thread with source links.
-
-</details>
 
 **The idea:** someone mentions `@DocsBot how do we request time off?` → the bot searches your docs → answers with a link.
 
@@ -103,13 +66,6 @@ This Slack bot answers teammates' questions from your team's documents and links
 **Level up:** a daily channel digest, an "unanswered questions" report, or a `/summarize` slash command.
 
 ## 🎲 Build: a Discord game-master bot (with code)
-
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-This Python example uses `discord.py` and the Claude API to run a tabletop adventure game in a Discord channel. A coding agent can extend it with dice commands and saved campaign memory.
-
-</details>
 
 A small Python sketch using `discord.py` and the Claude API (ask Claude Code to flesh it out, add dice commands, and save
 campaign memory):
@@ -145,13 +101,6 @@ Then type `!gm We enter the misty tavern.` and let the adventure begin. 🐉 Mor
 
 ## 🧠 Designing a bot people love
 
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-Successful bots have one clear job, a consistent personality, concise answers and honesty about what they don't know. The table explains each principle in practice.
-
-</details>
-
 | Principle | In practice |
 |---|---|
 | **One clear job** | "Answers HR questions" beats "does everything" |
@@ -164,13 +113,6 @@ Successful bots have one clear job, a consistent personality, concise answers an
 
 ## 🔐 Safety, privacy & etiquette
 
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-Restrict who can use your bot to avoid unexpected API costs, store tokens and keys securely, tell people when a bot is present in a conversation, and follow each platform's rules.
-
-</details>
-
 - **Lock it down:** allowlist user IDs or channels, because public bots can rack up API bills fast.
 - **Secrets:** bot tokens and API keys go in environment variables or credentials, never in code you share.
 - **Tell people:** members should know a bot reads messages in a channel, and follow the platform's rules and your
@@ -180,13 +122,6 @@ Restrict who can use your bot to avoid unexpected API costs, store tokens and ke
 - **Prompt injection:** in shared channels, anyone can type instructions to your bot, so keep powerful tools behind approvals.
 
 ## 💡 20 bot ideas
-
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-The table lists twenty bot ideas for work, friends and family, and fun.
-
-</details>
 
 | For work 💼 | For friends & family 👨‍👩‍👧 | For fun 🎉 |
 |---|---|---|

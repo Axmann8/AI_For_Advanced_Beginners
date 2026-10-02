@@ -1,6 +1,6 @@
 # 84 · Image Generation Deep Dive: Direct Images Like an Art Director 🎨🖼️
 
-> ⏱️ 8 min read · 🎯 Everyone (beginner → pro techniques) · 🧰 Needs: one image tool (ChatGPT, Gemini, Midjourney, Ideogram, or ComfyUI locally)
+> ⏱️ 7 min read · 🎯 Everyone (beginner → pro techniques) · 🧰 Needs: one image tool (ChatGPT, Gemini, Midjourney, Ideogram, or ComfyUI locally)
 
 **AI image tools went from "weird hands" to professional-grade in a few short years.** This chapter goes way past "type a
 prompt, get a picture": how to pick the right tool for the job, write prompts like an art director, edit precisely, keep
@@ -23,13 +23,6 @@ Image models generate pictures from text descriptions and edit them through conv
 
 ## 🧭 Choosing your tool (by job)
 
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-Different image tools excel at different jobs, such as following complex instructions, rendering text, photorealism, artistic styles or editing photos. The table recommends tools for each.
-
-</details>
-
 | Job | Great picks |
 |---|---|
 | 🗣️ Following complex instructions, conversational edits | **ChatGPT (GPT Image)**, **Gemini (Nano Banana)** |
@@ -47,13 +40,6 @@ Different image tools excel at different jobs, such as following complex instruc
 > who's leading for photorealism, editing or text *right now*.
 
 ## 🧬 The anatomy of a great image prompt
-
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-A strong image prompt covers several layers: subject, action, setting, composition, style, lighting, color and mood. Include the layers you care about and leave the rest to the model. The table gives examples for each.
-
-</details>
 
 Think like a photographer or art director. Cover these layers (skip any you don't care about):
 
@@ -82,13 +68,6 @@ Think like a photographer or art director. Cover these layers (skip any you don'
 
 ## 🎨 Style vocabulary cheat sheet
 
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-Specific vocabulary changes results significantly. The table lists useful terms for art styles, camera and lens choices, lighting and texture.
-
-</details>
-
 | Styles | Camera & lens | Lighting | Texture & finish |
 |---|---|---|---|
 | Watercolor | Macro close-up | Golden hour | Film grain |
@@ -105,13 +84,6 @@ copying a real person's work.
 
 ## ✂️ Editing: the real superpower
 
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-Modern image models edit through conversation: change details, remove or add objects, change the setting, combine images or apply a new style. The table gives an example of each kind of edit.
-
-</details>
-
 Modern models edit images **conversationally**:
 
 | Edit | Example |
@@ -127,17 +99,6 @@ Modern models edit images **conversationally**:
 
 ## 🧑‍🎨 Consistency: same character, many images
 
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-To keep a character consistent across many images:
-
-1. Generate a character reference sheet showing front, side and back views.
-2. Attach that reference whenever you request a new scene.
-3. Repeat the same key descriptive phrases in every prompt.
-
-</details>
-
 1. **Create a reference sheet first:** *"Character sheet: front, side and back views of [character], plain background."*
 2. **Reuse the reference image** in every generation: *"Using this character, show her at the beach."*
 3. **Lock the description:** keep a fixed "character bible" paragraph you paste each time.
@@ -145,13 +106,6 @@ To keep a character consistent across many images:
 5. **Advanced:** train a small **LoRA** on 10–20 images of a character, product or your own style ([Fine-Tuning](../part-9-local-ai/82-fine-tuning-for-normal-people.md#-fine-tuning-beyond-text)).
 
 ## 🖥️ Running image models locally
-
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-With a capable graphics card, you can run image models locally using tools like ComfyUI, Forge or Draw Things, giving you unlimited, private generation. The table compares them.
-
-</details>
 
 | Tool | Style | Best for |
 |---|---|---|
@@ -168,13 +122,6 @@ pipelines.
 
 ## 💼 Practical uses that pay off
 
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-Image generation is useful for social posts and thumbnails, presentation visuals, product mockups, logos and illustrations. The table gives tips for each use.
-
-</details>
-
 | Use | Tips |
 |---|---|
 | Social posts & thumbnails | Generate the background, then add text in Canva for control |
@@ -187,13 +134,6 @@ Image generation is useful for social posts and thumbnails, presentation visuals
 
 ## ⚙️ Automating image generation
 
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-You can automate image generation through APIs from OpenAI, Google, Black Forest Labs and others, or through aggregators like Replicate and fal, for example to create a header image for every new blog post.
-
-</details>
-
 - **APIs:** OpenAI, Google (Gemini/Imagen), Black Forest Labs, Ideogram, Recraft, Stability, plus aggregators like **Replicate**
   and **fal**.
 - **n8n / Make / Zapier:** a blog post is published → Claude writes an image prompt → the image API → upload to your CMS.
@@ -201,13 +141,6 @@ You can automate image generation through APIs from OpenAI, Google, Black Forest
 - **ComfyUI workflows:** run locally or via API for batch jobs ("make 50 product shots in the same style").
 
 ## ⚖️ Ethics & rights (the practical version)
-
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-Don't create misleading or harmful images of real people, don't present AI images as real photographs, and check the terms and laws on commercial use before selling AI-generated work. The table explains the reasoning behind each guideline.
-
-</details>
 
 | Guideline | Why |
 |---|---|
@@ -219,13 +152,6 @@ Don't create misleading or harmful images of real people, don't present AI image
 | **Respect artists** | Avoid imitating living artists' signature styles for commercial work |
 
 ## 🎮 15 image projects
-
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-The table lists fifteen image projects to try.
-
-</details>
 
 | # | Project | # | Project |
 |---|---|---|---|

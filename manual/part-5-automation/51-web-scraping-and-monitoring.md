@@ -1,6 +1,6 @@
 # 51 · Web Scraping & Monitoring with AI 🕸️👀
 
-> ⏱️ 8 min read · 🎯 Beginner → intermediate · 🧰 Needs: an automation platform or Python (both optional)
+> ⏱️ 5 min read · 🎯 Beginner → intermediate · 🧰 Needs: an automation platform or Python (both optional)
 
 **A huge amount of useful information lives on web pages with no API:** prices, job posts, event listings, government
 notices, product restocks, competitor updates. With AI, turning messy pages into clean, structured data (and getting alerted
@@ -22,13 +22,6 @@ Web scraping means automatically collecting information from web pages; monitori
 
 ## 🧭 First: is there an API?
 
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-Before scraping, check for a better option: an official API, an RSS feed, a data export or an existing integration. These are more stable, clearly permitted and return structured data.
-
-</details>
-
 Always check for an easier, officially supported path first:
 
 | Option | Why it's better |
@@ -43,18 +36,6 @@ Scrape when none of these exist, and do it kindly.
 
 ## ⚖️ The polite (and legal) scraping rules
 
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-Follow these rules to scrape responsibly:
-
-1. Read the site's terms of service, and respect any ban on automated access.
-2. Check `robots.txt` for areas the site asks bots to avoid.
-3. Limit how often you send requests.
-4. Avoid collecting personal data, and don't republish copyrighted content.
-
-</details>
-
 1. **Read the Terms of Service.** Some sites forbid automated access. Respect that.
 2. **Check `robots.txt`** (e.g. `example.com/robots.txt`) for areas the site asks bots to avoid.
 3. **Go slow.** A request every few seconds (or minutes) is plenty for personal monitoring. Never hammer a site.
@@ -67,13 +48,6 @@ This isn't legal advice. For anything commercial or large-scale, check the rules
 
 ## 🧰 The toolbox
 
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-Scraping tools fall into four categories: no-code scrapers (point and click), page-to-text converters that prepare pages for AI, developer libraries, and change monitors. The table lists examples of each.
-
-</details>
-
 | Category | Tools | Great for |
 |---|---|---|
 | 🖱️ **No-code scrapers** | Browse AI, Apify (ready-made "Actors"), Octoparse | Point-and-click extraction and scheduled runs |
@@ -84,17 +58,6 @@ Scraping tools fall into four categories: no-code scrapers (point and click), pa
 | 🔌 **MCP servers** | Fetch, Firecrawl, Apify, Playwright, Bright Data | Let your AI chat do the scraping for you |
 
 ## 🤖 AI extraction: from messy page to clean JSON
-
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-Traditional scraping relies on CSS selectors that break whenever a site's layout changes. AI extraction is more resilient:
-
-1. Fetch the page as clean text or Markdown.
-2. Ask the AI to extract specific fields as JSON.
-3. Validate the result before using it.
-
-</details>
 
 The classic way to scrape was writing **CSS selectors** ("the price is in `div.price > span`") that broke whenever the site
 changed. The AI way:
@@ -113,13 +76,6 @@ changed. The AI way:
 pages. **Cost tip:** use a small, fast model for extraction ([Cost Optimization](../part-12-mastery/106-cost-optimization.md)).
 
 ## 👀 Monitoring & alerts
-
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-A monitor checks a page on a schedule, compares the result with the previous check, and alerts you only when something meaningful changes. The table lists useful things to monitor, from price drops to restocks and policy updates.
-
-</details>
 
 ```mermaid
 flowchart LR
@@ -146,18 +102,6 @@ meaningful change? Reply YES or NO, and explain in one sentence."* That kills fa
 
 ## 🛠️ Build: a price-drop watcher in n8n (30 min)
 
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-This n8n workflow alerts you when a product's price falls below your target.
-
-1. Add a **Schedule Trigger** that runs every 12 hours.
-2. List your products with their URLs and target prices.
-3. Fetch each page as text and ask AI to extract the current price.
-4. Compare it with your target and send an alert if it's lower.
-
-</details>
-
 1. **Schedule Trigger:** every 12 hours.
 2. **Edit Fields:** a list of products: `{url, name, target_price}`.
 3. **HTTP Request:** `https://r.jina.ai/{{ $json.url }}` (returns the page as Markdown), or use a Firecrawl node or HTTP call.
@@ -170,17 +114,6 @@ Swap step 3 for **Apify** or **Browse AI** if the site needs a real browser.
 
 ## 📰 Build: a news & mentions monitor (20 min)
 
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-This workflow sends you a digest of news about topics you care about.
-
-1. Add RSS feeds for your sources, plus Google News searches for your keywords.
-2. Filter out items you've already seen and items without your keywords.
-3. Have AI summarize and rank the rest, then send the digest.
-
-</details>
-
 1. **RSS triggers** for your favorite sources (plus Google News RSS searches for your keywords).
 2. **Filter** out items you've seen (store IDs) and items without your keywords.
 3. **AI:** *"Is this genuinely about [topic]? If yes, summarize in 2 sentences and rate importance 1–5."*
@@ -189,13 +122,6 @@ This workflow sends you a digest of news about topics you care about.
 It's the same idea as the [Morning AI Digest](../../examples/n8n-workflows/morning-ai-digest.json), tuned to *your* topics.
 
 ## 🐍 A tiny Python version
-
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-This short Python script fetches a page, asks Claude to extract the price as JSON and prints it. An AI coding assistant can extend it into a full monitor with storage and alerts.
-
-</details>
 
 A minimal sketch (ask Claude Code to turn it into a full monitor with storage and alerts):
 
@@ -218,13 +144,6 @@ print(json.loads(msg.content[0].text))
 For robust versions, use **structured outputs** so the JSON is guaranteed valid ([Calling AI APIs Directly](../part-7-building-with-ai/67-calling-ai-apis.md)).
 
 ## 🚧 Common problems & fixes
-
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-Common scraping problems include pages that load content with JavaScript, blocking or rate limiting, changing layouts and paginated data. The table pairs each problem with a fix.
-
-</details>
 
 | Problem | Fix |
 |---|---|

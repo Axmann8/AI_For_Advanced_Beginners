@@ -1,6 +1,6 @@
 # 122 · Connecting n8n to Notion: The Complete Integration Guide 🔌
 
-> ⏱️ 11 min read · 🎯 Intermediate · 🧰 Needs: n8n (self-hosted or Cloud) and a Notion workspace
+> ⏱️ 10 min read · 🎯 Intermediate · 🧰 Needs: n8n (self-hosted or Cloud) and a Notion workspace
 
 **This is the reference chapter you'll keep open while building.** It covers connecting n8n to Notion securely, every
 operation the Notion node offers, the four ways to trigger workflows from Notion, mapping each property type correctly,
@@ -24,24 +24,18 @@ n8n connects to Notion through a credential holding your integration secret. The
 
 ## 🔐 Step 1: Set up the credential
 
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-The connection takes about five minutes and only needs doing once per workspace.
-
-1. In Notion, create an internal integration at notion.so/profile/integrations and copy its secret.
-2. In n8n, open **Credentials → Add credential → Notion API** and paste the secret.
-3. Share each database the workflow uses with the integration (**⋯ → Connections**).
-4. Test by adding a Notion node and choosing a database from the list.
-
-</details>
-
 1. **Create the integration.** Visit **notion.so/profile/integrations** → **New integration**. Give it a recognizable
    name like *n8n automations*, select your workspace and save. Under **Capabilities**, keep read, update and insert
    content; add comment capabilities only if you need them.
 2. **Copy the secret.** On the integration's page, reveal and copy the **Internal integration secret**.
 3. **Add it to n8n.** In n8n, go to **Credentials → Add credential**, search for **Notion API** and paste the secret.
    n8n tests the connection when you save.
+
+    ![The Notion account credential window in n8n with an Internal Integration Secret field](../assets/screenshots/n8n/notion-credential.png "The Notion credential in n8n 2.41. You can also create it from any Notion node by clicking Connect to Notion.")
+
+    If the secret is wrong, n8n says so straight away:
+
+    ![The Notion credential window showing the red message Couldn't connect with these settings and a Retry button](../assets/screenshots/n8n/notion-credential-error.png "Couldn't connect with these settings: copy the secret again and paste it.")
 4. **Share your databases.** In Notion, open each database the workflow needs → **⋯ → Connections** → add your
    integration.
 5. **Confirm it works.** Add a **Notion** node to a workflow, choose **Database Page → Get Many**, and open the database
@@ -53,13 +47,6 @@ The connection takes about five minutes and only needs doing once per workspace.
 > Each gets only the access it needs, and you can revoke one without breaking the others.
 
 ## 🧰 A tour of the Notion node
-
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-The Notion node groups its operations by resource: database pages (rows), pages, blocks, data sources, databases and users. Most workflows use just four operations: create a database page, get many database pages, update a database page and append blocks.
-
-</details>
 
 | Resource | Operation | Use it to |
 |---|---|---|
@@ -90,13 +77,6 @@ update pages itself, with the agent filling in parameters you leave open. See
 
 ## ⏱️ Four ways to start a workflow from Notion
 
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-You can start n8n workflows from Notion by polling with the Notion Trigger, by sending webhooks from Notion buttons and automations, by subscribing to Notion's integration webhooks, or by querying on a schedule. They differ in speed, setup effort and plan requirements; choose the simplest one that's fast enough.
-
-</details>
-
 | Approach | How it works | Speed | Notion plan | Best for |
 |---|---|---|---|---|
 | **Notion Trigger** node | n8n checks a database every minute (or on your interval) for new or updated pages | ~1 minute | Any | Simple "new row → do something" flows |
@@ -108,7 +88,7 @@ You can start n8n workflows from Notion by polling with the Notion Trigger, by s
 1. Add a **Notion Trigger** node and select your credential.
 2. Choose the event: **Page Added to Database** or **Page Updated in Database**.
 3. Pick the database and set the polling interval.
-4. Activate the workflow. n8n remembers what it has already seen, so each page fires once per change.
+4. **Publish** the workflow. n8n remembers what it has already seen, so each page fires once per change.
 
 ### Option B · A webhook from a Notion button or automation
 1. In n8n, add a **Webhook** node (POST, path such as `notion-process`) with **Header Auth** using a long random secret.
@@ -130,12 +110,10 @@ predictable pattern for batch work, and it never misses changes made while n8n w
 
 ## 🗺️ Mapping properties correctly
 
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
+Here's a real **Create** node from the starter kit. The database is pasted **By URL**, and each property is mapped to a
+field from earlier in the workflow:
 
-When creating or updating rows, you choose each property from a list and supply a value in the format its type expects. Most errors come from select options that don't exist, dates in the wrong format, relations without page IDs and text longer than 2,000 characters.
-
-</details>
+![A Notion Create database page node with the Notion account credential, a database link, Title set to $json.title and a property mapped to $json.type](../assets/screenshots/n8n/notion-create-inbox.png "Create database page: the database link, the title and each property mapped with an expression.")
 
 In the Notion node, add properties under **Properties → Add property**. Each property appears as `Name|type` (for
 example `Priority|select`), and the value field adapts to the type.
@@ -161,18 +139,6 @@ example `Priority|select`), and the value field adapts to the type.
 
 ## 🔍 Filtering and querying
 
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-The **Get Many** operation can filter rows by property values, either with simple conditions in the node or with a JSON filter that uses Notion's full filter syntax. Turn on **Return All** for large databases so n8n follows pagination for you.
-
-1. Choose **Database Page → Get Many** and select the database.
-2. Turn on **Return All** if there might be more than 100 matches.
-3. Add simple filter conditions, or switch to a JSON filter for complex logic.
-4. Turn on **Simplify** to get clean property names in the output.
-
-</details>
-
 Simple conditions cover most needs: *Status equals Ready*, *Due on or before today*, *AI processed is unchecked*. For
 "and/or" combinations, use a JSON filter:
 
@@ -195,18 +161,6 @@ calls and keeps you well under rate limits.
 
 ## 🌐 The HTTP Request fallback
 
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-When the Notion node doesn't offer something you need, call the Notion API directly with an **HTTP Request** node, reusing the same Notion credential. You get the full API, including comments, complex sorts and new features as soon as Notion releases them.
-
-1. Add an **HTTP Request** node.
-2. Set **Authentication → Predefined credential type → Notion API** and choose your credential.
-3. Add the header `Notion-Version: 2025-09-03` (or the version your workflow is built for).
-4. Set the method, URL and JSON body from the API reference.
-
-</details>
-
 Example: add a comment to the page that triggered the workflow, so people see what the automation did.
 
 | Field | Value |
@@ -220,13 +174,6 @@ Other good uses: querying with multiple sorts, reading database schemas to build
 features before n8n's node supports them.
 
 ## 🧪 Patterns for dependable workflows
-
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-Three patterns prevent most real-world problems. **Upserts** update an existing row instead of creating duplicates. **Processing flags** stop the same row from being handled twice. **Batching with waits** keeps you within Notion's rate limit.
-
-</details>
 
 ### Pattern 1 · Upsert (update or create)
 ```mermaid
@@ -253,13 +200,6 @@ to wait for your AI model to finish.
 
 ## 🩺 Troubleshooting
 
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-Most n8n + Notion errors come from sharing, property formats, rate limits or webhook configuration. The table lists the common symptoms and fixes.
-
-</details>
-
 | Symptom | Likely cause | Fix |
 |---|---|---|
 | "Could not find database / object not found" | Not shared with the integration | **⋯ → Connections** → add the integration |
@@ -268,9 +208,14 @@ Most n8n + Notion errors come from sharing, property formats, rate limits or web
 | `429` errors | Too many requests | Batch with waits; enable retries |
 | Only 100 rows returned | Pagination | Turn on **Return All** |
 | Text cut off or rejected | Over 2,000 characters | Split into several paragraphs or append to the page body |
-| Notion Trigger fires twice | Two edits within one polling window, or two active copies of the workflow | Deduplicate with a processing flag; deactivate the duplicate |
-| Button webhook does nothing | Using the test URL, workflow inactive or header mismatch | Use the **Production URL**, activate the workflow, check the header |
+| Notion Trigger fires twice | Two edits within one polling window, or two published copies of the workflow | Deduplicate with a processing flag; unpublish the duplicate |
+| Button webhook does nothing | Using the test URL, workflow not published, or header mismatch | Use the **Production URL**, **Publish** the workflow, check the header |
 | Old workflows break after a Notion update | API changes (such as the move to data sources) | Update n8n, then reselect databases in affected nodes |
+| "Authorization failed – please check your credentials" | Wrong or regenerated secret | Paste the current **Internal Integration Secret** into the credential |
+| "Not a valid Notion Database URL" | A placeholder or page link instead of a database link | Open the database → **••• → Copy link**, paste it into **Database** |
+| Property dropdowns say "Error fetching options from Notion" | The credential works but can't see that database | Add your integration under **••• → Connections** on the database or its parent page |
+
+![A Notion node's error panel reading Authorization failed - please check your credentials, API token is invalid](../assets/screenshots/n8n/notion-auth-error.png "What an authorization error looks like in the node's OUTPUT panel.")
 
 ## 🎯 Key takeaways
 

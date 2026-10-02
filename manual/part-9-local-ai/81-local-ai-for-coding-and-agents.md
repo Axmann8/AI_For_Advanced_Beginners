@@ -1,6 +1,6 @@
 # 81 · Local AI for Coding & Agents: Private Pair Programming 🔒💻
 
-> ⏱️ 7 min read · 🎯 Intermediate · 🧰 Needs: Ollama or LM Studio, a code editor, and ideally 32 GB+ of memory ([Hardware](79-hardware-for-local-ai.md))
+> ⏱️ 6 min read · 🎯 Intermediate · 🧰 Needs: Ollama or LM Studio, a code editor, and ideally 32 GB+ of memory ([Hardware](79-hardware-for-local-ai.md))
 
 **Can you get AI coding help without sending a single line of code to the cloud? Yes, and it's getting better fast.**
 Local models now power autocomplete, chat, and even agent tools like Cline, Aider, and Claude Code itself (via Ollama's
@@ -22,13 +22,6 @@ Local models can power coding assistants and agents so your code and data never 
 
 ## ⚖️ Local vs. cloud for coding: the honest picture
 
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-Local models handle autocomplete, code explanations and small edits well. For large, multi-step tasks, frontier cloud models are still noticeably stronger. The table compares them task by task.
-
-</details>
-
 | Task | Local models today | Frontier cloud models |
 |---|---|---|
 | ⌨️ Autocomplete | ✅ Excellent (small, fast models) | ✅ Excellent |
@@ -44,13 +37,6 @@ Local models handle autocomplete, code explanations and small edits well. For la
 > work**. Many tools let you switch per task with one setting.
 
 ## 🧠 Choosing coding models
-
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-Choose a model trained for code, and pick the largest one that fits your memory, because coding agents need both capability and a long context. The table suggests models by available memory.
-
-</details>
 
 | Your memory | Try | Good for |
 |---|---|---|
@@ -70,17 +56,6 @@ Choose a model trained for code, and pick the largest one that fits your memory,
 
 ## 🧩 Setup 1: autocomplete + chat in your editor
 
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-Extensions like Continue add local autocomplete and chat to VS Code and JetBrains.
-
-1. Install the extension in your editor.
-2. Add Ollama or LM Studio as the provider.
-3. Choose a small, fast model for autocomplete and a larger one for chat.
-
-</details>
-
 | Tool | Editor | Setup |
 |---|---|---|
 | **Continue** | VS Code, JetBrains | Add Ollama or LM Studio as a provider, and pick a small model for autocomplete and a bigger one for chat |
@@ -93,13 +68,6 @@ for **chat**.
 
 ## 🤖 Setup 2: local coding agents
 
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-Several coding agents, including Cline, Roo Code, Aider, OpenCode and Goose, can use local models. Point them at Ollama or LM Studio as the provider. The table shows how to connect each.
-
-</details>
-
 | Agent | Where it runs | Connect to local |
 |---|---|---|
 | **Cline / Roo Code / Kilo Code** | VS Code | API provider → **Ollama** or **LM Studio**, pick the model |
@@ -109,17 +77,6 @@ Several coding agents, including Cline, Roo Code, Aider, OpenCode and Goose, can
 | **Open WebUI + tools** | Browser | Code interpreter and tools with local models ([Home Lab](80-home-lab.md)) |
 
 ## 🦙 Setup 3: Claude Code on local models
-
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-Ollama (version 0.14 and later) supports Anthropic's Messages API, so Claude Code's full workflow, including file editing, commands, skills and hooks, can run on a local model.
-
-1. Install or update Ollama and download a capable coding model.
-2. Set the environment variables shown below to point Claude Code at Ollama.
-3. Launch Claude Code with the local model name.
-
-</details>
 
 Ollama (v0.14+) speaks **Anthropic's Messages API**, so Claude Code's harness (file editing, commands, skills, hooks,
 subagents) can drive an open model:
@@ -146,13 +103,6 @@ Ollama also offers `:cloud` models through the same setup if you want a bigger o
 
 ## 🧪 Making local agents work better
 
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-Local models benefit from tighter direction: break work into smaller, well-defined tasks, provide a thorough `AGENTS.md`, include tests the agent can run, and keep the context focused. The table explains why each tip helps.
-
-</details>
-
 | Tip | Why |
 |---|---|
 | **Smaller, well-defined tasks** | "Add input validation to `signup.py`" beats "build auth" |
@@ -165,13 +115,6 @@ Local models benefit from tighter direction: break work into smaller, well-defin
 | **Measure** | Run the same 5 tasks on a few models and keep a scorecard ([Evaluating AI](../part-12-mastery/105-evaluating-ai.md)) |
 
 ## 🛠️ Local agents beyond coding
-
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-Local agents can also handle non-coding work on private data, such as organizing files, processing documents and running automations. The table suggests setups for each.
-
-</details>
 
 | Agent job | Local setup |
 |---|---|

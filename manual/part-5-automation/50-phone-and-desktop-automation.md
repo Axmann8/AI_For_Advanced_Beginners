@@ -1,6 +1,6 @@
 # 50 · Phone & Desktop Automation: Shortcuts, Tasker, Raycast & Friends 📱💻
 
-> ⏱️ 8 min read · 🎯 Beginner-friendly · 🧰 Needs: an iPhone, Android phone, Mac or Windows PC (whatever you have!)
+> ⏱️ 6 min read · 🎯 Beginner-friendly · 🧰 Needs: an iPhone, Android phone, Mac or Windows PC (whatever you have!)
 
 **The most personal automations live on the devices in your pocket and on your desk.** With one tap, a voice command, a
 location or a keyboard shortcut, you can send AI your thoughts, photos, clipboard or screen and get something useful back
@@ -22,13 +22,6 @@ Your phone and computer can run AI-powered automations from a button, a voice co
 
 ## 📱 Why device automation is a superpower
 
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-Your phone is always with you and has a microphone, camera and location awareness, which makes it ideal for quick AI-powered actions. The table shows what each capability enables.
-
-</details>
-
 | Your device knows… | Which enables… |
 |---|---|
 | 🎙️ Your voice | Dictate ideas, notes and tasks hands-free |
@@ -41,13 +34,6 @@ Your phone is always with you and has a microphone, camera and location awarenes
 Combine these triggers with AI and you get the fastest capture-and-process loop there is. ⚡
 
 ## 🍎 Apple Shortcuts + AI
-
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-Apple Shortcuts lets you chain actions together. The **Use Model** action (iOS, iPadOS and macOS 26) sends a prompt, along with dictated text, clipboard contents or a photo, to an on-device model, Apple's Private Cloud Compute or ChatGPT.
-
-</details>
 
 **The key action: Use Model** (iOS, iPadOS and macOS 26). It sends a prompt (plus any Shortcuts variables, like dictated text,
 clipboard or a photo) to:
@@ -68,13 +54,6 @@ Other ways to use AI from Shortcuts:
 - Apple Intelligence **Writing Tools** and **summaries** actions for quick text jobs.
 
 ## 🧪 Five Shortcuts recipes to build today
-
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-These five Shortcuts take about ten minutes each to build. Each recipe lists the actions to chain in order, starting with a brain-dump sorter that turns dictation into an organized note.
-
-</details>
 
 ### 1. 🧠 Brain Dump → Organized Note
 **Dictate Text** → **Use Model** (*"Turn this rambling into a tidy note: title, 3–5 bullets, and any tasks as a checklist."*)
@@ -104,17 +83,6 @@ questions"*) → **Create Reminder** for each action item.
 
 ## ⏰ Personal automations: triggers that fire on their own
 
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-Personal automations run shortcuts automatically on triggers such as a time of day, arriving at a location, opening an app or tapping an NFC tag.
-
-1. Open the **Automation** tab in Shortcuts.
-2. Choose a trigger.
-3. Select the shortcut to run, and decide whether it should ask before running.
-
-</details>
-
 Shortcuts → **Automation** tab lets shortcuts run on triggers:
 
 | Trigger | Idea |
@@ -129,13 +97,6 @@ Shortcuts → **Automation** tab lets shortcuts run on triggers:
 
 ## 🤖 Android: Gemini, Tasker & friends
 
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-Android offers Gemini as a built-in assistant, Google Home routines, and apps like Tasker and MacroDroid for advanced automations. You can also trigger your cloud automations with a single tap by calling a webhook.
-
-</details>
-
 | Tool | What it's great at |
 |---|---|
 | **Gemini** (built in) | Voice assistant, screen questions ("what's on my screen?"), and app actions |
@@ -148,13 +109,6 @@ Android offers Gemini as a built-in assistant, Google Home routines, and apps li
 it → Notion. ([Importable workflow](../../examples/n8n-workflows/idea-inbox-to-notion.json).)
 
 ## 💻 Mac: Shortcuts, Raycast & more
-
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-On a Mac, you can run AI on selected text from any app with a keyboard shortcut, rename files automatically, or use AI commands from a launcher like Raycast. The table lists the main tools.
-
-</details>
 
 | Tool | AI superpowers |
 |---|---|
@@ -169,13 +123,6 @@ On a Mac, you can run AI on selected text from any app with a keyboard shortcut,
 
 ## 🪟 Windows: Power Automate, AutoHotkey & Copilot
 
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-Windows offers Copilot for screen and settings help, Power Automate Desktop for free desktop workflows, and AutoHotkey for keyboard automation. AI assistants can write AutoHotkey scripts from a plain-language description.
-
-</details>
-
 | Tool | AI superpowers |
 |---|---|
 | **Copilot** (and the Copilot key on newer keyboards) | Ask about your screen, files and settings |
@@ -186,13 +133,6 @@ Windows offers Copilot for screen and settings help, Power Automate Desktop for 
 
 ## 🐧 Terminal lovers (Mac, Linux, Windows)
 
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-From the terminal, tools like `llm` and `claude -p` let you send any text to an AI model and receive the answer, which you can combine with other commands and schedule to run automatically.
-
-</details>
-
 - **`llm`** (Simon Willison's CLI tool) supports many models, plugins and logging: `cat notes.txt | llm "summarize"`.
 - **`claude -p`** runs Claude Code headless in scripts: `git diff | claude -p "write a commit message"`
   ([Claude Code Masterclass](../part-7-building-with-ai/62-claude-code-masterclass.md)).
@@ -201,25 +141,11 @@ From the terminal, tools like `llm` and `claude -p` let you send any text to an 
 
 ## ⌨️ Text expanders + AI
 
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-Text expanders replace short codes with longer text. Static snippets insert fixed text such as your address or a template, while AI-powered snippets can rewrite, fix or generate text based on what you've selected.
-
-</details>
-
 - **Static snippets:** your address, email templates, signatures (espanso, TextExpander, Raycast snippets).
 - **Dynamic AI snippets:** `;fix` → sends the current selection to an AI and replaces it with a corrected version.
 - **Prompt snippets:** keep your best prompts one shortcut away (`;simplify`, `;critique`, `;summarize`).
 
 ## 🔐 Privacy notes
-
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-On-device models keep your data on your phone or computer, which is best for journals, health notes and other personal information. Cloud models are more capable but send your data off the device.
-
-</details>
 
 - **On-device models** keep data on your phone, which is best for journals, health notes and personal stuff.
 - **Private Cloud Compute** is designed so Apple can't access your data, a good middle ground.

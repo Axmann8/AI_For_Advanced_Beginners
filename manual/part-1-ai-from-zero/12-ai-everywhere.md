@@ -1,6 +1,6 @@
 # 12 · AI Everywhere: Phones, Speakers, Cars, Glasses & Browsers 📱
 
-> ⏱️ 8 min read · 🎯 Complete beginners · 🧰 Needs: your phone (and whatever else you own!)
+> ⏱️ 7 min read · 🎯 Complete beginners · 🧰 Needs: your phone (and whatever else you own!)
 
 **You don't always need to open a chatbot app: AI is now built into the phone in your pocket, the speaker in your
 kitchen, your web browser, your car and even glasses.** This chapter is a friendly tour of the AI already waiting on
@@ -20,13 +20,6 @@ AI assistants are now built into phones, computers, browsers, speakers, cars, gl
 <!-- in-this-chapter -->
 
 ## 🍎 On iPhone, iPad and Mac
-
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-Apple devices use Apple Intelligence, which powers a much more capable Siri and writing, image and summary tools across the system. You can also install ChatGPT, Gemini or Claude, and connect ChatGPT directly to Siri.
-
-</details>
 
 Apple's AI is called **Apple Intelligence**, and it powers a rebuilt, much more capable **Siri** (the big upgrade
 arrived with iOS 27 in September 2026, using Google's Gemini models behind the scenes alongside Apple's own). Handy
@@ -50,17 +43,6 @@ Shortcuts.
 
 ## 🤖 On Android phones
 
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-On most Android phones, Gemini has replaced Google Assistant and can see what's on your screen when you ask.
-
-1. Long-press the power button or say *"Hey Google."*
-2. Ask your question, or tap **Ask about screen** to discuss what you're viewing.
-3. Use **Circle to Search** to look up anything you circle on screen.
-
-</details>
-
 On most Android phones, **Gemini** has replaced the old Google Assistant:
 
 - **Open it:** long-press the power button, swipe from a bottom corner, or say *"Hey Google."*
@@ -77,17 +59,6 @@ more, with Gemini built in. **Pixel phones** add extras like Magic Editor and Ca
 
 ## 🪟 On Windows computers
 
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-Windows includes Copilot, which can answer questions and, with Copilot Vision, look at an app or window you share and guide you through tasks.
-
-1. Press the Copilot key or click the Copilot icon on the taskbar.
-2. Type or speak your question.
-3. Share a window with Copilot Vision when you need help with something on screen.
-
-</details>
-
 - **Copilot app:** press the **Copilot key** (on newer keyboards), click the taskbar icon, or say *"Hey Copilot"* if
   you've turned it on.
 - **Copilot Vision:** share your screen or an app window and ask *"How do I do this in Excel?"* or *"Which of these
@@ -99,13 +70,6 @@ Windows includes Copilot, which can answer questions and, with Copilot Vision, l
 Any assistant works on Windows too: ChatGPT, Claude and others have desktop apps.
 
 ## 🌐 In your web browser
-
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-Several browsers now include an AI sidebar that can summarize the page you're on, answer questions about it and, in some cases, complete tasks for you. The table lists the main options.
-
-</details>
 
 Browsers are becoming AI-powered, with a sidebar that can read the page you're looking at:
 
@@ -126,13 +90,6 @@ Browsers are becoming AI-powered, with a sidebar that can read the page you're l
 
 ## 🔊 Smart speakers and your home
 
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-Smart speakers have been upgraded with modern AI. Alexa+ and Gemini for Home understand natural requests, remember preferences and can handle multi-step tasks like planning meals or controlling several devices at once.
-
-</details>
-
 - **Alexa+** (Amazon): the new AI-powered Alexa is far more conversational. It can plan, remember preferences, order
   groceries, book things and control smart home devices with natural requests (*"It's too bright in here and I'm
   cold"*). In the US it's included with Prime (or available as a standalone subscription), works on Echo devices, the
@@ -146,13 +103,6 @@ Smart speakers have been upgraded with modern AI. Alexa+ and Gemini for Home und
 
 ## 🚗 In the car
 
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-Android Auto offers Gemini and Apple CarPlay offers Siri for hands-free messages, directions and questions. Many newer cars also include built-in assistants powered by large AI models.
-
-</details>
-
 - **Android Auto** brings **Gemini** for hands-free messages, directions and questions.
 - **Apple CarPlay** uses **Siri**.
 - Many newer cars have built-in assistants powered by big AI models (several brands use ChatGPT, Gemini or their own),
@@ -165,13 +115,6 @@ Android Auto offers Gemini and Apple CarPlay offers Siri for hands-free messages
 
 ## 👓 Glasses, watches and gadgets
 
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-Smart glasses such as Ray-Ban Meta include a camera, speakers and Meta AI, so you can ask about what you're looking at hands-free. Smartwatches and other gadgets increasingly offer AI features too.
-
-</details>
-
 - **Ray-Ban Meta and Oakley Meta glasses** have **Meta AI** built in: *"Hey Meta, what's this building?"*, translate
   a sign, capture photos, get help hands-free. Some newer models add a small display.
 - **Smartwatches** (Apple Watch, Galaxy Watch, Pixel Watch) let you ask Siri or Gemini from your wrist.
@@ -179,13 +122,6 @@ Smart glasses such as Ray-Ban Meta include a camera, speakers and Meta AI, so yo
 - More AI glasses from Google, Samsung and others are arriving. Expect this category to grow quickly.
 
 ## 💬 In the apps you already chat in
-
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-Meta AI is available inside WhatsApp, Instagram and Messenger, including in group chats where anyone can mention @Meta AI. Grok is similarly built into X.
-
-</details>
 
 - **WhatsApp, Instagram, Messenger:** chat with **Meta AI** directly, or mention **@Meta AI** in a group chat to ask
   it something for everyone (*"@Meta AI suggest a restaurant for 8 near King's Cross"*).

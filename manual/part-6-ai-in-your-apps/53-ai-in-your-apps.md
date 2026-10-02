@@ -1,6 +1,6 @@
 # 53 · AI Inside the Apps You Already Use 🏡✨
 
-> ⏱️ 7 min read · 🎯 Everyone · 🧰 Needs: the apps you already use
+> ⏱️ 5 min read · 🎯 Everyone · 🧰 Needs: the apps you already use
 
 **You don't always need a new tool.** The apps you already live in (notes, docs, email, spreadsheets, chat, design tools,
 even your phone's operating system) now have serious AI built in, and many are **MCP-connected**, so your AI can reach in
@@ -22,13 +22,6 @@ Most popular apps now include AI features. Because the AI already sees your docu
 
 ## 🧭 Why built-in AI is underrated
 
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-Built-in AI already has access to whatever you're working on, so you don't need to copy and paste context, and results appear where you need them. The table compares built-in AI with standalone chat assistants.
-
-</details>
-
 | Built-in AI | Standalone chat AI |
 |---|---|
 | ✅ Already sees your document, sheet or inbox | ❌ You copy and paste context in |
@@ -40,13 +33,6 @@ Built-in AI already has access to whatever you're working on, so you don't need 
 connectors for *cross-app* jobs (read my email + calendar + notes and plan my week).
 
 ## 📒 Notes & docs
-
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-Notes and document apps such as Notion, Obsidian, Google Docs, Word and Evernote now include AI that can write, reorganize, answer questions across your notes and run scheduled tasks. The table summarizes each.
-
-</details>
 
 | App | AI highlights | Deep dive |
 |---|---|---|
@@ -60,13 +46,6 @@ Notes and document apps such as Notion, Obsidian, Google Docs, Word and Evernote
 
 ## 📊 Spreadsheets
 
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-Spreadsheet AI can generate formulas, build tables and charts, and analyze data. Functions like `=AI()` in Google Sheets let you apply a prompt to every row, such as classifying customer feedback.
-
-</details>
-
 - **Google Sheets + Gemini:** generate formulas, tables and analysis, plus the `=AI()` function for per-cell prompts.
 - **Excel + Copilot:** formulas, pivots, charts, Python in Excel, and a `COPILOT()` function in recent versions.
 - **Airtable AI:** AI fields that summarize, categorize and extract per row.
@@ -76,13 +55,6 @@ Everything else in [Spreadsheet Superpowers](58-spreadsheet-superpowers.md).
 
 ## ✉️ Email & calendar
 
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-Email and calendar AI can summarize long threads, draft replies in your style, search your inbox in plain language and find meeting times. Gmail, Outlook and AI-first clients like Superhuman and Shortwave all offer these features.
-
-</details>
-
 - **Gmail + Gemini** and **Outlook + Copilot:** summaries, drafting, smart search.
 - **AI-first email clients:** Superhuman, Shortwave, Spark, with auto-triage, AI search and "write like me."
 - **AI calendars:** Reclaim, Motion and similar tools that auto-schedule tasks and defend focus time.
@@ -90,13 +62,6 @@ Email and calendar AI can summarize long threads, draft replies in your style, s
 Full playbook: [Email & Calendar Superpowers](57-email-and-calendar.md).
 
 ## 🗂️ Project & team tools
-
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-Project and team tools such as Linear, Asana, Jira, Slack and Teams use AI to write status updates, detect duplicate tasks, summarize discussions and answer questions about past decisions.
-
-</details>
 
 | App | AI highlights |
 |---|---|
@@ -109,13 +74,6 @@ Project and team tools such as Linear, Asana, Jira, Slack and Teams use AI to wr
 
 ## 🎨 Design & creative apps
 
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-Design apps like Canva, Figma and Adobe's tools can generate images, remove backgrounds, resize designs for different platforms and turn rough sketches into layouts.
-
-</details>
-
 | App | AI highlights | Deep dive |
 |---|---|---|
 | **Canva** | Magic design, image generation, brand kits, resize for every platform, MCP connector | [Design & UI with AI](../part-10-creative-ai/90-design-and-ui.md) |
@@ -125,25 +83,11 @@ Design apps like Canva, Figma and Adobe's tools can generate images, remove back
 
 ## 🎙️ Meetings & voice
 
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-AI meeting tools transcribe calls and produce notes, decisions and action items. Dictation apps convert speech into clean, formatted text in any app.
-
-</details>
-
 - **AI meeting notes:** Granola (no bot joins your call), Otter, Fireflies, plus built-ins in Zoom, Google Meet, Teams and Notion.
 - **Dictation:** Wispr Flow, Superwhisper, and built-in OS dictation turn rambling into polished text.
 - **Tip:** always tell people when you're recording or transcribing, both because it's polite and because it's often legally required.
 
 ## 📱 Your phone's operating system
-
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-Phone operating systems now include AI throughout: notification summaries, writing tools, photo descriptions and AI-powered shortcuts. The table compares Apple, Google and Samsung features.
-
-</details>
 
 | Platform | AI highlights |
 |---|---|
@@ -156,30 +100,12 @@ Build your own magic buttons in [Phone & Desktop Automation](../part-5-automatio
 
 ## 📚 Reading & learning apps
 
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-Reading and learning apps can explain difficult passages, generate flashcards and convert your sources into audio overviews you can listen to.
-
-</details>
-
 - **NotebookLM:** grounded chat with your sources, audio and video overviews, quizzes ([NotebookLM Masterclass](../part-8-knowledge-and-memory/76-notebooklm-masterclass.md)).
 - **Readwise Reader:** AI "Ghostreader" for summaries and definitions, plus highlight syncing to your notes.
 - **Kindle / Apple Books / browser readers:** built-in summaries and "explain this" features keep improving.
 - **Perplexity Spaces** and **Claude/ChatGPT Projects:** research workspaces with your files.
 
 ## 🕸️ The "hub" strategy
-
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-Choose one main home for your knowledge, such as Notion, Obsidian or Google Drive.
-
-1. Send information into it automatically using automations.
-2. Connect your AI assistant to it through a connector or MCP server.
-3. Ask questions across everything in one place.
-
-</details>
 
 Pick **one home base** for your knowledge (Notion *or* Obsidian *or* Google Drive), then:
 
@@ -190,17 +116,6 @@ Pick **one home base** for your knowledge (Notion *or* Obsidian *or* Google Driv
 A single well-fed hub beats ten half-used apps. 🏡
 
 ## 🔍 Audit your apps (10-minute exercise)
-
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-This ten-minute exercise helps you find AI features you already have.
-
-1. List the five apps you use most.
-2. Find the AI feature in each one.
-3. Choose one task to try with each feature this week.
-
-</details>
 
 | App I use daily | Its AI feature | One task I'll try this week |
 |---|---|---|

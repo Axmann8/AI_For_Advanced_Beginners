@@ -1,6 +1,6 @@
 # 128 · Running n8n + Notion in Production 🏭
 
-> ⏱️ 9 min read · 🎯 Anyone relying on their automations for real work · 🧰 Needs: a working n8n + Notion setup
+> ⏱️ 7 min read · 🎯 Anyone relying on their automations for real work · 🧰 Needs: a working n8n + Notion setup
 
 **Building a workflow is the fun part; keeping dozens of them running reliably for months is the real skill.** Once
 your business, team or daily life depends on n8n and Notion, you need the habits professionals use: idempotent
@@ -24,18 +24,6 @@ Production-grade automation means workflows that can safely run twice, report ev
 
 ## 🔁 Reliability: workflows that can run twice safely
 
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-Assume every workflow will eventually run twice for the same event, or fail halfway. Design so that repeating a run causes no harm (idempotency), temporary failures retry automatically, and slow steps don't block everything else.
-
-1. Use **External IDs and processing flags** so repeated runs update rather than duplicate.
-2. Turn on **Retry On Fail** for API nodes, with waits between attempts.
-3. **Respond to webhooks immediately** and do slow work afterward.
-4. Set **timeouts** so stuck runs end and get logged.
-
-</details>
-
 | Technique | Where | Why |
 |---|---|---|
 | **Idempotent writes** (upserts by External ID) | Any sync or capture | A webhook delivered twice doesn't create two rows |
@@ -47,13 +35,6 @@ Assume every workflow will eventually run twice for the same event, or fail half
 | **Sub-workflows** | Shared logic (triage, logging) | Fix a bug once, everywhere |
 
 ## 📈 Scaling n8n
-
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-A single n8n instance handles a lot, but heavy or bursty workloads benefit from queue mode, where a main process receives triggers and separate worker processes run executions. Keep execution history pruned so the database stays fast.
-
-</details>
 
 | Situation | Approach |
 |---|---|
@@ -70,18 +51,6 @@ A single n8n instance handles a lot, but heavy or bursty workloads benefit from 
 
 ## 👀 Monitoring and visibility
 
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-You should learn about failures before they affect anyone. Combine an error workflow that logs to Notion and alerts you, a health check that confirms n8n is up, and a Notion inventory of every automation with its owner and status.
-
-1. Set the **error logger** as the error workflow for every workflow.
-2. Add an **alert** (Telegram, Slack or email) for errors in critical workflows.
-3. Monitor n8n's uptime with an external health check.
-4. Keep an **Automations** database in Notion describing every workflow.
-
-</details>
-
 | Layer | Tool | What it catches |
 |---|---|---|
 | **Workflow errors** | Error Trigger → Notion Automation Log (+ chat alert) | Any failed execution, with a link to inspect it |
@@ -92,18 +61,6 @@ You should learn about failures before they affect anyone. Combine an error work
 
 ## 💾 Backups and version control
 
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-Back up both sides. For n8n, keep workflows in version control and back up the database and encryption key. For Notion, rely on page history but also export important databases on a schedule.
-
-1. Export n8n workflows to Git regularly (n8n's source control feature, the CLI or a scheduled workflow using the n8n API).
-2. Back up n8n's database and its **encryption key**, without which stored credentials can't be restored.
-3. Export key Notion databases to CSV or Markdown weekly.
-4. Test a restore at least once.
-
-</details>
-
 | What | How | Frequency |
 |---|---|---|
 | **n8n workflows** | Source control (Git) or a scheduled export of all workflows as JSON | On every change, or daily |
@@ -113,18 +70,6 @@ Back up both sides. For n8n, keep workflows in version control and back up the d
 | **Credentials list** | A private note of which credentials exist and where they come from (never the secrets themselves) | On change |
 
 ## 🔐 Security
-
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-Your automation system holds keys to many accounts, so protect it carefully: keep n8n itself secure, scope every credential tightly, authenticate every webhook and treat AI inputs as untrusted.
-
-1. Put n8n behind HTTPS, with strong passwords and two-factor authentication for every user.
-2. Give each Notion integration access only to the databases it needs.
-3. Authenticate every webhook, and validate incoming data.
-4. Rotate secrets periodically and immediately after any suspected leak.
-
-</details>
 
 | Area | Practice |
 |---|---|
@@ -140,13 +85,6 @@ See [MCP Security & Trust](../part-4-mcp-and-connectors/43-mcp-security-and-trus
 
 ## 👥 Working as a team
 
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-When several people build and rely on automations, agree on conventions: consistent naming, a documented owner for each workflow, a test-before-production process and a shared place (Notion) to request and track changes.
-
-</details>
-
 - **Naming:** `[Area] Verb object`, such as `[Sales] Score new leads` or `[Ops] Log errors to Notion`.
 - **Ownership:** every workflow has an owner listed in the Automations database.
 - **Environments:** build and test in a copy (a test workflow and a test Notion database) before changing anything live.
@@ -158,13 +96,6 @@ When several people build and rely on automations, agree on conventions: consist
 
 ## 💸 Controlling costs
 
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-Costs come from AI tokens, n8n executions (on n8n Cloud), Notion plans and credits, and hosting. Filter before AI steps, choose the smallest suitable model, batch work and review usage monthly.
-
-</details>
-
 | Cost driver | Control |
 |---|---|
 | **AI tokens** | Filter items before AI steps; small models for classification; prompt caching for long instructions; spend limits on every key |
@@ -175,18 +106,6 @@ Costs come from AI tokens, n8n executions (on n8n Cloud), Notion plans and credi
 More techniques: [Cost Optimization](../part-12-mastery/106-cost-optimization.md).
 
 ## 🔄 Handling API and version changes
-
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-Both tools change regularly. Notion versions its API (the 2025-09-03 version introduced data sources), and n8n releases updates often. Upgrade deliberately: read release notes, test in a copy, and update affected workflows.
-
-1. Read n8n's release notes before updating, and back up first.
-2. Pin the `Notion-Version` header in HTTP Request nodes, and upgrade it deliberately.
-3. After a Notion API change, reselect databases in Notion nodes and test each workflow.
-4. Keep your inventory up to date so you know which workflows to test.
-
-</details>
 
 **Migrating to Notion's data-source model.** Workflows built before the 2025-09-03 API version may assume one table per
 database. After updating n8n:
@@ -201,13 +120,6 @@ database. After updating n8n:
 your critical workflows, and keep the previous version's Docker image tag handy to roll back.
 
 ## ✅ The production checklist
-
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-Work through this checklist to audit your setup. Every unchecked item is a small project that makes your system more dependable.
-
-</details>
 
 **Reliability**
 - [ ] Every sync and capture workflow is idempotent (upserts or processing flags)

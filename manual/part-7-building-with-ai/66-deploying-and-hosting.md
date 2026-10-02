@@ -1,6 +1,6 @@
 # 66 · Deploying & Hosting: Put Your Creation on the Internet 🌍🚀
 
-> ⏱️ 11 min read · 🎯 Beginner → intermediate · 🧰 Needs: a project in a GitHub repo, and a free Vercel, Netlify, Cloudflare or GitHub account
+> ⏱️ 8 min read · 🎯 Beginner → intermediate · 🧰 Needs: a project in a GitHub repo, and a free Vercel, Netlify, Cloudflare or GitHub account
 
 **An app on your laptop is a hobby. An app with a link is a gift to the world.** Deploying used to be the scary part.
 Today it's often a single click, and most hobby projects host **for free**. This chapter shows you where to host each kind of
@@ -22,13 +22,6 @@ Deploying means moving your project to a server that's always online so anyone w
 <!-- in-this-chapter -->
 
 ## 🗺️ What are you deploying?
-
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-Different projects need different hosting. Static sites need only file hosting, full-stack apps need serverless functions and a database, and bots or background workers need an always-on server. The table matches each to suitable hosts.
-
-</details>
 
 | You built… | It needs… | Great homes |
 |---|---|---|
@@ -54,13 +47,6 @@ flowchart TD
 
 ## 🔑 Hosting vocabulary in 60 seconds
 
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-A few terms come up constantly: a **static site** is plain files, **serverless** code runs only when requested, a **domain** is your web address, and **environment variables** hold secret settings. The table defines the rest.
-
-</details>
-
 | Word | Meaning |
 |---|---|
 | **Static site** | Plain files (HTML, CSS, JS, images) served as-is. Fast, cheap, usually free |
@@ -75,20 +61,6 @@ A few terms come up constantly: a **static site** is plain files, **serverless**
 | **CI/CD** | Robots that test and deploy on every push ([Git & GitHub](61-git-and-github.md#-github-actions-robots-that-work-for-you)) |
 
 ## ⚡ The one-click path: Vercel & Netlify
-
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-Vercel and Netlify deploy directly from GitHub.
-
-1. Push your project to GitHub.
-2. Sign in to Vercel or Netlify with your GitHub account.
-3. Import the repository; the framework is usually detected automatically.
-4. Add any environment variables and click **Deploy**.
-
-After that, every push to GitHub updates the site automatically.
-
-</details>
 
 1. Push your project to **GitHub**.
 2. Sign in to **Vercel** or **Netlify** with GitHub.
@@ -111,17 +83,6 @@ npx vercel --prod   # deploy to production
 
 ## 📄 Free static hosting: GitHub Pages & friends
 
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-GitHub Pages hosts static websites for free directly from a repository; this manual's website is hosted there.
-
-1. Open the repository's **Settings → Pages**.
-2. Choose a branch or a GitHub Action as the source.
-3. Wait for the build, then visit the URL shown.
-
-</details>
-
 **GitHub Pages** hosts straight from your repo, and this manual's website is built by a GitHub Action and deployed there.
 
 1. Repo → **Settings → Pages** → Source: **GitHub Actions** (or "Deploy from a branch" for plain HTML).
@@ -138,13 +99,6 @@ GitHub Pages hosts static websites for free directly from a repository; this man
 
 ## 🗄️ Databases, logins & storage
 
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-If your app needs to store data or handle logins, add a backend service. Supabase provides a Postgres database, authentication, file storage and more with a free tier. The table compares alternatives.
-
-</details>
-
 | Service | What you get | Why beginners love it |
 |---|---|---|
 | **Supabase** | Postgres database, auth, file storage, edge functions, vector search | AI builders know it well, great dashboard |
@@ -157,13 +111,6 @@ If your app needs to store data or handle logins, add a backend service. Supabas
 can't afford to lose.
 
 ## 🐍 Always-on apps, bots & backends
-
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-Bots, APIs and background workers need a server that runs continuously. Platforms like Render, Railway and Fly.io run these from your GitHub repository. The table compares them.
-
-</details>
 
 | Platform | Style | Great for |
 |---|---|---|
@@ -184,13 +131,6 @@ to Render."* Once it runs in a container, it runs almost anywhere.
 
 ## 🔌 Hosting a remote MCP server
 
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-A remote MCP server lives at an HTTPS URL, so it works from web and mobile AI apps and can be shared. Host it on a platform like Cloudflare Workers or Render, and always protect it with authentication.
-
-</details>
-
 Local MCP servers run on your machine. **Remote** ones live at an HTTPS URL, so they work from Claude on the web, your phone
 and other people's apps ([Building MCP Servers](../part-4-mcp-and-connectors/42-building-mcp-servers.md)).
 
@@ -204,13 +144,6 @@ and other people's apps ([Building MCP Servers](../part-4-mcp-and-connectors/42-
 tool outputs ✅. The full walkthrough is [Build-Along: Publish an MCP Server](../part-13-build-alongs/113-build-along-publish-an-mcp-server.md).
 
 ## 🔐 Secrets & environment variables
-
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-Store secrets such as API keys in your host's environment variables, never in code. Be aware that variables with public prefixes (like `NEXT_PUBLIC_` or `VITE_`) are visible to anyone who loads your site.
-
-</details>
 
 ```mermaid
 flowchart LR
@@ -229,17 +162,6 @@ flowchart LR
 
 ## 🌐 Custom domains
 
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-A custom domain replaces the default address with your own name.
-
-1. Buy a domain from a registrar such as Cloudflare, Namecheap or Porkbun.
-2. Add the domain in your hosting dashboard.
-3. Update the DNS records as instructed, and wait for HTTPS to activate.
-
-</details>
-
 1. **Buy a domain** from a registrar (Cloudflare, Namecheap, Porkbun…). Often around the price of a pizza per year. 🍕
 2. In your host's dashboard, **add the domain**. It shows you the DNS records to create.
 3. At your registrar, **add those DNS records** (usually a `CNAME` for `www` and an `A`/`ALIAS` record for the root).
@@ -249,13 +171,6 @@ A custom domain replaces the default address with your own name.
 It's excellent at this.
 
 ## 💸 Costs & free tiers
-
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-Hosting small projects is usually free. The main costs come from AI API calls and high traffic, so set spending limits and billing alerts. The table lists typical costs and how to protect yourself.
-
-</details>
 
 | Cost | Typical hobby reality | Protect yourself |
 |---|---|---|
@@ -273,13 +188,6 @@ Hosting small projects is usually free. The main costs come from AI API calls an
 
 ## 🤖 Let your agent do the deploying
 
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-Coding agents can handle most of the deployment work: preparing configuration, listing required environment variables, running deploy commands and diagnosing errors from logs. The table gives example requests.
-
-</details>
-
 | Ask your agent | Result |
 |---|---|
 | *"Get this project ready to deploy on Vercel. List the env vars I need to set."* | Config + a checklist |
@@ -293,13 +201,6 @@ Many hosts also have **MCP servers or CLIs** (Vercel, Netlify, Cloudflare, Supab
 manage settings directly.
 
 ## 🩺 After launch: logs, monitoring & updates
-
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-After launch, check logs when something goes wrong, add error tracking (such as Sentry) and uptime monitoring, and keep dependencies up to date.
-
-</details>
 
 - **Logs:** every host has a logs page. When users report a bug, logs tell the story.
 - **Error tracking:** Sentry catches errors with details (and has an MCP server, so agents can fix them).

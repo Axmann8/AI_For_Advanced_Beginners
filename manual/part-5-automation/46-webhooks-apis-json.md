@@ -1,6 +1,6 @@
 # 46 · Webhooks, APIs & JSON for Non-Programmers 🌐📦
 
-> ⏱️ 9 min read · 🎯 Beginner-friendly, no coding required · 🧰 Needs: a terminal (optional) and curiosity
+> ⏱️ 6 min read · 🎯 Beginner-friendly, no coding required · 🧰 Needs: a terminal (optional) and curiosity
 
 **Three concepts unlock *everything* in automation and AI integrations: JSON (how data looks), APIs (how apps talk), and
 webhooks (how apps poke each other).** Learn them once and every tool in this manual gets easier, from n8n to MCP to
@@ -20,13 +20,6 @@ Three concepts underpin almost every automation and integration, and you don't n
 <!-- in-this-chapter -->
 
 ## 📦 JSON: the universal data format
-
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-JSON stores data as labeled values in a strict, readable format. It uses objects (labeled fields in curly braces), arrays (lists in square brackets), strings, numbers, booleans and null, and these can be nested inside each other.
-
-</details>
 
 JSON is just **labeled data** in a strict, readable format:
 
@@ -57,13 +50,6 @@ JSON is just **labeled data** in a strict, readable format:
 
 ## 🐛 Common JSON mistakes (and what the error means)
 
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-JSON has strict syntax rules, and a single error makes the whole document invalid. The most common mistakes are trailing commas, single quotes and unquoted keys; the table shows each one corrected.
-
-</details>
-
 | Mistake | Broken | Fixed |
 |---|---|---|
 | Trailing comma | `{"a": 1,}` | `{"a": 1}` |
@@ -76,17 +62,6 @@ JSON has strict syntax rules, and a single error makes the whole document invali
 
 ## 🤖→📦 Getting JSON out of AI reliably
 
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-To get reliable JSON from an AI for use in automations:
-
-1. Ask for JSON only, and show the exact structure you expect.
-2. Use the platform's structured output or JSON mode if available.
-3. Validate the result before the next step uses it.
-
-</details>
-
 When an automation needs AI output as data:
 
 1. **Ask explicitly and show the shape:** *"Reply with ONLY a JSON object like {"title": string, "priority": "High" | "Low"}."*
@@ -96,13 +71,6 @@ When an automation needs AI output as data:
    [idea-inbox workflow](../../examples/n8n-workflows/idea-inbox-to-notion.json) does exactly this.
 
 ## 🚪 APIs: apps' front doors
-
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-An API lets one program ask another to read or change data. Most web APIs use HTTP requests, each made up of a method (such as GET or POST), a URL, headers (often including authentication) and, for some requests, a JSON body.
-
-</details>
 
 An **API** lets programs ask another app to do something. Most web APIs are **REST over HTTP**:
 
@@ -125,13 +93,6 @@ Every request has:
 
 ## 🚦 Status codes: what the server is telling you
 
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-Every API response includes a status code: 200-level codes mean success, 400-level codes mean a problem with the request, and 500-level codes mean a problem on the server. The table explains the most common codes and what to do about each.
-
-</details>
-
 | Code | Meaning | Your move |
 |---|---|---|
 | **200 / 201** | ✅ Success | Party 🎉 |
@@ -142,17 +103,6 @@ Every API response includes a status code: 200-level codes mean success, 400-lev
 | **500+** | The server broke | Retry later. Not your fault! |
 
 ## 🧪 Try an API right now (no key needed!)
-
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-You can call a real API right now without signing up.
-
-1. Open a terminal and run the command below.
-2. Read the JSON that comes back, which includes the current temperature in London.
-3. Try one of the other free APIs in the table.
-
-</details>
 
 ```bash
 curl "https://api.open-meteo.com/v1/forecast?latitude=51.5&longitude=-0.12&current=temperature_2m"
@@ -174,26 +124,12 @@ You'll get JSON with the current temperature in London. 🌤️ That's it, you j
 
 ## 🔑 Authentication types
 
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-APIs authenticate requests with an API key, a bearer token or OAuth (signing in with your account). Automation platforms handle most of the complexity; your main job is keeping keys secret.
-
-</details>
-
 - **API key:** a secret string in a header or parameter. Simple, so **keep it secret**.
 - **Bearer token:** similar, sent as `Authorization: Bearer <token>`.
 - **OAuth:** the "Log in with Google" flow. Automation platforms handle it for you, and that's a big part of their value!
 - **Webhook signatures:** a secret used to prove a webhook really came from the service (see below).
 
 ## 📖 Reading API docs (the skill nobody teaches)
-
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-API documentation follows a common structure. Look for the base URL, the authentication section, the endpoint you need, its required parameters and an example request. You can also ask an AI assistant to read the docs and explain the request you need.
-
-</details>
 
 Look for:
 
@@ -209,13 +145,6 @@ config."* Many docs also publish an **OpenAPI** spec, a machine-readable menu th
 
 ## 🔌 The HTTP Request node: the universal adapter
 
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-Every automation platform has a general-purpose HTTP request step, so you can use any service with an API even if there's no built-in integration for it.
-
-</details>
-
 Every platform has one: n8n **HTTP Request**, Zapier **Webhooks by Zapier / API Request**, Make **HTTP**. If a service has an
 API, you can use it even with no official integration.
 
@@ -223,13 +152,6 @@ API, you can use it even with no official integration.
 Desktop tools like **Bruno**, **Postman** or **HTTPie** let you experiment with requests in a friendly UI.
 
 ## 📞 Webhooks: "call me when something happens"
-
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-With **polling**, your automation checks for new data on a schedule. With a **webhook**, the other app sends data to your URL the instant something happens. Webhooks are faster and more efficient whenever an app supports them.
-
-</details>
 
 **Polling** = *you* checking every 5 minutes for something new. 😴
 **Webhook** = the app *calls your URL* the instant something happens. ⚡
@@ -261,29 +183,11 @@ for seeing what an app actually sends before building your workflow.
 
 ## 📱 Phone superpower: Shortcuts → webhook
 
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-You can build a phone shortcut that sends dictated text to a webhook, so a spoken idea lands in your notes automatically.
-
-1. Create a webhook in your automation platform and copy its URL.
-2. In the iPhone Shortcuts app, add **Dictate Text** and **Get Contents of URL** (POST, with the dictated text in a JSON body).
-3. Add the shortcut to your home screen or Action button.
-
-</details>
-
 On iPhone: **Shortcuts app** → new shortcut → **Dictate Text** → **Get Contents of URL** (method POST, JSON body
 `{"text": Dictated Text}`, URL = your webhook). Add it to your home screen or Action Button. Now you can **speak ideas straight
 into your AI workflows.** On Android, use Tasker or HTTP Shortcuts. More in [Phone & Desktop Automation](50-phone-and-desktop-automation.md).
 
 ## 🔒 Webhook security basics
-
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-Treat webhook URLs like passwords and don't share them publicly. Add a secret header check, and use signature verification where the sending service supports it.
-
-</details>
 
 - Webhook URLs are like passwords, so **don't share them publicly**.
 - Add a **secret header** check (`X-Secret: …`) or use the platform's auth options.
@@ -292,13 +196,6 @@ Treat webhook URLs like passwords and don't share them publicly. Add a secret he
 
 ## 📏 Rate limits, pagination & retries
 
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-APIs limit how fast you can send requests (a 429 error means slow down) and return large lists in pages. Add waits between requests, follow pagination to collect every page, and retry failed requests with increasing delays.
-
-</details>
-
 - **Rate limits:** too many requests → `429`. Add **Wait** nodes, batch items, and respect `Retry-After` headers.
 - **Pagination:** big lists come in pages (`?page=2`, cursors, or "next" links). Loop until there are no more.
 - **Retries:** enable *retry on fail* with increasing waits for flaky APIs, but don't blindly retry `400` errors, because the
@@ -306,13 +203,6 @@ APIs limit how fast you can send requests (a 429 error means slow down) and retu
 - **Idempotency:** for "create" actions, some APIs accept an idempotency key so a retry doesn't create duplicates.
 
 ## 🧩 Putting it all together
-
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-Nearly every integration follows the same sequence: an event triggers a JSON message, the automation reshapes the data, AI processes it, and an API call takes action in another app. The same pattern appears in MCP and in AI agents.
-
-</details>
 
 ```text
 Something happens ─(webhook/trigger)─▶ JSON arrives ─▶ transform ─▶ AI step ─▶ JSON ─▶ API call to act

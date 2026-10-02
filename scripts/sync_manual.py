@@ -12,8 +12,8 @@ It regenerates:
   * the chapter table in README.md               (<!-- toc:start/end -->)
   * appendices/g-key-points-edition.md: every chapter's Key Points & Steps on one page
 
-And it lints: numbering, balanced <details>, the chapter-level Key Points & Steps box, the section map
-marker, and a Key Points & Steps box at the start of every section.
+And it lints: numbering, balanced <details>, the chapter-level Key Points & Steps box (one per chapter,
+not one per section: sections should get straight to the steps) and the section map marker.
 """
 
 from __future__ import annotations
@@ -229,25 +229,15 @@ def lint(pages: list[Page]) -> list[str]:
     return problems
 
 
-def keypoints_coverage(pages: list[Page]) -> tuple[int, int, list[str]]:
-    """Every H2 section of a chapter should open with a Key Points & Steps box."""
-    total = covered = 0
-    missing = []
+def section_boxes(pages: list[Page]) -> list[str]:
+    """Chapters keep ONE summary box at the top. Repeating a box in every section made the manual pedantic."""
+    found = []
     for p in pages:
-        if not p.is_chapter:
-            continue
-        sections = re.split(r"^## ", strip_code(p.text), flags=re.M)[1:]
-        for sec in sections:
-            heading = sec.splitlines()[0]
-            if SECTION_EXEMPT.search(heading):
-                continue
-            total += 1
-            head = sec[:600]
-            if 'class="keypoints"' in head:
-                covered += 1
-            else:
-                missing.append(f"{p.rel} › {heading.strip()}")
-    return covered, total, missing
+        if p.is_chapter and "<!-- in-this-chapter -->" in p.text:
+            body = p.text.split("<!-- in-this-chapter -->", 1)[1]
+            if 'class="keypoints"' in body:
+                found.append(f"{p.rel}: has a Key Points box inside a section (keep only the one at the top)")
+    return found
 
 
 # ------------------------------------------------------------------------ writers ---
@@ -333,21 +323,21 @@ def part_blurb(folder: str) -> str:
     return lead(index.read_text(encoding="utf-8")) if index.exists() else ""
 
 
-def sync_home(pages: list[Page], coverage: tuple[int, int]) -> None:
+def sync_home(pages: list[Page]) -> None:
     home = MANUAL / "index.md"
     if not home.exists():
         return
     text = home.read_text(encoding="utf-8")
     chapters = [p for p in pages if p.is_chapter]
     corpus = "\n".join(p.text for p in pages)
-    keypoints = corpus.count('<details class="keypoints"')
+    screenshots = len(re.findall(r"assets/screenshots/[\w./-]+\.(?:png|webp|jpg)", corpus))
     quizzes = corpus.count('<details class="quiz"')
     tries = corpus.count("**🎮 Try this")
     words = sum(word_count(p.text) for p in pages)
     kits = len([d for d in (ROOT / "examples").iterdir() if d.is_dir()])
     stats = [
         (len(chapters), "chapters"),
-        (keypoints, "Key Points & Steps boxes ✅"),
+        (screenshots, "real screenshots 📸"),
         (quizzes, "quiz questions"),
         (tries, "try-this challenges"),
         (kits, "starter kits"),
@@ -432,8 +422,7 @@ def main() -> int:
     if not check_only:
         sync_key_points_edition()
     pages = all_pages()
-    problems = lint(pages)
-    covered, total, missing = keypoints_coverage(pages)
+    problems = lint(pages) + section_boxes(pages)
     if not check_only:
         fixed = fix_anchors(pages)
         if fixed:
@@ -445,14 +434,10 @@ def main() -> int:
         sync_next_links(order)
         sync_nav()
         sync_part_indexes()
-        sync_home(pages, (covered, total))
+        sync_home(pages)
         sync_readme()
     chapters = sum(p.is_chapter for p in pages)
-    print(f"📚 {len(pages)} pages ({chapters} chapters) · ✅ section Key Points coverage {covered}/{total}")
-    for m in missing[:25]:
-        print(f"   Key Points missing: {m}")
-    if len(missing) > 25:
-        print(f"   … and {len(missing) - 25} more")
+    print(f"📚 {len(pages)} pages ({chapters} chapters)")
     for prob in problems:
         print(f"❌ {prob}")
     return 1 if problems else 0

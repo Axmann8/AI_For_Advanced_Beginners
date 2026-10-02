@@ -1,6 +1,6 @@
 # 23 · Perplexity: The Complete Guide 🔎
 
-> ⏱️ 8 min read · 🎯 Beginners to advanced beginners · 🧰 Needs: nothing (an account saves your history; perplexity.ai)
+> ⏱️ 6 min read · 🎯 Beginners to advanced beginners · 🧰 Needs: nothing (an account saves your history; perplexity.ai)
 
 **Perplexity calls itself an "answer engine": ask a question and you get a clear, written answer with numbered sources
 you can click, like a search engine and a research assistant rolled into one.** It's the go-to tool for fact-finding,
@@ -22,13 +22,6 @@ Perplexity is an "answer engine": it searches the web for you and returns a writ
 
 ## 🔎 Quick facts
 
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-Perplexity is made by Perplexity AI. It's available on the web, as phone and desktop apps, and through its Comet browser.
-
-</details>
-
 | | |
 |---|---|
 | **Made by** | Perplexity AI (San Francisco) |
@@ -40,30 +33,12 @@ Perplexity is made by Perplexity AI. It's available on the web, as phone and des
 
 ## 🚪 Getting started
 
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-You can start using Perplexity immediately.
-
-1. Go to perplexity.ai or install the app and ask a question; no account is required.
-2. Sign up with email, Google or Apple to save your searches in your Library.
-3. Try a follow-up question to dig deeper.
-
-</details>
-
 1. Go to **perplexity.ai** or install the app (maker: **Perplexity AI**). You can ask questions without an account.
 2. **Sign up** (email, Google or Apple) to save your **Library** of past searches.
 3. **Personalize:** Settings → **Personalization** → tell it about you (location, interests, how you like answers).
 4. Try the **Discover** tab for AI-summarized news tailored to your interests.
 
 ## 💳 Plans in plain English
-
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-The free plan covers everyday searching. Pro adds a choice of top models (from OpenAI, Anthropic, Google and others), more Pro searches and more research. The table compares the plans.
-
-</details>
 
 | Plan | What you get (roughly) |
 |---|---|
@@ -76,13 +51,6 @@ Students and some phone or telecom partners often get Pro free or discounted, so
 
 ## 🧭 Search modes: quick, Pro, Research and Labs
 
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-Perplexity offers several modes: quick **Search** for simple facts, **Pro Search** for multi-step questions, **Research** for full cited reports, and **Labs** for building spreadsheets, dashboards and small apps.
-
-</details>
-
 | Mode | What it does | Example |
 |---|---|---|
 | ⚡ **Search** (quick) | A fast answer with sources | *"What time does the Louvre open on Sundays?"* |
@@ -94,17 +62,6 @@ Perplexity offers several modes: quick **Search** for simple facts, **Pro Search
 **finance data**, or your own files.
 
 ## 🔗 Reading sources like a pro
-
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-Every answer includes numbered citations, and checking them is what makes Perplexity trustworthy.
-
-1. Hover over or tap a citation number to see its source.
-2. Open the sources behind important claims.
-3. Confirm the page actually says what the answer claims, and check how recent it is.
-
-</details>
 
 Every Perplexity answer has **numbered citations** [1][2][3]:
 
@@ -119,17 +76,6 @@ This habit makes Perplexity one of the most **trustworthy** ways to use AI for f
 
 ## 🗂️ Spaces: your research folders
 
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-Spaces are topic folders with custom instructions and uploaded files, keeping related research together.
-
-1. In the sidebar, open **Spaces** and choose **Create a Space**.
-2. Add instructions and any reference files.
-3. Run all searches on that topic inside the Space.
-
-</details>
-
 **Spaces** group searches by topic, with **custom instructions** and **uploaded files**:
 
 1. Sidebar → **Spaces** → **Create a Space** (*"🏡 Buying our first home"*).
@@ -138,13 +84,6 @@ Spaces are topic folders with custom instructions and uploaded files, keeping re
 3. Every search in the Space uses that context. Share it with your partner to research together.
 
 ## ☄️ Comet: the AI browser
-
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-Comet is Perplexity's free browser for Windows, Mac, iPhone and Android. It includes an AI assistant on every page that can summarize, compare across tabs and complete web tasks while you supervise.
-
-</details>
 
 **Comet** is Perplexity's free web browser (Windows, Mac, iPhone, Android). It looks like Chrome (and imports your
 bookmarks), but has an AI **assistant** on every page:
@@ -163,13 +102,6 @@ bookmarks), but has an AI **assistant** on every page:
 
 ## 🔌 Connectors, files and more
 
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-Connectors let Perplexity search your Gmail, Calendar, Outlook, Notion, GitHub and other accounts alongside the web. You can also upload files and use dedicated features for shopping and finance.
-
-</details>
-
 - **Connectors:** link Gmail, Google Calendar, Outlook, Notion, GitHub and others so Perplexity can search your own
   content alongside the web.
 - **File uploads:** ask about PDFs, spreadsheets and images.
@@ -178,13 +110,6 @@ Connectors let Perplexity search your Gmail, Calendar, Outlook, Notion, GitHub a
 - **Voice mode:** ask questions out loud in the app.
 
 ## 🍳 Step-by-step recipes
-
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-These four recipes walk through real tasks in Perplexity step by step, from choosing a product to researching a big decision.
-
-</details>
 
 **Recipe 1: Buy the right thing**
 
@@ -209,13 +134,6 @@ These four recipes walk through real tasks in Perplexity step by step, from choo
 
 ## 🔐 Privacy and settings
 
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-The table lists Perplexity's privacy settings, including AI data retention, incognito mode and history deletion.
-
-</details>
-
 | Setting | Where | What it does |
 |---|---|---|
 | **AI data retention / training** | Settings → Preferences | Choose whether your searches may be used to improve the AI |
@@ -225,13 +143,6 @@ The table lists Perplexity's privacy settings, including AI data retention, inco
 | **Comet** | Comet settings | Control what the assistant can see and do, and clear browsing data |
 
 ## 💡 Pro tips and limitations
-
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-These tips help you get more out of Perplexity, followed by its current limitations so you know what to watch for.
-
-</details>
 
 **Pro tips**
 

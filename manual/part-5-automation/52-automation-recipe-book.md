@@ -1,6 +1,6 @@
 # 52 · The Automation Recipe Book: 50 Workflows to Steal 🍳⚙️
 
-> ⏱️ 8 min read (or grab one recipe!) · 🎯 Everyone · 🧰 Needs: Zapier, Make, n8n, or phone Shortcuts
+> ⏱️ 6 min read (or grab one recipe!) · 🎯 Everyone · 🧰 Needs: Zapier, Make, n8n, or phone Shortcuts
 
 **Fifty ready-to-build AI automations**, each written as **trigger → steps → result**, grouped by life area, and rated by
 difficulty. Every one works on Zapier, Make or n8n (and many on phone Shortcuts). Pick one that annoys you *today*, build it
@@ -27,13 +27,6 @@ This chapter is a collection of 50 automation recipes, organized by area. Each d
 
 ## 🧠 Personal productivity
 
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-These recipes support personal productivity: capturing ideas, daily planning, briefings and follow-up reminders.
-
-</details>
-
 | # | Recipe | Trigger → steps → result | Level |
 |---|---|---|---|
 | 1 | **Morning briefing** | 7:00 → calendar + weather + top news → AI writes a cheerful 100-word brief → phone notification | 🟢 |
@@ -47,13 +40,6 @@ These recipes support personal productivity: capturing ideas, daily planning, br
 
 ## 📧 Email & communication
 
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-These recipes manage email and communication: triage, summaries, reply drafts and alerts for important messages.
-
-</details>
-
 | # | Recipe | Trigger → steps → result | Level |
 |---|---|---|---|
 | 9 | **Inbox triage** | New email → AI classifies (urgent / needs reply / FYI / newsletter / receipt) → apply labels | 🟢 |
@@ -65,13 +51,6 @@ These recipes manage email and communication: triage, summaries, reply drafts an
 | 15 | **Auto-translate** | Message in another language in a shared inbox → AI translation + suggested reply in the same language | 🟢 |
 
 ## 💼 Work & business
-
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-These recipes support teams and small businesses: lead handling, customer feedback, meeting follow-ups, invoices and reports.
-
-</details>
 
 | # | Recipe | Trigger → steps → result | Level |
 |---|---|---|---|
@@ -86,13 +65,6 @@ These recipes support teams and small businesses: lead handling, customer feedba
 
 ## 🎨 Content & creators
 
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-These recipes help creators repurpose content across channels, plan posts and capture ideas.
-
-</details>
-
 | # | Recipe | Trigger → steps → result | Level |
 |---|---|---|---|
 | 24 | **Content repurposer** | New blog post → AI writes thread + LinkedIn post + newsletter blurb → drafts ([walkthrough](49-zapier-and-make-walkthroughs.md#-walkthrough-4-social-media-repurposer-30-min)) | 🟡 |
@@ -103,13 +75,6 @@ These recipes help creators repurpose content across channels, plan posts and ca
 | 29 | **Thumbnail brainstorm** | New video title → AI suggests 5 thumbnail concepts + generates 2 with an image model | 🔴 |
 
 ## 🔬 Learning & research
-
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-These recipes support learning and research: topic monitoring, study aids and research digests.
-
-</details>
 
 | # | Recipe | Trigger → steps → result | Level |
 |---|---|---|---|
@@ -122,13 +87,6 @@ These recipes support learning and research: topic monitoring, study aids and re
 
 ## 💰 Money & admin
 
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-These recipes handle financial and administrative tasks: receipts, bills, subscriptions and paperwork.
-
-</details>
-
 | # | Recipe | Trigger → steps → result | Level |
 |---|---|---|---|
 | 36 | **Receipt tracker** | Receipt photo (phone) or email → AI extracts merchant, amount, category → spreadsheet | 🟢 |
@@ -138,13 +96,6 @@ These recipes handle financial and administrative tasks: receipts, bills, subscr
 | 40 | **Budget check-in** | Weekly → spending by category vs. budget → AI friendly coach note with one suggestion | 🟡 |
 
 ## 🏡 Home & family
-
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-These recipes help at home: meal planning, school communications, chores, plant care and family scheduling.
-
-</details>
 
 | # | Recipe | Trigger → steps → result | Level |
 |---|---|---|---|
@@ -156,13 +107,6 @@ These recipes help at home: meal planning, school communications, chores, plant 
 
 ## 🛠️ Developer & tech
 
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-These recipes help developers and technical teams: pull request summaries, error alerts, changelogs and uptime checks.
-
-</details>
-
 | # | Recipe | Trigger → steps → result | Level |
 |---|---|---|---|
 | 46 | **PR summarizer** | New pull request → AI summary + risk notes → comment or Slack | 🟡 |
@@ -173,19 +117,6 @@ These recipes help developers and technical teams: pull request summaries, error
 
 ## 🧑‍🍳 How to build any recipe (the method)
 
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-Build any recipe using the same method:
-
-1. Write it as one sentence: *"When [trigger], get [data], ask AI to [task], then [action]."*
-2. Build the trigger and capture a real sample.
-3. Add the AI step and check its output on the sample.
-4. Add the final action, with an approval step for anything important.
-5. Turn it on and review the first few runs.
-
-</details>
-
 1. **Write it down first:** *"When [trigger], get [data], ask AI to [job], then [action]."*
 2. **Build the trigger** and capture a real sample (pin it in n8n or Make).
 3. **Add the AI step** with a clear prompt, and **ask for JSON** if the next step needs fields.
@@ -195,13 +126,6 @@ Build any recipe using the same method:
 7. **Turn it on**, and check the log daily for the first week.
 
 ## 📝 Design your own recipe
-
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-Use this template to design your own automation. If you can complete each line, you have everything you need to build it.
-
-</details>
 
 ```markdown
 ### Recipe: ________________

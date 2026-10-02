@@ -1,6 +1,6 @@
 # 68 · Build Your Own Agent 🤖🔧
 
-> ⏱️ 9 min read · 🎯 Intermediate · 🧰 Needs: Python 3.10+, an Anthropic API key, the [build-your-own-agent kit](../../examples/build-your-own-agent/)
+> ⏱️ 7 min read · 🎯 Intermediate · 🧰 Needs: Python 3.10+, an Anthropic API key, the [build-your-own-agent kit](../../examples/build-your-own-agent/)
 
 **You've used agents. Now you'll build one and understand exactly what's happening inside.** Once you've written an agent
 loop yourself, every "AI agent" product stops being mysterious, and you can build custom agents for anything: research,
@@ -29,13 +29,6 @@ An agent is an AI that takes actions to reach a goal. You give it a goal and a s
 
 ## 🧩 The whole secret, in one diagram
 
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-Your program sends the model a goal and a list of tools. The model responds with a request to use a tool; your code runs it and returns the result. This repeats until the model gives a final answer, as the diagram shows.
-
-</details>
-
 ```mermaid
 sequenceDiagram
     participant You as 🐍 Your code
@@ -59,13 +52,6 @@ sequenceDiagram
 
 ## 🤔 When do you actually need an agent?
 
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-Not every task needs an agent. A single call suits one-step tasks, and a fixed workflow suits tasks with predictable steps. Use an agent only when the AI needs to decide the steps as it goes. The table compares the patterns.
-
-</details>
-
 | Pattern | What it is | Use when | Example |
 |---|---|---|---|
 | **Single call** | One prompt → one answer | The task is one step | "Summarize this email" |
@@ -77,17 +63,6 @@ Not every task needs an agent. A single call suits one-step tasks, and a fixed w
 the task is **open-ended and multi-step**, and the model needs to decide the path.
 
 ## 🚀 Hands-on: run the ~100-line agent
-
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-This repository includes a complete agent with four safe tools.
-
-1. Open the [build-your-own-agent kit](../../examples/build-your-own-agent/) and install its requirements.
-2. Set your API key as an environment variable.
-3. Run the agent with a goal and watch each step it prints.
-
-</details>
 
 The [build-your-own-agent kit](../../examples/build-your-own-agent/) is a complete, commented agent with four harmless tools
 (`calculator`, `list_files`, `read_file`, `now`) working in a sandbox folder:
@@ -103,13 +78,6 @@ You'll see each step printed: which tool it chose, what the tool returned, and t
 scroll by is the moment agents "click." 💡
 
 ## 🔍 Walkthrough of `agent.py`
-
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-The agent has three parts: **tool definitions** (names, descriptions and input schemas the model reads), **tool implementations** (the Python functions that do the work), and **the loop** that sends messages, runs requested tools and returns results until the task is done.
-
-</details>
 
 **1 · Describe the tools** (the model's instruction manual):
 
@@ -150,13 +118,6 @@ That's the entire engine of every coding agent, research agent and automation ag
 
 ## 🏅 Details that separate toy agents from good ones
 
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-A few details make an agent reliable: return all tool results together, send errors back so the model can adjust, cap the number of steps, and log every step. The table explains each.
-
-</details>
-
 | Detail | Why |
 |---|---|
 | **Return all tool results in one message** | Keeps parallel tool calls working |
@@ -169,13 +130,6 @@ A few details make an agent reliable: return all tool results together, send err
 | **Useful tool output** | Return concise, relevant data, not a 10,000-line dump |
 
 ## 🛠️ Designing great tools
-
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-Good tools do one clear job, have descriptive names and parameters, include descriptions with examples, and return concise, useful results. The table contrasts good and poor tool design.
-
-</details>
 
 | Do ✅ | Don't ❌ |
 |---|---|
@@ -192,13 +146,6 @@ Good tools do one clear job, have descriptive names and parameters, include desc
 > excellent feedback on their own toolbox.
 
 ## 📈 Leveling up your agent
-
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-Once the basic agent works, you can add approval prompts before risky actions, save memory between runs, connect MCP servers for ready-made tools, and switch to the SDK's tool runner to handle the loop for you.
-
-</details>
 
 ### 🙋 Human-in-the-loop approvals
 
@@ -229,13 +176,6 @@ For file editing, shell commands, search, subagents and context management out o
 
 ## 🧭 Choosing how to build agents
 
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-You can build agents with a hand-written loop, an SDK helper, a full framework or a visual tool like n8n. Start with the simplest approach that works, and move up when you need more features. The table compares them.
-
-</details>
-
 | Approach | You write | Use when |
 |---|---|---|
 | **Manual loop** (this chapter) | Everything | Learning, or full control over every step |
@@ -246,13 +186,6 @@ You can build agents with a hand-written loop, an SDK helper, a full framework o
 | **No-code** (n8n AI Agent, Zapier Agents, Make AI Agents) | Nothing (visual) | Agents wired into business workflows ([n8n AI Agents](../part-5-automation/48-n8n-ai-agents.md)) |
 
 ## 🐞 Debugging agents
-
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-When an agent misbehaves, read its step-by-step log. The cause is usually an unclear tool description or an unhelpful tool result. The table pairs common symptoms with fixes.
-
-</details>
 
 | Symptom | Likely cause | Fix |
 |---|---|---|
@@ -265,19 +198,6 @@ When an agent misbehaves, read its step-by-step log. The cause is usually an unc
 
 ## 🏛️ Agent design principles
 
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-Five principles guide good agent design:
-
-1. Use a few well-described tools rather than many vague ones.
-2. Give the agent a way to verify its work.
-3. Restrict it to a limited workspace.
-4. Set limits on steps, time and cost.
-5. Log everything.
-
-</details>
-
 1. **Few, well-described tools** beat many vague ones.
 2. **Give it a way to verify** (tests, a "check" tool, reading back what it wrote).
 3. **Constrain the blast radius:** sandboxes, allowlists, read-only by default.
@@ -285,13 +205,6 @@ Five principles guide good agent design:
 5. **Observe:** log trajectories, and review failures to improve prompts and tools ([Evaluating AI](../part-12-mastery/105-evaluating-ai.md)).
 
 ## 💡 Agent ideas to build
-
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-The table suggests a dozen agents to build, along with the tools each one needs.
-
-</details>
 
 | Agent | Tools |
 |---|---|

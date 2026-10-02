@@ -1,6 +1,6 @@
 # 96 · Money & Personal Finance with AI 💸📊
 
-> ⏱️ 8 min read · 🎯 Everyone who earns, spends or saves · 🧰 Needs: an assistant with code execution (for spreadsheets), a bank export (CSV), optionally a budgeting app
+> ⏱️ 7 min read · 🎯 Everyone who earns, spends or saves · 🧰 Needs: an assistant with code execution (for spreadsheets), a bank export (CSV), optionally a budgeting app
 
 **Money stress is real, and a lot of it comes from not quite understanding where it goes or what the options mean.** AI is a
 patient, judgment-free money tutor and analyst: it can find your spending patterns, build a budget you'll actually keep,
@@ -28,13 +28,6 @@ AI can help you understand your spending, build a realistic budget, plan for sav
 
 ## 🗺️ What AI is great at (and not) with money
 
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-AI is excellent at categorizing, explaining and calculating. It can't predict markets or know your full financial situation, and it shouldn't replace professional advice on major decisions. The table compares strengths and cautions.
-
-</details>
-
 | 🌟 Great at | ⚠️ Be careful with |
 |---|---|
 | Categorizing spending and finding patterns | Predicting stock prices or markets (nobody can) |
@@ -51,18 +44,6 @@ AI is excellent at categorizing, explaining and calculating. It can't predict ma
 
 ## 🔍 Where does my money go? (the spending analyzer)
 
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-To see where your money goes:
-
-1. Export three months of transactions as a CSV from your bank.
-2. Remove account numbers and anything else you prefer not to share.
-3. Upload the file to an assistant with code execution.
-4. Ask it to categorize spending, chart the totals and highlight patterns.
-
-</details>
-
 1. **Export** 3 months of transactions as CSV from your bank (most offer this).
 2. **Redact** account numbers (and anything you don't want to share), or use a local model for full privacy
    ([Local & Open Models](../part-9-local-ai/78-local-and-open-models.md)).
@@ -77,13 +58,6 @@ To see where your money goes:
 
 ## 🧮 A budget you'll actually keep
 
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-A budget plans how your income is divided between needs, wants and savings. Methods like 50/30/20, zero-based budgeting and pay-yourself-first suit different people; AI can tailor any of them to your income and expenses. The table includes prompts.
-
-</details>
-
 | Budget style | Idea | AI prompt |
 |---|---|---|
 | **50/30/20** | Needs / wants / saving | *"Split my take-home pay of [X] using 50/30/20 and compare with my actual spending."* |
@@ -95,13 +69,6 @@ A budget plans how your income is divided between needs, wants and savings. Meth
 budget. What went well? One thing to adjust?"*), and celebrating wins. 🎉
 
 ## 🎯 Goals, savings & debt plans
-
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-AI can build month-by-month plans for savings goals, debt repayment (comparing avalanche and snowball methods) and emergency funds, showing how long each will take. The table offers prompts.
-
-</details>
 
 | Goal | Prompt |
 |---|---|
@@ -120,13 +87,6 @@ flowchart LR
 
 ## 📚 Money concepts in plain English
 
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-AI is a patient, judgment-free tutor for financial concepts such as compound interest, APR, index funds and tax brackets. Ask for plain explanations with examples, then ask it to quiz you.
-
-</details>
-
 Use AI as a **judgment-free money tutor** ([Research & Learning](91-research-and-learning.md)):
 
 | Concept | Ask |
@@ -141,13 +101,6 @@ Use AI as a **judgment-free money tutor** ([Research & Learning](91-research-and
 
 ## ⚖️ Big purchases & comparisons
 
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-For major purchases, ask AI to compare options over their full lifetime, including hidden costs like insurance, maintenance, financing and resale value.
-
-</details>
-
 - **Total cost of ownership:** *"Compare buying these two cars over 5 years: price, fuel, insurance estimate, maintenance,
   resale. Make a table and show your assumptions."*
 - **Rent vs. buy:** *"Build a rent-vs-buy spreadsheet for my situation. Let me change the assumptions."*
@@ -157,13 +110,6 @@ For major purchases, ask AI to compare options over their full lifetime, includi
 
 ## 🧾 Taxes & paperwork
 
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-At tax time, AI can help you list the documents you need, organize receipts and explain forms. Have a tax professional or official software check your final return.
-
-</details>
-
 - **Organize:** *"Here's a list of my documents. What else might I need for my tax return in [country]?"*
 - **Receipts:** photos → extraction → a categorized expense sheet ([Spreadsheet Superpowers](../part-6-ai-in-your-apps/58-spreadsheet-superpowers.md)).
 - **Understand forms:** *"Explain what this form is for and which boxes are likely relevant to a freelancer."*
@@ -171,13 +117,6 @@ At tax time, AI can help you list the documents you need, organize receipts and 
 - **Always** confirm with official guidance, tax software or a tax professional. Rules change yearly and vary by place.
 
 ## 🗣️ Negotiating & saving money
-
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-AI can write scripts and messages for negotiating a lower bill, requesting a refund or disputing a charge, and help you rehearse phone calls. The table gives prompts for common situations.
-
-</details>
 
 | Situation | Prompt |
 |---|---|
@@ -188,13 +127,6 @@ AI can write scripts and messages for negotiating a lower bill, requesting a ref
 | **Practice** | Voice mode: *"Play the customer-retention agent. Push back realistically."* |
 
 ## 🛡️ Scams & AI-powered fraud
-
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-Scammers use AI to fake voices, write convincing emails and create deepfakes. If a message is urgent and asks for money, stop and verify through a channel you already trust. AI can also give you a second opinion on whether a message looks like a scam.
-
-</details>
 
 AI is a great **second opinion** on suspicious messages, and scammers now use AI themselves (fake voices, polished emails,
 deepfake videos).

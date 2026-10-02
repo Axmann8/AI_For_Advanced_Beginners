@@ -1,6 +1,6 @@
 # 125 · Connecting Everything: n8n + Notion + Your Whole Stack 🌐
 
-> ⏱️ 11 min read · 🎯 Intermediate · 🧰 Needs: n8n and Notion connected (see chapter 122), plus the apps you want to link
+> ⏱️ 9 min read · 🎯 Intermediate · 🧰 Needs: n8n and Notion connected (see chapter 122), plus the apps you want to link
 
 **This chapter is the map of how your n8n + Notion system connects to the rest of your digital life.** For each kind of
 tool (email, calendar, chat, AI assistants, phone, files, code, business apps, notes, content and local AI) you'll find
@@ -21,13 +21,6 @@ n8n acts as the hub that connects Notion to every other tool. For each connectio
 <!-- in-this-chapter -->
 
 ## 🧭 Design principles for a connected system
-
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-Connected systems stay manageable when each kind of data has one source of truth, each workflow does one job, records are matched with IDs, and every workflow reports failures. These rules prevent duplicates, conflicts and silent breakage as your system grows.
-
-</details>
 
 | Principle | What it means | Example |
 |---|---|---|
@@ -55,13 +48,6 @@ flowchart LR
 
 ## 📧 Email and calendar
 
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-Email and calendar are the most common sources of work. n8n can turn important emails into Notion tasks, push dated tasks into your calendar as time blocks, and create meeting pages with preparation notes before each event.
-
-</details>
-
 | Flow | Direction | n8n nodes | How it works |
 |---|---|---|---|
 | **Email → task** | Gmail/Outlook → Notion | Gmail Trigger (or Outlook Trigger), AI chain, Notion | Emails with a label like *To Notion*, or ones the AI flags as action items, become tasks with the email link and a summary |
@@ -77,13 +63,6 @@ See also: [Email & Calendar Superpowers](../part-6-ai-in-your-apps/57-email-and-
 
 ## 💬 Chat apps: Slack, Telegram, Discord and WhatsApp
 
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-Chat apps are ideal both for capturing information into Notion and for receiving updates from it. n8n can save starred or forwarded messages as Notion pages, post daily briefings and alerts, and power a chat assistant that answers questions about your workspace.
-
-</details>
-
 | Flow | Direction | How |
 |---|---|---|
 | **Save a message to Notion** | Slack/Telegram → Notion | React with an emoji (Slack) or forward to your bot (Telegram); n8n creates an Inbox row with the message link |
@@ -95,17 +74,6 @@ Chat apps are ideal both for capturing information into Notion and for receiving
 See also: [Chat Apps & Bots](../part-6-ai-in-your-apps/59-chat-apps-and-bots.md).
 
 ## 🤖 AI assistants: Claude, ChatGPT, Gemini and more
-
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-Chat assistants connect to this stack through MCP and connectors. Connect Notion directly for reading and writing pages, and connect an n8n MCP server for actions you've designed. Your assistant then becomes a natural-language interface to your whole system.
-
-1. Add Notion's connector or MCP server to your assistant.
-2. Expose selected n8n workflows through an MCP Server Trigger and add that as a custom connector.
-3. Ask in plain language, and keep approvals on for sending or deleting.
-
-</details>
 
 | Assistant | Connect Notion | Connect n8n workflows |
 |---|---|---|
@@ -124,17 +92,6 @@ Chat assistants connect to this stack through MCP and connectors. Connect Notion
 
 ## 📱 Phone and desktop
 
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-Your phone and computer can send information to n8n with one tap or keystroke through webhooks, which makes capturing ideas, receipts and links into Notion nearly effortless.
-
-1. Create an n8n Webhook workflow that writes to your Notion Inbox (the kit's capture workflow does this).
-2. Build a phone shortcut (iPhone Shortcuts, Android Tasker) or desktop hotkey (Raycast, Alfred, AutoHotkey) that POSTs to it.
-3. Add it to your home screen, Action button or keyboard.
-
-</details>
-
 | Capture | Device tool | What n8n does |
 |---|---|---|
 | **Voice idea** | iPhone Shortcut (Dictate → Get Contents of URL), Android Tasker | AI cleans it up and files it in the Inbox |
@@ -147,13 +104,6 @@ See also: [Phone & Desktop Automation](../part-5-automation/50-phone-and-desktop
 
 ## 📁 Files and documents
 
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-n8n can watch file storage for new documents, extract their contents with AI and file structured results in Notion, linking back to the original file.
-
-</details>
-
 | Flow | How |
 |---|---|
 | **Invoices and receipts** | Google Drive or Dropbox trigger → extract fields with AI → Notion Expenses row with the file link |
@@ -163,13 +113,6 @@ n8n can watch file storage for new documents, extract their contents with AI and
 | **Backups** | A weekly workflow exports key databases to CSV in cloud storage |
 
 ## 🐙 Code and project tools: GitHub, Linear and Jira
-
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-For people who build software, n8n can keep a Notion roadmap in sync with GitHub issues and pull requests, generate release notes into Notion, and let coding agents update project status as they work.
-
-</details>
 
 | Flow | Direction | How |
 |---|---|---|
@@ -182,13 +125,6 @@ For people who build software, n8n can keep a Notion roadmap in sync with GitHub
 See also: [Git & GitHub](../part-7-building-with-ai/61-git-and-github.md).
 
 ## 💼 Business apps: payments, CRM, scheduling and forms
-
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-For freelancers and small businesses, n8n can bring payments, bookings, leads and customer data into Notion, so Notion becomes a lightweight CRM and business dashboard.
-
-</details>
 
 | Source | Flow into Notion | Useful follow-up |
 |---|---|---|
@@ -203,13 +139,6 @@ See also: [Small Business & Side Hustles](../part-11-ai-for-life-and-work/93-sma
 
 ## 📚 Notes, reading and content
 
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-n8n can bring your reading highlights, saved articles, videos and podcasts into Notion with AI summaries, and push finished Notion content out to blogs, newsletters and social media.
-
-</details>
-
 | Flow | How |
 |---|---|
 | **RSS and newsletters → Notion** | RSS Trigger → AI filters and summarizes → Resources database ([Web Scraping & Monitoring](../part-5-automation/51-web-scraping-and-monitoring.md)) |
@@ -221,13 +150,6 @@ n8n can bring your reading highlights, saved articles, videos and podcasts into 
 
 ## 🏠 Local AI and smart home
 
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-For privacy, the AI steps in your workflows can run on local models through Ollama, and self-hosted n8n can also connect Notion to your smart home through Home Assistant.
-
-</details>
-
 - **Private AI processing:** swap the cloud model node for an **Ollama Chat Model** node pointing at your home lab
   ([The AI Home Lab](../part-9-local-ai/80-home-lab.md)). Journals, health notes and financial documents never leave your
   network (apart from what you choose to store in Notion).
@@ -237,28 +159,10 @@ For privacy, the AI steps in your workflows can run on local models through Olla
 
 ## 🟠 Bridging to Zapier and Make
 
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-If an app works only with Zapier or Make, use them just for that connection and hand the data to n8n with a webhook. This keeps your main logic in one place while still reaching niche apps.
-
-1. In Zapier or Make, set the niche app as the trigger.
-2. Add a webhook action that POSTs the data to your n8n Webhook URL (with your secret header).
-3. Do everything else in n8n.
-
-</details>
-
 This "thin bridge" approach keeps costs low (one simple step in Zapier or Make) and avoids splitting your logic across
 platforms. See [Zapier & Make Walkthroughs](../part-5-automation/49-zapier-and-make-walkthroughs.md).
 
 ## 🗺️ Putting it together: three example systems
-
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-These three complete systems show how the individual connections combine for different people: a personal life OS, a freelancer's business hub and a small team's operations center.
-
-</details>
 
 | System | Notion databases | Key n8n workflows |
 |---|---|---|

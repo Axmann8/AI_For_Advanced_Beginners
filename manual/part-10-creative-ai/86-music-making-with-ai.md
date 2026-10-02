@@ -1,6 +1,6 @@
 # 86 · Music Making with AI: From Hum to Hit 🎵🎹
 
-> ⏱️ 8 min read · 🎯 Everyone (musicians and "I can't play anything" folks alike) · 🧰 Needs: a song generator (Suno or similar), optionally a DAW like GarageBand, Ableton or BandLab
+> ⏱️ 6 min read · 🎯 Everyone (musicians and "I can't play anything" folks alike) · 🧰 Needs: a song generator (Suno or similar), optionally a DAW like GarageBand, Ableton or BandLab
 
 **AI can now write and sing a full song from a sentence, and that's only the beginning.** It can also help you write lyrics,
 learn theory, separate a song into its instruments so you can practice along, master your tracks, and even control a real
@@ -23,13 +23,6 @@ AI music tools can generate complete songs with vocals from a description or you
 
 ## 🎛️ The AI music landscape
 
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-AI music tools fall into categories: full song generators (Suno, Udio), background music generators, and tools for musicians, such as stem separation, transcription and mastering. The table compares them.
-
-</details>
-
 | Kind | Tools | What you get |
 |---|---|---|
 | 🎤 **Full songs with vocals** | **Suno** | Complete songs from a prompt or your lyrics |
@@ -47,18 +40,6 @@ AI music tools fall into categories: full song generators (Suno, Udio), backgrou
 > commercial use) differ by plan, so read them before you publish.
 
 ## 🎤 Making your first AI song
-
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-To make your first AI song:
-
-1. Describe the style: genre, mood, instruments, tempo and vocals.
-2. Provide a topic or your own lyrics.
-3. Generate several versions and choose your favorite.
-4. Extend, remix or edit sections as needed.
-
-</details>
 
 1. **Pick a style:** genre, mood, instruments, tempo, vocal type. *"Upbeat indie pop, jangly guitars, handclaps, female vocals,
    summery, 120 BPM."*
@@ -89,13 +70,6 @@ To make your first AI song:
 
 ## ✍️ A songwriting workflow with AI
 
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-AI works well as a songwriting collaborator: it can brainstorm angles on a theme, suggest rhymes and lyric alternatives, and propose chord progressions. Keep your own experiences and decisions at the center. The table offers prompts for each step.
-
-</details>
-
 ```mermaid
 flowchart LR
     I[💡 Idea / feeling] --> L[✍️ Lyrics<br/>you + Claude]
@@ -116,13 +90,6 @@ flowchart LR
 
 ## 🎹 AI for musicians who play
 
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-For musicians, AI can remove or isolate any instrument in a recording, slow down difficult passages without changing pitch, transcribe music into notation, explain theory and master your recordings. The table lists tools for each.
-
-</details>
-
 | Superpower | Tools | Try |
 |---|---|---|
 | 🎸 **Remove any instrument** | Moises, LALAL.AI, Demucs | Take the guitar out of a song and play along as the guitarist |
@@ -135,13 +102,6 @@ For musicians, AI can remove or isolate any instrument in a recording, slow down
 
 ## 🔌 Claude + your DAW via MCP
 
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-Community MCP servers connect Claude to production software such as Ableton Live, so you can create clips, add instruments and adjust tempo or effects by describing what you want.
-
-</details>
-
 Community MCP servers connect Claude to production software like **Ableton Live** (and others), so you can say:
 
 - *"Create a 4-bar lo-fi drum loop at 85 BPM on a new track."*
@@ -153,13 +113,6 @@ It's early and delightfully nerdy, and a great example of MCP turning an assista
 
 ## 🎵 Music for your projects
 
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-AI can produce custom music for videos, podcasts, games and business uses such as hold music, timed and styled to fit the project. The table suggests approaches for each need.
-
-</details>
-
 | Need | Approach |
 |---|---|
 | 🎬 **Video soundtrack** | Instrumental, timed to your edit ([Video & Audio](85-video-and-audio-production.md)) |
@@ -170,13 +123,6 @@ AI can produce custom music for videos, podcasts, games and business uses such a
 | 🔊 **Sound effects** | *"A magical sparkle chime,"* *"footsteps on gravel"* |
 
 ## ⚖️ Rights, copyright & being fair
-
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-Before using AI music commercially, check the tool's terms for your plan, don't imitate real artists' voices, and be aware that purely AI-generated works may not qualify for copyright protection. The table answers common questions.
-
-</details>
 
 | Question | The practical answer |
 |---|---|
@@ -192,13 +138,6 @@ Before using AI music commercially, check the tool's terms for your plan, don't 
 > and, for serious releases, get proper advice.
 
 ## 🎮 12 music projects
-
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-The table lists twelve music projects to try.
-
-</details>
 
 | # | Project |
 |---|---|

@@ -1,6 +1,6 @@
 # 39 · MCP Under the Hood: The Protocol, Demystified 🔬🔌
 
-> ⏱️ 9 min read · 🎯 Intermediate (no coding required to follow) · 🧰 Needs: optional, Node.js for the MCP Inspector
+> ⏱️ 7 min read · 🎯 Intermediate (no coding required to follow) · 🧰 Needs: optional, Node.js for the MCP Inspector
 
 **What actually travels between Claude and an MCP server?** This chapter opens the hood: the messages, the conversation
 flow, how tools/resources/prompts are described, how data moves locally and over the internet, how login works, and what
@@ -22,13 +22,6 @@ This chapter explains how MCP works at the protocol level: the messages exchange
 
 ## 🧱 Two layers: the letters and the mail truck
 
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-MCP has two layers. The **data layer** defines the messages (what you can ask and what comes back). The **transport layer** defines how those messages are delivered: stdio for local servers, Streamable HTTP for remote ones.
-
-</details>
-
 | Layer | What it defines | Options |
 |---|---|---|
 | ✉️ **Data layer** | The messages: what you can ask, what comes back | JSON-RPC 2.0 messages: `tools/list`, `tools/call`, `resources/read`… |
@@ -38,13 +31,6 @@ Because these are separate, the same server logic can run locally *or* remotely 
 exactly what the Pocket Toolkit examples do ([Building MCP Servers](42-building-mcp-servers.md)).
 
 ## ✉️ JSON-RPC in 60 seconds
-
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-MCP messages use JSON-RPC 2.0, a simple format with three message types: a **request** (with an ID, a method and parameters), a **response** (matching that ID) and a **notification** (no reply expected).
-
-</details>
 
 MCP messages use **JSON-RPC 2.0**, a tiny, decades-old convention with three message types:
 
@@ -82,13 +68,6 @@ That's it. Every MCP feature is built from these three shapes. 🎉
 
 ## 🔄 The conversation, step by step
 
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-A session follows a predictable sequence: the client initializes the connection, asks the server what it offers, and then calls tools as the model requests them. The core methods are listed below.
-
-</details>
-
 ```mermaid
 sequenceDiagram
     autonumber
@@ -122,13 +101,6 @@ you, so you rarely think about it.
 
 ## 🔧 Tools up close
 
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-Each tool definition includes a name, a description, an input schema describing the required arguments, and optional annotations such as whether the tool is read-only or destructive. The table explains why each field matters.
-
-</details>
-
 A tool definition from `tools/list` looks like this:
 
 ```json
@@ -161,13 +133,6 @@ A tool definition from `tools/list` looks like this:
 
 ## 📄 Resources & prompts up close
 
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-**Resources** are data identified by URIs, similar to web addresses, that the app can read. **Prompts** are reusable templates with arguments that users choose from a menu.
-
-</details>
-
 **Resources** are identified by **URIs** (like web addresses):
 
 | Example URI | Means |
@@ -184,13 +149,6 @@ to changes on a resource.
 `prompts/get` returns ready-to-send messages with your arguments filled in.
 
 ## 🚚 Transports: local and remote
-
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-With **stdio**, the app launches the server as a local process and exchanges messages through standard input and output. With **Streamable HTTP**, the app sends HTTP requests to a URL and can receive streamed responses. The messages are identical either way.
-
-</details>
 
 | | 🏠 **stdio** | ☁️ **Streamable HTTP** |
 |---|---|---|
@@ -210,13 +168,6 @@ With **stdio**, the app launches the server as a local process and exchanges mes
 - **Legacy HTTP+SSE transport** (from the early days) is officially deprecated.
 
 ## 🔐 Authorization in one page
-
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-Remote MCP servers use OAuth 2.1. You sign in with the actual service, which issues the app a token limited to specific permissions (scopes). The AI app never sees your password, and you can revoke access at any time.
-
-</details>
 
 Remote MCP servers use **OAuth 2.1**, the same family of standards behind every "Sign in with Google" button:
 
@@ -244,13 +195,6 @@ Key ideas:
 
 ## 🧩 Extensions & advanced features
 
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-Optional extensions add advanced capabilities: long-running **Tasks**, **MCP Apps** that display interactive interfaces in the chat, and **elicitation**, which lets a server ask you for input. The table shows each one's status.
-
-</details>
-
 | Feature | What it enables | Status (2026) |
 |---|---|---|
 | **Tasks** | Start a long job, poll `tasks/get`, update with `tasks/update` | Official extension |
@@ -260,13 +204,6 @@ Optional extensions add advanced capabilities: long-running **Tasks**, **MCP App
 | **Sampling, Roots, Logging** | Older server-initiated features | **Deprecated** (still working during a transition window) |
 
 ## 🕰️ A tiny spec timeline
-
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-MCP versions are named by release date. The table summarizes each version's major changes, from the original 2024 release to today.
-
-</details>
 
 | Version | Highlights |
 |---|---|
@@ -280,17 +217,6 @@ Specs are published at [modelcontextprotocol.io](https://modelcontextprotocol.io
 and SDKs usually support several at once.
 
 ## 🔍 Watch the wire yourself (hands-on)
-
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-The MCP Inspector is a free web tool for exploring any server directly.
-
-1. Launch it with the command below, pointing it at a server.
-2. Click **List Tools** to see the exact definitions the model receives.
-3. Choose a tool, enter arguments and click **Run** to see the raw response.
-
-</details>
 
 The **MCP Inspector** is a web UI for any server:
 

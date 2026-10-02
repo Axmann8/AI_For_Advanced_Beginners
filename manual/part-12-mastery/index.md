@@ -35,7 +35,7 @@ Once you're comfortable with AI, the next step is using it well over the long te
 
     ---
 
-    <span class="card-meta">⏱️ 9 min read · 🎯 Everyone who uses AI beyond simple chat</span>
+    <span class="card-meta">⏱️ 7 min read · 🎯 Everyone who uses AI beyond simple chat</span>
 
     This isn't a lecture. It's the short list of things that will actually bite you, and the simple habits that prevent them, so you can experiment freely.
 
@@ -43,7 +43,7 @@ Once you're comfortable with AI, the next step is using it well over the long te
 
     ---
 
-    <span class="card-meta">⏱️ 8 min read · 🎯 Everyone (especially anyone using AI with work, family or health data)</span>
+    <span class="card-meta">⏱️ 7 min read · 🎯 Everyone (especially anyone using AI with work, family or health data)</span>
 
     AI gets more useful the more it knows about you, which is exactly why privacy matters. The good news: you don't need to be paranoid, just intentional.
 
@@ -51,7 +51,7 @@ Once you're comfortable with AI, the next step is using it well over the long te
 
     ---
 
-    <span class="card-meta">⏱️ 7 min read · 🎯 Everyone choosing models, prompts or tools (and every builder)</span>
+    <span class="card-meta">⏱️ 5 min read · 🎯 Everyone choosing models, prompts or tools (and every builder)</span>
 
     "Which model is best?" The honest answer is "best at what, for you?" Leaderboards are a starting point, but the only benchmark that truly matters is your tasks.
 
@@ -59,7 +59,7 @@ Once you're comfortable with AI, the next step is using it well over the long te
 
     ---
 
-    <span class="card-meta">⏱️ 6 min read · 🎯 Anyone paying for AI subscriptions, APIs or automation platforms</span>
+    <span class="card-meta">⏱️ 5 min read · 🎯 Anyone paying for AI subscriptions, APIs or automation platforms</span>
 
     AI can be almost free or surprisingly expensive, depending on how you use it. The good news: a few simple habits usually cut costs dramatically with no loss in quality.
 
@@ -67,7 +67,7 @@ Once you're comfortable with AI, the next step is using it well over the long te
 
     ---
 
-    <span class="card-meta">⏱️ 7 min read · 🎯 Everyone who builds, automates or publishes with AI</span>
+    <span class="card-meta">⏱️ 6 min read · 🎯 Everyone who builds, automates or publishes with AI</span>
 
     The moment you build something with AI (a bot, an automation, an app, a video) you're making choices that affect other people.
 
@@ -75,7 +75,7 @@ Once you're comfortable with AI, the next step is using it well over the long te
 
     ---
 
-    <span class="card-meta">⏱️ 8 min read · 🎯 Anyone who's become "the AI person" among friends, family or coworkers</span>
+    <span class="card-meta">⏱️ 7 min read · 🎯 Anyone who's become "the AI person" among friends, family or coworkers</span>
 
     You've learned a lot. Now you're probably the person everyone asks "wait, how did you do that?" Teaching others is one of the most rewarding things you can do with your new skills, and one of the best ways to deepen them.
 
@@ -83,7 +83,7 @@ Once you're comfortable with AI, the next step is using it well over the long te
 
     ---
 
-    <span class="card-meta">⏱️ 9 min read · 🎯 Anyone who wants their new AI skills to pay off: a raise, a side hustle or a business</span>
+    <span class="card-meta">⏱️ 7 min read · 🎯 Anyone who wants their new AI skills to pay off: a raise, a side hustle or a business</span>
 
     Everything in this manual is a valuable skill: automations, agents, RAG bots, MCP servers, content pipelines, prompt systems.
 
@@ -91,7 +91,7 @@ Once you're comfortable with AI, the next step is using it well over the long te
 
     ---
 
-    <span class="card-meta">⏱️ 6 min read · 🎯 Everyone who wants to keep up without burning out</span>
+    <span class="card-meta">⏱️ 5 min read · 🎯 Everyone who wants to keep up without burning out</span>
 
     AI moves at a ridiculous pace. New models, tools and features launch every week, and some tools vanish just as fast.
 
@@ -99,7 +99,7 @@ Once you're comfortable with AI, the next step is using it well over the long te
 
     ---
 
-    <span class="card-meta">⏱️ 8 min read · 🎯 Everyone who's made it this far (you legend!)</span>
+    <span class="card-meta">⏱️ 7 min read · 🎯 Everyone who's made it this far (you legend!)</span>
 
     You've come a long way: foundations, MCP, automation, building, knowledge, local AI, creativity, life, and mastery.
 

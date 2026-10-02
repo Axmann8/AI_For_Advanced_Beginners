@@ -1,6 +1,6 @@
 # 37 · Choosing Your AI Stack 🧱💳
 
-> ⏱️ 7 min read · 🎯 Everyone · 🧰 Needs: a rough idea of your budget and goals
+> ⏱️ 6 min read · 🎯 Everyone · 🧰 Needs: a rough idea of your budget and goals
 
 **There are thousands of AI tools, and you need maybe five.** This chapter helps you build a small, powerful personal AI
 stack that fits your goals, habits and budget, without drowning in subscriptions. You'll leave with a filled-in stack
@@ -21,13 +21,6 @@ A personal AI stack is the small set of tools you rely on. Choosing deliberately
 <!-- in-this-chapter -->
 
 ## 🧱 The five layers of a personal AI stack
-
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-A complete personal stack has five layers. Most people need only one tool per layer, and the builder layer is optional. The table explains each layer's job.
-
-</details>
 
 ```mermaid
 flowchart TB
@@ -52,13 +45,6 @@ flowchart TB
 
 ## 🧠 Choosing your main assistant
 
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-All the major assistants are capable, so choose based on the tools you already use and the work you do most. The table matches common needs to a recommended assistant.
-
-</details>
-
 | If you… | Lean toward | Why |
 |---|---|---|
 | Write a lot, code, want deep MCP and agent power | **Claude** | Superb writing and coding, MCP's home turf, Projects, Artifacts, Claude Code on paid plans |
@@ -75,13 +61,6 @@ All the major assistants are capable, so choose based on the tools you already u
 
 ## 💳 Subscriptions vs. API (the money question)
 
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-A **subscription** charges a flat monthly price with fair-use limits and suits interactive use. An **API** charges per token, which suits automations and apps but requires spending limits. The table compares them in detail.
-
-</details>
-
 | | 📦 Subscription (Pro, Plus, Max…) | 🔑 API (pay per token) |
 |---|---|---|
 | Pricing | Flat monthly | Pay for exactly what you use |
@@ -93,13 +72,6 @@ A **subscription** charges a flat monthly price with fair-use limits and suits i
 automations. Small automations often cost cents per day. See [Cost Optimization](../part-12-mastery/106-cost-optimization.md).
 
 ## 🎭 Starter stacks by persona
-
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-These ready-made stacks are designed for common profiles, such as students, professionals, creators and builders. Find the one closest to you and adapt it.
-
-</details>
 
 ### 🎓 The Student
 - **Assistant:** a free tier, or the student discount of one paid plan
@@ -147,13 +119,6 @@ These ready-made stacks are designed for common profiles, such as students, prof
 
 ## 💰 Stacks by budget
 
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-You can do a great deal for free. Higher budgets mainly buy higher limits, stronger models and more automation. The table suggests a stack at each budget level.
-
-</details>
-
 | Budget | What you get | Suggested stack |
 |---|---|---|
 | **$0** | Surprisingly much! | Free tiers of 2 assistants, Gemini Notebook (NotebookLM), local models via Ollama, n8n self-hosted, Obsidian |
@@ -162,13 +127,6 @@ You can do a great deal for free. Higher budgets mainly buy higher limits, stron
 | **$100+/mo** | Power-user and builder territory | Higher-tier plans for heavy coding agents, a creative tool or two, bigger automation plans |
 
 ## 🧭 A quick decision flowchart
-
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-Answer the questions in this flowchart to find the best first step for your situation.
-
-</details>
 
 ```mermaid
 flowchart TD
@@ -185,19 +143,6 @@ flowchart TD
 
 ## 🔍 Evaluating any new AI tool in 5 minutes
 
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-Before adding a new AI tool, ask five questions:
-
-1. What does it do that my current tools can't?
-2. Does it connect to my other tools (MCP, API, integrations)?
-3. Where does my data go?
-4. Can I export my work if I leave?
-5. Is it actively maintained?
-
-</details>
-
 1. **What job does it do that my stack can't?** If it's "a wrapper around a model I already pay for," skip it.
 2. **Does it connect?** MCP, API, Zapier/n8n integration, exports. Walled gardens get messy fast.
 3. **Where does my data go?** Retention, training use, storage region ([Privacy & Your Data](../part-12-mastery/104-privacy-and-your-data.md)).
@@ -206,26 +151,12 @@ Before adding a new AI tool, ask five questions:
 
 ## 🕸️ Avoiding tool sprawl
 
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-Too many tools cost money and attention. Review your subscriptions every quarter, cancel anything unused for a month, and prefer one well-connected platform over several single-purpose apps.
-
-</details>
-
 - **Audit quarterly:** list every AI subscription and cancel anything unused for 30 days.
 - **Prefer platforms over point tools:** one assistant with connectors beats five single-purpose apps.
 - **Learn deeply before switching:** the person who masters one tool beats the one who samples twenty.
 - **Watch for overlap:** your assistant may already include image generation, research modes or coding agents.
 
 ## 📝 Your stack worksheet
-
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-This worksheet helps you design your own stack in about five minutes. Copy it into your notes and fill in each layer.
-
-</details>
 
 Copy this into your notes and fill it in:
 

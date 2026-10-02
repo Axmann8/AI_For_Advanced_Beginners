@@ -1,6 +1,6 @@
 # 61 · Git & GitHub for AI Builders 🌳🐙
 
-> ⏱️ 11 min read · 🎯 Everyone who builds with AI (no coding background needed) · 🧰 Needs: a free GitHub account, Git installed
+> ⏱️ 9 min read · 🎯 Everyone who builds with AI (no coding background needed) · 🧰 Needs: a free GitHub account, Git installed
 
 **Git is the undo button that makes AI building fearless.** When a coding agent rewrites twenty files and something breaks,
 Git lets you rewind in one command. GitHub adds a home in the cloud for your projects, free websites, automation robots
@@ -23,13 +23,6 @@ with AI like a pro. 🦸
 
 ## 🤔 Why AI builders need Git
 
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-Coding agents make large changes quickly, and occasionally break things. With Git, you can always return to the last working version, which makes it safe to experiment.
-
-</details>
-
 Coding agents make **big, fast changes**. That's their superpower and their risk. Git turns that risk into a playground:
 
 | Without Git 😰 | With Git 😎 |
@@ -46,13 +39,6 @@ Coding agents make **big, fast changes**. That's their superpower and their risk
 > mean you never lose more than a few minutes of work.
 
 ## 🧠 The 10 ideas that explain all of Git
-
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-Git's vocabulary describes ten simple ideas, including a repository (a project with full history), a commit (a saved snapshot), a branch (a separate line of work) and a remote (the online copy). The table explains each in plain language.
-
-</details>
 
 | # | Idea | Plain English |
 |---|---|---|
@@ -82,18 +68,6 @@ gitGraph
 
 ## 🛠️ Setup in 10 minutes
 
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-One-time setup takes about ten minutes.
-
-1. Install Git for your operating system.
-2. Set your name and email with `git config`.
-3. Create a free GitHub account.
-4. Connect them by signing in with the GitHub CLI or setting up an SSH key.
-
-</details>
-
 1. **Install Git:** macOS: `xcode-select --install` (or `brew install git`). Windows: install "Git for Windows." Linux: your
    package manager (`sudo apt install git`).
 2. **Introduce yourself** (this goes on your save points):
@@ -121,18 +95,6 @@ One-time setup takes about ten minutes.
 
 ## 💾 Your daily loop: save, check, share
 
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-The everyday workflow is the same each time:
-
-1. `git status` to see what changed.
-2. `git add` to stage the changes you want to keep.
-3. `git commit -m "message"` to save a snapshot.
-4. `git push` to upload it to GitHub.
-
-</details>
-
 ```bash
 git status                  # what's changed?
 git diff                    # show me the exact changes
@@ -154,13 +116,6 @@ gh repo create habit-tracker --private --source=. --push
 That last command creates the GitHub repo **and** pushes to it in one go. ✨
 
 ## 🤖 Git + coding agents: the perfect partnership
-
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-Coding agents handle Git fluently, so you can ask in plain language: *"Commit this with a clear message," "What changed since yesterday?"* or *"Undo the last change."* The table lists useful requests.
-
-</details>
 
 Coding agents like Claude Code, Cursor and Copilot **speak fluent Git**. You don't need to memorize commands:
 
@@ -186,13 +141,6 @@ flowchart LR
 
 ## 🌿 Branches & worktrees: safe experiments, parallel agents
 
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-A branch is a separate line of work where you can try an idea without affecting the main version; merge it if it works, delete it if it doesn't. Worktrees give each branch its own folder, so several agents can work in parallel without interfering.
-
-</details>
-
 ```bash
 git switch -c try-dark-mode    # create and switch to a new branch
 # ...let the AI go wild...
@@ -214,13 +162,6 @@ Copilot coding agent, Cursor background agents) each get their own branch automa
 
 ## 🐙 GitHub superpowers
 
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-GitHub adds issues (task tracking), pull requests (change review), Actions (automated workflows), Pages (free website hosting) and Codespaces (cloud development environments). The table explains how each one helps when building with AI.
-
-</details>
-
 | Feature | What it gives you | AI angle |
 |---|---|---|
 | **Repositories** | Free public and private project homes | Agents clone, read and push |
@@ -234,13 +175,6 @@ GitHub adds issues (task tracking), pull requests (change review), Actions (auto
 | **Discussions** | Community forum for a repo | Q&A bots, community help |
 
 ## 🔀 Pull requests: how you review AI work
-
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-A pull request proposes a set of changes for review before they become part of the main project. Even when working alone, use pull requests to review what an agent changed before accepting it.
-
-</details>
 
 A pull request (PR) is the **review gate** between "an agent changed things" and "the changes are real." Even when you work
 alone, PRs are fantastic for AI work:
@@ -260,13 +194,6 @@ alone, PRs are fantastic for AI work:
 - Ask the agent: *"What's the riskiest part of this change?"* It's usually honest!
 
 ## ⚙️ GitHub Actions: robots that work for you
-
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-GitHub Actions run automated jobs when events occur, such as running tests on every push, deploying a website, or asking an AI agent to fix an issue. Each workflow is a YAML file in `.github/workflows/`.
-
-</details>
 
 An Action is a YAML file in `.github/workflows/`. This one runs your Python tests on every push:
 
@@ -299,17 +226,6 @@ You don't have to write YAML by hand: *"Add a GitHub Action that runs my tests o
 
 ## 🔐 Secrets & safety (the stuff that bites beginners)
 
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-Never commit passwords or API keys to a repository.
-
-1. Store secrets in a `.env` file and add it to `.gitignore`.
-2. Use GitHub's encrypted secrets for Actions.
-3. If a key is ever committed, revoke it and create a new one immediately.
-
-</details>
-
 | Rule | How |
 |---|---|
 | **Never commit API keys** | Put them in `.env`, and add `.env` to `.gitignore` |
@@ -325,13 +241,6 @@ Never commit passwords or API keys to a repository.
 > Bots scan public GitHub for leaked keys within minutes.
 
 ## 🆘 "Oh no" rescue guide
-
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-Nearly every Git mistake can be undone. The table lists common problems, such as discarding unwanted changes or undoing a commit, with the command that fixes each.
-
-</details>
 
 | Oh no… | Rescue |
 |---|---|
@@ -350,13 +259,6 @@ Nearly every Git mistake can be undone. The table lists common problems, such as
 > Keep them on "ask first" in your agent's permissions ([Claude Code Masterclass](62-claude-code-masterclass.md)).
 
 ## 🌟 Open source & sharing your work
-
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-Making a project public lets others learn from it and contribute. Add a README, a license (MIT is a common default) and a screenshot, and consider contributing to open-source projects you use.
-
-</details>
 
 - **Make it public** when you're proud of it, and add a `README.md` (agents write great ones), a license (MIT is a friendly
   default), and a screenshot.

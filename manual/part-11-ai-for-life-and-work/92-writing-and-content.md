@@ -1,6 +1,6 @@
 # 92 · AI for Writing & Content Creators ✍️📣
 
-> ⏱️ 7 min read · 🎯 Writers, bloggers, newsletter folks, creators, anyone who writes at work · 🧰 Needs: an assistant (Claude, ChatGPT, Gemini), optionally a Project or skill for your style guide
+> ⏱️ 6 min read · 🎯 Writers, bloggers, newsletter folks, creators, anyone who writes at work · 🧰 Needs: an assistant (Claude, ChatGPT, Gemini), optionally a Project or skill for your style guide
 
 **AI can make you a faster, braver, more consistent writer and creator, without making you sound like a robot.** The trick is
 to use AI as editor, sparring partner, researcher and production assistant, while **your ideas, voice and taste** stay in
@@ -23,13 +23,6 @@ AI is a strong writing partner: it helps generate ideas, research, outline, edit
 
 ## 🔁 The creator's AI workflow
 
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-Content creation moves through stages: ideas, research, outlining, drafting, editing, packaging and distribution. AI helps at each one, but you choose what's worth saying and how to say it. The table divides the work.
-
-</details>
-
 ```mermaid
 flowchart LR
     I[💡 Ideas] --> R[🔎 Research] --> O[🗂️ Outline] --> D[✍️ Draft<br/>YOU lead] --> E[🧐 Edit] --> P[📣 Package] --> Dist[🚀 Distribute] --> A[📊 Analyze]
@@ -49,17 +42,6 @@ flowchart LR
 
 ## 🗣️ Teaching AI your voice
 
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-To teach AI your writing voice:
-
-1. Collect five to ten samples of your best writing.
-2. Ask the AI to analyze your style: sentence length, vocabulary, tone, humor and structure.
-3. Save the result as a style guide in a Project or custom instructions, and refine it over time.
-
-</details>
-
 1. **Collect 5–10 samples** of your best writing.
 2. Ask: *"Analyze my writing style: sentence length, vocabulary, tone, humor, structure, quirks. Write a style guide I can
    reuse."*
@@ -68,13 +50,6 @@ To teach AI your writing voice:
 5. **Always edit the final pass yourself.** Read it aloud. If it doesn't sound like you, fix it.
 
 ## 🚫🤖 Banishing "AI voice"
-
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-AI-generated text often relies on generic phrasing and predictable structures. List the phrases and patterns you want avoided, and supply specific details only you know, such as stories, numbers and opinions.
-
-</details>
 
 Tell it plainly:
 
@@ -95,13 +70,6 @@ antidote to blandness.**
 
 ## 🧐 The AI editor (the highest-value use)
 
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-Using AI as an editor is often more valuable than having it draft. Write the piece yourself, then ask for edits for clarity and concision, structural feedback or a reader's-eye critique, while preserving your voice. The table offers prompts for each.
-
-</details>
-
 | Prompt | What it does |
 |---|---|
 | *"Edit for clarity and concision. Show changes as a list with reasons. Don't change my voice."* | Line editing you can learn from |
@@ -113,13 +81,6 @@ Using AI as an editor is often more valuable than having it draft. Write the pie
 | *"Read this as my target reader [describe them]. What do you need that's missing?"* | Audience fit |
 
 ## ♻️ The content repurposing machine
-
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-One long piece of content can become a week of material: a thread, a LinkedIn post, a newsletter section, a video script and short captions. Ask AI to adapt it to each platform's format and audience.
-
-</details>
 
 One piece of long-form content → a week of posts:
 
@@ -141,13 +102,6 @@ flowchart LR
 
 ## 📝 Special formats
 
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-AI helps with specific formats too, including emails, speeches, résumés, grant applications and fiction. The table offers a targeted prompt for each.
-
-</details>
-
 | Format | Prompt |
 |---|---|
 | ✉️ **Emails that get replies** | *"Rewrite this email to be half as long, warmer, and with one clear ask."* |
@@ -161,13 +115,6 @@ AI helps with specific formats too, including emails, speeches, résumés, grant
 
 ## 🧰 The creator tool stack
 
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-The table lists useful tools for each part of a creator's workflow: writing, grammar, images, video, newsletters and scheduling.
-
-</details>
-
 | Need | Tools |
 |---|---|
 | Writing & editing | Claude, ChatGPT, Gemini (+ your style guide) |
@@ -180,26 +127,12 @@ The table lists useful tools for each part of a creator's workflow: writing, gra
 
 ## 📊 Learning from your audience
 
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-AI can analyze comments and performance data to identify what your audience values, what confuses them and what they want next, for example by summarizing hundreds of comments into themes and ideas.
-
-</details>
-
 - **Comment digest:** *"Summarize these 300 comments: top praise, top questions, top complaints, and 5 ideas for future posts."*
 - **Metrics story:** export your analytics and ask *"What do my best-performing posts have in common?"*
 - **Reader interviews:** *"Draft 5 questions to ask my newsletter readers about what they want more of."*
 - **Content calendar:** *"Based on all this, plan my next 4 weeks of content."*
 
 ## 🤝 Ethics & trust
-
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-Maintain your readers' trust: disclose AI use where your audience or platform expects it, never publish unverified facts or quotes, and respect other creators' work.
-
-</details>
 
 - **Disclose AI use** where your audience or platform expects it.
 - **Never publish unverified AI facts or quotes.**

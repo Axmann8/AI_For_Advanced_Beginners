@@ -1,6 +1,6 @@
 # 27 · Qwen, Kimi & the Global Assistants 🌏
 
-> ⏱️ 6 min read · 🎯 Curious explorers, multilingual users and travelers · 🧰 Needs: nothing (free accounts for the assistants you try)
+> ⏱️ 5 min read · 🎯 Curious explorers, multilingual users and travelers · 🧰 Needs: nothing (free accounts for the assistants you try)
 
 **The AI world isn't just Silicon Valley.** Some of the most impressive (and most openly shared) AI models now come from
 China, and there are excellent assistants built for Europe, India, Korea, the Middle East and beyond. This chapter is
@@ -22,13 +22,6 @@ Strong AI assistants now come from around the world, not only the United States.
 
 ## 🌍 Why look beyond the big names?
 
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-Assistants beyond the best-known names can offer generous free tiers, better support for your language, or open models you can run and customize yourself.
-
-</details>
-
 - 🆓 **Generous free tiers:** several offer powerful features at no cost.
 - 🔓 **Open weights:** many Chinese labs publish their models openly, so you can run them on your own computer or
   through providers you trust ([Local & Open Models](../part-9-local-ai/78-local-and-open-models.md)).
@@ -38,13 +31,6 @@ Assistants beyond the best-known names can offer generous free tiers, better sup
   others.
 
 ## 🟣 Qwen (Alibaba)
-
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-Qwen is Alibaba's assistant. It supports 119 languages, understands images and video, generates images, and is built on models Alibaba publishes openly.
-
-</details>
 
 | | |
 |---|---|
@@ -58,13 +44,6 @@ well culturally."*
 
 ## 🌙 Kimi (Moonshot AI)
 
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-Kimi, from Moonshot AI, excels at very long documents and many files at once, and offers agent features for research and creating slides.
-
-</details>
-
 | | |
 |---|---|
 | **Where** | kimi.com (English interface) and the Kimi app (now on the US App Store) |
@@ -77,13 +56,6 @@ idea per slide."*
 
 ## 🟢 Z.ai, MiniMax and more from China
 
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-Other Chinese labs offer notable assistants too, including Z.ai (strong at coding and building websites) and MiniMax (known for video and agents). The table compares them.
-
-</details>
-
 | Assistant | Maker | Known for |
 |---|---|---|
 | **Z.ai** (chat.z.ai) | Zhipu AI | The **GLM** open models: strong at coding, agents, slides and full-stack website building |
@@ -93,13 +65,6 @@ Other Chinese labs offer notable assistants too, including Z.ai (strong at codin
 | **DeepSeek** | DeepSeek | See the full guide: [chapter 25](25-deepseek.md) |
 
 ## 🌐 Around the world
-
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-Many regions now have assistants designed for local languages and cultures. The table lists examples from Europe, India, Korea, Japan and the Middle East, and why they matter.
-
-</details>
 
 Beyond the US and China, a growing number of assistants focus on regional languages and needs:
 
@@ -116,13 +81,6 @@ may surprise you.
 
 ## 🔐 Privacy: know where your words go
 
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-Every assistant is subject to the laws of the country where it stores data. Chinese services may be required to share data with authorities, so keep personal and work information out of them, or run their open models locally instead.
-
-</details>
-
 The same rule applies to every assistant: **your chats are subject to the laws where the company stores them.**
 
 - **Chinese services** (Qwen, Kimi, Z.ai, Doubao, DeepSeek and others) generally store data in China, where companies can
@@ -135,13 +93,6 @@ The same rule applies to every assistant: **your chats are subject to the laws w
 - **Work and school:** check your organization's policy first. Many restrict foreign AI services.
 
 ## 🍳 Step-by-step recipes
-
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-These three recipes offer practical ways to try global assistants, such as comparing how well each handles a second language.
-
-</details>
 
 **Recipe 1: The multilingual taste test**
 

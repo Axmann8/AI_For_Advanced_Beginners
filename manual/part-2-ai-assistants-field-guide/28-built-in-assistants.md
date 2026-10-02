@@ -1,6 +1,6 @@
 # 28 · Apple Intelligence, Siri, Alexa+ & Built-In Assistants 🍎
 
-> ⏱️ 7 min read · 🎯 iPhone, Echo, Galaxy and Pixel owners · 🧰 Needs: the devices you already own
+> ⏱️ 6 min read · 🎯 iPhone, Echo, Galaxy and Pixel owners · 🧰 Needs: the devices you already own
 
 **The assistants built into your devices have had a glow-up.** Siri was rebuilt with Apple Intelligence and Google's
 Gemini models, Alexa+ turned Amazon's speakers into real conversationalists, Gemini replaced Google Assistant on Android
@@ -23,13 +23,6 @@ The assistants built into phones, speakers, TVs and cars have improved dramatica
 <!-- in-this-chapter -->
 
 ## 🍎 Apple Intelligence and the new Siri
-
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-Apple Intelligence powers a rebuilt Siri (iOS 27, September 2026) that understands what's on your screen, draws on your messages and calendar privately, and takes actions across apps. Larger requests use Apple's Private Cloud Compute, and Siri can hand questions to ChatGPT or Gemini with your permission.
-
-</details>
 
 With **iOS 27** (September 2026), Apple shipped a rebuilt Siri. Apple's own models run on-device, and bigger requests go
 to Apple's **Private Cloud Compute**, which uses a custom Google Gemini-based model. The new Siri:
@@ -56,26 +49,12 @@ FaceTime and phone calls.
 
 ## 🔒 Apple's privacy approach
 
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-Apple processes as many requests as possible on your device. Larger requests go to Private Cloud Compute, servers designed so your data isn't stored or accessible to Apple, and independent researchers can inspect the system.
-
-</details>
-
 - **On-device first:** many requests never leave your device.
 - **Private Cloud Compute:** larger requests go to Apple-run servers designed so your data isn't stored or accessible to
   Apple, and independent researchers can inspect the system. Apple says this applies to the Gemini-based model too.
 - **Hand-offs to other apps** (like ChatGPT) follow that app's privacy policy, and Siri asks before sending.
 
 ## 🔊 Alexa+ (Amazon)
-
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-Alexa+ is Amazon's rebuilt, generative-AI Alexa. It understands natural requests, remembers preferences, and can plan, order groceries, make bookings and control smart home devices. It's included with Prime in the US or available as a standalone subscription.
-
-</details>
 
 **Alexa+** is Amazon's rebuilt, generative-AI Alexa, available to everyone in the US (included with **Prime**, or as a
 standalone subscription), on Echo devices, Fire TV, Fire tablets, the Alexa app and **Alexa.com**. It's powered by
@@ -97,13 +76,6 @@ button when you want quiet.
 
 ## 🤖 Google: Gemini on Android and at home
 
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-Gemini has replaced Google Assistant on Android phones and on Google's Nest speakers and displays, bringing more natural conversation, screen awareness and smarter home control.
-
-</details>
-
 - **Android phones:** Gemini is the default assistant (power button or *"Hey Google"*), with Gemini Live, "Ask about
   screen," Circle to Search and app actions. Full guide: [Gemini](19-gemini.md).
 - **Google Home / Nest:** **Gemini for Home** is replacing Google Assistant on Nest speakers and displays: more natural
@@ -112,13 +84,6 @@ Gemini has replaced Google Assistant on Android phones and on Google's Nest spea
 - **Pixel phones** add extras such as Magic Editor, Call Screen, Best Take and on-device AI features.
 
 ## 📱 Samsung Galaxy AI
-
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-Samsung Galaxy phones combine Galaxy AI features, such as real-time call translation, note formatting and photo editing, with Gemini as the main assistant. The table describes each feature.
-
-</details>
 
 Samsung Galaxy phones combine **Galaxy AI** features with Gemini:
 
@@ -136,26 +101,12 @@ Find them in **Settings → Galaxy AI**. Some features process on-device (you ca
 
 ## 📺 TVs, watches and cars
 
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-AI assistants are also built into TVs (for finding shows), smartwatches (for quick questions and replies) and cars (for hands-free messages, navigation and questions while driving).
-
-</details>
-
 - **TVs:** Gemini on Google TV, Copilot on some Samsung and LG TVs, Alexa+ on Fire TV. *"Find a funny movie we'll all
   like, under two hours, that we haven't watched."*
 - **Watches:** Siri on Apple Watch, Gemini on Wear OS and Galaxy Watch. Quick questions, reminders, messages.
 - **Cars:** Siri (CarPlay), Gemini (Android Auto), Grok (Teslas), and brand assistants built on big AI models.
 
 ## 🧭 Which built-in helper for which job?
-
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-Built-in assistants are best for quick, hands-free tasks and anything involving your device's own apps. For longer conversations, research or creative projects, use a full chatbot app. The table matches common jobs to the best tool.
-
-</details>
 
 | Job | Best tool |
 |---|---|

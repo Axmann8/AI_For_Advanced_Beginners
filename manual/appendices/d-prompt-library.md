@@ -32,13 +32,6 @@ This library contains 250 ready-to-use prompts organized by topic. Tags show wha
 
 ## ☀️ Daily life & productivity (1–20)
 
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-These prompts handle everyday productivity: briefings, email, calendar, tasks and reminders.
-
-</details>
-
 1. 📧📅 *"Give me a morning briefing: today's meetings with prep notes, emails needing a reply, and my top 3 priorities."*
 2. 📧 *"Find every email where someone asked me a question I haven't answered this week."*
 3. 📅 *"Find three 1-hour focus blocks next week and add them to my calendar as 'Deep work'."*
@@ -62,13 +55,6 @@ These prompts handle everyday productivity: briefings, email, calendar, tasks an
 
 ## 🔎 Research & learning (21–35)
 
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-These prompts support research and learning, with sources you can verify.
-
-</details>
-
 21. 🔎 *"Research [topic] using 10+ diverse sources. Brief me with citations and a 'still uncertain' section."*
 22. 🔎🌐 *"Read these 5 articles and tell me where they agree and disagree."*
 23. 🔎 *"What changed in [field] in the last 6 months? Only include things with primary sources."*
@@ -86,13 +72,6 @@ These prompts support research and learning, with sources you can verify.
 35. 🌐 *"Check this article's claims. Which are supported by its own sources?"*
 
 ## 🧑‍💻 Building & coding (36–55)
-
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-These prompts help you build software and fix code with an AI coding agent.
-
-</details>
 
 36. 🐙 *"Summarize open issues labeled bug and propose a triage order."*
 37. 🐙 *"Write release notes from PRs merged since the last tag."*
@@ -117,13 +96,6 @@ These prompts help you build software and fix code with an AI coding agent.
 
 ## 💼 Work & business (56–70)
 
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-These prompts support work and small business: catching up on team activity, customers, sales and planning.
-
-</details>
-
 56. 💬 *"Catch me up on #team from this week in 5 bullets, with anything that needs my input."*
 57. 📒 *"Create a project page with milestones, owners and a task database for [project]."*
 58. 💬📒 *"Turn this Slack discussion into a decision record in Notion."*
@@ -141,13 +113,6 @@ These prompts support work and small business: catching up on team activity, cus
 70. 🔎 *"What are customers saying about our competitors on Reddit and review sites?"*
 
 ## 🎨 Creative (71–85)
-
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-These prompts generate creative work: images, music, stories and video.
-
-</details>
 
 71. 🎨 *"Generate 4 logo concepts for [business] in different styles."*
 72. 🎨 *"Design a birthday card for my mom who loves gardening, with a pun."*
@@ -167,13 +132,6 @@ These prompts generate creative work: images, music, stories and video.
 
 ## 🏠 Home & fun (86–100)
 
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-These prompts cover your home, smart devices and leisure time.
-
-</details>
-
 86. 🏠 *"Movie mode: dim the living room to 20% and turn off the kitchen lights."*
 87. 🏠 *"Which devices were left on overnight this week?"*
 88. 📸📒 *"Plan 5 dinners from what's in my fridge [photo] and add missing ingredients to my list."*
@@ -191,13 +149,6 @@ These prompts cover your home, smart devices and leisure time.
 100. 🧠 *"Based on everything you know about me, suggest 3 AI projects I'd love building next."* 🚀
 
 ## 💸 Money (101–115)
-
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-These prompts help you understand and plan your finances. Double-check calculations, and consult a professional for major decisions.
-
-</details>
 
 101. 🐍 *"From this bank export, build a monthly budget table vs. the 50/30/20 rule, with a chart."*
 102. 🐍 *"Compare avalanche vs. snowball payoff for these debts. Show months to payoff and total interest."*
@@ -217,13 +168,6 @@ These prompts help you understand and plan your finances. Double-check calculati
 
 ## 💚 Health & fitness (116–125)
 
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-These prompts support fitness planning and medical appointment preparation. AI helps you prepare; health professionals make diagnoses and treatment decisions.
-
-</details>
-
 116. 🧠 *"Build a 4-week home workout plan: 3 × 30 minutes, two dumbbells, back-friendly."*
 117. 📅 *"Put my workout plan into my calendar at times that don't clash with meetings."*
 118. 📁 *"Help me write a clear symptom summary and 5 questions for my doctor's appointment."*
@@ -236,13 +180,6 @@ These prompts support fitness planning and medical appointment preparation. AI h
 125. 🧠 *"A tiny habit plan: 2 minutes of stretching after my morning coffee. Check in weekly."*
 
 ## 👨‍👩‍👧 Family & education (126–140)
-
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-These prompts support parents, students and teachers with schoolwork, school communications and family activities.
-
-</details>
 
 126. 📧 *"Pull every date and thing-to-bring from this school newsletter into my calendar."*
 127. 🧠 *"You're my 10-year-old's study buddy for fractions: hints, not answers."*
@@ -262,13 +199,6 @@ These prompts support parents, students and teachers with schoolwork, school com
 
 ## ✈️ Travel (141–150)
 
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-These prompts help plan trips. Always confirm visas, opening hours and bookings on official sites.
-
-</details>
-
 141. 🔎 *"7 days in May, mid-range budget, love hiking and food. Suggest 5 destinations, 2 underrated."*
 142. 🔎 *"4 slow days in Kyoto: max 3 activities a day, grouped by neighborhood, rainy-day backups."*
 143. 🔎 *"Train vs. flight vs. car from Paris to Amsterdam: door-to-door time, cost, hassle, carbon."*
@@ -282,13 +212,6 @@ These prompts help plan trips. Always confirm visas, opening hours and bookings 
 
 ## 🍳 Home, cooking & DIY (151–160)
 
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-These prompts help with cooking, repairs and home maintenance. Hire a professional for electrical, gas and structural work.
-
-</details>
-
 151. 📸 *"3 dinners in 30 minutes from my fridge [photo]. Nothing too spicy."*
 152. 🐍 *"Scale this recipe from 4 to 10 servings and convert to grams."*
 153. 📸 *"What is this part [photo], what's likely wrong, and how hard is the fix (1–5)? Be honest if I need a pro."*
@@ -301,13 +224,6 @@ These prompts help with cooking, repairs and home maintenance. Hire a profession
 160. 📁 *"Upload the dishwasher manual: what does error E24 mean?"*
 
 ## 🚀 Careers & job hunting (161–175)
-
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-These prompts support career planning and job hunting. Never include false information on a résumé.
-
-</details>
 
 161. 🧠 *"Interview me like a career coach about what energizes and drains me. Summarize patterns."*
 162. 🔎 *"Based on my skills and interests, suggest 10 roles, including 3 I've never heard of."*
@@ -327,13 +243,6 @@ These prompts support career planning and job hunting. Never include false infor
 
 ## ✍️ Writing & content (176–190)
 
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-These prompts help you write in your own voice: editing, headlines and repurposing content.
-
-</details>
-
 176. 📁 *"Analyze these 5 writing samples and write my personal style guide."*
 177. 📁 *"Edit for clarity and concision. List changes with reasons. Don't change my voice."*
 178. 📁 *"What's the weakest argument in this piece? How would a smart skeptic respond?"*
@@ -352,13 +261,6 @@ These prompts help you write in your own voice: editing, headlines and repurposi
 
 ## 🔒 Local AI & privacy (191–200)
 
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-These prompts help you protect your privacy and use local AI.
-
-</details>
-
 191. 🧠 *"Walk me through every privacy setting in this app, one at a time."*
 192. 🧠 *"What do you remember about me? List it all so I can tidy it up."*
 193. 🔒 *"(Local model) Find names, account numbers and addresses in this document so I can redact them."*
@@ -371,13 +273,6 @@ These prompts help you protect your privacy and use local AI.
 200. 🔒 *"(Local model) Transcribe this voice memo and turn it into a to-do list."*
 
 ## 🤖 Agents & automation building (201–215)
-
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-These prompts help you design and build agents and automations.
-
-</details>
 
 201. ⚙️ *"Design an automation for [job]: trigger, steps, where AI helps, and where a human approves."*
 202. 📁 *"Review my agent's tool definitions as the agent that has to use them. What's confusing?"*
@@ -397,13 +292,6 @@ These prompts help you design and build agents and automations.
 
 ## 📊 Data analysis (216–225)
 
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-These prompts help you explore and analyze data in spreadsheets and CSV files.
-
-</details>
-
 216. 🐍 *"Describe this dataset: columns, row count, quality issues and 5 questions we could answer."*
 217. 🐍 *"Clean it: fix dates, remove duplicates, standardize categories. Show row counts before and after."*
 218. 🐍 *"Top 3 insights with a chart each. Show the code and your assumptions."*
@@ -416,13 +304,6 @@ These prompts help you explore and analyze data in spreadsheets and CSV files.
 225. 🐍 *"Tell the story of my year from my Spotify export, with a playful personality analysis."*
 
 ## ♿ Accessibility (226–235)
-
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-These prompts support accessibility, for yourself and in content you create.
-
-</details>
 
 226. 📸 *"Describe what's in front of me, starting with anything important for safety."*
 227. 📸 *"Read this letter aloud and tell me what I need to do and by when."*
@@ -437,13 +318,6 @@ These prompts support accessibility, for yourself and in content you create.
 
 ## 🧑‍🏫 Teaching others (236–242)
 
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-These prompts help you teach AI to friends, family and colleagues.
-
-</details>
-
 236. 📁 *"A one-page, large-print prompt card with 10 useful everyday prompts for beginners."*
 237. 📁 *"Explain MCP to my grandma using an analogy from cooking."*
 238. 📁 *"Plan a 60-minute AI lunch-and-learn for my team, with a hands-on exercise."*
@@ -453,13 +327,6 @@ These prompts help you teach AI to friends, family and colleagues.
 242. 📁 *"Draft our team's one-page AI policy in plain language: approved tools, data rules, disclosure."*
 
 ## 🌟 Reflection & fun (243–250)
-
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-These prompts encourage reflection and creative fun.
-
-</details>
 
 243. 🧠 *"Based on my notes this week, what's one thing I keep thinking about but haven't started?"*
 244. 📁 *"Help me write a letter to myself one year from now about what I built with AI."*

@@ -1,6 +1,6 @@
 # 99 · Travel & Adventures with AI ✈️🗺️
 
-> ⏱️ 6 min read · 🎯 Travelers, weekend explorers, road-trippers, dreamers · 🧰 Needs: an assistant with web search, a maps app, optionally voice mode and a translation app
+> ⏱️ 5 min read · 🎯 Travelers, weekend explorers, road-trippers, dreamers · 🧰 Needs: an assistant with web search, a maps app, optionally voice mode and a translation app
 
 **AI is the travel buddy who never gets tired of planning.** It can turn "I have a week and a vague wish for mountains" into a
 realistic itinerary, compare routes and budgets, build packing lists for the actual weather, teach you survival phrases, read
@@ -23,13 +23,6 @@ AI can help with every stage of travel: choosing destinations, building realisti
 
 ## 💭 Dreaming: where should I go?
 
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-Describe your interests, dates, budget and starting point, and ask AI to suggest destinations with reasons, including some you might not have considered.
-
-</details>
-
 > *"I have 7 days in May, a mid-range budget, and I love hiking, good food and quiet towns. I'm flying from [city]. Suggest 5
 > destinations, including 2 underrated ones, with why each fits, rough costs and the best time to go."*
 
@@ -42,13 +35,6 @@ Describe your interests, dates, budget and starting point, and ask AI to suggest
 | *"Somewhere to see the northern lights without extreme cold."* | Bucket-list planning |
 
 ## 🗓️ Planning a realistic itinerary
-
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-Ask for a day-by-day itinerary with realistic travel times, rest breaks and meal stops. Then verify opening hours, prices and booking requirements on official websites. The table lists ways to improve the plan.
-
-</details>
 
 ```text
 Plan a 4-day trip to Kyoto for two slow travelers who love food, gardens and small museums.
@@ -75,13 +61,6 @@ Plan a 4-day trip to Kyoto for two slow travelers who love food, gardens and sma
 
 ## 🎫 Booking & comparing
 
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-AI can compare transport options on door-to-door time, cost and convenience, and help identify hidden fees in accommodation and flights. Do the actual booking yourself through trusted sites.
-
-</details>
-
 - **Compare options:** *"Train vs. flight vs. car for Paris to Amsterdam: total time door-to-door, cost, hassle and carbon."*
 - **Hotels vs. rentals:** paste listings → *"Compare these for a family of four: location, total cost with fees, reviews themes."*
 - **Review summaries:** *"Summarize the 50 most recent reviews: recurring praise and complaints."*
@@ -89,13 +68,6 @@ AI can compare transport options on door-to-door time, cost and convenience, and
 - **Agents & browsers:** AI browser agents can research and compare, but **you** confirm and pay ([Computer Use & Browser Agents](../part-7-building-with-ai/71-computer-use-and-browser-agents.md)).
 
 ## 🧳 Packing lists & practical prep
-
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-Ask for a packing list based on the destination's expected weather, your activities, trip length and luggage limits, grouped by category so nothing gets forgotten.
-
-</details>
 
 > *"Packing list for 6 days in Iceland in October: road trip, waterfall hikes, one nice dinner. Carry-on only. Group by
 > category, and flag things people usually forget."*
@@ -116,13 +88,6 @@ Ask for a packing list based on the destination's expected weather, your activit
 
 ## 🗣️ Languages & communication
 
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-AI can teach you essential phrases before you go, translate conversations in real time, and read menus and signs through your phone camera. The table lists tools and prompts for each need.
-
-</details>
-
 | Need | Tool / prompt |
 |---|---|
 | **Survival phrases** | *"The 20 most useful phrases for a first trip to Japan, with pronunciation and politeness notes."* |
@@ -133,13 +98,6 @@ AI can teach you essential phrases before you go, translate conversations in rea
 | **Download offline** | Offline translation packs for places with bad signal |
 
 ## 🚆 On the road: your pocket travel buddy
-
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-During a trip, AI can help you reorganize when plans change, find nearby food, explain what you're seeing and keep a travel journal. The table offers prompts for common moments.
-
-</details>
 
 | Moment | Ask |
 |---|---|
@@ -152,13 +110,6 @@ During a trip, AI can help you reorganize when plans change, find nearby food, e
 
 ## 🌄 Adventures closer to home
 
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-AI can plan local adventures too: day trips, hikes, picnics and inexpensive weekend outings within a short distance of home.
-
-</details>
-
 - **Micro-adventures:** *"A Saturday adventure within an hour of [town] for under $30."*
 - **Hiking:** *"3 beginner-friendly hikes near [place], with length, elevation, and what to bring."* (Check trail conditions
   and weather, and tell someone your route.)
@@ -167,13 +118,6 @@ AI can plan local adventures too: day trips, hikes, picnics and inexpensive week
 - **Treasure hunts:** *"Create a clue-based treasure hunt around our neighborhood for 8-year-olds."*
 
 ## 📸 After the trip
-
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-After you return, AI can help you choose and organize your best photos, write up the story of your trip and create a photo book or video.
-
-</details>
 
 - **Photo sorting:** *"Help me pick the best 40 of these photos and group them by day."*
 - **Trip story:** turn your journal into a blog post or letter to grandparents ([Writing & Content](92-writing-and-content.md)).

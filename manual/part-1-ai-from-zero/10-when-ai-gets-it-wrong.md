@@ -1,6 +1,6 @@
 # 10 · When AI Gets It Wrong: Hallucinations & Fact-Checking 🔍
 
-> ⏱️ 7 min read · 🎯 Everyone (seriously, everyone) · 🧰 Needs: any AI assistant
+> ⏱️ 6 min read · 🎯 Everyone (seriously, everyone) · 🧰 Needs: any AI assistant
 
 **AI is amazingly helpful, and sometimes it's confidently, fluently wrong.** It can invent a book that doesn't exist,
 mix up dates, cite a law that isn't real, or agree with you just to be nice. None of this should scare you off. It just
@@ -22,13 +22,6 @@ AI assistants sometimes state incorrect information with complete confidence, wh
 
 ## 🤥 What AI mistakes look like
 
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-AI errors look just as confident as correct answers. Knowing the common types, such as invented sources, wrong dates and made-up details, helps you spot them.
-
-</details>
-
 The tricky thing about AI errors is that **they sound exactly as confident as correct answers.** Here are the usual
 suspects:
 
@@ -48,17 +41,6 @@ when the assistant searches the web, but they still happen. Knowing that is your
 
 ## 🚦 The traffic-light rule
 
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-The traffic-light rule matches your fact-checking to the stakes:
-
-1. 🟢 **Green** (creative, low-stakes): use the answer freely.
-2. 🟡 **Yellow** (facts you'll rely on or share): check quickly.
-3. 🔴 **Red** (health, money, law, safety): always verify with an official source or professional.
-
-</details>
-
 Not everything needs fact-checking. Match your effort to the stakes:
 
 | 🚦 | What | Examples | What to do |
@@ -76,19 +58,6 @@ flowchart LR
 ```
 
 ## 🔍 Five fact-checking habits
-
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-These five habits catch most errors:
-
-1. Ask for sources, and open them to confirm they say what the AI claims.
-2. Ask a second assistant the same question.
-3. Check official websites for rules, prices and dates.
-4. Ask the AI how confident it is and what it might have wrong.
-5. Verify specific names, numbers and quotes.
-
-</details>
 
 1. **Ask for sources, and click them.**
    *"What are your sources?"* or turn on web search. Then **open the links**: does the page actually say what the AI
@@ -111,13 +80,6 @@ These five habits catch most errors:
 
 ## 🧮 Math, counting and numbers
 
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-Chatbots can make arithmetic mistakes when they calculate without a tool. Ask the AI to show its work or use its calculator or code tool, and double-check anything involving money.
-
-</details>
-
 Chatbots are word-predictors, so long calculations done "in their head" can go wrong. Modern assistants often use a
 built-in calculator or code tool for math, which is much more reliable.
 
@@ -129,13 +91,6 @@ built-in calculator or code tool for math, which is much more reliable.
 
 ## 📰 News, current events and "is this true?"
 
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-For current events, confirm the assistant actually searched the web (look for source links), check the dates of what it found, and consider the reputation of each source.
-
-</details>
-
 - **Make sure it searched.** Look for "searched the web" and source links. No links? It may be guessing from old
   training data.
 - **Check dates.** An article from three years ago might be outdated.
@@ -144,13 +99,6 @@ For current events, confirm the assistant actually searched the web (look for so
   Then look at those sources yourself.
 
 ## 🙋 When AI is *too* nice: agreeing too easily
-
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-Assistants sometimes agree with you too readily or praise weak ideas, a tendency called sycophancy. When you want honest feedback, explicitly ask the AI to be critical and point out problems.
-
-</details>
 
 Assistants are trained to be helpful and pleasant, which sometimes tips into **telling you what you want to hear**
 (experts call it **sycophancy**). Watch for:
@@ -168,13 +116,6 @@ Assistants are trained to be helpful and pleasant, which sometimes tips into **t
 
 ## ⚖️ Bias and one-sided answers
 
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-AI learns from human writing, so it can reflect human biases. For debated topics, ask it to present the strongest arguments on each side and to say where experts agree and disagree.
-
-</details>
-
 AI learned from human writing, so it can reflect human biases, and different assistants lean different ways on
 opinions. For anything debated (politics, parenting styles, diets, history), ask:
 
@@ -185,13 +126,6 @@ opinions. For anything debated (politics, parenting styles, diets, history), ask
 Then make up your own mind. AI is a great way to *understand* views, not to be told what to think.
 
 ## ✅ The quick fact-check checklist
-
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-Before you act on or share an important AI answer, run through this checklist.
-
-</details>
 
 Before you **act on** or **share** an AI answer that matters:
 

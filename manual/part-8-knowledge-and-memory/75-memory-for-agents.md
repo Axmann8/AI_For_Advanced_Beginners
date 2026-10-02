@@ -1,6 +1,6 @@
 # 75 · Memory for Agents: Teaching AI to Remember 🧠📝
 
-> ⏱️ 8 min read · 🎯 Intermediate · 🧰 Needs: a Claude or ChatGPT account (built-in memory), optionally Python or n8n for the build
+> ⏱️ 7 min read · 🎯 Intermediate · 🧰 Needs: a Claude or ChatGPT account (built-in memory), optionally Python or n8n for the build
 
 **An agent without memory is a goldfish with a PhD.** 🐠🎓 Brilliant in the moment, clueless about yesterday. Memory is what
 turns a clever assistant into *your* assistant: it knows your preferences, remembers what it tried last week, and gets better
@@ -23,13 +23,6 @@ Without memory, every new conversation starts from nothing. Memory lets an AI re
 
 ## 🧩 The four kinds of memory
 
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-AI memory mirrors human memory in four kinds: **working memory** (the current context window), **semantic memory** (facts), **episodic memory** (past events and conversations) and **procedural memory** (skills and instructions). The table gives examples of each.
-
-</details>
-
 | Kind | Human version | AI version | Example |
 |---|---|---|---|
 | ⚡ **Working memory** | What you're thinking about right now | The **context window** of the current conversation | The file you just shared |
@@ -49,13 +42,6 @@ flowchart LR
 
 ## 🏠 Where memory lives today
 
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-Memory can live in several places: built-in chat memory, files like CLAUDE.md, memory MCP servers shared across apps, or databases in custom agents. The table explains what each suits.
-
-</details>
-
 | Where | Examples | Good for |
 |---|---|---|
 | 💬 **Built-in chat memory** | Claude, ChatGPT and Gemini memory; Projects | Personal preferences across chats, zero setup |
@@ -67,17 +53,6 @@ Memory can live in several places: built-in chat memory, files like CLAUDE.md, m
 | 🏗️ **Memory platforms** | Letta (from the MemGPT research), Zep/Graphiti, mem0 | Long-lived agents with rich memory |
 
 ## 💬 Built-in memory: use it well
-
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-To use built-in memory effectively:
-
-1. Tell the assistant explicitly what to remember.
-2. Ask periodically what it remembers about you.
-3. Correct or delete anything inaccurate or unwanted.
-
-</details>
 
 | Do | How |
 |---|---|
@@ -95,13 +70,6 @@ To use built-in memory effectively:
 > ([Context Engineering](../part-3-foundations/36-context-engineering.md)).
 
 ## 📄 File-based memory: simple and powerful
-
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-The simplest memory is a plain text file that both you and the AI can read and edit. Files are transparent, easy to correct and can be version-controlled with Git, which is why coding agents use them.
-
-</details>
 
 Coding agents popularized a wonderfully simple idea: **memory is just files**.
 
@@ -123,13 +91,6 @@ memory/
 
 ## 🔌 Memory MCP servers
 
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-Memory MCP servers let several AI apps share one memory, so your chat assistant and coding agent know the same things about you. The table compares the main options.
-
-</details>
-
 | Server | How it stores memory | Vibe |
 |---|---|---|
 | **Memory** (official reference server) | A knowledge graph of entities, relations and observations in a local JSON file | "Alex —works_on→ Garden app" |
@@ -149,17 +110,6 @@ Then: *"Remember that my sister's birthday is March 12 and she loves ceramics."*
 ideas for my sister?"* 🎁
 
 ## 🏗️ Build: remember & recall tools in 40 lines
-
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-You can give your own agent memory with two tools.
-
-1. Add a `remember` tool that appends a dated note to a JSON file.
-2. Add a `recall` tool that searches those notes.
-3. Mention both tools in the system prompt so the agent uses them at the right moments.
-
-</details>
 
 Add these two tools to your agent from [Build Your Own Agent](../part-7-building-with-ai/68-build-your-own-agent.md):
 
@@ -200,13 +150,6 @@ and add a `forget(fact)` tool so users stay in control.
 
 ## 🧭 Memory design patterns
 
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-Effective memory systems store summaries rather than full transcripts, consolidate notes periodically, expire outdated information and let users view and edit everything. The table explains each pattern.
-
-</details>
-
 | Pattern | What it does | Why |
 |---|---|---|
 | **Summarize, don't transcribe** | Store "key decisions + open questions," not whole chats | Small, useful, cheap to recall |
@@ -225,13 +168,6 @@ Effective memory systems store summaries rather than full transcripts, consolida
 
 ## 🪤 Memory gone wrong (and fixes)
 
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-Memory problems include outdated or incorrect facts resurfacing, uncomfortably personal recall and sensitive data stored by accident. Review stored memories regularly, date entries and keep secrets out. The table lists fixes.
-
-</details>
-
 | Problem | Fix |
 |---|---|
 | **Wrong memory** keeps resurfacing ("you live in Berlin") | Delete or correct it; add dates to memories |
@@ -247,13 +183,6 @@ Memory problems include outdated or incorrect facts resurfacing, uncomfortably p
 > app, tell users what's stored and let them delete it ([Privacy & Your Data](../part-12-mastery/104-privacy-and-your-data.md)).
 
 ## 🎮 Memory projects
-
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-The table suggests memory-powered projects, each labeled with the kind of memory it uses.
-
-</details>
 
 | Project | Memory type |
 |---|---|

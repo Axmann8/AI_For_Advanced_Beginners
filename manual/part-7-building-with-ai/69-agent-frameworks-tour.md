@@ -1,6 +1,6 @@
 # 69 · Agent Frameworks Tour: Pick Your LEGO Set 🧱🤖
 
-> ⏱️ 7 min read · 🎯 Intermediate · 🧰 Needs: Python or TypeScript basics (or an AI coding agent to help), and an API key
+> ⏱️ 6 min read · 🎯 Intermediate · 🧰 Needs: Python or TypeScript basics (or an AI coding agent to help), and an API key
 
 **Once you've written an agent loop by hand ([Build Your Own Agent](68-build-your-own-agent.md)), frameworks stop being
 magic and start being time-savers.** They give you memory, multi-agent handoffs, guardrails, tracing, retries and
@@ -23,13 +23,6 @@ Agent frameworks provide ready-made components for building AI agents: tool hand
 
 ## 🧐 Do you even need a framework?
 
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-For many projects, a simple loop or a configured agent like Claude Code is enough. Frameworks help with larger projects that need multi-agent coordination, persistence or production observability. The table matches goals to the best choice.
-
-</details>
-
 | You want… | Best choice |
 |---|---|
 | A coding/computer agent that edits files and runs commands | **Claude Code** (configure it) or the **Claude Agent SDK** |
@@ -47,13 +40,6 @@ For many projects, a simple loop or a configured agent like Claude Code is enoug
 > handoffs, tracing, retries). Frameworks add power *and* abstraction, so learn the loop first.
 
 ## 🗺️ The framework landscape
-
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-The table lists the major agent frameworks, their languages, their standout capabilities and their overall style.
-
-</details>
 
 | Framework | Language | Superpower | Vibe |
 |---|---|---|---|
@@ -77,13 +63,6 @@ The table lists the major agent frameworks, their languages, their standout capa
 > and ask your coding agent to use the **current** API (a docs MCP server helps a lot).
 
 ## 🧪 The same agent in four frameworks
-
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-These examples build the same simple weather agent in four frameworks, so you can compare how each one feels to use.
-
-</details>
 
 Each example builds the same thing: an agent with a `get_weather` tool that answers "Do I need an umbrella in Lisbon?"
 
@@ -171,13 +150,6 @@ Notice the pattern: **a model, instructions, tools, and a run call.** Every fram
 
 ## 🟨 TypeScript options
 
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-For JavaScript and TypeScript projects, the Vercel AI SDK integrates with web interfaces and streams responses into React apps, and Mastra provides a full agent framework.
-
-</details>
-
 **Vercel AI SDK** (streams straight into React UIs):
 
 ```typescript
@@ -210,13 +182,6 @@ console.log(text);
 
 ## 🕸️ Graphs, crews & handoffs: three mental models
 
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-Frameworks organize multiple agents in three main ways: **graphs** (explicit steps and transitions), **crews** (agents with defined roles that collaborate) and **handoffs** (one agent passes control to another). The table explains when each fits.
-
-</details>
-
 ```mermaid
 flowchart LR
     subgraph G["🕸️ Graph (LangGraph)"]
@@ -242,13 +207,6 @@ flowchart LR
 
 ## 🔭 Tracing & observability
 
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-Tracing tools record every step an agent takes, including prompts, tool calls, outputs, timing and cost, so you can see exactly what happened when something goes wrong. The table compares the main options.
-
-</details>
-
 Agents are hard to debug by reading logs alone. **Tracing tools** show each run as a tree of steps with inputs, outputs,
 timing and cost.
 
@@ -266,13 +224,6 @@ Most speak **OpenTelemetry**, so you can switch tools later. Pair tracing with *
 
 ## 🔗 Protocols: MCP, A2A & friends
 
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-Shared protocols let components from different vendors work together: MCP connects agents to tools and data, and A2A lets agents from different systems communicate. The table explains each.
-
-</details>
-
 | Protocol | Connects | Why it matters |
 |---|---|---|
 | **MCP** | Agents ↔ tools and data | Every major framework can use MCP servers ([MCP Explained](../part-4-mcp-and-connectors/38-mcp-explained.md)) |
@@ -284,13 +235,6 @@ Shared protocols let components from different vendors work together: MCP connec
 future-proof decision you can make. 🔮
 
 ## 🧭 How to choose (a decision flow)
-
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-Follow the flowchart to find a good starting framework based on what you're building.
-
-</details>
 
 ```mermaid
 flowchart TD
@@ -307,13 +251,6 @@ flowchart TD
 ```
 
 ## 🪤 Framework pitfalls
-
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-Common framework pitfalls include hidden behavior that's hard to debug, frequent breaking changes and over-engineered multi-agent designs. Turn on tracing from the start, pin versions and keep designs simple. The table lists fixes for each.
-
-</details>
 
 | Pitfall | Fix |
 |---|---|

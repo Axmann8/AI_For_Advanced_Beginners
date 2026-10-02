@@ -1,6 +1,6 @@
 # 73 · Embeddings & Vector Databases: Search by Meaning 🧬🗺️
 
-> ⏱️ 8 min read · 🎯 Curious beginners → intermediate · 🧰 Needs: optional Python for the hands-on bits (runs on a laptop, no API key)
+> ⏱️ 6 min read · 🎯 Curious beginners → intermediate · 🧰 Needs: optional Python for the hands-on bits (runs on a laptop, no API key)
 
 **Embeddings are the quiet magic behind RAG, semantic search, recommendations, duplicate detection and "find me things
 like this."** They turn words, images and sounds into coordinates on a giant map of meaning, where similar things sit close
@@ -22,13 +22,6 @@ An **embedding** is a list of numbers that represents the meaning of a piece of 
 <!-- in-this-chapter -->
 
 ## 🗺️ The map of meaning
-
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-An embedding model converts text into a vector, a list of hundreds or thousands of numbers. Each position captures some aspect of meaning, and texts with similar meanings end up close together in this numerical space.
-
-</details>
 
 An **embedding model** reads a piece of text and outputs a **vector**: a list of numbers, often hundreds or a few thousand of
 them. Each number is a coordinate in a very high-dimensional space.
@@ -58,13 +51,6 @@ same: **distance = difference in meaning**.
 
 ## 📐 Measuring "closeness"
 
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-Similarity between embeddings is usually measured with **cosine similarity**, which checks whether two vectors point in the same direction (1 means very similar, 0 means unrelated). The table compares it with other measures.
-
-</details>
-
 | Measure | Idea | Notes |
 |---|---|---|
 | **Cosine similarity** | Do the two arrows point the same way? (1 = same, 0 = unrelated) | The most common choice for text |
@@ -75,13 +61,6 @@ You don't need to compute these by hand: every library and vector database does 
 close to 1 = very similar**.
 
 ## 🔤 Words vs. meaning: why embeddings beat keyword search
-
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-Keyword search only finds documents containing the exact words you typed. Embedding search also finds content expressed differently, such as matching "car won't start" with "engine turns over but doesn't fire." The table shows more examples.
-
-</details>
 
 | Query | Keyword search finds | Embedding search also finds |
 |---|---|---|
@@ -94,17 +73,6 @@ Keyword search only finds documents containing the exact words you typed. Embedd
 systems use **hybrid search** (keywords + embeddings) ([Build a RAG System](74-build-a-rag-system.md)).
 
 ## 🧪 Make embeddings on your laptop (no API key)
-
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-You can generate embeddings on your own computer for free.
-
-1. Install `sentence-transformers` (Python) or the equivalent JavaScript library.
-2. Load a small open model.
-3. Encode your sentences and compare their similarity, as in the example below.
-
-</details>
 
 === "🐍 Python (sentence-transformers)"
 
@@ -144,13 +112,6 @@ in it. That's the moment embeddings click. ☕✨
 
 ## 🏷️ Choosing an embedding model
 
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-Embedding models vary in quality, cost and whether they run locally. Choose one and use it consistently, because embeddings from different models aren't compatible. The table compares the main options.
-
-</details>
-
 | Option | Type | Why pick it |
 |---|---|---|
 | **Voyage AI** | Hosted API | Top-quality text and code embeddings, recommended by Anthropic for Claude-based RAG |
@@ -173,13 +134,6 @@ Embedding models vary in quality, cost and whether they run locally. Choose one 
 > Store the model name alongside your vectors so future-you remembers.
 
 ## 🗄️ Vector databases
-
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-For a few thousand chunks, a simple list in memory works fine. For larger collections, a vector database stores embeddings with metadata and finds the nearest matches quickly. The table compares Chroma, pgvector, Qdrant, Pinecone and others.
-
-</details>
 
 With a few thousand chunks, a plain Python list works fine. With millions, you need a **vector database**: it stores
 vectors plus metadata (source, date, author) and finds nearest neighbors in milliseconds using clever indexes.
@@ -206,13 +160,6 @@ select content, source from notes order by embedding <=> $1 limit 5;
 
 ## ⚡ How vector search stays fast
 
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-Comparing a query against every vector works up to about a hundred thousand vectors. Beyond that, databases use approximate nearest-neighbor (ANN) indexes, such as HNSW, which find close matches very quickly with a small trade-off in accuracy.
-
-</details>
-
 Comparing a query to *every* vector (**exact search**) is fine up to maybe a hundred thousand vectors. Beyond that, databases
 use **approximate nearest neighbor (ANN)** indexes:
 
@@ -226,13 +173,6 @@ use **approximate nearest neighbor (ANN)** indexes:
 faster. 🏎️
 
 ## 🎨 Beyond RAG: 10 things embeddings can do
-
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-Embeddings have many uses beyond RAG, including semantic search, clustering similar items, finding duplicates, recommendations and spotting outliers. The table gives an example of each.
-
-</details>
 
 | # | Use | Example |
 |---|---|---|
@@ -253,13 +193,6 @@ Embeddings have many uses beyond RAG, including semantic search, clustering simi
 > cluster, and draw an interactive 2D map with UMAP and Plotly."* Seeing your own brain as a galaxy of dots is unforgettable. 🌌
 
 ## 🪤 Pitfalls & best practices
-
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-Follow a few best practices: use one embedding model per index, split documents into sensibly sized chunks with some overlap, and store metadata (source, date, title) with every chunk. The table lists more.
-
-</details>
 
 | Pitfall | Best practice |
 |---|---|

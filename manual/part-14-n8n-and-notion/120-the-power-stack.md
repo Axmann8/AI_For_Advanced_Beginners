@@ -1,6 +1,6 @@
 # 120 · The Power Stack: Why n8n + Notion Can Run Everything 🔗
 
-> ⏱️ 9 min read · 🎯 Anyone automating their work or life · 🧰 Needs: nothing yet (a Notion account and n8n help later)
+> ⏱️ 8 min read · 🎯 Anyone automating their work or life · 🧰 Needs: nothing yet (a Notion account and n8n help later)
 
 **Most people's digital life is scattered across a dozen apps that don't talk to each other.** Notion and n8n fix that from
 two directions. Notion gives you one well-organized place to see and edit everything. n8n gives you an engine that moves
@@ -23,13 +23,6 @@ Notion and n8n play complementary roles: Notion is the **interface and source of
 
 ## 🧩 Two tools, two jobs
 
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-Notion is optimized for people: pages, databases and views that are easy to read, edit and share. n8n is optimized for machines: triggers, data transformation, AI calls and connections to hundreds of services. Each is strong where the other is weak, which is why they work so well together.
-
-</details>
-
 Think of a well-run restaurant. The **dining room** is where customers see menus, place orders and get their food. The
 **kitchen** is where the work happens, out of sight, following precise steps. Notion is your dining room; n8n is your
 kitchen.
@@ -47,13 +40,6 @@ work with it in Notion, and changes in Notion trigger n8n to act *outward* (send
 systems).
 
 ## 🗺️ The architecture at a glance
-
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-The diagram shows the full system: sources on the left send events to n8n, n8n uses AI to process them and writes structured results into Notion, and actions in Notion flow back through n8n to the outside world. AI assistants like Claude and ChatGPT can reach both tools through MCP.
-
-</details>
 
 ```mermaid
 flowchart TB
@@ -75,13 +61,6 @@ Three ideas to take from the picture:
 
 ## 🔌 The five ways n8n and Notion connect
 
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-n8n and Notion can connect in five ways, each suited to different needs: the Notion node for reading and writing, the Notion Trigger for polling changes, Notion buttons and automations for instant webhooks, Notion's integration webhooks for event streams, and MCP for AI agents. Most real systems combine two or three.
-
-</details>
-
 | # | Method | Direction | Speed | Best for |
 |---|---|---|---|---|
 | 1 | **Notion node** in n8n (uses the Notion API) | n8n → Notion | Instant | Creating, reading, updating and searching pages and databases |
@@ -100,13 +79,6 @@ You'll learn each in detail in [Connecting n8n to Notion](122-connecting-n8n-to-
 
 ## 🌐 How the stack plugs into everything else
 
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-Because n8n connects to hundreds of services and both tools support MCP, this stack links to almost every topic in the manual. The table maps each area to what flows between it and your n8n + Notion system, with a link to the chapter that covers it.
-
-</details>
-
 | Area | What flows | Learn more |
 |---|---|---|
 | 🤖 **AI assistants** (Claude, ChatGPT, Gemini) | Ask questions about your Notion data; trigger n8n workflows by name | [AI Agents Across n8n + Notion](124-ai-agents-across-n8n-and-notion.md) |
@@ -121,13 +93,6 @@ Because n8n connects to hundreds of services and both tools support MCP, this st
 | 🟠 **Zapier & Make** | Use them for niche apps, handing off to n8n with a webhook | [Zapier & Make](../part-5-automation/49-zapier-and-make-walkthroughs.md) |
 
 ## 🧭 Which layer should do the work?
-
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-Use the simplest tool that can do the job. Notion's built-in automations handle simple changes inside Notion; Notion's Custom Agents handle AI reasoning over your workspace; n8n handles anything that crosses apps, needs custom logic, runs at high volume or must be fully under your control.
-
-</details>
 
 | You want to… | Simplest good choice | Why |
 |---|---|---|
@@ -144,13 +109,6 @@ other systems, heavy processing or reliability guarantees.
 
 ## 💸 What it costs
 
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-You can build a capable system cheaply. Self-hosted n8n is free; n8n Cloud charges per workflow execution. Notion's free plan supports the API and the n8n integration, while buttons and automations that send webhooks require a paid plan. AI calls are usually the largest variable cost, and you control them with model choice and filtering.
-
-</details>
-
 | Component | Free option | Paid when… |
 |---|---|---|
 | **n8n** | Self-host on your computer, a home server or a small cloud server | You want n8n Cloud (managed hosting, billed by executions) or enterprise features |
@@ -162,18 +120,6 @@ Prices and plan details change often; check each provider's pricing page. Cost-s
 [Cost Optimization](../part-12-mastery/106-cost-optimization.md).
 
 ## 🏁 Your first connected workflow (30 minutes)
-
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-This quick exercise proves the whole loop works: a URL you can call from anywhere creates a page in a Notion database.
-
-1. Create a Notion database called **Inbox** with a **Name** title and a **Source** select property.
-2. Create a Notion integration, copy its secret, and share the Inbox database with it.
-3. In n8n, add a **Webhook** node and a **Notion** node (Database Page → Create) connected to Inbox.
-4. Send a test request and watch the page appear.
-
-</details>
 
 ### Step 1 · Create the database
 In Notion, create a full-page database called **Inbox** with two properties: **Name** (the title) and **Source** (a
@@ -188,7 +134,7 @@ select with options `Phone`, `Web`, `Email`).
 1. Add a **Webhook** node: method `POST`, path `inbox`.
 2. Add a **Notion** node: **Database Page → Create**. Create a credential with your integration secret, pick the Inbox
    database, set **Title** to `{{ $json.body.text }}` and **Source** to `{{ $json.body.source }}`.
-3. Click **Test workflow**.
+3. Click **Execute workflow**.
 
 ### Step 4 · Send a test
 ```bash

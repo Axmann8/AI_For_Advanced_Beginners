@@ -1,6 +1,6 @@
 # 01 · What Is AI, Really? 🌱
 
-> ⏱️ 8 min read · 🎯 Complete beginners · 🧰 Needs: nothing but curiosity
+> ⏱️ 7 min read · 🎯 Complete beginners · 🧰 Needs: nothing but curiosity
 
 **Artificial intelligence sounds like science fiction, but the AI you'll actually use is friendlier and more down to
 earth than the movies suggest.** It's software that has learned from enormous amounts of examples, so it can
@@ -21,13 +21,6 @@ Traditional software follows rules that a programmer writes step by step. AI wor
 <!-- in-this-chapter -->
 
 ## 🌱 AI in one sentence
-
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-AI is software that learns from examples rather than following hand-written instructions for every situation. That approach lets it handle tasks that once required a person, like understanding language or recognizing images.
-
-</details>
 
 **Artificial intelligence (AI) is software that learns patterns from examples, so it can handle tasks that used to need
 a human: understanding language, recognizing pictures, making predictions and creating new things.**
@@ -51,13 +44,6 @@ The big difference from regular software is *how it's made*:
 
 ## 🏠 You already use AI every day
 
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-You've likely been using AI for years. Face unlock, spam filters, keyboard suggestions, streaming recommendations and map traffic estimates all rely on it.
-
-</details>
-
 AI isn't new to your life. It's been quietly working in the background for years:
 
 | Where | The AI part |
@@ -75,13 +61,6 @@ What's *new* since late 2022 is that you can now **talk to AI directly**, in pla
 anything with words, images and sound. That's the part this manual is about. 🎉
 
 ## 🤖 The new kind of AI: generative AI
-
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-Earlier AI mostly recognized and predicted things, such as flagging spam or identifying a photo. Generative AI can create new content, including text, images, music, voices, video and code, based on what you ask for.
-
-</details>
 
 For decades, most AI was about **recognizing and predicting**: is this email spam? Is this a photo of a cat? What will
 the weather be?
@@ -104,13 +83,6 @@ You'll start with the middle box: chatting and creating. The right-hand box (age
 the later parts of this manual take you, once you're comfortable.
 
 ## 💬 So what exactly is a chatbot?
-
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-A chatbot (or AI assistant) is an app where you type or speak to an AI and it replies in plain language. Several companies make them, and each has its own strengths, similar to how different companies make competing phones.
-
-</details>
 
 An **AI chatbot** (also called an **AI assistant**) is an app or website where you type or speak to an AI and it answers
 in plain language. You've probably heard of at least one of these:
@@ -139,13 +111,6 @@ don't need to use all of them! Most people pick one favorite and maybe a second 
 
 ## 🧩 What AI is great at (and not so great at)
 
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-Knowing where AI is reliable helps you use it with confidence. It excels at writing, explaining and brainstorming, but you should double-check facts, numbers, recent news and anything involving health, law or money.
-
-</details>
-
 | 🌟 Great at | ⚠️ Be careful with |
 |---|---|
 | Explaining anything in simple words, at your level | Exact facts, dates, prices and statistics (always double-check) |
@@ -162,13 +127,6 @@ Knowing where AI is reliable helps you use it with confidence. It excels at writ
 > and approve. People who follow this rule get enormous value from AI and almost never get burned.
 
 ## 📛 The words you'll hear, decoded
-
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-AI comes with a lot of jargon, but most of the terms describe simple ideas. The table below defines the ones you'll see most often; the [Glossary](../appendices/a-glossary.md) covers the rest.
-
-</details>
 
 | Word | What it actually means |
 |---|---|
@@ -187,13 +145,6 @@ Don't try to memorize these! You'll pick them up naturally. There's a full begin
 [Glossary](../appendices/a-glossary.md) with a plain-English definition and real-world example for every term.
 
 ## 🗺️ Your journey through this manual
-
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-The manual is designed to be read at your own pace. Part I covers the basics; each later part adds new skills, and you can stop at whatever level meets your needs.
-
-</details>
 
 ```mermaid
 flowchart TD

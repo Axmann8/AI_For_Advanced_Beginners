@@ -1,6 +1,6 @@
 # 29 · Hubs & Specialty Chatbots 🧩
 
-> ⏱️ 7 min read · 🎯 Explorers, privacy fans, learners and the curious · 🧰 Needs: nothing (most have free tiers)
+> ⏱️ 6 min read · 🎯 Explorers, privacy fans, learners and the curious · 🧰 Needs: nothing (most have free tiers)
 
 **Beyond the big-name assistants there's a whole ecosystem of clever AI apps:** hubs that give you many models in one
 place, privacy-first chatbots that don't keep your data, character and companion apps, AI tutors, and specialist tools
@@ -23,13 +23,6 @@ Beyond the major assistants, many smaller AI apps serve specific needs. Some are
 
 ## 🧩 Multi-model hubs: many AIs, one app
 
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-Multi-model hubs give you access to models from OpenAI, Anthropic, Google, Meta, DeepSeek, Mistral and others under one account, often for a single subscription. They're useful for comparing answers and choosing the best model for each task.
-
-</details>
-
 Hubs let you use models from OpenAI, Anthropic, Google, Meta, DeepSeek, Mistral and others under **one account**, often
 one subscription. Great for comparing answers and trying new models the day they launch.
 
@@ -45,13 +38,6 @@ one subscription. Great for comparing answers and trying new models the day they
 data passes through both the hub and the model provider.
 
 ## 🔒 Privacy-first assistants
-
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-Privacy-first assistants limit what's stored about you: some don't require an account, some anonymize your requests, and some encrypt chats so even the provider can't read them. The table compares their approaches.
-
-</details>
 
 | Assistant | Privacy approach |
 |---|---|
@@ -71,13 +57,6 @@ rather not build a profile anywhere. The trade-off: usually fewer bells and whis
 
 ## 🎭 Characters and companions
 
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-Character and companion apps let you chat with fictional characters or an ongoing AI "friend." They can be fun or useful for practice, but they aren't substitutes for real relationships, and many have age restrictions.
-
-</details>
-
 | App | What it is |
 |---|---|
 | **Character.AI** | Chat with user-created characters (historical figures, fictional heroes, practice partners). **Since late 2025, open-ended chats are for 18+ only**; teens are limited to structured stories and creative features |
@@ -92,13 +71,6 @@ professional support. 💛
 
 ## 🎓 Learning and tutoring
 
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-Learning-focused AI tools guide you through material step by step rather than handing over answers. The table lists options for school subjects and language learning.
-
-</details>
-
 | Tool | Great for |
 |---|---|
 | **Khanmigo** (Khan Academy) | A tutor that guides students with questions rather than answers; free tools for teachers |
@@ -112,13 +84,6 @@ Students](../part-11-ai-for-life-and-work/98-parents-teachers-and-students.md).
 
 ## 💼 Specialists for work and writing
 
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-Specialist tools focus on one job, such as polishing your writing, transcribing and summarizing meetings, or creating presentations. The table lists examples in each category.
-
-</details>
-
 | Category | Examples | What they do |
 |---|---|---|
 | ✍️ Writing | **Grammarly**, Notion AI, Google Docs and Word built-ins | Polish, rewrite and check writing where you type |
@@ -131,13 +96,6 @@ Specialist tools focus on one job, such as polishing your writing, transcribing 
 Many of these are in [Part VI · AI in Your Apps](../part-6-ai-in-your-apps/index.md).
 
 ## ✅ Should you trust a new AI app? A checklist
-
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-Before signing up for an unfamiliar AI app, especially before paying or uploading personal data, run through this checklist covering who makes it, how it handles data and what other users report.
-
-</details>
 
 Before signing up (and especially before paying or uploading personal data):
 

@@ -5,11 +5,11 @@ remix. They all use Claude as the "brain", and you can swap in any model n8n sup
 
 ## How to import
 1. In n8n, create a new workflow.
-2. Click the **⋯ menu → Import from File** (or just copy the JSON and **paste it onto the canvas**).
+2. Click the **⋯ menu → Import → From file** (or **From URL** with the file's raw GitHub link, or just copy the JSON and **paste it onto the canvas**).
 3. Open each node with a ⚠️ and pick or create its credential (Anthropic, Slack, Notion).
-4. Hit **Test workflow**. Once it works, toggle it **Active**.
+4. Click **Execute workflow**. Once it works, click **Publish** (n8n 2.x; older versions call this the **Active** toggle).
 
-> Don't have n8n yet? The fastest local option is `npx n8n` (needs Node.js), which opens
+> Don't have n8n yet? The fastest local option is `npx n8n` (needs Node.js 24 or newer), which opens
 > at http://localhost:5678. Or use Docker, or n8n Cloud.
 
 ---
@@ -56,7 +56,7 @@ curl -X POST "http://localhost:5678/webhook-test/idea-inbox" \
   -d '{"text": "what if my plants could text me when they need water, arduino + moisture sensor maybe"}'
 ```
 
-(`webhook-test` works while you click "Test workflow". Once the workflow is active, use `/webhook/idea-inbox`.)
+(`webhook-test` works right after you click **Execute workflow**. Once the workflow is published, use `/webhook/idea-inbox`.)
 
 **Remix ideas:**
 - Trigger it from an **iOS Shortcut** or **Android Tasker**, and dictate ideas by voice straight into Notion. 🤯

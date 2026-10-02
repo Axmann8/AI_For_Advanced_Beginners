@@ -33,7 +33,7 @@ Most AI runs on a company's servers, but smaller models can run directly on your
 
     ---
 
-    <span class="card-meta">⏱️ 9 min read · 🎯 Everyone (one command to start)</span>
+    <span class="card-meta">⏱️ 7 min read · 🎯 Everyone (one command to start)</span>
 
     Yes, you can run surprisingly capable AI entirely on your laptop: offline, private, and free per use.
 
@@ -41,7 +41,7 @@ Most AI runs on a company's servers, but smaller models can run directly on your
 
     ---
 
-    <span class="card-meta">⏱️ 9 min read · 🎯 Anyone thinking about running AI at home</span>
+    <span class="card-meta">⏱️ 7 min read · 🎯 Anyone thinking about running AI at home</span>
 
     The single most important number for local AI isn't your processor speed. It's memory.
 
@@ -49,7 +49,7 @@ Most AI runs on a company's servers, but smaller models can run directly on your
 
     ---
 
-    <span class="card-meta">⏱️ 7 min read · 🎯 Beginner → intermediate (copy-paste friendly)</span>
+    <span class="card-meta">⏱️ 6 min read · 🎯 Beginner → intermediate (copy-paste friendly)</span>
 
     A home lab is your personal AI playground: models, chat UIs, automations and databases running on hardware you control.
 
@@ -57,7 +57,7 @@ Most AI runs on a company's servers, but smaller models can run directly on your
 
     ---
 
-    <span class="card-meta">⏱️ 7 min read · 🎯 Intermediate</span>
+    <span class="card-meta">⏱️ 6 min read · 🎯 Intermediate</span>
 
     Can you get AI coding help without sending a single line of code to the cloud? Yes, and it's getting better fast.
 
@@ -65,7 +65,7 @@ Most AI runs on a company's servers, but smaller models can run directly on your
 
     ---
 
-    <span class="card-meta">⏱️ 8 min read · 🎯 Intermediate (curious beginners welcome)</span>
+    <span class="card-meta">⏱️ 7 min read · 🎯 Intermediate (curious beginners welcome)</span>
 
     Fine-tuning means taking an existing model and training it a little more on your own examples, so it picks up your style, format or specialty.
 

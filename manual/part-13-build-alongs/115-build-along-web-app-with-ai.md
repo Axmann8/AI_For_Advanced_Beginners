@@ -29,13 +29,6 @@ In this project you'll build "Recipe Box," a web app where each user logs in to 
 
 ## 🗺️ What you'll build
 
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-The app runs in the browser, stores recipes in Supabase, handles logins with Supabase Auth and calls Claude through a server-side route so the API key stays secret. The table lists the technology for each feature.
-
-</details>
-
 ```mermaid
 flowchart LR
     B[🌐 Browser<br/>Next.js + Tailwind] -->|sign in| S[(🗄️ Supabase<br/>Auth + Postgres + RLS)]
@@ -59,26 +52,12 @@ Background: [Vibe Coding](../part-7-building-with-ai/65-vibe-coding-your-first-a
 
 ## ✅ Before you start
 
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-Before starting, install Claude Code and Node.js, create free GitHub, Supabase and Vercel accounts, and set a spending limit on your Anthropic API key.
-
-</details>
-
 - [ ] **Claude Code** installed ([Claude Code Masterclass](../part-7-building-with-ai/62-claude-code-masterclass.md)), Node.js 20+
 - [ ] Free accounts: **GitHub**, **Supabase**, **Vercel**
 - [ ] An **Anthropic API key** with a **spend limit**
 - [ ] 30 minutes to write the spec (next step) 📝
 
 ## 1️⃣ Step 1: Write the spec (20 min)
-
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-Create a project folder with a `SPEC.md` describing the app's users, pages, features and what's excluded from version 1. A clear spec leads to a much better first build.
-
-</details>
 
 Create a folder and a `SPEC.md`:
 
@@ -111,17 +90,6 @@ Warm and cozy: cream background, tomato-red accent, rounded cards, big friendly 
 
 ## 2️⃣ Step 2: Scaffold with Claude Code (30 min)
 
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-Scaffold the app with Claude Code.
-
-1. Open Claude Code in the project folder and switch to plan mode.
-2. Ask it to read SPEC.md and propose a step-by-step build plan.
-3. Approve the plan and have it build the first step, then confirm the app runs locally.
-
-</details>
-
 ```bash
 mkdir recipe-box && cd recipe-box && git init
 # put SPEC.md here, then:
@@ -140,17 +108,6 @@ Approve the plan, let it build step 1, then open the local URL it gives you. Run
 > ✅ **Checkpoint:** a cozy landing page runs at `http://localhost:3000`, and your first commit is saved.
 
 ## 3️⃣ Step 3: Supabase: auth and a secure table (30 min)
-
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-Set up Supabase, including the most important security step.
-
-1. Create a Supabase project and configure the authentication redirect URLs.
-2. Create the recipes table.
-3. Enable row-level security (RLS) with policies so each user can access only their own recipes.
-
-</details>
 
 1. Create a **Supabase project**. In **Authentication → URL Configuration**, add `http://localhost:3000` as a redirect URL.
 2. In the **SQL Editor**, run:
@@ -194,13 +151,6 @@ Set up Supabase, including the most important security step.
 
 ## 4️⃣ Step 4: Recipes CRUD (60 min)
 
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-Build the core recipe features, often called CRUD (create, read, update and delete): a recipe list with search, a form for new recipes, a recipe detail page, and edit and delete actions with confirmation.
-
-</details>
-
 > *"Step 3: build 'My recipes' (grid, search), 'New recipe', the recipe page, edit and delete with a confirmation. Use the
 > Supabase client with the signed-in user. Add loading and empty states that feel friendly. Test it in the browser with
 > Playwright and fix anything broken."*
@@ -211,17 +161,6 @@ recipes, even by visiting a recipe URL directly.
 > ✅ **Checkpoint:** create, read, update and delete all work, and user B can't see user A's recipes. Commit! 💾
 
 ## 5️⃣ Step 5: The ✨ Remix feature (60 min)
-
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-Build the Remix feature through a server-side route.
-
-1. Store the Claude API key in `.env.local` without a public prefix, so it never reaches the browser.
-2. Create a server route that sends the user's ingredients to Claude and returns a structured recipe.
-3. Add rate limiting, and display the result with an option to save it.
-
-</details>
 
 **The golden rule:** the Claude API key lives **only on the server**. Add it to `.env.local` **without** the `NEXT_PUBLIC_`
 prefix:
@@ -258,13 +197,6 @@ const response = await anthropic.messages.create({
 
 ## 6️⃣ Step 6: Make it beautiful (45 min)
 
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-Improve the design: have Claude Code screenshot each page at phone and desktop sizes, critique it like a product designer, and apply consistent colors, spacing and subtle animations.
-
-</details>
-
 - *"Act as a senior product designer: screenshot every page at phone and desktop sizes with Playwright, critique against
   SPEC.md's look & feel, and fix the top 5 issues."* ([Design & UI](../part-10-creative-ai/90-design-and-ui.md))
 - Add delight: an empty state with a friendly illustration, a little confetti when a remix is saved 🎉, and warm microcopy.
@@ -273,18 +205,6 @@ Improve the design: have Claude Code screenshot each page at phone and desktop s
 > ✅ **Checkpoint:** it looks lovely on your phone, and you'd happily show it to a friend.
 
 ## 7️⃣ Step 7: Deploy to Vercel (30 min)
-
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-Deploy to Vercel.
-
-1. Push the code to a private GitHub repository.
-2. Import the repository into Vercel.
-3. Add your environment variables in Vercel's settings.
-4. Deploy, then add the production URL to Supabase's redirect settings.
-
-</details>
 
 1. Create a **private GitHub repo** and push ([Git & GitHub](../part-7-building-with-ai/61-git-and-github.md)).
 2. **Vercel → Add New → Project → import the repo.**
@@ -295,13 +215,6 @@ Deploy to Vercel.
 > ✅ **Checkpoint:** you can sign in and remix on the **live** URL from your phone. 🎉 Send it to one friend!
 
 ## 🔐 Step 8: The pre-launch safety check
-
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-Before inviting users, ask Claude Code for a full security review: RLS on every table, no secret keys in client code, authentication checks on every server route and rate limits on AI calls.
-
-</details>
 
 Ask Claude Code: *"Do a security review: RLS on every table, no secret keys in client code, auth checks on every server route,
 rate limits on /api/remix, input validation. Fix anything serious and explain what you changed."* Then tick:
@@ -314,13 +227,6 @@ rate limits on /api/remix, input validation. Fix anything serious and explain wh
 
 ## 🚀 Level-ups
 
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-Once the app works, you can add features such as generating recipes from a fridge photo, sharing recipes, scanning handwritten recipe cards and meal planning. The table describes each idea.
-
-</details>
-
 | Level-up | Idea |
 |---|---|
 | 📸 **Fridge photo remix** | Upload a photo → vision model lists ingredients → remix |
@@ -331,13 +237,6 @@ Once the app works, you can add features such as generating recipes from a fridg
 | 📊 **Stats** | "Your most-cooked ingredient this month" |
 
 ## 🩺 Troubleshooting
-
-<details class="keypoints" open>
-<summary>✅ Key Points & Steps</summary>
-
-The table lists common problems, such as login links redirecting to the wrong site or recipes not saving, with a fix for each.
-
-</details>
 
 | Problem | Fix |
 |---|---|
